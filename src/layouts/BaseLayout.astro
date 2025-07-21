@@ -1,5 +1,17 @@
 ---
-import './src/styles/global.css';
+import '../../src/styles/global.css';
+import React from "react";
+import '@fontsource/nanum-myeongjo/400.css';
+import '@fontsource/nanum-myeongjo/700.css';
+import '@fontsource/nanum-myeongjo/800.css';
+import '@fontsource-variable/roboto/wdth.css';
+import '@fontsource-variable/quicksand';
+
+
+
+import '@fontsource-variable/roboto/wdth-italic.css';
+
+
 ---
 <html lang="en">
 <head>
@@ -7,9 +19,62 @@ import './src/styles/global.css';
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>Gershwind-Bennett Isaac Leeser Digital Repository</title>
+
 </head>
-<body>
-<slot></slot>
+<body class="bg-background text-foreground font-sans">
+<header class="sticky top-0 z-30 border-b border-border bg-card/80 backdrop-blur-lg shadow-sm">
+    <div class="mx-auto max-w-5xl px-4 py-8 flex flex-col gap-2">
+        <h1 class="text-4xl font-bold text-accent mb-2 tracking-tight">
+            Gershwind-Bennett Isaac Leeser Digital Repository
+        </h1>
+        <div class="flex items-center">
+            <span class="inline-flex items-center gap-2 rounded-full bg-muted/30 px-3 py-1 text-sm text-muted-foreground">
+                <span class="text-accent font-light underline italic text-md">A Jesselson-Kaplan Atlantic Genizah Project</span>
+            </span>
+        </div>
+    </div>
+</header>
+
+<main class="min-h-[60vh]">
+    <slot />
+</main>
+
+<footer class="border-t border-border bg-card/70 mt-12 py-12 shadow-inner">
+    <div class="mx-auto max-w-7xl px-4 grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="flex flex-col items-start gap-4">
+            <a href="https://judaicadhpenn.org/" class="mb-2">
+                <img
+                        src="https://www.kaplancollection.org/_astro/Judaica%20Digital%20Humanities%20Logo%202020_RGB.BzHwUiEX.png"
+                        alt="Judaica Digital Humanities"
+                        class="h-16 w-auto object-contain"
+                        loading="lazy"
+                />
+            </a>
+
+        </div>
+        <div>
+            <h4 class="text-base font-semibold text-accent ">Gershwind-Bennett Isaac Leeser Digital Repository</h4>
+            <p class="text-sm text-muted font-extralight max-w-xs leading-relaxed mb-4">
+                Digitizing and preserving the correspondence and writings of Rev. Isaac Leeser.
+            </p>
+            <ul class="space-y-3">
+                <li><a href="#" class="transition text-muted-foreground hover:underline hover:text-accent">Browse Collection</a></li>
+                <li><a href="#" class="transition text-muted-foreground hover:underline hover:text-accent">Advanced Search</a></li>
+                <li><a href="#" class="transition text-muted-foreground hover:underline hover:text-accent">About</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="text-base font-semibold text-accent mb-4">Jesselson-Kaplan Atlantic Genizah Project</h4>
+            <ul class="space-y-3">
+                <li><a href="#" class="transition text-muted-foreground hover:underline hover:text-accent">Resources</a></li>
+                <li><a href="#" class="transition text-muted-foreground hover:underline hover:text-accent">About the Genizah Project</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mt-10 pt-8 border-t border-border text-center text-xs text-muted-foreground">
+       A Jesselson-Kaplan American Genizah Project in association with Judaica Digital Humanities at Penn Libraries.
+    </div>
+</footer>
 </body>
 </html>
