@@ -186,7 +186,7 @@ const pageGraph = [itemNode];
                     <div class="space-y-6 md:col-span-2">
                         <section>
                             <h3 class="text-md font-serif text-gray-900 dark:text-gray-100 mb-2">Description</h3>
-                            <p class="font-sans text-gray-700 dark:text-gray-300 leading-relaxed">
+                            <p class="font-sans text-ink dark:text-gray-300 leading-relaxed">
                                 {itemData.description}
                             </p>
                         </section>
@@ -208,14 +208,14 @@ const pageGraph = [itemNode];
 
                         <section>
                             <h3 class="text-md font-serif text-gray-900 dark:text-gray-100 mb-2">Other Details</h3>
-                            <p class="font-serif text-sm dark:text-gray-100">
+                            <p class="font-serif text-sm dark:text-gray-100 text-ink">
                                 <span class="text-sm font-sans text-gray-500 dark:text-gray-400">Type:</span> {itemData.type}
                             </p>
-                            <p class="font-serif text-sm dark:text-gray-100">
+                            <p class="font-serif text-sm dark:text-gray-100 text-ink">
                                 <span class="text-sm font-sans text-gray-500 dark:text-gray-400">Identifier:</span> {itemData.id}
                             </p>
                             {itemData.collection && (
-                                    <p class="font-serif text-sm dark:text-gray-100">
+                                    <p class="font-serif text-sm dark:text-gray-100 text-ink">
                                         <span class="text-sm font-sans text-gray-500 dark:text-gray-400">Collection:</span> {itemData.collection}
                                     </p>
                             )}
@@ -292,8 +292,8 @@ const pageGraph = [itemNode];
 
                                 <section>
                                     <h3 class="text-md font-serif text-gray-900 dark:text-gray-100 mb-2">Dates</h3>
-                                    <p class="dark:text-gray-100 text-sm"><span class="text-sm font-sans text-gray-500 dark:text-gray-400">Gregorian:</span> {itemData.date || "Unknown"}</p>
-                                    <p class="dark:text-gray-100 text-sm"><span class="text-sm font-sans text-gray-500 dark:text-gray-400">Hebrew:</span> {itemData.hebrewdate || "Unknown"}</p>
+                                    <p class="dark:text-gray-100  text-ink text-sm"><span class="text-sm font-sans text-gray-500 dark:text-gray-400">Gregorian:</span> {itemData.date || "Unknown"}</p>
+                                    <p class="dark:text-gray-100 text-ink text-sm"><span class="text-sm font-sans text-gray-500 dark:text-gray-400">Hebrew:</span> {itemData.hebrewdate || "Unknown"}</p>
                                 </section>
 
                             {(itemData.fromLocation || itemData.toLocation) && (
@@ -341,7 +341,7 @@ const pageGraph = [itemNode];
                                 <div class="flex flex-wrap gap-2">
                                     {languages.length > 0 ? (
                                         languages.map((lang) => (
-                                                <span class="text-sm text-gray-700 dark:text-gray-300">{lang}</span>
+                                                <span class="text-sm text-ink dark:text-gray-300">{lang}</span>
                                         ))
                                     ) : (
                                             <span class="text-gray-500 dark:text-gray-400">Unknown</span>
