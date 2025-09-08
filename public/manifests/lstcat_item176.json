@@ -1,0 +1,206 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Jacobs, Michael; Leeser, Isaac; Danville, PA; 1 March 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3125qw45"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Jacobs, Michael; Leeser, Isaac; Danville, PA; 1 March 1857"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-03-01"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["German"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Danville",
+        "United States -- Pennsylvania",
+        "United States -- Pennsylvania -- Philadelphia"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item176"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/e728c8ea-05c8-4ecf-b6b6-55381534426d%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/e728c8ea-05c8-4ecf-b6b6-55381534426d%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6292,
+          "width": 5090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e728c8ea-05c8-4ecf-b6b6-55381534426d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5090,
+                "height": 6292,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e728c8ea-05c8-4ecf-b6b6-55381534426d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/assets/e728c8ea-05c8-4ecf-b6b6-55381534426d/original",
+              "label": "Original File - 96.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Danville Pa</placeName>\n                <date>March 1857</date>\n            </p>\n            <p>Sehr ge<add>?</add> Herr Red<add>?</add>!</p>\n            <p>Haben Sie die gute <add>?</add>gendes in Ihrem blatte<lb/> abzudrücken, und\n                    <add>?</add>sten Sie <sic>mus</sic> mit <add>?</add> kosten:</p>\n            <p rend=\"indent(1)\">Die F<add>?</add> dieses Ortes hatten letzte Woche<lb/> mir sehr\n                glückliche Zeit. Herman Loge N<add>?</add> 32<lb/> das M. O. B. B. wurde von\n                folgenden Beamten<lb/> der W. D. G L von <placeName><hi rend=\"underline\"\n                    >Pa</hi></placeName>\n                <add>?</add>: Br <persName>Lewis Ellinger</persName><lb/> als G N. A, Br\n                    <persName>Abr Hess</persName> als G A., Br<persName> B. Waag</persName>, G.\n                S.<lb/> Br <persName>B. Potsdamer</persName> G C, Br <persName>Ph\n                    Goodmann</persName> G. L.<lb/> Ein <add>?</add> das Abendessen beschloß die\n                Feierlichkeit.<lb/> Toasts und gestreiche Reden wurden gegeben<lb/> von den\n                    Ab<add>?</add> der E D. G. L; auch <add>?</add><lb/> Br <persName>Rev Eml.\n                    Oppenheim</persName> in seiner A<add>?</add>\n                <add>?</add> die B<add>?</add><lb/> der W D. G. L., so wie <add>?</add> die\n                Mitglieder das Ordens,<lb/> drückte sich so <add>?</add> aus, d<add>?</add>ß wir\n                stolz sind<lb/> derselben in unserer Mitte zu geben. Folgende<lb/> beschlusse wurden\n                gefaßt bei der ersten Versammlung<lb/> der Herman Loge N<add>?</add> 32, N O B. B.\n                und ein„<lb/>stimmig <add>?</add>:</p>\n            <p rend=\"indent(1)\">Beschlossen, daß der B'nai Brith in seinen<lb/> grundsätzen, Frieden\n                und Bruderliebe, als der<lb/> grundstan<add>?</add> zum gedeihen das Judenthums<lb/>\n                betrachtes werden kann.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6292,
+          "width": 5090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ed43c102-9049-4746-afdb-1ac663a5a958%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5090,
+                "height": 6292,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ed43c102-9049-4746-afdb-1ac663a5a958%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/assets/ed43c102-9049-4746-afdb-1ac663a5a958/original",
+              "label": "Original File - 96.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Beschlossen, daß wir aus stolz fühlen gegenwärtig<lb/> in Verbindung getreten zu sein\n                mit dem<lb/> Orden der B'nai Brith.</p>\n            <p>Beschlossen, daß wir hindurch das W. D. G. L der B. B<lb/> von\n                    <placeName>Pa</placeName>\n                <sic>mus</sic> von <add>?</add>gste Danksagung darbringen<lb/> für die gütig\n                    <sic>Ertheilung</sic> eines Freibriefes.</p>\n            <p>Beschlossen, daß wir in den Abgeordneten der W. D. G L.<lb/>\n                <add>?</add> sehe geliebten und ge<add>?</add>chtaben brüder<lb/>\n                <persName>L. Ellinger</persName>, <persName>Ab. Hess</persName>, <persName>B\n                    Potsdamer</persName>, <persName>B. Waag</persName> and <persName>Ph\n                    Goodmann</persName><lb/> welche unsere Lage wir wuchten aus\n                gezei<add>?</add>,<lb/> Ant<add>?</add>, wahre Brüder und gesellschaftliche<lb/>\n                Freunde gefunden haben, lange wird Ihr Bleiben in <add>?</add><lb/> Mitte uns eine\n                angenehme Erinnerung sein.</p>\n            <p>Beschlossen, daß wir hierdurch unsere herzlichste danksagung<lb/>\n                <add>?</add>\n                <add>?</add> Abgeordneter der Groß Lage darbringen.</p>\n            <p>Beschlossen, daß eine Abschrift von dieser Beschlüssen gesandt<lb/> werde an\n                    <add>?</add> Brüder, so wir an<lb/> W. D. G. L. und an die Herausgeber das<lb/>\n                Israelite and Occident.</p>\n            <p rend=\"indent(1)\"><placeName>Danville</placeName>, <date>8ten March 1857</date></p>\n            <p rend=\"indent(2)\">Herman Loge Nro 32</p>\n            <p rend=\"indent(3)\">\n                <persName role=\"author\">Michael Jacobs</persName>\n            </p>\n            <p rend=\"indent(4)\">Sec.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3125qw45/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

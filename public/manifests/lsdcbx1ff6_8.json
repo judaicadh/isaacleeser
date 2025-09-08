@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Lindo, Fred.; Leeser, Isaac, Rev.; Baltimore, MD; 25 January 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3kp7v766"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Lindo, Fred.; Leeser, Isaac, Rev.; Baltimore, MD; 25 January 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Lindo, Fred.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-01-25"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Maryland -- Baltimore",
+        "United States -- Maryland",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_8"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/d48ee803-db8d-4ee2-9d54-cef44e037485%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/d48ee803-db8d-4ee2-9d54-cef44e037485%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5746,
+          "width": 4812,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d48ee803-db8d-4ee2-9d54-cef44e037485%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4812,
+                "height": 5746,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d48ee803-db8d-4ee2-9d54-cef44e037485%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/assets/d48ee803-db8d-4ee2-9d54-cef44e037485/original",
+              "label": "Original File - 83.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Baltimore</placeName>\n                                        <date>25 January 1849</date>\n                              </p>\n                              <p>Dear Sir</p>\n                              <p rend=\"indent(1)\">On leaving <placeName>Cincinnati</placeName> for\n                                        this place my father requested<lb/> me on my arrival here to\n                                        address you a few lines for the purpose of\n                                                  <sic>enquiring</sic><lb/> of you whether the\n                                        article he forwarded you on the “Union of the\n                                        Congregations<lb/> of the Jews in these States” will find a\n                                        place in the Occident for <date>February</date><lb/> and if\n                                        not in that number, whether it will appear in the\n                                                  <date>March</date> one. I shall<lb/> feel thankful\n                                        if you would drop a line in reply to this directed to me at the<lb/>\n                                        <placeName>Baltimore</placeName> Post Office. In about a\n                                        week from this I shall be in your<lb/> city when I shall\n                                        have the pleasure of handing you a letter of\n                                        introduction<lb/> from my father</p>\n                              <p rend=\"indent(9)\">I have the honor dear Sir</p>\n                              <p rend=\"indent(9)\">to subscribe myself yours respectfully</p>\n                              <p rend=\"indent(10)\">\n                                        <persName role=\"author\">Fred. Lindo</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4670,
+          "width": 5746,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fc20e273-7528-44ff-b922-dc84b8dfe834%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5746,
+                "height": 4670,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fc20e273-7528-44ff-b922-dc84b8dfe834%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/assets/fc20e273-7528-44ff-b922-dc84b8dfe834/original",
+              "label": "Original File - 80.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>371 Walnut Street</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_6_11.pdf\">The above\n                                                  text refers to Occident Volume 6 No. 11 pages 565\n                                                  through 574. Click here to view.</ref>\n                                        </p>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_6_12.pdf\">The above\n                                                  text also refers to Occident Volume 6 No. 12 pages\n                                                  604 through 612. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3kp7v766/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

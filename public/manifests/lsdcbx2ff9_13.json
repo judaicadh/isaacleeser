@@ -1,0 +1,311 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; San Francisco, CA; 29 May 1862",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "paged",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p35q4s610"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; San Francisco, CA; 29 May 1862"]
+    },
+    {
+      "label": "Date",
+      "value": ["1862-05-29"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- San Francisco",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF9_13"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/f978d1bb-4f66-4dcd-bc80-b283084952b4%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/f978d1bb-4f66-4dcd-bc80-b283084952b4%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4932,
+          "width": 3970,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f978d1bb-4f66-4dcd-bc80-b283084952b4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3970,
+                "height": 4932,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f978d1bb-4f66-4dcd-bc80-b283084952b4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/assets/f978d1bb-4f66-4dcd-bc80-b283084952b4/original",
+              "label": "Original File - 58.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>California <hi rend=\"underline\">San Fran</hi></placeName>\n                <date>May 29 1862</date>\n            </p>\n            <p>Reply to “Wrong doings in <placeName>California</placeName></p>\n            <p rend=\"indent(1)\">Editor of the Occident</p>\n            <p rend=\"indent(2)\">Revd. Sir,</p>\n            <p rend=\"indent(3)\">My attention has<lb/> been drawn to the above article in the<lb/>\n                gleaner of the <date>23d</date> Inst. copied from<lb/> the Occident of <date>April\n                    62</date>—in which it<lb/> states “Two <persName>C<hi rend=\"underline\"\n                        >ohamin</hi></persName> applied to<lb/> congregation “Sherith Israel” to be\n                mar-<lb/>-ried by <persName>Dr. Henry</persName> to widows, and<lb/> he refused.”\n                    <persName>Theophilis</persName> (upon whom<lb/> I suspect I could lay my\n                finger)<lb/> does <hi rend=\"underline\">not</hi> tell the Truth. <hi rend=\"underline\"\n                    >I</hi> am the<lb/> wife of one of the “<persName>Cohanim</persName>”\n                alluded<lb/> to, and beg to state the facts to<lb/> you.</p>\n            <p rend=\"indent(1)\">I arrived in <placeName>California</placeName> in <date>1850</date>,\n                and<lb/> in the spring of <date>1852</date> left with my<lb/> first husband on a\n                trading voyage<lb/> to the <placeName>South Pacific Islands</placeName>, and</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4932,
+          "width": 3970,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1e9c4caa-2467-453d-910d-14e50a73f258%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3970,
+                "height": 4932,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1e9c4caa-2467-453d-910d-14e50a73f258%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/assets/1e9c4caa-2467-453d-910d-14e50a73f258/original",
+              "label": "Original File - 58.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">2</p>\n            <p>unfortunately lost him at one of the<lb/> Tonga<add>?</add> group in <date>September\n                    1852</date>l, I returned<lb/> to this city <date>Dec. 27<hi rend=\"sup\"\n                    >th</hi></date> of the same year<lb/> dreadfully distressed in mind—in<lb/> fact\n                inconsolable. My Father (god rest<lb/> his dear soul) was here till <date>July\n                    1854</date><lb/> during that period he made the ac-<lb/>-quaintance of\n                    <persName>Mr. P.</persName> and wished me<lb/> very much to marry him. I\n                told<lb/> him no—but so anxious was<lb/> he, that, previous to his departure for<lb/>\n                <placeName>New York</placeName> he left word with a friend<lb/> to occasionally urge\n                the matter to me.</p>\n            <p rend=\"indent(1)\">In <date>1858</date> I was engaged to<lb/>\n                <persName>Mr. P.</persName> but called his attention to Chap. 21<lb/> V. 14 of\n                Leviticus: he said he would con-<lb/>-sult a <hi rend=\"underline\">Lamdan</hi>, which\n                he did, and<lb/> this gentleman said, <hi rend=\"underline\">that</hi> passage<lb/>\n                referred to the <hi rend=\"underline\">High Priest</hi>! I was<lb/> satisfied and our\n                engagement<lb/> went on, to the knowledge more or<lb/> less of nearly all the Jews\n                in the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4932,
+          "width": 3970,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/15ad1f9a-5d47-400a-ab2f-26e2fc64f82b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3970,
+                "height": 4932,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/15ad1f9a-5d47-400a-ab2f-26e2fc64f82b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/assets/15ad1f9a-5d47-400a-ab2f-26e2fc64f82b/original",
+              "label": "Original File - 58.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">3</p>\n            <p>city, for <persName>Mr. P.</persName> and myself regularly attended<lb/> synagogue\n                during that period we<lb/> visited at <persName>Dr. Henry's</persName> certainly <hi\n                    rend=\"underline\">once</hi> a<lb/> week (many times more frequently) and he, and\n                the<lb/> late <persName>Mrs. Henry</persName> used repeatedly ask what<lb/> we\n                visited for? On the <date>15<hi rend=\"sup\">th</hi> of Feb.<lb/> 1859</date>\n                <persName>Mr. P.</persName> applied to the Board of the<lb/> Congregation “Sherith\n                Israel” for permission<lb/> to marry—which was granted and,<lb/>\n                <hi rend=\"underline\"><persName>Dr. Henry</persName> had written and fitted out</hi><lb/>\n                <hi rend=\"underline\">our Casubba</hi> a thing he subsequently<lb/> told us he very\n                seldom did before the<lb/> day it was wanted. So much for <persName>Dr<lb/>\n                    Henry's</persName> refusal!</p>\n            <p rend=\"indent(1)\">On the <date>24<hi rend=\"sup\">th</hi> of Feb.</date> the day\n                previous<lb/> to the one appointed for our marriage<lb/>\n                <persName>Dr. Henry</persName> called at ½ 7 A. M. and after<lb/> some slight\n                circumlocution asked me<lb/> if my former Husband had Brothers?<lb/>\n                <sic>at</sic> first I could not recollect, I felt<lb/> confused and without knowing\n                why<lb/> felt certain <persName>Dr. H</persName> had not come on<lb/> a friendly\n                errand. I said I believed<lb/> there were two but I was not sure</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4932,
+          "width": 3970,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fac7801a-34d9-4f18-b778-58d510002a67%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3970,
+                "height": 4932,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fac7801a-34d9-4f18-b778-58d510002a67%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/assets/fac7801a-34d9-4f18-b778-58d510002a67/original",
+              "label": "Original File - 58.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">4</p>\n            <p>if there were more or not, he asked me<lb/> if I had had “Halitza”? I replied\n                “Doctor<lb/> you know that is not done any more at<lb/> home” I cannot help it “he\n                said” a<lb/> man named <persName>Ephraim</persName> says he was at school<lb/> with\n                a Brother of your husband's 17 years<lb/> ago, a Trustee meeting has been\n                held—the<lb/> Trustees leave it to me, and I cannot<lb/> marry you.</p>\n            <p rend=\"indent(1)\">You may imagine my feelings<lb/> Revd. Sir, I had been in\n                    <placeName>California</placeName><lb/> nearly 10 years, had been a widow 7,<lb/>\n                had shown a good example and<lb/> felt dreadfully aggrieved to be so served<lb/> at\n                the last moment. <persName>Mr. P.</persName> said “never<lb/> mind we will go to a\n                Magistrate”<lb/> I replied no—I am very angry<lb/> now, in an hour I shall be more\n                com-<lb/>-posed, I will go round to <persName>Dr. Henry</persName><lb/> and ask him\n                these questions, if he<lb/> answers me satisfactorily we will marry—<lb/>if not, we\n                part. I will never see you<lb/> again—if you please you may</p>\n            <div>\n                <p>\n                    <ref target=\"Occident_PDFs/Occ_20_1.pdf\">The above text refers to Occident\n                        Volume 20 No. 1 pages 15 through 19. Click here to view.</ref>\n                </p>\n            </div>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s610/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,801 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/manifest",
+  "@type": "sc:Manifest",
+  "label": "Pamphlet; Philadelphia, PA; 19 February 1868",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30k26x82"]
+    },
+    {
+      "label": "Title",
+      "value": ["Pamphlet; Philadelphia, PA; 19 February 1868"]
+    },
+    {
+      "label": "Date",
+      "value": ["1868-02-19", "5628"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["pamphlets"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Pamphlet"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "16 pages on 18 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item230"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/246007cc-8266-458e-850b-79944a85e482%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/246007cc-8266-458e-850b-79944a85e482%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "Front",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/246007cc-8266-458e-850b-79944a85e482%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/246007cc-8266-458e-850b-79944a85e482%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/246007cc-8266-458e-850b-79944a85e482/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "i",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d298b73-f7b7-48fe-b48a-14fcc1042e54%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d298b73-f7b7-48fe-b48a-14fcc1042e54%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/8d298b73-f7b7-48fe-b48a-14fcc1042e54/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "ii",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ed0cf16e-e1a1-4904-9b91-ec589727d0ea%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ed0cf16e-e1a1-4904-9b91-ec589727d0ea%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/ed0cf16e-e1a1-4904-9b91-ec589727d0ea/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b1fee5f2-25f3-4102-9dac-16524d5776f3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b1fee5f2-25f3-4102-9dac-16524d5776f3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/b1fee5f2-25f3-4102-9dac-16524d5776f3/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">PANEGYRIC</p>\n            <p rend=\"align(center)\">ON THE</p>\n            <p rend=\"align(center)\">LIFE, CHARACTER AND SERVICES</p>\n            <p rend=\"align(center)\">OF THE</p>\n            <p rend=\"align(center)\"><persName>Rev. Isaac Leeser</persName>,</p>\n            <p rend=\"align(center)\">PRONOUNCED BY</p>\n            <p rend=\"align(center)\"><persName role=\"author\">MOSES A. DROPSIE</persName>,</p>\n            <p rend=\"align(center)\">BEFORE THE</p>\n            <p rend=\"align(center)\">HEBREW EDUCATION SOCIETY OF\n                <placeName>PHILADELPHIA</placeName>,</p>\n            <p rend=\"align(center)\">\n                <hi rend=\"italics\">On <date>February 19, 1868, (5628.)</date></hi>\n            </p>\n            <p rend=\"align(center)\"><placeName>PHILADELPHIA</placeName>:</p>\n            <p rend=\"align(center)\"><persName>JONES &amp; CO.</persName>, PRINTERS, <placeName>104\n                    HUDSON STREET</placeName>.</p>\n            <p rend=\"align(center)\"><date>1868</date>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e028bad2-8200-47c5-9507-ea864f83e76c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e028bad2-8200-47c5-9507-ea864f83e76c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/e028bad2-8200-47c5-9507-ea864f83e76c/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1bac2061-65ea-4da2-aaba-d11165e61bb7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1bac2061-65ea-4da2-aaba-d11165e61bb7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/1bac2061-65ea-4da2-aaba-d11165e61bb7/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">PANEGYRIC</p>\n            <p rend=\"align(center)\">ON THE</p>\n            <p rend=\"align(center)\">LIFE AND CHARACTER OF <persName>REV. ISAAC\n                LEESER</persName>.</p>\n            <p rend=\"indent(1)\">IF the life of a good man were the only source of benefit to\n                man-<lb/>kind—if the sphere of his usefulness was limited only to his\n                contem-<lb/>poraries or to the age in which he lived, or if perishable, like\n                the<lb/> transitory things of life, his death would be an irreparable loss, and<lb/>\n                our grief would be inconsolable. But fortunately, the good man lives<lb/> forever.\n                The muse of history, in gathering the fragments which she<lb/> records, blots out\n                the interval of time, and makes the past and the<lb/> present but one. The great and\n                the good of the many centuries<lb/> that have rolled on in their course, live now\n                fresh in our recollections.<lb/> We share their hopes and fears, we rejoice in their\n                gladness, and<lb/> grieve in their sorrow, and the wisdom that fell from their lips\n                has<lb/> all its original freshness and vigor. It would be deplorable, indeed,<lb/>\n                if man's usefulness were circumscribed by the short span of life; for it<lb/> is not\n                till the tongues of those envious of his fame have been silenced,<lb/> the passions\n                of his antagonists have been stilled, and the ambition of<lb/> his rivals has been\n                gratified or lost its zest by his death, that the<lb/> clouds that obscured his name\n                are dispelled, and his worth and his<lb/> merits shine out in all their brilliancy.\n                For we do not properly<lb/> appreciate him whom we meet in the daily walks of life,\n                “famili-<lb/>arity breeds contempt,” we see the petty faults and foibles\n                com-<lb/>mon to humanity, specks on the character that our weakness oft<lb/>\n                magnifies to colossal proportions, but when the career of a good</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/621b160b-c365-402a-b586-b9d1b848f817%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/621b160b-c365-402a-b586-b9d1b848f817%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/621b160b-c365-402a-b586-b9d1b848f817/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">4</p>\n            <p>man has been impressed with the seal of death, the recollections of<lb/> his virtues\n                throng the memory, and we discover, oft too late, our<lb/> great loss.</p>\n            <p rend=\"indent(1)\">My friends, we have met to pay a tribute to the memory of\n                    <persName>Isaac<lb/> Leeser</persName>. But a few brief hours have passed since\n                his death, and our<lb/> people, by their manifestations of grief, show that they\n                have <sic>sup-<lb/>denly</sic> risen, as if from a stupor, to a consciousness of\n                their loss.<lb/> Death has been active in our ranks; within a brief period, he\n                has<lb/> cut down some of our brightest men; men whose career has con-<lb/>ferred\n                honor and renown on our race, but he has taken none brighter<lb/> or more devoted to\n                Judaism than he.</p>\n            <p rend=\"indent(1)\"><persName>Mr. Leeser</persName> was born in the village of\n                    <placeName>Neuenkirchen</placeName>, in the pro-<lb/>vince of\n                    <placeName>Westphalia</placeName>, on <date>December 12, 1806</date>. At the\n                early age of<lb/> eight years he was bereft of his mother, when his grandmother\n                as-<lb/>sumed the care of him. At the age of fourteen he lost his father.<lb/>\n                <persName>Mr. Leeser</persName> recently, in speaking of his grandmother, said:\n                “We<lb/> honor her memory and she deserves it, as she watched over us from<lb/> our\n                eighth year, when our own mother was early called, till our four-<lb/>teenth, when\n                both she and her son, our father, were borne to the<lb/> grave in the course of\n                three weeks, and left us thus orphaned in a<lb/> double degree, in the wide world.\n                Her instructions and admonitions<lb/> have never left us, and we trust that we shall\n                be preserved faithful<lb/> to the end.” After some preliminary education in a\n                preparatory<lb/> school, he entered the gymnasium of <placeName>Münster</placeName>,\n                where he remained<lb/> until the year <date>1824</date>. We have often heard\n                    <persName>Mr. Leeser</persName>, in speaking<lb/> of his early education,\n                express his praise for the Catholic priests who<lb/> instructed him. In\n                    <date>February, 1824</date>, he came to the <placeName>United States</placeName>\n                at<lb/> the instance of his uncle, <persName>Zalma Rehiné</persName>, who resided in\n                    <placeName>Richmond,<lb/> Va.</placeName> His uncle being engaged in the\n                mercantile business, employed<lb/> young <persName>Leeser</persName> in his store,\n                when it soon became apparent that he<lb/> was not adapted to such a pursuit; though\n                frequently in after life,<lb/> he expressed a different opinion. In <date>July,\n                    1828</date>, there appeared<lb/> an article in the <hi rend=\"italics\"\n                        ><placeName>London</placeName> Quarterly Review</hi>, attacking Judaism.<lb/>\n                <persName>Mr. Leeser</persName> being then a young man, a foreigner, and a\n                resident<lb/> of this country but four years, single-handed and alone entered</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ab828b25-e85a-4773-be87-cf93cff8cff2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ab828b25-e85a-4773-be87-cf93cff8cff2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/ab828b25-e85a-4773-be87-cf93cff8cff2/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">5</p>\n            <p>the lists with his unknown and powerful adversary, and defended<lb/> our cause with\n                such ability as to attract great attention. This de-<lb/>fence introduced\n                    <persName>Mr. Leeser</persName> to the notice of the congregation<lb/> Mikveh\n                Israel, of this city. The readership having become vacant<lb/> by the death of\n                    <persName>Mr. Keys</persName>, <persName>Mr. Leeser</persName> was chosen, in\n                the year <date>1829</date>,<lb/> to fill that position, which he retained till the\n                year <date>1850</date>. Some time<lb/> subsequently, the new congregation Beth El\n                Emeth was formed, ex-<lb/>pressly for him, by a number of his friends. He was chosen\n                the<lb/> minister of it. The congregation's pecuniary resources being very<lb/>\n                limited, the compensation for his services was trifling indeed; but<lb/> as\n                usefulness was his object, not money, he accepted this position,<lb/> which he\n                retained till his death.</p>\n            <p rend=\"indent(1)\">In the year <date>1839</date>\n                <persName>Mr. Leeser</persName> again appeared before the public, in<lb/> a series\n                of articles addressed to the editor of the <hi rend=\"italics\"\n                        ><placeName>Philadelphia</placeName> Gazette</hi>,<lb/> in reply to\n                unfounded and illiberal strictures on our religion in the<lb/>\n                <hi rend=\"italics\"><placeName>London</placeName> Quarterly Review </hi>of\n                    <date>1839</date>.</p>\n            <p rend=\"indent(1)\"><persName>Mr. Leeser's</persName> literary labors, for their\n                variety, number, character,<lb/> and extent, are surprising; in this, few men of our\n                age have sur-<lb/>passed him. In the year <date>1830</date> he published a work\n                entitled “In-<lb/>structions in the Mosaic Religion,” translated from the German of<lb/>\n                <persName>Johlson</persName>, of <placeName>Frankfort on the Main</placeName>.</p>\n            <p rend=\"indent(1)\">In the year <date>1833</date> he published an original work entitled\n                “The<lb/> Jews and the Mosaic Law,” in the preface of which he stated that<lb/>\n                “This book, now for the first time published, was composed more<lb/> than four years\n                ago, whilst I was engaged in pursuits quite uncon-<lb/>genial to literature. Many a\n                time, after a day of active application<lb/> to business, have I spent the hours of\n                night in writing. Books for<lb/> reference I had but few, and the reader will\n                therefore excuse the<lb/> brevity with which many of the points are treated, which\n                no doubt<lb/> would have received more attention could I have had authorities\n                to<lb/> refer to.” In the years <date>1836</date> to <date>1838</date> he published\n                a collection of<lb/> sermons in two volumes.</p>\n            <p rend=\"indent(1)\">In the year <date>1837</date> he published the Portuguese Form of\n                Prayers<lb/> in Hebrew, with his English translation; and in the same year, he<lb/>\n                published a Hebrew spelling and reading book.</p>\n            <p rend=\"align(right)\">1*</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/44278a2f-069d-4064-a4ac-158131170b66%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/44278a2f-069d-4064-a4ac-158131170b66%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/44278a2f-069d-4064-a4ac-158131170b66/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">6</p>\n            <p rend=\"indent(1)\">The Hebrew Sunday School of this city having been formed, in a<lb/>\n                great measure through his exertions, there was no book for imparting<lb/>\n                instruction in our religion to the young children, which he deemed<lb/> adapted to\n                that purpose. To supply this want, he published his<lb/> Catechism in the year\n                    <date>1839</date>.</p>\n            <p rend=\"indent(1)\">In <date>1841</date> he published another volume of his sermons, to\n                which he<lb/> appended a series of his articles which had appeared in the <hi\n                    rend=\"italics\"><placeName>Phila-<lb/>delphia</placeName> Gazette.</hi></p>\n            <p rend=\"indent(1)\">In the year <date>1842</date> he edited <persName>Grace\n                    Aguilar's</persName> Spirit of Judaism.</p>\n            <p rend=\"indent(1)\">In the year <date>1845</date> he published the Pentateuch in Hebrew\n                with<lb/> his English translation, in five volumes. A short time subsequently,<lb/>\n                he published the Daily Prayers in Hebrew and English, for the use<lb/> of the German\n                Jews; and in the year <date>1853</date> he published, in quarto<lb/> form, his\n                translation of the Bible. Of this <persName>Mr. Leeser</persName> said, “That\n                it<lb/> is not a new notion by which he was seized of late years, which<lb/>\n                impelled him to the task, but a desire entertained for more than a<lb/> quarter of a\n                century, since the day he <sic>quitted</sic> school in his native<lb/> land to come\n                to this country, to present to his fellow-Israelites an<lb/> English version, made\n                by one of themselves, of the Holy word of<lb/> God.”</p>\n            <p rend=\"indent(1)\">If <persName>Mr. Leeser</persName> had done naught else, this work\n                alone would entitle<lb/> him to the gratitude of every English reader. Prior to this\n                edition, the<lb/> only English versions of the Bible were that of <persName>King\n                    James</persName> and the<lb/>\n                <placeName>Douay</placeName>, the imperfections of which were deplored by biblical scholars<lb/>\n                <persName>Mr. Leeser</persName> availed himself of the great ancient commentators,\n                    <persName>Rashi</persName>,<lb/>\n                <persName>Redak</persName>, <persName>Aben Ezra</persName>,\n                    <persName>Rashbam</persName> and others; and of the labors of\n                    <persName>Men-<lb/>delssohn</persName>, <persName>Wessely</persName>,\n                    <persName>Zunz</persName>, <persName>Herxheimer</persName>,\n                    <persName>Philippsohn</persName>, and of that host<lb/> of illustrious modern\n                commentators, who, devoting their erudition to<lb/> the proper interpretation of the\n                Holy Scriptures, have shed a flood<lb/> of light over them. To these <persName>Mr.\n                    Leeser</persName> added his own critical<lb/> knowledge, in which he at that\n                time, perhaps, had no superior in<lb/>\n                <placeName>America</placeName>.</p>\n            <p rend=\"indent(1)\">In the year <date>1857</date> he published this Bible in an 18mo\n                form.</p>\n            <p rend=\"indent(1)\">In the year <date>1864</date> he published <persName>Miss Grace\n                    Aguilar's</persName> religious<lb/> works and poems, and at the time of his\n                death, he was engaged in</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a83e5c67-a1ea-4c9a-9130-4e8148728e4c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a83e5c67-a1ea-4c9a-9130-4e8148728e4c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/a83e5c67-a1ea-4c9a-9130-4e8148728e4c/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p10/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">7</p>\n            <p>publishing his sermons in ten volumes, eight of which had appeared<lb/> previous to\n                his decease, and the remaining two of which will shortly<lb/> be published. In the\n                year <date>1843</date> he began the publication of the<lb/>\n                <hi rend=\"italics\">Occident</hi> magazine, which he continued till his death.</p>\n            <p rend=\"indent(1)\">In addition to these literary labors, <persName>Mr.\n                    Leeser</persName> translated and pub-<lb/>lished a number of other works, such\n                as <persName>Mendelssohn's</persName>\n                <placeName>Jerusalem</placeName>,<lb/> catechisms, and primary educational books,\n                and when it is remem-<lb/>bered that he faithfully attended to his labors as minster\n                of his con-<lb/>gregation; that in his literary, as well as all other labors, he\n                was<lb/> unaided by an amanuensis or other assistant; that he was his own<lb/>\n                proof-reader, that he had to teach printers to compose in Hebrew;<lb/> that\n                frequently he was compelled to set up Hebrew type, we can<lb/> have some conception\n                of the immensity of his labors and the inde-<lb/>fatigability of his industry.</p>\n            <p rend=\"indent(1)\">When <persName>Mr. Leeser</persName> arrived in the\n                    <placeName>United States</placeName>, the number of<lb/> Jews was small, and\n                they were scattered over our broad expanse of<lb/> territory. The little learning\n                they possessed was confined to a few<lb/> persons. Most of our people, having fled\n                from the oppression <sic>prac-<lb/>tised</sic> on our race by\n                    <placeName>Europe's</placeName> political tyrants or religious bigots,<lb/> came\n                here with but few of the world's goods, and in their struggles<lb/> against the\n                pinchings of poverty, could give but little time or at-<lb/>tention to their\n                religious culture, and many, who possessed both<lb/> knowledge and pecuniary\n                resources, were indifferent to their religious<lb/> duties.</p>\n            <p rend=\"indent(1)\">The means for instruction in the Hebrew were very limited and\n                in-<lb/>efficient. The knowledge of those who were born here did not greatly<lb/>\n                exceed the rudiments of the language in which our prayers were<lb/> printed, and\n                some elementary principles. <persName>Mr. Leeser</persName> soon saw the<lb/>\n                deplorable state of affairs, and his first efforts were directed to our<lb/>\n                improvement; and with his characteristic ardor, by his writings<lb/> and addresses,\n                he infused vitality into the inert Jewish body. His<lb/> earnestness, devotion and\n                purity attracted around him the true Jews,<lb/> who lamented their destitution;\n                though but a youth, they hailed<lb/> him as a leader; his agitations extended over\n                our entire land, and<lb/> were felt even in <placeName>Europe</placeName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p11",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4a9cf654-e173-4494-852e-1968161aa390%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4a9cf654-e173-4494-852e-1968161aa390%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p11"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/4a9cf654-e173-4494-852e-1968161aa390/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p11/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">8</p>\n            <p rend=\"indent(1)\">His labors accomplished a two-fold purpose. They not only\n                in-<lb/>structed us, but they contributed in an eminent degree to eradicate<lb/>\n                those prejudices respecting our people, which ignorance and bigotry<lb/> had\n                engendered. Immediately on accepting the ministerial office,<lb/> he commenced to\n                teach and exhort by public addresses. He may<lb/> be said to be the originator in\n                this country of the delivery of sermons<lb/> among our people. His fame soon became\n                extended; he received<lb/> numerous invitations for his services from various parts\n                of the Union,<lb/> which he always cheerfully accepted, and in many places his\n                ad-<lb/>dresses and sermons were the first delivered in English by a Jewish<lb/>\n                divine. In the accomplishment of his purpose to elevate Judaism,<lb/> his magazine,\n                the <hi rend=\"italics\">Occident</hi>, was an important aid; in its pages, as<lb/>\n                well as by his other literary labors, there was unfolded to the new<lb/> world, some\n                account of the names and writings of those illustrious<lb/> men, who by their\n                learning contributed to preserve and protect our<lb/> existence, religion, and name,\n                through that long period of suffering<lb/> and tribulation, which stained the\n                historic page with the bloody<lb/> record of man's inhumanity.</p>\n            <p rend=\"indent(1)\"><persName>Mr. Leeser's</persName> learning was not profound; that\n                is, he had not de-<lb/>voted himself to some especial subjects, and exhausted or\n                attained<lb/> the highest degree of knowledge by them, but he possessed a great<lb/>\n                fund and variety of learning. There were but few subjects on which<lb/> he had not\n                some information; his mind was perspicuous; he saw at<lb/> a glance, and from all\n                sources, absorbed knowledge which became<lb/> indelibly fixed in his wonderful\n                memory. He knew Hebrew, Chal-<lb/>dee, Greek, Latin, French, German and English. He\n                had a natural<lb/> adaptation for philology, and thoroughly understood the\n                philosophy<lb/> of the structure and grammar of languages; it was this\n                knowledge<lb/> which enabled him to translate with great fidelity, without\n                losing<lb/> the spirit of the original.</p>\n            <p rend=\"indent(1)\">His traits of character were strongly marked; his idiosyncrasy<lb/>\n                unmistakably distinguished him from his fellows; with an indomi-<lb/>table will, he\n                had but few negative qualities. His industry was<lb/>\n                <sic>marvellous</sic>. After transacting the multifarious duties of the day,<lb/> he\n                curtailed the hours allotted for rest, by his incessant toil.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p12",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/96af160b-9fe7-4d54-b7ba-9a4414b89d19%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/96af160b-9fe7-4d54-b7ba-9a4414b89d19%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p12"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/96af160b-9fe7-4d54-b7ba-9a4414b89d19/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p12/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">9</p>\n            <p rend=\"indent(1)\">His perseverance was untiring, his energy was inexhaustible,\n                his<lb/> determination was unfaltering. By the combination of these qualities<lb/>\n                he accomplished those great results which will render his name<lb/> immortal.</p>\n            <p rend=\"indent(1)\">The practices of his life strictly accorded with his professions;\n                of<lb/> the highest purity, he neither said nor did that which could produce<lb/> a\n                blush on the cheek of chastity.</p>\n            <p rend=\"indent(1)\">His charity was as broad and expansive as that of the religion<lb/>\n                which he taught; he was neither avaricious nor sordid; with many<lb/> opportunities\n                for the accumulation of pecuniary wealth, he rejected<lb/> them with disdain; he had\n                higher and holier aspirations, and at<lb/> his death left but few worldly goods.</p>\n            <p rend=\"indent(1)\">He regarded life as a period of obligations and duties;\n                impressed<lb/> by its stern realities, he rarely indulged in those amusements\n                or<lb/> enjoyments which lighten our burdens and invigorate mind and<lb/> body.</p>\n            <p rend=\"indent(1)\">But in this recital of the traits of this truly noble man, it\n                must<lb/> not be forgotten that justice requires “<hi rend=\"italics\">De mortuis nil\n                    nisi verum.</hi>”<lb/> He was human. In his ardor for the accomplishment of some\n                good<lb/> purpose (he had none other), he sometimes forgot that all were not<lb/>\n                gifted with his quick perceptions, and, in urging them on, was impa-<lb/>tient and\n                impetuous, and at times he would wound tender sensibili-<lb/>ties by his frank and\n                outspoken manner; for he had never learned<lb/> the art of disguising his thoughts.\n                If these be frailties, they are<lb/> too infinitesimal to dim his name.</p>\n            <p rend=\"indent(1)\"><persName>Mr. Leeser</persName> was connected with the various\n                Jewish charitable in-<lb/>stitutions of this city; in these he exhibited his\n                customary restless<lb/> activity; he strove to make them permanent, and not\n                dependent on<lb/> spasmodic efforts for their existence.</p>\n            <p rend=\"indent(1)\">He was the founder of the Hebrew Education Society of this<lb/>\n                city, the Society that I am now honored in addressing. For years<lb/> he endeavoured\n                to establish schools wherein Hebrew should form one<lb/> of the leading branches of\n                education. The result of those endeavours,<lb/> was the establishment of this\n                Society and its school, which was the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p13",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 6172,
+          "width": 3922,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b2c45ab3-e7f2-40cc-bc73-790fd6b8a45c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3922,
+                "height": 6172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b2c45ab3-e7f2-40cc-bc73-790fd6b8a45c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p13"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/b2c45ab3-e7f2-40cc-bc73-790fd6b8a45c/original",
+              "label": "Original File - 72.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p13/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/manifest/annotation/p10",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">10</p>\n            <p>precursor in this country of all schools of a similar character. Sub-<lb/>sequently,\n                he directed his efforts to its permanence, and at his in-<lb/>stance, the late\n                    <persName>Judah Touro</persName> endowed it with a liberal bequest. To<lb/> the\n                school he devoted much time and attention; it was his favorite<lb/> scheme. He\n                regarded it as a powerful instrument in the advance-<lb/>ment and elevation of\n                Judaism, but his ambition did not rest here.<lb/> In the draft of the Act for the\n                incorporation of this Society, he<lb/> inserted a provision authorizing a higher\n                institution of learning, and<lb/> Maimonides College sprang into being but a short\n                period previous<lb/> to his death, an appropriate closing act of his life.</p>\n            <p rend=\"indent(1)\">In recognition of his services, he was chosen the Provost, and\n                in<lb/> the distribution of the duties among the faculty, he had no ambition<lb/>\n                beyond that of serving in a capacity in which he could be most<lb/> useful. He\n                entered on his duties, but death had already marked<lb/> him for his victim. The\n                sands of life had nigh run out, and ere he<lb/> could witness the fruition of his\n                hopes, death closed his earthly<lb/> career.</p>\n            <p rend=\"indent(1)\"><persName>Mr. Leeser</persName> dedicated his life to Judaism, of\n                which he was the<lb/> embodiment and type; it was the subject of his reveries by\n                day,<lb/> and the theme of his dreams by night. He sympathized with its<lb/> sorrows\n                and rejoiced in its gladness. Not having the cares of a<lb/> wife or family, he\n                watched over it with the fond solicitude of a hus-<lb/>band and parent. He was a\n                vigilant sentinel; when descrying danger<lb/> threatening it, he became its valiant\n                champion, and, clad with the<lb/> panoply of truth, defended it with his power and\n                strength. No<lb/> soldier rushing against the blazing cannon's mouth, in his country's<lb/>\n                <sic>defence</sic>, or martyr writhing under the tortures of the Auto-da-fé for<lb/>\n                conscience' sake, exhibited greater devotion than he. It was the<lb/> object of his\n                creation, the purpose of his life.</p>\n            <p rend=\"indent(1)\">Within a brief period, <placeName>Israel</placeName> has mourned for\n                the loss of illus-<lb/>trious children, but none greater than he. What a void\n                his<lb/> death creates! Upon whom shall his mantle fall? Let not our<lb/> grief be\n                heartless lip-service. Let our actions attest our truthful-<lb/>ness and\n                earnestness. Let us build up as an imperishable monu-</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p14",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8af21644-e42c-4c44-b928-593cad794499%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8af21644-e42c-4c44-b928-593cad794499%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p14"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/8af21644-e42c-4c44-b928-593cad794499/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p14/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/manifest/annotation/p11",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">11</p>\n            <p>ment to his fame, an edifice on the deep and broad foundations which<lb/> he planted.\n                    <persName>Isaac Leeser</persName> is dead, but the memory of his public<lb/>\n                services and private worth, will live through the ravages of time,<lb/> and his name\n                will be enrolled among those who have conferred<lb/> honor and renown on our race,\n                and who recognized no earthly dis-<lb/>tinction equal to that conferred on us by the\n                great Creator.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p15",
+          "@type": "sc:Canvas",
+          "label": "12",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/96254ef0-1e23-4f6e-bc83-2d6df29cba4b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/96254ef0-1e23-4f6e-bc83-2d6df29cba4b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p15"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/96254ef0-1e23-4f6e-bc83-2d6df29cba4b/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p16",
+          "@type": "sc:Canvas",
+          "label": "Back",
+          "height": 5332,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3222d231-9fc5-4c96-bf71-2b8357800105%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 5332,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3222d231-9fc5-4c96-bf71-2b8357800105%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/canvas/p16"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x82/assets/3222d231-9fc5-4c96-bf71-2b8357800105/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leeser, Isaac; Philadelphia, PA; 20 December 1837",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p33r0qd50"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Leeser, Isaac; Philadelphia, PA; 20 December 1837"]
+    },
+    {
+      "label": "Name",
+      "value": ["Barnard, George", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1837-12-20", "22 Kislev 5598"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item120"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e625b63-ad38-4e4b-9816-160a26afb1e3%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e625b63-ad38-4e4b-9816-160a26afb1e3%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6276,
+          "width": 5066,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e625b63-ad38-4e4b-9816-160a26afb1e3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5066,
+                "height": 6276,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e625b63-ad38-4e4b-9816-160a26afb1e3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/assets/3e625b63-ad38-4e4b-9816-160a26afb1e3/original",
+              "label": "Original File - 95.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Articles of Agreement between <persName role=\"author\">Isaac Leeser</persName> of the\n                one part<lb/> and the Portuguese Jewish Congregation of the City of\n                    <placeName>Philadelphia</placeName><lb/> incorporated by the name, style and\n                title of <add>ק\"ק מקוה ישראל</add> Kohel Radosh<lb/> Mikveh Israel of the other part\n                made and entered into at the City of <placeName>Phi<lb/>ladelphia</placeName> on the\n                    <date>twenty second day of the month of Kislev in the year 5598</date>,\n                corresponding<lb/> with the <date>20<hi rend=\"sup\">th</hi> day of December\n                    1837</date> as follows to wit.</p>\n            <p>First. The said <persName role=\"author\">Isaac</persName> covenants on his part to\n                officiate and serve as <add>חזן</add> or Reader<lb/> to the said congregation for at\n                least one year from the <date>first day of the Jewish month Tishry</date><lb/> last\n                part, corresponding with the <date>thirtieth day of September 1837</date> now last\n                past, and<lb/> for so much longer of a period of two years, being a period of three\n                years for which<lb/> he has been elected, in case the difference of salary\n                    <del>of</del> now in dispute between<lb/> him and the congregation be properly\n                adjusted, during which continuance in office<lb/> he will faithfully\n                    <sic>fulfil</sic> the duties usually incident to said station, that he will on\n                every <date>Sabbath</date><lb/> eve, morning and night, and on all the holy days\n                &amp; festivals, and such other times<lb/> when the Synagogue is open for worship\n                attend at the Synagogue and then &amp; there<lb/> in a devout manner read the\n                prayers in the original Hebrew language,<lb/> according to the custom of the\n                Portuguese Jews; that he will attend the funerals<lb/> (under proper limitation)\n                that take place in the burial ground of the congregation<lb/> and perform the\n                funeral and subsequent mourning service; that he will not<lb/> at any time perform\n                any marriage or funeral rites without the consent<lb/> of the Parnass or of the\n                Adjunta; that he will support and abide by the<lb/> Charter and Bylaws of the\n                congregation; and that he will obey the orders of<lb/> the Parnass or\n                    Segan<add>?</add> in the Synagogue with regard to calling up and<lb/>\n                distribution of the Mitzvote, and never absent himself for more than<lb/> twenty\n                four hours without the knowledge and consent of the Parnass, or in<lb/> his absence\n                the senior Adjunta.</p>\n            <p>Second: In consideration of the said services the said congregation agrees<lb/> to\n                pay him the sum of eight hundred Dollars pr annum unless otherwise ordered<lb/> by a\n                meeting of the congregation, in quarterly payments of two hundred each<lb/> or in an\n                increased proportionate sum on the <date>29<hi rend=\"sup\">th</hi> of March</date>,\n                        <date>29<hi rend=\"sup\">th</hi> of June</date><lb/>\n                <date>29<hi rend=\"sup\">th</hi> of September</date> and <date>29<hi rend=\"sup\"\n                        >th</hi> of December</date> in each and every year, or when lawfully</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6276,
+          "width": 5066,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f7c9cf4a-041d-4bff-ad4b-f207db111e73%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5066,
+                "height": 6276,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f7c9cf4a-041d-4bff-ad4b-f207db111e73%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/assets/f7c9cf4a-041d-4bff-ad4b-f207db111e73/original",
+              "label": "Original File - 95.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>thereafter demanded by said <persName role=\"author\">Isaac</persName>\n                <add>?</add> for the due and faithful performance<lb/> of the foregoing covenant\n                each party do the hereby bind himself unto the other<lb/> in the penal sum of one\n                thousand Dollars.</p>\n            <p rend=\"indent(1)\">In witness whereof the said <persName role=\"author\">Isaac\n                    Leeser</persName> hath hereunto set his<lb/> hand &amp; seal, and the said Kabal\n                Kadosh Mikveh Israel have hereunto<lb/> caused their common corporate seal to be\n                affixed attached by their<lb/> Parnass and Secretary, the day and year first\n                hereinbefore written</p>\n            <p rend=\"indent(7)\">\n                <persName role=\"author\">Isaac Leeser</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6276,
+          "width": 5066,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1fd5dc94-06d5-47aa-9170-0e719b4e571e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5066,
+                "height": 6276,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1fd5dc94-06d5-47aa-9170-0e719b4e571e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/assets/1fd5dc94-06d5-47aa-9170-0e719b4e571e/original",
+              "label": "Original File - 95.6 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6276,
+          "width": 5066,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a8e494bc-515f-4db8-8cfd-dbbaca67d6bc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5066,
+                "height": 6276,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a8e494bc-515f-4db8-8cfd-dbbaca67d6bc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd50/assets/a8e494bc-515f-4db8-8cfd-dbbaca67d6bc/original",
+              "label": "Original File - 95.6 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

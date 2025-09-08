@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Block, A.; Leeser, Isaac, Rev.; New York, NY; 27 September 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3rn30q6t"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Block, A.; Leeser, Isaac, Rev.; New York, NY; 27 September 1848"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Block, A.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1848-09-27"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- United States -- New York -- United States -- New York",
+        "United States -- United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_30"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b5217ec8-6b76-4edc-8c74-f4943cb2ef4e%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b5217ec8-6b76-4edc-8c74-f4943cb2ef4e%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5768,
+          "width": 4768,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b5217ec8-6b76-4edc-8c74-f4943cb2ef4e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4768,
+                "height": 5768,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b5217ec8-6b76-4edc-8c74-f4943cb2ef4e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/assets/b5217ec8-6b76-4edc-8c74-f4943cb2ef4e/original",
+              "label": "Original File - 82.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>New York</placeName>\n                                        <date>Set 27<hi rend=\"sup\">th</hi></date>\n                              </p>\n                              <p>Dear Friend <addressee>Isaac</addressee>,</p>\n                              <p rend=\"indent(2)\">I again trouble you, with<lb/> a few lines, to\n                                        inquire if I, cannot have my<lb/> Books for <hi\n                                                  rend=\"underline\">Roshashona</hi>, as I have only\n                                        one book for<lb/> those days; if they cannot be completed by\n                                        then<lb/> if you have any with <persName>Theodore\n                                                  Seixsas</persName>, can I have<lb/> them\n                                                  <sic>untill</sic> mine, are ready?—are you\n                                        coming<lb/> on soon, I suppose not if report says true<lb/>\n                                        you are better employed attending your <hi rend=\"underline\"\n                                                  >new</hi> flame<lb/>\n                                        <persName>Mrs D C Levy's</persName> sister, you are a\n                                        cunning fellow and<lb/> mean to take us by surprise, but\n                                        that you'll<lb/> never do with me for I am always\n                                        expecting<lb/> some such event for I well know you will\n                                        marry<lb/> when you see the <hi rend=\"underline\">miss\n                                                  right</hi> or the right miss—I will not send<lb/>\n                                        you any more commissions, as Love, regards &amp;c<lb/> since\n                                        I meet with no return—I had the<lb/> pleasure of a visit\n                                        from <persName>Andrew Cohen</persName>, he is fine<lb/>\n                                        looking and amiable young man—<persName>Theodore\n                                                  Florence</persName><lb/> came to see me how he has\n                                        grown, quite a <hi rend=\"underline\">bean</hi><lb/>\n                                                  too—<persName>Eleanor</persName>, &amp;\n                                                  <persName>Sarah</persName>, are both engaged, the\n                                        one<lb/> to <persName>Abraham Jonas'</persName> eldest son\n                                                  <persName>Charles</persName>, and\n                                                  <persName>Eleanor</persName><lb/> to\n                                                  <persName>Henno Labatt</persName> now of\n                                                  <placeName>California</placeName>, I am quite<lb/>\n                                        satisfied with them both, they are men of worth,<lb/> still\n                                        I do not like <persName>Eleanor's</persName> having to go to\n                                                  <placeName>California</placeName><lb/> but he\n                                        promises to remain only 4 or 5 years—<lb/> have you heard it\n                                        before? if not do not speak of</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5768,
+          "width": 4768,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6eafa01a-926e-49fe-a5ca-e67d5e1b99c3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4768,
+                "height": 5768,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6eafa01a-926e-49fe-a5ca-e67d5e1b99c3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/assets/6eafa01a-926e-49fe-a5ca-e67d5e1b99c3/original",
+              "label": "Original File - 82.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>without you are <hi rend=\"underline\">asked—</hi><persName>Mr\n                                                  Block</persName> is in\n                                                  <placeName>Memphis</placeName><lb/>\n                                        <persName>Augustus</persName>, leaves tomorrow for\n                                                  <placeName>Quincy</placeName>, I wish you<lb/>\n                                        could marry them; I shall miss him greatly—<lb/> how is your\n                                        health? Aunty is as usual—<lb/>\n                                        <persName>Rosalie</persName>, remains in\n                                                  <placeName>Quincy</placeName>\n                                        <sic>untill</sic> after the wedding<lb/> when she\n                                                  <persName>Sarah</persName>,\n                                                  <persName>Eleanor</persName>, &amp; <persName>Anna\n                                                  Philipson</persName> &amp;c go to\n                                                  <placeName>New<lb/>\n                                                  =Orleans</placeName>—<persName>Rehine</persName>\n                                        is at the bay of <placeName>St Louis</placeName><lb/> with\n                                                  <persName>Sarah Levy</persName>—write me about\n                                        the<lb/> books—ever yours affectionately</p>\n                              <p rend=\"indent(2)\">\n                                        <persName role=\"author\">\n                                                  <hi rend=\"underline\">A Block</hi>\n                                        </persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rn30q6t/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

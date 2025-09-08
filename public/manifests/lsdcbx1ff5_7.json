@@ -1,0 +1,242 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Wolff, Aaron; March 07, 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3z893675"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Wolff, Aaron; March 07, 1848"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Wolff, Aaron (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1848-03-07"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["3 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": [
+        "Saint Thomas (United States Virgin Islands)",
+        "Philadelphia (Pa.)"
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_7", "ilcajs_b1f5_0006"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/95eb8e9b-08ec-4409-b87c-73d7f01d523a%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/95eb8e9b-08ec-4409-b87c-73d7f01d523a%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 6368,
+          "width": 5034,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/95eb8e9b-08ec-4409-b87c-73d7f01d523a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5034,
+                "height": 6368,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/95eb8e9b-08ec-4409-b87c-73d7f01d523a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/assets/95eb8e9b-08ec-4409-b87c-73d7f01d523a/original",
+              "label": "Original File - 96.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>St. Thomas</placeName>\n                                        <date>7<hi rend=\"sup\">th</hi> March 1848</date>.</p>\n                              <p>\n                                        <addressee>Revd Mr Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">My Dr Sir</p>\n                              <p rend=\"indent(2)\">I thank you exceedingly for all<lb/> your letters\n                                        having no important subject to write<lb/> upon have deferred\n                                        until this moment</p>\n                              <p rend=\"indent(1)\">I have retained the Priasah[?] Books sent by\n                                        you<lb/> for <persName>Carvalhos</persName> friend at\n                                                  <placeName>Grenada</placeName>. I do not know him\n                                        <lb/> the changes in the <placeName>English\n                                                  Islands</placeName> are so great that<lb/> I doubt\n                                        if the amount would be forthcoming besides the<lb/> route of\n                                        the Steamer has been changed. I hold them to<lb/> your order\n                                        in the mean time will endeavor to dispose of<lb/> them.</p>\n                              <p rend=\"indent(1)\">My family regret the demise of <persName>Mrs\n                                                  Phillips</persName> enclosed<lb/> a letter for\n                                                  <persName>Madelaine</persName> which please\n                                        deliver</p>\n                              <p rend=\"indent(1)\">You will have read of the death of the late<lb/>\n                                        <persName>King of <placeName>Denmark</placeName> Christian\n                                                  the 8'</persName>. the succession of his<lb/> Son\n                                                  <persName>Frederic the 7th</persName> we had a\n                                        particular service on<lb/>\n                                        <date>Sunday</date> Evening last for the [?] of his soul\n                                        the<lb/> Synagogue was filled by all classes coulours,\n                                                  <persName>Mr Nathan</persName><lb/> was happy\n                                        enough to compose a Sermon or Discourse<lb/> that was highly\n                                        satisfactory to all present__it has done<lb/> done us good\n                                        service. We are at present quiet, the<lb/> Laws not yet\n                                        returned from <placeName>Copenhagen</placeName>. I suppose\n                                        that<lb/> the Kings death will be a cause of detention to\n                                        them</p>\n                              <p rend=\"indent(1)\">Have you seen <persName>Mr Carillons</persName>\n                                        refutation to <persName>Mr<lb/> Pennocks</persName>\n                                        affectionate address to the Jews of\n                                                  <placeName>Jamaica?</placeName><lb/> it is a\n                                        master piece. the Books are bought up as fast<lb/> as they\n                                        can be printed, they have been sent to\n                                                  <placeName>Europe</placeName><lb/> thro the\n                                                  <placeName>West Indies</placeName>. his bitterest\n                                        enemies, award him</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 6436,
+          "width": 5064,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/db42f668-9384-4490-a59e-087e69a3b355%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5064,
+                "height": 6436,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/db42f668-9384-4490-a59e-087e69a3b355%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/assets/db42f668-9384-4490-a59e-087e69a3b355/original",
+              "label": "Original File - 98 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>applause merit</p>\n                              <p>My Son <persName>Danie</persName> his Wife gone to the\n                                                  <placeName>US</placeName><lb/> to reside he will\n                                        determine <del>while</del> after his arrival which<lb/> city\n                                        he will select for his abode , he is a religious worthy<lb/>\n                                        young man I recommend him highly to you, he is my<lb/> son\n                                        will not [?] all I feel he deserves;–it will<lb/> cost me\n                                        great pain to put with him my consolation is<lb/> that he\n                                        will succeed in <placeName>America</placeName>, his mind\n                                        being firmly<lb/> bent upon living in that happy country</p>\n                              <p rend=\"indent(4)\">I am with regards from my family</p>\n                              <p rend=\"indent(5)\">Yours Sincerely</p>\n                              <p rend=\"indent(6)\">\n                                        <persName role=\"author\">A. Wolff</persName>\n                              </p>\n                              <p><persName>Mr Isaacs</persName> writes me from <placeName>New\n                                                  York</placeName> that one of <persName>Dr.<lb/>\n                                                  Lininthal's</persName> congregation has put him in\n                                        \"Hesem\" is<lb/> this permitted in\n                                                  <placeName>America</placeName>? to put any one in\n                                        Hesem?<lb/> above all, is it permitted that a lay body should<lb/>\n                                        <hi rend=\"underline\">dare</hi> to excommunicate its\n                                        Spiritual head? I suppose<lb/> like all our benighted Rulers\n                                        Wardens or Trustees as you<lb/> may call them, they have\n                                        constituted themselves. Accuses<lb/> [?] Judges; I suppose\n                                        if this great Body be<lb/>\n                                        <sic>annalized</sic> it would be found to be composed of Old\n                                        Clothes<lb/> men, Ignorant <sic>arogant</sic>_shame upon\n                                        us_I trust that<lb/> the Dr. will treat them with the\n                                        contempt they deserve by<lb/> depriving them of his [?]\n                                        abilities the cause <persName>M Isaac</persName><lb/> writes\n                                        is for transferring some of their by laws; it can be<lb/>\n                                        nothing that Crime is attached to, or it would have<lb/>\n                                        been blazoned about, do write the particulars.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 4884,
+          "width": 6258,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/576d5aa2-a2ae-4e0a-99c1-696dc52e0aa8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6258,
+                "height": 4884,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/576d5aa2-a2ae-4e0a-99c1-696dc52e0aa8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/assets/576d5aa2-a2ae-4e0a-99c1-696dc52e0aa8/original",
+              "label": "Original File - 91.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd Mr Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3z893675/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

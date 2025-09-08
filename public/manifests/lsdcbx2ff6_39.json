@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Mayer, M.; Leeser, Isaac, Rev.; New York, NY; 19 November 1859",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3862bx9w"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Mayer, M.; Leeser, Isaac, Rev.; New York, NY; 19 November 1859"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1859-11-19"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF6_39"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/a128988f-074f-4fb9-b481-39019e0cdd48%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/a128988f-074f-4fb9-b481-39019e0cdd48%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4626,
+          "width": 3748,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a128988f-074f-4fb9-b481-39019e0cdd48%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3748,
+                "height": 4626,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a128988f-074f-4fb9-b481-39019e0cdd48%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/assets/a128988f-074f-4fb9-b481-39019e0cdd48/original",
+              "label": "Original File - 52 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"><placeName>New York</placeName>\n                <add>נאכט לברתות</add>\n                <date>Nov. 19. 1859</date>.</p>\n            <p><addressee>Rev. Mr. Isaac Leeser</addressee>,\n                <placeName>Philadelphia</placeName>.</p>\n            <p rend=\"indent(1)\">My dear Sir—</p>\n            <p rend=\"indent(2)\">I have just received a letter from<lb/> my lawyer in\n                    <placeName>Charleston</placeName> summoning me home, in the<lb/> most emphatic\n                language, as my personal attendance at<lb/> the settlement of some worldy affair was\n                indispensably<lb/> necessary. I have, therefore, being very busy with\n                preparations<lb/> for my departure—only time to request you for the favor of<lb/>\n                telling me, <hi rend=\"underline\">by return of mail</hi>, <hi rend=\"underline\"\n                    >who</hi> sent you the correspond-<lb/>ence between myself and the committee\n                presenting me the<lb/> Testimonial of some of my former flock. The\n                cor-<lb/>respondence as published, but more so the accompanying<lb/> remarks make it\n                appear, as tho' the presentation was<lb/> made <hi rend=\"underline\">after</hi> I had\n                refused the request to remain. Just<lb/> the reverse took place. The Ladies\n                presented their gift on<lb/> the <date>18 of October</date>, the gentleman on the\n                    <date>21</date>, in the morning,<lb/> and my replies to them bear the same dates\n                respectively.<lb/> The petition—of which I <sic>sentt</sic> you a copy\n                    <sic>inclosed</sic> with<lb/> this—was presented to me on <date>Friday</date>\n                night, at the<lb/> Synagogue, after divine service, and answered by me on<lb/>\n                <date>Sunday the 23d</date>, <hi rend=\"underline\">a few hours before my departure\n                    for</hi><lb/>\n                <hi rend=\"underline\"><placeName>New-York</placeName></hi>. I don't wish that you\n                should make any<lb/> public use of either this letter or the copy of the\n                petition<lb/> accompanying this; both are communicated to you to give<lb/> you some\n                intimation of the reason why I am anxious</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4626,
+          "width": 3748,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7c0dd6f5-5fad-47d1-8d8e-e5f21878d2cb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3748,
+                "height": 4626,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7c0dd6f5-5fad-47d1-8d8e-e5f21878d2cb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/assets/7c0dd6f5-5fad-47d1-8d8e-e5f21878d2cb/original",
+              "label": "Original File - 52 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to know who sent you the correspondence. Please, write<lb/> at once to the care of\n                    <hi rend=\"underline\">Prescott-House</hi>.</p>\n            <p rend=\"indent(1)\">With <persName>Mrs. M's</persName> &amp; my best regard,</p>\n            <p rend=\"indent(5)\">I remain, in the greatest<lb/> haste</p>\n            <p rend=\"indent(10)\">Yours</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">M Mayer</persName>\n            </p>\n            <p>The Sabbath-Sunday movement of this city<lb/> is <hi rend=\"underline\">exploded</hi>!\n                The society has <hi rend=\"underline\">dissolved</hi>! It<lb/> was a still-born\n                child.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bx9w/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

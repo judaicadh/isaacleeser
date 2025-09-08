@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Garritson, Isaac; Leeser, Isaac; Nashville, TN; 8 August 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3qj78j1n"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Garritson, Isaac; Leeser, Isaac; Nashville, TN; 8 August 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-08-08"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Tennessee -- Nashville",
+        "United States -- Tennessee",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_44"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/a6549aef-838c-4ac8-b4ed-d46e44500fd3%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/a6549aef-838c-4ac8-b4ed-d46e44500fd3%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4218,
+          "width": 3492,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a6549aef-838c-4ac8-b4ed-d46e44500fd3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3492,
+                "height": 4218,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a6549aef-838c-4ac8-b4ed-d46e44500fd3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/assets/a6549aef-838c-4ac8-b4ed-d46e44500fd3/original",
+              "label": "Original File - 44.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Nashville</placeName>\n                                        <date>August 8/1852</date>\n                              </p>\n                              <p><addressee>Mr. Isaac Leeser</addressee>.</p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Philadelphia, Pa.</placeName>\n                              </p>\n                              <p>Revd Sir,</p>\n                              <p rend=\"indent(1)\">I transmit you by my friend<lb/>\n                                        <persName>Mr Lewis Hanf</persName> Ten <hi rend=\"sup\"\n                                                  >00</hi>/100 dolls., towards<lb/> my subscribed of\n                                        the Occident, &amp; should<lb/> this be not sufficient to\n                                        pay my dues<lb/>\n                                        <persName>Mr. Hanf</persName> will settle for the\n                                        Balance.</p>\n                              <p rend=\"indent(1)\">You will very much oblige me, indeed,<lb/> if you\n                                        will please send me a german<lb/> &amp; polish prayer book\n                                        with the english trans<lb/>lation; also the 5 Books of\n                                        Moses,<lb/> translated in english. Should you not have<lb/>\n                                        these books on hand, send them to me, when<lb/> you receive\n                                        them, &amp; I will transmit the<lb/> money as soon as I get\n                                        them.</p>\n                              <p rend=\"indent(1)\">It is also very <sic>gratifieing</sic> to me,\n                                        to<lb/> be able to inform you that we have established<lb/>\n                                        here last year a Hebrew Benevolent Society,<lb/> (under the\n                                        name of <add>מגן דוד</add>) have bought ¾ acres<lb/> land\n                                        within 1 ½ miles from the city for a<lb/>\n                                        <add>ביד ניד</add> Our society is at present, very\n                                        small<lb/> yet, numbering only 5 families &amp; about 8\n                                        young men</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4218,
+          "width": 3492,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f2c9f34c-8d0c-4167-9a3d-5301e9b49afc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3492,
+                "height": 4218,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f2c9f34c-8d0c-4167-9a3d-5301e9b49afc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/assets/f2c9f34c-8d0c-4167-9a3d-5301e9b49afc/original",
+              "label": "Original File - 44.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>just like our strength, are also our means<lb/> nevertheless we try\n                                        our best, not to be behind<lb/> other cities, numbering more\n                                        of our Co-Religionists<lb/> than we do; &amp; we are now\n                                        about forming<lb/> a <add>קהלה</add>. As our holidays are\n                                        now approaching<lb/> we are very anxious to have <add>ספר\n                                                  תורה</add> &amp; desire<lb/> your aid in procuring\n                                        one. My friend<lb/>\n                                        <persName>Mr Hanf</persName> will talk to you more about\n                                        it.</p>\n                              <p rend=\"indent(1)\">With great many respects</p>\n                              <p rend=\"indent(3)\">I remain</p>\n                              <p rend=\"indent(4)\">Yours respectfully</p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">Isaac Garritson</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3492,
+          "width": 4218,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad683c8d-5412-4c0d-a5d8-ac57e1687c90%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4218,
+                "height": 3492,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad683c8d-5412-4c0d-a5d8-ac57e1687c90%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/assets/ad683c8d-5412-4c0d-a5d8-ac57e1687c90/original",
+              "label": "Original File - 44.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Rev. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>No 371 Walnut St.</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(3)\">\n                                        <placeName>Pa.</placeName>\n                              </p>\n                              <p>through the</p>\n                              <p>politeness of</p>\n                              <p>\n                                        <persName>Mr L. Hanf</persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j1n/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

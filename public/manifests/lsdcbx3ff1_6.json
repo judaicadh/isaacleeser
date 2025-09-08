@@ -1,0 +1,299 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Piza, David M.; Leeser, Isaac, Rev.; Anytown, St. Thomas; 21 January 1866",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3d795x4n"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Piza, David M.; Leeser, Isaac, Rev.; Anytown, St. Thomas; 21 January 1866"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1866-01-21"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virgin Islands -- St. Thomas",
+        "United States -- Virgin Islands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF1_6"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/9279607e-0792-453e-b927-cf5a9a77ba2f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/9279607e-0792-453e-b927-cf5a9a77ba2f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5328,
+          "width": 3577,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9279607e-0792-453e-b927-cf5a9a77ba2f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3577,
+                "height": 5328,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9279607e-0792-453e-b927-cf5a9a77ba2f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/assets/9279607e-0792-453e-b927-cf5a9a77ba2f/original",
+              "label": "Original File - 57.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>St. Thomas</placeName>, <date>21st Jan\n                1866</date>.</p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\"><placeName>Philadelphia</placeName>.</p>\n            <p rend=\"indent(2)\">Dear Sir,</p>\n            <p rend=\"indent(3)\">Shortly after the date of<lb/> my last, <date>17th</date> ult, I had\n                the pleasure of re<lb/>ceiving your valued lines of <date>4th</date> ult. I am\n                hap<lb/>py to reply that during the last two months<lb/> peace has prevailed among\n                us. Previously<lb/> we had enjoyed it between two and three<lb/> years, when\n                unfortunately it was interrupt<lb/>ed, and a secular paper was made the vehi<lb/>cle\n                for placing all the supposed grievances of<lb/> the congregation before the eyes of\n                strangers.<lb/> Those really interested in the welfare of the<lb/> Jewish name left\n                the claimants to reform<lb/> all the benefit thereof (if they could find any<lb/> in\n                it) but when a new field was opened, thro'<lb/> the Jewish press, publishing such\n                gross misstate<lb/>ments as would lead our brethren to believe<lb/> that the\n                religious agitation now prevalent is<lb/> felt all over the world to be requisite\n                for the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5328,
+          "width": 3577,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b01c9603-1a76-4673-a6d6-06763e94363e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3577,
+                "height": 5328,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b01c9603-1a76-4673-a6d6-06763e94363e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/assets/b01c9603-1a76-4673-a6d6-06763e94363e/original",
+              "label": "Original File - 57.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>“promotion of devotion, order, and decorum” while<lb/> indeed the standard is of the\n                people's own making<lb/> and has no connection whatever with the reli<lb/>gion of\n                the Bible, it was necessary to controvert<lb/> the same three articles on the\n                subject having<lb/> been sent to the Chronicle as you have doubt<lb/>less seen in a\n                late number. When changes are<lb/> known to be proposed in the spirit of religion,\n                I<lb/> have no doubt the present opponents would<lb/> be among the first to hail all\n                improvements.<lb/> But I allude to these things confidentially.<lb/> It is generally\n                my opinion that the least<lb/> said about them the better, if it can be helped,<lb/>\n                for man's disposition seems often to have an<lb/> infatuation in favor of\n                contradiction, and<lb/> the more opposition his inclinations meet with<lb/> the more\n                strengthened they become whether for<lb/> good or for evil. At the present time, we\n                are,<lb/> thank God, in the enjoyment of the great bles<lb/>sing of peace, and I\n                sincerely hope that it may<lb/> long continue, and be a progressive one. About<lb/>\n                <persName>Mr. S.</persName> I believe among us he has no friend<lb/> who would go to\n                the trouble of speaking to him, which<lb/> would perhaps also be useless. Even when\n                he made</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5328,
+          "width": 3577,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/24c8675e-184e-4806-9e32-0b9aa7b086c0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3577,
+                "height": 5328,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/24c8675e-184e-4806-9e32-0b9aa7b086c0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/assets/24c8675e-184e-4806-9e32-0b9aa7b086c0/original",
+              "label": "Original File - 57.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>a show of religion he was not a popular man,<lb/> notwithstanding his learning\n                besides. <persName>Mr. Car<lb/>dose</persName> suggests that you should make\n                known<lb/> thro' the Occident your sentiments regarding<lb/> his conduct in the\n                disavowal <del>o</del>of his religion. <persName>Mr.<lb/> C.</persName> requested me\n                also to offer his regards to you.</p>\n            <p rend=\"indent(1)\">I have none of the plain Bibles of $2 ½ on<lb/> hand. Please send me\n                by first opportunity a<lb/> Daily Prayer Book, <hi rend=\"underline\">good</hi> paper\n                and elegantly<lb/> bound, with the name <persName>Mrs. David\n                Piza</persName>.—Per<lb/>haps you will be pleased to learn that I hope<lb/> to enter\n                the marriage state during next mo.<lb/> probably on <date>Monday evening 12th\n                    Adar</date>, the<lb/> young lady being a cousin of mine, <persName>Rachel<lb/>\n                    Piza</persName>. I was formerly one of those who ridiculed<lb/> the idea of\n                Israelites so generally marrying their<lb/> own relatives, but it seems to be the\n                happy fate<lb/> of <placeName>Israel</placeName> since their forefather of this name\n                set<lb/> the example not to mention his predecessors.</p>\n            <p rend=\"indent(1)\">Anticipating the pleasure of soon hear<lb/>ing from you again</p>\n            <p rend=\"indent(8)\">I remain, Rev. and dear Sir,</p>\n            <p rend=\"indent(9)\">Truly yours</p>\n            <p rend=\"indent(10)\"><persName role=\"author\">David M. Piza</persName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5328,
+          "width": 3577,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ab13f0fa-c612-44c7-88d4-bc64b5695a87%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3577,
+                "height": 5328,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ab13f0fa-c612-44c7-88d4-bc64b5695a87%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d795x4n/assets/ab13f0fa-c612-44c7-88d4-bc64b5695a87/original",
+              "label": "Original File - 57.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

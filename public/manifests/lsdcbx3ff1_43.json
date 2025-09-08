@@ -1,0 +1,203 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Kuttner, H.; October 08, 1866",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3mc8s60m"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Kuttner, H.; October 08, 1866"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Kuttner, H. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1866-10-08"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["1 page on 1 sheet."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Saint Louis (Mo.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF1_43", "ilcajs_b3f1_0043"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/43f12fbf-42a7-4d6e-afdb-8b785d465390%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/43f12fbf-42a7-4d6e-afdb-8b785d465390%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 3876,
+          "width": 2654,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/43f12fbf-42a7-4d6e-afdb-8b785d465390%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2654,
+                "height": 3876,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/43f12fbf-42a7-4d6e-afdb-8b785d465390%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/assets/43f12fbf-42a7-4d6e-afdb-8b785d465390/original",
+              "label": "Original File - 30.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>St. Louis</placeName>, <date>October 8,\n                1866</date></p>\n            <p><addressee>Rev. Isaac Leeser</addressee>, <placeName>Philadelphia</placeName>.</p>\n            <p rend=\"indent(1)\">Very honored Sir: I transmit $50 to<lb/> you. Let me know whether\n                you have received it.<lb/> I have not yet sold the Pentateuchs with English<lb/>\n                translation, either in the ordinary or fine<lb/> binding, but I have orders from six\n                men for<lb/> the same expensive Bibles as well as English<lb/> prayer books. I need\n                Bibles that are bound like<lb/> the last ones I received, and prayer books for<lb/>\n                women by <persName>Heather Rothschild</persName>, reprinted by you, well-<lb/>bound\n                and with gilted locks. The former locks were very<lb/> poor. I had to sell them at a\n                50 cent loss.</p>\n            <p rend=\"indent(1)\">Please write to me by return mail the<lb/> price for medium and\n                ordinary well-bound<lb/> Bibles in English, the so-called parlor-Bible\n                <add>?</add>.<lb/> I want to see, then, whether I could sell a<lb/> dozen. Write to\n                me the price for freight if I<lb/> should have to pay it and still earn some-<lb/>\n                thing. That means three different prices.<lb/> The women's prayer books in English\n                must be<lb/> very nicely bound with gilt locks. Please let<lb/> me know the price,\n                then I shall give you the<lb/> order.</p>\n            <p rend=\"indent(1)\">If Hebrew Bibles cannot be sold, the<lb/> Jews should buy English\n                ones. “That it<lb/> should not be forgotten among his seed.”<lb/> I am looking for\n                your immediate response. I<lb/> still feel weak after my sickness. The hand\n                still<lb/> trembles. My congregation gave me a gift of $300<lb/> for <date>Rosh\n                    Hashonah</date>.</p>\n            <p rend=\"indent(9)\">Your Friend</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">H. Kuttner</persName>\n            </p>\n            <p>The city number has been changed. My<lb/> address is <persName role=\"author\">Rev. H.\n                    Kuttner</persName>. <placeName>Box No 804,North 10th St. Between Mason<lb/> and\n                    Franklin Avenue</placeName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 3876,
+          "width": 2654,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0e88b836-7bb5-44ea-8cc3-f1eceeb5eac3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2654,
+                "height": 3876,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0e88b836-7bb5-44ea-8cc3-f1eceeb5eac3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/assets/0e88b836-7bb5-44ea-8cc3-f1eceeb5eac3/original",
+              "label": "Original File - 30.9 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 3876,
+          "width": 2654,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5b29170b-80f3-4a5e-b5f4-69b2008aa6be%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2654,
+                "height": 3876,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5b29170b-80f3-4a5e-b5f4-69b2008aa6be%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mc8s60m/assets/5b29170b-80f3-4a5e-b5f4-69b2008aa6be/original",
+              "label": "Original File - 30.9 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

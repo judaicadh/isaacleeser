@@ -1,0 +1,273 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Mordecai, Jacob; Leeser, Isaac; Richmond, VA; 19 July 1836",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p36q1t355"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Mordecai, Jacob; Leeser, Isaac; Richmond, VA; 19 July 1836"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["A. B.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1836-07-19"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virginia -- Richmond",
+        "United States -- Virginia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item5"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/f66d9087-99f7-4a33-aab8-54641d388a1b%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/f66d9087-99f7-4a33-aab8-54641d388a1b%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6240,
+          "width": 4970,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f66d9087-99f7-4a33-aab8-54641d388a1b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4970,
+                "height": 6240,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f66d9087-99f7-4a33-aab8-54641d388a1b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/assets/f66d9087-99f7-4a33-aab8-54641d388a1b/original",
+              "label": "Original File - 93.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Richmond</placeName>\n                <date>19 July/36</date>\n            </p>\n            <p>\n                <addressee>Revd. Mr Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">My dear friend</p>\n            <p rend=\"indent(3)\">Some months past I was called upon<lb/> by the <persName>Revd. Mr\n                        A<add>?</add></persName> who asked me if the 9c of the 2c of\n                    <persName>Job</persName><lb/> was correctly rendered “curse God and die” after\n                examining<lb/> the Hebrew text I told him my impression was that<lb/> it should be\n                “Bless God and die” how then he asked<lb/> are we to account for the words in the\n                English Bible<lb/> I replied by the seventy translators regulating the points<lb/>\n                which have caused them to <add>?</add> gross <add>?</add> upon<lb/> many texts. That\n                without the several points we could<lb/> not understand the true meaning of\n                scripture, and<lb/> that by means of the amounts we are made to<lb/> understand the\n                subject matter, I maintain<add>?</add> my position<lb/> by the following examples.\n                The words in <persName>Job</persName> are<lb/>\n                <add>Hebrew</add> we read in 1<hi rend=\"sup\">st</hi> Gens 22<add>?</add> “and God\n                blessed”<lb/> using the letters and points <add>Hebrew</add> and in the 145 psalm\n                    <add>Hebrew</add><lb/> “bless the Lord” and in other places <add>Hebrew</add>\n                numbers 22<add>?</add>\n                <add>Hebrew</add><lb/> the letters &amp; points the same that is used in\n                    <persName>Job</persName> 2c. 9c. the word<lb/> to curse in the 22c. 6 of numbers\n                is <add>Hebrew</add> and in <add>?</add>.28c<lb/> 16 to 19<add>?</add> to curse is\n                    <add>Hebrew</add> and the last word in the last verse<lb/> of the last chapter\n                of <add>?</add> to curse is <add>Hebrew</add> those were<lb/> all the authorities I\n                could find applicable to the subject<lb/> having no one in this congregation in\n                whose knowledge<lb/> I can confide. I without hesitation apply to you at<lb/> your\n                leisure forward me with your opinion discarding<lb/> all speculation as to the\n                motives of <persName>Jobs</persName> wife—wishing<lb/> you all happiness, I remain\n                your friend</p>\n            <p>Jacob Mordecai</p>\n            <p>ask <persName>Mrs Hart</persName> if she succeeded<lb/> in getting <add>?</add>\n                work</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6100,
+          "width": 4910,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7cebc08a-915c-4bdd-b65d-913dc6b853d1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4910,
+                "height": 6100,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7cebc08a-915c-4bdd-b65d-913dc6b853d1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/assets/7cebc08a-915c-4bdd-b65d-913dc6b853d1/original",
+              "label": "Original File - 90.1 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6240,
+          "width": 4970,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e9dd2e3c-3885-42ce-817f-075a0ca21ea6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4970,
+                "height": 6240,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e9dd2e3c-3885-42ce-817f-075a0ca21ea6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/assets/e9dd2e3c-3885-42ce-817f-075a0ca21ea6/original",
+              "label": "Original File - 93.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6186,
+          "width": 4970,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/565d6947-4594-4af7-a9f2-c8bf7ad84f9c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4970,
+                "height": 6186,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/565d6947-4594-4af7-a9f2-c8bf7ad84f9c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/assets/565d6947-4594-4af7-a9f2-c8bf7ad84f9c/original",
+              "label": "Original File - 92.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>To</p>\n            <p rend=\"indent(1)\">The <addressee>Revd Mr Leeser</addressee></p>\n            <p rend=\"indent(3)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36q1t355/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

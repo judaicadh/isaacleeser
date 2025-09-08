@@ -1,0 +1,213 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Felsenthal, B.; Leeser, Isaac, Rev.; Philadelphia, PA; 30 March 1865",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p35q4s33m"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Felsenthal, B.; Leeser, Isaac, Rev.; Philadelphia, PA; 30 March 1865"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1865-03-30"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF12_15"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/471b7521-d4c2-4ae5-90d5-ffb68fe76b9e%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/471b7521-d4c2-4ae5-90d5-ffb68fe76b9e%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3742,
+          "width": 2532,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/471b7521-d4c2-4ae5-90d5-ffb68fe76b9e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2532,
+                "height": 3742,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/471b7521-d4c2-4ae5-90d5-ffb68fe76b9e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/assets/471b7521-d4c2-4ae5-90d5-ffb68fe76b9e/original",
+              "label": "Original File - 28.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"><placeName>Chicago, Ill.</placeName>, <date>March 30,\n                    1865</date></p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n                <placeName>Philada.</placeName>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir,</p>\n            <p rend=\"indent(1)\">Annexed please find a communication<lb/> for the Occident.</p>\n            <p rend=\"indent(1)\">In the last part of this communication a<lb/> topic is touched which\n                might deserve<lb/> some earnest considerations from the Jewish<lb/> press. My\n                remarks are in an ironical<lb/> strain, perhaps another contributor of your<lb/>\n                periodical, or its chief editor, may deem it<lb/> proper to speak on it more\n                earnestly and<lb/> thoroughly.</p>\n            <p rend=\"indent(1)\">I am, dear sir, in true regard</p>\n            <p rend=\"indent(2)\">Your obd't serv't</p>\n            <p rend=\"indent(3)\">\n                <persName role=\"author\">B. Felsenthal</persName>\n            </p>\n            <p>N. B. The word „sect,” occurring several times<lb/> in the annexed communication, has\n                been made</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3742,
+          "width": 2532,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0af024b0-9726-4c5a-8d65-36503e42d93f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2532,
+                "height": 3742,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0af024b0-9726-4c5a-8d65-36503e42d93f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/assets/0af024b0-9726-4c5a-8d65-36503e42d93f/original",
+              "label": "Original File - 28.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>use of with intention and purpose. I would<lb/> request you not to strike out this\n                expression.<lb/> The truth indicated by this word (viz: that<lb/> Judaism in our\n                days has divided into two sects).<lb/> I am ready to defend at any time. I<lb/> am\n                well aware that many eminent men<lb/> in <placeName>Israel</placeName> will not\n                consent to this assertion.<lb/> Still I am convinced of its truth-<lb/>fulness.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35q4s33m/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1453 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest",
+  "@type": "sc:Manifest",
+  "label": "Pamphlet; Philadelphia, PA; 1 January 1842",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3x922496"]
+    },
+    {
+      "label": "Title",
+      "value": ["Pamphlet; Philadelphia, PA; 1 January 1842"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1842-01-01", "4 Shebat 5602"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["pamphlets"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Pamphlet"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "26 pages on 28 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item228"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/5b374065-02a0-4a8c-86b4-3a8abdd51079%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/5b374065-02a0-4a8c-86b4-3a8abdd51079%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "Front Cover",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2e878563-5e36-4f57-8673-7f40e8b9f45d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2e878563-5e36-4f57-8673-7f40e8b9f45d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/2e878563-5e36-4f57-8673-7f40e8b9f45d/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "Inside front",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a66d4915-64ab-4e57-8de9-c5bc2dedf868%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a66d4915-64ab-4e57-8de9-c5bc2dedf868%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/a66d4915-64ab-4e57-8de9-c5bc2dedf868/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5b374065-02a0-4a8c-86b4-3a8abdd51079%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5b374065-02a0-4a8c-86b4-3a8abdd51079%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/5b374065-02a0-4a8c-86b4-3a8abdd51079/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">A DISCOURSE</p>\n            <p rend=\"align(center)\">ON</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p rend=\"align(center)\">DELIVERED ON THE</p>\n            <p rend=\"align(center)\">SEVENTEENTH ANNIVERSARY</p>\n            <p rend=\"align(center)\">OF THE</p>\n            <p rend=\"align(center)\">DEDICATION OF THE SYNAGOGUE</p>\n            <p rend=\"align(center)\">MIKVEH ISRAEL,</p>\n            <p rend=\"align(center)\">ON <date>SABBATH, THE 4TH OF SHEBAT, 5602</date>.</p>\n            <p rend=\"align(center)\">BY <persName role=\"author\">ISAAC LEESER</persName>.</p>\n            <p rend=\"align(center)\">PUBLISHED BY REQUEST.</p>\n            <p rend=\"align(center)\"><placeName>PHILADELPHIA</placeName>:</p>\n            <p rend=\"align(center)\">PRINTED BY <persName>C. SHERMAN</persName>.</p>\n            <p rend=\"align(center)\"><date>5602</date>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0552ad56-19c0-48fb-aeaf-714c444cd99f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0552ad56-19c0-48fb-aeaf-714c444cd99f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/0552ad56-19c0-48fb-aeaf-714c444cd99f/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><hi rend=\"italics\"><placeName>Philadelphia</placeName>,</hi>\n                <date><hi rend=\"italics\">January</hi> 16, 1842</date>.</p>\n            <p>DEAR SIR:</p>\n            <p rend=\"indent(1)\">Having listened with much pleasure to the discourse delivered<lb/>\n                by you on the seventeenth anniversary of the dedication of our<lb/> new synagogue,\n                and feeling desirous that the same might be<lb/> perused by our brethren generally\n                throughout the <placeName>United States</placeName>,<lb/> I beg the favour of your\n                furnishing me with a copy of it for<lb/> publication, intending to distribute it\n                gratuitously.</p>\n            <p rend=\"indent(7)\">Yours, very respectfully,</p>\n            <p rend=\"indent(9)\"><persName>A. HART</persName>.</p>\n            <p>TO THE <addressee>REV. I. LEESER</addressee>.</p>\n            <p/>\n            <p>DEAR SIR:</p>\n            <p rend=\"indent(1)\">It affords me much pleasure to comply with your request, and<lb/> I\n                am happy that you think this address of sufficient importance to<lb/> merit the use\n                for which you design it.</p>\n            <p rend=\"indent(8)\">With great respect, yours,</p>\n            <p rend=\"indent(10)\"><persName role=\"author\">ISAAC LEESER</persName>.</p>\n            <p rend=\"indent(1)\">TO <persName>ABRAHAM HART, Esq.</persName>,</p>\n            <p rend=\"indent(2)\">President of the congregation.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3196,
+          "width": 2116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c11f4927-399e-4458-89e6-addd21067bce%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2116,
+                "height": 3196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c11f4927-399e-4458-89e6-addd21067bce%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/c11f4927-399e-4458-89e6-addd21067bce/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p rend=\"align(center)\">PRAYER.</p>\n            <p>O God of <persName>Abraham</persName>, <persName>Isaac</persName>, and\n                    <persName>Jacob</persName>, our fathers!<lb/> how glorious is thy name in all\n                the earth. From gene-<lb/>ration to generation Thou art God, and beside Thee<lb/>\n                there is no saviour and redeemer. How blessed are<lb/> they therefore who trust in\n                Thee! how happy those to<lb/> whom Thou art God! And ever thus were blessed thy<lb/>\n                own heritage, the sons of <persName>Jacob</persName> thy servant, whom<lb/> Thou\n                didst choose to be unto Thee a people and a pecu-<lb/>liar treasure. From amidst\n                bondage, from galling<lb/> slavery, Thou didst ransom their bodies by a mighty<lb/>\n                deliverance and unthought of wonders; and at a time<lb/> when thy service was\n                unknown to nearly the whole<lb/> race of man, Thou didst proclaim unto them thy\n                law,<lb/> and make them feel that in Thee, the all-wise, the all-<lb/>powerful,\n                omnipresent, omniscient One, they should<lb/> acknowledge their divine Ruler and\n                King! Are we<lb/> then not blessed? is not our lot cast in delightful parts?<lb/>\n                —Yet have we often murmured, felt as it were thy<lb/> yoke too heavy a burden for\n                our obdurate necks to bear!</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cdb967c1-b9ac-4cf5-8b21-1320a864b425%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cdb967c1-b9ac-4cf5-8b21-1320a864b425%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/cdb967c1-b9ac-4cf5-8b21-1320a864b425/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>4</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>We went after strange gods, and sought the sinful plea-<lb/>sures which thy laws\n                prohibit. And therefore came<lb/> upon us the many evils which we endure this\n                day,<lb/> therefore lies now heavy upon us the burden of our sins.<lb/> But Thou, O\n                Lord, art mighty to save and ready to for-<lb/>give! and even according to thy\n                unending mercies do<lb/> Thou deal with us; and if we have sinned greatly, let<lb/>\n                thy abundant kindness throw the veil of oblivion over<lb/> our transgression; and\n                when Thou purifiest us in thy<lb/> judgment, which is ever holy, ever merciful, ever\n                spar-<lb/>ing of the repentant: then guard us by thy might, that<lb/> we be not cut\n                off utterly; so that we may ever remain<lb/> on earth, to make known in all future\n                generations thy<lb/> power, thy glory, thy truth, thy unity unto all those<lb/> who\n                know Thee not, who worship Thee not alone and<lb/> in truth as do thy children\n                    <placeName>Israel</placeName>, whom Thou didst<lb/> release from\n                    <persName>Pharaoh's</persName> bondage. Amen.</p>\n            <p rend=\"align(center)\">SERMON.</p>\n            <p>BRETHREN!</p>\n            <p>In our intercourse with the gentiles around us it is<lb/> of frequent occurrence that\n                we hear them speak after<lb/> this manner: “We believe that once you were the<lb/>\n                chosen people of God, and that through you and the<lb/> prophets who arose from\n                among you there came salva-<lb/>tion to mankind; but this state of blessedness is\n                now no<lb/> longer yours: you have been rejected for your rebellion,<lb/> and your\n                long captivity proves that you are no longer<lb/> the chosen people; you are\n                therefore in darkness in</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 3196,
+          "width": 2116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d636bd3e-d3a2-4bb6-8106-a91ee58321b0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2116,
+                "height": 3196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d636bd3e-d3a2-4bb6-8106-a91ee58321b0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/d636bd3e-d3a2-4bb6-8106-a91ee58321b0/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">5</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>your perseverance to abide by the Mosaic dispensation,<lb/> which has been set aside\n                for one purer, more spiritual,<lb/> more in consonance with divine mercy.” An\n                unin-<lb/>formed, disinterested stranger, to whom both the Naza-<lb/>rene creed and\n                our belief were utterly unknown, hearing<lb/> the position above stated so\n                triumphantly assumed by<lb/> such an immense majority of our neighbours, would<lb/>\n                hardly hesitate to give us wrong for our opposition,<lb/> unless we could give very\n                strong counter-arguments to<lb/> the assertion offered as an undoubted fact and\n                admitting<lb/> of no contradiction. Indeed the Nazarenes treat the<lb/> question as\n                a settled point, and in their argument with us<lb/> express the utmost astonishment\n                that we can even dare<lb/> to hesitate acknowledging our errors and the\n                weakness<lb/> of our hopes, as they arrogantly affect to call our firm<lb/>\n                adherence to the One God, and our unshaken confi-<lb/>dence in the\n                    <sic>fulfilment</sic> of his promises. If denunciation<lb/> is proof, and\n                assertion sound argument, then indeed are<lb/> we conquered; but if Scriptures are\n                to be appealed to,<lb/> if history is to be consulted, then can we triumphantly<lb/>\n                defend our cause, and convince even the stranger who<lb/> has never heard of the\n                word of our God, and the doc-<lb/>trines which some preach erroneously in his\n                blessed<lb/> Name.</p>\n            <p rend=\"indent(1)\">Let us take a brief view of the different parts of the<lb/> idea\n                above thrown out, which, permit me to remark,<lb/> contains the essence of all that\n                is ever brought forward<lb/> to convince the Jew of his alleged error; and if it\n                fail<lb/> of enforcing conviction, the whole argument of the<lb/> Nazarene at once\n                falls to the ground, as far at least as<lb/> the Israelite is concerned. I will also\n                state at once that<lb/> the discussion is not entered into, because I deem that</p>\n            <p rend=\"align(center)\">1*</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5b099c88-68d5-4a77-9c1b-9f1b13220194%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5b099c88-68d5-4a77-9c1b-9f1b13220194%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/5b099c88-68d5-4a77-9c1b-9f1b13220194/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>6</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>our adults require such aid as it is in my power to<lb/> afford, but to give them\n                means under the blessing of<lb/> our Supreme Father to inculcate the same faith\n                they<lb/> have received in the minds of their children, and to<lb/> place the hopes\n                of these on so firm a footing that they<lb/> cannot be shaken by the specious\n                arguments of the<lb/> gentiles, or be misled by the pernicious examples of<lb/>\n                those who forsake our communion from alleged convic-<lb/>tion of the truth of\n                another belief, or from a criminal<lb/> indifference to the word and will of the\n                Lord.</p>\n            <p rend=\"indent(1)\">To commence: it is fortunate for the world no less<lb/> than for\n                    <placeName>Israel</placeName>, that all believers in a divine revelation<lb/> of\n                whatever sect and creed admit as a prerequisite<lb/> the divine legation of the\n                father of the prophets, and that<lb/> he was deputed to deliver his co-Israelites\n                from bon-<lb/>dage; for the admission of these facts places us at once<lb/> on a\n                firm rock, from which we may start in commen-<lb/>cing to trace to their source the\n                nature and effect of the<lb/> Law of God. For if <persName>Moses</persName> was\n                divinely inspired to go<lb/> forward to demand of <persName>Pharaoh</persName> the\n                liberation of a cap-<lb/>tive people, and if he was armed by supernatural\n                ter-<lb/>rors to effect this noble purpose: it follows that he was<lb/> faithful and\n                upright, and that whatever he effected in<lb/> the process of this mission must bear\n                the stamp of<lb/> divine approbation, or else he would have at the same<lb/> time\n                been a messenger of God, and displeasing to this<lb/> great Being by his\n                non-conformity to the will of his<lb/> Sender. Secondly, seeing that this mission\n                was in<lb/> behalf of a certain people, and for no other, so far as<lb/> our\n                knowledge extends, we are naturally led to inquire,<lb/> “Why was this so? Was it\n                merely to humble the<lb/> tyrant of <placeName>Egypt</placeName>, to assert the\n                cause of universal liberty</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 3196,
+          "width": 2116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/04f2b110-02f0-4b75-957e-3c93560c221a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2116,
+                "height": 3196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/04f2b110-02f0-4b75-957e-3c93560c221a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/04f2b110-02f0-4b75-957e-3c93560c221a/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">7</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>. </p>\n            <p>and equality, or had the whole proceeding another and<lb/> a deeper source?” If the\n                former, then there were in<lb/> olden days, and there are in our own times,\n                communi-<lb/>ties of slaves equally oppressed as were our fore-<lb/>fathers, and,\n                being children of one great Father, no less<lb/> the objects of Providence and\n                Justice than were the<lb/> Israelites in <placeName>Egypt</placeName>; and if even\n                there be no tyrant to<lb/> doom to death the offspring of the slavish race:\n                there<lb/> are a thousand chains, a thousand heartburnings, a<lb/> thousand\n                sufferings connected with a state of absolute<lb/> servitude, which will not let the\n                All-Seeing pass them<lb/> by unnoticed. And yet, the Israelites alone of all<lb/>\n                slave nations were redeemed. The answer therefore to<lb/> our question is evident,\n                that the action of God through<lb/> his servant <persName>Moses</persName> had for\n                its object another and a<lb/> higher view than the mere breaking of physical\n                fetters;<lb/> and this was, as we have asserted on a previous occa-<lb/>sion, the\n                disenthralling of the mind of man from the<lb/> bonds of superstition and unbelief,\n                and to fix a law of<lb/> truth and righteousness immovably in the hearts of<lb/>\n                sinning mortals, which law should never thenceforward<lb/> be banished from the\n                memory and the affection of its<lb/> first possessors, and that through their silent\n                teaching,<lb/> as a great spirit* of our people calls it, by their pre-<lb/>sence on\n                earth as the witnesses of God's truth, they<lb/> should proclaim the truth and\n                righteousness in their<lb/> hands to the utmost ends of the earth.—We have\n                before<lb/> this† proved that this procedure on the part of God was<lb/> both wise\n                and necessary; and all we have now to do, is</p>\n            <p>* <persName>Mendelssohn</persName>, in his “<placeName>Jerusalem</placeName>.”</p>\n            <p>†Discourses, vol. ii, Lectures XXX. and XXXII. on the Selec-<lb/>tion of\n                    <placeName>Israel</placeName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/842cbe32-1078-47b1-9507-c5728fdffd10%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/842cbe32-1078-47b1-9507-c5728fdffd10%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/842cbe32-1078-47b1-9507-c5728fdffd10/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p10/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>8</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>merely to start from this point as established in the<lb/> farther pursuit of our\n                inquiry.</p>\n            <p rend=\"indent(1)\">What now constitutes the existence of a nation?<lb/> Some will\n                perhaps answer, the possession of a common<lb/> country and the obedience to one\n                government, or at<lb/> least an association of governments obeying one com-<lb/>mon\n                head. Another may answer, to constitute a nation<lb/> the individuals must be\n                descended from one common<lb/> origin, and have a uniformity of language and\n                customs.<lb/> To a certain extent these definitions are correct; and if<lb/>\n                peradventure of any of these characteristics are wanting at<lb/> the first formation\n                of a commonwealth, the progress of<lb/> time and the changes attendant on a\n                propinquity of<lb/> races will in an incredibly short period assimilate the<lb/>\n                different parts of a state in features, manners and habits,<lb/> (unless there be\n                disturbing causes, arising from climate<lb/> and an entire diversity of pursuits,)\n                which will render<lb/> those persons who united to form a state, though very<lb/>\n                diverse themselves, the parents of a uniform and homo-<lb/>geneous race of\n                descendants. It is needless to quote<lb/> examples, since the inquiry pursued in its\n                ramifications<lb/> would carry us too far from our subject. If then these<lb/>\n                points were the sole requisites to form a nation, the<lb/> words spoken by the Lord\n                through <persName>Jeremiah</persName> would not<lb/> have been fulfilled. For thus\n                we read (<persName>Jer.</persName> xlvi. 27, 28):</p>\n            <p>\n                <add>ואתה אל תירא עבדי יעקב ואל תחת ישראל כי הנני מושעך</add>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p11",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 3196,
+          "width": 2116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9e8d3794-f50c-400f-8019-179ca8a6a460%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2116,
+                "height": 3196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9e8d3794-f50c-400f-8019-179ca8a6a460%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p11"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/9e8d3794-f50c-400f-8019-179ca8a6a460/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p11/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">9</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <quote rend=\"indent(1)\">“But thou—O do not fear, my servant <persName>Jacob</persName>,\n                and be not<lb/> dismayed, O <placeName>Israel</placeName>! for behold, I will surely\n                save thee from<lb/> afar off, and thy seed from the land of their captivity; and<lb/>\n                <persName>Jacob</persName> shall return, and shall rest, and shall be at ease,\n                and<lb/> none shall make him afraid. Thou—do thou not fear, my ser-<lb/>vant\n                    <persName>Jacob</persName>, saith the Lord, for I am with thee; for I will\n                make<lb/> a full end of all the nations whither I have driven thee, but of<lb/> thee\n                I will not make a full end; I will correct thee in judg-<lb/>ment, yet not suffer\n                thee to go entirely unpunished.”*</quote>\n            <p>We are here told that the Lord would not make an<lb/> end of the nationality of His\n                servant <persName>Jacob</persName>. Where<lb/> now is his government? his country?\n                his association of<lb/> sovereignties? his common head? Where?—O they<lb/> have\n                been! but now—his children are scattered over<lb/> every land, wanderers in every\n                clime—oppressed by<lb/> some, despised by many, and loved by none; and they<lb/>\n                obey laws which their wise men and their ancients do<lb/> not <sic>recognise</sic>\n                as those laws and those ordinances found-<lb/>ed on the law of\n                    <persName>Moses</persName>. Their country is desolate and<lb/> possessed by\n                aliens to their blood, and their kings have<lb/> long since ceased to rule, and\n                their judges have for ages<lb/> not sat in the seat of judgment. But who will say that<lb/>\n                <persName>Jacob's</persName> sons are not a nation? Still they are a people,<lb/>\n                all must confess, not because in the possession of a<lb/> common country and one\n                government, but by the pos-<lb/>session of one common origin, by the ownership of\n                one<lb/> law, by the acknowledged providence and rule of One,<lb/> sole, universal\n                God. And look for the descendant of<lb/>\n                <placeName>Israel</placeName> in the icy regions of the pole, or where a\n                burning<lb/> sun sends down his perpendicular rays in the desolate</p>\n            <p>*Or as rendered by others, “But never destroy thee altogether.”</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p12",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f91213e8-bf89-445f-b888-101eac9c760c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f91213e8-bf89-445f-b888-101eac9c760c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p12"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/f91213e8-bf89-445f-b888-101eac9c760c/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p12/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p10",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>10</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>and burning sands of equatorial <placeName>Africa</placeName>—in every spot<lb/> upon\n                God's earth—he will tell you that he is linked in<lb/> spirit and descent to that\n                hapless nation who have so<lb/> long borne the obloquy, and the contempt, and\n                the<lb/> galling yoke which the ignorance and malevolence of<lb/> gentiles have\n                inflicted on them. And ask him, why he<lb/> so submits to these national evils? he\n                will tell you, it is<lb/> because he confides in the truth of his God, because\n                he<lb/> does not believe that the All-wise could waver in his<lb/> counsel and enact\n                a new law, when He had declared<lb/> the ordinances of <persName>Moses</persName> to\n                be the statutes which He<lb/> had ordained for the government of his chosen people.\n                In<lb/> this then exists our nationality, in the possession of one<lb/> religion,\n                uniform in its main features all over the world,<lb/> and in our cherishing the\n                consanguinity inherent to our<lb/> descent from the Patriarchs; and inasmuch as we\n                are<lb/> sedulous to contract matrimonial alliances with those<lb/> only who are,\n                like us, obedient to the same religious<lb/> code and descended from the same common\n                stock.—If<lb/> then it is admitted that we were at one time, however<lb/> remote,\n                the chosen people of God, it is also admitted<lb/> that we thereby, that is to say\n                by our being chosen as a<lb/> divine people, were constituted the guardians of a\n                divine<lb/> law, for this alone, as we have briefly exhibited, could<lb/> have been\n                the meaning of the prophecy which we have<lb/> quoted for our text; since, when\n                    <persName>Jeremiah</persName> prophesied<lb/> these words, he also foretold the\n                downfall of our national<lb/> government, and his promise of permanence of the\n                nation<lb/> could accordingly refer only to <hi rend=\"italics\">spiritual</hi>\n                advantages<lb/> which were to endure when—and long, long after—all<lb/> the physical\n                or outward features of a state had been<lb/> entirely obliterated. In other words,\n                the Israelites were</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p13",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 3196,
+          "width": 2116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/58f50586-648d-4361-94d0-1607167c556a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2116,
+                "height": 3196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/58f50586-648d-4361-94d0-1607167c556a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p13"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/58f50586-648d-4361-94d0-1607167c556a/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p13/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p11",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">11</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>constituted a nation to continue thus through a state of<lb/> political exaltation\n                and through seasons of entire politi-<lb/>cal subversion.</p>\n            <p rend=\"indent(1)\">In truth the Nazarenes confess this to be the fact, by<lb/> saying\n                that salvation came through <placeName>Israel</placeName>, by which<lb/> they can\n                only mean, that through the promulgation of<lb/> the law to our ancestors, in the\n                first instance, the know-<lb/>ledge of the way of salvation was at length carried\n                to<lb/> the gentiles, who are now enjoying the light of religion<lb/> which was\n                formerly exclusively ours. Without gain-<lb/>saying in the least the truth of this\n                assertion, since we<lb/> are not disposed to deny to any human being the hope<lb/>\n                of salvation in the Lord, by the pursuit of the right so<lb/> far as this is known\n                to him: we cannot assent to the<lb/> deduction, which the gentiles make, that their\n                admission<lb/> to grace has caused our rejection. First, because the<lb/> gentiles\n                never were excluded from divine mercy, from<lb/> the calling of\n                    <persName>Abraham</persName> down to this hour. Many no<lb/> doubt forfeited\n                everlasting bliss by their manifold trans-<lb/>gressions against the light they had\n                received, and in<lb/> contravention to the truths which had been made known<lb/> to\n                mankind from the beginning; but this does not say<lb/> that there was any inherent\n                defect in the spirit of the<lb/> gentile from enjoying the rewards to which his\n                virtues,<lb/> be they many or few, might have entitled him from the<lb/> impartial\n                Judge of all flesh. The law, we admit, was<lb/> given to be the road of salvation to\n                    <placeName>Israel</placeName>, in the first<lb/> instance, and to become the\n                beacon to the other nations<lb/> of the earth thereafter; but this was intended\n                solely to<lb/> bind our people to the strict observance of its letter and<lb/>\n                spirit, and not to condemn to eternal sorrows those who<lb/> had never been informed\n                of its nature and tenets. The</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p14",
+          "@type": "sc:Canvas",
+          "label": "12",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3a7f478e-f958-4831-b530-6fbed3d7c392%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3a7f478e-f958-4831-b530-6fbed3d7c392%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p14"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/3a7f478e-f958-4831-b530-6fbed3d7c392/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p14/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p12",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>12</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>Lord gave his commandments to be obeyed to everlast-<lb/>ing, to remove through them,\n                by certain though slow<lb/> degrees, the empire of sin and evil; yet He never<lb/>\n                doomed to destruction those who, by a long course of<lb/> misrule and accumulated\n                ignorance in which they were<lb/> nowise to blame, had not learned to fear his great\n                and<lb/> adorable name. Secondly, even granting, for argu-<lb/>ment's sake, that\n                until a certain fixed period the gen-<lb/>tiles had been excluded from God's mercy,\n                which we<lb/> cannot admit: still we are constrained to affirm, that<lb/> their\n                admission to favour can on no account have<lb/> wrought our expulsion from the\n                mansion of our Father!<lb/> Is not his power far-reaching enough to extend over<lb/>\n                each and all of his creatures? Is his goodness limited,<lb/> that it needs must be\n                exhausted unless <hi rend=\"italics\">some</hi> are doomed<lb/> to unhappiness? Is his\n                wisdom so short-sighted, that<lb/> his laws are insufficient to speak to every\n                soul—to<lb/> subdue every heart to fear and to love Him?—Not so<lb/> are we\n                permitted to set limits to his bounty and benevo-<lb/>lence; and if man can\n                occasionally forgive his enemies<lb/> and pray for those who have grievously\n                transgressed<lb/> against him: will you deny the All-good, the Pos-<lb/>sessor of\n                all perfection, the power, the capacity, the<lb/> disposition, the will to be good\n                to all? Is this your<lb/> conception of your Maker's greatness, by giving Him<lb/>\n                less perfection than is possessed by a mortal creature?<lb/>—No! no! brethren; God's\n                love is ample for all; his<lb/> wings are sufficiently extended that all may seek\n                shel-<lb/>ter under their shadow; his forgiveness is not exhausted<lb/> even if\n                every creature were forgiven and enjoying ever-<lb/>lasting happiness; and whilst we\n                believe this, we cannot<lb/> imagine, much less believe, that the acceptance\n                into</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p15",
+          "@type": "sc:Canvas",
+          "label": "13",
+          "height": 3196,
+          "width": 2116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6128501c-16cd-4dce-891c-a8a519ccf4e7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2116,
+                "height": 3196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6128501c-16cd-4dce-891c-a8a519ccf4e7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p15"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/6128501c-16cd-4dce-891c-a8a519ccf4e7/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p15/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p13",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">13</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>favour of the gentiles has wrought injury to the children<lb/> of the house of\n                    <placeName>Israel</placeName>.</p>\n            <p rend=\"indent(1)\">“But,” say the advocates of our rejection, “it is not<lb/> because\n                God is not able to save, only because you<lb/> refused and still refuse the\n                salvation which was offered<lb/> to you. The thirsty man cannot complain of the\n                effect<lb/> of water not slaking his thirst if he refuses to drink.”<lb/> Let us now\n                inquire, what have we rejected? Have we<lb/> rejected the law? Do we as a people\n                refuse studying or<lb/> obeying the commandments?—Assuredly not; we must<lb/> with\n                faces covered with the blush of shame confess that<lb/> we have sinned as our\n                fathers have done before us; but<lb/> never can it be said, that we have rejected\n                the law. If<lb/> then our transgressions during the ages of the prophets<lb/> were\n                punished with mild though condign punishment,<lb/> (for every thing is mild compared\n                to entire condemna-<lb/>tion,) as a retributive measure for the infraction of\n                the<lb/> covenant of God with <placeName>Israel</placeName>: it is wonderful\n                indeed<lb/> that any thing could have occurred more heinous, more<lb/> subversive of\n                our duties as a people and individuals than<lb/> the general idolatry at one time so\n                prevalent for a space<lb/> of several centuries. Now we read in the awful\n                denun-<lb/>ciation of <persName>Moses</persName> in the twenty-sixth chapter of\n                Leviticus,<lb/> that the spirit of prophecy anticipated such a state of<lb/>\n                rebellion; for he says (verse 30): “And I will destroy<lb/> your high places, and\n                cut down your images, and cast<lb/> your <sic>carcases</sic> upon the\n                    <sic>carcases</sic> of your idols, and my<lb/> soul shall abhor you;” thus\n                evidently indicating that<lb/> the direful rebellion of forgetfulness of God should\n                be<lb/> followed by signal punishment of the sinners and the<lb/> downfall of the\n                idols they should worship, and God is<lb/> represented as saying that his soul would\n                abhor the</p>\n            <p rend=\"align(center)\">2</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p16",
+          "@type": "sc:Canvas",
+          "label": "14",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cb5d5158-8e40-479c-930e-65b174770ec3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cb5d5158-8e40-479c-930e-65b174770ec3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p16"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/cb5d5158-8e40-479c-930e-65b174770ec3/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p16/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p14",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>14</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>daring rebels. Now hear what the prophet says in<lb/> continuation (verses 43-45):\n                “The land also shall be<lb/> left (desolate) of them, and shall enjoy her\n                    <date>Sabbaths</date><lb/> while she lies desolate without them, and they\n                shall<lb/> accept of the punishment of their iniquity: because,<lb/> even because\n                they despised my judgments, and my<lb/> statutes their souls abhorred. And yet for\n                all that,<lb/> when they are in the land of their enemies, I will not<lb/> cast them\n                away, neither will I abhor them, to destroy<lb/> them utterly, and to break my\n                covenant with them, for<lb/> I am the Lord their God. But I will remember unto<lb/>\n                them the covenant of their ancestors, whom I brought<lb/> forth from the land of\n                    <placeName>Egypt</placeName> in the sight of the heathen,<lb/> that I might be\n                their God; I am the Lord.” The sin,<lb/> the punishment, and the mercy are all here\n                recited; and<lb/> still the promise of an everlasting covenant is held out.<lb/> And\n                for what was the punishment denounced? For a<lb/> disregard of the statutes and\n                judgments of the law;<lb/> which would imply, that there will follow favour and<lb/>\n                mercy if the Israelites were to obey these statutes and<lb/> judgments. Not to speak\n                of the blissful promise that<lb/> our greatest sinning would not cause utter\n                rejection:<lb/> we will confine ourselves to the consideration of the<lb/> unjewish\n                doctrine that obedience to the law should not<lb/> be able to insure salvation,\n                unless something else were<lb/> to be superadded. Let us inquire of our\n                opponents,<lb/> what that something is? They will, as you all know,<lb/> tell us, it\n                is the belief in a mediator, who is to atone for<lb/> our sins, since no man is\n                righteous under the law, and<lb/> he requires a purification and a sacrificing\n                process<lb/> beyond what his own deeds can attain; and since we<lb/> in former times\n                rejected the mediator, when he is said</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p17",
+          "@type": "sc:Canvas",
+          "label": "15",
+          "height": 3196,
+          "width": 2116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cd04a696-34c5-4445-9d52-9da2fcaa3993%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2116,
+                "height": 3196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cd04a696-34c5-4445-9d52-9da2fcaa3993%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p17"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/cd04a696-34c5-4445-9d52-9da2fcaa3993/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p17/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p15",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">15</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>to have appeared, and as professing Jews yet continue<lb/> to reject him, they will\n                make us believe that we are by<lb/> this unbelief condemned to the abhorrence of the\n                Lord,<lb/> even to utter spiritual condemnation, both nationally and<lb/>\n                individually. Before we go to argue the question upon<lb/> its remote merits, such\n                as consistency with divine good-<lb/>ness and mercy, we will bring it down to the\n                standard<lb/> of Scripture; and we will ask, with all due deference to<lb/> the many\n                learned and pious professing Nazarenes, to<lb/> point out to us a single passage in\n                the whole five books<lb/> of <persName>Moses</persName> which even remotely teaches\n                the doctrine of a<lb/> mediator, or which hints that any other atonement is<lb/>\n                needed than a man's own acts, done in obedience to and<lb/> in reliance upon divine\n                wisdom and mercy. It will not<lb/> do to assert that this doctrine is taught by\n                inference and<lb/> obscure allusions; for in a matter concerning our final<lb/>\n                beatitude or condemnation the merciful Father of all<lb/> creatures would not leave\n                doubt or obscurity to perplex<lb/> us in our course through life. We have plain\n                and<lb/> ample directions for our belief in One God, the Author<lb/> and Preserver\n                of all things; we have express injunc-<lb/>tions regarding our own course of life as\n                children of<lb/> God, as descendants from human parentage, and as<lb/> members of a\n                community of beings like ourselves, nay,<lb/> in many instances regarding our\n                conduct towards the<lb/> brute creation; and is it to be believed that, if our\n                salva-<lb/>tion depended upon a belief in a mediator, this idea<lb/> would not have\n                been clearly and distinctly laid down in<lb/> the ten commandments along with the\n                injunction to<lb/> acknowledge the Creator?—Moreover, what Israelite,<lb/> from the\n                mission of <persName>Moses</persName> to the destruction of the<lb/> second temple,\n                ever believed in an adjunct deity? and,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p18",
+          "@type": "sc:Canvas",
+          "label": "16",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9e7b5836-6160-4d9e-8871-24787835c4ba%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9e7b5836-6160-4d9e-8871-24787835c4ba%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p18"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/9e7b5836-6160-4d9e-8871-24787835c4ba/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p18/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p16",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>16</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>consequently, if such a belief were necessary to salva-<lb/>tion, no one of all the\n                Bible personages could have been<lb/> saved, no matter what might have been his\n                piety or the<lb/> favour with which he was regarded by his Maker.—But<lb/> what does\n                this mean? Nothing else than that the Lord<lb/> had given a law which, while in\n                appearance it was a<lb/> means of salvation, failed in its effect, since there\n                was<lb/> another requisite which it does not enjoin, yet without<lb/> which all\n                obedience is in vain. Is this reasonable? can<lb/> the Lord be so unjust, so cruel\n                towards those He alleges<lb/> to love? Moreover, this view would be\n                disconsonant<lb/> with Scriptures, since in many passages we read to the<lb/>\n                following effect: “Ye shall therefore keep my statutes<lb/> and my judgments, which\n                if a man do, he shall live in<lb/> them: I am the Lord.” (Lev. Xviii. 5.) “And when<lb/>\n                <persName>Moses</persName> had made an end of speaking all these words to<lb/> all\n                    <placeName>Israel</placeName>: he said unto them, Set your hearts unto all<lb/>\n                the words which I testify among you this day, that you<lb/> shall command them your\n                children to observe to do all<lb/> the words of this law. For it is not a vain thing\n                for<lb/> you, because it is your life; and through this thing ye<lb/> shall prolong\n                your days in the land, whither ye go over<lb/>\n                <placeName>Jordan</placeName> to possess it.” (Deut. xxxii. 45-47) With<lb/> these\n                extracts the proofs are not exhausted; but enough<lb/> for the present to establish\n                the biblical doctrine that no<lb/> mediator is required to obtain for us salvation;\n                on the<lb/> contrary we are taught that the law, to insure life, is<lb/> neither in\n                heaven nor beyond sea, so that a mediator or<lb/> messenger need be sent to fetch\n                it, but in our mouths<lb/> and our hearts, that we may do it. We repeat\n                there-<lb/>fore the question, how can the Jews have been rejected<lb/> from divine\n                grace, so that whilst adhering firmly to the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p18"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p19",
+          "@type": "sc:Canvas",
+          "label": "17",
+          "height": 3196,
+          "width": 2116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d361f794-bca2-4e61-9737-c9ffc2e39b7d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2116,
+                "height": 3196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d361f794-bca2-4e61-9737-c9ffc2e39b7d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p19"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/d361f794-bca2-4e61-9737-c9ffc2e39b7d/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p19/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p17",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">17</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>law which was <sic>intrusted</sic> to them, they should earn<lb/> eternal\n                condemnation simply because they do not admit<lb/> a doctrine which their Scriptures\n                do not contain?</p>\n            <p rend=\"indent(1)\">In this point of the argument, it is possible we may be<lb/> met by\n                the bold assertion of our antagonists, (I use this<lb/> word as referring only to a\n                mere friendly difference,)<lb/> that granting the old dispensation of the law—so\n                they<lb/> term our code—did not contain the doctrine of a sacri-<lb/>ficed mediator,\n                a new and purer revelation, which unfet-<lb/>tered the world from the curse of\n                bodily obedience, made<lb/> known a safer and easier method of sanctification,\n                by<lb/> teaching the sinner not to regard himself or his deeds as<lb/> of any avail,\n                but to throw himself upon the merits of<lb/> one who had assumed both the curse of\n                the condemna-<lb/>tion under the law pronounced against <persName>Adam</persName>,\n                and re-<lb/>moved the disqualification attendant thereon by his<lb/> voluntary death\n                in expiation of original sin.—I state<lb/> the substance of the doctrine in its\n                strongest bearings.<lb/> Indeed, if this view were scriptural, then might\n                    <placeName>Israel</placeName><lb/> tremble, for by having rejected both the\n                person and the<lb/> assistance of the alleged great personage whom the<lb/>\n                Nazarenes call their messiah, or mediator, or by what<lb/> other name he may be\n                known, they would of necessity<lb/> have rejected the only means of salvation. But,\n                bre-<lb/>thren, there is, there can be no dispensation from the<lb/> Lord differing\n                in aught, even one iota or one tittle, from<lb/> the law of\n                    <persName>Moses</persName>! For what is God? is He a son of<lb/> man, that He\n                should repent? be uncertain in his pur-<lb/>poses? wavering in his will? Did He give\n                a law to<lb/>\n                <persName>Moses</persName>, declare it to be eternal, and yet limit its\n                dura-<lb/>tion to less than two thousand years, when a thousand<lb/> years are in\n                his sight like a yesterday that passeth and</p>\n            <p>2*</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p19"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p20",
+          "@type": "sc:Canvas",
+          "label": "18",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e48f1d04-ead8-4a12-ad75-c2136d543916%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e48f1d04-ead8-4a12-ad75-c2136d543916%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p20"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/e48f1d04-ead8-4a12-ad75-c2136d543916/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p20/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p18",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>18</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>a watch in the night? Can this be the God who spoke<lb/> thus through his servant:\n                “And know therefore this<lb/> day, and reflect in thy heart, that the Lord is the\n                God<lb/> in the heavens above and on the earth beneath; there is<lb/> none else”\n                (Deut. iv. 39)? Ay, “THERE IS NONE<lb/> ELSE!” these are the words, the consolatory\n                assurance<lb/> of the Most High himself. What do they mean, but<lb/> that beside the\n                Lord, <hi rend=\"italics\">the</hi> God of <placeName>Israel</placeName>, there is\n                no<lb/> being to share his power, his glory, his saving mercy?<lb/> Upon whom then\n                does the law bid us to rely for salva-<lb/>tion? The same Power who announced\n                himself to<lb/>\n                <persName>Moses</persName>, when the prophet asked what name he was to<lb/> call his\n                Sender when speaking to the Israelites, “I shall<lb/> be who I shall be;” and again,\n                “I am the everlasting<lb/> One, the God of <persName>Abraham</persName> thy father,\n                and the God of<lb/>\n                <persName>Isaac</persName>,” as was told to <persName>Jacob</persName> when reposing\n                in his pro-<lb/>phetic vision. And how was this everlasting, eternal<lb/> Being to\n                be viewed? Here again the Scriptures come<lb/> to our aid: “Hear, O\n                    <placeName>Israel</placeName>! the Lord our God, the<lb/> Lord is one,” one,\n                sole, omnipotent, working all, creat-<lb/>ing all, ruling all, and saving all. Is\n                there a possibility<lb/> of an adjunct, an associate, an assistant, a being\n                between<lb/> God and man? Again the law speaks in farther con-<lb/>firmation; the\n                prophet in his last song, delivered proba-<lb/>bly on the day of his death, foretold\n                the fearful effects of<lb/> the apostacy, which his mind's eye foresaw and\n                greatly<lb/> dreaded; he introduces the Deity as speaking, denoun-<lb/>cing\n                punishment for rebellion, and as then continuing:<lb/> “See now, that I, I alone am\n                He, and there is no god<lb/> with me, I, I kill and I bring to life, I wound and I\n                heal,<lb/> and there is no one can deliver from my hand. I lift<lb/> up my hands to\n                heaven, and say, As sure as I live for</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p21",
+          "@type": "sc:Canvas",
+          "label": "19",
+          "height": 3196,
+          "width": 2116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e8d8bb53-07d0-416e-96ca-ce5d435ac1e6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2116,
+                "height": 3196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e8d8bb53-07d0-416e-96ca-ce5d435ac1e6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p21"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/e8d8bb53-07d0-416e-96ca-ce5d435ac1e6/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p21/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p19",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">19</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>ever.” (Deut. xxxii. 39, 40.) Do we need farther<lb/> proof? then let us once more\n                refer to the unfailing<lb/> guide we have always at hand: “And the Lord will<lb/>\n                scatter you among the nations, and you shall be left<lb/> few in number among the\n                people whither the Lord will<lb/> lead you.—And if you will seek thence the Lord\n                thy<lb/> God, thou wilt find <hi rend=\"italics\">Him</hi>, if thou wilt seek Him with\n                all<lb/> thy heart and with all thy soul.” (Deut. iv. 27, 29.)—<lb/> All these\n                concurrent texts, scattered through the Penta-<lb/>teuch, explain one the other, and\n                all reject as impossible<lb/> the idea of a sacrifice beyond the person of the\n                sinner<lb/> himself; “I wound and I heal, and there is no one can<lb/> deliver from\n                my hand;” where, we would ask, is an<lb/> exception? if the Lord, the everlasting He\n                condemns,<lb/> if He wounds, who can absolve, who can heal? We<lb/> are promised\n                deliverance by returning from our evil<lb/> ways; yet whom shall we seek? again,\n                “the Lord our<lb/> God,” who announces himself as “One” and “living<lb/> for\n                ever.”</p>\n            <p rend=\"indent(1)\">But, say the Nazarenes, “Your law is but a type, a<lb/>\n                foreshadowing of more glorious things that were to<lb/> follow.” Without at present\n                discussing the truth or<lb/> otherwise of this singular position, we will merely\n                con-<lb/>fine ourselves to a single remark. Admitting for a<lb/> moment the\n                impossible and not to be thought of idea,<lb/> that the unchanging God had\n                communicated a law<lb/> which in its nature was so imperfect that it required\n                to<lb/> be changed: it would still solely apply to ordinances to<lb/> be done and\n                prohibitions to be avoided, for these only<lb/> could by any chance be objects of\n                repeal or change.<lb/> Yet how does this affect the truths of revelation? Can<lb/>\n                the Lord repeal his own <sic>unchangeableness</sic>? can He</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p21"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p22",
+          "@type": "sc:Canvas",
+          "label": "20",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d971829d-a339-410c-adb7-efc76813d71f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d971829d-a339-410c-adb7-efc76813d71f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p22"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/d971829d-a339-410c-adb7-efc76813d71f/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p22/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p20",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>20</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>cease to be one? can He at one time be the sole Sa-<lb/>viour, and require an adjunct\n                at another? can He in<lb/> the least divest himself of one, nay, the smallest\n                prero-<lb/>gative of universal royalty in favour of another? can,<lb/> in short, the\n                holy, the everlasting, uniform, unchanging,<lb/> saving, redeeming God cease to be\n                less than this in any<lb/> manner whatever? A truth is an idea which cannot be<lb/>\n                otherwise, it embraces something which is so and not<lb/> otherwise by any change of\n                circumstance, time or place.<lb/> Now if God at any one time, either past or\n                present, nay<lb/> even future, embraced or should embrace any attribute<lb/>\n                whatever, this same attribute must have been his from<lb/> the commencement, and\n                cannot change to all eternity.<lb/> We therefore demand the proof: Where does the\n                law<lb/> teach us to pray through a mediator, or rather does<lb/> not the law\n                strenuously prohibit any such system of<lb/> idolatry? No proof can be exhibited,\n                for there exists<lb/> none, that God meant to divest himself of a portion of<lb/>\n                his power, admit it even as possible; and whilst the<lb/> law is silent, we cannot\n                believe that another revelation<lb/> gainsaying it in so important a particular can\n                be of<lb/> divine origin. Consequently the fears they would in-<lb/>fluence us with,\n                who say that we are condemned, be-<lb/>cause we rejected the person and mission of\n                their<lb/> mediator, are idle and groundless; for we are com-<lb/>manded over and\n                again: “The Lord thy God thou<lb/> shalt fear, and Him thou shalt serve; to Him\n                shalt<lb/> thou cleave, and by his name shalt thou swear!”<lb/> Yes, brethren! to\n                Him we will cleave; come weal,<lb/> come wo—be the world friendly or frowning—be\n                the<lb/> name of <placeName>Israel</placeName> loved or hated—be\n                    <persName>Jacob's</persName> sons many<lb/> or few—they who fear the Lord, the\n                One, the Eternal,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p23",
+          "@type": "sc:Canvas",
+          "label": "21",
+          "height": 3196,
+          "width": 2116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5834a8bf-d335-4e83-975f-cec1c32c6a86%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2116,
+                "height": 3196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5834a8bf-d335-4e83-975f-cec1c32c6a86%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p23"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/5834a8bf-d335-4e83-975f-cec1c32c6a86/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p23/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p21",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">21</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>the Undying, the Unchanging, will swear by his <hi rend=\"italics\">name</hi>,<lb/> and\n                call Him their Father—their Friend—their Life—<lb/> their Redeemer!</p>\n            <p rend=\"indent(1)\">A holier God than the God of <persName>Abraham</persName>, of\n                    <persName>Isaac</persName><lb/> and of <persName>Jacob</persName>, cannot be\n                imagined; a more evident<lb/> revelation of his will than was proclaimed from\n                    <placeName>Sinai</placeName><lb/> never was witnessed; and consequently a system\n                more<lb/> pure and holy than that embraced in the Mosaic code<lb/> cannot, does not\n                exist. Away then with the appeal so<lb/> shamelessly addressed to us to forsake this\n                code for any<lb/> other, say if you will, it even be purer;—away! tempt<lb/> us not\n                with your wealth, your power, your matrimonial<lb/> alliances with your great\n                families; they are unworthy<lb/> of its light who forsake the law which is ours; and\n                only<lb/> with its extinction can the lamp of <persName>Jacob</persName> be\n                quenched.</p>\n            <p rend=\"indent(1)\">Again says the Nazarene, “If it be as you say, that<lb/> there is\n                but one God and one law given by this God,<lb/> how is it that you, its followers,\n                are so scattered, so long<lb/> oppressed, so long without priest or prophet, temple\n                or<lb/> sacrifice? Is not your dispersion proof positive of your<lb/> rejection from\n                grace? Is it not more than likely that<lb/> before many centuries have elapsed the\n                names of <persName>Jacob</persName><lb/> and <placeName>Israel</placeName> will only\n                belong to history as things that have<lb/> been?” But we answer: Had we never\n                sinned, then<lb/> would dispersion never have been sent as a visitation<lb/> over\n                us; but had we sinned and we been left flourishing<lb/> and at peace in our own\n                land, whilst we defiled it with<lb/> our abominations: then would the word of God\n                not have<lb/> been true. When we sinned, it was absolutely requi-<lb/>site that\n                punishment should be meted out, and the pun-<lb/>ishment threatened was the\n                scattering of our race among<lb/> the gentiles from one end of the earth to the\n                other. The</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p23"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p24",
+          "@type": "sc:Canvas",
+          "label": "22",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d04b472-780d-423d-9603-930e3bbd9e57%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d04b472-780d-423d-9603-930e3bbd9e57%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p24"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/7d04b472-780d-423d-9603-930e3bbd9e57/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p24/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p22",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>22</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>punishment has been literally accomplished thus far;<lb/> yet with all it was told us\n                that in the land of our ene-<lb/>mies the Lord's covenant would remain steadfast\n                and<lb/> unmoved with us. Has this been so? We appeal to<lb/> history, to experience\n                of every age and country, to con-<lb/>firm the well-foundedness of our trust and\n                confidence.<lb/> Have ages of sorrow, of trial, of temptation passed over<lb/> us\n                without consuming us? History answers, Yes; and<lb/> shall we then become\n                fainthearted now, when we are at<lb/> peace? Shall we despair after so many\n                centuries of<lb/> sorrow, fearful to confide in the Lord's promises? Many<lb/> may\n                perhaps be weary of bearing the name which<lb/> marks them children of a hated,\n                crushed and despised<lb/> people; but there are many—millions compared to<lb/>\n                hundreds—who would embrace the burning stake, who<lb/> would welcome the blow of the\n                bared sword, sooner<lb/> than swerve from the acknowledgment of the UNITY of<lb/>\n                God which they have inherited from their fathers—<lb/> sooner than forsake the law\n                which was proclaimed from<lb/> heaven by the omnipotent voice of the undying\n                God!<lb/> Indifference to the commandments is no new thing<lb/> among us; it is this\n                which has twice ruined our temple,<lb/> twice scattered the dwellers of\n                    <placeName>Palestine</placeName> as slaves and<lb/> outcasts over all the earth;\n                and yet every period of<lb/> forgetfulness was followed by one of love for the\n                law.<lb/> Can it be otherwise now? Will not a better spirit<lb/> awaken in the souls\n                of our people when this age of<lb/> worldliness has passed away? Assuredly—if there\n                be<lb/> truth in the word of God—and if even many or all of<lb/> us pass away,\n                before this revival takes place, take place<lb/> it will, and we never need to dread\n                the extinction of a<lb/> race which has so long, so faithfully, so unshrinkingly</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p25",
+          "@type": "sc:Canvas",
+          "label": "23",
+          "height": 3196,
+          "width": 2116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8bfe1c0-c6b7-4c24-9e4b-b4a96eada9dd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2116,
+                "height": 3196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8bfe1c0-c6b7-4c24-9e4b-b4a96eada9dd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p25"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/b8bfe1c0-c6b7-4c24-9e4b-b4a96eada9dd/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p25/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p23",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">23</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>been the witness of God's power, mercy, and provi-<lb/>dence. The prophets no longer\n                speak among us; but<lb/> the prophetic treasures are not forgotten, and if we<lb/>\n                have no priests nor temple, then is the Lord our refuge,<lb/> our sanctuary, and our\n                atonement. This is the per-<lb/>manence of his word; and when the appointed\n                time<lb/> arrives, then will the restoration of all the blessings<lb/> not be\n                wanting, and then will be fulfilled the words we<lb/> have quoted for our text, and\n                which we will repeat as<lb/> a fit conclusion for our to-day's contemplation:\n                “But<lb/> thou—O do not fear, my servant <persName>Jacob</persName>, and be not<lb/>\n                dismayed, O <placeName>Israel</placeName>! for behold, I will surely save thee<lb/>\n                from afar off, and thy seed from the land of their cap-<lb/>tivity; and\n                    <persName>Jacob</persName> shall return, and shall rest, and shall<lb/> be at\n                ease, and none shall make him afraid. Thou—<lb/> do thou not fear, my servant\n                    <persName>Jacob</persName>, saith the Lord, for<lb/> I am with thee; for I will\n                make a full end of all the<lb/> nations whither I have driven thee, but of thee I\n                will<lb/> not make a full end; I will correct thee in judgment,<lb/> yet not suffer\n                thee to go entirely unpunished.”</p>\n            <p rend=\"indent(1)\">O Lord God! indeed we know that our rebellion has<lb/> called down\n                upon us thy wrath and indignation, yet<lb/> have we not forsaken entirely thy\n                covenant, and Thou,<lb/> O our Father! hast also done according to thy promise,<lb/>\n                and not broken with us the oath Thou has sworn to<lb/> our fathers. Let our prayers\n                then ascend to Thee, and<lb/> bless the outcasts of <placeName>Israel</placeName>\n                with thy grace and peace;<lb/> and let us here in thy house welcome many, many<lb/>\n                years of reunion in heart and soul, on the day when<lb/> these doors were first\n                opened to admit the <sic>worshippers</sic><lb/> of thy name at this shrine. And let\n                none be ever</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p26",
+          "@type": "sc:Canvas",
+          "label": "24",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7491ad43-579a-40e6-b662-ed68566258ff%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7491ad43-579a-40e6-b662-ed68566258ff%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p26"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/7491ad43-579a-40e6-b662-ed68566258ff/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p26/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/manifest/annotation/p24",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>24</p>\n            <p rend=\"align(center)\">THE HOPE OF <placeName>ISRAEL</placeName>.</p>\n            <p>wanting here to defend the truth Thou has given us,<lb/> and may this endure until\n                the captives shall return to<lb/>\n                <placeName>Zion</placeName> with songs of triumph and joy because of thy<lb/>\n                renewed goodness through thy servant <persName>David</persName>. Amen.</p>\n            <p><date>Janu. 14</date>,</p>\n            <p><date>Shebat 3, 5602</date>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p27",
+          "@type": "sc:Canvas",
+          "label": "Inside back",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6b766e9a-743c-4abd-a2e5-38ad1cd0f1a9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6b766e9a-743c-4abd-a2e5-38ad1cd0f1a9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p27"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/6b766e9a-743c-4abd-a2e5-38ad1cd0f1a9/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p28",
+          "@type": "sc:Canvas",
+          "label": "Back",
+          "height": 3198,
+          "width": 2114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e3eeacde-7218-40c1-a979-5976a8075b86%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2114,
+                "height": 3198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e3eeacde-7218-40c1-a979-5976a8075b86%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/canvas/p28"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3x922496/assets/e3eeacde-7218-40c1-a979-5976a8075b86/original",
+              "label": "Original File - 20.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

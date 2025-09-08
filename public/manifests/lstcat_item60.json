@@ -1,0 +1,191 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/manifest",
+  "@type": "sc:Manifest",
+  "label": "Print; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p32j68q9g"]
+    },
+    {
+      "label": "Title",
+      "value": ["Print; Philadelphia, PA; undated"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["prints (visual works)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Print"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item60"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/0d248d29-f9ae-4205-a651-f3c5aa49586f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/0d248d29-f9ae-4205-a651-f3c5aa49586f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5352,
+          "width": 3452,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0d248d29-f9ae-4205-a651-f3c5aa49586f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3452,
+                "height": 5352,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0d248d29-f9ae-4205-a651-f3c5aa49586f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/assets/0d248d29-f9ae-4205-a651-f3c5aa49586f/original",
+              "label": "Original File - 55.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">TO THE PUBLIC</p>\n            <p rend=\"align(center)\">THE OCCIDENT,</p>\n            <p rend=\"indent(1)\">The oldest Jewish periodical in the English language, has finished its<lb/>\n                <hi rend=\"italics\">twenty-fifth</hi> volume. Under the able editorship of the late\n                    <persName>Rev. Isaac<lb/> Leeser</persName>, it has become a renowned champion\n                of Judaism, and a successful<lb/> promoter of Jewish literature. It was his earnest\n                wish that its publication<lb/> should be continued after his death. Personally, and\n                in his will, he requested<lb/> the subscriber to take editorial charge of it, and\n                although there were many<lb/> reasons to cause hesitancy in accepting the trust, two\n                circumstances over-<lb/>came his reluctance. The one was a natural anxiety that the\n                desire of his<lb/> lamented friend should be fulfilled, and the other, a conviction\n                that the Jews<lb/> of <placeName>America</placeName> still need an organ which has\n                so long maintained its position.</p>\n            <p rend=\"indent(1)\">Its literary character will be such as to make it attractive to all\n                households,<lb/> and neither pains nor expense will be spared to procure\n                contributions on<lb/> Jewish subjects from persons of talent.</p>\n            <p rend=\"indent(1)\">Its religious position is too well defined to need any explanation.\n                In the<lb/> words of <persName>Mr. Leeser</persName>, “Whatever can promote the\n                welfare of Israelites and<lb/> their faith, shall always find an ardent advocate in\n                it; whatever is hostile to<lb/> either, shall ever meet its decided opposition.”</p>\n            <p rend=\"indent(1)\">To Jewish families, everywhere, who desire to know the events\n                which<lb/> affect their co-religionists in all parts of the world, this work will be\n                a wel-<lb/>come visitor. Hebrew scholars will find its pages enriched with many\n                arti-<lb/>cles instructive even to the learned, and the public generally will\n                receive<lb/> from it information of a character elsewhere unattainable.</p>\n            <p rend=\"indent(1)\">The great and increasing importance of the numerous and influential\n                order<lb/> of B'nai Berith, will be recognized, by the creation of a B. B.\n                department in<lb/> this magazine.</p>\n            <p rend=\"indent(1)\">It appears in monthly parts of at least forty-eight pages octavo,\n                forming,<lb/> at the end of the year, a handsome volume. The price is <hi\n                    rend=\"italics\">Four</hi> Dollars per<lb/> annum, in advance.</p>\n            <p rend=\"indent(1)\">Advertisements will be inserted on the cover at the rate of 25 cents\n                per<lb/> line, for the first insertion; every subsequent one will be charged 20\n                cents.</p>\n            <p rend=\"indent(1)\">Annual cards and school advertisements inserted on special\n                agreement.<lb/> Nothing inserted for less <sic>shan</sic>\n                <hi rend=\"italics\">One</hi> Dollar.</p>\n            <p rend=\"indent(1)\">Obituaries, resolutions, and complimentary notice of any kind, 30\n                cents<lb/> per line; marriage notices $1 each.</p>\n            <p rend=\"indent(1)\">The wide circulation of the <hi rend=\"italics\">Occident</hi> among\n                the Jews, not only in this city<lb/> and country, but also in foreign lands, makes\n                it an excellent vehicle for<lb/> advertisements intended to meet their eyes.</p>\n            <p rend=\"indent(1)\">Liberal inducements will be offered to all who are willing to act as\n                our<lb/> agents, and to clubs.</p>\n            <p rend=\"indent(2)\">Address, <persName role=\"author\">MAYER SULZBERGER</persName>,\n                EDITOR</p>\n            <p rend=\"indent(4)\">29 <hi rend=\"italics\"><placeName>South Sixth St.,\n                        Philadelphia</placeName>.</hi></p>\n            <p rend=\"indent(1)\">\n                <hi rend=\"bold\">SUBSCRIBERS' NAMES. RESIDENCE.</hi>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5382,
+          "width": 3452,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4753f7b8-8593-4e9c-a474-7e8d9ff4341e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3452,
+                "height": 5382,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4753f7b8-8593-4e9c-a474-7e8d9ff4341e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/assets/4753f7b8-8593-4e9c-a474-7e8d9ff4341e/original",
+              "label": "Original File - 56 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">Na<add>?</add> 8/70</p>\n            <table cols=\"3\" rows=\"6\">\n                <row>\n                    <cell>\n                        <persName>David Sulzberger</persName>\n                    </cell>\n                    <cell>12.</cell>\n                    <cell>4.</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Mrs Adler</persName>\n                    </cell>\n                    <cell>12.</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Jacob Sulzberger</persName>\n                    </cell>\n                    <cell>12.</cell>\n                    <cell>2.</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>L Mastbaum</persName>\n                    </cell>\n                    <cell>20.</cell>\n                    <cell>20.</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Joseph Deyoung</persName>\n                    </cell>\n                    <cell>30.</cell>\n                    <cell>5</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Mr Simon</persName>\n                    </cell>\n                    <cell>10.</cell>\n                    <cell/>\n                </row>\n            </table>\n            <p><persName>Mr A Elker</persName> L 20</p>\n            <p rend=\"The following is written upside down at the bottom of the page.\"/>\n            <p>\n                <date>1872</date>\n                <persName>Christina</persName>\n                <persName>Mrs Dunks</persName>\n            </p>\n            <table cols=\"4\" rows=\"8\">\n                <row>\n                    <cell>\n                        <date>April Wed</date>\n                    </cell>\n                    <cell>\n                        <date>10<hi rend=\"sup\">th</hi></date>\n                    </cell>\n                    <cell>1 day</cell>\n                    <cell>1 day</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Thurs</date>\n                    </cell>\n                    <cell><date>11</date>.</cell>\n                    <cell>½</cell>\n                    <cell>1</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Tue</date>\n                    </cell>\n                    <cell>\n                        <date>12</date>\n                    </cell>\n                    <cell>½</cell>\n                    <cell>½</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Tuesd</date>\n                    </cell>\n                    <cell>\n                        <date>16</date>\n                    </cell>\n                    <cell>1</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Wed</date>\n                    </cell>\n                    <cell>\n                        <date>17</date>\n                    </cell>\n                    <cell>½</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Thursd</date>\n                    </cell>\n                    <cell>\n                        <date>18</date>\n                    </cell>\n                    <cell>½</cell>\n                    <cell>½</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Friday</date>\n                    </cell>\n                    <cell/>\n                    <cell>1</cell>\n                    <cell>1</cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell>5</cell>\n                    <cell>4</cell>\n                </row>\n            </table>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68q9g/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

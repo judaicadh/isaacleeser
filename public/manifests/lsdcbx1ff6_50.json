@@ -1,0 +1,239 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Solomon, L.; July 17, 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3db7wg58"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Solomon, L.; July 17, 1849"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Solomon, L. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-07-17"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["5 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["Hebrew", "English"]
+    },
+    {
+      "label": "Location",
+      "value": ["New York (N.Y.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_50", "ilcajs_b1f6_0046"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/89aeda04-4621-428c-87ea-5e6bf3f110ae%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/89aeda04-4621-428c-87ea-5e6bf3f110ae%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5812,
+          "width": 4604,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/89aeda04-4621-428c-87ea-5e6bf3f110ae%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4604,
+                "height": 5812,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/89aeda04-4621-428c-87ea-5e6bf3f110ae%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/assets/89aeda04-4621-428c-87ea-5e6bf3f110ae/original",
+              "label": "Original File - 80.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <add>החיים והשלום ??? ונצחיות לידיד ד וי\"נ ולבי ה\"ה</add>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5812,
+          "width": 4604,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e2f866b-c50e-4f8c-9978-3176eda8281a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4604,
+                "height": 5812,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e2f866b-c50e-4f8c-9978-3176eda8281a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/assets/7e2f866b-c50e-4f8c-9978-3176eda8281a/original",
+              "label": "Original File - 80.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <add>האלוף כלתו כמהורר לידר יאיר לנוף</add>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 4604,
+          "width": 5812,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1d3b6c02-a64c-4d0d-b730-39ef357d27b6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5812,
+                "height": 4604,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1d3b6c02-a64c-4d0d-b730-39ef357d27b6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/assets/1d3b6c02-a64c-4d0d-b730-39ef357d27b6/original",
+              "label": "Original File - 80.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Revd</p>\n                              <p>\n                                        <addressee>I. Leeser</addressee>\n                              </p>\n                              <p>\n                                        <placeName>Philadelphia</placeName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7wg58/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Sabatto, H. I.; Leeser, Isaac, Rev.; San Francisco, CA; 19 December 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3fj2b00f"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Sabatto, H. I.; Leeser, Isaac, Rev.; San Francisco, CA; 19 December 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-12-19"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- San Francisco",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_95"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/f06c410c-a812-4cfb-a95d-65079c85148c%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/f06c410c-a812-4cfb-a95d-65079c85148c%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4550,
+          "width": 3506,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f06c410c-a812-4cfb-a95d-65079c85148c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3506,
+                "height": 4550,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f06c410c-a812-4cfb-a95d-65079c85148c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/assets/f06c410c-a812-4cfb-a95d-65079c85148c/original",
+              "label": "Original File - 48.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">C O P Y</p>\n            <p rend=\"align(right)\"><placeName>San Francisco</placeName>, <date>Dec.\n                19.1854</date>.</p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir:</p>\n            <p rend=\"indent(2)\">I received yours of late date by last steamer and conveyed the<lb/>\n                various respects to your friends as desired. <persName>Mr. Mason's</persName> Estate\n                I regret to inform<lb/> you will not pay even borrowed money &amp; therefore you can\n                scarcely expect pay.<lb/> However I will do my utmost.</p>\n            <p rend=\"indent(1)\">Relative to your letter about ministers let me explain.\n                    <persName>Dr. Eckman</persName> came<lb/> out here on his own hook &amp;\n                unexpectedly. When he married me in <placeName>N. O.</placeName> I gave him<lb/> no\n                encouragement for I knew he would not suit our people. I then heard from<lb/>\n                <persName>Mr. Gutheim</persName> that a friend of his would probably be taken up.\n                    <persName>Dr. E.</persName> knew this,<lb/> but took the chances. He was not\n                elected here until we heard <persName>Dr. Steinberg</persName><lb/> could or would\n                not come, for what reasons we are childishly ignorant. <persName>Dr. E.</persName>\n                only<lb/> received 26 votes, the 7 others blank. The salary of $3500 was reduced\n                to<lb/> $2000, &amp; the term of 3 years was reduced to <hi rend=\"underline\"\n                    >one</hi>. Even at these sacrifices the<lb/> few who upheld him found it\n                difficult to elect him &amp; we had to debate &amp; debate<lb/> until eleven o'clock\n                at night &amp; by skill and ingenuity crowd down the opposi-<lb/>tion. The sequel\n                will prove how worthy he has repaid them their labor. I was,<lb/> when I saw no\n                other minister on hand, eager to take up the <persName>Doctor</persName> in order\n                that<lb/> as a synagogue we might have a head &amp; a respectable one. My father,\n                    <persName>Louis</persName>, <persName>Cohn</persName>,<lb/>\n                <persName>Sam</persName>, <persName>Marx</persName> &amp; others will attest how\n                earnestly we labored together &amp; fought the<lb/>\n                <persName>Doctor</persName> through.</p>\n            <p rend=\"indent(1)\">Previous to the building of the Synagogues which exist at\n                present<lb/> we had one Shochet &amp; each congregation paid $12.50 per month, &amp;\n                the butchers so<lb/> much per head, making it sufficient to support a man, but\n                lately the increase<lb/> in the butcher business has been so good that our\n                congregation determined to<lb/> suspend the payment of $12.50 &amp; of licensing two\n                Shochtim, as the revenue proved<lb/> to be by examining the butchers themselves,\n                over two hundred and fifty dollars<lb/> per month, and in case of <hi\n                    rend=\"underline\">sickness</hi> one could resume the other's position. We<lb/>\n                gave no preferences, no recommendations. We appointed <persName>Mr.\n                    Messenger</persName> &amp; <persName>Mr. Gold-<lb/>smith</persName> and allowed\n                butchers to select their own<lb/> Shochet, of the two, <persName>Mr. M.</persName>\n                However belonging to our Synagogue and <persName>Mr. G.</persName> to<lb/> the\n                Polish. <persName>Mr. M.</persName> came to us with 3 Robolahs from\n                    <placeName>Europe</placeName> and superior<lb/> recommendations. I myself would\n                not vote for both until I carefully examined<lb/> &amp; found the business would\n                support two. When we sent to <persName>Dr. Eckman</persName> to examine<lb/> these\n                men he refused to examine <persName>Mr. Messenger</persName> &amp; sent us a long\n                article about<lb/> the necessary requisitions for Schochet, failing, however, to\n                tell us that<lb/>\n                <persName>Mr. M.</persName> had not proved competent. We replied (<persName>Dr.\n                    Eckman</persName> was then &amp; is now<lb/> boarding at <persName>Mr.\n                    Goldsmith</persName>) that as <persName>Dr. E.</persName> wishes such a standard\n                for Shochtim &amp;<lb/> we the trustees believed no man in\n                    <placeName>California</placeName> was competent to stand the test<lb/> &amp; we\n                must have a Shochet rather than none, such as we have always had, we<lb/> appointed\n                three of our Congregation to examine the candidates, men who always<lb/> examined\n                them, previous to the arrival of <persName>Dr. Eckman</persName> in\n                    <placeName>California</placeName>. These men<lb/> examined <persName>Mr.\n                    Messinger</persName> and pronounced him skilfull &amp; highly competent.\n                    <persName>Mr. Gold-<lb/>smith</persName> sent us a communication which evidently\n                was dictated by the<lb/>\n                <persName>Doctor</persName>, saying in short he would not be examined by those men.\n                Wherefore the<lb/> Trustees rescinded his appointment. What was our astonishment to\n                find <persName>Dr. E.</persName><lb/> publish a card in the morning papers\n                nullifying the act of the Trustees, who<lb/> created him, and pronouncing against us\n                &amp; in favor of a foreign congregation with-<lb/> out our knowledge &amp; consent\n                &amp; virtually injuring <hi rend=\"underline\">a man</hi> whom <hi rend=\"underline\"\n                    >he</hi> did not <hi rend=\"underline\">deign</hi> to<lb/> question. <persName>Dr.\n                    E.</persName> said he did not keep his <date>Sabbaths</date> previous to\n                election, whereas<lb/> we know it was utterly out of his power to do so as his bread\n                depended on it.<lb/>\n                <persName>Dr. E.</persName> has been coalesced with Shochet\n                    <persName>Goldsmith</persName> &amp; has violently opposed his own congregation.\n                A Trustee meeting is to be held &amp; they are the <persName>Doctors</persName>\n                warmest<lb/> supporters. I learn they intend to request the\n                    <persName>Doctor</persName> to resign. He who was so</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4550,
+          "width": 3506,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4dcabfa5-7810-4087-9130-43b6e3c428c2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3506,
+                "height": 4550,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4dcabfa5-7810-4087-9130-43b6e3c428c2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/assets/4dcabfa5-7810-4087-9130-43b6e3c428c2/original",
+              "label": "Original File - 48.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">-2-</p>\n            <p>unpopular &amp; was elected by such a struggle &amp; such sacrifices has in 6\n                short<lb/> weeks make himself outrageously inimical to the whole congregation. I\n                hear but<lb/> two opinions, one asking him to resign, the other dismissing him from\n                his post.</p>\n            <p rend=\"indent(1)\">In a country it was in the <persName>Doctor's</persName> province to\n                endear himself<lb/> to a warm &amp; ardent congregation, but he has chosen the\n                opposite. Yesterday in<lb/> conversation the <persName>Doctor</persName> was advised\n                by my father and myself to be careful of his<lb/> actions that the congregation were\n                very uneasy about the Shochet matter &amp; his<lb/> position &amp; <hi\n                    rend=\"underline\">might</hi> censure him. He said on that subject he courted\n                their censure<lb/> &amp; forthwith proclaimed to the world through the papers that\n                we were all fools &amp;<lb/> knew not what we did that our Shochet was no Shochet\n                &amp; his Shechilah to be<lb/> Terephah. (see publication).</p>\n            <p rend=\"indent(1)\">I enclose you the publication with the notes there that seem\n                proper.<lb/> I regret this matter on the <persName>Doctor's</persName> account.</p>\n            <p rend=\"indent(1)\">I regret to add <persName>Dr.'s</persName> statement is false in\n                many respects, as probably<lb/> his information was derived from <persName>Mr.\n                    Goldsmith</persName>.</p>\n            <p rend=\"indent(1)\">In the first place the <persName>Doctor</persName> is not legally\n                our Rabbi, he never was<lb/> so elected.</p>\n            <p rend=\"indent(1)\">In the second, <persName><sic>Dr.E.</sic></persName> never\n                questioned <persName>Messinger</persName>, but merely listened<lb/> to calummy.</p>\n            <p rend=\"indent(1)\">In the third, he had no recourse to any expedient. The Trustees\n                did<lb/> so authorize him to appear before the three members without <persName>Mr.\n                    Messinger</persName><lb/> being aware of their action.</p>\n            <p rend=\"indent(1)\">In the fourth, the Congregation have adopted to eat meat of no\n                other<lb/> Shochet than <persName>Messinger</persName> &amp; we boast as religious\n                men as any in the world,<lb/> perhaps not more so.</p>\n            <p rend=\"indent(1)\">There will be a sequel to this of which I shall keep you\n                advised.</p>\n            <p rend=\"indent(1)\">Upon these remarks you may be certain <persName>Dr. E.</persName>\n                cannot be reelected<lb/> at the end of the year &amp; if you know of any competent\n                minister who of their<lb/> own accord or at your suggestion will visit\n                    <placeName>San Francisco</placeName> &amp; when here will act<lb/> prudently\n                they would do well to come out.</p>\n            <p rend=\"indent(10)\">Yrs truly</p>\n            <p rend=\"indent(8)\">(signed)    <persName role=\"author\">H. I. Sabatto</persName>.</p>\n            <p rend=\"indent(12)\">\n                <persName>Labatt</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4550,
+          "width": 3506,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fa93e426-889c-448f-b8a0-070c8a324acf%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3506,
+                "height": 4550,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fa93e426-889c-448f-b8a0-070c8a324acf%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/assets/fa93e426-889c-448f-b8a0-070c8a324acf/original",
+              "label": "Original File - 48.1 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4550,
+          "width": 3506,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/05ee703e-07bb-4b4b-b011-9ff4000558e3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3506,
+                "height": 4550,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/05ee703e-07bb-4b4b-b011-9ff4000558e3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj2b00f/assets/05ee703e-07bb-4b4b-b011-9ff4000558e3/original",
+              "label": "Original File - 48.1 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

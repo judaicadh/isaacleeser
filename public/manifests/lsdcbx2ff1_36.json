@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Alexander, A.; Leeser, Isaac, Revd.; Atlanta[?]; 21 April 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3td9nv1j"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Alexander, A.; Leeser, Isaac, Revd.; Atlanta[?]; 21 April 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-04-21"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Georgia -- Atlanta",
+        "United States -- Georgia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_36"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/991303fe-2d44-4fe3-9db0-31d65813d663%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/991303fe-2d44-4fe3-9db0-31d65813d663%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4710,
+          "width": 3678,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/991303fe-2d44-4fe3-9db0-31d65813d663%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3678,
+                "height": 4710,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/991303fe-2d44-4fe3-9db0-31d65813d663%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/assets/991303fe-2d44-4fe3-9db0-31d65813d663/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Atlanta</placeName>\n                                        <date>Apl 21<hi rend=\"sup\">st</hi> 1854</date>.</p>\n                              <p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">Dear Sir</p>\n                              <p rend=\"indent(2)\">I received the Box sent<lb/> to my address after\n                                        some delay, but up<lb/> to this time I have not distributed\n                                        the<lb/> Bibles strictly in accordance with your<lb/>\n                                        instructions, as an opportunity offered to<lb/> dispose of\n                                        Two. I have taken the liberty of fur=<lb/>=nishing the\n                                        parties, and it is likely I shall<lb/> sell one or two\n                                        more—at all events the <persName>Revd<lb/> I.\n                                                  Shaty<add>?</add></persName> shall be furnished\n                                        with his copy,<lb/> as I learn he is about leaving\n                                                  <placeName>Augusta</placeName>.<lb/> If <del>it\n                                                  be</del> necessary I will advise you of<lb/> more\n                                        are required to furnish your subscribers<lb/> through\n                                                  me—<persName>Col Mitchell</persName> is absent from<lb/>\n                                        <placeName>Athens</placeName>, but I shall send his copy by\n                                        the<lb/> first opportunity. I think a <persName>Mr\n                                                  <add>?</add></persName><lb/> will take a copy as\n                                        soon as he returns<lb/> home, as he has expressed great\n                                        anxiety<lb/> to have one, but has been absent since<lb/> I\n                                        have been in receipt of them.</p>\n                              <p rend=\"indent(1)\">Enclosed please find check<lb/> on <placeName>New\n                                                  York</placeName> for amts collected on yr.<lb/>\n                                        account. <persName>A I Brady</persName> Bible $9. subscr $6 $15.<lb/>\n                                        <persName>I Mayer</persName> subscript $11.\n                                                  <persName>Frankford</persName> $6. 12<lb/>\n                                        <persName>Brown</persName>     Do         $6\n                                                     <persName>Lazarus</persName>.   $6. 12.<lb/>\n                                        <persName>Lazaron</persName> 1 Bible $8. <persName\n                                                  role=\"author\">A Alexander</persName> Balance &amp;\n                                        Subscription $8. 26<lb/>\n                                        <persName role=\"author\">A Alexander</persName> 1 Bible\n                                        9<lb/> ½ pr ct premium on check 37 $73.63/100 $74</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4710,
+          "width": 3678,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c37365ff-6b42-41a2-8ed8-ea99bfcb8abe%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3678,
+                "height": 4710,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c37365ff-6b42-41a2-8ed8-ea99bfcb8abe%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/assets/c37365ff-6b42-41a2-8ed8-ea99bfcb8abe/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><persName>Mr I. Mayer</persName> has taken a Bible c $9.00<lb/>\n                                        which please charge him with, as soon<lb/> as I can sell the\n                                        others or collect for you<lb/> a check shall be sent. I wish\n                                        it was in my<lb/> power to assist you in your Payments,\n                                        but<lb/> times are so dull that it is extremely\n                                        diffi<lb/>-cult for me to get on with my own, as we<lb/>\n                                        have no facility for getting money apart<lb/> from sales, as\n                                        collections cannot be made</p>\n                              <p rend=\"indent(1)\">You will please charge me with the<lb/> Prayer\n                                        Books as I cannot spare the amt<lb/> for them at the\n                                        present. I fear <persName>Dia's</persName><lb/> Letters will\n                                        not sell in <placeName>Atlanta</placeName>, as I<lb/> cannot\n                                        induce any of our people to take<lb/> a copy, and of course\n                                        those of the adverse<lb/> faith will not. I delivered your\n                                        message<lb/> to <persName>Mr Mayer</persName>, and no doubt\n                                        under the cir=<lb/>cumstances he will excuse you for\n                                        not<lb/> replying. You will please excuse all errors<lb/> as\n                                        I have no clerk and am obliged to have<lb/> the titles and\n                                        wait upon all customers<lb/> who present themselves.\n                                                  <persName>Mrs. A.</persName>\n                                        <add>?</add>\n                                        <persName>Mrs B.</persName><lb/> and all your friends unite\n                                        in presenting<lb/> to you their kind regards, and with\n                                        the<lb/> tender of my services in what ever way<lb/> you can\n                                        make them available</p>\n                              <p rend=\"indent(10)\">I am yours Truly</p>\n                              <p rend=\"indent(10)\">\n                                        <persName role=\"author\">A. Alexander</persName>\n                              </p>\n                              <p>I have no time to write</p>\n                              <p>and correct my letters</p>\n                              <p>so take this for what</p>\n                              <p>it may be worth</p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3td9nv1j/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

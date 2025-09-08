@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 17 August 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3ms3kn06"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 17 August 1857"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-08-17", "17 August 5617"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF4_64"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/414d4222-2acb-4921-9603-398ee8953e32%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/414d4222-2acb-4921-9603-398ee8953e32%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3790,
+          "width": 3272,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/414d4222-2acb-4921-9603-398ee8953e32%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3272,
+                "height": 3790,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/414d4222-2acb-4921-9603-398ee8953e32%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/assets/414d4222-2acb-4921-9603-398ee8953e32/original",
+              "label": "Original File - 37.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Montreal</placeName>\n                <date>17<hi rend=\"sup\">th</hi> August 5617</date>.</p>\n            <p>\n                <addressee>Rev Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir</p>\n            <p rend=\"indent(2)\">I am much obliged to you for your<lb/> testimonial in favor of\n                    <persName>Mr Alber<add>?</add></persName>. He is unquestionably<lb/> a well\n                educated, talented man, but very <hi rend=\"underline\">bashful</hi>—a<lb/> quality\n                not possessed by many of our Drs in the present day.<lb/> I wrote\n                    <persName>Wellington Hart</persName> in his behalf for the office of\n                Teacher<lb/> in <placeName>Milwaukee</placeName>, and <persName>Mr A.</persName> has\n                left <placeName>Montreal</placeName> for that place<lb/> having been elected “in\n                preference to others” as <persName>Mr Otterburg</persName> wrote<lb/> him. He is\n                nearer <placeName>Chicago</placeName> &amp; some other western places<lb/> and will\n                have better opportunity to judge for himself.<lb/> It would be a difficult thing to\n                counteract <persName>U's</persName> prayer book<lb/> It will have its run, until cut\n                out by some other. People<lb/> like abridgments nowhere better than in Prayer Books\n                &amp; <persName>W's</persName> as I learned<lb/> is short enough in all conscience.\n                The synagogue in <placeName>America</placeName><lb/> is fast approaching the state\n                of the Protestant church there—<lb/> Presently there will be a “no prayer book” no\n                ritual at all” proposed<lb/> by some, Extensive prayer being so superior, as they\n                will assert,<lb/> Indeed I should not be at all surprised to find the doctrines\n                of<lb/> Mormonism advocated by some Drs—at least polygamy<lb/> for I am told that\n                one of our celebrated nothingarians<add>?</add> lives with<lb/> his wife in as\n                bellicose a state as any dog &amp; cat could desire<lb/>—and what a pleasant thing\n                it would be after swilling lager<lb/> -bier or schnapps to go home where if one wife\n                was<lb/> in the blues another might be all smiles. The truth is we<lb/> have too\n                many “carnal minded Jews” in our midst. It is the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3790,
+          "width": 3272,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3f9129ef-d22b-406c-be09-e38dd17f9a28%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3272,
+                "height": 3790,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3f9129ef-d22b-406c-be09-e38dd17f9a28%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/assets/3f9129ef-d22b-406c-be09-e38dd17f9a28/original",
+              "label": "Original File - 37.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>peoples fault as much as the Doctors, or could the latter play<lb/> the antics they\n                do? Eating on a <add>תענית כפור</add>—smoking on a <add>שבת</add><lb/> I have heard\n                some curious accounts of the doings of some of these<lb/>\n                <add>שבחי הדור</add>, but I have too much confidence in the divine<lb/> strength of\n                our holy faith to suppose that such a set can<lb/> at all injure it permanently. She\n                may have to witness some<lb/> “sorry sights” but they will not remain to blast our\n                vision<lb/> longer than <persName>Banquo's</persName> ghost. I am not at all afraid,\n                nor do I<lb/> despond. Good will yet come of all the evil we see or fancy—<lb/> and\n                Judaism will remain intact though it has to withstand blows<lb/> ten thousand times\n                fiercer than those now <sic>levelled</sic> at it by hyper<lb/>-orthodox or ultra\n                heterodoxy. The middle <add>?</add>—as <add>ברחבה</add> in his<lb/>\n                <add>ח' פרצים</add> so strongly recommends, we must <add>?</add>. It is the\n                safest<lb/> because it is the truest; This is the cause I would like to<lb/> see our\n                Editors follow. We have fanatics on both sides and both<lb/> are destructives.</p>\n            <p rend=\"indent(1)\">You are mistaken or rather misinformed of the<lb/> engagement of\n                young <persName>Archer<add>?</add></persName> &amp; <persName>Louisa\n                    Joseph</persName>. It is his cousin<lb/> young <persName>Altman</persName> whom\n                people call the happy man—but we<lb/> have heard yet nothing official. Your plan of\n                making the<lb/> Occident weekly is something new again; have you abandoned<lb/> the\n                Advocate enterprise altogether? I have had inquiries made<lb/> about it, and I told\n                them it was delayed. I send you by this<lb/> mail a pamphlet my father denied me to\n                send you—the life<lb/> of <persName>Reggio</persName> written by my father <hi\n                    rend=\"underline\">in Dutch</hi> for the Dutch Jewish<lb/> paper—but it is all\n                Dutch to me, and I would be very<lb/> glad to see an English version of it in the\n                Occident by your<lb/> Dutch translator of <persName>Dr. Mulder</persName>. The\n                subject is very interesting<lb/> and I am satisfied ably &amp; learnedly handled. My\n                father writes<lb/> he had some little difficulty in writing Dutch after so many\n                years.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3790,
+          "width": 3272,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d215a8c-de12-4c79-a280-9b43a5c972b0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3272,
+                "height": 3790,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d215a8c-de12-4c79-a280-9b43a5c972b0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/assets/8d215a8c-de12-4c79-a280-9b43a5c972b0/original",
+              "label": "Original File - 37.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">We are honored just now with the meetings of the American<lb/>\n                Association for the promotion of Science;—the most troublesome move<lb/> is of\n                course in <placeName>Philadelphia</placeName>. <persName>Professor Hare</persName>,\n                the inventor of great<lb/> things no doubt &amp; <hi rend=\"underline\"\n                    >questionless</hi> a clever man—very <sic>clayver</sic> as <persName>Lord<lb/>\n                    Verisopht</persName> says—but what makes me think him now a little\n                    <add>משוגע</add><lb/> is that in opening a door with a couple of friends the\n                other evening<lb/> at a Soiree given to the association by the Natural History\n                Society, we<lb/> found him <add>?</add> at <hi rend=\"underline\">table turning</hi>\n                &amp;c. Do you know him? I have<lb/> made the acquaintance of several of the\n                    <add>?</add> among them <persName>Dr<lb/> Benedict</persName> of <placeName>New\n                    Orleans</placeName>—a friend of <persName>Gutheims</persName>. <persName>Dr\n                    Thomson</persName> of<lb/>\n                <placeName>New York</placeName> who knows <persName>Raphall</persName> &amp; others.\n                I am now employed (or will<lb/> be when I done<add>?</add> this) in giving some\n                information on Jewish Coinage<lb/> for <persName>Mr Gillbon</persName>\n                <placeName>N. C. U. S.</placeName> mint. The City is full—every hotel<lb/> boarding\n                house crowded—I wish you had roped over when in<lb/>\n                <placeName>Detroit</placeName> &amp; remained if only to be present at the opening\n                of the Association;<lb/> I give some time to it as I have become a member, and hope\n                to profit<lb/> by the <add>?</add>thrological departure.</p>\n            <p rend=\"indent(1)\">I trust this will meet you restored to perfect health<lb/> and\n                strength, and wishing you <add>כל השאלות לבך לטובה</add></p>\n            <p rend=\"indent(10)\">I am yours truly</p>\n            <p rend=\"indent(11)\">\n                <persName role=\"author\">Abraham de Sola</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn06/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

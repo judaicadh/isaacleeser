@@ -1,0 +1,216 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Myers, K[?]; Light, Michael; Leeser, Isaac; Myers, K[?]; 5 June 1864",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3mp4w759"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Myers, K[?]; Light, Michael; Leeser, Isaac; Myers, K[?]; 5 June 1864"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Light, Michael", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1864-06-05", "16 June 1864"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Jamaica -- Kingston; United States -- New York -- New York",
+        "Jamaica",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF11_65"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/50aee89f-fc6c-43bf-92dc-6dbc7432154c%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/50aee89f-fc6c-43bf-92dc-6dbc7432154c%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4612,
+          "width": 3634,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/50aee89f-fc6c-43bf-92dc-6dbc7432154c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3634,
+                "height": 4612,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/50aee89f-fc6c-43bf-92dc-6dbc7432154c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/assets/50aee89f-fc6c-43bf-92dc-6dbc7432154c/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <hi rend=\"underline\">Copy</hi>\n            </p>\n            <p rend=\"indent(9)\">\n                <placeName>Kingston Jamaica</placeName>\n                <date>June 5/64</date>\n            </p>\n            <p rend=\"indent(1)\">\n                <addressee>Mr. Light</addressee>\n            </p>\n            <p rend=\"indent(3)\">\n                <placeName>New York</placeName>\n            </p>\n            <p rend=\"indent(2)\">Dear Sir!</p>\n            <p>It is with extreme regret that I am compelled<lb/> to announce to you the\n                    <sic>impossibity</sic> of my<lb/> husband's addressing you by this present<lb/>\n                Packet leaving today in consequence<lb/> of his having this morning commenced<lb/>\n                to <add>Hebrew</add> having by English mail<lb/> of yesterday received the\n                melancholy<lb/> intelligence of the death of his Revd<lb/> Father <add>Hebrew</add>.\n                    <sic>The</sic> however desires his regrets<lb/> to you and begs you will in his name<lb/>\n                <add>?</add> the unfortunate news to his respected<lb/> friend <persName>Revnd\n                    Isaacs</persName> also with his best<lb/> regards</p>\n            <p rend=\"indent(1)\">I am Sir</p>\n            <p rend=\"indent(2)\">respectfully</p>\n            <p rend=\"indent(3)\">yours</p>\n            <p rend=\"indent(2)\">\n                <persName role=\"author\">K<add>?</add> Myers</persName>\n            </p>\n            <p>P.S.</p>\n            <p>Pray request <persName>Rev Isaacs</persName> an obituary<lb/> inserted in messenger\n                and <persName>Rev Leeser</persName><lb/> in Occident. His respected Father's<lb/>\n                name was <persName>Moses. H. Myers</persName>, aged 62,<lb/>\n                <del>my</del> over 30 years head master of Jewish<lb/> Free School,\n                    <placeName>London</placeName> and one of the Ministers of<lb/> the great\n                Synagogue of the same city.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4612,
+          "width": 3634,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/442febe7-19c5-41ba-ad4f-8ff8c0dcefb6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3634,
+                "height": 4612,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/442febe7-19c5-41ba-ad4f-8ff8c0dcefb6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/assets/442febe7-19c5-41ba-ad4f-8ff8c0dcefb6/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>New York</placeName>\n                <date>June 16th 1864</date>.</p>\n            <p>\n                <addressee>Rev Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(3)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p>\n                <add>Hebrew</add>\n            </p>\n            <p rend=\"indent(1)\">\n                <persName role=\"author\">Michael Light</persName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>94<add>?</add> East Broadway</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mp4w759/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

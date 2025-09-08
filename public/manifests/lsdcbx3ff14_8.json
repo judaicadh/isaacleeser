@@ -1,0 +1,260 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Corinna[?]; Leeser, Isaac, Rev.; Cape Island, USA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3pg1j508"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Corinna[?]; Leeser, Isaac, Rev.; Cape Island, USA; undated"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF14_8"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/adb5463d-d6af-415e-8f48-ec46604569ce%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/adb5463d-d6af-415e-8f48-ec46604569ce%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4732,
+          "width": 4100,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/adb5463d-d6af-415e-8f48-ec46604569ce%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4100,
+                "height": 4732,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/adb5463d-d6af-415e-8f48-ec46604569ce%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/assets/adb5463d-d6af-415e-8f48-ec46604569ce/original",
+              "label": "Original File - 58.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Cape Island</placeName>\n                <date>1st July</date>.</p>\n            <p>My dear <addressee>Mr Leeser</addressee></p>\n            <p rend=\"indent(2)\">I write this to say “how<lb/> do you do,” &amp; “good bye” I was\n                quite<lb/> sorry I did not see you before our<lb/> departure. How did you enjoy<lb/>\n                yourself ? Did you see many friends?<lb/> When you write tell me all about<lb/> your\n                visit (I have forgotten the place<lb/> that you went to was it\n                    <placeName>Baltimore</placeName><lb/> or <placeName>Salem</placeName>) The only\n                news that I can<lb/> write about will concern all of our<lb/> family for I <hi\n                    rend=\"underline\">flatter</hi> myself that<lb/> you would be more interested\n                in<lb/> our affairs that in strangers.<lb/> The weather has been delightful<lb/> so\n                cool we bathe every day<lb/> expect the bathing will be a great<lb/> deal better\n                next week on account<lb/> of the tide being higher (the tide is<lb/> regulated by\n                the moon)</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4732,
+          "width": 4100,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/61fd6a30-0b01-4b2f-bce4-b54899ac17d0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4100,
+                "height": 4732,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/61fd6a30-0b01-4b2f-bce4-b54899ac17d0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/assets/61fd6a30-0b01-4b2f-bce4-b54899ac17d0/original",
+              "label": "Original File - 58.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>The other morning <persName>Selina</persName> &amp; myself<lb/> were bathing were\n                were not looking<lb/> at the breakers &amp; before we could<lb/> do anything down we\n                went flat.<lb/> I was dreadfully frightened I<lb/> tried to\n                    <sic>calck</sic><add>?</add> me but could<lb/> not at last a swell came\n                &amp;<lb/> that brought me to the top<lb/> I swallowed a pint of<lb/> salt water.\n                All my friends<lb/> tell me they think I am look<lb/>ing a great deal better when\n                I<lb/> was here a day or two I weighed 86 &amp; this morning I weighed<lb/> 88—you\n                can judge for your<lb/>self when we meet which I<lb/> hope will be soon you\n                better<lb/> think of coming down it would<lb/> be a great benefit to you to<lb/>\n                smell some fresh pure<lb/> salt air. I must now bid you<lb/> good bye as ma wants to\n                write</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4732,
+          "width": 4100,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/797fbc4c-f3a3-46ef-8549-18c9e8685444%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4100,
+                "height": 4732,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/797fbc4c-f3a3-46ef-8549-18c9e8685444%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/assets/797fbc4c-f3a3-46ef-8549-18c9e8685444/original",
+              "label": "Original File - 58.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Ma &amp; <persName>Selina</persName> send their love to you<lb/> hoping to see you\n                soon.</p>\n            <p rend=\"indent(7)\">I remain your fond</p>\n            <p rend=\"indent(8)\">friend</p>\n            <p rend=\"indent(8)\">\n                <persName role=\"author\">Corinna</persName>\n            </p>\n            <p>P. S. Kiss <persName>Dew Drop</persName> for me tell<lb/> her to <hi rend=\"underline\"\n                    >write me</hi> a letter.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pg1j508/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

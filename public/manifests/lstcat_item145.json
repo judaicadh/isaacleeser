@@ -1,0 +1,293 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/manifest",
+  "@type": "sc:Manifest",
+  "label": "Print; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p31834p19"]
+    },
+    {
+      "label": "Title",
+      "value": ["Print; Philadelphia, PA; undated"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["prints (visual works)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Print"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item145"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/190c9159-aaf4-45a5-85d9-bac10f7683f2%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/190c9159-aaf4-45a5-85d9-bac10f7683f2%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6850,
+          "width": 5304,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/190c9159-aaf4-45a5-85d9-bac10f7683f2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5304,
+                "height": 6850,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/190c9159-aaf4-45a5-85d9-bac10f7683f2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/assets/190c9159-aaf4-45a5-85d9-bac10f7683f2/original",
+              "label": "Original File - 109 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">TRANSLATION OF THE BIBLE</p>\n            <p rend=\"align(center)\">TO BE PUBLISHED BY</p>\n            <p rend=\"align(center)\">The Jewish Publication Society of\n                <placeName>America</placeName></p>\n            <p><persName role=\"author\">REV. DR. M. JASTROW</persName>, </p>\n            <p>Editor, </p>\n            <p><placeName>139 W. Upsal St., Germantown</placeName>,</p>\n            <p>\n                <placeName>Philadelphia, Pa.</placeName>\n            </p>\n            <p rend=\"align(right)\">Revision Committee</p>\n            <p rend=\"align(right)\">\n                <persName>REV. DR. K. KOHLER</persName>\n            </p>\n            <p rend=\"align(right)\">\n                <persName>REV. DR. F. DE SOLA MENDES</persName>\n            </p>\n            <p rend=\"align(center)\">INSTRUCTIONS</p>\n            <p rend=\"align(center)\">TO THE TRANSLATORS</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6922,
+          "width": 5304,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/06e94f00-a1e0-491f-ba5e-abb903003a8f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5304,
+                "height": 6922,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/06e94f00-a1e0-491f-ba5e-abb903003a8f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/assets/06e94f00-a1e0-491f-ba5e-abb903003a8f/original",
+              "label": "Original File - 110 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">The new translation of the Bible has been undertaken with the object\n                of obtaining a<lb/> version of the Holy Scriptures, which, while taking full account\n                of the results of modern<lb/> research, shall be characterized by the simplicity of\n                a book to be used in the home and at<lb/> public worship. As the Jew considers the\n                original text alone invested with authority, it should<lb/> be our aim to approach\n                it as nearly as possible, and for that purpose we should avail ourselves<lb/> of the\n                extensive fund of traditional and philological interpretations in our\n                possession.</p>\n            <p rend=\"indent(1)\">(I) Inasmuch as some basis must be adopted to secure uniformity of\n                style, and as<lb/> the only complete English translation prepared for Jews and\n                embodying Jewish traditions<lb/> and conceptions is that known as the\n                    <persName>Leeser</persName> Bible, this version has been chosen to serve<lb/> as\n                a foundation for the proposed work. At the same time the translators are expected\n                to<lb/> consult the “Authorized Version” and the “Revised Version,” the former as\n                the undisputed<lb/> guide for diction and the rhythmic flow of language, the latter\n                because of its correction of<lb/> many erroneous renderings in the older versions in\n                accordance with the advance of scholar-<lb/>ship since the days of <persName>King\n                    James</persName>. After the Editor and the Revision Committee have<lb/> done\n                their work, it will be handed over to the style editors for final revision.</p>\n            <p rend=\"indent(1)\">(2) Whenever a departure from the usual conception of a passage or\n                word is made,<lb/> the reasons should be briefly stated to the editor. If found\n                necessary, they will be<lb/> printed in an appendix of notes at the end of the whole\n                book. It should be borne in<lb/> mind, however, that certain poetical expressions,\n                correct and incorrect ones (as <hi rend=\"italics\">e. g.</hi>, “the<lb/> valley of\n                the <hi rend=\"italics\">shadow of death</hi>”), are so firmly rooted in literature\n                that a change would<lb/> be a loss.</p>\n            <p rend=\"indent(1)\">(3) In view of the recent investigations in the departments of\n                Hebrew philology and<lb/> biblical exegesis, it will be necessary to compare\n                carefully the new commentaries with the<lb/> older ones for every verse—the method\n                that has given value to the English-American<lb/> Revised Version of the\n                    <persName>King James</persName> Bible. In this connection the following works\n                will be<lb/> found helpful:</p>\n            <p rend=\"indent(2)\"><hi rend=\"italics\">Die heiligen Schriften des Alten Testaments</hi>,\n                by <persName>KAUTZSCH</persName> (<persName>Mohr</persName>,\n                    <persName>Freiburg</persName>),<lb/> embodies the opinions of the best\n                commentators.</p>\n            <p rend=\"indent(2)\"><hi rend=\"italics\"><persName>Gesenius'</persName> Hebräisches u.\n                    Aramäisches Handwörterbuch über d. A. T. </hi>(12th<lb/> edition.\n                    <placeName>Leipzig</placeName>, <date>1895</date>).</p>\n            <p rend=\"indent(2)\"><hi rend=\"italics\"><persName>Siegfried</persName> und\n                        <persName>Stade's</persName> Hebräisches Wörterbuch zum A. T.</hi>\n                    (<persName>Veit &amp; Co.</persName>, <placeName>Leipzig</placeName>,<lb/>\n                <date>1893</date>)</p>\n            <p rend=\"indent(2)\"><hi rend=\"italics\">Hebrew and English Lexicon</hi>, by\n                    <persName>BROWN</persName>, <persName>DRIVER</persName> and\n                    <persName>BRIGGS</persName> (in course of publication).</p>\n            <p rend=\"indent(1)\">For the Post-Biblical Hebrew and the Chaldaic in Talmud and Midrash,\n                the following are<lb/> recommended:</p>\n            <p rend=\"indent(2)\"><persName>LEVY'S</persName>\n                <hi rend=\"italics\">Neuhebräisches und Chaldäisches Wörterbuch </hi>(Brockhaus,\n                    <placeName>Leipzig</placeName>, <date>1876-1889</date>).</p>\n            <p rend=\"indent(2)\"><persName>KOHUT'S</persName>\n                <hi rend=\"italics\">Arukh ha-Shalem</hi> (<placeName>Wien</placeName>,\n                    <date>1878-1892</date>).</p>\n            <p rend=\"indent(2)\"><persName role=\"author\">JASTROW'S</persName>\n                <hi rend=\"italics\">Dictionary of the Targumim, Talmud Babli and Yerushalmi,\n                    etc.,<lb/>\n                </hi>as far as published (<persName>Luzac &amp; Co.</persName>,\n                    <placeName>London</placeName>; <persName>G. P. Putnam's Sons</persName>,\n                    <placeName>New York</placeName>).</p>\n            <p rend=\"indent(1)\">(4) It is urged that Anglo-Saxon words be used in preference to\n                those of Latin<lb/> origin, whenever the former are consistent with clearness. The\n                older forms of such words<lb/> as <hi rend=\"italics\">honour, favour</hi> (instead of\n                honor, favor), etc., will be used in the work.</p>\n            <p rend=\"indent(1)\">(5) For proper names the form familiar by long usage should be\n                employed, as <persName>Ahab</persName><lb/> (not <persName>Achab</persName>),\n                    <persName>Absalom</persName> (not <persName>Abshalom</persName>),\n                    <persName>Gideon</persName> (not <persName>Gid'on</persName>),\n                    <persName>Joash</persName> (not <persName>Yoash</persName>),\n                    <persName>Baal</persName> (not<lb/>\n                <persName>Ba'al</persName>), etc., etc.</p>\n            <p rend=\"indent(1)\">(6) For <add>יהוה</add> use “Lord;” for <add>אלוהים</add> use “God;”\n                for <add>שאול</add> use “nether world.” In trans-<lb/>lating <add>אשרה</add>,\n                    <add>גוים</add>, <add>מנחה</add>, and similar words, the context should be\n                consulted carefully, and choice<lb/> made of the most appropriate rendering among\n                those offered.</p>\n            <p rend=\"indent(1)\">(7) As a rule the “<hi rend=\"italics\">Keri</hi>” should be followed\n                in preference to the “<hi rend=\"italics\">Kethib</hi>.” If<lb/> necessary, the latter\n                may be embodied in a note.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6744,
+          "width": 5198,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2a5523cb-bd2d-4919-a43b-4a32a8352d86%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5198,
+                "height": 6744,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2a5523cb-bd2d-4919-a43b-4a32a8352d86%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/assets/2a5523cb-bd2d-4919-a43b-4a32a8352d86/original",
+              "label": "Original File - 105 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">(8) When the text is obscure, the words “Text obscure,” “Attempted\n                Translation,”<lb/> or some other indication of uncertainty, should be added in a\n                note (to be embodied in<lb/> the appendix). Whenever an emendation of the text on\n                recognized authority is deemed<lb/> unavoidable or desirable, the reasons therefor\n                should be briefly stated in a note to the<lb/> editor, who, with his associates, the\n                members of the Revision Committee, reserves the<lb/> right to adopt or reject such\n                suggestions, and will assume the responsibility for the<lb/> final result.</p>\n            <p rend=\"indent(1)\">(9) Explanations of proper names are to be marked by square [ ]\n                brackets; words<lb/> supplying an omission in the Hebrew text by angle &lt; &gt;\n                brackets. Italics and parentheses<lb/> should be employed according to ordinary\n                usage, not as in the “Authorized Version.”</p>\n            <p rend=\"indent(1)\">(10) The chapter and verse divisions of the Massoretic text are to\n                be preserved; also<lb/> the Hebrew and the English titles of the books. The\n                Pentateuchal portions (Sidroth) are<lb/> to appear in Hebrew type.</p>\n            <p rend=\"indent(1)\">(11) A division into subject-paragraphs, similar to that of the\n                Revised Version, is to<lb/> be adopted. The main contents of each paragraph are to\n                be expressed by the translators<lb/> in brief sentences to serve as running titles\n                for each page. The above mentioned work of<lb/>\n                <persName>Kautzsch</persName> (<hi rend=\"italics\">Die heiligen Schriften des Alten\n                    Testaments</hi>) is a valuable guide for this por-<lb/>tion of the work.</p>\n            <p rend=\"indent(1)\">(12) In all the books, the poetical portions are to be arranged in\n                lines according to<lb/> the mode of the “Revised Version.”</p>\n            <p rend=\"indent(1)\">(13) For the Massoretic text, the edition of <hi rend=\"italics\"\n                        ><persName>Baer</persName> and <persName>Delitssch</persName></hi> (as far\n                as published)<lb/> is recommended.</p>\n            <p rend=\"indent(1)\">(14) Besides special works upon the book assigned to each\n                contributor, the following<lb/> general commentaries are recommended:</p>\n            <p rend=\"indent(2)\"><hi rend=\"italics\"><persName>Lange's</persName>\n                    Theologisch-Homiletisches Bibelwerk</hi> (American edition by\n                    <persName>SCHAFF</persName>).</p>\n            <p rend=\"indent(2)\"><hi rend=\"italics\">Kurzgefasstes exegetisches Handbuch zum Alten\n                    Testament</hi>, by <persName>HIRZEL</persName>\n                (<placeName>Leipzig</placeName>).</p>\n            <p rend=\"indent(2)\"><hi rend=\"italics\">Handkommentar zum Alten Testament</hi>, by\n                    <persName>NOWACK</persName>, (<placeName>Göttingen</placeName>,\n                    <date>1892-1895</date>).</p>\n            <p rend=\"indent(2)\"><hi rend=\"italics\">Kurzgefasster Kommentar zu d. heil. Schriften des\n                    Alten Testaments</hi>, by<lb/>\n                <persName>STRACK</persName> and <persName>ZOECKLER</persName>\n                    (<placeName>München</placeName>, <date>1886-1894</date>).</p>\n            <p rend=\"indent(2)\"><hi rend=\"italics\">Biblischer Kommentar über das Alte\n                Testament</hi>, by <persName>KEIL</persName> and <persName>DELITZSCH</persName>\n                    (<placeName>Leip-<lb/>zig</placeName>, <date>1861-1893</date>).</p>\n            <p rend=\"indent(2)\">\n                <hi rend=\"italics\">The <placeName>Cambridge</placeName> Bible for Schools and\n                    Colleges.</hi>\n            </p>\n            <p rend=\"indent(2)\"><hi rend=\"italics\">The Expositor's Bible</hi>\n                    (<placeName>London</placeName>, <date>1888-1894</date>).</p>\n            <p rend=\"indent(2)\"><hi rend=\"italics\">International Critical Commentary</hi>, by\n                    <persName>PLUMMER</persName>, <persName>BRIGGS</persName> and\n                    <persName>DRIVER</persName> (<persName>Scribner's<lb/> Sons</persName>,\n                    <date>1895</date>, in course of publication).</p>\n            <p rend=\"indent(1)\">(15) A careful study of Talmud and Midrash will be repaid by the\n                discovery of<lb/> interpretations of biblical passages, direct or implied, which\n                have hiterto been over-<lb/>looked, but which, it is believed, will recommend\n                themselves to the judgment of scholars.<lb/> Such passages are made easily\n                accessible through the handbook <add>ספר בית אהרן והוספת</add><lb/>\n                    (<persName>Wilna</persName>, <date>1880</date>), which points out where every\n                biblical verse is quoted in Talmud Babli and<lb/> Yerushalmi, Midrashim, Yalkut\n                Shim'oni, and other works of minor value for the purpose<lb/> in view. Attention is\n                called to a list of abbreviations of book-titles and their explanations<lb/> in the\n                front of the book, and to the appendix, <add>Hebrew</add>, which will facilitate the\n                finding of<lb/> passages mentioned in the body of the book by reference to pages not\n                alike in all editions.</p>\n            <p rend=\"indent(1)\">(16) The books assigned to each translator, cut from a copy of the\n                    <persName>Leeser</persName> Bible, will<lb/> be sent, pasted on paper with wide\n                margins for his emendations.</p>\n            <p rend=\"indent(1)\">(17) Contributors are expected to hand in their work to the editor\n                not later than<lb/>\n                <date>August 1, 1897</date>. In order, however, to facilitate the work of revision,\n                they are urgently<lb/> requested to send in their work, or parts thereof, as soon as\n                possible.</p>\n            <p rend=\"indent(1)\">NOTE:—The compensation of contributors is $1.50 per printed page of\n                the <persName>Leeser</persName><lb/> Bible.</p>\n            <p rend=\"indent(1)\">Attached find a provisional list of contributors and of the parts\n                assigned to each.</p>\n            <p><placeName>PHILADELPHIA</placeName>, <date>February, 1896</date>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6796,
+          "width": 5240,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad06f452-eaba-4bc4-940b-4f6a51cb0675%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5240,
+                "height": 6796,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad06f452-eaba-4bc4-940b-4f6a51cb0675%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/assets/ad06f452-eaba-4bc4-940b-4f6a51cb0675/original",
+              "label": "Original File - 107 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>List of those Invited to Cooperate</p>\n            <p rend=\"align(center)\">Corresponding Members of the Revision Committee</p>\n            <p rend=\"align(center)\"><persName>REV. DR. HERMAN ADLER</persName>, <placeName>London,\n                    England</placeName></p>\n            <p rend=\"align(center)\"><persName>REV. DR. ISAAC M. WISE</persName>,\n                    <placeName>Cincinnati, O.</placeName></p>\n            <table cols=\"2\" rows=\"54\">\n                <row>\n                    <cell>GENESIS</cell>\n                    <cell>\n                        <persName>MICAH</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>REV. DR. MAX LANDSBERG</persName>,</cell>\n                    <cell>\n                        <persName>REV. DR. MAURICE H. HARRIS</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>Rochester, N. Y.</placeName>\n                    </cell>\n                    <cell>\n                        <placeName>New York, N. Y.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>EXODUS</cell>\n                    <cell>\n                        <persName>NAHUM</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>REV. MORRIS JOSEPH</persName>,</cell>\n                    <cell><persName>REV. DR. L. MAYER</persName>,</cell>\n                </row>\n                <row>\n                    <cell><placeName>London, England</placeName>.</cell>\n                    <cell>\n                        <placeName>Pittsburgh, Pa.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>LEVITICUS</cell>\n                    <cell>\n                        <persName>HABAKKUK</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>LEWIS N. DEMBITZ</persName>,</cell>\n                    <cell>\n                        <persName role=\"author\">DR. MORRIS JASTROW, JR.,</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>Louisville, Ky.</placeName>\n                    </cell>\n                    <cell>\n                        <placeName>Philadelphia, Pa.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>NUMBERS</cell>\n                    <cell>\n                        <persName>ZEPHANIAH</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>REV. DR. DAVID PHILIPSON</persName>,</cell>\n                    <cell><persName>REV. DR. M. SCHLESINGER</persName>,</cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>Cincinnati, O.</placeName>\n                    </cell>\n                    <cell>\n                        <placeName>Albany, N. Y.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>DEUTERONOMY</cell>\n                    <cell>\n                        <persName>HAGGAI</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>REV. DR. F. DE SOLA MENDES</persName>,</cell>\n                    <cell><persName>REV. DR. S. MENDELSOHN</persName>,</cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>New York, N. Y.</placeName>\n                    </cell>\n                    <cell>\n                        <placeName>Wilmington, N. C.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>JOSHUA</persName>\n                    </cell>\n                    <cell>\n                        <persName>ZECHARIAH</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>REV. DR. F. DE SOLA MENDES</persName>\n                    </cell>\n                    <cell><persName>REV. S. SINGER</persName>,</cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>New York, N. Y.</placeName>\n                    </cell>\n                    <cell><placeName>London, England</placeName>.</cell>\n                </row>\n                <row>\n                    <cell>JUDGES</cell>\n                    <cell>\n                        <persName>MALACHI</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>REV. STEPHEN S. WISE</persName>,</cell>\n                    <cell><persName>REV. DR. D. DAVIDSON</persName>,</cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>New York, N. Y.</placeName>\n                    </cell>\n                    <cell>\n                        <placeName>New York, N. Y.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>I. <persName>SAMUEL</persName></cell>\n                    <cell>PSALMS</cell>\n                </row>\n                <row>\n                    <cell><persName>REV. DR. MAX HELLER</persName>,</cell>\n                    <cell><persName>REV. DR. K. KOHLER</persName>,</cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>New Orleans, La.</placeName>\n                    </cell>\n                    <cell>\n                        <placeName>New York, N. Y.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>II. <persName>SAMUEL</persName></cell>\n                    <cell>PROVERBS</cell>\n                </row>\n                <row>\n                    <cell><persName>REV. DR. BERNARD DRACHMAN</persName>,</cell>\n                    <cell><persName>JOSEPH JACOBS</persName>,</cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>New York, N. Y.</placeName>\n                    </cell>\n                    <cell><placeName>London, England</placeName>.</cell>\n                </row>\n                <row>\n                    <cell>I. KINGS</cell>\n                    <cell>\n                        <persName>JOB</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>JOSEPH JACOBS</persName>,</cell>\n                    <cell><persName>REV. DR. B. SZOLD</persName>,</cell>\n                </row>\n                <row>\n                    <cell><placeName>London, England</placeName>.</cell>\n                    <cell>\n                        <placeName>Baltimore, Md.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>II. KINGS</cell>\n                    <cell>SONG OF SONGS</cell>\n                </row>\n                <row>\n                    <cell><persName>ISRAEL ABRAHAMS</persName>,</cell>\n                    <cell>\n                        <persName role=\"author\">DR. MORRIS JASTROW, JR.</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell><placeName>London, England</placeName>.</cell>\n                    <cell>\n                        <placeName>Philadelphia, Pa.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>ISAIAH</persName>\n                    </cell>\n                    <cell>\n                        <persName>RUTH</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>REV. DR. EMIL G. HIRSCH</persName>,</cell>\n                    <cell><persName>REV. DR. JOSEPH KRAUSKOPF</persName>,</cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>Chicago, Ill.</placeName>\n                    </cell>\n                    <cell>\n                        <placeName>Philadelphia, Pa.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>JEREMIAH</persName>\n                    </cell>\n                    <cell>LAMENTATIONS</cell>\n                </row>\n                <row>\n                    <cell><persName>REV. DR. SABATO MORAIS</persName>,</cell>\n                    <cell>\n                        <persName role=\"author\">DR. MORRIS JASTROW, JR.</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>Philadelphia, Pa.</placeName>\n                    </cell>\n                    <cell>\n                        <placeName>Philadelphia, Pa.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>EZEKIEL</persName>\n                    </cell>\n                    <cell>ECCLESIASTES</cell>\n                </row>\n                <row>\n                    <cell><persName>DR. M. FRIEDLäNDER</persName>,</cell>\n                    <cell><persName>REV. DR. GUSTAV GOTTHEIL</persName>,</cell>\n                </row>\n                <row>\n                    <cell><placeName>London, England</placeName>.</cell>\n                    <cell>\n                        <placeName>New York, N. Y.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>HOSEA</persName>\n                    </cell>\n                    <cell>\n                        <persName>ESTHER</persName>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>REV. DR. S. SALE</persName>,</cell>\n                    <cell><persName>REV. DR. HENRY BERKOWITZ</persName>,</cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>St. Louis, Mo.</placeName>\n                    </cell>\n                    <cell>\n                        <placeName>Philadelphia, Pa.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>JOEL</persName>\n                    </cell>\n                    <cell><persName>DANIEL</persName> , <persName>EZRA</persName>,\n                            <persName>NEHEMIAH</persName></cell>\n                </row>\n                <row>\n                    <cell><persName>REV. DR. LOUIS GROSSMAN</persName>,</cell>\n                    <cell><persName>DR. RICHARD GOTTHEIL</persName>,</cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>Detroit, Mich.</placeName>\n                    </cell>\n                    <cell>\n                        <placeName>New York, N. Y.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>AMOS</persName>\n                    </cell>\n                    <cell>I. CHRONICLES </cell>\n                </row>\n                <row>\n                    <cell><persName>REV. DR. H. P. MENDES</persName>,</cell>\n                    <cell><persName>REV. DR. M. MIELZINER</persName>,</cell>\n                </row>\n                <row>\n                    <cell><placeName>New York City</placeName>.</cell>\n                    <cell>\n                        <placeName>Cincinnati, O.</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>OBADIAH</persName>, <persName>JONAH</persName></cell>\n                    <cell>II. CHRONICLES </cell>\n                </row>\n                <row>\n                    <cell><persName>REV. DR. J. VOORSANGER</persName>,</cell>\n                    <cell><persName>REV. DR. B. FELSENTHAL</persName>,</cell>\n                </row>\n                <row>\n                    <cell>\n                        <placeName>San Francisco, Cal.</placeName>\n                    </cell>\n                    <cell>\n                        <placeName>Chicago, Ill.</placeName>\n                    </cell>\n                </row>\n            </table>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31834p19/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

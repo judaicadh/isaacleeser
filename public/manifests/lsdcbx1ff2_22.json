@@ -1,0 +1,188 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Leeser from Palache, J.; September 13, 1843",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3tx35w8g"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Leeser from Palache, J.; September 13, 1843"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Palache, J. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1843-09-13"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["New York (N.Y.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF2_22", "ilcajs_b1f1_0017"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b659ec78-70ec-4843-9871-60641fd2e20d%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b659ec78-70ec-4843-9871-60641fd2e20d%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5778,
+          "width": 4820,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b659ec78-70ec-4843-9871-60641fd2e20d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4820,
+                "height": 5778,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b659ec78-70ec-4843-9871-60641fd2e20d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/assets/b659ec78-70ec-4843-9871-60641fd2e20d/original",
+              "label": "Original File - 83.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>New York</placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <date>September 13<hi rend=\"sup\">th</hi>./43</date>\n                              </p>\n                              <p>To</p>\n                              <p>The <addressee>Revd. I Leeser</addressee></p>\n                              <p rend=\"indent(1)\">Dear Sir,</p>\n                              <p rend=\"indent(2)\">Being desirous of advertising in your\n                                        Occident,<lb/> I avail myself of <persName>Mrs.\n                                                  Phillips'</persName> polite offer to take charge\n                                        of this<lb/> to request you will have the goodness to insert\n                                        the following for<lb/> three successive months, commencing\n                                        from <date>October</date></p>\n                              <p rend=\"indent(6)\">I remain,</p>\n                              <p rend=\"indent(6)\">Yours respectfully,</p>\n                              <p rend=\"indent(6)\">\n                                        <persName role=\"author\">J Palache</persName>\n                              </p>\n                              <p rend=\"align(center)\">The Misses Palache's Boarding and Day\n                                        School</p>\n                              <p rend=\"align(center)\">For Young Ladies of the Jewish Faith</p>\n                              <p rend=\"align(center)\">\n                                        <placeName>97 Therupson[?] St. New York</placeName>\n                              </p>\n                              <p>Instruction is given in the Hebrew Language free of any charge\n                                        according<lb/> to the Portuguese of German pronunciation.\n                                        All other languages<lb/> and the accomplishments taught on\n                                        the usual terms. The best<lb/> masters are employed and\n                                        every facility afforded for the improvement<lb/> of the\n                                        pupils in the various branches of study.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4728,
+          "width": 5916,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/967c8b03-f026-4704-8b6b-f69a3cf087c0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5916,
+                "height": 4728,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/967c8b03-f026-4704-8b6b-f69a3cf087c0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/assets/967c8b03-f026-4704-8b6b-f69a3cf087c0/original",
+              "label": "Original File - 84.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>To</p>\n                              <p>The <addressee>Revd I Leeser</addressee></p>\n                              <p>favd by <hi rend=\"indent(1)\"\n                                                  ><placeName>Philadelphia</placeName></hi></p>\n                              <p>\n                                        <persName>J Phillips Esq.</persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3tx35w8g/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

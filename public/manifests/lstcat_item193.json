@@ -1,0 +1,291 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Nathan, M. N.; Leeser, Isaac; Anytown, St. Thomas; 11 December 1863",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3251g56n"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Nathan, M. N.; Leeser, Isaac; Anytown, St. Thomas; 11 December 1863"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1863-12-11", "5624"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virgin Islands -- St. Thomas",
+        "United States -- Virgin Islands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item193"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/617e7ed0-8aab-41f8-a2a8-9b864a8b1db0%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/617e7ed0-8aab-41f8-a2a8-9b864a8b1db0%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6300,
+          "width": 5074,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/617e7ed0-8aab-41f8-a2a8-9b864a8b1db0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5074,
+                "height": 6300,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/617e7ed0-8aab-41f8-a2a8-9b864a8b1db0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/assets/617e7ed0-8aab-41f8-a2a8-9b864a8b1db0/original",
+              "label": "Original File - 96.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>St. Thomas</placeName>, <date>11<hi rend=\"sup\">th</hi>\n                    Decr.</date>\n                <add>חנוכה</add>\n                <date>5624/1863</date>.</p>\n            <p>My dear <addressee>Mr. Leeser</addressee>.</p>\n            <p rend=\"indent(1)\">Your two welcome letters I have not had any time<lb/> to answer\n                until today, and even now I have so much to do with Synagogue<lb/> and school (very\n                small at present,) that I will not be able to afford you all<lb/> the information\n                you may want respecting my course since I have been <sic>hear</sic>.<lb/> But first\n                let me ask why you address me, one of your oldest friends and<lb/> correspondents by\n                the title of Dr. Sir? Is it a proof of your altered feelings towards<lb/>\n                <hi rend=\"underline\">me</hi>, or an idea that mine could possibly change, or <hi\n                    rend=\"underline\">have</hi> changed towards <hi rend=\"underline\">you</hi>?\n                “Reform<lb/> is altogether.” I must also premise that your note of <date>Oct. 2<hi\n                        rend=\"sup\">nd</hi>.</date> found me on a sick<lb/> bed, and which\n                incapacitated me from public duty for nearly 3 weeks. It was<lb/> a severe attack of\n                influenza, arising from the sudden change of very hot weather to<lb/> heavy rains\n                and strong north winds.</p>\n            <p rend=\"indent(1)\">I left <placeName>Kingston</placeName> on the <date>9<hi rend=\"sup\"\n                        >th</hi>. Septr.</date>, and arrived here <add>בשלום</add> on\n                    <add>ער\"ה</add> about 7 in the<lb/> morning too late for <add>סליחות</add>. A\n                large concourse of my members met me at the wharf,<lb/> and accompanied me to the\n                lodgings they had provided and furnished, until I could purchase<lb/> my own things.\n                After drinking a glass of wine, we went to Synagogue, for me to say\n                <add>גומל</add>.<lb/> On returning home, a letter from some of my lady friends was\n                handed me, together with<lb/> a handsome suit of canonicals, of which they requested\n                my acceptance. In the evening,<lb/> the congregation being assembled for\n                    <add>ערבית</add>, I was led in by the Presidt. &amp; Vice, seated in<lb/> the\n                President's chair, while the congregation sang <add>ברוך הבא</add>. After which the\n                President<lb/> from the Tebah addressed me, and on concluding, he and the vice led\n                me to the Tebah,<lb/> where I addressed the congregation for 10 minutes or so. After\n                which I read the Evening<lb/> Service, paid musaph<add>?</add> next day, and\n                preached; <persName>Mr. Maduro</persName> my assistant Reader read the<lb/> second\n                Evening and following day. I read <add>שבת שיבה</add> and preached on\n                    <date>Kippoor</date> my portion<lb/> was <add>מוסף</add> &amp; <add>כל\n                    נדרי</add>, <add>ערבית</add>, a sermon, and <add>נעילה</add>. I did not again\n                preach till <date>Succot, the<lb/> 1<hi rend=\"sup\">st</hi> day</date>. We had a\n                large assembly on <add>הושענה רבה</add>, save on <add>שמיני עצרת</add>, very bad\n                weather, and a<lb/> thin attendance on <add>שמחת התורה</add>; on which day I had to\n                go to Government House to pay<lb/> my respects to the Governor, and show my loyalty,\n                it being the late Kings' birthday.<lb/> Since then I have spoken to the people every\n                    <date>sabbath</date>, also on the <date>25<hi rend=\"sup\">th</hi>. Oct.</date>,\n                the<lb/> annual <date>thanksgiving day</date> after the expiration of the hurricane\n                season, on<lb/> which occasion I sent them all home with red eyes and noses. Except\n                the two<lb/>\n                <date>Sabbaths</date> when I was too ill to leave the house I have spoken the word.\n                The old<lb/> members declare that I am much improved, whilst the young ones who only\n                remember<lb/> me as children are highly pleased with me. On last <date>Monday night\n                    the 7<hi rend=\"sup\">th</hi>.</date>\n                <add>?</add>.<lb/> we had a special service, as the advertisement in the paper\n                stated, as a tribute<lb/> of loyalty, affection, and homage to the memory of the\n                late Sovereign <persName>Frederick VII</persName>.<lb/> The Synagogue was very\n                tastefully hung in black; the four large pillars having<lb/> black draperies folded\n                around them spirally, the two pilasters at the Hechal, the Tebah,<lb/> large\n                candlesticks, and brass knobs being covered with table trappings. An audience<lb/>\n                filling every inch of the building (at least 500 persons) consisting of our\n                congregation, and<lb/> a very large number of Christians, assembled at 7 PM. The\n                Governor and his suite, and several<lb/> heads of departments were present; among\n                the rest, the Presbyterian, Lutheran, and<lb/> Moravian clergymen. The service began\n                with the chanting of the 49<hi rend=\"sup\">th</hi> Psalm, then</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6300,
+          "width": 5074,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e58434f0-88b7-4a0d-8a48-8b2b2a82a8da%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5074,
+                "height": 6300,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e58434f0-88b7-4a0d-8a48-8b2b2a82a8da%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/assets/e58434f0-88b7-4a0d-8a48-8b2b2a82a8da/original",
+              "label": "Original File - 96.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><add>ערבית</add>; after which <add>ויהי נועם</add> was sung, and the <add>חנוכה</add>\n                lights lighted, and <add>ארוחים ק\"ה</add><lb/> said, Kaddish &amp;\n                    Barecha<add>?</add> sung, and <add>עלינו לשבח</add> read with great Emphasis. I\n                then<lb/> preached from Ecclesiastes v. 8 <add>ויתרון ארץ בכל היא</add> about an\n                hour. After which, the whole<lb/> audience standing, I recited, in English, the\n                    <add>השכבה</add> for the repose of the kings seal;<lb/> which set all the Danes\n                crying, men and women. Then followed the <add>הנותן תשועה</add> in<lb/> English, for\n                which the ark was opened by our old friend <persName>Mayer Wolff</persName>, who, as\n                it was<lb/> a public occasion, was dressed in full military uniform, and looked\n                every inch a<lb/> fine veteran soldier. The whole was concluded with Yigdals, and\n                the <add>יברכך</add> in<lb/> Hebrew &amp; English, with which we finish all services\n                in the Synagogue. The whole<lb/> went off with the greatest <add>?</add>, and will\n                do us good here. I felt highly proud<lb/> of my congregation, for tho' they always\n                behave well in Synagogue, and are not<lb/> excelled by any Jewish Assembly for\n                prayer in the known world in this respect,<lb/> yet on this occasion the whole\n                proceedings were so very orderly and dignified,<lb/> that they could not have been\n                better. The <sic>chaunting</sic> and responses were particularly<lb/> fine. As to my\n                sermon it was much applauded by some, and slightly found fault with<lb/>\n                <add>?</add> others, according as they Supposed to be Danes or <del>and</del>\n                Germans. The <placeName>Holstein</placeName> question<lb/> you may suppose is\n                discussed and debated here, and sometimes with great bitterness.<lb/> Being no\n                    <sic>partizan</sic>, I only spoke of the king as his acts, in giving a most\n                liberal<lb/> constitution, in endeavoring to unite his people, gaining their love\n                and affection, and<lb/> counselling his relative, the king of the Greeks, to do the\n                same fully warranted my doing.<lb/> Judging him by his public acts, he was in truth\n                a patriotic king, and I took<lb/> advantage of pointing out by the lights of\n                        <date><sic>Hanukah</sic></date>, how <placeName>Israel</placeName> valued\n                patriotism,<lb/> which after 2000 years they still continued to celebrate, and how\n                highly they esteemed<lb/> it in others, especially in those who, with power,\n                combined the desire of granting the<lb/> rights of civil and religious liberty to\n                their fullest extent, as was the case with the<lb/> late King. My bold sentiments\n                have made me (for the <add>?</add>) very popular; and my members<lb/> are\n                consequently pleased that their minister should be well spoken of, and his\n                preaching<lb/> admired. But I am too old to be vain of Popular applause: yet I am\n                gratified<lb/> that the attempt to do my duty has not been exceeded by any other\n                Clergyman in<lb/> the place.</p>\n            <p rend=\"indent(1)\">With reference to the state of parties in the congregation, affairs\n                are<lb/> much more quietly and peaceably conducted than <del>when</del> they were\n                when I<lb/> was minister here before. There are a great many young people married\n                and un-<lb/>married who both think and act far differently to what was then the\n                mode. They<lb/> keep down the turbulent determinedly; for still some of the old\n                    l<add>?</add> remains, constantly<lb/> kept in a state of fermentation by one of\n                the most mischievous men I ever met with. Some<lb/> of these dissatisfied ones\n                wanted no minister at all, because their <add>?</add> would have<lb/> been made\n                larger to support him. With the exception of a very very few, whom I<lb/> hope by\n                discretion and prudence to gain over, <del>the <add>?</add>\n                </del> the whole body of members is well<lb/> affected to me. We seldom have less\n                than 150 to 180 persons present every<lb/>\n                <date>Sabbath</date> morning about 20 to 25 every <date>Friday</date> Evening, the\n                same member to<lb/> mincha<add>?</add> on <date>Sabbath</date>, and about 35 or\n                    <date>Sabbath</date> Evening. You will agree with me that this<lb/> is not bad.\n                I should say that our member, all told, approaches close to 400.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6240,
+          "width": 5074,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce9848a5-ade6-405b-af25-5c91cb771cf4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5074,
+                "height": 6240,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce9848a5-ade6-405b-af25-5c91cb771cf4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/assets/ce9848a5-ade6-405b-af25-5c91cb771cf4/original",
+              "label": "Original File - 95.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">Our funerals and marriages are conducted with great solemnity. I\n                have<lb/> had 2 of the former, and one of the latter (celebrated in Synagogue) since\n                my<lb/> arrival. I spoke on Each occasion. The marriage was a s<add>?</add>gated\n                one. The<lb/> parties (both Israelites) <hi rend=\"underline\">had</hi> already been\n                married civilly in <placeName>New Grenada</placeName>, and so it was<lb/> somewhat\n                anomalous. We anticipated some loud complaints when the new assessmt.<lb/> should be\n                fixed, as the tapes would be so much heavier, but with the exception<lb/> of the\n                    <add>גרום</add> I before mentioned, who threatened to create a scandal, if his\n                assessment<lb/> was not fixed at the sum he named, there has not been a murmur. The\n                Representatives<lb/> refused to be frightened; and so he is left to create what\n                scandal he pleases. But he<lb/> is so much disliked, and Government is so rejoiced\n                at the peaceable turn things<lb/> have taken under the new minister, that he will,\n                no doubt, take care of what he<lb/> does, particularly as he is an arrant coward. At\n                this moment, the feeling upper-<lb/>most among the Jewish public is the enlargement\n                of the Synagogue, very much<lb/> needed. For this purpose it is proposed to\n                appropriate the present “reserve<lb/> fund,” amounting to <del>about</del> $3000,\n                and make up the deficiency in the required<lb/> sum by subscriptions among Jews and\n                Christians. Our old friend <persName>Mayer Wolff</persName><lb/> is very\n                enthusiastic on the subject, so are <persName>Dr. Pretto</persName>,\n                    <persName>Messrs. Osorio</persName>, <persName>Debatte</persName>,<lb/>\n                <persName>F<add>?</add></persName>, <persName>Cardozo</persName>, <persName>De\n                    Solla</persName>, <persName>Lusia</persName>, <persName>Alexr. Levy</persName>,\n                    <persName>Myer</persName>, <persName>Piza</persName> and many others.<lb/> I\n                will keep you posted in the matter as it progresses.</p>\n            <p rend=\"indent(1)\">The Sunday School will, I hope, very soon be reorganized on its\n                old<lb/> popular footing, and the ceremony of confirmation be again introduced<lb/>\n                agreeably to Law. There is a good deal of true religious fervor among the<lb/>\n                majority, and a total indifference to religion, its decencies, and obligations\n                among<lb/> a few families. But with time the latter may come round. There is\n                work<lb/> enough cut out for me, but, with God's blessing, I hope to get through\n                it.</p>\n            <p rend=\"indent(1)\">There has been some demand for your prayer books (Sephardim)<lb/>\n                Pentatuech, and small English Bibles. You can send 25 of the latter, and<lb/> a few\n                of each of the former, by <hi rend=\"underline\">the very first opportunity</hi>.\n                    <date>Sabbath</date> is so<lb/> very near that I cannot venture to write more,\n                and as I was assured<lb/> that my news would be more welcome than any observations I\n                might<lb/> make on the strange conduct of one of your former friends, about<lb/>\n                which you last wrote me, I delay making any remarks on your letters<lb/> till I next\n                take up my pen. <persName>Mrs. Nathan</persName> has not yet joined me,<lb/> but she\n                was still in the same unhappy condition as when I left.<lb/> About <persName>Miss\n                    Aguilar's</persName> reprinted works, I have been forestalled by the person<lb/>\n                you originally appointed here, but I dare say you will get a good<lb/> subscription\n                list. I will however do my best.</p>\n            <p rend=\"indent(1)\">May God bless and protect you and keep you in health and<lb/>\n                happiness for many years prays Your friend <add>המוכן תמיד לשרתך</add></p>\n            <p>\n                <persName role=\"author\">MNNathan</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6240,
+          "width": 5074,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1cbf4a7d-b9e4-4b84-bc59-1699ce851616%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5074,
+                "height": 6240,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1cbf4a7d-b9e4-4b84-bc59-1699ce851616%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3251g56n/assets/1cbf4a7d-b9e4-4b84-bc59-1699ce851616/original",
+              "label": "Original File - 95.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

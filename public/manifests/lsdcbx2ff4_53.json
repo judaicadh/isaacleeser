@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 9 June 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3np1x43k"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 9 June 1857"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Sola, Abraham de, 1825-1882", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-06-09", "9 June 5617"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF4_53"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b24e8519-9ffd-4eea-b9d4-8525da315408%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b24e8519-9ffd-4eea-b9d4-8525da315408%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3298,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b24e8519-9ffd-4eea-b9d4-8525da315408%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 3298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b24e8519-9ffd-4eea-b9d4-8525da315408%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/assets/b24e8519-9ffd-4eea-b9d4-8525da315408/original",
+              "label": "Original File - 40.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Montreal</placeName>\n                <date>9<hi rend=\"sup\">th</hi> June 5617</date>.</p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">Dear Sir</p>\n            <p rend=\"indent(3)\">The <date>June</date> Occident first<lb/> received informs me of\n                your having entered<lb/> once more into the active duties of the<lb/> ministry, and\n                although you may be said<lb/> to have never wholly relinquished them, yet<lb/> I\n                warmly congratulate you on your<lb/> becoming Hazan of the Synagogue Beth El\n                Emeth<lb/> Minhag sephardim to which with all my<lb/> heart I wish the fullest\n                possible amount<lb/> of success and prosperity. You may think<lb/> me tardy in\n                expressing these wishes, but<lb/> recollect, dear sir, the first notification<lb/> I\n                had from you of the event, was your<lb/> article in the <date>June</date> Occident.\n                True, <persName>Miss<lb/> Sarah Joseph</persName> mentioned to me in your<lb/> name\n                that the Synagogue would probably be<lb/> opened for <add>שבועות</add>; at which I\n                of course<lb/> expressed my gratification. And believe me<lb/> that for your sake I\n                was much pleased<lb/> to hear of the movement. As to the absurd</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3298,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/33af3712-67d0-480f-9775-ba698bbe5326%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 3298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/33af3712-67d0-480f-9775-ba698bbe5326%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/assets/33af3712-67d0-480f-9775-ba698bbe5326/original",
+              "label": "Original File - 40.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>objection that there is no room<lb/> for two Portuguese synagogues—this is<lb/> more\n                astonishing than annoying. When<lb/>\n                <sic>hundred</sic> of German &amp; Polish Congregations<lb/> are formed under the\n                most unpromising<lb/> auspices, why in the name of reason should<lb/> we not\n                multiply—or attempt to multiply<lb/> congregations having so superior a ritual<lb/>\n                as the Portuguese. I sincerely believe the<lb/> greatest blow to wild reform\n                among<lb/> the German &amp; Polish Kehilloth is the<lb/> introduction of the minhag\n                sephardim<lb/> among congregations who cannot <add>?</add><lb/> long troublesome\n                Peyutim Keroboth &amp;c<lb/> I will not trouble you however with<lb/> a long\n                disquisition on a theme you have<lb/> yourself often pronounced on.</p>\n            <p rend=\"indent(1)\">You have no doubt heard of<lb/> the death of a very valued old\n                friend<lb/> of mine—and correspondent of the Occident<lb/>\n                <persName>Mr. J. Peynado</persName> of <placeName>Hackney, England</placeName>,<lb/>\n                As my father writes me—He was one<lb/> of the last <hi rend=\"underline\">real</hi>\n                (Portuguese) <hi rend=\"underline\">gentlemen</hi><lb/> for which K. K. <add>?</add>\n                <placeName>London</placeName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x43k/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

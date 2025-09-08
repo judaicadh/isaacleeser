@@ -1,0 +1,213 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Frankel, Louis; De La Mar, C. M., Mr.; Philadelphia, PA; 13 July 1864",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30863r7h"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Frankel, Louis; De La Mar, C. M., Mr.; Philadelphia, PA; 13 July 1864"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["De La Mar, C. M., Mr."]
+    },
+    {
+      "label": "Date",
+      "value": ["1864-07-13"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_69"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/97298f13-dc9c-4e2c-a685-45c6ff38cf4c%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/97298f13-dc9c-4e2c-a685-45c6ff38cf4c%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3470,
+          "width": 2250,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/97298f13-dc9c-4e2c-a685-45c6ff38cf4c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2250,
+                "height": 3470,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/97298f13-dc9c-4e2c-a685-45c6ff38cf4c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/assets/97298f13-dc9c-4e2c-a685-45c6ff38cf4c/original",
+              "label": "Original File - 23.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Philadelphia</placeName>\n                <date>July 18th/ 64</date>\n            </p>\n            <p>\n                <addressee>Mr. C. M. De La Mar</addressee>\n            </p>\n            <p rend=\"indent(2)\">Dr Sir</p>\n            <p rend=\"indent(1)\">Your former letter as also<lb/> your resp. of the <date>5<hi\n                        rend=\"sup\">th</hi></date> inst have<lb/> been duly received and in<lb/>\n                answer I would say, that<lb/> I <sic>dit</sic> not procure your ring<lb/> of\n                    <persName>Mr Ran</persName> but <persName>Mr. Rare</persName><lb/> is willing to\n                give up the same<lb/> on payment of the amount $6,<lb/> which I have overlooked\n                on<lb/> account of our removal to<lb/> this city.</p>\n            <p rend=\"indent(1)\">Please forward me the<lb/> whole amount and I shall be<lb/> happy to\n                do as you direct</p>\n            <p rend=\"indent(9)\">Respectfully yours</p>\n            <p rend=\"indent(9)\">\n                <persName role=\"author\">Louis Frankel</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 2250,
+          "width": 3470,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ef935074-3b0b-4e7b-8926-d31781203ce5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3470,
+                "height": 2250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ef935074-3b0b-4e7b-8926-d31781203ce5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/assets/ef935074-3b0b-4e7b-8926-d31781203ce5/original",
+              "label": "Original File - 23.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <persName role=\"author\">Frankel</persName>\n                <placeName>Phila.</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r7h/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Nevard, S.; Chicago, IL; 13 September 1865",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3cv4c783"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Nevard, S.; Chicago, IL; 13 September 1865"]
+    },
+    {
+      "label": "Date",
+      "value": ["1865-09-13"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Illinois -- Chicago",
+        "United States -- Illinois",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF12_35"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/d6e79934-22fa-40bf-bfaf-17153548e4b5%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/d6e79934-22fa-40bf-bfaf-17153548e4b5%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3888,
+          "width": 2686,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d6e79934-22fa-40bf-bfaf-17153548e4b5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2686,
+                "height": 3888,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d6e79934-22fa-40bf-bfaf-17153548e4b5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/assets/d6e79934-22fa-40bf-bfaf-17153548e4b5/original",
+              "label": "Original File - 31.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">(29.)</p>\n            <p rend=\"align(center)\">Post Office, <placeName>Chicago, Ills.</placeName></p>\n            <p rend=\"align(right)\"><date>Sept 13., 1865</date>.</p>\n            <p>To the Editor of “Occident.”</p>\n            <p rend=\"indent(1)\">Sir:</p>\n            <p rend=\"indent(2)\"><sic>Purssuant</sic> to instructions from the Postmaster<lb/>\n                General, I beg to inform you that your <del>paper</del> magazine,<lb/> addressed to\n                    “<persName>Jas. Peres</persName>.”<lb/> is not taken out, but remains dead in\n                this Office. You<lb/> will please discontinue the same.</p>\n            <p rend=\"indent(6)\"><persName role=\"author\">S. Nevard</persName>, Postmaster.</p>\n            <p rend=\"indent(7)\">p section 10.</p>\n            <p>Reason: not called for</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3888,
+          "width": 2686,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/24b10b41-2227-403f-bd1b-8bbfab685de8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2686,
+                "height": 3888,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/24b10b41-2227-403f-bd1b-8bbfab685de8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/assets/24b10b41-2227-403f-bd1b-8bbfab685de8/original",
+              "label": "Original File - 31.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>“Occident.”</p>\n            <p rend=\"indent(1)\">and “Jewish Advocate”</p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(2)\">\n                <placeName>Penn.</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4c783/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

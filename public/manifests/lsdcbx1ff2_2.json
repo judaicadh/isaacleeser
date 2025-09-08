@@ -1,0 +1,184 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter, 1825",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3zc7sm16"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter, 1825"]
+    },
+    {
+      "label": "Date",
+      "value": ["1825-11-15"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages on 2 sheets."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Richmond (Va.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF2_2", "ilcajs_b1f1_0001"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/7087989a-05c4-4159-9cf7-6b0a1a94e008%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/7087989a-05c4-4159-9cf7-6b0a1a94e008%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5952,
+          "width": 4920,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7087989a-05c4-4159-9cf7-6b0a1a94e008%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4920,
+                "height": 5952,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7087989a-05c4-4159-9cf7-6b0a1a94e008%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/assets/7087989a-05c4-4159-9cf7-6b0a1a94e008/original",
+              "label": "Original File - 88.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Richmond</placeName>, <date>Monday, 15<hi rend=\"sup\"\n                        >th</hi> of Kislev (Nov.) 1825</date>.</p>\n            <p>Peace and all good forever to our master and teacher, the crown of our<lb/> head,\n                chief of the court, rabbi and guide of the holy flock, <persName>Rabbi<lb/> Abraham\n                    Sutro</persName>, etc., and peace and all that is good to his wife,\n                    <persName>Rebecca</persName>,<lb/> and to all the members of his household.</p>\n            <p rend=\"indent(1)\">I have been very much pained to find out that you have not\n                received<lb/> my letters. I was the more sad about this because I must have seemed\n                un-<lb/>grateful, since you might have supposed that my silence was due to the\n                fact<lb/> that I had already forgotten everything that I received from you and\n                my<lb/> other friends. But, believe me, that after having been here four days,\n                I<lb/> began to write, and wrote fourteen<lb/>\n                <del>a a a</del> on the 10th day, and dispatched<lb/> them at once. How it happened\n                that you did not receive them, I cannot<lb/> understand, for I wrote, and waited\n                from <date>Rosh Hodesh Ellul</date> for a letter<lb/> daily. Until finally I was\n                fortunate enough to receive four letters<lb/> from <persName>Dulmen</persName>\n                <sic>Two</sic> hours after we left the synagogue on <date>Sh'mini\n                Atzereth</date>.<lb/> It is now about 2 weeks since I sent a bundle of letters\n                addressed <del>?</del><lb/> in care of <persName>Mr. A. Leffman</persName>, by way\n                of <placeName>Baltimore</placeName>, but I cannot tell when<lb/> these letters will\n                arrive in <placeName>Germany</placeName>. Since now an opportunity presents<lb/>\n                itself by way of <placeName>Rotterdam</placeName>, since the <persName>brig Somers,\n                    E. P. Lord</persName>, company, is<lb/> about to leave for that point, I decided\n                to send as many letters as pos-<lb/>sible to such people to whom I have not yet\n                written.</p>\n            <p rend=\"indent(1)\">I had to overcome several dangers before arriving in\n                    <placeName>America</placeName>.<lb/> Sometimes it seemed as if \"The cords of\n                death encompassed me and the<lb/> straits of the grave had come upon me\"*. The\n                storms which we had during our long journey sometimes threatened destruction, a\n                precipitate death,<lb/> a cold, sad, terrible end, but, \"I found trouble and sorrow\n                and called upon<lb/> the name of the lord\"**. Frequently, dear Rabbi, your blessing,\n                your wishes<lb/> at my departure, gave me new strength, new courage. For, was not\n                this<lb/> your blessing, \"If you go in water, I am with you, and streams will\n                not<lb/> overwhelm you\"*** Although I was unprepared to die, nevertheless I\n                gave<lb/> myself silently over to the will of the Almighty. and since I had no<lb/>\n                prayer book in which there was a prayer for travelers on the sea, I made</p>\n            <p>*Psalm 116:3 **Psalm 116:3 ***Isaiah 43:2 (somewhat misprinted[?])</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5952,
+          "width": 4920,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b129d6bd-63cb-4bbc-a3ea-da69f028062b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4920,
+                "height": 5952,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b129d6bd-63cb-4bbc-a3ea-da69f028062b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/assets/b129d6bd-63cb-4bbc-a3ea-da69f028062b/original",
+              "label": "Original File - 88.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>up my own, which occasionally brought me some comfort. I had to overcome<lb/> certain\n                unpleasantnesses, but, thank God, without their c<add>a</add>using me the<lb/>\n                slightest loss. I learned from it how little one needs to live, how<lb/> much to\n                live well. <sic>So?</sic> Much about my journey, I have related <sic>agreat</sic>\n                deal<lb/> in my letters to <persName>Rabbi Benjamin K. Z.</persName>, which went by\n                way of <placeName>Baltimore</placeName>.<lb/> And since you are the chief of our\n                communities in <placeName>Westphalia</placeName>, the follow-<lb/>ing report, the\n                translation of which I want to give to you, will probab-<lb/>ly interest you.\n                    <persName>George Bethune English</persName> was a teacher of philology in<lb/>\n                one of the universities of the <placeName>northern states</placeName>. Through\n                research he dis-<lb/>covered that the religion of the Nazarene was false and that\n                our reli-<lb/>gion is first in truth and probability. Nevertheless, he did not\n                want<lb/> to accept it completely. <persName>Mordecai M. Noah</persName> is a Jewish\n                lawyer in the city<lb/> of <placeName>New York</placeName>. He was once consul of\n                the <placeName>United States</placeName> to the <placeName>Barbary<lb/>\n                    States</placeName>. I believe <placeName>Algiers</placeName> or\n                    <placeName>Tripoli</placeName>. He wrote a book about his travels<lb/> which I\n                have not yet seen. This man <persName>Noah</persName> is the editor of a\n                newspaper,<lb/> bearing the name \"National Advocate\" which appears twice weekly. In\n                the<lb/> issue of <date>Tuesday, the 4th of May</date>, <persName>Mr.\n                    Noah</persName> says,\"</p>\n            <p rend=\"indent(1)\">\"At the departure of <persName>Mr. English</persName> for\n                    <placeName>Constantinople</placeName>, in the sum-<lb/>mer of <date>1823</date>,\n                we asked him to send to us some news regarding the<lb/> number and condition of the\n                Jews in the <placeName>Ottoman Empire</placeName>. When he<lb/> arrived there, the\n                following letter from him which was contained<lb/>\n                <sic>ina</sic> newspaper from <placeName>Smyrna</placeName>, shows some important\n                facts, which in-<lb/>dicate that the Jews have never, since they became scattered,\n                been<lb/> quite without a certain internal government. The opinions of\n                    <persName>Mr.<lb/> English</persName> about the Greeks may have caused certain\n                changes in his report. We, in this land, have a different opinion from him.</p>\n            <p><placeName>Constantinople</placeName>, <date>January 13, 1824</date>.</p>\n            <p>Dear Sir: I have the honor to let you know that after a good many un-<lb/>fortunate\n                delays, I finally arrived in the capital of the <placeName>Ottoman\n                    Em-<lb/>pire</placeName> during the first days of\n                <date>November</date>.......</p>\n            <p>(Unfortunately, the letter breaks <sic>offhere</sic>)</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zc7sm16/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

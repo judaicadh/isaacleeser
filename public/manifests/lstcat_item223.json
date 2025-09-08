@@ -1,0 +1,205 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Isaacs, Myer S.; New York, NY; 30 November 1864",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3t43jp30"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Isaacs, Myer S.; New York, NY; 30 November 1864"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1864-11-30"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item223"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b81c44ea-587e-4afe-8ce1-fe185b96976a%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b81c44ea-587e-4afe-8ce1-fe185b96976a%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4260,
+          "width": 2836,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b81c44ea-587e-4afe-8ce1-fe185b96976a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2836,
+                "height": 4260,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b81c44ea-587e-4afe-8ce1-fe185b96976a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/assets/b81c44ea-587e-4afe-8ce1-fe185b96976a/original",
+              "label": "Original File - 36.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"align(center)\">Board of Delegates of American Israelites,</p>\n            <p rend=\"align(center)\"><placeName>New York</placeName>, <date>Nov 30<hi rend=\"sup\"\n                        >th</hi> 1864</date></p>\n            <p>Sir.</p>\n            <p rend=\"indent(1)\">You are hereby notified that a<lb/> meeting of the Executive<lb/>\n                Committee will be held on <date>Sunday,<lb/> December 4<hi rend=\"sup\">th</hi></date>\n                at 6 ½ o'clock<lb/> M., at the Trustee Room of<lb/> the\n                    <placeName>Broadway</placeName> Synagogue.</p>\n            <p rend=\"indent(8)\">By Order.</p>\n            <p rend=\"indent(9)\"><persName role=\"author\">MYER S. ISAACS</persName>,</p>\n            <p rend=\"indent(10)\">Secretary.</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4260,
+          "width": 2836,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2d79323e-f970-4136-8c73-d2845fc51272%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2836,
+                "height": 4260,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2d79323e-f970-4136-8c73-d2845fc51272%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/assets/2d79323e-f970-4136-8c73-d2845fc51272/original",
+              "label": "Original File - 36.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <table cols=\"2\" rows=\"14\">\n                <row>\n                    <cell>Pamphlet</cell>\n                    <cell>15</cell>\n                </row>\n                <row>\n                    <cell>16.17.18.19.20.21.</cell>\n                    <cell>18</cell>\n                </row>\n                <row>\n                    <cell>22</cell>\n                    <cell>44</cell>\n                </row>\n                <row>\n                    <cell>Cash<add>?</add></cell>\n                    <cell>5</cell>\n                </row>\n                <row>\n                    <cell>B<add>?</add> book</cell>\n                    <cell>1.50</cell>\n                </row>\n                <row>\n                    <cell>Prayer H</cell>\n                    <cell>5</cell>\n                </row>\n                <row>\n                    <cell>Pray <add>?</add></cell>\n                    <cell>18.50</cell>\n                </row>\n                <row>\n                    <cell>&amp; <add>?</add> names</cell>\n                    <cell>1.50</cell>\n                </row>\n                <row>\n                    <cell>Prayer &amp; <add>?</add> with inscription</cell>\n                    <cell>19</cell>\n                </row>\n                <row>\n                    <cell>Bible with clasps &amp; sh<add>?</add></cell>\n                    <cell>18</cell>\n                </row>\n                <row>\n                    <cell>Pray L</cell>\n                    <cell>5</cell>\n                </row>\n                <row>\n                    <cell>al C</cell>\n                    <cell>6</cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell>\n                        <hi rend=\"underline\">5</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell>II.</cell>\n                    <cell>135 50</cell>\n                </row>\n            </table>\n        </body>\n    </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp30/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

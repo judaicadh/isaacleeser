@@ -1,0 +1,290 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Oppenheim, Emil; Leeser, Isaac; Danville, PA; 15 December 1856",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3np1x461"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Oppenheim, Emil; Leeser, Isaac; Danville, PA; 15 December 1856"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Kohn, A.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1856-12-15"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["German", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Danville",
+        "United States -- Pennsylvania",
+        "United States -- Pennsylvania -- Philadelphia"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item57"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/ed6e8523-a8c6-4257-b1b3-a76be268ccd3%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/ed6e8523-a8c6-4257-b1b3-a76be268ccd3%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4880,
+          "width": 3318,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ed6e8523-a8c6-4257-b1b3-a76be268ccd3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3318,
+                "height": 4880,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ed6e8523-a8c6-4257-b1b3-a76be268ccd3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/assets/ed6e8523-a8c6-4257-b1b3-a76be268ccd3/original",
+              "label": "Original File - 48.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"The following is written in pencil at the top right.\">\n                <persName role=\"author\">Emil Oppenheim</persName>\n                <lb/>\n                <placeName>PA</placeName>\n            </p>\n            <p rend=\"align(right)\"><placeName>Danville</placeName>, <date>15 Dec 1856</date></p>\n            <p rend=\"indent(1)\">Sehr ehrwürdiger herr!</p>\n            <p>Es ist mir eine angenehme<lb/> Pflicht, Gelegenheit gefunden<lb/> zu haben, mit Ihren\n                in<lb/> eine kleine Correspondenz<lb/>\n                <sic>Bei</sic> dir zu können. Geben die<lb/> Angelegenheiten meiner G<add>?</add>.<lb/>\n                <add>?</add> ich Ihnen augenblicklich<lb/> nichts Neues <add>?</add>heiten. Ich<lb/>\n                erfreue mich mit das<lb/> gästlichen hilfe sämtlicher Zu,<lb/>trauen und meine\n                Gemeinde ist<lb/> in Blühen und seligen<lb/> begriffen. Unser Mitgliede sind<lb/>\n                jetzt 29, ob schon wir <sic>wir</sic>\n                <add>?</add><lb/> viel Mitglieder verloren haben.<lb/> War Allem geehrter herr\n                bitte<lb/> ich Sie mir entzutheilen<lb/> ab man einen Pfau schöchten<add>?</add>\n                dorf.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5076,
+          "width": 3366,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/dcdbb60f-f87b-4d11-8591-071d72aa8f1d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3366,
+                "height": 5076,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/dcdbb60f-f87b-4d11-8591-071d72aa8f1d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/assets/dcdbb60f-f87b-4d11-8591-071d72aa8f1d/original",
+              "label": "Original File - 51.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Ferne wir Sie erklären der<lb/> Vers in <add>פרשת ויחי</add> als\n                    <persName>Joseph</persName><add>?</add><lb/>\n                <persName>Herr Lindo</persName> zu seinem Vater brachte zm<lb/> segnen fragte dieser\n                wer sind sie?<lb/> fr<add>?</add> antwortete, es sind meine Kinder<lb/> O die mir\n                Gast hier gegeben hat, <add>בדה</add><lb/> Außer <add>ריל\"ד</add>\n                    ferklärung<add>?</add> ist mir<lb/> noch eins Erklärung geworden,<lb/> nämlich\n                    <persName>Joseph</persName> habe seinem Vater<lb/> gezeigt ein Schein, der von\n                dessen<lb/> eigene <sic>hand</sic> geschrieben war,<lb/> daß die Frau von\n                    <persName>Joseph</persName>\n                <del>sie</del> die <add>?</add><lb/>\n                <add>?</add>'s zu <add>?</add> sie der <add>סרים</add> der\n                hofb<add>?</add>diente<lb/> Pharaos sei derselbe was hertze Lage<lb/> in der Türken\n                die <add>?</add> der<lb/> Sultan die keine Lindes haben<lb/> könnten, und derselbe\n                habe nur<lb/> die Tochter <persName>Dina's</persName>\n                <del>z</del> als Linde ange<add>?</add><lb/> wer Bitte geehrter herr!<lb/> geben Sie\n                mir Ihre gütige Meinung hierin und ab von<lb/> einer Pfarr<add>?</add> schächte\n                darf.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4888,
+          "width": 3364,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bb6621f9-2c59-4a73-af7b-dfa4b56d297d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3364,
+                "height": 4888,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bb6621f9-2c59-4a73-af7b-dfa4b56d297d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/assets/bb6621f9-2c59-4a73-af7b-dfa4b56d297d/original",
+              "label": "Original File - 49.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Bemerken Sie mir auch wenn<lb/> das Abonnement des Occidents<lb/> abzulaufen ist.\n                Allem Anscheine<lb/> nach wird <sic>heis</sic><add>?</add> wir B. B.<lb/> Lodge\n                errichted werden<lb/> fr<add>?</add> haben <del>sich</del>\n                <add>?</add> 23 <add>?</add><lb/>\n                <add>?</add> stattgefunden, nur ein<lb/> Petition ist an der betreffende<lb/> D. G.\n                abgesandt. Näheres hier es <add>?</add><lb/>\n                <add>?</add>.</p>\n            <p rend=\"indent(1)\">Achtungsvoll und ergebenst</p>\n            <p rend=\"indent(2)\">Ihr</p>\n            <p rend=\"indent(1)\">\n                <persName role=\"author\">Emil Oppenheim</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5076,
+          "width": 3366,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/01b456e0-9677-4998-8db8-93941586db6d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3366,
+                "height": 5076,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/01b456e0-9677-4998-8db8-93941586db6d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x461/assets/01b456e0-9677-4998-8db8-93941586db6d/original",
+              "label": "Original File - 51.5 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

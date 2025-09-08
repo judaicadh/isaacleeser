@@ -1,0 +1,342 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Rehine, Zalma; Leeser, Isaac; New York, NY; 15 May 1833",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p34t6fp80"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Rehine, Zalma; Leeser, Isaac; New York, NY; 15 May 1833"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1833-05-15"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "5 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item28"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/4cff0874-0a6f-4278-95a7-7b58b3330510%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/4cff0874-0a6f-4278-95a7-7b58b3330510%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6078,
+          "width": 4918,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4cff0874-0a6f-4278-95a7-7b58b3330510%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4918,
+                "height": 6078,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4cff0874-0a6f-4278-95a7-7b58b3330510%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/assets/4cff0874-0a6f-4278-95a7-7b58b3330510/original",
+              "label": "Original File - 89.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>New York</placeName>\n                <date>May 15<hi rend=\"sup\">th</hi> 1833</date>.</p>\n            <p rend=\"indent(1)\">Dear <addressee>Isaac</addressee></p>\n            <p rend=\"indent(2)\">I <sic>supose</sic> you wish to hear from us and how we<lb/> are and\n                I have have this morning some time to spare<lb/> so I let you know we arrived here\n                last <date>Monday</date> week at 7<lb/> oclock went in a carriage and after a long\n                ride we came<lb/> to the most <persName>revt<add>?</add> Parsan Isaac B Seixas\n                    Backey</persName> meeting<lb/> her sister with open arms kissing and hugging the children<lb/>\n                <sic>comming</sic> round me Hollowery<add>?</add> and Cring<add>?</add>\n                <persName>uncle Rehine</persName><lb/>\n                <persName>seixas</persName> hardly any chance to say how do and in less than<lb/> 20\n                minutes <persName>Mr &amp; Mrs <add>?</add> Philips</persName> came to say<lb/> how\n                you do and invited us to dine with them on <date>Thursday</date><lb/> what we did\n                promise to do next Day we were visited by almost<lb/> say one Hundred more or less\n                and everyday some one came<lb/> to see us we have been returning visits since\n                    <date>Sunday</date> but<lb/> have not been able to get <sic>throu</sic> Half and\n                I expect by<lb/> about 3 weeks we may finish news I have more <add>?</add><lb/> I\n                forget the governor hearing we were come to <placeName>new\n                    <sic>york</sic></placeName><lb/> came yesterday to Town and ordered a general\n                parade<lb/> on <date><sic>thursday</sic></date> that I might see what fine soldiers\n                they have<lb/> got from <placeName>new <sic>york</sic></placeName> so you see I have\n                said nonsense enough</p>\n            <p>I Remain your friend <persName role=\"author\">Zalma Rehine</persName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6078,
+          "width": 4918,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c32dac0-5f92-41ec-b554-870950ba2569%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4918,
+                "height": 6078,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c32dac0-5f92-41ec-b554-870950ba2569%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/assets/5c32dac0-5f92-41ec-b554-870950ba2569/original",
+              "label": "Original File - 89.9 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6078,
+          "width": 4918,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8b3934d7-751f-486e-aac2-045cde944b49%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4918,
+                "height": 6078,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8b3934d7-751f-486e-aac2-045cde944b49%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/assets/8b3934d7-751f-486e-aac2-045cde944b49/original",
+              "label": "Original File - 89.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Dear <addressee>Isaac</addressee> you will remember us to <persName>Mr &amp; Mrs\n                    Allen</persName><lb/> I would name all but we can spare no time so you<lb/> will\n                tell all we wish them Happy and desire to be<lb/> Remembered to them remember us to\n                    <persName>Mrs Cousin</persName><lb/> tell her we hope she will be Quite\n                recovered from<lb/> her <sic>indispossion</sic> when we return god bless you</p>\n            <p><persName>Mr &amp; <sic>Mr</sic> Seixas</persName> send <sic>there</sic> love to you\n                and wish you<lb/> would be here next <date><sic>Sabath</sic></date> 14 Days from\n                this when<add>?</add><lb/> gersham<add>?</add>\n                <add>Hebrew</add> and help to eat some of <sic>there</sic> cakes</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6078,
+          "width": 4918,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/dad401a4-08ee-4df2-ae7b-8ea8d3cf1204%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4918,
+                "height": 6078,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/dad401a4-08ee-4df2-ae7b-8ea8d3cf1204%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/assets/dad401a4-08ee-4df2-ae7b-8ea8d3cf1204/original",
+              "label": "Original File - 89.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>the <addressee>revd Isaac Leeser</addressee></p>\n            <p>\n                <placeName>No 86 <sic>Valnut</sic> Street</placeName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 6782,
+          "width": 5298,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e491d554-f40c-4d9b-a9f5-a4bf632fc63b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5298,
+                "height": 6782,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e491d554-f40c-4d9b-a9f5-a4bf632fc63b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/assets/e491d554-f40c-4d9b-a9f5-a4bf632fc63b/original",
+              "label": "Original File - 108 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>New York</placeName>\n                <date>May 15<hi rend=\"sup\">th</hi> 1833</date>.</p>\n            <p>Dear <addressee>Isaac</addressee></p>\n            <p rend=\"indent(1)\">I <sic>supose</sic> you wish to hear from us<lb/> and how we are and\n                I have <sic>have</sic> this morning<lb/> some time to spare so I let you know\n                we<lb/> arrived here last <date>Monday</date> week at 7 oclock<lb/> went in a\n                    <sic>carriadge</sic> and after a long ride<lb/> we came to the most\n                    <persName>revd Parson Isaac B<lb/> Seixas Backey<add>?</add></persName> meeting\n                her sister with<lb/> open arms Kissing and <sic>Huging</sic> the children<lb/>\n                    comoning<add>?</add> round me Hollowing and <sic>Cring</sic>\n                <persName>uncle<lb/> Rehina</persName>\n                <persName>Seixas</persName> hardly any chance to say<lb/> how do and in less than 20\n                minutes <persName>Mr &amp; Mrs<lb/> Naphtoly Philips</persName> come to say how you\n                do and<lb/> invited us to dine with them on <date><sic>thursday</sic></date><lb/>\n                which we did promise to do next Day we were<lb/> visited by almost say one Hundred\n                more or<lb/> less and everyday some one came to see us<lb/> we have been returning\n                visits some<lb/>\n                <date>Sunday</date> but have not been able to get<lb/> through by Half and I expect\n                by about 3<lb/> weeks we may finish news I have<lb/> none I forgot the governor\n                Hearing we<lb/> were come to <placeName>New York</placeName> came yesterday<lb/> to\n                Town and ordered a general parade on<lb/>\n                <date>Thursday</date> that I might see what fine<lb/> soldiers they have got in\n                    <placeName>New York</placeName> so<lb/> you can see I have said nonsense\n                enough</p>\n            <p>I Remain your friend <persName role=\"author\">Zalma Rehina</persName></p>\n            <p>Addressed to: <addressee>The revd Isaac Leeser</addressee></p>\n            <p rend=\"indent(2)\">\n                <placeName>No 86 <sic>walnut</sic> Street</placeName>\n            </p>\n            <p rend=\"indent(3)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp80/canvas/p5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

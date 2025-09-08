@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Lindo, A. A.; Leeser, Isaac, Rev.; Cincinnati, OH; 13 February 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3q52fv9x"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Lindo, A. A.; Leeser, Isaac, Rev.; Cincinnati, OH; 13 February 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-02-13", "13 February 5609"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Ohio -- Cincinnati",
+        "United States -- Ohio",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_14"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/3a9bfa8f-15ad-41ec-9fde-7d438620a5af%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/3a9bfa8f-15ad-41ec-9fde-7d438620a5af%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5840,
+          "width": 4800,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3a9bfa8f-15ad-41ec-9fde-7d438620a5af%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4800,
+                "height": 5840,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3a9bfa8f-15ad-41ec-9fde-7d438620a5af%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/assets/3a9bfa8f-15ad-41ec-9fde-7d438620a5af/original",
+              "label": "Original File - 84.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Cincinnati</placeName>\n                                        <date>13 Feby 5609</date>.</p>\n                              <p>Revd Sir</p>\n                              <p rend=\"indent(1)\">Accept my thanks for inserting, in the\n                                        occident<lb/> of this month, my first letter on the union\n                                        &amp;c. It is thought much<lb/> of here, perhaps more than\n                                        it deserves. I am not over greedy of praise<lb/> but if my\n                                        labours contribute, in the smallest degree, to promote the\n                                        good<lb/> cause, it will I confess make me happy, and amply\n                                        compensate me.</p>\n                              <p rend=\"indent(1)\">I have now the pleasure of handing you Letter 3,\n                                        on<lb/> subjects confessedly difficult to be properly\n                                        treated. Whether I have succee=<lb/>=ded or not in my\n                                        expositions, and to what degree will be judged by the\n                                        public<lb/> before whom my letters are to be placed.</p>\n                              <p rend=\"indent(1)\">I read very attentively your excellent article on\n                                        “The<lb/> Results of Union.” it came very opportunely, and I\n                                        availed myself<lb/> of it, as you will perceive in my 3\n                                        Letter, to induce patient attention to<lb/> my exposition.\n                                        Your remarks and suggestions, and my two first letters<lb/>\n                                        ought to suffice for the purposes of the suggested meeting.\n                                        Our Folks<lb/> scarcely ever proceed at Railway speed,\n                                        therefore what you may further<lb/> suggest and I may\n                                        publish will be in very good time and keeping, even<lb/> if\n                                        issued after holding the meeting, for the Union should it\n                                        ever take<lb/> place. I shall therefore continue my\n                                        exposition, and though not as fully<lb/> as might be done, I\n                                        will still endeavour to render it as useful and\n                                        interesting<lb/> as I can, by neglecting nothing that I\n                                        think might conduce to those ends.</p>\n                              <p rend=\"indent(1)\">I expect the pleasure of a letter from you in\n                                        acknow=<lb/>ledgment of that I wrote you on forwarding to\n                                        you my 2<hi rend=\"sup\">nd</hi> Letter on the Union.<lb/> I\n                                        am anxious to learn if you approve of and intend, on my\n                                        suggestion, announcing<lb/> at once in the occident for\n                                                  <date><sic>march</sic></date>, the meeting for\n                                                  <date>Rosh Hodesh Sivan</date>, the<lb/>\n                                        <date>22<hi rend=\"sup\">nd</hi> May</date>, at <placeName>New\n                                                  York</placeName>. In your article “The results of\n                                        Union” page</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5840,
+          "width": 4800,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c2675980-dbaf-4f3e-be1f-7aea01fc3153%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4800,
+                "height": 5840,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c2675980-dbaf-4f3e-be1f-7aea01fc3153%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/assets/c2675980-dbaf-4f3e-be1f-7aea01fc3153/original",
+              "label": "Original File - 84.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><sic>page</sic> 539, I observe something like a too much waiting\n                                        upon others?<lb/> announce the meeting and I will venture to\n                                        insure an attendance of<lb/> at least a dozen—quite enough,\n                                        and perhaps better than a greater number<lb/> to resolve on\n                                        constituting itself the suggested society, which many\n                                        will<lb/> subsequently join. Forgoing that far neither much\n                                        labour nor money<lb/> will be required, whilst it may be the\n                                        means of eventual success in<lb/> the object we have in\n                                        view. If the meeting take place at <placeName>New\n                                                  York</placeName> many<lb/> of the laymen of that\n                                        city will doubtless attend. I have in view as many<lb/> as a\n                                        dozen including laymen and ministers that would be present\n                                        at the<lb/> meeting. <persName>Dr. Wise</persName><add>Each\n                                                  name is labeled with a number above it—1, 2, 3, 4,\n                                                  etc.</add>, <persName>Dr. Lilienthall</persName>,\n                                                  <persName>Revd. Mr. Isaacs</persName>,\n                                                  <persName>Revd Mr. Lyons</persName>,<lb/>\n                                        <persName>Revd Mr Leo</persName>, <persName>Revd Isaac\n                                                  Leeser</persName>, <persName>Mr Abm\n                                                  Kursheedt</persName>, His Father,<lb/>\n                                        <persName>Mr. Abm Hart</persName>\n                                        <placeName>N/Y.</placeName>\n                                        <persName>Mr. Noah</persName>, <persName>Dr. J. I.\n                                                  Cohen</persName>, <placeName>Balt.</placeName>\n                                        <persName>Revd Mr Gutheime</persName><lb/>\n                                        <persName>Revd Mr Hart</persName>,\n                                                  <placeName>Phil.</placeName> Myself. There number\n                                        14 and surely many more of<lb/> the Gentlemen from\n                                                  <placeName>Albany</placeName>, <placeName>New\n                                                  York</placeName>,\n                                                  <placeName>Philadelphia</placeName>, and\n                                                  <placeName>Baltimore</placeName>,<lb/> to say\n                                        nothing of <placeName>Cincinnati</placeName>, &amp; other\n                                        portions of the Union who may chance<lb/> to be at\n                                                  <placeName>New York</placeName> at the time, it\n                                        may be reasonably expected will attend.</p>\n                              <p rend=\"indent(1)\">My son visited <persName>Dr. Rice</persName> at\n                                                  <placeName>Baltimore</placeName>. The\n                                        reverend<lb/> Gentleman persisted in saying he would not\n                                        attend the meeting, giving<lb/> for reason that he thought a\n                                        meeting of ministers could have no result,<lb/> and that one\n                                        of talented laymen would be likely to have more: He\n                                        added<lb/> that he might, however, yet determine on\n                                        attending. I hope he may but if<lb/> he do not we must\n                                        strive to do as well as we can without him.</p>\n                              <p rend=\"indent(1)\">Have you considered my request to have 50 copies\n                                        of each<lb/> of my letters struck off before breaking the\n                                        forms in order to their being made up<lb/> as a pamphlet. I\n                                        hope you will have the goodness to gratify me in this</p>\n                              <p rend=\"indent(1)\">I am ever revd sir Yours faithfully <persName\n                                                  role=\"author\">A A Lindo</persName></p>\n                              <p>\n                                        <addressee>Revd Isaac Leeser</addressee>\n                              </p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_6_11.pdf\">The above\n                                                  text refers to Occident Volume 6 No. 11 pages 517\n                                                  through 540. Click here to view.</ref>\n                                        </p>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_6_11.pdf\">The above\n                                                  text also refers to Occident Volume 6 No. 11 pages\n                                                  565 through 574. Click here to view.</ref>\n                                        </p>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_6_12.pdf\">The above\n                                                  text also refers to Occident Volume 6 No. 12 pages\n                                                  604 through 612. Click here to view.</ref>\n                                        </p>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_7_1.pdf\">The above\n                                                  text also refers to Occident Volume 7 No. 1 pages\n                                                  43 through 52. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3q52fv9x/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

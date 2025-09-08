@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Henry, H. A.; Leeser, Isaac, Rev.; San Francisco, CA; 7 July 1862",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3f47hd6j"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Henry, H. A.; Leeser, Isaac, Rev.; San Francisco, CA; 7 July 1862"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Henry, H. A.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1862-07-07"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- San Francisco",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF9_5"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/6fcc06e6-bff7-4fc9-a360-9bf3b7534671%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/6fcc06e6-bff7-4fc9-a360-9bf3b7534671%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4324,
+          "width": 3484,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6fcc06e6-bff7-4fc9-a360-9bf3b7534671%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3484,
+                "height": 4324,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6fcc06e6-bff7-4fc9-a360-9bf3b7534671%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/assets/6fcc06e6-bff7-4fc9-a360-9bf3b7534671/original",
+              "label": "Original File - 45.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>San Francisco</placeName>\n                <date>July 7<hi rend=\"sup\">th</hi> 1862</date>\n            </p>\n            <p>\n                <addressee>Revd Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(2)\">Dr Sir</p>\n            <p rend=\"indent(3)\">Yesterdays mail<lb/> brought me a letter from my son who<lb/> is one\n                of the surgeons in the United States<lb/> Navy in which he mentions that He had<lb/>\n                an introduction to you by <persName>Dr Fischel.</persName> I<lb/> hope the interview\n                was mutually agreeable<lb/> on his part I can answer for from the tone<lb/> in which\n                he writes you being brought to mind<lb/> in this way I thought I would drop a\n                few<lb/> lines, altho' I have nothing very particular<lb/> to relate. Religious\n                matters are at the stand<lb/> excepting that the Emanuel go on with<lb/> their\n                reforms, and their Rabbi is laboring<lb/> hard to set at <sic>nought</sic> all\n                Orthodox <del>Refor</del><lb/> forms and ceremonies. In a recent discourse<lb/> of\n                his he stated that cutting the <add>קריעה</add> over the<lb/>\n                <add>שבעה</add> is out of date and wearing the Beard<lb/> in the <add>קרעו לבבכם ואל\n                    בגדתם</add> is absurd. The <add>?</add> preached<lb/>\n                <add>בר מצוה</add> that is the real meaning<lb/> said the Preacher. I was not\n                present—but</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4324,
+          "width": 3484,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b382bf2d-6e77-4dcb-9405-20dce9f8f70e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3484,
+                "height": 4324,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b382bf2d-6e77-4dcb-9405-20dce9f8f70e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/assets/b382bf2d-6e77-4dcb-9405-20dce9f8f70e/original",
+              "label": "Original File - 45.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>such was the general reports. It is pitiful<lb/> to relate how our sacred ceremonies\n                are being<lb/> undermined. It is currently reported that a<lb/> father brought his\n                son to be taught the requisites<lb/> for his <add>תפלין</add> but the Dr refused to\n                teach<lb/> him to say <add>קהלה</add> stating all was nonsense<lb/> I am however\n                steadfast in my Orthodox<lb/> course and I am happy to say my <add>מצות</add><lb/>\n                are firm with me. That is one satisfaction to me<lb/> it was noticed last year that\n                our <add>שחיטה</add> were<lb/> not as they should be. I <add>?</add> myself\n                this<lb/> year in the matter, and formed a party to<lb/> do as the Law directs and\n                the result proved<lb/> as you will see by the enclosed Circular.<lb/> It may not be\n                of any moment to you so far<lb/> from us but in there perilous times every\n                little<lb/> thing is of consequence to uphold the fabric<lb/> from falling into\n                ruin. No doubt you will think<lb/> with me. I hope also to effect a radical\n                reform<lb/> in the <add>אבל לא אשר את לבי לדבריהם</add> of Heaven grant me strength\n                and<lb/> health. I have to fight the Battle in the good cause<lb/> I am at times\n                sneered at being so old fashioned<lb/> and against progress <add>רכב וצלח</add><lb/>\n                I say with <persName>David</persName>\n                <add>Hebrew</add> and it must be<lb/> so in the end. I amuse myself now when at<lb/>\n                leisure in reading your Occident. Will you<lb/> send me by return the following Nos.\n                to complete<lb/> Vol. 18 of weekly series &amp; they are: <hi rend=\"underline\"\n                    >1-2-3-4-5</hi><lb/>\n                <hi rend=\"underline\">20-24-27-40-42</hi> as also the whole volume <hi\n                    rend=\"underline\">17</hi><lb/> so that I can bind them and you will oblige</p>\n            <p rend=\"indent(8)\">Yours truly</p>\n            <p rend=\"indent(8)\">\n                <persName role=\"author\">H. A. Henry</persName>\n            </p>\n            <p><hi rend=\"underline\">Let me hear from you soon</hi>. </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd6j/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

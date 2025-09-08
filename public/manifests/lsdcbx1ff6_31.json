@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Rosenfeld, I.; Leeser, Isaac, Rev.; Charleston, SC; 21 April 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p37d2qq43"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Rosenfeld, I.; Leeser, Isaac, Rev.; Charleston, SC; 21 April 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-04-21"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_31"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e51203b-1018-4692-8e59-8b50e69efc83%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e51203b-1018-4692-8e59-8b50e69efc83%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5872,
+          "width": 4536,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e51203b-1018-4692-8e59-8b50e69efc83%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4536,
+                "height": 5872,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e51203b-1018-4692-8e59-8b50e69efc83%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/assets/5e51203b-1018-4692-8e59-8b50e69efc83/original",
+              "label": "Original File - 80.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Charleston So. Ca.</placeName>\n                                        <date>April 21<hi rend=\"sup\">st</hi> 1849</date>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <addressee>Revd Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(3)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(4)\">Dr &amp; Reverend Sir,</p>\n                              <p rend=\"indent(7)\">I should have answered your several<lb/>\n                                        communications long ere this, but business both private\n                                        &amp; public<lb/> prevented me from doing myself this\n                                        pleasure. Now you would<lb/> justly say, that any man can\n                                        write a few lines, however his<lb/> time may be monopolized\n                                        by his avocation, and, with much pro=<lb/>priety you could\n                                        instance it in your own person, whose time<lb/> being very\n                                        limited, is yet able to carry on a correspondence<lb/>\n                                        almost over the whole Union. I would answer you in few<lb/>\n                                        words <add>לאו כל אדם זוכה</add>!! Besides my principal\n                                        reason for not having been more<lb/> prompt is, that I\n                                        determined never to appear before you empty handed,<lb/>\n                                        viz, without contributing something to the Occident, and\n                                        thus I offer<lb/> you the enclosed trifle which you may\n                                        insert in your invaluable journal<lb/> if you find it worthy\n                                        to have a place therein, and good enough to<lb/> stand the\n                                        scrutiny of the <sic>criticising</sic> public. As regards\n                                        the<lb/> proposed convention, I hope to give you soon more\n                                        fully my opinion<lb/> on it, for I can assure that I\n                                        anticipated such results. <persName>Mr Hart</persName><lb/>\n                                        has no doubt acquainted you with the fact, that the\n                                        Congregation<lb/> Shearit Israel will not join the\n                                        Convention. You are doubtlessly dis<lb/>appointed, and I am\n                                        really sorry that your zeal and honest<lb/> endeavors in the\n                                        good cause are so little appreciated by our<lb/> brethern,\n                                        and the, so much cherished, hope of affecting a Union<lb/>\n                                        of <placeName>Israel</placeName> in the <placeName>United\n                                                  States</placeName> will have to be relinquished\n                                        for the<lb/> present</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5872,
+          "width": 4536,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e94225ee-bc2f-4758-baf7-d8527e73fbd1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4536,
+                "height": 5872,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e94225ee-bc2f-4758-baf7-d8527e73fbd1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/assets/e94225ee-bc2f-4758-baf7-d8527e73fbd1/original",
+              "label": "Original File - 80.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>But there is one consolation that the matter rests in good\n                                        hands<lb/> for as far as I have the honor of knowing you by\n                                        reputation,<lb/> I know that you are <hi rend=\"underline\"\n                                                  >not</hi> the man to give up a project so<lb/>\n                                        easily, if there is the remotest spark of hope, of\n                                        succeeding<lb/> even at an indefinite period, and as far as\n                                        I am con<lb/>cerned, I promise you my aid, as much as my\n                                        feeble efforts<lb/> will permit, so that if the congregation\n                                        can retain me here I hope yet to<lb/> see\n                                                  <placeName>Charleston</placeName>\n                                        <sic>formost</sic> in the successful effort. It strikes\n                                        me<lb/> however, that you could further the matter by the\n                                        following method.<lb/> Engage if possible a competent\n                                        person, friendly to the cause,<lb/> who is to issue an\n                                        anonymous Article, showing all imaginable<lb/> dangers which\n                                                  ultras<add>?</add> think may possibly accrue to\n                                        the cause of our holy Religion<lb/> by the proposed\n                                        convention, let it be worded as if coming from<lb/> a\n                                        hostile pen, and then set about depending anonymously the\n                                        project, ably,<lb/> at the same time laying bare every\n                                        imaginable disadvantage we<lb/> are laboring under at\n                                        present and the deplorable state of religious<lb/> anarchy\n                                        amongst <placeName>Israel</placeName> all over\n                                                  <placeName>America</placeName>. Such a controversy\n                                        would<lb/> draw the attention of the public more\n                                        successfully, those who<lb/> are lukewarm may become\n                                        interested in the matter, while the<lb/> ultra Orthodox will\n                                        gradually yield. I merely suggest this<lb/> because there\n                                        are many here and probably everywhere else, who will\n                                        not<lb/> listen to reason, and merely say, <hi\n                                                  rend=\"underline\">It cannot be done</hi>. One<lb/>\n                                        objects because his neighbor says it is injurious, the\n                                        other, because<lb/> it will cost something, a third, wishes\n                                        to show the public<lb/> that he possess wisdom, and\n                                        foresight. In short there are but<lb/> precious few who\n                                        oppose the measure from true religions</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5872,
+          "width": 4536,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f342a2fe-19c9-4b8b-9518-deeb59f3d170%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4536,
+                "height": 5872,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f342a2fe-19c9-4b8b-9518-deeb59f3d170%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/assets/f342a2fe-19c9-4b8b-9518-deeb59f3d170/original",
+              "label": "Original File - 80.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>motives. Selfishness, lukewarmness, and the natural\n                                        disposition<lb/> of our people to oppose are the stumbling\n                                        blocks in our<lb/> way, but we must nevertheless keep on and\n                                        steadily pursue<lb/> the true course, and we cannot fail.\n                                        There are little news<lb/> here which interest you, except\n                                        that next <sic>thursday</sic> a concert<lb/> is to be given\n                                        in behalf our congregation may the Lord<lb/> grant them\n                                        success for the congregation is much in need of<lb/>\n                                        pecuniary aid. By the by, I was informed yesterday that<lb/>\n                                        <persName>D Landsberg</persName>, who was expected to\n                                        succeed <persName>Mr Poznanski</persName>, re=<lb/>fuses\n                                        coming, for several reasons, the principal of which<lb/>\n                                        are, that he expected $500.00 for travelling expenses, and\n                                        they<lb/> only sent him $200.00 and again, he only wishes to\n                                        be minis=<lb/>ter and not Chazan. There is besides a great\n                                        deal of contention<lb/> amongst them, and <persName>Mr\n                                                  P.</persName> has lost ground even amongst\n                                        his<lb/> own party. Hoping that this may find you in the\n                                        enjoyment<lb/> of the best of health, and fervently wishing\n                                        that the Lord<lb/> may prolong your days for the Benefit of\n                                        our Brethern and the cause.</p>\n                              <p rend=\"indent(6)\">I remain</p>\n                              <p rend=\"indent(7)\">Most sincerely</p>\n                              <p rend=\"indent(7)\">Yr friend and colleague</p>\n                              <p rend=\"indent(8)\">\n                                        <persName role=\"author\">I Rosenfeld</persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37d2qq43/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Hart, Isaac; Leeser, Isaac, Rev.; New Orleans, LA; 15 October 1858",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3n873k3m"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Hart, Isaac; Leeser, Isaac, Rev.; New Orleans, LA; 15 October 1858"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Hart, Isaac", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1858-10-15"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Louisiana -- New Orleans",
+        "United States -- Louisiana",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF5_29"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/bf4a769f-86fb-42bc-be92-96d449db611a%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/bf4a769f-86fb-42bc-be92-96d449db611a%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4360,
+          "width": 3632,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bf4a769f-86fb-42bc-be92-96d449db611a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3632,
+                "height": 4360,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bf4a769f-86fb-42bc-be92-96d449db611a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/assets/bf4a769f-86fb-42bc-be92-96d449db611a/original",
+              "label": "Original File - 47.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>\n                    <sic>Norleans</sic>\n                </placeName>\n                <date>Oct 15th 1858</date>\n            </p>\n            <p>\n                <addressee>Revd Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(3)\">Dear Sir</p>\n            <p>Send your Occident to<lb/>\n                <persName>Mess D Moore &amp; Co</persName><lb/>\n                <placeName>New Orleans</placeName></p>\n            <p>I regret to tell you the <sic>epedemic</sic><lb/> still continues &amp; our\n                people<lb/> are still falling victims to<lb/> the fell Destroyer</p>\n            <p>assistance is now coming in<lb/> which will so far to render aid<lb/> to our various\n                Benevolent Societies<lb/>\n                <placeName>N York</placeName> has sent to the Genl <add>?</add><lb/> Hebrew\n                Benevolent Society.</p>\n            <table cols=\"2\" rows=\"9\">\n                <row>\n                    <cell><persName>L B Can Eq</persName> President</cell>\n                    <cell>797.22</cell>\n                </row>\n                <row>\n                    <cell>Recd through <persName>Dr J A Cohen</persName></cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>by subscription of a few Israelites</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>at <placeName>Harrisonburg La</placeName></cell>\n                    <cell>117.00</cell>\n                </row>\n                <row>\n                    <cell>recd from <persName>L Klossman</persName> &amp;</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>others from <placeName>Biloxi Miss</placeName></cell>\n                    <cell>117.00</cell>\n                </row>\n                <row>\n                    <cell>Recd from <add>?</add>\n                        <placeName>Miss</placeName></cell>\n                    <cell>50.00</cell>\n                </row>\n                <row>\n                    <cell>“ <placeName>Clinton La</placeName></cell>\n                    <cell>\n                        <hi rend=\"underline\">75.00</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell>$1156.22</cell>\n                </row>\n            </table>\n            <p>Turn over</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4360,
+          "width": 3632,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7b7b2696-13d8-487e-88cc-579fc96938f3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3632,
+                "height": 4360,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7b7b2696-13d8-487e-88cc-579fc96938f3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/assets/7b7b2696-13d8-487e-88cc-579fc96938f3/original",
+              "label": "Original File - 47.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<table cols=\"2\" rows=\"11\">\n                <row>\n                    <cell/>\n                    <cell>1156.22</cell>\n                </row>\n                <row>\n                    <cell>also recd from <placeName>N York</placeName> for the</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>Widow &amp; Orphans Home</cell>\n                    <cell>250.00</cell>\n                </row>\n                <row>\n                    <cell>Recd from <persName>Dr Liliethenal</persName></cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>&amp; a number of other kind</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>Hearted Israelites from</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell><placeName>Cincinnati</placeName> &amp; which</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>I also learn goes to the home</cell>\n                    <cell>400.00</cell>\n                </row>\n                <row>\n                    <cell>Recd from <placeName>St Louis</placeName> JOBB</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>for General Distribution</cell>\n                    <cell>\n                        <hi rend=\"underline\">150.00</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell>Total Recd</cell>\n                    <cell>$1956 22</cell>\n                </row>\n            </table>\n            <p>This assistance will do much good<lb/> but its like a drop of water on the<lb/> sea\n                the Hebrew Benevolent<lb/> alone has paid out &amp; incurred an<lb/> expense\n                    <sic>allready</sic> of from 3 to $5000<lb/> The Ladies Heb Ben association<lb/>\n                has been compelled to Borrow<lb/> $200 in Interest &amp; the Home<lb/> are in Debt\n                very largely with<lb/> a large number daily here<lb/> admitted to be fed\n                clothed<lb/> &amp; educated yet with all this<lb/> I feel confident we have\n                sympathy<lb/> seeing Hearts among you who<lb/> if even late will not be behind<lb/>\n                their Brethren in other cities but</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4360,
+          "width": 3632,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/50ce3f1e-a879-4a97-97b6-646db205880f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3632,
+                "height": 4360,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/50ce3f1e-a879-4a97-97b6-646db205880f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/assets/50ce3f1e-a879-4a97-97b6-646db205880f/original",
+              "label": "Original File - 47.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>will yet send their Mite</p>\n            <p rend=\"indent(1)\">Excuse scrawl</p>\n            <p rend=\"indent(1)\">In Haste yours Truly</p>\n            <p rend=\"indent(2)\">\n                <persName role=\"author\">Isaac Hart</persName>\n            </p>\n            <p><persName>Mr M Goldsmith</persName> has just<lb/> lost one of his children<lb/>\n                <persName>Annie</persName> aged 5 years<lb/> and I fear ere 24 Hours he<lb/> will\n                lose his only son<lb/> the Doctors fear the worst</p>\n            <p>I never knew so much sickness<lb/> in those Born here</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3n873k3m/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Mayer, Isaac; Leeser, Isaac; Augusta, GA; 29 November 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3348h289"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Mayer, Isaac; Leeser, Isaac; Augusta, GA; 29 November 1851"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-11-29"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Georgia -- Augusta",
+        "United States -- Georgia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item24"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/46ffa859-c305-4b03-9e8a-bb28942bcd4f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/46ffa859-c305-4b03-9e8a-bb28942bcd4f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6252,
+          "width": 4854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/46ffa859-c305-4b03-9e8a-bb28942bcd4f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4854,
+                "height": 6252,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/46ffa859-c305-4b03-9e8a-bb28942bcd4f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/assets/46ffa859-c305-4b03-9e8a-bb28942bcd4f/original",
+              "label": "Original File - 91.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Augusta</placeName>\n                <date>Nove 29<hi rend=\"sup\">th</hi> 1851</date>\n            </p>\n            <p rend=\"indent(1)\">\n                <addressee>Rev I Leeser</addressee>\n            </p>\n            <p rend=\"indent(3)\">My Dear Sir</p>\n            <p rend=\"indent(4)\">enclosed<lb/> you find an order on <persName>Mayer Haas</persName>\n                &amp;c<lb/> for forty two 24/100 Doll a part of <sic>colections</sic><lb/> that I\n                have made for you as follows<lb/>\n                <persName>Mess Caro</persName> &amp; <persName>Blascoer</persName> for 2 sets of\n                the<lb/> five book <persName>moses</persName> 15 30.00</p>\n            <p>2 fine prayer books sent to my</p>\n            <table cols=\"3\" rows=\"5\">\n                <row>\n                    <cell>order</cell>\n                    <cell>5</cell>\n                    <cell>10.00</cell>\n                </row>\n                <row>\n                    <cell>one prayer book “</cell>\n                    <cell/>\n                    <cell>\n                        <hi rend=\"underline\"> 2.50</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell>42.50</cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell>\n                        <hi rend=\"underline\"> 21</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell>paid ½ 00 exchange</cell>\n                    <cell/>\n                    <cell>$42.29</cell>\n                </row>\n            </table>\n            <p>for above please acknowledge reced<lb/>\n                <persName>Mr Morritz Schwarz</persName> has also subscribed<lb/> for one year to\n                your <sic>Occitend</sic> you<lb/> will please forward the same to<lb/>\n                <persName>M Schwarz</persName>\n                <placeName>Augusta Ga</placeName></p>\n            <p><persName>Mr M Jacobs</persName> of <placeName>Athens</placeName> made complaint\n                to<lb/> me in regard that he has received but<lb/> 2 No of his <sic>Occidtent</sic>\n                &amp; has subscribed<lb/> at the time when you were in our<lb/> city last news we\n                have but little our<lb/> congregation is coming on slow although<lb/> our\n                    <add>Hebrew</add>\n                <persName>Mr I Schatz</persName> is well beliked &amp;<lb/> fully deserves it, He is\n                a gentleman that<lb/> haves<add>?</add> a good <sic>caracter</sic> but he is not</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6252,
+          "width": 4854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/58fc78cb-aa51-4de2-9e53-31d55ee42605%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4854,
+                "height": 6252,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/58fc78cb-aa51-4de2-9e53-31d55ee42605%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/assets/58fc78cb-aa51-4de2-9e53-31d55ee42605/original",
+              "label": "Original File - 91.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>able to <sic>Legtur</sic> which is very much<lb/> wanting in a place like ours. I\n                have<lb/> a great trouble to get <add>Hebrew</add> on <date><sic>Sabath</sic></date>\n                &amp;<lb/> the fact is if they should not improve<lb/> in a short time in religious\n                feeling<lb/> I fear nothing will remain but the<lb/> name. My intention is to move\n                to<lb/> your city next fall, where I hope<lb/> to hear your valuable\n                    <sic>Legtures</sic> on<lb/> many occasion. I do it also more<lb/> on account of\n                my children as I<lb/> wish to <sic>rase</sic> them like Jews, I am<lb/> satisfied in\n                our place, there never<lb/> will be done anything to our children<lb/> please let me\n                hear from you soon<lb/>\n                <persName>Mrs Mayer</persName> sends her best respects<lb/> to you also\n                    <persName>Mrs Lambert</persName>.<lb/> and accept the same from your<lb/> most\n                truly</p>\n            <p rend=\"indent(6)\">\n                <persName role=\"author\">Isaac Mayer</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h289/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

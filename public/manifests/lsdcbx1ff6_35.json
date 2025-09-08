@@ -1,0 +1,188 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter, 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3jm2474n"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter, 1849"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-05-07"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Location",
+      "value": ["Kingston (N.Y.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_35", "ilcajs_b1f6_0033"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/aff2c939-b052-465a-9723-3ae200761517%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/aff2c939-b052-465a-9723-3ae200761517%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5748,
+          "width": 4700,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/aff2c939-b052-465a-9723-3ae200761517%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4700,
+                "height": 5748,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/aff2c939-b052-465a-9723-3ae200761517%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/assets/aff2c939-b052-465a-9723-3ae200761517/original",
+              "label": "Original File - 81.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"><placeName>Kingston Jamaica</placeName>\n                                        <date>7<hi rend=\"sup\">th</hi> May 5609</date>.</p>\n                              <p>My dear Sir</p>\n                              <p rend=\"indent(2)\">I avail myself of the present opportunity<lb/> to\n                                        acknowledge the receipt of your communication, and<lb/> at\n                                        the same time, to express my warm thanks for the kind<lb/>\n                                        sentiments which it breathes. Being aware how deeply at<lb/>\n                                        heart, I have the subject of our correspondence you need\n                                        no<lb/> assurance on my part, how earnestly I have taken\n                                        into<lb/> consideration the contents of your esteemed\n                                        letter. I readily<lb/> admit the desirability of being on\n                                        the spot, wherever a situation<lb/> should offer; but as you\n                                                  <add>?</add> second my situation; I shall<lb/>\n                                        briefly and openly place you in possession of my position.\n                                        The<lb/> proceeds of my labor are far from being\n                                        unremunerative, but<lb/> having a family to maintain, I\n                                        could ill spare the<lb/> expense of <sic>travelling</sic>,\n                                        without the matter being definitely<lb/> settled before\n                                        hand. I have no doubt of being able to<lb/> obtain leave of\n                                        absence from the Directors of the Hebrew National<lb/>\n                                        Institution, yet, this would but partly be of service, for I\n                                        would,<lb/> of necessity, have to relinquish many <hi\n                                                  rend=\"underline\">private</hi> pupils, the<lb/>\n                                        emoluments arising from whom are about $200 pr ann.\n                                        This<lb/> is the sole reason which renders my repairing so\n                                                  <placeName><sic>Cincinatti</sic></placeName>,\n                                        im=<lb/>=practicable, otherwise, I would not fear the\n                                        result. The fame<lb/> remarks apply to any other situation,\n                                        if my election be left to<lb/> chance. I do not however,\n                                        relinquish the hope of obtaining<lb/> a clerical situation\n                                        in the <placeName>United States</placeName>, as I can (if\n                                        required)<lb/> procure testimonials of the most satisfactory\n                                        nature.</p>\n                              <p rend=\"indent(1)\">Since my last communication, I</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5428,
+          "width": 6406,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4fc7a7da-fb13-4c53-80eb-855861960044%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6406,
+                "height": 5428,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4fc7a7da-fb13-4c53-80eb-855861960044%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/assets/4fc7a7da-fb13-4c53-80eb-855861960044/original",
+              "label": "Original File - 105 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>have been elected <add>חזן</add> of the congregation <add>נוה\n                                                  שלום</add> of <placeName>Spanish\n                                        town</placeName>,<lb/> so that I am de facto as this moment,\n                                        one of the Jewish Clergy.<lb/> I think it necessary, However\n                                        to premise, that an understanding<lb/> exists that I am\n                                        thereby unfettered in accepting any other<lb/> ministerial\n                                        office. My object in responding to their call<lb/> has been\n                                        solely with the view of reorganizing the Congregation<lb/>\n                                        which, in a religious sense, has ceased to exist. The\n                                        community<lb/> are not in a position to compensate a\n                                        minister, I am therefore<lb/> compelled to retain my\n                                        situation as master of the school in<lb/>\n                                        <placeName>Kingston</placeName>, and on occasions of\n                                        Service, go to the <placeName>Spanish Town</placeName> by\n                                        the<lb/> Train the afternoon previous. You will therefore\n                                        not fail to<lb/> perceive that in this matter I have not\n                                        been influenced by<lb/> pecuniary gain. In what I have done,\n                                        I have been actuated<lb/> merely by a desire to promote the\n                                        cause of our Holy Religion,<lb/> and to remove the stigma\n                                        from a body of Israelites, having<lb/>\n                                        <hi rend=\"underline\">two</hi> places of Worship, and neither\n                                        open for the service of the God<lb/> of\n                                                  <persName>Jacob</persName>. So far have I been\n                                        successful. The taunting question<lb/> can no longer be\n                                        uttered? <add>למה נעול בית אלוהים</add>. Under my\n                                        superintendence<lb/> a Sunday School is also about being\n                                        established, as with scarcely<lb/> an exception the younger\n                                        branches of the community are ignorant of<lb/> the very\n                                        first principles of our faith, much less of our\n                                        national<lb/> Language. Thro' the instruction I have\n                                        received from Hazan <persName>Lopes</persName><lb/> of our\n                                        city (of whom you have perhaps heard) I am enabled to<lb/>\n                                        officiate in the Portuguese Minhag, but I should,\n                                        nevertheless, prefer<lb/> being attached as Minister to a\n                                        German Congregation (<add>מנהג פולין</add>) in the<lb/>\n                                        <placeName>United States</placeName>, having had much more\n                                        experience, and being<lb/>\n                                        <hi rend=\"underline\">perfectly</hi> an fait at the duties of\n                                        the latter. I therefore, <hi rend=\"underline\">do\n                                        not</hi><lb/> relinquish the desire of obtaining a situation\n                                        as Hazan in <placeName>America</placeName>.<lb/> May I rely\n                                        on your continued good offices in forwarding my</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm2474n/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

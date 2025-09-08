@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Mott, J. C.; Leeser, Isaac, Esq.; Mobile, AL; 29 December 1850",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3t43jp11"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Mott, J. C.; Leeser, Isaac, Esq.; Mobile, AL; 29 December 1850"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Mott, J. C.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1850-12-29"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Alabama -- Mobile",
+        "United States -- Alabama",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF7_34"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/fc665abd-566e-43eb-a5f1-f8450e5d4282%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/fc665abd-566e-43eb-a5f1-f8450e5d4282%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6472,
+          "width": 5036,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fc665abd-566e-43eb-a5f1-f8450e5d4282%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5036,
+                "height": 6472,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fc665abd-566e-43eb-a5f1-f8450e5d4282%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/assets/fc665abd-566e-43eb-a5f1-f8450e5d4282/original",
+              "label": "Original File - 98 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p rend=\"align(right)\">\n                                        <placeName>Mobile</placeName>\n                                        <date>29<hi rend=\"sup\">th</hi> Decr. 1850</date>\n                              </p>\n                              <p rend=\"indent(1)\">Dear Sir</p>\n                              <p rend=\"indent(3)\">Yours of <date>18<hi rend=\"sup\">th</hi></date>\n                                        reached me this morning<lb/> &amp; I am obliged to you for\n                                        your free &amp; friendly com=<lb/>ments on my brochures,\n                                        which I did not send you<lb/> with any desire of\n                                                  <del>my</del> being noticed in the occident.<lb/>\n                                        You had been so kind as reply to the queries which<lb/> I\n                                        had propounded, &amp; as a matter of courtesy I sent<lb/>\n                                        these essays to you, not hoping that you would coin<lb/>cide\n                                        with me in opinion, but hoping they might show<lb/> you what\n                                        the enemy were doing &amp; afford you some<lb/> material for\n                                        reflection.</p>\n                              <p>A letter is not the place to reopen this discussion. You<lb/>\n                                        believe in the strict authenticity of the Pentateuch,\n                                        which<lb/> I with <persName>Gesenius</persName>,\n                                                  <persName>De Wette</persName>,\n                                                  <persName>Eichhorn</persName>,\n                                                  <persName>Munk</persName>,\n                                                  <persName>Cohen</persName>, &amp;<lb/> many other\n                                        first rate Hebrew scholars, do not, to say the<lb/> least\n                                        the question is unsettled, while the Egyptian\n                                        dis=<lb/>coveries go far I think to strengthen the party\n                                        opposed<lb/> to you. Admitting the antiquity of the\n                                        Pentateuch,<lb/> this is no proof of its historical\n                                        accuracy—modern sci=<lb/>ence I think has clearly upset the\n                                        plain &amp; simple account<lb/> of the Creation in Genesis,\n                                        &amp; I think the Genealogies, &amp; Chro=<lb/>nology of the\n                                        Hebrew text <del>is</del> are pretty generally abandoned\n                                        by<lb/> scholars—<hi rend=\"underline\">certainly</hi> the\n                                        chronologies of <placeName>Egypt</placeName> &amp;\n                                                  <placeName>China</placeName><lb/> destroy that of\n                                        Genesis I think, &amp; this book <del>itself</del> has\n                                        state<lb/>ments written itself irreconcilable with each\n                                        other all<lb/> this of course you deny.</p>\n                              <p>My object was not <hi rend=\"underline\">theological</hi> discussion.\n                                        I entered<lb/> this field because the Unity of Races could\n                                        not be dis=<lb/>cussed apart from the Bible, &amp; I wished\n                                        to cut loose what</p>\n                              "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6472,
+          "width": 5088,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6b9f62b6-65e4-422b-9f75-278f60298bdf%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5088,
+                "height": 6472,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6b9f62b6-65e4-422b-9f75-278f60298bdf%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/assets/6b9f62b6-65e4-422b-9f75-278f60298bdf/original",
+              "label": "Original File - 99 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p>I considered great <hi rend=\"underline\">practical truths</hi> from\n                                        the trammels<lb/> which find it. If there <hi\n                                                  rend=\"underline\">is</hi> a <hi rend=\"underline\"\n                                                  >gradation</hi> in Races, the<lb/> fact is too\n                                        important to be smothered, by human<lb/> opinions.</p>\n                              <p rend=\"indent(1)\">In reply to your comments on my note on<lb/> page\n                                        40 of “Chronology” I need only say that if you will<lb/>\n                                        recur to it you will see that you have been led into<lb/> an\n                                        error by reading <persName>Moses</persName> instead of\n                                                  <persName><hi rend=\"underline\"\n                                                  >Menes</hi></persName> the first<lb/> of the\n                                        Pharaohs—I regard two facts as <add>?</add> which are<lb/>\n                                        incompatible with <hi rend=\"underline\">Genesis</hi> as we\n                                        have it viz the Chronology—<lb/>&amp; the proof of distinct\n                                        Races as far back as the 3d or 4th<lb/> Dynasties. Though\n                                                  <hi rend=\"underline\">exactness</hi> cannot be\n                                        attained as<lb/> to the date of <persName><hi\n                                                  rend=\"underline\">Menes</hi></persName>, I think\n                                                  <hi rend=\"underline\">all</hi> Egyptologists\n                                        place<lb/> him <del>far beyond</del> &amp; African <hi\n                                                  rend=\"underline\">Races</hi> far beyond your<lb/>\n                                        date of the flood</p>\n                              <p rend=\"indent(1)\">I regret very much that on page 17 of\n                                                  Phy<add>?</add> List of<lb/> Jews I have put words\n                                        in your mouth which you<lb/> did not use. The latter part of\n                                        the paragraph to<lb/> which you allude is from <persName><hi\n                                                  rend=\"underline\">Buchanan</hi></persName> &amp;\n                                        the printer or<lb/> editor in\n                                                  <placeName>Charleston</placeName> must have made\n                                        the mistake. I<lb/> never saw the <hi rend=\"underline\"\n                                                  >proofs</hi>, &amp; this is but one of many\n                                        blunders<lb/> they have made for me on different\n                                        occasions.</p>\n                              <p rend=\"indent(1)\"><persName>Smyths</persName> critique on my book is\n                                        too weak &amp; ungentlemanly<lb/> to deserve a reply.\n                                                  <persName>Howes</persName> is not much better\n                                        &amp; I replied<lb/> merely to keep the subject alive.\n                                                  <persName>Bachmans</persName> book is a rare\n                                        combi<lb/>nation of biggotry, talent, &amp; learning.\n                                                  <persName>Agassiz</persName> &amp;\n                                                  <persName>Morton</persName> have killed<lb/> him\n                                        so dead that he can never kick again</p>\n                              <p rend=\"indent(8)\">very respectfully</p>\n                              <p rend=\"indent(10)\">your obt. servt</p>\n                              <p rend=\"indent(10)\">\n                                        <persName role=\"author\">J. C. Mott</persName>\n                              </p>\n                              <p>To <addressee>Isaac Leeser Esq</addressee></p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Phia.</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp11/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

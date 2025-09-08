@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Mendes, A. P.; Leeser, Isaac, Rev.; Birmingham, AL; 26 June 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p34t6fp7h"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Mendes, A. P.; Leeser, Isaac, Rev.; Birmingham, AL; 26 June 1857"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-06-26"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Alabama -- Birmingham",
+        "United States -- Alabama",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF4_58"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/4f7edb48-232c-4794-85e0-457e1136364a%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/4f7edb48-232c-4794-85e0-457e1136364a%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4088,
+          "width": 4984,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4f7edb48-232c-4794-85e0-457e1136364a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4984,
+                "height": 4088,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4f7edb48-232c-4794-85e0-457e1136364a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/assets/4f7edb48-232c-4794-85e0-457e1136364a/original",
+              "label": "Original File - 61.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(11)\"><placeName>Birmingham</placeName>.</p>\n            <p rend=\"align(right)\">\n                <date>26<hi rend=\"sup\">th</hi> June 1857</date>\n            </p>\n            <p>Dear Sir.</p>\n            <p rend=\"indent(1)\">I am just in receipt of the Occidents<lb/> which your kind direction\n                caused to be forwarded<lb/> to me with unusual dispatch &amp; I hasten to<lb/> offer\n                you many thanks for your kindness in<lb/> calling my attention to the advertisement\n                of the<lb/>\n                <placeName>Charleston</placeName> Congregation. I trust you will par-<lb/>-don my\n                freedom in trespassing further upon your<lb/> goodness, but for many reasons I am\n                undisposed<lb/> to take a plunge in the dark &amp; discover too late<lb/> that my\n                impetuosity has been unwise. I am thus<lb/> led to obtain as much information as\n                possible<lb/> concerning the place &amp; people—labors &amp; emoluments<lb/> as\n                regards the place my principal fears are on ac-<lb/>-count of climate <persName>Mrs\n                    Mendes's</persName> health suffered<lb/> from her residence in\n                    <placeName>Jamaica</placeName> &amp; if, as I have heard,<lb/>\n                <placeName>Charleston</placeName> is as bad, I could never think of expo-<lb/>-sing\n                her to the influence of such a climate. The people<lb/> cannot possibly be more\n                unacceptable than those among<lb/> whom I live, but if they should possess the\n                    vascillating<add>?</add><lb/> character I have heard ascribed to several\n                American<lb/> congregations, I should be unwise to exchange the<lb/> ills I bear for\n                those I know not of. I have however<lb/> a longing to be again in a Portuguese\n                Cong.—that could<lb/> lead me very far, &amp; I fear would blind me against<lb/>\n                many inconveniences. In respect to the labors and<lb/> emoluments of the office, I\n                shall prosecute my<lb/> inquiries elsewhere, but will only trouble you for any</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4088,
+          "width": 4984,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/838c869d-5d58-4797-93a7-57dafaf526cf%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4984,
+                "height": 4088,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/838c869d-5d58-4797-93a7-57dafaf526cf%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/assets/838c869d-5d58-4797-93a7-57dafaf526cf/original",
+              "label": "Original File - 61.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>information you can afford me about the leads mentioned<lb/> above, especially the\n                nature of the climate, extent of win<lb/>=ter, influence upon Europeans. If you\n                could kindly add<lb/> any intelligence concerning the cause of <persName>Mr\n                    Jacob's</persName> resig<lb/>-nation, &amp; also any hints respecting the cost\n                of living<lb/> in <placeName>Charleston</placeName>, <add>?</add>, domestics &amp;c;\n                —I should feel<lb/> extremely obliged. Before quitting this subject let<lb/> me\n                iterate my apologies, for obtruding such questions<lb/> upon your valuable time\n                &amp; attention; but as I recog<lb/>-nize in your goodness which secured to me early\n                in-<lb/>-formation of the situation, an evidence of kind interest<lb/> I have\n                presumed upon it as above. Be however assured<lb/> that I shall be happy to\n                retaliate the service in any<lb/> way that I can be of use to you now or\n                hereafter.</p>\n            <p rend=\"indent(1)\">I have read with delight your remarks<lb/> on the Press &amp;\n                pulpit, those two great teachers of<lb/> society, capable of achieving such vast\n                results, for good or<lb/> for evil. Alas that I should have to point to any<lb/>\n                congregation of my people as an evidence of this last<lb/> assertion, but let the\n                communities of <placeName><sic>Cincinatti</sic></placeName> prove<lb/> how holy\n                things can be defiled through the infamous<lb/> agency of a Pulpit filled by &amp; a\n                Press directed by men<lb/> without principle. But I for one must say I<lb/>\n                <sic>dont</sic> fear these men &amp; apprehend no <hi rend=\"underline\"\n                    >permanent</hi> evil<lb/> as the result of their blasphemies. <add>קאי שקרא לא\n                    קאי</add><lb/> I firmly believe that the end of all such movements<lb/> is the\n                reaction in favor of orthodoxy—that pure<lb/> religion which has not survived the\n                sword &amp; the stake, to<lb/> perish before the neological madness of a few\n                ununprinci</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp7h/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

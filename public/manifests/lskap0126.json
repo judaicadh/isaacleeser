@@ -1,0 +1,259 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leeser, Isaac; Lilienthal, D.; New York, New York, United States; Philadelphia, Pennsylvania, United States; 1847 January 29",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3pz51r7d"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Leeser, Isaac; Lilienthal, D.; New York, New York, United States; Philadelphia, Pennsylvania, United States; 1847 January 29"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac", "Lilienthal, D."]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-01-29"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Arnold and Deanne Kaplan Collection of Early American Judaica (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Description",
+      "value": [
+        "Letter from D. Lilienthal to Isaac Leeser, noting that the sermon which he delivered in Augusta, which his brother translated, has been sent under a separate cover; New York, NY; Philadelphia, PA"
+      ]
+    },
+    {
+      "label": "Language",
+      "value": ["German"]
+    },
+    {
+      "label": "Subject",
+      "value": ["Correspondence"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.56, Box 4, Folder 4"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": [
+        "2006.12.26.03709",
+        "{7591D74B-776F-4291-9665-B77C487512B4}",
+        "20.397"
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/18ea6bcd-a724-4205-8098-d8f4a3679ed2%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/18ea6bcd-a724-4205-8098-d8f4a3679ed2%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 7060,
+          "width": 5595,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/18ea6bcd-a724-4205-8098-d8f4a3679ed2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5595,
+                "height": 7060,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/18ea6bcd-a724-4205-8098-d8f4a3679ed2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/assets/18ea6bcd-a724-4205-8098-d8f4a3679ed2/original",
+              "label": "Original File - 98.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Rev. I. Leeser</addressee>\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>\n                    <hi rend=\"underline\">South Fourth Street 118</hi>\n                </placeName>\n            </p>\n            <p rend=\"align(right)\"><placeName>New York</placeName>, <date>January 29<hi rend=\"sup\"\n                        >th</hi> 1847</date></p>\n            <p rend=\"indent(1)\">Dear friend:</p>\n            <p rend=\"indent(2)\">With the same mail, you will<lb/> get a sermon which I delivered on\n                    <add>שבת חנוכה</add><lb/> to the Jewish congregation in <date>August</date>\n                <add><placeName>Augusta</placeName></add>? And which<lb/> my brother translated. If\n                you like it you<lb/> may print it in your Occident.</p>\n            <p rend=\"indent(2)\">I will send you other papers<lb/> too and I wish you would let me\n                know<lb/> how much you want to pay, without<lb/> considering my person. I will give\n                the<lb/> amount to the welfare and I <add>gladly</add> leave <del>it</del><lb/>\n                <del>to you how much you want to give.</del><lb/> the amount of money up to you.</p>\n            <p rend=\"indent(2)\">Did you not get an answer<lb/> yet from\n                    <placeName>Claiborne</placeName>? I am a little<lb/> short on money and could\n                use the<lb/> balance very well.</p>\n            <p rend=\"indent(2)\">Awaiting your reply, I am</p>\n            <p>as ever your friend <persName role=\"author\">D. Lilienthal</persName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6669,
+          "width": 5441,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d3a2bbf9-f74d-43e3-91a2-3d5cad78adf9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5441,
+                "height": 6669,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d3a2bbf9-f74d-43e3-91a2-3d5cad78adf9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/assets/d3a2bbf9-f74d-43e3-91a2-3d5cad78adf9/original",
+              "label": "Original File - 76.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>New York</placeName>\n                <date>den 29 Jan. 1847</date>.</p>\n            <p rend=\"indent(1)\"><addressee>Rev. I. Leeser</addressee> in\n                    <placeName>Philadelphia</placeName>!</p>\n            <p rend=\"indent(2)\">Geehrten Freund!</p>\n            <p>Ich übersende Ihnen hiermit eine Predigt, die ich am <add>שבת חנוכה</add><lb/>\n                    gehalten<add>?</add>, und die mein Bruder, für die jüdische Gemeinde in\n                    Auguste<add>?</add><lb/> wer sie gehalten, überset<add>?</add>t hat. Wen Sie\n                Ihnen für Ihr en<lb/> Occident convenirt<add>?</add>, so können Sie dieselbe\n                abdrucken lassen.<lb/> Ich werde Ihnen auch andere Arbeiten übermachen, und<lb/>\n                bitte Sie, ohne mich persönlich zu berücksichlige, zu bestim<add>m</add>en,<lb/> was\n                Sie dan<add>n</add> dafür zahlen könen. Ich habe den Betrag einem<lb/>\n                    wohlthatigen<add>?</add> Zwelke bestim<add>m</add>t, und überlasse es daher ganz\n                gerne<lb/> Ihnen, dieselben zu bestim<add>m</add>en.</p>\n            <p rend=\"indent(1)\">Haben Sie von <placeName>Claiborne</placeName> noch im<add>m</add>er\n                keine Nachricht; ich bin<lb/> etwas kurz um Gelde, u. kön<add>n</add>te den\n                schuldenden Rest sehr gut<add>?</add><lb/> gebrauchen.</p>\n            <p rend=\"indent(1)\">Ihrer geehrten Erwiderung entgegensehend, reichne ich wie<lb/>\n                    im<add>m</add>er <add>?</add></p>\n            <p rend=\"indent(8)\">ergeb. Freund</p>\n            <p rend=\"indent(8)\">\n                <persName role=\"author\">D. Lilienthal</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5413,
+          "width": 6683,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/41537f4b-383c-4e8f-aea5-c034759abd84%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6683,
+                "height": 5413,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/41537f4b-383c-4e8f-aea5-c034759abd84%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/assets/41537f4b-383c-4e8f-aea5-c034759abd84/original",
+              "label": "Original File - 77.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)indent(-1)\">\n                <addressee>Rev. I. Leeser</addressee>\n            </p>\n            <p rend=\"align(center)\">\n                <placeName>\n                    <hi rend=\"underline\">Philadelphia</hi>\n                </placeName>\n            </p>\n            <p rend=\"align(center)\">\n                <placeName>South Fourth Street</placeName>\n            </p>\n            <p rend=\"align(center)indent(1)\"><placeName>118</placeName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pz51r7d/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

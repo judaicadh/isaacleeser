@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Wolff, A.; Leeser, Isaac, Rev.; Anytown, St. Thomas; 30 December 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p32j68m75"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Wolff, A.; Leeser, Isaac, Rev.; Anytown, St. Thomas; 30 December 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-12-30"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virgin Islands -- St. Thomas",
+        "United States -- Virgin Islands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_66"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/2951a76d-4a48-455b-b9a6-138492abef28%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/2951a76d-4a48-455b-b9a6-138492abef28%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6316,
+          "width": 4974,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2951a76d-4a48-455b-b9a6-138492abef28%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4974,
+                "height": 6316,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2951a76d-4a48-455b-b9a6-138492abef28%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/assets/2951a76d-4a48-455b-b9a6-138492abef28/original",
+              "label": "Original File - 94.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>St. Thomas</placeName>\n                <date>30 Dec 1849</date>\n            </p>\n            <p>\n                <addressee>Revd Mr Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">My Dr Sir</p>\n            <p rend=\"indent(3)\">I have not had this pleasure for some time<lb/> not having any thing\n                of great importance to communicate<lb/> I recd your introductory letter for\n                    <persName>Rabbi Cohen</persName> &amp; paid him<lb/> attention I collected $154\n                for him he left for <placeName>Curacao</placeName> 15<lb/> days ago.</p>\n            <p rend=\"indent(1)\">It was with much <del>regret</del> pain I read your letter of\n                    <date>29 Oct</date><lb/> stating that in consequence of the differences with\n                yourself &amp;<lb/> congregation it was not unlikely that you would give up<lb/>\n                your situation as minister. I hope that your anticipations<lb/> will not be realized\n                &amp; that you may for many years continue<lb/> your duties. I regret to join you in\n                opinion that the greater<lb/> portion of our people lack in respect to their\n                ministers &amp;<lb/> require them to be the tail instead of heads of\n                Congregations,<lb/> this feeling &amp; the <sic>apparant</sic> non-desire for\n                religious Instruction,<lb/> added to the disinclination of contributing a few\n                dollars<lb/> prevents our having a minister. I confess that I am tired of<lb/>\n                exertion in this cause my return has been, &amp; is, <hi rend=\"underline\"\n                    >Enemies</hi> the<lb/> only chance that a portion of our young people have\n                of<lb/> religious instruction is what my very feeble abilities can<lb/> impart to\n                them thro' the Sunday School, &amp; even this altho'<lb/> gratuitous I can with\n                difficulty keep together, I am<lb/> however determined to keep it up so long as the\n                Almighty<lb/> spares me health; even the leaches have fallen off &amp; my Wife<lb/>\n                &amp; self are the only ones who keep it on, God may in his<lb/> mercy bring us a\n                change.</p>\n            <p rend=\"indent(1)\">Enclosed I forward you a pact of Hymns used in<lb/> the Sunday\n                School which I wish you to have printed in<lb/> pamphlets of equal sized leaves\n                neatly done. I require Two<lb/> hundred with covers,The following Hymns composed by\n                Mr.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6316,
+          "width": 4974,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/77209882-2bff-4265-8f10-5488dd4bc9ff%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4974,
+                "height": 6316,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/77209882-2bff-4265-8f10-5488dd4bc9ff%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/assets/77209882-2bff-4265-8f10-5488dd4bc9ff/original",
+              "label": "Original File - 94.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><persName>Mr Carillon</persName> I wish his name attached to</p>\n            <p>N 1 Introductory Hymn</p>\n            <p>  2 Halel</p>\n            <p>  3 ditto    with the written alterations</p>\n            <p>  4 ditto</p>\n            <p>  6 choir No1</p>\n            <p>  7 do         2 with the word “both” inscribed in the<lb/> second verse 1 Line as\n                noted</p>\n            <p>  8 En Kelihener</p>\n            <p>  9 Forward to Jerusalem</p>\n            <p> the following after</p>\n            <p>O “God to thee my voice I raise; (by a Young Lady at\n                <placeName>Richmond</placeName>.</p>\n            <p>Paraphrase of the Hebrew Creed,</p>\n            <p rend=\"align(right)\">from the Jewish Chronicle</p>\n            <p><date>Sabbath-Eve</date> Hymn</p>\n            <p>Costly—Conclusive Hymn from <persName>Revd DeSola's</persName><lb/> prayer Book.</p>\n            <p>I leave the arrangement of the Frontspiece to you.<lb/> I would like it to run\n                thus</p>\n            <p>“Hymns” composed by the <persName>Revd B C Carillon</persName> for the use<lb/> of\n                the <placeName>St Thomas</placeName> Israelite Sunday School, as well as<lb/> others\n                selected for the same purpose by <persName role=\"author\">A Wolff</persName><lb/>\n                Founder &amp; Instructor</p>\n            <p rend=\"indent(1)\">The <hi rend=\"underline\">School opened in</hi> the month of\n                    <date>April 1842</date><lb/> Let me ask you to improve the above if you think\n                it<lb/> necessary. I require 2 dozen of <persName><sic>Picke's</sic></persName>\n                Catechisms for<lb/> infants please forward them with as little delay as<lb/>\n                possible</p>\n            <p rend=\"indent(1)\">I suppose that <persName>Mr Nathan</persName> Must be now in<lb/>\n                <placeName>New Orleans</placeName> I hear that he is to be minister there</p>\n            <p rend=\"indent(1)\">My wife joins with best regards, &amp; I am</p>\n            <p rend=\"indent(1)\">Yours Truly</p>\n            <p rend=\"indent(3)\">\n                <persName role=\"author\">A. Wolff</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4974,
+          "width": 6316,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/86bdc9c0-0bf6-4577-bf4a-b55b73937727%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6316,
+                "height": 4974,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/86bdc9c0-0bf6-4577-bf4a-b55b73937727%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/assets/86bdc9c0-0bf6-4577-bf4a-b55b73937727/original",
+              "label": "Original File - 94.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Revd. Mr. Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68m75/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

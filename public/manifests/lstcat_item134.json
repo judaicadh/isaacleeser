@@ -1,0 +1,613 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Barnard, George; Leeser, Isaac; Philadelphia, PA; 4 December 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30000m02"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Barnard, George; Leeser, Isaac; Philadelphia, PA; 4 December 1848"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Rehine, Zalma", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1848-12-04"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "10 pages on 10 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item134"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/4591e00f-dc5d-402e-95d7-c66c40e3f3cb%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/4591e00f-dc5d-402e-95d7-c66c40e3f3cb%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6250,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4591e00f-dc5d-402e-95d7-c66c40e3f3cb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4591e00f-dc5d-402e-95d7-c66c40e3f3cb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/assets/4591e00f-dc5d-402e-95d7-c66c40e3f3cb/original",
+              "label": "Original File - 94.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>My dear Sir,</p>\n            <p rend=\"indent(1)\">When I wrote you last spring at <placeName>New<lb/>\n                York</placeName>, I had asked <persName>Mrs. Green</persName> the Poetess to send\n                an<lb/> article to the Occident, and I suggested to yourself,<lb/> if she did so,\n                and you should wish for her farther con-<lb/>tributions, to return her a ten dollar\n                bill. I dare say<lb/> neither of you thought proper to comply with my wishes,<lb/>\n                because neither of you could see a prospect of advan<lb/>tage in so doing; but had\n                you both complied without<lb/> such a prospect, I could have numbered two\n                persons<lb/> who had once acted upon a principle of <hi rend=\"underline\">Faith</hi>,\n                that<lb/> is, seeing the right of a matter, had done it at their<lb/> own cost\n                without a mercenary view, in perfect trust of<lb/> God that as the act was correct\n                the result must be for<lb/> the best. Probably both <persName>Mrs. G.</persName>\n                with her poetic talent, and<lb/> yourself and bank-note, may have been more fitly\n                employed<lb/> though not in the exercise of greater faith, yet in the use<lb/> of\n                better discretion.</p>\n            <p rend=\"indent(1)\">You asked me in your last letter, whether I was or am<lb/> still a\n                prophet. I made no direct reply, because then a-<lb/>bout to send you the substance\n                of my most signal im-<lb/>pressions as fast as I could get them published in<lb/> a\n                newspaper, I did so. As soon as the most important<lb/> of these views had issued,\n                the publication was discon-<lb/>tinued from the difficulty of getting them\n                completely printed,<lb/> and other considerations regarding the newspaper\n                office.</p>\n            <p rend=\"indent(1)\">I will now endeavour to answer your question in full<lb/> by\n                explaining for your satisfaction what it is to be a pro</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6250,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e81a77d-4e37-472c-a3d0-665ba817814e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e81a77d-4e37-472c-a3d0-665ba817814e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/assets/3e81a77d-4e37-472c-a3d0-665ba817814e/original",
+              "label": "Original File - 94.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>phet—showing what constitutes the distinction between a<lb/> prophet and another man.\n                You are enabled from your own<lb/> knowledge to form some conception of the labours\n                and dif-<lb/>ficulties which I have encountered, owing to having my<lb/> mind\n                occupied with these considerations. I have had no<lb/> new prophetic excitement or\n                revelation since parting from<lb/> you in <placeName>New York</placeName>, nor do I\n                expect ever to have any<lb/> of such overwhelming force as those experienced there\n                    <del>in New</del><lb/>\n                <del>York</del>, and wherein, seemingly, I was admonished of all<lb/> that is\n                material for my future guidance. So far as<lb/> experience enables me to state, the\n                grand result of a<lb/> prophet's intentions, is but to recognize the perfect<lb/>\n                truth and correctness of the principle to do in all cases<lb/> whatever we can judge\n                to be right before God, without<lb/> regard to consequences, trusting these entirely\n                to His<lb/> disposal as immeasurably superior to our own limited<lb/> views. Thus\n                    <persName>Mrs. G.</persName> the poetess, when she had promised<lb/> me some\n                verses, would, if she had acted in accordance with<lb/> the suggestions of\n                inspiration, have sent them to the Occident<lb/> at my request; merely because it\n                was <hi rend=\"underline\">right</hi> for her<lb/> to do so; and the Editor would have\n                made her an ade<lb/>quate return in the manner pointed out, as an act of sim<lb/>ple\n                justice. The principle of our duty to God is but Just<lb/>-ice: if we accept a\n                benefit, we are bound to endeavour<lb/> to return it: if we would reap a good, we\n                must sow<lb/> of the kind. This moral obligation so congenial to the<lb/> natural\n                feelings, and the conformity to which is hailed<lb/> as a divine attribute of\n                humanity, the prophet learns to be<lb/> but a just and pleasant indication of the\n                course which is</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6250,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/198c4ce9-a30b-4215-a9d9-745b94a79b61%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/198c4ce9-a30b-4215-a9d9-745b94a79b61%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/assets/198c4ce9-a30b-4215-a9d9-745b94a79b61/original",
+              "label": "Original File - 94.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">2.</p>\n            <p>a necessary conformity to the requirements of natural laws.<lb/> The prophet, by\n                glimpses of the future which he afterwards<lb/> sees verified, and whose connexion\n                he can trace with volitions<lb/> of the past, ascertains <hi rend=\"underline\">of his\n                    own knowledge</hi> some outlines<lb/> of the retributive system wherein nature\n                holds her courses<lb/> whereby God governs the universe, even down to its\n                minu<lb/>test details. The fact of a person predicting a remark-<lb/>able event\n                which comes to pass, is of little moment:<lb/> the <sic>surprize</sic> and reverence\n                of others at the prophets' fore-<lb/>knowledge can be but humiliating to him, as it\n                only evinces<lb/> the subject condition of his brethren upon the earth. When<lb/>\n                one whose mind is enlightened by prophetic or inspired<lb/> knowledge, sees error\n                reign in the mind of a person or<lb/> a people, it is as natural for him to foresee\n                suffering<lb/> and trouble as a consequence, as it is for us to presume<lb/> that\n                where weeds rankle among more delicate plants,<lb/> the coop will be unsatisfactory\n                to the husbandman.</p>\n            <p rend=\"indent(1)\">How it is that I, so weak a man, so little given<lb/> heretofore to\n                the adoption of peculiar or precise views upon<lb/> subjects in connexion with\n                religion and government, should<lb/> be made the recipient of these revelations,\n                revelations<lb/> so powerful that they seem clearly to involve author-<lb/>ization\n                and commandment, that I, rather than any<lb/> other, should be the person to broach\n                this might truth,<lb/> to subvert the false but fashionable creeds of the\n                civil<lb/>ized world, is more than I can comprehend, and<lb/> therefore beyond my\n                power or responsibility to account<lb/> for. I am commissioned by revelations whose\n                truth and<lb/> imperative command I cannot doubt, to declare unto Is-</p>\n            <p rend=\"The following word continues on the next page.\">\n                <placeName>Israel</placeName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6250,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c91a84e-0ada-4b96-8259-cce3ab6c3d17%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c91a84e-0ada-4b96-8259-cce3ab6c3d17%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/assets/5c91a84e-0ada-4b96-8259-cce3ab6c3d17/original",
+              "label": "Original File - 94.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>rael that the time has come for its people to be res-<lb/>tored to their ancient\n                inheritance, that little is wanting<lb/> besides their own earnest cooperation, that\n                if any of them<lb/> will give me a hearty concurrence I am bound to labour<lb/> in\n                the cause; if not, I have only to discharge the duty<lb/> appointed me to render\n                them alone answerable for the<lb/> error. Strange as it may appear, it seems to me\n                indi-<lb/>vidually, a matter of indifference whether or not this<lb/> undertaking be\n                attended with success. If I am not<lb/> deluded, it must succeed, for such is my\n                prophetic<lb/> impression; but notwithstanding the deepest sense of it,<lb/>\n                importance to mankind, I feel personally indifferent to<lb/> events; for in these\n                spiritual perceptions, I have been<lb/> taught so clearly they wearisome vanity of\n                all earthly<lb/> considerations, that I am led to distrust more than de<lb/>sire the\n                worldly exaltation which must be consequent<lb/> upon success.</p>\n            <p rend=\"indent(1)\">I am now living an idle life, yet labouring in<lb/> confusion and\n                perplexity to prepare for this great<lb/> work. It is distinctly given me to expect\n                that next<lb/> summer there will be a clearing away of difficulties,<lb/> and\n                consequently until then I could not look for a<lb/> worthy reception were I sooner\n                to undertake to make<lb/> known this mission. Still would I use every means to<lb/>\n                prepare the way: therefore was the resort to newspaper<lb/> publication for some\n                leading particulars, and there-<lb/>fore, being unable to visit <placeName>New\n                    York</placeName> again this sea-<lb/>son, I may probably go to\n                    <placeName>Montreal</placeName>, which is nearer<lb/> by, this winter,\n                beseeching some individual Hebrews to</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 6250,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/76333b6e-e4a2-47fe-8fa0-7b45bfd485d3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/76333b6e-e4a2-47fe-8fa0-7b45bfd485d3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/assets/76333b6e-e4a2-47fe-8fa0-7b45bfd485d3/original",
+              "label": "Original File - 94.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">3</p>\n            <p>hear me, though without the hope of producing any<lb/> important impression. Such is\n                the only way which lies<lb/> open to a prophet: he hopes that by calling\n                individual<lb/> attention to his views, they may be spoken of again, may<lb/> be\n                reported abroad, until falling under the notice of some<lb/> true mind and heart,\n                they will be made the subject of<lb/> a strict inquiry, and then their merits and\n                importance<lb/> be discovered and appreciated. If after giving ample<lb/>\n                opportunity to those who should be most immediately in-<lb/>terested in this cause,\n                my views remain unaccepted<lb/> and my exertions unsupported, I can only suppose\n                that<lb/> a too excitable imagination may have led me in some<lb/> respects to form\n                erroneous conclusions, and willingly retire<lb/> to a private station, consoling\n                myself for the shame of<lb/> failure with the consciousness of having\n                faithfully<lb/> endeavoured to obey the mandate which I had con-<lb/>ceived to be\n                entrusted to my execution. If such be the<lb/> will of God, (which I cannot\n                believe,) you Jews must<lb/> wait another while for a Messiah and your\n                restora-<lb/>tion.</p>\n            <p rend=\"indent(1)\">But that you may at least agree in opinion with<lb/> me so far as\n                this, that the present time appears to be<lb/> a juncture most peculiarly fitted for\n                the restoration<lb/> of <placeName>Israel</placeName>, I would ask you to turn your\n                attention<lb/> to the present position of <placeName>Europe</placeName>. The nations\n                are all<lb/> in a ferment from the opposition of artificial classes<lb/> grown out\n                of false institutions. The masses of poor, be<lb/>sides being crushed by the\n                powerful, have been quieted<lb/> with the cordial doctrine of tame submission for\n                the sake</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 6250,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/68f370e5-7336-4c6f-bb23-4525185b4e12%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/68f370e5-7336-4c6f-bb23-4525185b4e12%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/assets/68f370e5-7336-4c6f-bb23-4525185b4e12/original",
+              "label": "Original File - 94.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>of reward in another world, until they have so multiplied<lb/> as to crowd one\n                another from all remunerating employment.<lb/> Starving and desperate they seek\n                leaders to marshal them in<lb/> the terrible <del>desperate</del> struggle for\n                bread! The call is answered by<lb/> too many of the abandoned, reckless and\n                ambitious, proud to<lb/> extort submission from the old possessors of wealth,\n                influence<lb/> and dominion. The massive weight of old established fashion<lb/> is\n                evenly <sic>balance</sic> by new accumulated force. They who have<lb/> felt\n                starvation will encounter it no more, and those who<lb/> hold inherited power and\n                position cannot yield their birth<lb/> right:—“at weary bay each shatter'd band<lb/>\n                Eyeing their foeman sternly stand;<lb/> And tumult wild and disarray<lb/> Mark the\n                fell havoc of the day.”</p>\n            <p>That the opposing parties are evenly balanced, only foreshows<add>?</add><lb/> a\n                protracted contest. The victory in the end is certain to<lb/> the people so fear as\n                relates to the humiliation of their ru-<lb/>lers, but not as regards an effectual\n                and permanent<lb/> amelioration of their own condition; for a victory of the<lb/>\n                government only reduces matters to their former false<lb/> position to result in a\n                new and more violent outbreak<lb/> at the first occasion; while every signal\n                advantage<lb/> gained by the masses is a stimulus to the popes and<lb/> energies of\n                millions. The people then, sooner or later, must<lb/> triumph so far as to overturn\n                their governments. What then?<lb/> Are these demoralized masses qualified to hold\n                the<lb/> reins of power? Poverty, ignorance, prejudice and pas<lb/>sion all combine\n                to render them corrupt and venal—<lb/> the sport and tools of ill-directed but\n                ambitious minds.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 6250,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/939b9847-0616-45be-84b9-507b6a006880%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/939b9847-0616-45be-84b9-507b6a006880%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/assets/939b9847-0616-45be-84b9-507b6a006880/original",
+              "label": "Original File - 94.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">4.</p>\n            <p>Then what can come of all at last but a perpetual re-<lb/>iteration of tyrannies,\n                conspiracies, rebellions and civil<lb/> wars? And is this <hi rend=\"underline\"\n                    >Progress</hi>? Is this in accordance<lb/> with the developments of nature which\n                science and art<lb/> are so fast unfolding in our time? No. Then it<lb/> is not to\n                be; for the works of the Lord proceed in uni-<lb/>son, by general laws. If progress\n                betters man's outward con-<lb/>dition, it must also improve himself.</p>\n            <p rend=\"indent(1)\">But whilst the governments of <placeName>Europe</placeName> are in a\n                fer-<lb/>ment, where is the mighty influence of that hallowed pre<lb/>ventive and\n                panacea of all earthly ills—the Christian Re-<lb/>ligion? Where shines the force of\n                its holy precepts of mild<lb/>ness, affection, long-suffering and forgiveness? In\n                the mouths<lb/> of men—not in their hearts. The excellent instructions<lb/> derived\n                from or attributed to the meek and lowly<lb/>\n                <persName>Jesus</persName> have been used as salt to season, to preserve<lb/> and\n                render palatable a mass of fleshly lusts, a whole<lb/> code of impositions,\n                falsehoods and absurdities, destined<lb/> to exist until an hour of search and\n                trial, and no<lb/> longer. The people have found that however the injunc-<lb/>tion\n                to submit to common sufferings in this world be-<lb/>cause their happiness hereafter\n                is supposed to be<lb/> bought and paid for, may please their fancies, it<lb/> will\n                not answer the requirements of appalling famine;<lb/> and they begin to suspect\n                themselves imposed upon<lb/> when, amidst their sufferings, they perceive those\n                    <del>very</del><lb/> enlightened superiors who inculcate this doctrine,\n                very<lb/> carefully fortified against the contingency of having to<lb/>\n                <sic>practise</sic> it. Religion then, as it exits among these peo</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 6250,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce19fe66-181e-4a2b-84fb-f2dc9f86583c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce19fe66-181e-4a2b-84fb-f2dc9f86583c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/assets/ce19fe66-181e-4a2b-84fb-f2dc9f86583c/original",
+              "label": "Original File - 94.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>ple, is no imperishable bond of union, and no ultimate<lb/> resource for the\n                reconstruction of their governments.</p>\n            <p rend=\"indent(1)\">But how is all this trouble to end, how will the<lb/> nations of\n                    <placeName>Europe</placeName> settle down in quietness, how can<lb/> oil be cast\n                upon these agitated waters? With<lb/> man it is impossible; but with God, He\n                    <del>speaks</del><lb/> wills, and it is done. While secret causes were\n                operating<lb/> to set these nations all against themselves, the Lord<lb/> was\n                rearing up an humble prophet who should call<lb/> upon <placeName>Israel</placeName>\n                to come together and declare that He<lb/> is God, to manifest His truth in realizing\n                the<lb/> promises of old, that all mankind might see and<lb/> know that “The Lord\n                God Omnipotent Reigneth.”<lb/> Can <placeName>Europe</placeName> or\n                    <placeName>Asia</placeName> behold the majesty of the most<lb/> High displayed\n                in the restoration of His ancient people<lb/> as the prophets have foretold, and not\n                learn to love, fear<lb/> and serve Him? Will they not verify the prediction\n                “often<lb/> taking hold of the skirt of a Jew, saying let us go with<lb/> you for we\n                have heard that God is with you?”</p>\n            <p rend=\"indent(1)\">If this appear doubtful, allow the supposition of<lb/> its untruth,\n                and observe the irresistible conclusion. The<lb/> nations of\n                    <placeName>Europe</placeName> are impelled by absolute suffering to<lb/>\n                overturn their existing governments: the scattered Jews,<lb/> properly neutral in\n                regard to the issue, must, from<lb/> their wealth and ability become important\n                allies for<lb/> either party: they are therefore surrounded with temptations<lb/> to\n                throw the weight of their influence into either scale:<lb/> hence the most liberal\n                enactments, emancipation, kindness.<lb/> Jews are but <del>flesh and blood</del>\n                human beings like other</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 6250,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/61124d6c-3ae4-4d14-8d03-15f057d74f09%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/61124d6c-3ae4-4d14-8d03-15f057d74f09%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/assets/61124d6c-3ae4-4d14-8d03-15f057d74f09/original",
+              "label": "Original File - 94.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">5</p>\n            <p>men; and if a remnant have preserved their faith<lb/> and fashions through the\n                severest persecutions it does not<lb/> follow that they will equally well resist the\n                fascinating<lb/> influence of justice and generosity. A continuance of the<lb/>\n                <del>the</del> action indicated by the motto “liberty, fraternity, equality,”<lb/>\n                must soon entice the Israelite to make common cause,<lb/> and next to assimilate\n                himself with the rational seek-<lb/>ers after good, in the midst of whom he lives.\n                At the<lb/> siege of <placeName>Cressy</placeName>, <persName>Edward</persName>\n                being conqueror, ordered six<lb/> of the principal inhabitants to the scaffold: his\n                    <persName>queen<lb/> Philippa</persName> begged their lives: <persName>St.\n                    Pierre</persName>, the leading patriot<lb/> of the city exclaimed “Ah my\n                countrymen, it is now<lb/> that I fear for you; <persName>Edward</persName> only\n                wins our cities,<lb/> but <persName>Philippa</persName> conquers hearts.” The\n                influence of liber-<lb/>ality and kindness must be the same upon the Is-<lb/>raelite\n                as another man; and if he is made a debt<lb/>-or for these benefits, he will acquit\n                himself of the<lb/> obligation even at the cost of <sic>cancelling</sic> his\n                birthright.<lb/> The Jew would be no more: tempted with alliance in<lb/> marriage,\n                forced from his strict <date>sabbath</date> by custom and<lb/> the need of gain, or\n                seduced from it by the repose and<lb/> pleasures of the succeeding day, flattened\n                through the<lb/> influence of companions, from his cradle to esteem<lb/> himself and\n                disregard his maker, he would vanish<lb/> in the surrounding throng—and created time\n                stand<lb/> conqueror of eternal truth! It cannot be: the Jew<lb/> must still\n                survive, and hold his indifferent course<lb/> amidst the wreck of nations. But to\n                preserve his iden<lb/>tity, he must owe allegiance to another state, be bound</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 6250,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6a218c30-ccc6-42ef-9816-773743498ada%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6a218c30-ccc6-42ef-9816-773743498ada%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/assets/6a218c30-ccc6-42ef-9816-773743498ada/original",
+              "label": "Original File - 94.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p10/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/manifest/annotation/p10",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to a government actually existing prompt and efficient<lb/> to protect his rights—a\n                government ordained by God<lb/> Himself even as foretold in the cherished traditions\n                of<lb/> his fathers.</p>\n            <p rend=\"indent(1)\">In an old No. of the Occident, I saw an inquiry<lb/> for information\n                as to the authenticity of the passage in<lb/>\n                <persName>Josephus</persName> regarding <persName>Jesus Christ</persName>.\n                    <persName>Davis's</persName> Clairvoyant<lb/> Revelations, p. 578, says “the\n                record is genuine altho'<lb/> not contained in some of the early versions of\n                    <persName>Jo<lb/>sephus</persName>.” If you have not read <persName>Mr.\n                    Davis's</persName> book,<lb/> there is in the store for you a fund of\n                astonishment, if not<lb/> of entertainment and information, in whatever light<lb/>\n                you may view it.</p>\n            <p rend=\"indent(1)\">In the letters with which you have been so kind as to<lb/> honour\n                me, reference has once or twice been made to a passage<lb/> of scripture, for my\n                special consideration. I find noth<lb/>ing more appropriate to the case than Deut:\n                XIII.5<lb/> first verses; and by these do I desire to be judged.</p>\n            <p rend=\"indent(1)\">When I wrote you last it was on the <date>sabbath</date>. Since<lb/>\n                then I have had much reflection upon the observance of<lb/> the day; but my\n                conclusions ought to be compared with the<lb/> convictions of others before being\n                set down as mature.</p>\n            <p rend=\"indent(1)\">Should you issue any thing regarding me in the Occident,<lb/> please\n                forward the No. and if you think proper to honour<lb/> me with a reply to this,\n                address <placeName>Sherbrooke C. E.</placeName>\n                <hi rend=\"underline\">vice</hi><lb/>\n                <placeName>Derby Vt.</placeName> Postage must be paid to the line to insure<lb/>\n                transmission. I remain my dear Sir</p>\n            <p rend=\"indent(6)\">Most Respectfully &amp; faithfully yours</p>\n            <p rend=\"indent(9)\"><persName role=\"author\">George Barnard</persName>.</p>\n            <p><date>Decr. 4<hi rend=\"sup\">th</hi> 1848</date>.</p>\n            <p>\n                <addressee>Revd. I. Leeser</addressee>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m02/canvas/p10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

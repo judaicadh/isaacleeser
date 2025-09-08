@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Cardoza, J. N.; Leeser, Isaac, Rev.; St. Paul, MN; 12 February 1863",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3sn01q6d"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Cardoza, J. N.; Leeser, Isaac, Rev.; St. Paul, MN; 12 February 1863"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1863-02-12"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Minnesota -- St. Paul",
+        "United States -- Minnesota",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF10_9"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/c79facdf-46df-495b-b299-6258f413e7f4%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/c79facdf-46df-495b-b299-6258f413e7f4%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4096,
+          "width": 4926,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c79facdf-46df-495b-b299-6258f413e7f4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4926,
+                "height": 4096,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c79facdf-46df-495b-b299-6258f413e7f4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/assets/c79facdf-46df-495b-b299-6258f413e7f4/original",
+              "label": "Original File - 60.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>U. S. Cir Court Clerk's Office</placeName>\n            </p>\n            <p rend=\"align(right)\"><placeName>St Paul</placeName>\n                <date>Feby 12, 1863</date>.</p>\n            <p>\n                <addressee>Revd. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir.</p>\n            <p rend=\"indent(2)\">Your letter of <date>2d Feby.</date> With<lb/> rect. for School\n                books and also the Book<lb/> came to hand; I have again to call<lb/> your attention\n                to a little neglect on<lb/> your part, not so much on account of<lb/> the amount,\n                but that matters may be<lb/> properly understood between us.</p>\n            <p rend=\"indent(1)\">Soon after I forwarded to you, the<lb/> amount for school books. I\n                also forwarded<lb/> $3. the amount of my subscription to<lb/> the “Occident” for one\n                year and $1.50 for<lb/> 2 Copies of <persName>Dias'</persName> letters, sent to me\n                leaving<lb/> the Bible only in my charge unpaid for</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4096,
+          "width": 4926,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e8cd4d21-bcdb-4754-9da3-d1cf92997685%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4926,
+                "height": 4096,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e8cd4d21-bcdb-4754-9da3-d1cf92997685%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/assets/e8cd4d21-bcdb-4754-9da3-d1cf92997685/original",
+              "label": "Original File - 60.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>did not that letter come safe to hand.</p>\n            <p rend=\"indent(1)\">I am sorry to trouble you with this<lb/> small matter; but if I am\n                to attend<lb/> to any business for you it is better that<lb/> we should have all\n                items, properly ac-<lb/>counted for. I will communicate<lb/> with you hereafter in\n                regard to send-<lb/>ing books here to be disposed of &amp;<lb/> in the meantime will\n                do what I<lb/> can to procure subscribers for you, in<lb/> this section, my time is\n                not so much<lb/> occupied but that I can attend<lb/> to any thing you may desire\n                here!</p>\n            <p rend=\"indent(1)\">The Occident to <persName>Mr Marcuson</persName> and<lb/> myself\n                comes to hand! <persName>W. M.</persName> I trust<lb/> will content himself here\n                tho' from<lb/> all I have seen of him his great<lb/> fault is being unsettled!\n                    <sic>he</sic> is a<lb/> frequent visitor at my house and</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q6d/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

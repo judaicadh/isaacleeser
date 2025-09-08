@@ -1,0 +1,309 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Ezekiel, Jacob; Leeser, Isaac; Richmond, VA; 14 June 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3cc0vd5b"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Ezekiel, Jacob; Leeser, Isaac; Richmond, VA; 14 June 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Soher, S.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-06-14"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virginia -- Richmond",
+        "United States -- Virginia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item122"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/60ca7793-d8d8-44f8-bc03-d22d9076bf5e%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/60ca7793-d8d8-44f8-bc03-d22d9076bf5e%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6232,
+          "width": 5072,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/60ca7793-d8d8-44f8-bc03-d22d9076bf5e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5072,
+                "height": 6232,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/60ca7793-d8d8-44f8-bc03-d22d9076bf5e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/assets/60ca7793-d8d8-44f8-bc03-d22d9076bf5e/original",
+              "label": "Original File - 95 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Richmond</placeName>\n                <date>June 14.1849</date>\n            </p>\n            <p>Valued Friend</p>\n            <p rend=\"indent(1)\">I perceived in the last no of<lb/> the “Occident” an article written by<lb/>\n                <persName>Mr Brown</persName> relative to the <date>Sunday</date><lb/> Laws of\n                    <placeName>Pennsylvania</placeName>, and I regret<lb/> much that every effort\n                has been in<lb/> vain to modify that obnoxious Law<lb/> in your state, a session\n                before the<lb/> last of our Legislature when they revis-<lb/>ed our Criminal Laws I\n                had the<lb/> matter under consideration in the<lb/> Senate nearly two days relative\n                to<lb/> the <date>Sabbath</date> Laws here in which<lb/>\n                <persName>Mr <sic>Stanard</sic></persName> and others took a very<lb/> active part.\n                I think that I sent you<lb/> the papers containing the remarks<lb/> on the subject,\n                they were however only<lb/> slightly modified and that only by<lb/> the casting vote\n                of the speaker, the law<lb/> as reported by the revisers read thus<lb/> “If any\n                person on <date>Sabbath</date> day shall<lb/> himself be found labouring &amp;c\n                &amp;c” and<lb/> the amendment asked for in the Senate<lb/> was a proviso for\n                persons who had<lb/> kept the <date>Sabbath</date> day of the congregation<lb/> to\n                which they may have belonged to be<lb/> exempt from the penalty of the law</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6232,
+          "width": 5072,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6ef72bdc-f821-487c-b071-1d7d4f3e8de9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5072,
+                "height": 6232,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6ef72bdc-f821-487c-b071-1d7d4f3e8de9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/assets/6ef72bdc-f821-487c-b071-1d7d4f3e8de9/original",
+              "label": "Original File - 95 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>which was lost by a vote of 20 to 5<lb/> the amendment was then asked for to<lb/>\n                insert the word “a” so as to read “If any<lb/> person on <hi rend=\"underline\">a</hi>\n                <date>sabbath</date> day “&amp;c &amp;c” and in order<lb/> to get that slight\n                amendment it was<lb/> a tie vote the speaker giving the casting<lb/> vote. You will\n                perceive that the<lb/> law as reported was done to recognize<lb/> a\n                    <date>Sabbath</date> day and not to leave it dis-<lb/>cretionary with the\n                magistrate to say<lb/> which was the <date>sabbath</date> day, the title<lb/> of the\n                Chapter in which this law may<lb/> be found in Chap VIII “Of\n                <sic>offences</sic><lb/> against Chastity Morality and Decency”<lb/> Revised Code\n                    <date>1848</date> page III. <persName>Mr Mays</persName><lb/> and\n                    <persName>Standard</persName> told me then that if<lb/> we had have had any\n                    '<sic>competant</sic><lb/> person to have argued the point before<lb/> the\n                committee we would have had<lb/> matters fixed our own way, but in<lb/> this\n                particular we were minus.</p>\n            <p rend=\"indent(1)\">We have now an extra session<lb/> of the Legislature for the purpose\n                of<lb/> revising the Civil Code and I believe<lb/> the Criminal also. I regret that\n                they<lb/> have adjourned from here to the<lb/> springs. I did intend to use my\n                eff<lb/>orts to get this matter set right in</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6232,
+          "width": 5072,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2a4c44db-5925-4158-a19e-eb4b78e5f436%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5072,
+                "height": 6232,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2a4c44db-5925-4158-a19e-eb4b78e5f436%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/assets/2a4c44db-5925-4158-a19e-eb4b78e5f436/original",
+              "label": "Original File - 95 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>regard to that law, I <sic>seen</sic>\n                <persName>Mr Standard</persName><lb/> to day and I had a long talk with<lb/> him on\n                the subject and presented him<lb/> with a copy of the last 'Occident” he<lb/>\n                assures me that he will use his efforts<lb/> to have it modified. I am sure\n                were<lb/> you here and present at the legislature<lb/> you could urge our claims in\n                such lan<lb/>guage before the committees that could<lb/> not be easily\n                mis-understood, would to<lb/> God I had the ability I would do<lb/> my utmost to\n                have things right, as they<lb/> ought to be I feel a great interest in<lb/> the\n                matter and have enlisted many of<lb/>\n                <sic>of</sic> the members of the Legislature from<lb/> time to time in our favour, I\n                wish<lb/> you would write an article relative<lb/> to the matter, and if to the\n                purpose<lb/> I am sure it will have the desired<lb/> effect I will have it published\n                and<lb/> well distributed among the members,<lb/> you know that the petition you\n                wrote<lb/> for me to the common Hall of this city<lb/> was the means of the repeal\n                of the<lb/>\n                <date>Sabbath</date> law of <placeName>Richmond</placeName>, and I am<lb/> sure with\n                a little work we can accomplish<lb/> our end. Truly yours. <hi rend=\"underline\"\n                        ><persName role=\"author\">Jacob Ezekiel</persName></hi></p>\n            <p>Love to sister and all relatives</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6232,
+          "width": 5072,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3bebe2b3-e518-4751-8ae1-13fa90ed4943%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5072,
+                "height": 6232,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3bebe2b3-e518-4751-8ae1-13fa90ed4943%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/assets/3bebe2b3-e518-4751-8ae1-13fa90ed4943/original",
+              "label": "Original File - 95 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>\n                    <hi rend=\"underline\">Philadelphia</hi>\n                </placeName>\n            </p>\n            <p rend=\"indent(2)\">\n                <placeName>\n                    <hi rend=\"underline\">Pa</hi>\n                </placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cc0vd5b/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

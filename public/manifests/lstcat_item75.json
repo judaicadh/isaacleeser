@@ -1,0 +1,513 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Nathan, M. N.; Leeser, Isaac; Anytown, St. Thomas; 21 October 1866",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3ft8f52x"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Nathan, M. N.; Leeser, Isaac; Anytown, St. Thomas; 21 October 1866"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1866-10-21"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "8 pages on 8 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virgin Islands -- St. Thomas",
+        "United States -- Virgin Islands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item75"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/816b4ce3-6030-48c7-849f-ccffe44cebde%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/816b4ce3-6030-48c7-849f-ccffe44cebde%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5304,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/816b4ce3-6030-48c7-849f-ccffe44cebde%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5304,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/816b4ce3-6030-48c7-849f-ccffe44cebde%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/assets/816b4ce3-6030-48c7-849f-ccffe44cebde/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>St. Thomas</placeName>, <date>21<hi rend=\"sup\">st</hi>\n                    Octr. 1866</date></p>\n            <p>My dear <addressee>Mr. Leeser</addressee>.</p>\n            <p rend=\"indent(1)\">At length I enjoy a day's ease from toil and of<lb/> comparative\n                coolness, leaving me sufficient time and<lb/> energy after the exhausting and\n                incessant heat of over<lb/> five months duration to drop you a few lines; not<lb/>\n                in answer to your last, for I have mislaid your letter,<lb/> put in some safe place,\n                which has escaped my memory.</p>\n            <p rend=\"indent(1)\">If the situation at <placeName>Savannah</placeName> did not\n                materially<lb/> interfere with your high position as the leader and<lb/> exponent of\n                orthodoxy, that is, if the acceptance of it<lb/> did not, in a measure shelve you,\n                by consigning you,<lb/> to so comparatively insignificant a sphere, I would<lb/> be\n                the first to advise you to quit <placeName>Philadelphia</placeName>, and<lb/>\n                honorably retire to a spot where your influence might<lb/> still be felt, and when\n                the duties would be to <hi rend=\"underline\">you</hi><lb/> light and easy, and above\n                all a resting place to<lb/> breathe in and enjoy yourself after your laborious\n                and<lb/> toilsome career. Could you not manage to issue the<lb/> Occident there?\n                That you should have a disinclination<lb/> to leave <placeName>Pa.</placeName> when\n                your world-wide reputation</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5304,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/defb970e-d75a-4c5c-b3f1-df823f2e1b90%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5304,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/defb970e-d75a-4c5c-b3f1-df823f2e1b90%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/assets/defb970e-d75a-4c5c-b3f1-df823f2e1b90/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>has been established, is natural; but remember it<lb/> is not with your <add>ומבן\n                    חמישים שנה ישוב מצבאות העבודה</add>, but <add>ומבן ששים</add>. You can\n                without<lb/> desertions the holy cause still <sic>fulfil</sic> the command,\n                    <add>ושרת את אחיו באהל מועד</add><lb/>\n                <add>לא אמות כי אחיה וגו'</add>, and be as useful as ever, tho the locality<lb/> be\n                smaller. You have <hi rend=\"underline\">earned</hi> your <hi rend=\"underline\"\n                        ><sic>olium</sic></hi>, and if you<lb/> can enjoy it <add>?</add>, why not\n                avail yourself<lb/> of so seasonable an opportunity, in the society of those<lb/>\n                who would hail your coming with enthusiasm, and in<lb/> a climate more genial to\n                your partly worn out constitution,<lb/> enfeebled by excessive work in the cause of\n                your people.<lb/> I think you ought, and so will every true friend of yours.<lb/> We\n                don't want you to drop at your post from sheer fatigue;<lb/> say then to us <add>במה\n                    מדליקין</add>, and accept the post.</p>\n            <p rend=\"indent(1)\">Orthodoxy, from the stand-point, I view it, cannot long<lb/>\n                maintain its ground in <placeName>America</placeName>, nor elsewhere concessions<lb/>\n                <hi rend=\"underline\">must</hi> be made; not in the homeopathic doses you wish<lb/>\n                to administer, but in heroic quantities, as the M Dr<lb/> say <add>קדיש</add> and a\n                    <add>שומרים</add> are not enough, and as <persName>Mr Moïse</persName><lb/>\n                justly observes if you concede <hi rend=\"underline\">them</hi>, the precedent is<lb/>\n                at once established for granting more. You have fought<lb/> a good fight, but\n                overwhelming odds are against you.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5304,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d7a3eb29-3f69-4acf-b3ba-603e37c8eb65%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5304,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d7a3eb29-3f69-4acf-b3ba-603e37c8eb65%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/assets/d7a3eb29-3f69-4acf-b3ba-603e37c8eb65/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>If the fabric of historical Judaism is to be saved<lb/> from utter demolition, for,\n                on the score of Scriptural<lb/> Judaism, I have no fear, fair compromises must\n                be<lb/> made. I have long held out against changes by<lb/> individual congregations,\n                but our orthodox leaders<lb/> give no sign of life, utter no sound, to cheer\n                their<lb/> supporters and followers. The pressure from without<lb/> increases daily\n                in intensity, and the faithful <add>אבל</add><lb/> must either yield to the demands\n                made, or give<lb/> room to others who will effect a complete <hi rend=\"underline\"\n                    >bouleverse</hi><lb/><hi rend=\"underline\">ment</hi> of the existing state of\n                things.</p>\n            <p rend=\"indent(1)\">I have been interrupted for some hours by the<lb/> sad tidings of\n                the loss of the Evening Star. Some of the<lb/> passengers said to be lost have\n                relatives among my<lb/> congregation, but I declined to give <add>ר\"כ לנר</add>\n                until their<lb/> fate had been ascertained. I have however very little<lb/> hope of\n                their being alive.</p>\n            <p rend=\"indent(1)\">Revenons à nos moutons. Have you read the articles<lb/> in the\n                “Archives Israelites” written by <persName>Cohen</persName>, Chief Rabbi<lb/> in\n                    <placeName>Algiers</placeName>, during the last few months? Their fairness\n                is<lb/> indisputable and their accuracy has not been impeached,<lb/> and, what is\n                more, cannot be. His account of the <add>ר\"כ לנר</add></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5304,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/38c2309b-91ff-4bd6-818f-c7755298d38b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5304,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/38c2309b-91ff-4bd6-818f-c7755298d38b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/assets/38c2309b-91ff-4bd6-818f-c7755298d38b/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>4</p>\n            <p>particularly of the second day <add>מקיל ולא מחמיר</add> which I had been<lb/> taught\n                to believe had been kept in <placeName>Jerusalem</placeName> from the days<lb/> of\n                    <persName>Ezra</persName> has no such historical basis, but dates from a<lb/>\n                very recent period; and, to my astonishment, I learned for<lb/> the first time that\n                on that day, the common daily prayers<lb/> are said in\n                    <placeName>Jerusalem</placeName>, and not those for the festival.<lb/> I had\n                heard before that some of the <add>חכמה המשנה והתלמוד</add> from the <placeName>Holy\n                    City</placeName><lb/> came to Synagogue in <placeName>London</placeName> on\n                    <add>לא אלמן ישראל</add> with their Tephillin on.<lb/> Really, therefore if our\n                orthodox guides do not bestir them<lb/>selves and clean up the obscurities which\n                envelop our<lb/> minhagim, particularly their origin and history, much<lb/> will be\n                swept away which should be retained. A book<lb/> has been in my library for years,\n                called <add>מעשי דעלמא</add>, which<lb/> curiosity induced me lately to peruse, as\n                it is frequently quoted<lb/> by <persName>Zumy<add>?</add></persName> in his Gottes\n                dienstliche Vorträge, and not alone the<lb/> reasoning of the author, but the\n                support it receives from<lb/>\n                <del>dist</del> quotations of distinguished writers, truly orthodox,<lb/> have\n                entirely shaken my faith in the Rabbinism of<lb/> the middle ages, little as I\n                believed in it before. I had<lb/> often begun to read this volume, but it seemed to\n                be exclusively<lb/> directed against the stassidim<add>?</add>, and so it did\n                not<lb/> interest me, whereas now I am going thro' it carefully.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 5304,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/db9e6a75-c7f7-455d-8564-7dd4d8b58597%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5304,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/db9e6a75-c7f7-455d-8564-7dd4d8b58597%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/assets/db9e6a75-c7f7-455d-8564-7dd4d8b58597/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">5</p>\n            <p>It seems that the converse of <add>טוב רע מאח</add> was the rule of<lb/> our guides\n                in the middle ages, and that either they did not<lb/> understand the sayings and\n                doings of their revered predecessors,<lb/> the <add>אם אמת הדבר</add> who view large\n                souled and enlightened men,<lb/>\n                <del>and</del> but introduced a sort of asceticism into Judaism, public &amp;<lb/>\n                private, or they assumed an authority which modern research<lb/> questions, and\n                refuses any longer to tolerate. Do not imagine<lb/> by my writing in this strain\n                that I am going to turn ultra<lb/> Reformer. The second days are still kept here,\n                and the Synagogue<lb/> attended by a few, just sufficient to make minyan. With\n                the<lb/> exception of five Jewish stores, and the remainder are closed<lb/> by my\n                people on <del>that day</del> the <date>Sabbath</date>, tho' among them are rabid\n                Reformers<lb/> who keep aloof from the Synag: except on on <date>Rosh\n                    Hashanah</date> and<lb/>\n                <date>Kippoor</date>, until certain modifications in the Ritual and public<lb/>\n                worship are sanctioned by me. I must yield, or extremes<lb/> will be resorted to,\n                whose consequences would imperil the conserv-<lb/>ation of important and fundamental\n                things. What conscientious<lb/> pangs might have been spared men struggling like\n                myself to<lb/> preserve the unity of formula in our worship had we been<lb/> backed\n                by an orthodox Synod of learned &amp; enlightened<lb/> Rabbis, prepared to direct\n                claims for changes into a channel</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 5304,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/11266e0e-8798-49c9-929a-035a2be2e695%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5304,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/11266e0e-8798-49c9-929a-035a2be2e695%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/assets/11266e0e-8798-49c9-929a-035a2be2e695/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>or stream whose waters might have fructified Judaism.<lb/> I say it with pain, with\n                agony, that the want of such a Synod<lb/> has sent<add>?</add> Judaism to tatters,\n                that it has encouraged rationalism<lb/> in its destructive tendencies in the\n                    <placeName>west</placeName>, and promoted the<lb/> growth of that abominable\n                    stassidism<add>?</add> in the <placeName>east</placeName>. I have<lb/> some true\n                and good men among my people, who have <sic>travelled</sic><lb/> and seen much of\n                our various communities in <placeName>France</placeName>,<lb/>\n                <placeName>Germany</placeName>, <placeName>Austria</placeName>, and other parts of\n                    <placeName>Europe</placeName>. They are men<lb/> attached to the old system\n                still, with all its admitted defects,<lb/> and they lament with me the insouciance\n                with which the<lb/> orthodox Rabbis regard the spread of irreligion, particularly\n                the violation<lb/> of the <date>Sabbath</date>, and indulgence in forbidden food,\n                without a<lb/> united effort among them to check it by wise and well concocted<lb/>\n                measures. <add>ר\"ה</add>. There is, I sincerely believe, more taleah<lb/> and more\n                real learning among the orthodox than among the Reformers, and yet<lb/> they allow\n                this “laissez aller” <del>sent</del> state of things to go on. But<lb/> enough of\n                this for the present.</p>\n            <p rend=\"indent(1)\">And now for a little <add>שמחת תורה</add> relating to myself,\n                with<lb/> which I beg of you to occupy a trifle of your valuable time.<lb/> A\n                brother of mine recently informed me of his having met in\n                    <placeName>London</placeName><lb/>\n                <persName>Mr. Lem Dyer</persName>, brother of our lamented friend <persName>Mrs.\n                    Osterman</persName>,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 5304,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a3dbf54f-63c2-46c1-9a86-5d38405dfc90%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5304,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a3dbf54f-63c2-46c1-9a86-5d38405dfc90%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/assets/a3dbf54f-63c2-46c1-9a86-5d38405dfc90/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>who <del>info</del> mentioned to him that that lady had bequeathed me<lb/> and my\n                wife, a legacy of $3000 in her will. It is easy for<lb/> you, being in the spot, to\n                ascertain, either by writing to <persName>Mrs.<lb/> Symonds</persName>, formerly\n                    <persName>Hannah Dyer</persName>, at <placeName>Cincinnati</placeName>, or\n                by<lb/> personal inquiry among her friends the <persName>Pollacks</persName>,\n                the<lb/> truth of my brother's statement. I have <sic>foreborne</sic> so long<lb/>\n                from addressing <persName>Mrs. S.</persName> not knowing her right address,<lb/>\n                that a direct inquiry from me now, would be indelicate.<lb/> I prefer you being my\n                agent in this to my brother's being so,<lb/> for various reasons. It will be\n                sufficient to quote the<lb/> words of <persName>Solomon</persName>\n                <add>ס\"ה</add>. You will be doing me<lb/> and your old friend <persName>Mrs.\n                    N</persName> a favor by losing no time<lb/> in letting us know\n                <add>קדיש</add>.</p>\n            <p rend=\"indent(1)\">Our Holy days passed off delightfully, full attendances<lb/> at\n                Synagogue, great devotion, order, and decorum, and nothing<lb/> to ruffle the\n                harmony from <add>תענו ותעתרו</add> on the eve<lb/> of that day I confirmed 5 young\n                people 3 girls and 2 boys.<lb/> Every child almost of 6 or 7 years of age, boy or\n                girl, learns<lb/> to read Hebrew, and nearly every lady in Synagogue,\n                particularly<lb/> the young and middle aged reads her prayers in that language,<lb/>\n                and can follow the leader officiating. Your small Bible</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 5304,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a7b77600-882e-40a3-ad17-08ca01ca209d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5304,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a7b77600-882e-40a3-ad17-08ca01ca209d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/assets/a7b77600-882e-40a3-ad17-08ca01ca209d/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>is in every house, and every one of my pupils is furnished<lb/> with it. Every Jewish\n                child in school, for I have many<lb/> Christian pupils too, learn, to translate\n                Bible and prayer<lb/> Book. So you see, tho' we are far from the great<lb/> centres\n                of enlightenment, and tho' I am as rusty as an<lb/> old door nail, we can compare,\n                as a Congregation,<lb/> with the best, and not be ashamed. It would do your<lb/>\n                heart good to witness the solemnity and decorum of our<lb/> worship. On <add>חמש\n                    מגילות</add> we began at 8 and tho' nothing was<lb/> omitted as laid down in the\n                old Portuguese sidder<add>?</add><lb/> we finished at 11. <date>Kippoor</date> we\n                began at 6, and at 6<lb/> P.M. I dismissed the congregation. I do not allow<lb/> the\n                Shophar to be blown till the whole of the <add>ודי לצרה בשעתה</add> is<lb/>\n                finished, whereby much confusion and indecency are<lb/> avoided. For men I to have\n                it sounded before <add>Hebrew</add><lb/> there would be a rush to leave, by which\n                the whole affect<lb/> of the day would be destroyed.</p>\n            <p rend=\"indent(1)\">i have written you, not one megillah but<lb/>\n                <add>Hebrew</add>, so I defer writing more <add>Hebrew</add>. I hope to<lb/> hear\n                that your health is good, in which my dear wife<lb/> heartily joins—and with regards\n                to your nieces, and<lb/> remembrances to inquiring friends, and many years of<lb/>\n                happiness and comfort I am</p>\n            <p rend=\"indent(12)\">yours sincerely</p>\n            <p rend=\"indent(12)\">\n                <persName role=\"author\">M N Nathan</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f52x/canvas/p8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

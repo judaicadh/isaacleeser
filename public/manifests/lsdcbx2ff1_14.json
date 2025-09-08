@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Meyer, Cauffman H.; Leeser, Isaac; San Francisco, CA; 1 March 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3222rs1z"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Meyer, Cauffman H.; Leeser, Isaac; San Francisco, CA; 1 March 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-03-01"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- San Francisco",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_14"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b0957571-076e-4fdd-8778-eee5f3d94068%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b0957571-076e-4fdd-8778-eee5f3d94068%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4380,
+          "width": 3566,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b0957571-076e-4fdd-8778-eee5f3d94068%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3566,
+                "height": 4380,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b0957571-076e-4fdd-8778-eee5f3d94068%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/assets/b0957571-076e-4fdd-8778-eee5f3d94068/original",
+              "label": "Original File - 47.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p rend=\"align(right)\">\n                                        <placeName>San Francisco</placeName>\n                                        <date>March 1./54</date>\n                              </p>\n                              <p>\n                                        <addressee>Mr. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">Dear Friend—</p>\n                              <p>Hardly anything of any interest<lb/> has transpired since my\n                                        last<lb/> Letter, which might serve You as a<lb/> Matter of\n                                        News; however I will drop<lb/> a few Lines to you, to inform\n                                        you of<lb/> a Ball to be given by the “Hebrew<lb/>\n                                        Benevolent Society,” on next “<date>Purim</date>”<lb/> which\n                                        promises so far to be a fine<lb/> affair; a large number of\n                                        tickets<lb/> have already been disposed, and the<lb/>\n                                        managers make active preparations<lb/> to get up a Ball\n                                                  <sic>praiseworty</sic> of the<lb/> society; the\n                                        tickets are sold at $10. The Emani El Congregation<lb/> had\n                                        drawn several plans for a<lb/> synagogue, &amp; have chosen\n                                        one, &amp; are now<lb/> about giving out proposals; the plan\n                                        prescribes<lb/> the Gothic style, &amp; when finished will\n                                        be<lb/> one of the finest synagogues in the\n                                                  <placeName>United<lb/> States</placeName>; the\n                                        Building will be about 50 x 80 feet.<lb/> “Mazos” will be\n                                        sold at 22¢ pr. pound<lb/> The baking of it will shortly be\n                                        begun.</p>\n                              "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4390,
+          "width": 3492,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/59678e54-b090-4f4b-b155-37995c02a04c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3492,
+                "height": 4390,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/59678e54-b090-4f4b-b155-37995c02a04c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/assets/59678e54-b090-4f4b-b155-37995c02a04c/original",
+              "label": "Original File - 46.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p><persName>Mr. &amp; Mrs. Roggenburger</persName> give their\n                                        best<lb/> Respects to you; &amp; Hoping this will find<lb/>\n                                        you in good spirits &amp; Health</p>\n                              <p rend=\"indent(1)\">I remain yours Truly</p>\n                              <p rend=\"indent(1)\">\n                                        <persName role=\"author\">Cauffman H. Meyer</persName>\n                              </p>\n                              <p>P.S. You will have recd a Letter from the<lb/> sec. of the Em.\n                                        congregation about a chason &amp;<lb/> the advertisement</p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_12_3.pdf\">The above\n                                                  text refers to Occident Volume 12 No. 3 pages 119\n                                                  through 120. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs1z/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

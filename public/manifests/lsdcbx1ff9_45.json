@@ -1,0 +1,265 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Gallinger, N.; Leeser, Isaac, Rev.; Pittsburgh, PA; 9 August 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3js9ht9m"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Gallinger, N.; Leeser, Isaac, Rev.; Pittsburgh, PA; 9 August 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-08-09"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Pittsburgh",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_45"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c9d334a-987d-4634-8376-6c2655bd63d7%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c9d334a-987d-4634-8376-6c2655bd63d7%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4326,
+          "width": 3362,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c9d334a-987d-4634-8376-6c2655bd63d7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3362,
+                "height": 4326,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c9d334a-987d-4634-8376-6c2655bd63d7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/assets/5c9d334a-987d-4634-8376-6c2655bd63d7/original",
+              "label": "Original File - 43.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p rend=\"align(right)\">\n                                        <placeName>\n                                                  <sic>Pittsburg</sic>\n                                        </placeName>\n                                        <date>August 9<hi rend=\"sup\">th</hi> 1852</date>\n                              </p>\n                              <p>to the <addressee>Rev. Isaac Leeser</addressee></p>\n                              <p rend=\"indent(3)\">Dear sir</p>\n                              <p rend=\"indent(4)\">I take the liberty to communicate<lb/> to you the\n                                        proceedings of our last meeting (yesterday) Kahl\n                                                  Staray=<lb/>themajim<add>?</add>\n                                        <persName>Mr A. Fink</persName> has been elected\n                                                  <sic>Presitent</sic>. <persName role=\"author\">N.\n                                                  Gallinger</persName> secret.<lb/>\n                                        <persName>I. Morgenstern</persName> Tres. By this meeting\n                                        all our members (except two<lb/> have not been present) by\n                                        their own free will bound themself<lb/> to <sic>atent</sic>\n                                        regular divine service Every <date>Shabath</date> &amp; Holy\n                                        days or<lb/> be fined one dollar for each missing, as our\n                                        Kohl has been<lb/>\n                                        <sic>organist</sic> nearly five years but has not\n                                                  <sic>ingreased</sic> we only<lb/> number 15\n                                        members and have a <sic>yerly</sic> expense of about 450\n                                        Dollars<lb/> but still we get along so far <sic>exept</sic>\n                                        could very seldom get<lb/> minian on <date>Shabath</date>\n                                        but now by our determination with the<lb/> help of God will\n                                        have regular services on all <sic>occations</sic>\n                                        <persName>Mr. Salshath<add>?</add></persName><lb/> is our\n                                        chasan shodet &amp; teacher we have a burring Ground\n                                        and<lb/> have a fine <sic>larg</sic> &amp;\n                                                  <sic>compfortibel</sic> Rooms two <add>ספרים</add>\n                                        one belongs to<lb/> Kohl and the room well <sic>fixt</sic>\n                                        up for our <sic>Sinagoge</sic> we have<lb/> only 14 members\n                                        although <sic>ther</sic> are over thirty Jewish\n                                        Families<lb/> in this city <sic>ther</sic> is a other Kohl\n                                        here <sic>wich</sic> calls themselves Polish<lb/> they have\n                                        as I can judge about 8 or 9 members they would<lb/> not join\n                                        use because we <sic>wand</sic> them to pay as much<lb/>\n                                        towards the expenses as the members of our Kohl pay but<lb/>\n                                        we got along so far and I hope we will get along\n                                        further<lb/> we have <sic>severall</sic> Polish members in\n                                        our Kohl, they the Polish Kohl have <sic>injourd</sic><lb/>\n                                        us and tried to insure us <del>for</del> since they are here\n                                        on<lb/> every <date>rosh hasona</date> &amp;\n                                                  <date>Kipur</date>\n                                        <sic>the</sic> have <sic>organised</sic> a minian<lb/> for\n                                                  <sic>themsef</sic> and <del>got</del> trid all\n                                        means to get every stranger<lb/> away from our\n                                                  <sic>sinagoge</sic></p>\n                              "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4326,
+          "width": 3362,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fd27b2c3-528b-41a2-b768-2ed660229b2e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3362,
+                "height": 4326,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fd27b2c3-528b-41a2-b768-2ed660229b2e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/assets/fd27b2c3-528b-41a2-b768-2ed660229b2e/original",
+              "label": "Original File - 43.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p>last year they came to us and rented some <sic>pewes</sic> in our<lb/>\n                                        <sic>sinagoge</sic> and then <sic>dit</sic> not come nor pay\n                                        for them but<lb/> we let them alone and do as they\n                                        please</p>\n                              <p>I would have wrote you before but as I am a very<lb/> poor English\n                                                  <sic>schollar</sic> I was <sic>allways</sic>\n                                        <sic>ashaimed</sic> to do so<lb/> with your permission I\n                                        will keep you advised of every<lb/>\n                                        <sic>importied</sic> thing <sic>wath</sic> belongs to our\n                                                  <sic>relition</sic> and comes<lb/> to my notice\n                                        here if you can <sic>mak</sic> out my writings<lb/> and\n                                                  <sic>mening</sic></p>\n                              <p rend=\"indent(2)\">I remain dear sir yours</p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">N. Gallinger</persName>\n                              </p>\n                              "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3362,
+          "width": 4326,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/74c47a2e-c5e0-478b-85c8-73e33626bf00%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4326,
+                "height": 3362,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/74c47a2e-c5e0-478b-85c8-73e33626bf00%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/assets/74c47a2e-c5e0-478b-85c8-73e33626bf00/original",
+              "label": "Original File - 43.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p>\n                                        <addressee>Rev. Isaac Leeser</addressee>\n                              </p>\n                              <p>\n                                        <placeName>No 371 Walnut Street</placeName>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Pa</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9ht9m/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

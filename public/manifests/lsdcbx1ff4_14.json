@@ -1,0 +1,188 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Ansel, M.; November 09, 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3c53fs8t"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Ansel, M.; November 09, 1847"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Ansel, M. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-11-09"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Baltimore (Md.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF4_14", "ilcajs_b1f4_0015"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/21dd0b32-7222-4972-8c2f-07dbb256fdec%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/21dd0b32-7222-4972-8c2f-07dbb256fdec%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5752,
+          "width": 4804,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/21dd0b32-7222-4972-8c2f-07dbb256fdec%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4804,
+                "height": 5752,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/21dd0b32-7222-4972-8c2f-07dbb256fdec%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/assets/21dd0b32-7222-4972-8c2f-07dbb256fdec/original",
+              "label": "Original File - 83.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Mr Isaac Leeser</addressee>\n                                        <hi rend=\"align(right)\">\n                                                  <placeName>Baltimore</placeName>\n                                                  <date>November 9/47</date>\n                                        </hi>\n                              </p>\n                              <p rend=\"indent(2)\">dear Cousin</p>\n                              <p rend=\"indent(1)\">I received this morning a Letter from you\n                                        enclosing me<lb/> One from <persName>Mr Winkler</persName>\n                                        which surprised me much, and also<lb/> regretted that I had\n                                        never heard or known any thing of his having<lb/> made a\n                                        shipment to me of any <sic>artickes</sic> of goods, I regret\n                                        it much<lb/> as he must be in want of the money and where I\n                                        to receive<lb/> the articles I would of course remit him\n                                        some money forthwith<lb/> although he send the articles of\n                                        his own accord without my<lb/> Order, As I had written him\n                                        that I did not deal on any thing<lb/> of the Kind. I have no\n                                        letters from him nor any means to<lb/>\n                                        <sic>Irdentify</sic> the Goods, if your friend whom you\n                                        mention Can<lb/> find out so as to get them I should take it\n                                        as a particular<lb/> favor. Should on order or Receipt of\n                                        mine be necessary I<lb/> will send it with pleasure</p>\n                              <p><persName>Mrs Ansel</persName> and <persName>Sarah</persName>\n                                        desire to be particularly Rememberd to<lb/> you I shall wait\n                                        further advise from you or your friend<lb/> before I write\n                                        to <persName>Mr. Winkler</persName> which I hope will be ere\n                                        long<lb/> My <sic>bussiness</sic> is quite prosperous\n                                                  <sic>hir</sic>, but dont like\n                                                  <placeName>Balt</placeName><lb/> as I do\n                                                  <placeName>Phil</placeName> I presume you are\n                                        aware that the Mitzwiss<lb/> are not sold in our shool\n                                                  <sic>hir</sic> and they have abolished it\n                                        because<lb/> you spoke or wrote against its practice, Still\n                                        the order and<lb/> decorum which a house of worship is\n                                        entitled to ours dont re„<lb/>receive, as the yare a very\n                                        hard <hi rend=\"underline\">sett</hi> I hope your health<lb/>\n                                        is good and should you come to <placeName>Balt</placeName>\n                                        shall be please to see<lb/> you. I remain your Cousin</p>\n                              <p rend=\"indent(3)\">\n                                        <persName role=\"author\">M. Ansel</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4768,
+          "width": 5746,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d4f4ed2-41af-4428-817b-b3aa87869bdb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5746,
+                "height": 4768,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d4f4ed2-41af-4428-817b-b3aa87869bdb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/assets/7d4f4ed2-41af-4428-817b-b3aa87869bdb/original",
+              "label": "Original File - 82.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revvr Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Pa</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3c53fs8t/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

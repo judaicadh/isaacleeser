@@ -1,0 +1,313 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Kalisch, Isidor; Leeser, Isaac; Cleveland, OH; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3mk65v5d"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Kalisch, Isidor; Leeser, Isaac; Cleveland, OH; undated"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["German"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Ohio -- Cleveland",
+        "United States -- Ohio",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx9FF17_4"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9077db8-a6ef-4cee-9211-9349779e6aa8%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9077db8-a6ef-4cee-9211-9349779e6aa8%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 7759,
+          "width": 5073,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9077db8-a6ef-4cee-9211-9349779e6aa8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5073,
+                "height": 7759,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9077db8-a6ef-4cee-9211-9349779e6aa8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/assets/b9077db8-a6ef-4cee-9211-9349779e6aa8/original",
+              "label": "Original File - 118 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">Biblisch <add>?</add>getische Vorträge</p>\n            <p rend=\"align(center)\">von</p>\n            <p rend=\"align(center)\"><persName role=\"author\">Isidor Kalisch</persName>, Rabbiner in\n                    <placeName>Cleveland</placeName>.</p>\n            <p rend=\"align(center)\">(Fortsetzung.)</p>\n            <p>Genes. I, g. Gott sprach er versammle sich das Wasser<lb/> unter dem Himmel an einem\n                Orte, damit<lb/> das Trockene sichtbar werde, und es geschah<lb/> also.</p>\n            <p>Die Wahrheit dieser Angabe, daß die Erde seit<lb/> der ursprünglichen Schöpfung in\n                einem völlig<lb/> flüssigen Zustande sich befand, hat sich auch<lb/> durch die\n                    <add>?</add>sten geologischen Forschungen<lb/> bestätigt.</p>\n            <p>Es ist durch unmittelbare auf verschiedenen<lb/> Parallelkreisen vorgenommene Messung\n                der<lb/> Erdmeridiane, die einem Breitengrade ent,<lb/>sprechen, <add>?</add>\n                werden, daß die Erde an<lb/> den Polen abgeplattet <add>?</add>. Diese\n                Entdeckung<lb/> der Ellipseidfarm<add>?</add> unsere Erde fährt offenbar<lb/> zu der\n                sichere Annahme, daß die materiellen<lb/> Theilchen unserer Erde in einer\n                gewissen<lb/> Epoche solche Beweglichkeit hatten, das sie<lb/> über einander\n                hingleiten konnten, und<lb/> der durch die tägliche <add>?</add>tatien erzeugte\n                Zen=<lb/>trifugalkraft nach zugeben vermachten, und<lb/> wirklich nach gaben.</p>\n            <p>ibid. 10. Gott nannte das Trockene Erde, und<lb/> die Versammlung das Wassers\n                nannte<lb/> er Meere, und Gott sorgte dafür, daß<lb/> es zweckmäßig, sag.</p>\n            <p>Sämmtliche Commentatoren werfen zwar<lb/> die Frage auf, <sic>wesshalb</sic> die\n                Wassermasse in<lb/> ihren großen Zusammenhänge <add>Hebrew</add> im<lb/> Plural, und\n                nicht <add>Hebrew</add> in Singular genannt wird,<lb/> wie es auch wirklich ibid. V.\n                26. und Psalm 95.5. etc. etc.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 7759,
+          "width": 5073,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ee680793-a306-4cc4-9fad-f502c6ee3470%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5073,
+                "height": 7759,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ee680793-a306-4cc4-9fad-f502c6ee3470%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/assets/ee680793-a306-4cc4-9fad-f502c6ee3470/original",
+              "label": "Original File - 118 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>verkömmt; doch <sic>giebt</sic> uns keiner hierüber<lb/> einer genügende\n                Erklärung.</p>\n            <p>Meiner Ausicht nach, ist die Pluralform <add>Hebrew</add>, sowohl<lb/> in\n                grammatischer, als auch in geologischer Beziehung<lb/> richtig gebraucht werden. Der\n                grammatische Grund<lb/> ist, daß stetige Größen gern im Plural bezeich=<lb/>net\n                werden, als: <add>Hebrew</add> etc. etc. Wie wir auch<lb/> Ezechiel 28. 2\n                    <add>Hebrew</add> stett <add>Hebrew</add> lesen.</p>\n            <p>Der geologische Grund ist folgender.</p>\n            <p>Den verschiedenen Lehrversuche, welche man wegen<lb/> der <add>?</add>tesischen\n                Brunnen anstellte, haben in den<lb/> Tiefen der Erde Ströme und eine ungeheure<lb/>\n                Wassermasse entdecken lassen. Wahrscheinlich sollen<lb/> unter dem Ausdrucke\n                    <add>Hebrew</add> in der dritten Schöp=<lb/>fungsgriede auch den untererdischen\n                Gewässer<lb/> gemeint <add>?</add>, welche in den biblischen Schriften<lb/>\n                <add>Hebrew</add> und <add>Hebrew</add> (Genes. 7, 11.) genannt werden.</p>\n            <p>ibid. 11. Gott sprach, es sprosse die Erde hervor aller,<lb/>lei Sprossen, Kraut,\n                welches <sic>Saamen</sic><lb/> bringt, Fruchtbäume, welche Früchte<lb/> tragen, noch\n                ihrer Art, in welchen der<lb/> Same auf Erden ist, und es geschah also.</p>\n            <p>Der aufmerksame Leser wird sich wohl beim Lehre<lb/> dieses Verses nicht der Frage\n                erwehren kömme:<lb/> Wie? Da doch erst in der vierten Periode die<lb/> wärmenden\n                Strahlen der Sonne geschossen<lb/> werden, wie und wodurch sollten die Plfanzen<lb/>\n                hervorkömme? Zwar könnte man <add>?</add>,<lb/> daß die Lichtmaterin<add>?</add>,\n                welche in der ersten Periode<lb/> geschossen wurden ist, und um welche eine\n                    S<add>?</add>tation</p>\n            <p rend=\"indent(1)\">1) Beiläufig kann ich meine Verwunderung nicht unter,<lb/>drücken,\n                daß der geniale practische Americaner, selbst<lb/> in großen Städten, wo die\n                gewöhnlichen Quellen schlechtes Trinkwasser<lb/> geben, nicht artesische Brunnen\n                anlegt.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 7759,
+          "width": 5073,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/481be1be-4c76-494a-b80a-f2e64bc2cdde%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5073,
+                "height": 7759,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/481be1be-4c76-494a-b80a-f2e64bc2cdde%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/assets/481be1be-4c76-494a-b80a-f2e64bc2cdde/original",
+              "label": "Original File - 118 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>unsere Erde Statt hatte, das Wachsthum der Pflanzen<lb/> beförderte; allein wie\n                konnten sie im Lichte eher<lb/> Wärme fortkommen? Hierüber geben aus<lb/> wiederum\n                die wuesten <add>?</add>schungen auf dem Gebiete der<lb/> Geologie die nöthizen\n                Aufschlüsse.</p>\n            <p>Die Beobachtung lehrt uns, daß der Einfluß <add>?</add><lb/> Jahreszeiten im\n                    <add>?</add> der Erde nur bei einer<lb/> sehr geriesen Tiefe sich bemerken\n                lassen. Hierauf<lb/> nimmt die Wärme allmälig in dem Maasse<add>?</add> zu<lb/> als\n                    <add>?</add> weiter in die Tief hierbsteigt, und<lb/> es hat sich bei\n                angestellten Beobachtungen<lb/> ergeben, daß die Wärme bei je 33 Meter<lb/> Tiefe um\n                einem Grad zu<add>?</add>. Die Erdwärme,<lb/> der Centralwärme, welche seit der\n                ersten<lb/> Schöpfungsgeriede, die Erde vollkommen flüßig<lb/> erhielt, wie es noch\n                heutzutage im J<add>?</add> der,<lb/>selben geschieht, wovon aus die\n                vulcanischen<lb/> Ausbrüche und die warmen und heißen<lb/> Quellen überzeugen, hat,\n                bevor die Oberfläche<lb/> der Erde zu dem gegenwärtigen Grade der<lb/> Abkältung\n                gelangte, eine eigene Temperatur<lb/> hervorgebracht, ehe keine Klimate Statt<lb/>\n                fanden, sondern eine <add>?</add>höre<lb/> unser Erde umgab, ehe die Vegetation\n                fort,<lb/>kommen konnte. So fand man auf der<lb/>\n                <add>?</add>\n                <placeName>Portland in England</placeName> vegetabilische<lb/>\n                <sic>überraste</sic><add>?</add> verschiedener tragischer Pflanzen<lb/> an ihrem\n                ursprünglichen Platze eingewurzelt.<lb/> Dasselbe sieht man in den miesten\n                    Steinkah,<lb/>lenlangere<add>?</add>\n                <add>?</add>, und selbst in den jetzigen<lb/> kältesten Gegenden. Ein Beweis, daß\n                die Tempe,<lb/>ratur zu einer gewissen Zeit überall gleich<lb/> gewesen ist, und\n                dieses vor essen<add>?</add> die<lb/> dritte Schöpfungsgeriede, wiesen in der\n                Bibel</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 7759,
+          "width": 5073,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5a21282f-ee1c-4172-b3ed-df45558e6ea6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5073,
+                "height": 7759,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5a21282f-ee1c-4172-b3ed-df45558e6ea6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/assets/5a21282f-ee1c-4172-b3ed-df45558e6ea6/original",
+              "label": "Original File - 118 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>angegeben wird, zu das Plfanzenriech, wie<lb/> in einem Treibhause, unterhalten\n                wurde.</p>\n            <p>Nun haben wir in diesem Verse nur noch eine<lb/> grammatische Bemerkung zu machen\n                in<lb/> Betreff das Ausdruckes <add>Hebrew</add> (noch seiner Art)<lb/>\n                <persName>Moses Mendelsohn</persName>, in seinen biblischen Commentar,<lb/> meint,\n                daß, wenn <add>Hebrew</add> sich auf <add>Hebrew</add> und <add>Hebrew</add><lb/>\n                bezöge, so müßte es einen <add>?</add> Accent,<lb/> als <add>Hebrew</add> haben, und\n                folglich beziehe es sich blas auf <add>Hebrew</add> allein. Dieß wäre wohl richtig, wenn<lb/>\n                <add>?</add>\n                <add>?</add>, daß in diesem Verse ein<lb/>\n                <add>Hebrew</add> (Paranthesis) enthalten <add>?</add>: aber, meiner<lb/> Ansicht\n                noch, ist dieß nicht der Fall. Dieser Vers<lb/> bildet vielmehr eine mehrgliedrige\n                Periode, wo:<lb/> „es sprosse die Erde allerlei Sprossen hervor” der<lb/>\n                allgemeinste Nebensatz ist (<add>Hebrew</add>), welchen in den<lb/> übrigen\n                Nebensätzen erklärend zerlegt ist,<lb/>\n                <add>Hebrew</add>. Wer nun mit der Accentenlehre vertraut<lb/> ist, der weiß auch,\n                daß <add>Hebrew</add>,<lb/> wenn ein d<add>?</add>ver Accent ein oder mehrere<lb/>\n                Male hintereinander folgt, so ist der vor,<lb/>hergehende immer tr<add>?</add> als\n                der noch,<lb/>folgende. Folglich hat <add>Hebrew</add> als <add>Hebrew</add>, noch\n                alten wohlcor,<lb/>rigirten Bibeln, einen <add>Hebrew</add>, welcher <add>?</add>\n                als<lb/> alle folgende <add>Hebrew</add> aber hat ein <add>Hebrew</add>, außer dem\n                    <add>Hebrew</add><lb/> das größte distincti<add>?</add> in der Periode;\n                    <del>welches</del> weil es sich auch<lb/> auf <add>Hebrew</add> zurückbezieht,\n                und den größten Noch,<lb/>druck haben muß. Er ist also klar, daß die\n                Accentuation<lb/> dieser Periode ganz damit übereinstimmt, wenn\n                <add>Hebrew</add><lb/> auch auf <add>Hebrew</add> bezogen wird. Die\n                S<add>?</add>htigkeit hiervon, wird<lb/> auch dadurch bestätigt, daß es in nächsten\n                Vers aus,<lb/>drücklich heißt „<add>Hebrew</add>„ die Erde Brachte aller,<lb/>lei\n                Sprossen hervor: Kraut, das Samen bringt auch seiner<lb/> Art.</p>\n            <p rend=\"indent(8)\">(Fortsetzung folgt.)</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v5d/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

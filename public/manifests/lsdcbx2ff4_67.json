@@ -1,0 +1,272 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Mayer, M.; September 10, 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3b27qh58"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Mayer, M.; September 10, 1857"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Mayer, M. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-09-10"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["3 pages on 2 sheets."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Charleston (S.C.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF4_67", "ilcajs_b2f4_0064"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/8facbd56-16d6-4ef7-9998-1885fef9c3fd%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/8facbd56-16d6-4ef7-9998-1885fef9c3fd%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 4634,
+          "width": 3780,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8facbd56-16d6-4ef7-9998-1885fef9c3fd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3780,
+                "height": 4634,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8facbd56-16d6-4ef7-9998-1885fef9c3fd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/assets/8facbd56-16d6-4ef7-9998-1885fef9c3fd/original",
+              "label": "Original File - 52.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"><placeName>Charleston, S. C.</placeName>\n                <date>Sept. 10. 5617/1857</date>.</p>\n            <p><addressee>Rev. Isaac Leeser</addressee>, <placeName>Philadelphia</placeName>.</p>\n            <p rend=\"indent(1)\">Dear Sir—More than four weeks ago<lb/> I addressed a letter to you,\n                with the request to send me<lb/> a copy of your octavo Bible bound in purple velvet,\n                with<lb/> gilded clasp &amp;c, designed for a nuptial present, and in-<lb/>close my\n                bill the amount of which I do not know. The<lb/> wedding took place yesterday, and I\n                have not yet received<lb/> the Bible, although I wrote that I wanted it in the\n                first<lb/> week of <date>September</date>. As it is, I would be glad, to\n                receive<lb/> it at least before <add>ר\"ה</add>. It is to be presented to\n                    <persName>Mrs.<lb/> Sarah I. Davega</persName>, formerly <persName>Mrs. I. J.\n                    Moses</persName>, sister to my wife.<lb/> What say to this news? No doubt, you\n                heard of this “match”<lb/> before, considering that you are generally <hi\n                    rend=\"underline\">an courant</hi> with<lb/> all that transpires at least amongst\n                the Israelites of <placeName>Charles-<lb/>ton</placeName>.</p>\n            <p rend=\"indent(1)\">But, have you been informed also of the<lb/> discussion which has\n                been carried on, for the last weeks, on<lb/> the subject of the Swiss Treaty, in the\n                    <hi rend=\"underline\">Courier</hi> of this city? Have<lb/> you been informed\n                that, after I had published an Article, on<lb/> the <date>13<hi rend=\"sup\">th</hi>\n                    of August</date> last, calling upon the Jews of\n                    <placeName>Charleston</placeName>, “to<lb/> act now in concert, and forget all\n                differences of religious opinion,” and appealing to the Press for assistance, “<hi\n                    rend=\"underline\">A Jew</hi>” appeared<lb/> in the same paper charging me with\n                “either ignorance<lb/> or hasty and impetuous zeal,” and cautioning the Jews\n                against<lb/> being aroused to action, since by that treaty “their rights, as\n                Americans</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4634,
+          "width": 3780,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1f04c805-853c-44a7-bb66-14ede0684efc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3780,
+                "height": 4634,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1f04c805-853c-44a7-bb66-14ede0684efc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/assets/1f04c805-853c-44a7-bb66-14ede0684efc/original",
+              "label": "Original File - 52.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>are not assailed, and their religious privilege in no way molested”? I<lb/> replied,\n                sustaining my position, and declared at the conclusion that<lb/> I should no farther\n                notice any “<hi rend=\"underline\">anonymous</hi>” communication. Yet, “A Jew”<lb/>\n                again came forth, defending the treaty, repeating the charge of my ignorance,<lb/>\n                and calling all that had as yet been written on the subject by<lb/> Editors “flimsy\n                remarks.” In reply to him, <persName>Mr. J. N. Cardoza</persName><lb/> entered the\n                arena in a most gentlemanly and quiet Article.<lb/> To this “A Jew” replied in a\n                most scurrilous and insulting<lb/> Article, without even once coming to the point at\n                issue, nay! he was<lb/> even so ungenerous &amp; uncharitable, not to say\n                ungentlemanly, to cast<lb/> some open flings at me, although I had withdrawn from\n                the controversy<lb/> and thus placed myself beyond the possibility of\n                    <sic>defence</sic>.</p>\n            <p>Now <persName>Mr. N.</persName> published an Article, containing a most\n                withering<lb/> lesson for the unavoidable position which “A Jew” had taken in this\n                affair.<lb/> The latter took <sic>offence</sic> at this and published a card,\n                demanding<lb/> an explanation from <persName>Mr. C.</persName> This was not given,\n                and so there<lb/> was for the last 3 days a fine prospect of a duel. Things,<lb/>\n                however, I think, are now settled. You yourself were drawn<lb/> into this\n                controversy. In his first Article, <persName>Mr. C.</persName> quoted from<lb/> the\n                Occident, Vol. XII, p. 95-100, to prove that you had then already<lb/> written\n                against the Treaty <hi rend=\"underline\">as it now stands</hi>; “A Jew” denied<lb/>\n                this fact, in his reply, maintaining that you meant the original draft<lb/>\n                containing the word “<hi rend=\"underline\">Christian</hi>,” and to prove this, he quoted<lb/>\n                <hi rend=\"underline\">from Vol. 15, <date>March '51</date></hi>!!! Is this not very\n                fair, after <persName>Mr C.</persName> had<lb/> quoted your very words and which\n                could certainly not be found in the<lb/>\n                <date>March</date> Number of <date>1851</date>!? What must “A Jew” now think of<lb/>\n                this incidental point, after having read your Article on the<lb/> Swiss Treaty, in\n                which you refer to the very pages quoted<lb/> by <persName>Mr. C.</persName>? Has\n                your usual informant or reporter not com-</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 4634,
+          "width": 3780,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0f02bdfa-f9a4-45dd-89fb-4d7e48a5bd73%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3780,
+                "height": 4634,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0f02bdfa-f9a4-45dd-89fb-4d7e48a5bd73%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/assets/0f02bdfa-f9a4-45dd-89fb-4d7e48a5bd73/original",
+              "label": "Original File - 52.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>municated all this to you? If he has, did he give you also the<lb/> name of “A Jew.”?\n                At all events, I will give it to you. It is<lb/>\n                <persName>Mr. <hi rend=\"underline\">Charles H. Moise</hi></persName>. I do not envy\n                him for the laurels which<lb/> he has won in this warfare; all he gained is this,\n                that the Press of <placeName>S. C.</placeName><lb/> become lukewarm &amp;\n                indifferent, after some papers had taken<lb/> up our cause. Nevertheless, a memorial\n                will be sent to the President<lb/> by Jews, if not <hi rend=\"underline\">the</hi>\n                Jews of <placeName>Charleston</placeName>; it is now being circulated<lb/> for\n                subscription. Will you expose this extraordinary proceeding of a<lb/> Jew in this\n                affair? Justice demands it!</p>\n            <p rend=\"indent(1)\">I read your Article on the New Prayer-book “<hi rend=\"underline\"\n                    >Minhag</hi><lb/>\n                <hi rend=\"underline\"><placeName>America</placeName></hi>,” in the last month's <hi\n                    rend=\"underline\">Occidents</hi>. I agree fully with you<lb/> concerning the\n                transgression of power by the Compilers; I wrote<lb/> the <hi rend=\"underline\"\n                    >same</hi> truths to <persName>Dr Cohn</persName> in\n                    <placeName>Albany</placeName>\n                <hi rend=\"underline\">already two months</hi><lb/>\n                <hi rend=\"underline\">ago</hi>, that is, before you published your strictures. I\n                think the<lb/> very title is a piece of presumption and usurpation which<lb/> cannot\n                be justified save by means of vulgar abuse and<lb/> contemptible insults.</p>\n            <p rend=\"indent(1)\">Now an open and honest explanation; I received your<lb/> invitation\n                to the Consecration of your Synagogue. I did not<lb/> answer, nor attend. Why?\n                Because I endorse every word contained<lb/> in the Editorial of the <hi\n                    rend=\"underline\">Asmonean</hi>, of <date>May 9.</date> last, and referring<lb/>\n                to the establishment of your congregation.</p>\n            <p rend=\"indent(1)\">With my wife's and my own best regard, and our wishes<lb/> for the\n                coming New-Year, I remain, as ever,</p>\n            <p rend=\"indent(10)\">Yours,</p>\n            <p rend=\"indent(10)\">most respectfully</p>\n            <p rend=\"indent(11)\">\n                <persName role=\"author\">Dr M Mayer</persName>\n            </p>\n            <p>P.S. What is <persName>Mr. S. Jacobs</persName> doing? Is it </p>\n            <p>true, that he has been appointed Professor of </p>\n            <p>the Hebrew, at the Girard College, with a salary</p>\n            <p>of $2000 a year? So <persName>Mr A. H. Abrahams</persName> tells the people here.</p>\n            <p>What is is salary as Lecturer? Did you ever <sic>here</sic> the particulars of his\n                resignation?</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 4634,
+          "width": 3780,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/830c9c05-83b9-4edf-9e77-196effdaa5d0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3780,
+                "height": 4634,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/830c9c05-83b9-4edf-9e77-196effdaa5d0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b27qh58/assets/830c9c05-83b9-4edf-9e77-196effdaa5d0/original",
+              "label": "Original File - 52.6 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

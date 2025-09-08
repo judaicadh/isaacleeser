@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Meyer, Cauffman H.; Leeser, I., Rev.; San Francisco, CA; 15 March 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3k06xm56"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Meyer, Cauffman H.; Leeser, I., Rev.; San Francisco, CA; 15 March 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-03-15"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- San Francisco",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_6"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/0a1d8f0f-a5a3-40e7-ac09-1ea1901fd2b8%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/0a1d8f0f-a5a3-40e7-ac09-1ea1901fd2b8%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4360,
+          "width": 3536,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0a1d8f0f-a5a3-40e7-ac09-1ea1901fd2b8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3536,
+                "height": 4360,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0a1d8f0f-a5a3-40e7-ac09-1ea1901fd2b8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/assets/0a1d8f0f-a5a3-40e7-ac09-1ea1901fd2b8/original",
+              "label": "Original File - 46.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>San Francisco</placeName>\n                                        <date>M'ch 15/54</date>\n                              </p>\n                              <p>\n                                        <addressee>Revd I. Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(2)\">Dear Friend—</p>\n                              <p>I am in Receipt of your Letter of the<lb/>\n                                        <date>3d</date> ulto and also of the Books, which were<lb/>\n                                        all in good order. Owing to the<lb/> accident to the steamer\n                                        Georgia, which<lb/> connected with the steamer Columbia<lb/>\n                                        on this side by which I received the<lb/> Books, and the\n                                        annual long passage<lb/> of the Columbia, I did not receive\n                                        the<lb/> Books till a few days ago; and<lb/> therefore I\n                                        could not as yet distribute<lb/> the Books which have been\n                                        ordered; but<lb/> after this Mail Steamer is gone I\n                                        shall<lb/> attend to. I have sold several D. Setters,<lb/>\n                                        and I have not doubt with those Books<lb/> which are not\n                                        ordered, I can meet<lb/> with a ready sale, as the\n                                        Books<lb/> are all got up in a Neat &amp; handsome<lb/>\n                                        manner. The “Hebrew Benevolent<lb/> Ball” of which I made\n                                        mention in<lb/> my previous Letter, has come of night</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4360,
+          "width": 3536,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e3f534b8-0480-430f-9762-8182ca720e48%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3536,
+                "height": 4360,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e3f534b8-0480-430f-9762-8182ca720e48%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/assets/e3f534b8-0480-430f-9762-8182ca720e48/original",
+              "label": "Original File - 46.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>before last; a very large assemblage was<lb/> present, &amp; the\n                                        profit at present estimated<lb/> will be about $1500; really\n                                        the Ball was<lb/> an honour to the Jews here, and creditable\n                                        to<lb/> the managers; everything passed of to the<lb/>\n                                        satisfaction of all present; one unusual<lb/> feature of the\n                                        Ball was the large<lb/> number of Ladies, which numbered\n                                        to<lb/> about 200. It is due to our Jewish po-<lb/>-pulation\n                                        to say, that a great number of our<lb/> persuasion are very\n                                        much respected as<lb/> first class &amp; prominent\n                                        citizens.</p>\n                              <p><persName>Mr. Cohen</persName> has been to see me &amp; told me\n                                        a<lb/> great deal of the China-Jews, but as he<lb/> has\n                                        given you already much Information<lb/> in that regard,\n                                        &amp; as he told me he would<lb/> write to you again by next\n                                        mail, it<lb/> would be fore me unnecessary to say\n                                        any-<lb/>-thing upon that subject. I think you<lb/> would\n                                        have done wise if you would have<lb/> advertised in your\n                                        Occident, that your<lb/> Books could be had by me. I am<lb/>\n                                        well acquainted with <persName>Mr. Chay\n                                        Emanuel</persName>,<lb/> &amp; he requests me to give his\n                                        Regards to you.<lb/>\n                                        <persName>Mrs &amp; Mr. Roggenburger</persName> wish kindly\n                                        to be<lb/> remembered to you. With my best wishes for<lb/>\n                                        your good Health &amp; Prosperity I remain yours Truly</p>\n                              <p rend=\"indent(3)\">\n                                        <persName role=\"author\">Cauffman H. Meyer</persName>\n                              </p>\n                              <p rend=\"The following is written sideways in the left margin\">The\n                                        enclosed Notice I have cut out from the “daily California\n                                        Chronicle”<lb/> all papers unite in speaking highly of the\n                                        Ball.</p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3k06xm56/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

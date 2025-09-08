@@ -1,0 +1,299 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Bush, Isidore; Leeser, I., Rev.; St. Louis, MO; 13 March 1853",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30863s0k"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Bush, Isidore; Leeser, I., Rev.; St. Louis, MO; 13 March 1853"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1853-03-13", "13 March 5613"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Missouri -- Saint Louis",
+        "United States -- Missouri",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF10_18"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/16c27bab-4219-42ba-8861-7ecd86dd491e%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/16c27bab-4219-42ba-8861-7ecd86dd491e%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 7026,
+          "width": 5734,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/16c27bab-4219-42ba-8861-7ecd86dd491e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5734,
+                "height": 7026,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/16c27bab-4219-42ba-8861-7ecd86dd491e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/assets/16c27bab-4219-42ba-8861-7ecd86dd491e/original",
+              "label": "Original File - 121 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd Mr Leeser</addressee>\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"align(right)\"><placeName>St Louis</placeName>\n                                        <date>March 13<hi rend=\"sup\">th</hi> 5613/1853</date>.</p>\n                              <p>Dear sir and friend!</p>\n                              <p>I transmit you herewith an advertisement which you<lb/> will please\n                                        to insert in your Occident for <date><hi rend=\"underline\"\n                                                  >April</hi></date> if it<lb/> arrives in time. I\n                                        will <add>Hebrew</add> come myself to <placeName>New\n                                                  York</placeName><lb/> and would be very glad to\n                                        find you there. My Dear father who<lb/> will arrive there—I\n                                        hope—about the <date>20<hi rend=\"sup\">th</hi> of\n                                                  April</date> would also<lb/> be very happy to make\n                                        your acquaintance and if you agree<lb/> to take part of his\n                                        stock of hebrew books in commisison<lb/> he would probably\n                                        give you all inducement&amp; facilities possible.<lb/> A\n                                        notice, about as follows would perhaps be proper in your\n                                        Occident<lb/> “Large arrived of hebrew Books.</p>\n                              <p><persName>Mr. I. I. Bush</persName> the father of <persName\n                                                  role=\"author\">Mr Isidor Bush</persName> now in\n                                                  <placeName>St Louis</placeName><lb/> who has been\n                                        for many years the proprietor of the largest Hebrew<lb/>\n                                        Printing Establishment (v. Schmidt in\n                                                  <placeName>Vienna</placeName>) and has edited a\n                                        great<lb/> number of valuable hebrew works is expected to\n                                        arrive this month from <placeName>Vienna</placeName>.<lb/>\n                                        The old gentleman wishes to pass the evening of his life\n                                        with<lb/> his only son in this home of the free; and we bid\n                                        him welcome.<lb/> He brings with him a large assortment of\n                                        hebrew Books,<lb/> mostly Bibles and Prayerbooks for the\n                                        german and polish minhag<lb/>\n                                        <sic>ellegantly</sic> bound. As <persName>Mr Bush</persName>\n                                        intends to go west and to<lb/> stay a few days only at\n                                                  <placeName>New York</placeName>, we call the\n                                        attention of<lb/> those who deal in Sphorim, and others who\n                                        want to purchase<lb/> to his advertisement.</p>\n                              <p>In regard to congregational affairs I request you to insert<lb/>\n                                        the following communications filling the blank\n                                        according<lb/> to your <sic>judgement</sic>, as you have\n                                        certainly received the printed<lb/> copy of the\n                                        constitution, which I have sent you.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 7026,
+          "width": 5734,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2f6a6404-9025-4e31-aa60-c6d34f0eaae2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5734,
+                "height": 7026,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2f6a6404-9025-4e31-aa60-c6d34f0eaae2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/assets/2f6a6404-9025-4e31-aa60-c6d34f0eaae2/original",
+              "label": "Original File - 121 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>A good Translation of the Introduction or Preamble on Ist\n                                        Article<lb/> would perhaps be of some interest to the public\n                                        at large<lb/> and your readers in particular and would at\n                                        the same time be<lb/> very <sic>wellcome</sic> to us here,\n                                        as we intend to print our constitution<lb/> in English also\n                                        and a correct translation—in spirit more than word—<lb/>\n                                        would be a task which I could not undertake to solve.</p>\n                              <p rend=\"indent(1)\"><placeName>St Louis</placeName>—The Bnai-El\n                                        congregation, lately formed by a union<lb/> of two former\n                                        congregations here, have adopted a\n                                        constitution...<lb/>............<lb/>..........<lb/> and\n                                        duly elected there after the following gentlemen as Trustees<lb/>\n                                        <persName role=\"author\">Mr. I. Bush</persName>, <persName>D\n                                                  Block</persName>, <persName>Is. Lowman</persName>,\n                                                  <persName>A Suss</persName>, <persName>L\n                                                  Schwarzkopf</persName>, <persName>B\n                                                  Singer</persName><lb/> and <persName>W\n                                                  Walter</persName>, from whom <persName>Mr\n                                                  Walter</persName> has been appointed President<lb/>\n                                        <persName>Mr Suss</persName> Secretary <persName>Mr\n                                                  Lowman</persName> Treasurer. There have been\n                                        also<lb/> elected different committees: one for the erecting\n                                        of a Syna<lb/>gogue and getting up a subscription to that\n                                        effect, one for a better<lb/> organization of the Ritual,\n                                        one committee for the burial of<lb/> the dead, and so on. It\n                                        is to be hoped that the com<lb/>mittees and officers will\n                                        perform their respective duties with<lb/> pious zeal and\n                                        promote thereby the objects expressed by<lb/> their\n                                        constitution. <persName>Mr L Schwarzkopf</persName> has been\n                                        elected<lb/> Chasan of the congregation and the service is\n                                        well attended<lb/> on every <date>sabbath</date> since.</p>\n                              <p>Dear Sir—full liberty is given to you to speak more on these<lb/>\n                                        subjects or to change the wording—according to your\n                                        best<lb/> belief. For the ,,advertisements” I will pay you,\n                                        of course</p>\n                              <p rend=\"indent(8)\">very respectfully your friend &amp; servant</p>\n                              <p rend=\"indent(11)\">\n                                        <persName role=\"author\">Isidore Bush</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 7026,
+          "width": 5734,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d6d1cc7-71cb-4c82-a9ad-b4e6dfd69c41%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5734,
+                "height": 7026,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d6d1cc7-71cb-4c82-a9ad-b4e6dfd69c41%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/assets/8d6d1cc7-71cb-4c82-a9ad-b4e6dfd69c41/original",
+              "label": "Original File - 121 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <hi rend=\"underline\">Advertisement:</hi>\n                              </p>\n                              <p rend=\"align(center)\">The largest stock of</p>\n                              <p rend=\"align(center)\">\n                                        <hi rend=\"underline\">Hebrew Books</hi>\n                              </p>\n                              <p rend=\"align(center)\">that was probably ever brought to this\n                                        country</p>\n                              <p rend=\"align(center)\">is to arrive during these days (about\n                                                  <date>20<hi rend=\"sup\">th</hi> of\n                                        April</date>)</p>\n                              <p rend=\"align(center)\">and will be sold, wholesale, <hi\n                                                  rend=\"underline\">at very low prices</hi></p>\n                              <p rend=\"align(center)\">It contains chumashin, Tenachs, Machsorin</p>\n                              <p rend=\"align(center)\">Tefillas &amp;c, &amp;c. of the celebrated\n                                                  <placeName>Vienna</placeName> Editor,</p>\n                              <p rend=\"align(center)\">all bound in very elegant <sic>stile</sic></p>\n                              <p rend=\"align(center)\">Dealers in <add>?</add> will never find again\n                                        such a favorable opor</p>\n                              <p rend=\"align(center)\">tunity and will do well therefore to call\n                                        personally or give</p>\n                              <p rend=\"align(center)\">orders to their <placeName>New\n                                                  York</placeName> friends, to purchase for\n                                        them;</p>\n                              <p rend=\"align(center)\">it being the intention of the Importer\n                                                  <persName><hi rend=\"underline\">Mr I. I.\n                                                  Bush</hi></persName></p>\n                              <p rend=\"align(center)\">from <placeName>Vienna</placeName>, to dispose\n                                        of them during <hi rend=\"underline\">a few days</hi> for\n                                        cash</p>\n                              <p rend=\"align(center)\">on good, approved paper. The place of sale\n                                        will</p>\n                              <p rend=\"align(center)\">probably be at <persName>Mr\n                                                  Petshaw's</persName> Bookstore, or if\n                                        elsewhere</p>\n                              <p rend=\"align(center)\">will be advertised in the daily Papers.</p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 7060,
+          "width": 5717,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/023e8b52-e11a-41a7-81c6-6e995c274a81%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5717,
+                "height": 7060,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/023e8b52-e11a-41a7-81c6-6e995c274a81%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863s0k/assets/023e8b52-e11a-41a7-81c6-6e995c274a81/original",
+              "label": "Original File - 121 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

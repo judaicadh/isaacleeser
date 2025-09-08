@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Belinfante, J. J.; Leeser, Isaac, Rev.; The Hague, Netherlands; 17 May 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p39k46d01"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Belinfante, J. J.; Leeser, Isaac, Rev.; The Hague, Netherlands; 17 May 1857"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-05-17"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Netherlands -- The Hague",
+        "Netherlands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF4_38"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/a989bc8e-6826-48fa-82d9-9bbf2b99232f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/a989bc8e-6826-48fa-82d9-9bbf2b99232f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3992,
+          "width": 5028,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a989bc8e-6826-48fa-82d9-9bbf2b99232f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5028,
+                "height": 3992,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a989bc8e-6826-48fa-82d9-9bbf2b99232f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/assets/a989bc8e-6826-48fa-82d9-9bbf2b99232f/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(2)\">To</p>\n            <p>the <addressee> Reverend I. Leeser</addressee></p>\n            <p rend=\"indent(2)\">at</p>\n            <p rend=\"indent(3)\">\n                <hi rend=\"underline\">\n                    <placeName>Philadelphia</placeName>\n                </hi>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3992,
+          "width": 5028,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce4fd787-baa9-4833-b81c-2850458dc922%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5028,
+                "height": 3992,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce4fd787-baa9-4833-b81c-2850458dc922%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/assets/ce4fd787-baa9-4833-b81c-2850458dc922/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to the Reverend</p>\n            <p><addressee>Dr. I. Leeser</addressee>.</p>\n            <p>at <placeName>Philadelphia</placeName>.</p>\n            <p rend=\"align(right)\"><placeName>Hague</placeName>, the <date>17 Mai 57</date>.</p>\n            <p rend=\"indent(1)\">Dear Sir,</p>\n            <p rend=\"indent(1)\">I have to repent<add>?</add> my sincere thanks for receiving<lb/>\n                now regularly the <hi rend=\"underline\">Occident</hi> that valuable paper\n                furnishes<lb/> me every time great satisfaction. I have send you last you some<lb/>\n                <add>?</add> from <placeName>Europe</placeName>, however I have not found them\n                noticed or<lb/>\n                <add>?</add>. Did you receive them?</p>\n            <p rend=\"indent(1)\">I <sic>heare</sic> with pleasure good tiding from my\n                    <sic>freind</sic><lb/>\n                <persName>d'Arcona</persName> and his family. God has given them now prosperity<lb/>\n                and happiness after a great deal of suffering here. May that<lb/> prosperous state\n                continue.</p>\n            <p rend=\"indent(1)\">Did you read in the number of <date>15 Oct</date>. last of the<lb/>\n                <hi rend=\"underline\">Revue des Deme Mandes<add>?</add></hi> a very clever article on\n                Jewish<lb/> affairs by a Frenchman, <persName>M. Erqinros<add>?</add></persName>?\n                There are some misgivings<lb/> in that paper, however generally <sic>speaken</sic>\n                the spirit is as generous<lb/> as the facts true. Perhaps you may give us some\n                extracts<lb/> of that publication, the more as therein is spoken about the<lb/>\n                American Jews <sic>allso</sic>.</p>\n            <p rend=\"indent(1)\">I did converse last week with an Israelite of<lb/> reputation, the\n                celebrated <persName>Benjamin II</persName>, a Jewish <sic>traveller</sic><lb/> who\n                has made exploration five years long in the <placeName>far East</placeName>,<lb/> in\n                    <placeName>Egypt</placeName>, and on the Barbarian shores, to elucidate the<lb/>\n                situation of Jewish communities, Jewish history &amp; He has published<lb/> a work\n                in French, <hi rend=\"underline\"><add>?</add> Années de Voyage en\n                        <placeName>Orient</placeName></hi>, wherein<lb/> he consigned the first\n                results of his <hi rend=\"underline\"><sic>remarquable</sic> voyage</hi>.<lb/> He\n                intended now to go to the <placeName>Indian Archipelago</placeName>, then<lb/> to\n                    <add>?</add> Indian and, if possible, crossing\n                <placeName>Cabaal</placeName><lb/> and <placeName>Afghanistan</placeName> to return\n                by these <sic>remoted</sic><lb/> Oriental countries. Our government has given him\n                already<lb/> the necessary permission to set out for <placeName>Batavia</placeName>.\n                If he<lb/> has completed his Oriental explorations, he may<lb/> perhaps visit your\n                country and <placeName>America</placeName> in general. If you,<lb/> Sir, did not\n                read still his voyage, I will</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46d01/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

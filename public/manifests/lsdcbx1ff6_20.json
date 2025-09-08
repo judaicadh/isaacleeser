@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Ezekiel, N.; Leeser, Isaac, Rev.; Richmond, VA; 13 March 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3gb1z33j"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Ezekiel, N.; Leeser, Isaac, Rev.; Richmond, VA; 13 March 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-03-13"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virginia -- Richmond",
+        "United States -- Virginia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_20"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/1899dc77-f395-4aee-a82d-b622dd090ba6%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/1899dc77-f395-4aee-a82d-b622dd090ba6%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5856,
+          "width": 4770,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1899dc77-f395-4aee-a82d-b622dd090ba6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4770,
+                "height": 5856,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1899dc77-f395-4aee-a82d-b622dd090ba6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/assets/1899dc77-f395-4aee-a82d-b622dd090ba6/original",
+              "label": "Original File - 84 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Richmond</placeName>\n                                        <date>March 1849</date>\n                              </p>\n                              <p>\n                                        <addressee>Mr Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(2)\">Sir yours of the inst. I duly received<lb/> with\n                                        the package by the express, Since writing<lb/> I have\n                                        obtained another subscriber <persName>Isaac\n                                                  Leriner</persName><lb/> the persons you mention in\n                                        your letter for me<lb/> to call on I have done so, but they\n                                        will not<lb/> subscribe. I shall endeavour to obtain as\n                                        many<lb/> as I can but I am afraid that they will not<lb/>\n                                        be many as the people of this city are very slow<lb/> in\n                                        subscribing, I think you had better send<lb/> say 20 or 25\n                                        numbers of the Vol 7 I will<lb/> give the first number away\n                                        gratas &amp; call<lb/> on those that I give them to they\n                                        may<lb/> some of them subscribe by so doing, I have<lb/>\n                                        received from <persName>Jacob Ezekiel</persName> the\n                                        following books<lb/> which I have subject to your order</p>\n                              <p>Catechism 30, <sic>Sprit</sic> of <sic>Judeasm</sic> 6, Jewish\n                                        faith 2,<lb/> spelling book 5, daily Prayers 3 vol, Daily\n                                        Prayer 3 sets<lb/> 2 paper 1 full bound, school teacher\n                                        assistant 1,<lb/> discourses on the jewish religion 4 full bound,<lb/>\n                                        <sic>Pentatuech</sic> 2 sets full bound 1 set paper,\n                                        Occident<lb/> 59 No of Vol first from No 1 to 10, 72 No\n                                        of<lb/> vol third from No 1 to 12, 83 No Vol 4 from<lb/> No\n                                        1 to 12, 51 No Vol 5 No 1 to 12, 43 No<lb/> Vol second No 1\n                                        to 12, he says he has some<lb/> more sets of Books which he\n                                        would</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6010,
+          "width": 4926,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/544e1863-e38e-40c8-a959-9305aa0b7091%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4926,
+                "height": 6010,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/544e1863-e38e-40c8-a959-9305aa0b7091%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/assets/544e1863-e38e-40c8-a959-9305aa0b7091/original",
+              "label": "Original File - 89 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>hand over to me in case you write to him you<lb/> can request him\n                                        to give me all books &amp; other<lb/> articles belonging to\n                                        you if you think proper to<lb/> do so, I will attend to your\n                                        business is it<lb/> should be attended to &amp; use all\n                                        endeavours to<lb/> obtain subscribers I am in hopes to\n                                        obtain<lb/> a goodly number of subscribers, you will<lb/>\n                                        please when you write to me write<lb/> more plain as I found\n                                        it difficult<lb/> to make out your writing in hopes<lb/>\n                                        that this will find you in the enjoyment<lb/> of good health\n                                        I remain yours</p>\n                              <p rend=\"indent(10)\">Resptly</p>\n                              <p rend=\"indent(10)\">\n                                        <persName role=\"author\">N Ezekiel</persName>\n                              </p>\n                              <p>you will please let me know if you paid<lb/> for the package as the\n                                        bill has been sent<lb/> to me &amp; I declined paying\n                                                  <sic>untill</sic> I hear<lb/> from you, in case\n                                        you prepaid send<lb/> the receipt to me <persName\n                                                  role=\"author\">N Ezekiel</persName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4730,
+          "width": 6034,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4a19e746-81ab-4a98-addd-40149cdaa1fd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6034,
+                "height": 4730,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4a19e746-81ab-4a98-addd-40149cdaa1fd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/assets/4a19e746-81ab-4a98-addd-40149cdaa1fd/original",
+              "label": "Original File - 85.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>\n                                                  <hi rend=\"underline\">Philadelphia</hi>\n                                        </placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gb1z33j/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

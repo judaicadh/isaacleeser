@@ -1,0 +1,309 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Albany, NY; Leeser, Isaac; 19 August 1850; 19 August 1850",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3nc5sz8h"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Albany, NY; Leeser, Isaac; 19 August 1850; 19 August 1850"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1850-08-19"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- Albany",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item140"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b25f11bf-4607-4b92-8e2d-daf8136b1cef%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b25f11bf-4607-4b92-8e2d-daf8136b1cef%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6438,
+          "width": 5090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b25f11bf-4607-4b92-8e2d-daf8136b1cef%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5090,
+                "height": 6438,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b25f11bf-4607-4b92-8e2d-daf8136b1cef%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/assets/b25f11bf-4607-4b92-8e2d-daf8136b1cef/original",
+              "label": "Original File - 98.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Albany</placeName>\n                <date>August 19<hi rend=\"sup\">th</hi> 1850</date>.</p>\n            <p><addressee>Mr Isaac Leeser</addressee>!</p>\n            <p rend=\"indent(2)\">Rev. Sir!</p>\n            <p rend=\"indent(1)\">The moment your Occident came to hand, I<lb/>\n                <sic>intentend</sic> to write an epistle as an answer against<lb/> the unjust\n                charges and your <sic>comentary</sic> towards <persName>Dr Wise</persName><lb/> but\n                several causes and my limited knowledge of the<lb/>\n                <sic>english</sic> and <sic>hebrew</sic>, prevented me to do so, as my respect<lb/>\n                towards you and <persName>Wise</persName> are so great, that I feel myself<lb/> for\n                the present unable to do justice to both, and the<lb/> subject itself. But the\n                earnest zeal with which<lb/> I am interested in the cause of Judaism, and the\n                love<lb/> of truth make it notwithstanding my duty, to give<lb/> you an impartial\n                statement of things as they are<lb/> and for the rest I leave it entirely to your<lb/>\n                <sic>judgement</sic> to make use of it or not; it will<lb/>\n                <del>take</del> make you little trouble in comparison of<lb/> abilities! The\n                Occident is for this moment not at<lb/> my hands and therefore can I only allude to\n                it<lb/> by recollection Your heading <persName>Dr W.</persName> and his\n                congregation<lb/> it was the whole matter differently from what it is; when<lb/> you\n                will read what follows.</p>\n            <p><persName>Mr Spanier</persName> lives as I <sic>unterstand</sic> some 6 or 8\n                years<lb/> in this place, but never <sic>mettled</sic> with <sic>jews</sic> or\n                Judaism,<lb/> and we know that he is not even so very <sic>scrupelous</sic> in<lb/>\n                the keeping of the ten commandments. The congregation<lb/> here is like all the\n                    <sic>american</sic> composed of Jews of so<lb/> many different tribes as there\n                are states in unhappy<lb/>\n                <placeName>Germany</placeName>, and consequently (coming to this yet the\n                ignorance<lb/> of so many.) the body very <sic>heteregen</sic>!</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6438,
+          "width": 5090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cb236949-c6f8-4a60-8543-3c197ac2956c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5090,
+                "height": 6438,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cb236949-c6f8-4a60-8543-3c197ac2956c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/assets/cb236949-c6f8-4a60-8543-3c197ac2956c/original",
+              "label": "Original File - 98.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Through' the indefatigable exertions of <persName>Dr Wise</persName>, they<lb/> have\n                been kept together and all the friends of order of<lb/> and com<add>m</add>on sense\n                untied and are the true friends and<lb/> followers <persName>Wises</persName>. But\n                as the immortal <persName>Goethe</persName> once<lb/> said, The Elephant must also\n                have his house<add>?</add>, there<lb/> still remained some outcasts of society who\n                when home<lb/> and idle make it their principle business, to raise<lb/> excitements,\n                    <sic>disturbe</sic> meetings &amp;c &amp;c.—The friends of order<lb/> therefore\n                thought it best to elect a Parnass who not<lb/>\n                <sic>beeing</sic> in daily connections with those and having a<lb/> respectable\n                appearance will fit best to make the<lb/> criers silent. They thought themselves the\n                better <del>united</del><lb/> suited as their candidate did at any time not\n                feign<lb/> the heartiest friendship to <persName>Dr Wise</persName>; and thought it\n                possible<lb/> to retain <persName>Mr Wise</persName> who was elected in\n                    <placeName>Charleston</placeName> as<lb/> their minister.\n                    <persName>Wise</persName> was by most of the members<lb/> petitioned to remain\n                and with this hope they went<lb/> to the meeting, and moved to send a\n                    <sic>comitee</sic> to<lb/> invite him to remain and to increase his salary.<lb/>\n                This was the first officiating of <persName>Spanier</persName>, and whilst<lb/>\n                declaring that it be the duty of every man to secure<lb/> the services of\n                    <persName>Wise</persName>, he opposed the increase of<lb/> the salary, because\n                the financial condition of a cong.<lb/> of 150 members would not allow to expend\n                $200 more<lb/> 2 years. This was the first jesuitical<add>?</add> act. In a<lb/>\n                moment this sum. was raised by private subscription,<lb/> and the president didn't\n                allow to put it in the<lb/> minutes. When the <sic>comite</sic>' was selected, the\n                honorable<lb/> Pres. Sent 2 of the most vulgar enemies of <persName>Wise</persName><lb/>\n                <persName>Wise</persName> who we certainly know acted with pure love<lb/> told me\n                that he knows well that he wrongs his<lb/> family, by reaccepting his office, what\n                is &amp; but<lb/> poorly paid, on comparison to what was offered to<lb/> him\n                    <placeName>Charleston, <sic>Ca</sic></placeName> &amp; by considering that what\n                I<lb/> have with pains and sorrow, <add>?</add> up in 3 years,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6438,
+          "width": 5090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9490b2ea-a89a-4ccd-97d3-ae24c0df649e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5090,
+                "height": 6438,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9490b2ea-a89a-4ccd-97d3-ae24c0df649e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/assets/9490b2ea-a89a-4ccd-97d3-ae24c0df649e/original",
+              "label": "Original File - 98.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>will fall to pieces, the children whom I educated<lb/> will cease to be what they are\n                now they seeds of true<lb/> Judaism which I have <sic>platted</sic> in their hearts,\n                will<lb/> be in vain makes it my duty to remain.</p>\n            <p>You will therefore see the first plan of the order of<lb/>\n                <persName>Loyola</persName> was destroyed but as <sic>as</sic> the forge of them is\n                constantly<lb/> heated and no medium to Case for a Jesuit (and we know<lb/> them\n                very well and must by all the acts from beginning<lb/> to end, of <persName>Mr\n                    Spanier</persName> come to conclusion that he is<lb/> an agent of this\n                    Teroor<add>?</add> society) the new plan was soon<lb/> fabricated. Convinced as\n                the Parnass was, that all the<lb/> decent members are for all and all for one, are\n                friends<lb/> of order and of <persName>Dr Wise</persName>, he now appears as father\n                of<lb/> the poors, namely there were about 30 to 40 who were<lb/> partly not able,\n                partly unwilling to contribute their yearly<lb/> contributions and were therefore by\n                law not allowed<lb/> to vote. <persName>Mr Spanier</persName>\n                <sic>adressed</sic> the meeting in a heart<lb/>rending language in behalf of them\n                and they were released<lb/> from their debts and allowed to partake in all the<lb/>\n                privileges with the other members. Before the moon<lb/> had made its monthly\n                circulation some of this made<lb/> Spaniards in con<add>n</add>ection with 4\n                    <del>baar</del> grogshop keepers<lb/> who are naturally opposed to\n                    <persName>Wise's</persName> doctrines, who denounces<lb/> drinking and gambling\n                in the boldest manner, came<lb/> out with a complaint if you my friend would\n                only<lb/> read these documents, you would be obliged not only<lb/> to laugh at the\n                folly, but to <sic>comdemn</sic> our Parnass for<lb/> ever. The principal complaints\n                are stiled, <hi rend=\"underline\">it is said</hi><lb/> that <persName>Mr.\n                    W.</persName> has done this and that <del>and the</del> and<lb/> when the\n                signers were asked about the <sic>containings</sic> of<lb/> their documents, they\n                confessed that they <sic>dont</sic> know it;<lb/> they were presented to them, by\n                the honorable Parnass<lb/> and Chasan and forced to sign!</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6438,
+          "width": 5090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4e1e458d-d841-403b-b225-bc9ce9f3167c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5090,
+                "height": 6438,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4e1e458d-d841-403b-b225-bc9ce9f3167c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/assets/4e1e458d-d841-403b-b225-bc9ce9f3167c/original",
+              "label": "Original File - 98.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>The only foothold the Parnass could make was <del>the</del> upon a trustee<lb/> who\n                in opposition to <persName>Mr Wise</persName> opened his store on\n                <add>שבת</add><lb/> and was <sic>repremanded</sic> by him. <add>?</add>\n                <persName>Mr Spanier</persName><lb/> thought to justified, and when <persName>Mr\n                    Wise</persName> stood on his<lb/> pulpit to deliver a sermon the Jesuit walked\n                up, and<lb/> wanted to stop him. Our friend with all the presence<lb/> of mind and\n                godly inspiration overpowered the assai<lb/>lant in com<add>m</add>encing and\n                continuing a beautiful lecture,<lb/> and <del>fea</del> the Pres. fearing the\n                vengeance of the<lb/> offended hearers in the <sic>singagogue</sic> left it,\n                followed by 5<lb/> or 6 of his worthy companions.</p>\n            <p>Where, is there a man or a Jew in the civilized world,<lb/> who would only copy a\n                line of such a villain? when<lb/> instructed of his misdeeds?!</p>\n            <p>The Parnass was paid and had 3 witnesses, who God alone<lb/> knows their hearts!\n                swore to lies! amongst them was<lb/> our misguided Chasan! Amongst others to lead\n                the<lb/> judge, in <add>?</add> the wrong way a Parnass <add>?</add>\n                <persName>Mr. Y.</persName> was<lb/> cited as a <sic>wittness</sic>, and when asked,\n                is it customary<lb/> with the Jews to abuse their ministers <del>ther</del> in\n                such<lb/> a manner, he answered, Yes Sir! we do not care<lb/> about our ministers,\n                we just as live abuse them as<lb/> not. What do you dear Sir say to this fruit\n                of<lb/> jesuitical bribery such a blame upon Judaism in a<lb/> crowded court room?\n                The assailant evicts all the<lb/> burdens of false witnesses, was fined and\n                reprimanded!<lb/> But do you think man's baseness was stopped here?<lb/> No Sir! The\n                trustees were again called together to <sic>expell</sic><lb/> the honorable\n                    <persName>Dr Wise</persName> in consequence of the above<lb/> named groundless\n                and perfidious charges, but the<lb/> wisdom and blasé plans of the Jesuit,\n                wrecked</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sz8h/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

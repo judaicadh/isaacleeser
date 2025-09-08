@@ -1,0 +1,170 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Bondi, Jonas; October 26, 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3445j45b"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Bondi, Jonas; October 26, 1852"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Bondi, Jonas (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-10-26"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages on 1 sheet."]
+    },
+    {
+      "label": "Language",
+      "value": ["Yiddish", "English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF4a_20", "ilcajs_b3f4a_0021"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/883a0ceb-33f0-48f6-a943-9ae6fab8c1c6%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/883a0ceb-33f0-48f6-a943-9ae6fab8c1c6%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 1070,
+          "width": 1926,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/883a0ceb-33f0-48f6-a943-9ae6fab8c1c6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1926,
+                "height": 1070,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/883a0ceb-33f0-48f6-a943-9ae6fab8c1c6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/assets/883a0ceb-33f0-48f6-a943-9ae6fab8c1c6/original",
+              "label": "Original File - 6.18 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 1862,
+          "width": 2892,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/09dc12d2-a608-4f6d-be10-be7c6ad7a93d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2892,
+                "height": 1862,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/09dc12d2-a608-4f6d-be10-be7c6ad7a93d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/assets/09dc12d2-a608-4f6d-be10-be7c6ad7a93d/original",
+              "label": "Original File - 16.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>ally if it is printed in German and English, but at the same time. But,<lb/> in any\n                event, I must have the manuscript back. Please indicate to me<lb/> what you do not\n                understand or cannot read. In case you cannot include<lb/> in the\n                    <date>December</date> issue I must have the manuscript back, but you can<lb/>\n                print the German in English characters.</p>\n            <p rend=\"indent(1)\">If only I could get well and raise my spirits.</p>\n            <p rend=\"indent(1)\">With heartfelt respect,</p>\n            <p rend=\"indent(4)\">Sincerely yours,</p>\n            <p rend=\"indent(6)\">\n                <persName role=\"author\">Jonah Bondi</persName>\n            </p>\n            <pb n=\"Card\"/>\n            <p>„I<add>?</add>s jüd. Volk ist im symbolisher<add>?</add><lb/> R<add>?</add>g\n                    <add>?</add><lb/>\n                <add>?</add><lb/>\n                <add>?</add><lb/>\n                <add>?</add><lb/>\n                <persName>Chateaubriand</persName>, G<add>?</add><lb/> 5 <add>?</add>, 1. Capitel.\n                    (<add>?</add> bin Salvador<lb/> Rö<add>?</add>)</p>\n            <pb n=\"Envelope\"/>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philad</placeName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Pens.</placeName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>1227. Walnut Str.</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3445j45b/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

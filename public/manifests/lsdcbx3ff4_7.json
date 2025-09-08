@@ -1,0 +1,213 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leeser, Isaac; Lichten, C.; Bamberger, E.; Silberman, L.; Philadelphia, PA; 28 August 1850",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3sf2mz2b"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Leeser, Isaac; Lichten, C.; Bamberger, E.; Silberman, L.; Philadelphia, PA; 28 August 1850"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Lichten, C.", "Bamberger, E.", "Silberman, L."]
+    },
+    {
+      "label": "Date",
+      "value": ["1850-08-28", "28 August 5610"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF4_7"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f3475e7-6b47-482e-b3ff-0b446f83eff3%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f3475e7-6b47-482e-b3ff-0b446f83eff3%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6994,
+          "width": 5566,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f3475e7-6b47-482e-b3ff-0b446f83eff3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5566,
+                "height": 6994,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f3475e7-6b47-482e-b3ff-0b446f83eff3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/assets/9f3475e7-6b47-482e-b3ff-0b446f83eff3/original",
+              "label": "Original File - 117 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                <placeName>Philadelphia</placeName>\n                <date>August 28th 5610</date>\n            </p>\n            <p>To Messrs <addressee>C Lichten</addressee></p>\n            <p rend=\"indent(1)\">\n                <addressee>E Bamberger</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <addressee>L. Silberman</addressee>\n            </p>\n            <p rend=\"indent(2)\"><placeName>Louisville</placeName>.</p>\n            <p>Gentlemen</p>\n            <p rend=\"indent(1)\">Yours of <date>August 15</date> postmarked the <date>23</date> came\n                to hand this mor-<lb/>ning, and it appears at first sight singular that 8 days\n                should have<lb/> passed between it being written and marked—for the second\n                place<lb/> I have no personal knowledge whatsoever of the <persName>Rev. H. C.\n                    Henry</persName><lb/> never having met him in my life, and not having examined\n                any<lb/> of his writings or credentials. But <persName>Rev. Dr. Raphall</persName>\n                of the <placeName>Elm<lb/> Street</placeName> Synagogue <placeName>New\n                    York</placeName> has some personal knowledge of<lb/> him, as also my friend\n                    <persName>Rev. J. K. Gutheim</persName> late of\n                    <placeName>Cincinnati</placeName><lb/> whose place <persName>Mr.\n                    <add>?</add></persName> obtained last <add>?</add>. I have no<lb/> doubt that if\n                your election is postponed for two or three months<lb/>\n                <add>?</add> could correspond with these two ministers &amp; <persName>Mr.<lb/>\n                    Henry's</persName> late congregation in <placeName>London</placeName>, you will\n                obtain all<lb/> the information necessary and which <persName>Mr H</persName> will I\n                presume be glad<lb/> to furnish.</p>\n            <p rend=\"indent(1)\">At the same time I hope that I do not trespass so far<lb/> on your\n                patience gentlemen for saying that I trust that no<lb/> intention is entertained of\n                setting aside the <persName>Rev. Mr Gotthelf</persName><lb/> in favor of a new\n                comer, unless there exist some urgent reasons for<lb/> his dismissal of which I have\n                not heard. As respects <persName>Mr<lb/> Henry</persName> I confess that I am not\n                favorably impressed of him,<lb/> owing to his being instrumental in <persName>Mr\n                    Gutheim</persName> being deprived<lb/> of his office, though he has some better\n                one than he had before;<lb/> and that <persName>Mr Henry</persName> had no right to\n                refer to me at all, as we exchan-<lb/>ged but one letter, and never had any\n                intercourse whatever before his<lb/> quitting <placeName>Europe</placeName> and\n                since his arrival here. Of course I have<lb/> no personal ill-will to him; but I do\n                not approve of any one trying</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6994,
+          "width": 5566,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/038ccbc9-8d0b-4605-90a9-7bb6849877af%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5566,
+                "height": 6994,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/038ccbc9-8d0b-4605-90a9-7bb6849877af%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/assets/038ccbc9-8d0b-4605-90a9-7bb6849877af/original",
+              "label": "Original File - 117 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to obtain the situation of another especially when he has a position which<lb/>\n                secures him a living. But as you do not ask my opinion to govern you<lb/> in your\n                choice, I have to repeat that I <del>?</del> refer you to those<lb/> having the\n                information desired to enable you to come to a correct<lb/> judgment.</p>\n            <p rend=\"indent(1)\">It is my sincere hope that you may resolve<lb/> on the best method\n                to promote the interest of our Religion, and<lb/> that peace &amp; good will may\n                reside among you. I need not add<lb/> that I shall be happy to be of any service in\n                my power to your<lb/> congregation &amp; you individually for the kind consideration\n                manifested<lb/> towards me and my public labours.</p>\n            <p rend=\"indent(1)\">Wishing you <add>Hebrew</add> and that your prayers may<lb/> be\n                answered.</p>\n            <p rend=\"indent(9)\">I am</p>\n            <p rend=\"indent(9)\">Resp your obt servt</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">Isaac Leeser</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3sf2mz2b/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

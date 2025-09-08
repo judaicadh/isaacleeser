@@ -1,0 +1,317 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Meldola, D.; Leeser, Isaac, Rev.; London, United Kingdom; 21 February 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3t43jp2h"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Meldola, D.; Leeser, Isaac, Rev.; London, United Kingdom; 21 February 1851"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-02-21", "19 Adar 5611"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United Kingdom -- London",
+        "United Kingdom",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF8_22"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/2bee74ca-6ea5-402f-8610-ccf669435cb5%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/2bee74ca-6ea5-402f-8610-ccf669435cb5%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4258,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2bee74ca-6ea5-402f-8610-ccf669435cb5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 4258,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2bee74ca-6ea5-402f-8610-ccf669435cb5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/assets/2bee74ca-6ea5-402f-8610-ccf669435cb5/original",
+              "label": "Original File - 45.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>London</placeName>\n                                        <date>19th Adar 5611</date>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <date>21st Feby 1851</date>\n                              </p>\n                              <p>Revd and Dear Sir,</p>\n                              <p rend=\"indent(3)\">In compliance with your request and indeed<lb/> I\n                                        consider it no more than a duty on my part towards you to\n                                        acquaint<lb/> you that on <date>Monday</date> afternoon last\n                                        I received yr. Packet a letter from <persName>Mr.\n                                                  H.</persName><lb/>\n                                        <date>Feby 5th</date>: I have very little time left on my\n                                        hands now, I must most fervently pray<lb/> and entreat you\n                                        to excuse haste and writing, as I have been so very<lb/>\n                                        busy this day; in other duties and replying to <persName>Mr.\n                                                  H.</persName> that it is approaching to\n                                                  <add>שבת</add><lb/> but I will give you some\n                                        little extracts of his letter for <hi rend=\"underline\">your\n                                                  guidance</hi> Trusting<lb/> to your honor and\n                                        integrity that you will not make use of my name neither<lb/>\n                                        in this case, or in the other of <persName>M.</persName> for\n                                        heaven be my witness that there is no harm<add>?</add><lb/>\n                                        but <sic>dont</sic> wish my name in question since we have\n                                        all <hi rend=\"underline\">some good friends</hi> always<lb/>\n                                        on the <hi rend=\"underline\">look out</hi>. therefore my Dr.\n                                        friend let it be <add>סוד ה' ליראיו</add> the information is\n                                        for<lb/> your guidance at the same time I assure you from\n                                        the 1st syllable to the last<lb/> there is not one\n                                        disrespectful to you, on the contrary he speaks\n                                        high—where<lb/> I said to him in my letter <del>he\n                                                  replies</del>\n                                        <hi rend=\"underline\">that none should be revered unless\n                                                  for</hi><lb/> high moral &amp; religious\n                                        diligency\" \"<hi rend=\"underline\">a man in holy office should\n                                                  be raised &amp;</hi><lb/>\n                                        <hi rend=\"underline\">not lowered</hi>—he replies, \"no\n                                        removal has taken place—that nothing has been<lb/> done to\n                                        lower our former Hazan in the estimation of the world\n                                        indeed—and<lb/> so <persName>Mr. H</persName> goes on\n                                        replying on my remarks—<sic>than</sic> he goes on informing\n                                        me<lb/> I may say, almost the same as you did in your first\n                                        letter. I will go on now with fewer traits<lb/> \"In the\n                                        first place not a person in the whole congregation says or\n                                        can<lb/> say aught against <persName>Mr. Leeser's</persName>\n                                        reputation.\"—I flattered myself<lb/> that I was and that\n                                                  <persName>Mr Leeser</persName> also considered me\n                                        his friend—</p>\n                              <p>I feel satisfied that the congregation will not again find a\n                                        person<lb/> combining all the qualities of a Hazan and\n                                        lecturer and possessing<lb/> the talents of <persName>Mr.\n                                                  Leeser</persName> and no one desires or can\n                                        detract from his<lb/> merits he has done more for the Jews\n                                        in <placeName>America</placeName> than any other</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4258,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/aca20828-8d98-44ac-84aa-31549553aa2f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 4258,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/aca20828-8d98-44ac-84aa-31549553aa2f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/assets/aca20828-8d98-44ac-84aa-31549553aa2f/original",
+              "label": "Original File - 45.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Hazan in these <placeName>United States</placeName> and a\n                                        testimonial &amp;c &amp;c<lb/> \"but I fear he has gone too\n                                        far to heal the asperity of feeling with<lb/> which he has\n                                        spoken of so many of the members since he has<lb/>\n                                        <hi rend=\"underline\">ceased to be our Hazan</hi>.\" so far\n                                        for the extracts I replied to<lb/> his obliging letter on\n                                        every point that I would not arrogate on<lb/> me the office\n                                        of a Judge, and indeed was I asked to form a just<lb/>\n                                        intimate of the subject I should hear both sides <add>שמע בן\n                                                  אחיכם</add> I was<lb/> an advocate for moderation\n                                        &amp; a reconciliation that I considered you an<lb/> honor\n                                        to the house of <placeName>Israel</placeName> at large not\n                                        only in <placeName>America</placeName> and you<lb/> have\n                                        been <add>נר ישראל</add> and that after 20 years in office\n                                        that the<lb/> misunderstanding between you and the\n                                        congregation should be within a<lb/> nut shell (as he\n                                        expresses it) I could not but regard not only with<lb/>\n                                        regret but as a calamity I entertained the hope that he\n                                        would continue his<lb/> kind regards towards you and so on.\n                                        I must shorten my letter but I<lb/> think you have enough of\n                                        it, it appears that they are exasperated<lb/> at your\n                                        exposing them in the Occident, I hope it will all be\n                                        peace<lb/> yet. Let me once more as a brother, friend,\n                                                  <sic>reccomend</sic> you give in a little<lb/> and\n                                        hope you will be restored which will be the happiest news\n                                        you<lb/> will give me. Again let me request your secrecy <hi\n                                                  rend=\"underline\">particularly</hi> what<lb/> I\n                                        might have wrote of <persName>M.</persName> as it is only\n                                        true, but still as he is a friend and<lb/> a good young man\n                                        I <sic>dont</sic> wish him to know that nay thing about him\n                                        was<lb/> utterd by me <add>אפילו דבר קטן</add> I also must\n                                        acquaint you that <persName>Mr. H.</persName> knows nothing\n                                        of<lb/> your having informed me all in your first letter so\n                                        let it stand as it is,<lb/> please to favor me with your\n                                        reply and that matters have taken a favorable<lb/> change.\n                                                  <persName>M.</persName> sets off on\n                                                  <date>Saturday</date> next from\n                                                  <placeName>Liverpool</placeName> you will please\n                                        to let</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4258,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c885054e-837f-49a3-ad8a-51b113384132%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 4258,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c885054e-837f-49a3-ad8a-51b113384132%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/assets/c885054e-837f-49a3-ad8a-51b113384132/original",
+              "label": "Original File - 45.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>know if you have seen <persName>Mr. H.</persName> I must confess\n                                        that his letter is of a <add>?</add><lb/> and that his\n                                        feelings are respectful towards you. Wishing you every\n                                        success</p>\n                              <p rend=\"indent(7)\">I remain</p>\n                              <p rend=\"indent(7)\">yours most truly</p>\n                              <p rend=\"indent(8)\">\n                                        <persName role=\"author\">D Meldola</persName>\n                              </p>\n                              <p>I must add that I wrote to <persName>Mr. H.</persName> that as<lb/>\n                                                  \"<hi rend=\"underline\">since my first reading your\n                                                  works I entertaind</hi><lb/>\n                                        <hi rend=\"underline\">the highest respect for your name\" the\n                                                  greatest esteem\".</hi> I believe I did my duty\n                                        towards<lb/> you as much as a father, now you must do the\n                                        same towards me as a son take<lb/> my advice <sic>dont</sic>\n                                        be too hard get <persName>Mr. H.</persName> your friend\n                                        again, give in a little, and <sic>dont</sic><lb/> allow your\n                                        opponents to have their way, I wish I was there to impress\n                                        all this on your<lb/> mind for it is only <add>אורייתא הוא\n                                                  דקא מרתחא כך</add> abandon this for a while\n                                                  <add>וחזקת והיית לאיש וכל אשר אתה עושה ה' מצליח\n                                                  אכת\"ו</add><lb/>\n                                        <add>Hebrew</add></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 3530,
+          "width": 4258,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0d8357b3-fd96-4be1-a8b0-bb3bde26d019%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4258,
+                "height": 3530,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0d8357b3-fd96-4be1-a8b0-bb3bde26d019%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/assets/0d8357b3-fd96-4be1-a8b0-bb3bde26d019/original",
+              "label": "Original File - 45.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>America</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jp2h/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Cahn, Abr[aham]; Leeser, Isaac, Rev.; Talbotton, GA; 27 September 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3zw19c6k"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Cahn, Abr[aham]; Leeser, Isaac, Rev.; Talbotton, GA; 27 September 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-09-27"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Georgia --Talbotton",
+        "United States -- Georgia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_62"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/104051e6-e97a-47b5-9e94-391657d544b9%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/104051e6-e97a-47b5-9e94-391657d544b9%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4354,
+          "width": 3522,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/104051e6-e97a-47b5-9e94-391657d544b9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3522,
+                "height": 4354,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/104051e6-e97a-47b5-9e94-391657d544b9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/assets/104051e6-e97a-47b5-9e94-391657d544b9/original",
+              "label": "Original File - 46.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Talbotton, Ga.</placeName>\n                                        <date>Sept. 27. 1852</date>\n                              </p>\n                              <p><addressee>Mr. Isaac Leeser Esq.</addressee>!</p>\n                              <p>Dear Sir!</p>\n                              <p>We the undersigned chosen officer's of the hebrew<lb/> benevolent\n                                        society of <placeName>Talbotton Ga.</placeName> are\n                                        taking<lb/> the liberty to inform you of the following\n                                        resolutions <sic>wich</sic> have been <sic>past</sic> by a\n                                        majority<lb/> of the members of said society at their\n                                        last<lb/> meeting held at the <date>18</date> inst.\n                                        requesting you to<lb/> insert the same in the next Occident\n                                        for <sic>wich</sic> you<lb/> will please forward your\n                                        account for payment<lb/> to this place.</p>\n                              <p>Resolved, that all the money <sic>wich</sic> is in\n                                                  <sic>posession</sic> of<lb/> the hebrew benevolent\n                                        society of this place<lb/>\n                                        <sic>wich</sic> amounts to fifty Dollars shall be\n                                        apropi<lb/>ated to buy a <sic>silvre</sic> ornament for a\n                                        sefer Torah<lb/> in <sic>wich</sic> all the names of the\n                                        members shall be<lb/> engraved.</p>\n                              <p>Resolved, that the same shall be presented to the newly<lb/>\n                                        <sic>build</sic> congregation <del>of</del> in the of\n                                                  <placeName>Williamsburgh</placeName><lb/> state of\n                                                  <placeName>New-York</placeName>.</p>\n                              <p>Resolved, that <persName>Mr. Moses Selig</persName> is chosen to\n                                        present<lb/> the same after its completion to the\n                                        President<lb/> of said congregation in the month of\n                                                  <date><sic>february</sic></date><lb/> next.</p>\n                              <p>Resolved, that the forgoing resolutions shall be printed<lb/> in\n                                        the next Occident.</p>\n                              <p rend=\"indent(10)\"><persName>Morris Selz</persName>. Pres.</p>\n                              <p><persName role=\"author\">Abraham Cahn</persName>, Sec.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4354,
+          "width": 3522,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e197fda4-6ca4-4f93-a9b1-0ba5986b7714%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3522,
+                "height": 4354,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e197fda4-6ca4-4f93-a9b1-0ba5986b7714%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/assets/e197fda4-6ca4-4f93-a9b1-0ba5986b7714/original",
+              "label": "Original File - 46.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Following are the names of the members of the<lb/> society:</p>\n                              <list type=\"simple\">\n                                        <head/>\n                                        <item>\n                                                  <persName>Morris Selz</persName>\n                                        </item>\n                                        <item>\n                                                  <persName>Moses Selig</persName>\n                                        </item>\n                                        <item>\n                                                  <persName>Gabriel Selig</persName>\n                                        </item>\n                                        <item>\n                                                  <persName>Samuel Straus</persName>\n                                        </item>\n                                        <item>\n                                                  <persName>Leopold Straus</persName>\n                                        </item>\n                                        <item>\n                                                  <persName>Meyer Kayser</persName>\n                                        </item>\n                                        <item>\n                                                  <persName role=\"author\">Abraham Kahn</persName>\n                                        </item>\n                                        <item>\n                                                  <persName>Solomon Meyer</persName>\n                                        </item>\n                              </list>\n                              <p>Should any thing be incorrect in this lines in the<lb/> way of\n                                        spelling or any other way we beg you<lb/> to correct if for\n                                        we are all inexperienced hands.</p>\n                              <p rend=\"indent(6)\">Respectfully</p>\n                              <p rend=\"indent(7)\"><persName role=\"author\">Abr. Cahn</persName>\n                                        sec.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3522,
+          "width": 4354,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/934531df-eea6-42e4-be22-438bec2827c6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4354,
+                "height": 3522,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/934531df-eea6-42e4-be22-438bec2827c6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/assets/934531df-eea6-42e4-be22-438bec2827c6/original",
+              "label": "Original File - 46.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Rev. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>371 <sic>Wallnut</sic> Str.</placeName>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(3)\">\n                                        <placeName>Pa</placeName>\n                              </p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_10_8.pdf\">The above\n                                                  text refers to Occident Volume 10 No. 8 page 414.\n                                                  Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zw19c6k/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

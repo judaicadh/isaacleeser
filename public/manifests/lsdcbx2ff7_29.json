@@ -1,0 +1,246 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leeser, Isaac; Mordecai, Rosa, Miss; Philadelphia, PA; 29 July 1860",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3gt5g18m"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Leeser, Isaac; Mordecai, Rosa, Miss; Philadelphia, PA; 29 July 1860"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac", "Mordecai, Rosa, Miss"]
+    },
+    {
+      "label": "Date",
+      "value": ["1860-07-29", "29 July 5620"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF7_29"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/fccb8ab6-e72b-4c94-87eb-d891d2636c82%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/fccb8ab6-e72b-4c94-87eb-d891d2636c82%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3854,
+          "width": 2548,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fccb8ab6-e72b-4c94-87eb-d891d2636c82%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2548,
+                "height": 3854,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fccb8ab6-e72b-4c94-87eb-d891d2636c82%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/assets/fccb8ab6-e72b-4c94-87eb-d891d2636c82/original",
+              "label": "Original File - 29.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Philad.</placeName>\n                <date>July 29<hi rend=\"sup\">th</hi> 5620</date>\n            </p>\n            <p>\n                <addressee>Miss Rosa Mordecai</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Watervliet Arsenal NB.</placeName>\n            </p>\n            <p>My dear Friend.</p>\n            <p rend=\"indent(1)\">Your very refreshing note was received<lb/> about an hour ago, and I\n                assure you that it almost compliments<lb/> me for so much suffering as I had been\n                sure,<lb/> to have so many kind inquiries made by my<lb/> friends, you &amp; yours\n                included. I today sat up for<lb/> the first time to write at a table since my<lb/>\n                last yesterday two weeks <add>?</add> and I trust that<lb/> by middle of next week I\n                shall be <add>?</add><lb/> more to be out. But I am admonished by the<lb/>\n                <add>?</add>tant pain whenever <add>?</add>, that it will<lb/> be a long while\n                before I shall be exempt from<lb/> the consequences of an accident as painful\n                as<lb/> unlooked for. <persName>Jones I Horace</persName>\n                <add>?</add> last evening,<lb/> in my bed <add>?</add>. I am indebted to him for his\n                constant<lb/> inquiries.</p>\n            <p rend=\"indent(1)\">The house is emptied of all its inhabitants<lb/> some of servants;\n                and how pleased would I<lb/> be to have you here for an uninterrupted quarrel</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3854,
+          "width": 2548,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/929c15ea-9ac7-401e-9d08-8c6d90c9b36d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2548,
+                "height": 3854,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/929c15ea-9ac7-401e-9d08-8c6d90c9b36d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/assets/929c15ea-9ac7-401e-9d08-8c6d90c9b36d/original",
+              "label": "Original File - 29.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>on any given topic for though my back is<lb/> lamed, my tongue is loose on the proper\n                    <add>?</add>.<lb/> Only ladies have the privilege of a tongue<lb/> fastening in\n                the middle; we from miserable<lb/> masculiness must needs be <add>?</add> well\n                the<lb/> use of it in the front part. But then we may<lb/> not try it then to the\n                best advantage, even<lb/>\n                <add>?</add> arguing the ladies.</p>\n            <p rend=\"indent(1)\">My writing is hardly presu<add>?</add> to a<lb/> lady; than to\n                    <add>?</add> almost straight up to make<lb/>\n                <add>?</add>, and being near sighted with all,<lb/> to not writing with spectacles,\n                than to trust<lb/> to my readiness in handling the pen to make<lb/> it figures as\n                they come without having any hope<lb/> of offering a specimen of caligraphy.</p>\n            <p rend=\"indent(1)\">Remember me to your parents and <add>?</add>,<lb/> &amp; return to\n                bless <add>?</add> my best thanks for<lb/> he<add>?</add> joint kind inquiries.</p>\n            <p rend=\"indent(1)\">Hoping that the course of your life<lb/> may run smooth without\n                accident or<lb/> severe trials I am</p>\n            <p rend=\"indent(1)\">truly your friend</p>\n            <p rend=\"indent(1)\">\n                <persName role=\"author\">Isaac Leeser</persName>\n            </p>\n            <pb n=\"Envelope\"/>\n            <p>\n                <addressee>Miss Rosa Mordecai</addressee>\n            </p>\n            <p>care of <persName>Major A. Mordecai</persName></p>\n            <p rend=\"indent(1)\">\n                <placeName>Watervliet Arsenal</placeName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>West Ferry</placeName>\n            </p>\n            <p rend=\"indent(2)\">\n                <placeName>New York</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "Envelope",
+          "height": 1808,
+          "width": 2784,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/88664c19-198a-4e9c-86e7-fd3e49851a1b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2784,
+                "height": 1808,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/88664c19-198a-4e9c-86e7-fd3e49851a1b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g18m/assets/88664c19-198a-4e9c-86e7-fd3e49851a1b/original",
+              "label": "Original File - 15.1 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

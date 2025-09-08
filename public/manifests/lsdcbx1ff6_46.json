@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Frank, Gerson; Leeser, Isaac, Rev.; S. Marshfield, MA; 1 July 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3gx45b2p"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Frank, Gerson; Leeser, Isaac, Rev.; S. Marshfield, MA; 1 July 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-07-01"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Massachusettts -- Marshfield",
+        "United States -- Massachusetts",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_46"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/a6561778-5ce0-41c8-8397-cd12d5e1765e%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/a6561778-5ce0-41c8-8397-cd12d5e1765e%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5768,
+          "width": 4648,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a6561778-5ce0-41c8-8397-cd12d5e1765e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4648,
+                "height": 5768,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a6561778-5ce0-41c8-8397-cd12d5e1765e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/assets/a6561778-5ce0-41c8-8397-cd12d5e1765e/original",
+              "label": "Original File - 80.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                                        <placeName>S. Marshfield Mass</placeName>\n                                        <date>July 1 1849</date>\n                              </p>\n                              <p rend=\"indent(10)\">Dear Sir! You would</p>\n                              <p>oblige your subscriber if you would be kind <sic>enogh</sic> to\n                                        give me <sic>infamation</sic><lb/>\n                                        <sic>wether</sic> you have <sic>recived</sic> from\n                                                  <persName>Mr <hi rend=\"underline\"\n                                                  >Marmser</hi></persName> of\n                                                  <placeName>Boston</placeName> the subscription\n                                                  <sic>mony</sic><lb/> with three Dollars for your\n                                                  <hi rend=\"underline\">Occident</hi>\n                                        <sic>wich</sic> I have paid to him <date><sic>Aprill</sic>\n                                                  1848</date><lb/> I have subt through <persName>M\n                                                  Marmser</persName> for your Occ't and\n                                                  <sic>recived</sic> the same from\n                                                  <date>January</date><lb/> at <persName>E\n                                                  Marshfield</persName> monthly regular when I\n                                        removed to <placeName>N. York</placeName> I\n                                                  <sic>orderet</sic> your Perio<lb/>dical through\n                                                  <persName>Mr. T I Seixas</persName> to\n                                                  <placeName>355 Grand St.</placeName> in\n                                                  <date><sic>Aprill</sic> 1849</date>\n                                        <persName>Mr Young</persName>\n                                        <sic>besendet</sic> a<lb/> Bill from <date>1848</date>\n                                        <sic>wich</sic> I paid him also with Three Dollars I have\n                                        also paid Six Dollars<lb/> for the Occt and have only\n                                                  <sic>recived</sic> it for one year and four\n                                                  <sic>monts</sic><lb/> I am sorry to say that\n                                                  <persName>M young</persName> has not left the Occt\n                                        since <date><sic>Aprill</sic></date><lb/> I value your Occ't\n                                        much but circumstance obliges me to discontinue after<lb/>\n                                        my term has expired, if, I am entitled to your Occ't till\n                                                  <date>January <hi rend=\"underline\"\n                                                  >1850</hi></date><lb/> I wish to have the same\n                                        left monthly in care of <persName>M. Ehrenberg</persName>\n                                        <placeName>355 Grand St. N. Y.</placeName><lb/> but if you\n                                        have not received the <sic>mony</sic> from <persName><hi\n                                                  rend=\"underline\">Mr</hi> Warmser</persName>.\n                                                  <placeName>Boston</placeName><lb/> please to\n                                        inform me of it you will much oblige</p>\n                              <p rend=\"indent(10)\">Your Obt <sic>Servand</sic></p>\n                              <p rend=\"indent(11)\">\n                                        <persName role=\"author\">Gerson Frank</persName>\n                              </p>\n                              <p rend=\"indent(11)\"> at <placeName>S. Marshfield</placeName></p>\n                              <p rend=\"indent(12)\">\n                                        <placeName>\n                                                  <hi rend=\"underline\">Massachusetts</hi>\n                                        </placeName>\n                              </p>\n                              <p>To the <addressee>Rev. I. Leeser</addressee>!</p>\n                              <p rend=\"indent(1)\">Editor of the Occident</p>\n                              <p rend=\"indent(2 )\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4648,
+          "width": 5768,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cbc28d6f-82f7-42eb-8bce-b8c6d2e0a40d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5768,
+                "height": 4648,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cbc28d6f-82f7-42eb-8bce-b8c6d2e0a40d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/assets/cbc28d6f-82f7-42eb-8bce-b8c6d2e0a40d/original",
+              "label": "Original File - 80.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Rev. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(2)\">Editor of the Occident</p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>371 Walnut Street</placeName>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gx45b2p/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

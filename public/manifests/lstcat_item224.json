@@ -1,0 +1,891 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest",
+  "@type": "sc:Manifest",
+  "label": "Pamphlet; Philadelphia, PA; 1868",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3vt1h94k"]
+    },
+    {
+      "label": "Title",
+      "value": ["Pamphlet; Philadelphia, PA; 1868"]
+    },
+    {
+      "label": "Date",
+      "value": ["1868"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["pamphlets"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Pamphlet"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "16 pages on 16 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item224"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/ea689121-e54f-41e9-b1c3-cb6131b7e467%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/ea689121-e54f-41e9-b1c3-cb6131b7e467%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ea689121-e54f-41e9-b1c3-cb6131b7e467%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ea689121-e54f-41e9-b1c3-cb6131b7e467%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/ea689121-e54f-41e9-b1c3-cb6131b7e467/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">CHARTER &amp; BY-LAWS</p>\n\t\t\t<p rend=\"align(center)\">OF THE</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<persName role=\"author\">Hebrew Education Society</persName>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">OF <placeName>PHILADELPHIA</placeName>.</p>\n\t\t\t<p rend=\"align(center)\">TOGETHER WITH</p>\n\t\t\t<p rend=\"align(center)\">RULES AND REGULATIONS</p>\n\t\t\t<p rend=\"align(center)\">FOR THE GOVERNMENT OF</p>\n\t\t\t<p rend=\"align(center)\">MAIMONIDES COLLEGE</p>\n\t\t\t<p rend=\"align(center)\"><placeName>PHILADELPHIA</placeName>:</p>\n\t\t\t<p rend=\"align(center)\"><persName>STEIN &amp; JONES</persName>, PRINTERS, <placeName>321\n\t\t\t\t\tCHESTNUT STREET</placeName>.</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<date>1868</date>\n\t\t\t</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/74dfb91f-1c9c-4f87-a202-22e95c016e10%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/74dfb91f-1c9c-4f87-a202-22e95c016e10%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/74dfb91f-1c9c-4f87-a202-22e95c016e10/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6cfbeb0c-fcfb-4092-828d-f0e6ccd8276b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6cfbeb0c-fcfb-4092-828d-f0e6ccd8276b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/6cfbeb0c-fcfb-4092-828d-f0e6ccd8276b/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">AN ACT</p>\n\t\t\t<p rend=\"align(center)\">TO INCORPORATE THE <persName role=\"author\">HEBREW EDUCATION\n\t\t\t\t\tSOCIETY</persName></p>\n\t\t\t<p rend=\"align(center)\">OF <placeName>PHILADELPHIA</placeName>.</p>\n\t\t\t<p rend=\"indent(1)\">SECTION 1. <hi rend=\"italics\">Be it enacted by the Senate and House\n\t\t\t\t\tof Rep-<lb/>resentatives of the Commonwealth of\n\t\t\t\t\t\t<placeName>Pennsylvania</placeName> in General<lb/> Assembly met, and it is\n\t\t\t\t\thereby enacted by the authority of the<lb/> same</hi>, That <persName>Solomon\n\t\t\t\t\tSolis</persName>, <persName>Simon Elfelt</persName>, <persName>Abraham\n\t\t\t\t\tHart</persName>, <persName>Moses<lb/> A. Dropsie</persName>, <persName>Solomon\n\t\t\t\t\tN. Carvalho</persName>, <persName>Isidore Binswanger</persName>,\n\t\t\t\t\t<persName>Marcus<lb/> Cauffman</persName>, <persName>Lewis J. Cohen</persName>,\n\t\t\t\t\t<persName>Simon M. Klosser</persName>, <persName>Jacob\n\t\t\t\t\tLangs-<lb/>dorf</persName>, <persName>Isaac Leeser</persName>, <persName>Moses\n\t\t\t\t\tNathans</persName>, <persName>Joseph Newhouse</persName>, <persName>Hyman<lb/>\n\t\t\t\t\tPolock</persName>, <persName>Julius Stern</persName>, <persName>Herman Van\n\t\t\t\t\tBeil</persName>, <persName>Abraham S. Wolf</persName>,<lb/>\n\t\t\t\t<persName>Lewis M. Allen</persName>, <persName>Mayer Arnold</persName>,\n\t\t\t\t\t<persName>Simon W. Arnold</persName>, <persName>David<lb/> Barnett</persName>,\n\t\t\t\t\t<persName>Leon Berg</persName>, <persName>A. I. H. Bernal</persName>,\n\t\t\t\t\t<persName>Bernard Blum</persName>, <persName>Myer<lb/> D. Cohen</persName>,\n\t\t\t\t\t<persName>Julius Davidson</persName>, <persName>Zadok A. Davis</persName>,\n\t\t\t\t\t<persName>Henry DeBoer</persName>,<lb/>\n\t\t\t\t<persName>Solomon Eckstein</persName>, <persName>David Eger</persName>,\n\t\t\t\t\t<persName>William Florance</persName>, <persName>P. Friden-<lb/>berg</persName>,\n\t\t\t\t\t<persName>Solomon Gans</persName>, <persName>J. Geisenberg</persName>,\n\t\t\t\t\t<persName>M. Gerstley</persName>, <persName>Jacob Gum-<lb/>pel</persName>,\n\t\t\t\t\t<persName>Selig Hohenfels</persName>, <persName>Aaron Isaacs</persName>,\n\t\t\t\t\t<persName>Solomon Isaacs</persName>, <persName>Julius<lb/> Jacobs</persName>,\n\t\t\t\t\t<persName>Israel Jacobs</persName>, <persName>B. Klein</persName>,\n\t\t\t\t\t<persName>Henry Lazarus</persName>, <persName>David Levine</persName>,<lb/>\n\t\t\t\t<persName>N. E. Nelson</persName>, <persName>Joseph A. Levy</persName>,\n\t\t\t\t\t<persName>George Phillips</persName>, <persName>Michael<lb/>\n\t\t\t\tReinhard</persName>, <persName>Joseph Schoneman</persName>, <persName>M.\n\t\t\t\t\tSeidenbach</persName>, <persName>Henry Simson</persName>,<lb/>\n\t\t\t\t<persName>David H. Solis</persName>, <persName>Mayer Sternberger</persName>,\n\t\t\t\t\t<persName>L. Sulzberger</persName>, <persName>David Van<lb/> Beil</persName>,\n\t\t\t\t\t<persName>Simon Sternberger</persName>, <persName>Moses Vanderslice</persName>,\n\t\t\t\t\t<persName>Abraham Wolf</persName>,<lb/>\n\t\t\t\t<persName>Isaac Tassner</persName> and <persName>Doctor Samuel Wolff</persName> and\n\t\t\t\tall and every other<lb/> person or persons who shall hereafter become members of the<lb/>\n\t\t\t\t<persName role=\"author\">Hebrew Education Society of\n\t\t\t\t\t\t<placeName>Philadelphia</placeName></persName>, be and are hereby<lb/>\n\t\t\t\tcreated and made a corporation or body politic and corporate,<lb/> by the name and\n\t\t\t\tstyle of “THE <persName role=\"author\">HEBREW EDUCATION SOCIETY</persName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/af11190b-b136-4776-803d-4e9713630ffd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/af11190b-b136-4776-803d-4e9713630ffd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/af11190b-b136-4776-803d-4e9713630ffd/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">4</p>\n\t\t\t<p>OF <placeName>PHILADELPHIA</placeName>,” and by that name shall have perpetual<lb/>\n\t\t\t\tsuccession, and be capable in law to take, hold and dispose of<lb/> estates, real\n\t\t\t\tand personal whatsoever, and to sue and be sued,<lb/> and to receive and make all\n\t\t\t\tdeeds, transfers, contracts, con-<lb/>veyances and covenants whatsoever, and to\n\t\t\t\tmake, have and<lb/> use a common seal, and the same to change and renew at<lb/>\n\t\t\t\tpleasure, and generally to do every other act or thing neces-<lb/>sary to carry into\n\t\t\t\teffect the provisions of this act, <sic>asd</sic> promote<lb/> the objects and\n\t\t\t\tdesigns of said corporation.</p>\n\t\t\t<p rend=\"indent(1)\">SECTION 2. The object and design of the said corporation<lb/> shall\n\t\t\t\tbe the establishment of a school or schools within the<lb/> limits of the city and\n\t\t\t\tcounty of <placeName>Philadelphia</placeName>, in which are to<lb/> be taught the\n\t\t\t\telementary branches of education, together with<lb/> the sciences, and modern and\n\t\t\t\tancient languages, always in<lb/> combination with instruction in Hebrew language,\n\t\t\t\tliterature,<lb/> and religion, in the manner that may be determined from time<lb/>\n\t\t\t\tto time, by the proper officers of the Society, and as the same<lb/> may be set\n\t\t\t\tforth in their Constitution and By-laws, and<lb/> School regulations; <hi\n\t\t\t\t\trend=\"italics\">Provided</hi>, Said Constitution, By-laws, and<lb/> Regulations\n\t\t\t\tare not inconsistent with this Charter, or with<lb/> the Constitution of the\n\t\t\t\t\t<placeName>United States</placeName>, or the Constitution and<lb/> Laws of this\n\t\t\t\tCommonwealth.</p>\n\t\t\t<p rend=\"indent(1)\">SECTION 3. It shall also be lawful for said corporation to<lb/>\n\t\t\t\testablish, whenever their funds will permit the same to be<lb/> done, a superior\n\t\t\t\tseminary of learning, within the limits of<lb/> this Commonwealth, the faculty of\n\t\t\t\twhich seminary shall have<lb/> power to furnish its graduates and others, the usual\n\t\t\t\tdegrees<lb/> of Bachelor of Arts, Master of Arts, and Doctor of Law and<lb/>\n\t\t\t\tDivinity, as the same is exercised by other colleges established<lb/> in this\n\t\t\t\tCommonwealth.</p>\n\t\t\t<p rend=\"indent(1)\">SECTION 4. The Society shall have power to adopt a\n\t\t\t\tCon-<lb/>stitution and make By-laws, and the same to amend, alter or<lb/> repeal at\n\t\t\t\tpleasure.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4b138aa8-edbc-4ed6-bf8f-fb1905046201%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4b138aa8-edbc-4ed6-bf8f-fb1905046201%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/4b138aa8-edbc-4ed6-bf8f-fb1905046201/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">5</p>\n\t\t\t<p rend=\"indent(1)\">SECTION 5. The said Society shall not at any time have,<lb/> hold,\n\t\t\t\tenjoy or receive a clear yearly income exceeding twelve<lb/> thousand\n\t\t\t\t\t<sic>dollars.</sic> without first obtaining authority from the<lb/> legislature\n\t\t\t\tof this Commonwealth.</p>\n\t\t\t<p rend=\"indent(1)\">SECTION 6. The legislature shall have power at any time<lb/> when\n\t\t\t\tthe privileges hereby granted shall appear injurious to<lb/> the public, to repeal,\n\t\t\t\talter or amend this act; but no such<lb/> repeal, alteration or amendment shall\n\t\t\t\taffect any engagement<lb/> to which the said corporation shall have become a party\n\t\t\t\tpre-<lb/>vious thereto; and in case of such repeal the said corporation<lb/> shall\n\t\t\t\thave a reasonable time to bring their accounts to a final<lb/> settlement and\n\t\t\t\ttermination.</p>\n\t\t\t<p rend=\"indent(3)\">(Signed)<persName>WILLIAM F. PACKER</persName>,</p>\n\t\t\t<p rend=\"indent(2)\">Speaker of the House of Representatives.</p>\n\t\t\t<p rend=\"indent(3)\">(Signed)<persName>GEORGE DARSIE</persName>,</p>\n\t\t\t<p rend=\"indent(4)\">Speaker of the Senate.</p>\n\t\t\t<p rend=\"indent(1)\">APPROVED—The <date>seventh day of April, one thousand eight<lb/>\n\t\t\t\t\thundred and forty-nine</date>.</p>\n\t\t\t<p rend=\"indent(3)\">(Signed)<persName>WM. F. JOHNSTON</persName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/41b6aeba-5710-41a1-9afc-f54db617e81b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/41b6aeba-5710-41a1-9afc-f54db617e81b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/41b6aeba-5710-41a1-9afc-f54db617e81b/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">BY-LAWS.</p>\n\t\t\t<p rend=\"align(center)\">OF MEMBERS.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 1. Any male Israelite, aged at least\n\t\t\t\ttwenty-one<lb/> years, who shall receive a majority of the votes cast at any<lb/>\n\t\t\t\tmeeting of the Board or Society, shall be a member of this<lb/> Society.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 2. Each member shall pay five dollars\n\t\t\t\tyearly.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 3. A member one year or more in\n\t\t\t\tarrears, shall neither<lb/> vote nor hold office, unless exonerated from his dues by\n\t\t\t\tthe<lb/> Board of Managers.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 4. A member more than two years in\n\t\t\t\tarrears may be<lb/> expelled by the Board.</p>\n\t\t\t<p rend=\"align(center)\">OF OFFICERS.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 1. The officers of this Society\n\t\t\t\tshall be a President,<lb/> Vice President, Treasurer, Secretary, Assistant\n\t\t\t\tSecretary, and<lb/> twelve Managers, who, together shall constitute the Board\n\t\t\t\tof<lb/> Managers. They shall hold their respective offices for one<lb/> year or\n\t\t\t\tuntil their successors shall have been chosen. There<lb/> shall also be Trustees of\n\t\t\t\tthe College, not less than fifteen nor<lb/> more than twenty-one in number, who\n\t\t\t\tshall be elected as fol-<lb/>lows: at the first election one third of their number\n\t\t\t\tshall be<lb/> chosen for one year, one third for two years and the remain-<lb/>ing\n\t\t\t\tthird for three years, and at every subsequent election<lb/> they shall be chosen\n\t\t\t\tfor three years.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 2 Elections shall be held at the annual\n\t\t\t\tmeetings of<lb/> the Society.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/08126521-44e2-477f-bb0e-2c9d841f69c6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/08126521-44e2-477f-bb0e-2c9d841f69c6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/08126521-44e2-477f-bb0e-2c9d841f69c6/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">7</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 3. The President shall preside at all\n\t\t\t\tmeetings of the<lb/> Society, Board of Managers and College Trustees, shall\n\t\t\t\tdraw<lb/> orders on the Treasurer for amounts passed by the Board of<lb/> Managers\n\t\t\t\tand College Trustees; shall, whenever he may deem<lb/> it necessary, convene special\n\t\t\t\tmeetings of the Society, Board of<lb/> Managers, or College Trustees, and shall\n\t\t\t\tappoint all commit-<lb/>tees, unless otherwise ordered by the Society. He shall\n\t\t\t\thave<lb/> the right to draw an order on the Treasurer for any sum not<lb/> exceeding\n\t\t\t\ttwenty-five dollars, without an appropriation by<lb/> the Board.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 4. The Vice President shall in the\n\t\t\t\tabsence of the Presi-<lb/>dent succeed to all his rights and duties.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 5. The Treasurer shall take charge of\n\t\t\t\tall moneys and<lb/> securities of the Society, shall pay all orders duly signed\n\t\t\t\tby<lb/> the President, or acting President, shall keep an account of<lb/> his\n\t\t\t\treceipts and disbursements, and furnish a statement of the<lb/> same at the annual\n\t\t\t\tmeeting of the Society, and shall report<lb/> at every stated meeting of the board\n\t\t\t\tthe amount of the balance<lb/> in his hands. He shall keep a separate account of the\n\t\t\t\treceipts<lb/> and expenditures on account of the College fund and shall<lb/> make a\n\t\t\t\treport at each meeting of the College Trustees. He<lb/> shall give such security for\n\t\t\t\tthe faithful performance of his<lb/> duties, as shall be approved of by the Board,\n\t\t\t\tand within two<lb/> weeks after the election of his successor he shall deliver to\n\t\t\t\tthe<lb/> latter, all moneys, papers, accounts and all other property<lb/> whatsoever\n\t\t\t\tbelonging to the Society.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 6. The Secretary shall keep fair and\n\t\t\t\tcorrect minutes<lb/> of all transactions of the Society or Board of Managers.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 7. The Assistant Secretary shall\n\t\t\t\tprepare notices for<lb/> all meetings, shall keep the accounts with the members of\n\t\t\t\tthe<lb/> Society, as well as all accounts for tuition and books, shall<lb/> prepare\n\t\t\t\tall bills, shall act as Secretary of the Boards of College<lb/> Trustees and School\n\t\t\t\tDirectors, and shall perform all the duties</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb5dd501-5f35-4190-a045-49b0c0eb570f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb5dd501-5f35-4190-a045-49b0c0eb570f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/eb5dd501-5f35-4190-a045-49b0c0eb570f/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">8</p>\n\t\t\t<p>of the Secretary in the latter's absence, for which services he<lb/> shall receive\n\t\t\t\tsuch compensation as may be fixed by the Board<lb/> of Managers.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 8. The Board of Managers shall fill all\n\t\t\t\tvacancies occur-<lb/>ring among their own number, shall elect the School\n\t\t\t\tTeachers,<lb/> shall employ a Messenger and Collector, and compensate<lb/> him,\n\t\t\t\tshall determine the branches of education to be taught<lb/> in the School, and shall\n\t\t\t\tdo all things necessary for the gov-<lb/>ernment and maintenance of the Schools. If\n\t\t\t\tany more schools<lb/> be established, they shall elect two additional School\n\t\t\t\tDirectors.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 9. The Board of College Trustees shall\n\t\t\t\tdetermine the<lb/> branches to be taught in the College after consulting with\n\t\t\t\tthe<lb/> faculty, shall elect the Provost, Professors and other officers<lb/>\n\t\t\t\tthereof, shall determine the tuition and scholarship fees, as<lb/> also the number\n\t\t\t\tof free scholarships, shall make the appro-<lb/>priations for the payment of all the\n\t\t\t\tsalaries and other expenses<lb/> of the College, shall pay the same by means of\n\t\t\t\torders drawn<lb/> by the President on the Treasurer on account of the College<lb/>\n\t\t\t\tFund, shall grant the degrees of Bachelor and Master of Arts<lb/> and Doctor of\n\t\t\t\tDivinity and Law to students recommended<lb/>\n\t\t\t\t<sic>therefor</sic> by the faculty and to other persons deemed properly<lb/>\n\t\t\t\tqualified, shall evidence the same by diplomas signed by the<lb/> Provost and\n\t\t\t\tProfessors of the College and by the President of<lb/> the Society with the\n\t\t\t\tSociety's seal attached, shall make rules<lb/> and statutes for the government of\n\t\t\t\tthe College and shall do<lb/> all things necessary for the proper transaction of its\n\t\t\t\taffairs.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 10. All elections for officers or\n\t\t\t\tmembers of the Society<lb/> or Board shall be by ballot.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 11. In all elections for officers\n\t\t\t\tnon-resident members<lb/> may vote by proxy.</p>\n\t\t\t<p rend=\"align(center)\">OF MEETINGS.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section </hi>1. The Society shall have one stated\n\t\t\t\tmeeting an-<lb/>nually on the <date>Sunday before <hi rend=\"italics\"\n\t\t\t\t\t>Shabu'oth</hi></date>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1957c19e-4890-48c9-8423-042c23191204%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1957c19e-4890-48c9-8423-042c23191204%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/1957c19e-4890-48c9-8423-042c23191204/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">9</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 2. The Board of Managers shall have\n\t\t\t\tfour stated<lb/> meetings in each year, the first of which shall be held on the<lb/>\n\t\t\t\t<date>third Sunday</date> after the annual meeting, and the others at\n\t\t\t\tin-<lb/>tervals of three months respectively.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 3. The School Directors shall have one\n\t\t\t\tstated meeting<lb/> in each month except <date>August</date>.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec</hi> 4. The Board of College Trustees shall\n\t\t\t\thave one sta-<lb/>ted meeting in every three months.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec. </hi>5. Special meetings of the Society or\n\t\t\t\tBoard of Ma-<lb/>nagers or College Trustees may be called by the President<lb/>\n\t\t\t\twhenever he may deem it necessary, and it shall be his duty<lb/> to call such\n\t\t\t\tspecial meetings of the Society when requested by<lb/> ten members thereof, and of\n\t\t\t\tthe Board of Managers when re-<lb/>quested by three of its members, and of the Board\n\t\t\t\tof College<lb/> Trustees when requested by four of its members.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 6. At the meetings of the Society,\n\t\t\t\tthirteen shall con-<lb/>stitute a quorum; of the Board, five; of the School\n\t\t\t\tDirectors,<lb/> three; and of the Trustees of the College, five.</p>\n\t\t\t<p rend=\"align(center)\">OF THE SCHOOL DEPARTMENT.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 1. In the School or Schools there\n\t\t\t\tshall be imparted<lb/> in addition to the usual English branches, Religious\n\t\t\t\tinstruc-<lb/>tion, Biblical History, and the Hebrew language according to<lb/> the\n\t\t\t\tGerman and Portuguese readings.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 2. The School or Schools shall be under\n\t\t\t\tthe direction<lb/> of the seven School Directors, who shall be chosen yearly at<lb/>\n\t\t\t\tthe first quarterly meeting of the Board of Managers. The<lb/> President shall be\n\t\t\t\t\t<hi rend=\"italics\">ex-officio</hi> a member of the Board of Di-<lb/>rectors.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 3 No pupil shall be admitted into the\n\t\t\t\tSchool without<lb/> a written order of the Directors. They shall determine the<lb/>\n\t\t\t\tprice of tuition, and in proper cases may admit pupils gratu-<lb/>itously or for\n\t\t\t\tless than the usual charges adopted by them,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/311cc141-6876-4af5-9c49-749cc761a1de%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/311cc141-6876-4af5-9c49-749cc761a1de%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/311cc141-6876-4af5-9c49-749cc761a1de/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p10/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p10",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">10</p>\n\t\t\t<p>shall make rules and regulations for the government of the<lb/> School, shall\n\t\t\t\tdetermine the books to be used therein, and shall<lb/> have a general supervision of\n\t\t\t\tthe School or Schools.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec. </hi>4. The Teachers' salaries shall be paid\n\t\t\t\tquarterly.</p>\n\t\t\t<p rend=\"align(center)\">OF PRIZE SCHOLARSHIPS.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 1. The Board of Managers shall have\n\t\t\t\tpower to<lb/> establish as rewards for distinguished merit in the School,<lb/> prize\n\t\t\t\tscholarships in the College, not exceeding five in number<lb/> and shall be\n\t\t\t\tauthorized to pay into the College Fund, the<lb/> necessary amounts for the tuition\n\t\t\t\tfees.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 2. No pupil shall be entitled to a\n\t\t\t\tprize scholarship<lb/> unless he be recommended for the same to the Board of\n\t\t\t\tMana-<lb/>gers, by the Principals of the Hebrew and English departments<lb/> in the\n\t\t\t\tSchool, and by a majority of the Board of School<lb/> Directors.</p>\n\t\t\t<p rend=\"align(center)\">OF THE COLLEGE.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 1. There shall be a College in the\n\t\t\t\tcity of <placeName>Philadel-<lb/>phia</placeName>, styled Maimonides College, in\n\t\t\t\twhich besides the usual<lb/> collegiate branches, there shall be taught a full\n\t\t\t\tcourse of<lb/> Hebrew literature.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\"><sic>See</sic></hi>. 2. For the establishment and\n\t\t\t\tmaintenance of this<lb/> College, there shall be a separate “College Fund.”</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec</hi>. 3. The College shall be under the\n\t\t\t\tdirection of the<lb/> Trustees elected as hereinbefore provided by the Society\n\t\t\t\tfrom<lb/> among its members. Any vacancies in said Board of Trustees<lb/> shall be\n\t\t\t\tfilled by the said Trustees. Of said Trustees at least<lb/> seven shall be residents\n\t\t\t\tof the city of <placeName>Philadelphia</placeName>.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec. </hi>4. Any congregation or society\n\t\t\t\tcontributing yearly<lb/> the sum of one thousand dollars to the College Fund, shall\n\t\t\t\tbe<lb/> entitled to elect one additional member of the Board of<lb/> Trustees.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p11",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b05608dd-44d7-4ce4-8ecb-de52654a94e3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b05608dd-44d7-4ce4-8ecb-de52654a94e3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p11"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/b05608dd-44d7-4ce4-8ecb-de52654a94e3/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p11/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p11",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">11</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec.</hi> 5. This article shall take effect on\n\t\t\t\tthe <date>Sunday before<lb/>\n\t\t\t\t\t<hi rend=\"italics\">Shabu'oth</hi>, 1868, (5628,)</date> and till that time the\n\t\t\t\tBoard of Man-<lb/>agers shall have full power to organize and manage the\n\t\t\t\tCollege<lb/> as they may deem advisable, and to delegate their authority to<lb/> any\n\t\t\t\tnumber of members of the Society, whom they may desig-<lb/>nate as Trustees for the\n\t\t\t\tpurpose.</p>\n\t\t\t<p rend=\"align(center)\">RULES OF ORDER.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 1. At all meetings the order of\n\t\t\t\tbusiness shall be as<lb/> follows:</p>\n\t\t\t<list type=\"ordered\">\n\t\t\t\t<head/>\n\t\t\t\t<item n=\"1\"> Roll-call.</item>\n\t\t\t\t<item n=\"2\"> Reading of the minutes of the previous meeting.</item>\n\t\t\t\t<item n=\"3\"> Reports of Officers.</item>\n\t\t\t\t<item n=\"4\"> Communications.</item>\n\t\t\t\t<item n=\"5\"> Election of Officers or Members.</item>\n\t\t\t\t<item n=\"6\"> Deferred business.</item>\n\t\t\t\t<item n=\"7\"> New business.</item>\n\t\t\t</list>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sec</hi>. 2. The yeas and nays shall be entered\n\t\t\t\ton the minutes<lb/> when required by two members.</p>\n\t\t\t<p rend=\"align(center)\">OF AMENDMENTS.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 1. No alteration, amendment or\n\t\t\t\taddition to these<lb/> By-laws shall be made unless proposed at one meeting of\n\t\t\t\tthe<lb/> Society or Board of Managers and confirmed at the next<lb/> meeting of the\n\t\t\t\tSociety by a vote of two-thirds of the members<lb/> present, the Assistant Secretary\n\t\t\t\thaving sent ten days' notice<lb/> of such amendment to all the members.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p12",
+          "@type": "sc:Canvas",
+          "label": "12",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6ec77966-2018-4645-a1c4-6131b726856f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6ec77966-2018-4645-a1c4-6131b726856f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p12"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/6ec77966-2018-4645-a1c4-6131b726856f/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p12/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p12",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">RULES AND REGULATOINS</p>\n\t\t\t<p rend=\"align(center)\">FOR THE GOVERNMENT OF</p>\n\t\t\t<p rend=\"align(center)\">MAIMONIDES COLLEGE.</p>\n\t\t\t<p rend=\"indent(1)\">The Faculty of Arts is composed of the following\n\t\t\t\tProfessor-<lb/>ships:</p>\n\t\t\t<p>A Professorship of Homiletics, Belles Lettres and Comparative<lb/> Theology,</p>\n\t\t\t<p>“ “ The Bible and Biblical Literature.</p>\n\t\t\t<p>“ “ Talmud, Hebrew Philosophy, Jewish His-<lb/>tory and Literature.</p>\n\t\t\t<p>“ “ Mishnah with Commentaries, Shulchan<lb/> Aruch and Yad ha-Chazakah.</p>\n\t\t\t<p>“ “ Hebrew and Chaldaic Languages.</p>\n\t\t\t<p>“ “ Greek and Latin</p>\n\t\t\t<p>“ “ Rhetoric and English Literature.</p>\n\t\t\t<p>“ “ Mathematics.</p>\n\t\t\t<p>“ “ Natural Philosophy and Chemistry.</p>\n\t\t\t<p>“ “ German and French Languages.</p>\n\t\t\t<p rend=\"align(center)\">OF THE FACULTY.</p>\n\t\t\t<list type=\"ordered\">\n\t\t\t\t<head/>\n\t\t\t\t<item n=\"1\"> The Professors shall constitute “The Faculty of Arts,”<lb/> to whom, as\n\t\t\t\t\ta body, shall be committed the immediate regu-<lb/>lation and government of the\n\t\t\t\t\tCollegiate Department, subject<lb/> to the rules and statutes and the control of\n\t\t\t\t\tthe Board of<lb/> Trustees.</item>\n\t\t\t\t<item n=\"2\"> The College shall be under the supervision of the Pro-<lb/>vost, who\n\t\t\t\t\tshall make report in relation to it to the Board at<lb/> least once a\n\t\t\t\t\tyear.</item>\n\t\t\t</list>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p13",
+          "@type": "sc:Canvas",
+          "label": "13",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/18f054f2-fecb-49d8-9751-012e1d54b49b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/18f054f2-fecb-49d8-9751-012e1d54b49b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p13"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/18f054f2-fecb-49d8-9751-012e1d54b49b/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p13/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p13",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">13</p>\n\t\t\t<p>3. Stated meetings of the Faculty shall be held every<lb/> month, for the purpose of\n\t\t\t\tadministering the general discipline<lb/> of the College; and special meetings, as\n\t\t\t\toften as the business of<lb/> the institution may require, to be called by the\n\t\t\t\tProvost or a<lb/> majority of the members. At all meetings of the Faculty, the<lb/>\n\t\t\t\tProvost shall preside, or in his absence a chairman can be<lb/> elected.</p>\n\t\t\t<p>4. The Faculty shall appoint a Secretary from its own body<lb/> whose duty it shall\n\t\t\t\tbe, to keep the minutes of their proceed-<lb/>ings, which shall be, at all times,\n\t\t\t\topen to the inspection of<lb/> the Trustees.</p>\n\t\t\t<p>5. No proceedings of the Faculty shall be considered as<lb/> valid, unless passed by\n\t\t\t\ta majority of the members at a meet-<lb/>ing formally constituted.</p>\n\t\t\t<p>6. It shall be the duty of the Faculty to make reports to<lb/> the Board at their\n\t\t\t\tstated meetings, upon the state of the Col-<lb/>legiate department, stating\n\t\t\t\tparticularly the names and resi-<lb/>dences of such students as have been admitted\n\t\t\t\tinto, or have<lb/> left the institution since the last report, with such remarks\n\t\t\t\tas<lb/> they may deem expedient.</p>\n\t\t\t<p>7. It shall be the special duty of the Provost, to visit and<lb/> superintend the\n\t\t\t\tvarious departments; to see that the rules<lb/> and statutes are duly carried into\n\t\t\t\teffect, to report to the Board<lb/> every instance of refusal and neglect to comply\n\t\t\t\twith such<lb/> rules and statutes, and to advise and suggest such alterations<lb/>\n\t\t\t\tand improvements as he may deem best calculated to promote<lb/> the welfare and\n\t\t\t\tusefulness of the institution.</p>\n\t\t\t<p rend=\"align(center)\">OF THE CLASSES.</p>\n\t\t\t<p>1. The students shall be distributed into five classes.</p>\n\t\t\t<p>2. No applicant shall be admitted into the Freshman class<lb/> under the age of 14;\n\t\t\t\tany special exception shall be decided by<lb/> the Board, upon the application of\n\t\t\t\tthe Faculty. His fitness</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p14",
+          "@type": "sc:Canvas",
+          "label": "14",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4b7a3c47-13b6-49b6-b212-2ca508dbf321%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4b7a3c47-13b6-49b6-b212-2ca508dbf321%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p14"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/4b7a3c47-13b6-49b6-b212-2ca508dbf321/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p14/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p14",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">14</p>\n\t\t\t<p>must appear on examination, to be conducted by the Profes-<lb/>sors, who must concur\n\t\t\t\tin opinion that he is qualified in such<lb/> branches as shall be prescribed by the\n\t\t\t\tBoard.</p>\n\t\t\t<p>3. The requisites for entering the Freshman class shall be<lb/> as follows:</p>\n\t\t\t<p>LATIN—<persName>Caesar</persName>, <persName>Virgil</persName>,\n\t\t\t\t\t<persName>Sallust</persName>, Odes of <persName>Horace</persName>.</p>\n\t\t\t<p>ENGLISH—The elements of English grammar and of modern<lb/> Geography.</p>\n\t\t\t<p>HEBREW—The translation of the historical portions of the<lb/> Bible with\n\t\t\t\tfacility.</p>\n\t\t\t<p>ARITHMETIC, including fractions and extraction of roots.</p>\n\t\t\t<p>4. The Faculty shall keep a book called the Matriculation<lb/> book, in which every\n\t\t\t\tcandidate for entrance into this College<lb/> shall, on his admission, have his\n\t\t\t\tname, age and residence<lb/> entered, and the name and residence of his parent or\n\t\t\t\tguardian.</p>\n\t\t\t<p>5. No student shall be admitted to advanced standing,<lb/> without being as fully\n\t\t\t\tinstructed as the class to which admis-<lb/>sion is asked, in all the studies in\n\t\t\t\twhich the class has been<lb/> instructed.</p>\n\t\t\t<p>6. Vacation shall be from the <date>10<hi rend=\"sup\">th</hi> of July</date> to the\n\t\t\t\t\t\t<date>31<hi rend=\"sup\">st</hi> of<lb/> August</date>.</p>\n\t\t\t<p rend=\"align(center)\">COURSE OF INSTRUCTION.</p>\n\t\t\t<p>1. The subjects of instruction in the institution shall be<lb/> the following:—</p>\n\t\t\t<p rend=\"indent(1)\">Greek, Latin, German, French, Hebrew, Chaldaic and their<lb/>\n\t\t\t\tliteratures, the Natural sciences, History, Mathematics and<lb/> Astronomy, Moral\n\t\t\t\tand Intellectual Philosophy, Constitution-<lb/>al History and Laws of the\n\t\t\t\t\t<placeName>United States</placeName>, Belles Lettres,<lb/> Homiletics,\n\t\t\t\tComparative Theology, the Bible with its com-<lb/>mentaries, the Mishnah with its\n\t\t\t\tcommentaries, the Shulchan<lb/> 'Aruch, Yad ha-chazakah, Jewish History and\n\t\t\t\tLiterature,<lb/> Hebrew Philosophy and the Talmud with its commentaries.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p15",
+          "@type": "sc:Canvas",
+          "label": "15",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e886695d-062e-407f-a6f4-0d3ed8c1593e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e886695d-062e-407f-a6f4-0d3ed8c1593e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p15"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/e886695d-062e-407f-a6f4-0d3ed8c1593e/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p15/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p15",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">15</p>\n\t\t\t<p>2. At the close of each yearly term there shall be held an<lb/> examination of all\n\t\t\t\tthe classes in the presence of a Committee<lb/> of the Board, and of such other\n\t\t\t\tTrustees as shall attend; after<lb/> every examination the students who are\n\t\t\t\tdistinguished in each<lb/> class shall be arranged in the order of merit.</p>\n\t\t\t<p>3. No student shall be suffered to proceed to a higher class<lb/> who shall not, on\n\t\t\t\texamination show himself to be master of<lb/> the studies of the\n\t\t\t\t\t<sic>preceeding</sic> year, but he may be allowed<lb/> the privilege, (if the\n\t\t\t\tfaculty shall judge it expedient to grant<lb/> it,) of a second examination for\n\t\t\t\tadmission thereto, at the<lb/> opening of the next succeeding year.</p>\n\t\t\t<p>4. Punishment shall be exclusively directed to a sense of<lb/> duty, and the\n\t\t\t\tprinciples of honor and shame, and shall consist<lb/> of private admonition by a\n\t\t\t\tProfessor—admonition in the pre-<lb/>sence of the Faculty—admonition in the presence\n\t\t\t\tof the Fac-<lb/>ulty and of the class of the offender—removal to a lower<lb/>\n\t\t\t\tclass—suspension for a limited time from college—dismissal—<lb/>expulsion.</p>\n\t\t\t<p>5. No punishment except private admonition shall be in-<lb/>flicted, unless ordered\n\t\t\t\tby a resolution of a majority of the<lb/> whole of the Faculty; nor shall the\n\t\t\t\tpunishment of expulsion<lb/> be inflicted unless it be first sanctioned by a vote of\n\t\t\t\tthe<lb/> Trustees. In case of dismissal, the offender may be re-admit-<lb/>ted, but\n\t\t\t\tthe effect of the expulsion shall be an utter disqualifica-<lb/>tion of the\n\t\t\t\tindividual for re-admission into this institution,<lb/> or of receiving any of its\n\t\t\t\thonors.</p>\n\t\t\t<p>6. The fees for tuition of each year shall be one hundred<lb/> dollars, payable at\n\t\t\t\tthe commencement thereof; and no stud-<lb/>ent shall be considered as entitled to\n\t\t\t\this seat in the class for<lb/> the term, until such payment is made. Notice that the\n\t\t\t\ttui-<lb/>tion money is due, and that the Treasurer will at times attend<lb/> (the\n\t\t\t\ttime then to be stated) shall be given by the Secretary.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p16",
+          "@type": "sc:Canvas",
+          "label": "16",
+          "height": 3432,
+          "width": 2358,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e881ea9c-b9c0-406e-878d-09bc647dc0f1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2358,
+                "height": 3432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e881ea9c-b9c0-406e-878d-09bc647dc0f1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p16"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/assets/e881ea9c-b9c0-406e-878d-09bc647dc0f1/original",
+              "label": "Original File - 24.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p16/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/manifest/annotation/p16",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">16</p>\n\t\t\t<p>7. The Board sanction the institution of a Literary Society,<lb/> to consist of the\n\t\t\t\tstudents and alumni of the college, or such of<lb/> them as shall be admitted\n\t\t\t\tmembers thereof, when suitable<lb/> rooms can be appropriated for their use. The\n\t\t\t\tsaid society to<lb/> be under the general control and supervision of the\n\t\t\t\tFaculty.</p>\n\t\t\t<p rend=\"align(center)\">OF COMMENCEMENTS AND CONFERRING DEGREES</p>\n\t\t\t<p rend=\"align(center)\">IN THE ARTS.</p>\n\t\t\t<list type=\"ordered\">\n\t\t\t\t<head/>\n\t\t\t\t<item n=\"1\"> There shall be an annual commencement of graduates<lb/> in the arts on\n\t\t\t\t\tthe <date>last Thursday morning of each term</date>, at<lb/> 10 o'clock.</item>\n\t\t\t\t<item n=\"2\"> Candidates for the degree of Bachelor in the Arts of Di-<lb/>vinity\n\t\t\t\t\tshall be publicly examined by the faculty in the<lb/> collegiate departments, in\n\t\t\t\t\tthe presence of the Committee of<lb/> Examination and such other members of the\n\t\t\t\t\tBoard of Trustees<lb/> as may attend.</item>\n\t\t\t\t<item n=\"3\"> The Provost shall report the names of those who shall<lb/> have been\n\t\t\t\t\tfound worthy of receiving such degree to the Board,<lb/> who shall, if the\n\t\t\t\t\treport be approved, confer such degree ac-<lb/>cordingly. But no degree shall be\n\t\t\t\t\tconferred unless by the vote<lb/> of the Trustees; and every student, before he\n\t\t\t\t\tcan be recom-<lb/>mended for the degree of Bachelor of Arts or Divinity,\n\t\t\t\t\tshall<lb/> settle his account with the Treasurer.</item>\n\t\t\t\t<item n=\"4\"> The degree of Master of Arts may be conferred on the<lb/> Alumni of the\n\t\t\t\t\tCollege, who shall have been Bachelor in the<lb/> Arts of three years standing,\n\t\t\t\t\tand shall apply for that honor.</item>\n\t\t\t\t<item n=\"5\"> The order of the commencement shall be directed by<lb/> the\n\t\t\t\t\tFaculty.</item>\n\t\t\t</list>\n\t\t</body>\n\t</text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h94k/canvas/p16"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

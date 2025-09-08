@@ -1,0 +1,419 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Henry, H. A.; Leeser, Isaac, Rev.; San Francisco, CA; 10 June 1862",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3vt1h90n"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Henry, H. A.; Leeser, Isaac, Rev.; San Francisco, CA; 10 June 1862"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Henry, H. A.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1862-06-10"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "6 pages on 3 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- San Francisco",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF9_15"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/f52a41bb-e6cc-4eb2-863a-c509fe2bce19%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/f52a41bb-e6cc-4eb2-863a-c509fe2bce19%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4382,
+          "width": 3602,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f52a41bb-e6cc-4eb2-863a-c509fe2bce19%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3602,
+                "height": 4382,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f52a41bb-e6cc-4eb2-863a-c509fe2bce19%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/assets/f52a41bb-e6cc-4eb2-863a-c509fe2bce19/original",
+              "label": "Original File - 47.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>San Francisco</placeName>\n                <date>June 10<hi rend=\"sup\">th</hi> 1862</date>\n            </p>\n            <p>\n                <addressee>Revd Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dr Sir</p>\n            <p rend=\"indent(2)\">You must not think me<lb/> neglectful in not having written to you\n                before<lb/> this. Many things at times prevent me from <lb/>writing at the time and\n                then it passes over.<lb/> No doubt ere this you have received a Letter<lb/> from\n                    <persName>Mr Myers</persName> and with it the receipt signed<lb/> by me of the\n                Books he placed in my possession<lb/> on sale for you. I shall try and do my\n                best<lb/> to dispose of them for you. The prices here are<lb/> too high there are so\n                few buyers, please let<lb/> me know positively the lowest price at which<lb/> I may\n                sell, so that I can act safely and I<lb/> will do all I can. I hope you received\n                my<lb/> parcel by <persName>Rabbi Nissan</persName> if you can send me<lb/> any more\n                of the Back Nos for which I wrote<lb/> you will oblige me, at the same time\n                have<lb/> you any whole <hi rend=\"underline\">Nos</hi> as 1-2-3-4-5-6-7-8<lb/> I have\n                none of these Vols. I should like to have<lb/> them either bound or unbound I shall\n                then<lb/> be the only <hi rend=\"underline\">one</hi> in the <placeName>Pacific\n                    Coast</placeName> who will<lb/> have a regular file of them. Of course I\n                will</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4382,
+          "width": 3602,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/35f5f6b0-7769-44b3-a6c5-88b5cc02959f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3602,
+                "height": 4382,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/35f5f6b0-7769-44b3-a6c5-88b5cc02959f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/assets/35f5f6b0-7769-44b3-a6c5-88b5cc02959f/original",
+              "label": "Original File - 47.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>pay for them. Please let me know what I<lb/> owe you up to the present, and I will\n                hand<lb/> it to <persName>Mr Myers</persName> to whom I have spoken on<lb/> the\n                subject. Religious matters here are of<lb/> no importance, all is quiet. Your\n                    <date>April</date>\n                <hi rend=\"underline\">No</hi><lb/> caused a great consternation among a certain<lb/>\n                class who were delighted to find that these acts<lb/> were made known to the world,\n                altho' they are<lb/> not able to prevent them of course the Gleaner<lb/> has its\n                supporters as there are so many<lb/> who will do wrong in spite of every thing<lb/>\n                you will no doubt see how the Gleaner<lb/> answers for itself. Not one thing\n                satisfactory<lb/> because as you know <add>Hebrew</add><lb/> still we must do our\n                duty. The Letter<lb/> which he inserts is from one of the ladies<lb/> whom I refused\n                to marry. I have no<lb/> doubt that the Gleaner managed this<lb/> matter to be\n                    <add>?</add>\n                <add>Hebrew</add><lb/> but the truth was not stated therein and<lb/> if even all was\n                true, what right had<lb/>\n                <persName>Dr Eckman</persName> to marry her. He certainly does<lb/> not think I am\n                greater than he is to act<lb/> in opposition to a Law because I or<lb/> any man\n                ventures an opinion, which you<lb/> yourself can see how he shirks the question.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4382,
+          "width": 3602,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8e55806f-f7bc-441f-85e5-3c32f8129050%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3602,
+                "height": 4382,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8e55806f-f7bc-441f-85e5-3c32f8129050%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/assets/8e55806f-f7bc-441f-85e5-3c32f8129050/original",
+              "label": "Original File - 47.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Many here surmise that I inform you of<lb/> all that passes—but I do not wish my\n                name<lb/> to appear for many reasons—especially as<lb/> some of my members and other\n                of the <add>Hebrew</add><lb/> are friends to the Gleaner, and have pity on the poor\n                old man as they call him x<lb/> that encourages him in all his doings—<lb/> I shall\n                still inform you of all that passes<lb/> because I do think that ultimately by\n                so<lb/> doing we shall in time affect some good<lb/> In the pulpit I speak of these\n                things fearlessly<lb/> I will send you a sermon I preached on<lb/> the <date>1<hi\n                        rend=\"sup\">st</hi></date> day <add>Hebrew</add> by which you will see<lb/>\n                that I do as I say and act upon the principle<lb/>\n                <add>Hebrew</add>. <persName>Eckman</persName> does all he can to<lb/> injure me in\n                the minds of the people as<lb/> my Election is only from year to year but<lb/> I\n                tell my folks that my <add>Hebrew</add> is in God x<lb/> not in man, even the\n                Reformers hold<lb/> me in respect altho' I tell them of their<lb/> wrongs.\n                    <sic>even</sic>\n                <persName>Dr Cohn</persName> will not do such<lb/> things as these men do. He works\n                hard with<lb/> me to get the people to keep <add>Hebrew</add> . I have<lb/>\n                succeeded in one or two instances and I hope<lb/> in time we shall do more—but it is\n                very difficult<lb/> the Dollars &amp; cents are the main thing with<lb/> our people\n                here—still we must do our duty</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4382,
+          "width": 3602,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5d5df4fb-0eb4-4ff9-9e76-a167e2875509%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3602,
+                "height": 4382,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5d5df4fb-0eb4-4ff9-9e76-a167e2875509%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/assets/5d5df4fb-0eb4-4ff9-9e76-a167e2875509/original",
+              "label": "Original File - 47.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>I must give you Credit for the very able<lb/> note you appended to the article\n                &amp;<lb/> I can assure you that all the <add>Hebrew</add><lb/> here were pleased\n                with it in the<lb/> hope that we may be <add>Hebrew</add></p>\n            <p rend=\"align(center)\">\n                <add>Hebrew</add>\n            </p>\n            <p>some people here think that we should not<lb/> publish such matters as it brings us\n                into<lb/> disrepute before the world and exposes<lb/> our religion to ridicule, they\n                say better let<lb/> us chose between the two evils, and they<lb/> think that the\n                    “<hi rend=\"underline\">wrong doings</hi>” is the lesser<lb/> evil. I tell them\n                plainly I differ from<lb/> them entirely upon the principle</p>\n            <p rend=\"align(center)\">“<add>Hebrew</add>”</p>\n            <p>and I feel assured that you think with<lb/> me in this respect and I should be\n                pleased<lb/> if you think well of it to publish your<lb/> sentiments on the subject\n                I will keep<lb/> you posted on all matters of any interest<lb/> Both congregations\n                were well attended in<lb/>\n                <add>Hebrew</add>. I am told that <persName>Dr Cohn</persName> delivered a<lb/> very\n                impressive sermon in confirming a<lb/> number of Boys and Girls upon the new\n                System<lb/> in the Reform World. My sermon I will send<lb/> you and judge for\n                yourself my folks were very much<lb/> pleased. We had a Boy <add>Hebrew</add> on the\n                        <date>2<hi rend=\"sup\">nd</hi></date> day of</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 4382,
+          "width": 3602,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0c88b7f0-8a11-4b21-98a9-537029398fa9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3602,
+                "height": 4382,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0c88b7f0-8a11-4b21-98a9-537029398fa9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/assets/0c88b7f0-8a11-4b21-98a9-537029398fa9/original",
+              "label": "Original File - 47.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">/5</p>\n            <p><add>Hebrew</add>. And read the <add>Hebrew</add> in the<lb/> old Orthodox Style to a\n                crowded auditory<lb/> which gave great satisfaction. I still and<lb/> will adhere to\n                our good old times and<lb/> will suffer no innovation, and I am happy<lb/> to say\n                that with few exceptions my <add>Hebrew</add><lb/> support me in this respect,\n                altho' at<lb/> times I have to go into the Battle field<lb/> but I will and do not\n                flinch. The Gleaner<lb/> being the only Jewish Organ here sometimes<lb/> rouses up\n                one or two who go abroad<lb/> and say this is old and out of tune and<lb/> that\n                causes mischief. I heed them not<lb/> and when I reason with them they are<lb/>\n                silenced. I am so far fortunate that the<lb/> Board of Trustees tho' individually\n                not<lb/> very ultra Orthodox yet they will not allow<lb/> any one to interfere with\n                me in the synagogue<lb/> service, at the head of them is our <add>Hebrew</add><lb/>\n                an Englishman who has held office for<lb/> many years who is really a stanch\n                    <add>Hebrew</add><lb/> and who never neglects to be in<lb/>\n                <add>Hebrew</add> whenever service is performed<lb/> our <add>Hebrew</add> is opened\n                every <add>Hebrew</add> and<lb/> three times an <add>Hebrew</add> and there you\n                find<lb/> the <add>Hebrew</add> at his port and this has a</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 4382,
+          "width": 3602,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/546e2fde-67da-4f2f-b855-d2403c796a20%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3602,
+                "height": 4382,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/546e2fde-67da-4f2f-b855-d2403c796a20%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/assets/546e2fde-67da-4f2f-b855-d2403c796a20/original",
+              "label": "Original File - 47.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>powerful influence with the congregation<lb/> in general when they see the\n                President<lb/> setting the good example the old adage<lb/> “<add>Hebrew</add>”<lb/>\n                The charitable Institutions among us<lb/> are flourishing and do much good<lb/> the\n                people are certainly ready at all times<lb/> to dispense charity and that too\n                liberally.<lb/> I believe now my dear sir I have<lb/> exhausted all my sources of\n                information<lb/> and I hope I have not exhausted<lb/> your patience to read my long\n                epistle<lb/> but I suppose you are like me at<lb/> times glad to get something fresh\n                from<lb/> abroad however trifling</p>\n            <p>I leave you now in the hope that<lb/> this will reach you in health of mind<lb/> and\n                Body and expect to hear from<lb/> you soon</p>\n            <p rend=\"indent(8)\">Believe me</p>\n            <p rend=\"indent(8)\">Yours truly</p>\n            <p rend=\"indent(8)\">\n                <persName role=\"author\">H. A. Henry</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vt1h90n/canvas/p6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

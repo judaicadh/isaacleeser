@@ -1,0 +1,156 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fn1182x/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Bondi, Jonah; Philadelphia, PA; 1 March 1860",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3fn1182x"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Bondi, Jonah; Philadelphia, PA; 1 March 1860"]
+    },
+    {
+      "label": "Date",
+      "value": ["1860-03-01", "8 Adar"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF4a_29"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e55a5bd-bc3e-42e6-a4bc-6b3db748c229%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e55a5bd-bc3e-42e6-a4bc-6b3db748c229%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fn1182x/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fn1182x/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fn1182x/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5348,
+          "width": 4378,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e55a5bd-bc3e-42e6-a4bc-6b3db748c229%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4378,
+                "height": 5348,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e55a5bd-bc3e-42e6-a4bc-6b3db748c229%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fn1182x/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fn1182x/assets/7e55a5bd-bc3e-42e6-a4bc-6b3db748c229/original",
+              "label": "Original File - 70.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fn1182x/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fn1182x/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><date>Friday 8th of Adar (March</date>),</p>\n            <p rend=\"align(right)\"><date>1860</date>.</p>\n            <p>To my friend, etc.</p>\n            <p rend=\"indent(1)\">Dear Friend,</p>\n            <p rend=\"indent(2)\">I am much indebted for your<lb/> few lines. The sermon is very well\n                translated.<lb/> It will be noticed I am proud to say it is no<lb/> worse than that\n                of <persName>Einhorn</persName> whose first address<lb/> inclined towards\n                Coverservatism - “and before a<lb/> blind man do not set a stumbling block.”*\n                There-<lb/>fore should be met half-way from the Conservative<lb/> side. That is why\n                I must insist that you print<lb/> my article in German at once, and, at the same\n                time,<lb/> improve it. If I send you the article at the<lb/> same time as the\n                sermon, it is only because they<lb/> belong together. I depend upon it. You see<lb/>\n                to what extent <persName>Wise</persName> takes him under his wing <add>?</add><lb/>\n                Here <persName>Wise</persName> caused a great deal of harm among the Jews<lb/> of\n                all classes. That is why such an answer must<lb/> be made. What is worse,\n                    <persName>Wise</persName> is already <add>blank</add><lb/> That is why you must\n                call this to people's attention.</p>\n            <p rend=\"indent(1)\">My friend, the deed is more important<lb/> than the doer. If you\n                want to arrange<lb/> for my lecture, speak to the directors,<lb/> but with my honor\n                and the honor of<lb/> the Torah in mind. I am at your</p>\n            <p>* Leviticus</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3fn1182x/canvas/p1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

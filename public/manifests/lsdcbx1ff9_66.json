@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Gregor[?], ElRm; Leeser, Isaac, Rev.; New York, NY; 5 October 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3hx16b09"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Gregor[?], ElRm; Leeser, Isaac, Rev.; New York, NY; 5 October 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-10-05"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 3 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_66"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/af31e996-0990-412c-b514-cb53d478f4ea%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/af31e996-0990-412c-b514-cb53d478f4ea%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4352,
+          "width": 3536,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/af31e996-0990-412c-b514-cb53d478f4ea%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3536,
+                "height": 4352,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/af31e996-0990-412c-b514-cb53d478f4ea%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/assets/af31e996-0990-412c-b514-cb53d478f4ea/original",
+              "label": "Original File - 46.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>New York</placeName>\n                                        <date>Oct 5 1852</date>\n                              </p>\n                              <p>\n                                        <addressee>Rev Isaac Leeser D D</addressee>\n                              </p>\n                              <p rend=\"indent(3)\">Dear Sir</p>\n                              <p rend=\"indent(4)\">On opening your<lb/> last No. of the Oc. I find an\n                                        article<lb/> respecting a <persName>Mr. E.\n                                                  Marcussohn</persName>, ac-<lb/>companied by a\n                                        letter purporting to be<lb/> written by him to the Editor of\n                                        the Jew-<lb/>ish Chronicle of <placeName>New\n                                                  York</placeName>. Affecting to<lb/> deny the\n                                        statement made in the <date>August</date><lb/> No. by\n                                                  <persName>Rev J C. Davis</persName> of\n                                                  <placeName>Montgomery</placeName></p>\n                              <p rend=\"indent(1)\">Allow me to say here is disclosed<lb/> a curious\n                                        affair. In the first place<lb/> no letter like that in your\n                                        paper was<lb/> ever received by the Editor of the\n                                        Jewish<lb/> Chronicle, that is curious and in<lb/> the\n                                        second place, either <persName>Mr E.\n                                        Marcussohn</persName><lb/> was or was not the person that\n                                        presided<lb/> over the Jewish congregation in\n                                                  <placeName><sic>montgom<lb/>ery</sic>\n                                                  Ala.</placeName> and to whom reference is\n                                        made<lb/> in the <date>Aug</date> No of the Jewish\n                                        Chronicle<lb/> If he is, then I shall undertake to\n                                        prove<lb/> to the Jewish and Christian public the<lb/>\n                                        following facts from indisputable evidence</p>\n                              <p>1. That he sought instruction of our mis-</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4352,
+          "width": 3536,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/34b32263-5881-43cb-a298-fa2c2c618bfa%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3536,
+                "height": 4352,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/34b32263-5881-43cb-a298-fa2c2c618bfa%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/assets/34b32263-5881-43cb-a298-fa2c2c618bfa/original",
+              "label": "Original File - 46.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>ionary in <placeName>Montgomery</placeName> and of the respected\n                                        clergy<lb/> men there of his own accord that on the<lb/>\n                                        <date>4<hi rend=\"sup\">th</hi> of July</date> last in the\n                                        presence of a number<lb/> of his people he publicly declared\n                                        his conviction<lb/> that <persName>Jesus</persName> of\n                                                  <placeName>Nazareth</placeName> was the\n                                        messiah—that<lb/> whereupon his people become furious\n                                        and<lb/> refused to pay him his just claim and that<lb/> he\n                                        was obliged to leave his home and that<lb/> he found an\n                                        asylum with <persName>Rev Mr Oliver</persName><lb/> a\n                                        Christian minister—who also advanced<lb/> him $70 to pay his\n                                        debt among his<lb/> people. That <del>he</del> it was\n                                        generally known<lb/> in <placeName>Montgomery</placeName>\n                                        that he had <sic>publically</sic> ab-<lb/>jured Judaism and\n                                        embraced Christian-<lb/>ity. That on application by his\n                                        friends for aid the<lb/> society offered him a liberation as\n                                        miss-<lb/>ionary to the Jews that he accepted at<lb/> that\n                                        he went to <placeName>Charleston</placeName> had an\n                                        interview<lb/> with <persName>Rev Mr\n                                        Bernheim</persName>—received through<lb/> him from the\n                                        Treasurer his salary for<lb/>\n                                        <date>August</date> and <date>September</date>. That he was\n                                        located<lb/> in a city not far from\n                                                  <placeName>Charleston</placeName>—<lb/> or else if\n                                        he is the same man. One or both<lb/> of us have been\n                                        deceived in the person. Either<lb/>\n                                        <persName>Mr Marcussohn</persName> (or\n                                                  <persName>Markesson</persName>) from\n                                                  <placeName>Mont-<lb/>gomery</placeName>\n                                        <add>?</add> C. <placeName>South Carolina</placeName> was\n                                        not<lb/> the minister of the Jewish cong in\n                                                  <placeName>Mont'ry</placeName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4352,
+          "width": 3536,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d018a47-eb29-4243-8110-a64422093e1c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3536,
+                "height": 4352,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d018a47-eb29-4243-8110-a64422093e1c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/assets/8d018a47-eb29-4243-8110-a64422093e1c/original",
+              "label": "Original File - 46.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>or else the man that called on you and<lb/> whom you represent to\n                                        be such, was not.<lb/> Now if he be not <persName>Mr\n                                                  Marcussohn</persName><lb/> mentioned in the Jewish\n                                        Chronicle<lb/> a game is commenced in your paper<lb/> at\n                                        which I am resolved to expose.</p>\n                              <p rend=\"indent(1)\">You or <persName>Mr Marcussohn</persName> is in a\n                                        terri-<lb/>ble dilemma. Either he has been guilty<lb/> of\n                                        moral enormities which render him<lb/> unworthy of the\n                                        confidence of any man<lb/> or else there is unblushing\n                                        inequity<lb/> on your part. In either case I<lb/> shall not\n                                        spare nor give any quarter.</p>\n                              <p rend=\"indent(1)\">Either he has been attempting to impose<lb/> upon\n                                        the christian community or else<lb/> you are attempting to\n                                        impose upon Jewish<lb/> community.</p>\n                              <p rend=\"indent(1)\">You have fairly begun<lb/> a difficulty which I\n                                        shall take care<lb/> you do not escape, or else he has,<lb/>\n                                        the whole matter will be brought<lb/> to an issue very\n                                        shortly.</p>\n                              <p rend=\"indent(7)\">I remain yours</p>\n                              <p rend=\"indent(7)\">\n                                        <persName role=\"author\">ElRm Gregor<add>?</add></persName>\n                              </p>\n                              <p>I do not intent this for publication but to<lb/> show you how\n                                        matters stand—the truth most come<lb/> out</p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_10_7.pdf\">The above\n                                                  text refers to Occident Volume 10 No. 7 pages 353\n                                                  through 359. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16b09/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Buffalo, NY; Leeser, Isaac; 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p36h4db00"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Buffalo, NY; Leeser, Isaac; 1854"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854", "17 [?] 5614"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- Buffalo",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx9FF16_1"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/6fff19f0-179a-4788-bc7c-7cbdb38ce890%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/6fff19f0-179a-4788-bc7c-7cbdb38ce890%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 7878,
+          "width": 5277,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6fff19f0-179a-4788-bc7c-7cbdb38ce890%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5277,
+                "height": 7878,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6fff19f0-179a-4788-bc7c-7cbdb38ce890%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/assets/6fff19f0-179a-4788-bc7c-7cbdb38ce890/original",
+              "label": "Original File - 125 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Buffalo</placeName>\n                <add>?</add>\n                <date>17 <add>Hebrew</add> 5614</date>\n            </p>\n            <p rend=\"align(right)\">\n                <add>Hebrew</add>\n            </p>\n            <p>Revd</p>\n            <p>\n                <addressee>Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(3)\">Sir!</p>\n            <p rend=\"indent(2)\">Your Book, with the Books<lb/> I recd from <persName>Mr. E. J.\n                    Bernheim</persName>, and paid<lb/> the freight for on it, and also the\n                carriage,<lb/> only, I can't make you <sic>aquinted</sic> how<lb/> it will be, with\n                the delivery, this moment<lb/> when I write to you, I have said<add>?</add> to\n                    <persName>E. J.<lb/> Bernheim</persName>, if he want <hi rend=\"underline\"\n                    >one</hi>, but he did<lb/> not answer, no doubt you know the<lb/> nature of\n                those <add>?</add>, as they are<lb/> a <add>Hebrew</add>. I can not keep\n                    <add>?</add> any longer,<lb/> as I have, so much writing, and dis,<lb/>pute in\n                your Occident, on account<lb/> of <persName>Dr. Wises</persName> writing and in particular<lb/>\n                <persName>Mr Revd Dr Illowy</persName> how D<add>?</add> him! let<lb/> me stop, all\n                those disputes, I have a<lb/> valuable Book printed, by a great\n                <add>Hebrew</add><lb/> calld, <add>Hebrew</add>, and <persName>Mr Lane</persName>\n                writes only a few<lb/> words, <sic>wich</sic> will make <sic>betwen</sic> those\n                two<lb/> D<hi rend=\"underline\">rs</hi>. And he <sic>explain</sic> himself, with a\n                for<lb/>wards <add>Hebrew</add><lb/> 86<lb/>\n                <add>Hebrew</add><lb/> 86 and according all <add>Hebrew</add> upon our\n                    <add>Hebrew</add><lb/> the whole creation, <del>was</del> came in existence\n                    <add>Hebrew</add><lb/> and no doubt, every learned man knows,<lb/> that\n                    <add>Hebrew</add><lb/> at present I have but 2 scholars, the children,<lb/> of\n                    <persName>Mr <add>?</add> Noah</persName>, but in <add>?</add> of time I\n                may<lb/> let come some more as I keep school only<lb/> for a pass time.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 7878,
+          "width": 5277,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3dbfc7bf-228f-46a4-9f35-4bb3ddf4a5fd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5277,
+                "height": 7878,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3dbfc7bf-228f-46a4-9f35-4bb3ddf4a5fd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/assets/3dbfc7bf-228f-46a4-9f35-4bb3ddf4a5fd/original",
+              "label": "Original File - 125 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">Sir!</p>\n            <p>I have wrote to <persName>Dr Wise</persName> the same<lb/> but he did not answer me,\n                tis,<lb/> as I know, the has a little <sic>enamo,<lb/>sity</sic> against me, on\n                account of a<lb/>\n                <add>Hebrew</add> who he gave <add>Hebrew</add> and freedom<lb/> to perform the\n                service Duties appertain,<lb/>ning our Holy <hi rend=\"underline\">Religion</hi>. I\n                will not<lb/> detain you,k with much writing, as I<lb/> know, you can employ your\n                time<lb/> to other purposes, but I thought<lb/> you might show my letter to<lb/>\n                <persName>Dr <sic>Ellowy</sic></persName> and I hope that the<lb/> gentleman will be\n                satisfied</p>\n            <p rend=\"indent(2)\">Remain yours</p>\n            <p rend=\"indent(3)\">Respectfully</p>\n            <p rend=\"indent(3)\">\n                <add>?</add>\n            </p>\n            <p>P. S.</p>\n            <p>I must make you <sic>aquainted</sic> with<lb/> that, I don't perform no more<lb/>\n                <placeName>Italy</placeName><add>?</add> services in the Synagogue.<lb/> and this\n                quarrel is nothing to me.<lb/> but, for the sake of <add>Hebrew</add> between<lb/>\n                <sic>booth</sic> parties, I have mentioned to you<lb/> the writing of <add>?</add><lb/>\n                <add>Hebrew</add><lb/> and<lb/>\n                <placeName><hi rend=\"underline\">Amsterdam</hi></placeName></p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4db00/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

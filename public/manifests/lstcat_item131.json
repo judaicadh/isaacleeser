@@ -1,0 +1,307 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Aguilar, Grace; Leeser, Isaac; Philadelphia, PA; 29 June 1843",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3988373d"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Aguilar, Grace; Leeser, Isaac; Philadelphia, PA; 29 June 1843"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1843-06-29"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "[5] pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item131"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/69ccdf6d-a7ae-4f86-9f99-12f5f5d29f72%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/69ccdf6d-a7ae-4f86-9f99-12f5f5d29f72%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4690,
+          "width": 3080,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/69ccdf6d-a7ae-4f86-9f99-12f5f5d29f72%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3080,
+                "height": 4690,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/69ccdf6d-a7ae-4f86-9f99-12f5f5d29f72%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/assets/69ccdf6d-a7ae-4f86-9f99-12f5f5d29f72/original",
+              "label": "Original File - 43.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Rev I Leeser</addressee>\n            </p>\n            <p>\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>5 Inangti<add>?</add> Hackney</placeName>\n            </p>\n            <p rend=\"indent(2)\">\n                <date>29 June / 43</date>\n            </p>\n            <p>Dear Sir</p>\n            <p rend=\"indent(1)\">I write to you<lb/> in the shape of a note be<lb/>cause I am anxious\n                to forward<lb/> you two poems by the same<lb/> post and for the same postage<lb/>\n                and as I have but little in<lb/>teresting to communicate the<lb/> apparent brevity\n                of my epistle<lb/> you will I trust kindly excuse</p>\n            <p rend=\"indent(1)\">I owe you an apology<lb/> for not having answered your<lb/> kind\n                favor of <date>10 January</date> long<lb/> ere this, but continued\n                indis<lb/>position since the early part<lb/> of <date>March</date> and a very\n                long<lb/> task of writing which I had<lb/> to finish as speedily as possible<lb/>\n                prevented my addressing any<lb/> of my correspondents and <add>?</add></p>\n            <p\n                rend=\"The following (page 5) is written in the opposite direction over the above text.\"/>\n            <p>where you have any money in hand for<lb/> me. Do not procure them till<add>?</add>\n                you can pay yourself<lb/> from any money you may have to transmit<lb/> to me &amp;\n                then I should be obliged by your<lb/> forwarding them by the first opportunity I\n                think<lb/> my name had better be written in them or they<lb/> will not pass without\n                a <hi rend=\"underline\">fine</hi> which I have no in<lb/>clination to pay. Papa\n                begged me to inform<lb/> you he had a small parcel for you from the <persName>Miss<lb/>\n                    <add>?</add></persName> which he will forward by the first opportunity</p>\n            <p rend=\"indent(1)\">Trusting this letter will find you in<lb/> health &amp; prosperity\n                    <add>?</add> in all your undertakings</p>\n            <p rend=\"indent(2)\">I remain dear Sir</p>\n            <p rend=\"indent(3)\">yours truly</p>\n            <p rend=\"indent(4)\">\n                <persName role=\"author\">Grace Aguilar</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4690,
+          "width": 3080,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/817cd381-3478-43a1-b1e4-8c2e4ceba69c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3080,
+                "height": 4690,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/817cd381-3478-43a1-b1e4-8c2e4ceba69c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/assets/817cd381-3478-43a1-b1e4-8c2e4ceba69c/original",
+              "label": "Original File - 43.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>2</p>\n            <p>I trust plead my excuse with<lb/> you as with others. Allow me<lb/> to thank you for\n                the 1<hi rend=\"sup\">st</hi> number<lb/> of your periodical, which my<lb/> brother\n                brought me from <persName>Mr Franklin</persName><lb/> without however any message,\n                so<lb/> I do not know whether you sent<lb/> any with it and also let me<lb/> thank\n                you, for the very grati<lb/>fying notice with which you<lb/> introduce my little\n                poem “The<lb/> Chambers of the Dying” to your<lb/> readers, in your second\n                number.<lb/> I trust the poems I send may<lb/> prove suitable and acceptable<lb/>\n                the intent of both is to bring<lb/> us closer to the gracious Saviours<lb/> of\n                    <placeName>Israel</placeName>, than is often unhappily<lb/> the case with our\n                nation. They<lb/> generally place Him at a<lb/> distance. I never think of\n                deriving<lb/> comfort from the fact that He<lb/> knows &amp; loves us better\n                than<lb/> our dearest Friends on Earth, &amp; feels</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4690,
+          "width": 3080,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b055fe6a-209a-4850-9782-852e98c75145%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3080,
+                "height": 4690,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b055fe6a-209a-4850-9782-852e98c75145%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/assets/b055fe6a-209a-4850-9782-852e98c75145/original",
+              "label": "Original File - 43.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>3</p>\n            <p>and shares every pang His Love<lb/> inflicts. The Hour of peace is<lb/> simply to rob\n                Death of its gloom<lb/> Oh that Immortality were more<lb/> thought of amongst us,\n                than it is!</p>\n            <p rend=\"indent(1)\">I regret not yet having had<lb/> time to read your periodical<lb/>\n                with sufficient attention to pass<lb/> an opinion upon it. You have<lb/> however my\n                very best wishes<lb/> for its success, as its design is<lb/> praiseworthy and the\n                labour<lb/> to yourself must I think be very<lb/> great. My Father begs I<lb/> will\n                deliver you his kind regards<lb/> and our united thanks for the<lb/> detailed\n                account of the books, which<lb/> your last favor contained. I trust<lb/> ere this,\n                you have received<lb/> some returns from the different<lb/> places to which they\n                have been<lb/> sent. In <placeName>Jamaica</placeName> &amp; <placeName>St\n                    Thomas</placeName><lb/> I know they have had some<lb/> sale, as the fact has\n                    <sic>travelled</sic></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4690,
+          "width": 3080,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/55e3f4c3-9b81-4fbd-94cf-243361ad3d5d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3080,
+                "height": 4690,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/55e3f4c3-9b81-4fbd-94cf-243361ad3d5d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/assets/55e3f4c3-9b81-4fbd-94cf-243361ad3d5d/original",
+              "label": "Original File - 43.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>4</p>\n            <p>to us in <placeName>England</placeName>. I do not<lb/> much understand business\n                my<lb/>self, <del>but</del> so that the slowness of<lb/> payment appears to me\n                rather<lb/> strange. You are right in sup<lb/>posing gain was not my object<lb/> in\n                publishing the work, but yet<lb/> I am not rich or even independent<lb/> enough, not\n                to feel anxious to<lb/> receive that, which if the books<lb/>\n                <del>are sold</del> or even some of them <del>have</del> are<lb/> sold at the places\n                to which they<lb/> have been sent, must be my<lb/> due an anxiety which I have<lb/>\n                no doubt you can <hi rend=\"underline\">understand</hi><lb/> but I know it is not in\n                your<lb/> power to <sic>remidy</sic> it. You will<lb/> oblige me greatly however\n                by<lb/> urging your agents to a settlement<lb/> for those they have sold. With<lb/>\n                regard to <persName>Dr Channings<add>?</add></persName> works<lb/> which you say can\n                be procured<lb/> in 5 vols for 4 Dollars—I<lb/> should like much to have them</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3988373d/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

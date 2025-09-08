@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Oppenheim, Samuel J.; Leeser, Isaac, Rev.; Cincinnati, OH; 7 March 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3rj49f4b"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Oppenheim, Samuel J.; Leeser, Isaac, Rev.; Cincinnati, OH; 7 March 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-03-07", "7 March 5612"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Ohio -- Cincinnati",
+        "United States -- Ohio",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_10"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/7570c772-7fc9-4baf-9bb3-cecec369966b%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/7570c772-7fc9-4baf-9bb3-cecec369966b%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4680,
+          "width": 3722,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7570c772-7fc9-4baf-9bb3-cecec369966b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3722,
+                "height": 4680,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7570c772-7fc9-4baf-9bb3-cecec369966b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/assets/7570c772-7fc9-4baf-9bb3-cecec369966b/original",
+              "label": "Original File - 52.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Cincinnati</placeName>, <date>March\n                                                  7th. 5612</date>.</p>\n                              <p>Dear Sir,</p>\n                              <p rend=\"indent(1)\">I did not receive a letter from my brother in\n                                        answer<lb/> to the one I wrote him during your visit here\n                                        until a<lb/> few days back and therefore did not write\n                                        before but<lb/> now according to promise I do.</p>\n                              <p>My brother says he shall reply to you but having been<lb/> very\n                                        much engaged in the affairs of Sussex Hall<lb/> he has not\n                                        until now had time to write to you,<lb/> or me, he says\n                                        having interested himself for<lb/>\n                                        <persName>Dr. Benish's</persName> Bible, (the Pentateuch of\n                                        which is published,<lb/> and having obtained more\n                                        subscribers than will cover<lb/> the cost of it, he is now\n                                        going on with the other part<lb/> of the Bible,) he is sorry\n                                        he cannot dispose of your<lb/> Bibles, but with regard to\n                                        the Occident he will<lb/> with pleasure try and do all he\n                                        can, but he says,<lb/> the English do not like subscribing\n                                        to foreign<lb/> periodicals although written in their own\n                                        language,<lb/> I suppose he will write you more fully on\n                                        the<lb/> different subjects you wrote him about as he does\n                                        not<lb/> mention much about them to me therefore I can\n                                        conclude<lb/> that subject.</p>\n                              <p>No doubt you would be interested in a little of the<lb/> English\n                                        news, The Great Synagogue Dukes<add>?</add> place has\n                                        voted<lb/> 6000 pounds sterling towards building a Synagogue\n                                        at<lb/> the <placeName>west end</placeName>. A Public\n                                        Meeting of the Jews was<lb/> called by <persName>Dr.\n                                                  Adler</persName> at Sussex Hall for the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4680,
+          "width": 3722,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0416df61-792d-40e8-8688-0dd02b74b7bd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3722,
+                "height": 4680,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0416df61-792d-40e8-8688-0dd02b74b7bd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/assets/0416df61-792d-40e8-8688-0dd02b74b7bd/original",
+              "label": "Original File - 52.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>purpose of establishing a Jewish college for the education<lb/> of\n                                        ministers, Readers, &amp; teachers. <persName>Sir Moses\n                                                  Montefiore</persName><lb/> presided. I am glad to\n                                                  <del>say</del> see the so long looked for<lb/>\n                                        Institution is now about being brought into existence,<lb/>\n                                        as a beginning 2000 pounds sterling has been already<lb/>\n                                        subscribed, and of course by now has increased. I also<lb/>\n                                        understand a gentleman is going to endow it.<lb/> The case\n                                        of <persName>Alderman Salomons</persName> for his taking his\n                                        seat &amp; voting<lb/> came before a jury but he was not\n                                        satisfied with<lb/> having 12 men that did not understand\n                                        the law deciding<lb/> for him, &amp; he took a verdict\n                                        against himself, subject<lb/> to the opinion of the judges,\n                                        the cause has been argued<lb/> by them but the judges of the\n                                        course of Exchequer have<lb/> not yet give their\n                                                  <sic>judgement</sic>.</p>\n                              <p>I asked <persName>Mr. Henry Mack</persName> to become a subscriber\n                                        to your<lb/>\n                                        <sic>occident</sic> but he refused on account of taking so\n                                        many<lb/> papers in. I think if you had <sic>staid</sic>\n                                        here longer<lb/> and had seen the people themselves you\n                                        might have<lb/> got more subscribers.</p>\n                              <p>As <persName>Mr. Jonas</persName> wrote you last week all the\n                                                  <placeName>Cincinnati</placeName><lb/> News I have\n                                        none to write.</p>\n                              <p>My Aunt &amp; Uncle <persName>Mr. &amp; Mrs. Jonas</persName> send\n                                        their regards<lb/> to you, and accept the same from me\n                                        hoping you<lb/> may succeed in your undertakings which I\n                                        consider are<lb/> for the benefit of the Jewish nation.</p>\n                              <p rend=\"indent(9)\">I remain yours truly,</p>\n                              <p rend=\"indent(9)\">\n                                        <persName role=\"author\">Samuel J Oppenheim</persName>\n                              </p>\n                              <p>To <addressee>Revd. Isaac Leeser</addressee></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3722,
+          "width": 4680,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/db209a3e-b049-480c-acea-2109e02cfbb6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4680,
+                "height": 3722,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/db209a3e-b049-480c-acea-2109e02cfbb6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/assets/db209a3e-b049-480c-acea-2109e02cfbb6/original",
+              "label": "Original File - 52.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revrd. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>371 Walnut St.</placeName>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Pa.</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rj49f4b/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

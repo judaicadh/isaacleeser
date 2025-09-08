@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Jonas, Geo.; Leeser, Isaac, Rev.; New Orleans, LA; 18 May 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3bk17908"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Jonas, Geo.; Leeser, Isaac, Rev.; New Orleans, LA; 18 May 1857"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-05-18"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Louisiana -- New Orleans",
+        "United States -- Louisiana",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF4_39"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/008707b1-95bc-4e23-a04f-e4b8ede70485%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/008707b1-95bc-4e23-a04f-e4b8ede70485%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5000,
+          "width": 4078,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/008707b1-95bc-4e23-a04f-e4b8ede70485%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4078,
+                "height": 5000,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/008707b1-95bc-4e23-a04f-e4b8ede70485%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/assets/008707b1-95bc-4e23-a04f-e4b8ede70485/original",
+              "label": "Original File - 61.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Mail</p>\n            <p rend=\"align(right)\">\n                <placeName>New Orleans</placeName>\n                <date>May 18th</date>\n            </p>\n            <p rend=\"indent(12)\">\n                <date>1857</date>\n            </p>\n            <p>\n                <addressee>Revd. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">Dear Sir</p>\n            <p rend=\"indent(3)\">I received your<lb/> favor of <date>28<hi rend=\"sup\">th</hi></date>\n                Ult. addressed to me<lb/> in my official capacity. Your numerous<lb/> friends here\n                are rejoiced to learn of your<lb/> resumption of ministerial duties, which<lb/> they\n                regard as cause for congratulation<lb/> to yourself as well as the Israelites<lb/>\n                of <placeName>Philadelphia</placeName>. It is not in the<lb/> power of our\n                congregation to aid you<lb/> as proposed—<hi rend=\"underline\">it has no surplus\n                    funds</hi>.<lb/> In order to complete the new Synagogue<lb/> &amp; buildings\n                adjacent a mortgage had<lb/> to be given upon its <hi rend=\"underline\">last</hi>\n                other property<lb/> so that we are in debt with but a<lb/> limited revenue, our\n                    pay<hi rend=\"underline\">in</hi>g members<lb/> not exceeding 45. The “Widow &amp;\n                Orphans<lb/> Home” in which all here feel a just<lb/> pride has an insufficient\n                revenue<lb/> and demands from <hi rend=\"underline\">all</hi> our people</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5000,
+          "width": 4078,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8b18d990-ef03-4dc7-bd89-783883615bb7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4078,
+                "height": 5000,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8b18d990-ef03-4dc7-bd89-783883615bb7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/assets/8b18d990-ef03-4dc7-bd89-783883615bb7/original",
+              "label": "Original File - 61.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>all the public or private surplus funds<lb/> at command. Our city unlike\n                    <placeName>Philadelphia</placeName><lb/> has among our people few wealthy\n                persons,<lb/> and the few have such constant calls<lb/> at home, that they are\n                unable to lend<lb/> or give abroad. With <sic>with</sic> my<lb/> warmest regards I\n                am</p>\n            <p rend=\"indent(7)\">Yours Very Respy</p>\n            <p rend=\"indent(7)\"><persName role=\"author\">Geo Jonas</persName> President</p>\n            <p rend=\"indent(8)\">Congregation “Dispersed of Judah”</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bk17908/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

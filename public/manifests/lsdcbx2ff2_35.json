@@ -1,0 +1,164 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cj8858c/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Myers, Cauffman H.; Leeser, I., Rev.; San Francisco, CA; 5 September 1855",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3cj8858c"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Myers, Cauffman H.; Leeser, I., Rev.; San Francisco, CA; 5 September 1855"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Myers, Cauffman H.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1855-09-05"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- San Francisco",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF2_35"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/691ed35c-3444-4a76-a123-07452e79c039%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/691ed35c-3444-4a76-a123-07452e79c039%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cj8858c/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cj8858c/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cj8858c/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4564,
+          "width": 3754,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/691ed35c-3444-4a76-a123-07452e79c039%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3754,
+                "height": 4564,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/691ed35c-3444-4a76-a123-07452e79c039%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cj8858c/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cj8858c/assets/691ed35c-3444-4a76-a123-07452e79c039/original",
+              "label": "Original File - 51.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cj8858c/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cj8858c/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>San Francisco</placeName>\n                <date>Sep 5, 1855</date>\n            </p>\n            <p>\n                <addressee>Rev I. Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">Dear Friend</p>\n            <p rend=\"indent(4)\">During my<lb/> absence from here <persName>Dr. Eckman</persName>\n                paid<lb/> me for the Occident; please acknow-<lb/>-ledge the same. Your Books\n                shipped<lb/> pr. ship “Snap Dragon” have not arrived yet. If they were<lb/> here\n                now, I could readily dispose of<lb/> them, being near our Holidays.<lb/> My\n                principal object to write you with<lb/> this mail is to inform you of an\n                organization<lb/> of a charitable society that is in the act of<lb/> being formed by\n                our Jewish Ladies in this<lb/> city. A Number of Ladies <del>assembled</del><lb/>\n                met for the first time at <persName>Mr. Jacob<lb/> Rich's</persName> House &amp;\n                organized the society,<lb/> of which <persName>Mrs. Abm. Tandler</persName> acted\n                the<lb/> President &amp; <persName>Mrs. Rich</persName> secretary. A<lb/> subsequent\n                meeting was then called in<lb/> the synagogue of the Congregation of Emanu-<lb/>-El\n                on <date><sic>sunday</sic> the 5<hi rend=\"sup\">th</hi> of <sic>aug.</sic></date>\n                when a<lb/> large numer of Ladies were present. The object<lb/> &amp; importance of\n                the Benefit</p>\n            <div>\n                <p>\n                    <ref target=\"Occident_PDFs/Occ_13_9.pdf\">The above text refers to Occident\n                        Volume 13 No. 9 page 419. Click here to view.</ref>\n                </p>\n            </div>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cj8858c/canvas/p1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

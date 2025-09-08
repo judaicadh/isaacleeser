@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Cohen, E. P.; Leeser, Isaac; Baltimore, MD; 11 October 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3tm72m63"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Cohen, E. P.; Leeser, Isaac; Baltimore, MD; 11 October 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-10-11"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Maryland -- Baltimore",
+        "United States -- Maryland",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_13"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/8943ee03-0c81-4ec8-b828-db548ec157af%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/8943ee03-0c81-4ec8-b828-db548ec157af%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4642,
+          "width": 3644,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8943ee03-0c81-4ec8-b828-db548ec157af%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3644,
+                "height": 4642,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8943ee03-0c81-4ec8-b828-db548ec157af%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/assets/8943ee03-0c81-4ec8-b828-db548ec157af/original",
+              "label": "Original File - 51 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Balt<hi rend=\"sup\">o</hi></placeName>\n                                        <date>11th October 1852</date>\n                              </p>\n                              <p>\n                                        <addressee>Mr Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(2)\">Dear Sir</p>\n                              <p rend=\"indent(3)\">I owe you many apologies<lb/> for not having\n                                        sooner acknowledged your kind<lb/> favor of the\n                                                  <date>16th</date> ult<hi rend=\"sup\">o</hi> your\n                                        remark that I<lb/> might return the Book \"at my leisure\" I\n                                        took<lb/> advantage of since in truth I have been<lb/>\n                                        exceedingly occupied. The late holidays<lb/> I am in hopes\n                                        will have had the same<lb/> tendency with others that they\n                                        had with me,<lb/> viz to remind them to supply any\n                                        deficiency<lb/> of Prayer books required for the use of\n                                        their<lb/> families, and if you have not already<lb/> filled\n                                        up your subscription list, that<lb/> you may soon do so. We\n                                        have already<lb/> three sets, but my wife insists upon\n                                        having<lb/> another, which we wish bound in best style<lb/>\n                                        and lettered on the cover with \"<persName>Andrew J.\n                                                  Cohen</persName>\"s<lb/> name. I enclose you six\n                                        Dollars amot. of<lb/> your Bill and will feel obliged by\n                                        your procuring<lb/> and transmit me <persName>Dr.\n                                                  Raphaels</persName> work \"<add>רחמה</add>\" or<lb/>\n                                        devotional exercises for women.</p>\n                              <p>My wife, <persName>Andrew</persName> &amp;\n                                                  <persName>Frances</persName> desire to be<lb/>\n                                        kindly remembered, and believe me</p>\n                              <p rend=\"indent(11)\">Yours Truly</p>\n                              <p rend=\"indent(11)\">\n                                        <persName role=\"author\">E. P. Cohen</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3644,
+          "width": 4642,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/efe8bf98-3a10-496c-ae43-d07d8c95faaf%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4642,
+                "height": 3644,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/efe8bf98-3a10-496c-ae43-d07d8c95faaf%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/assets/efe8bf98-3a10-496c-ae43-d07d8c95faaf/original",
+              "label": "Original File - 51 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Rev. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3tm72m63/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

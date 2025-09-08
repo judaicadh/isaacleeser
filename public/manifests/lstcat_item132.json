@@ -1,0 +1,199 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/manifest",
+  "@type": "sc:Manifest",
+  "label": "Print; Philadelphia, PA; 1 March 1844",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3rb6wn8p"]
+    },
+    {
+      "label": "Title",
+      "value": ["Print; Philadelphia, PA; 1 March 1844"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1844-03-01", "Adar 5604"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["prints (visual works)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Print"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "1 page on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item132"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/c40ec580-c5f7-490a-af40-27ea620cd6b7%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/c40ec580-c5f7-490a-af40-27ea620cd6b7%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6978,
+          "width": 4608,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c40ec580-c5f7-490a-af40-27ea620cd6b7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4608,
+                "height": 6978,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c40ec580-c5f7-490a-af40-27ea620cd6b7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/assets/c40ec580-c5f7-490a-af40-27ea620cd6b7/original",
+              "label": "Original File - 96.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"><placeName>PHILADELPHIA</placeName>, <date>ADAR5604,\n                    MARCH1844</date>.</p>\n            <p>Mr.</p>\n            <p>SIR,</p>\n            <p>\n                <hi rend=\"italics\">A Stated Meeting of the <add>חברה של בקור חולים וגמילות\n                        חסדים</add> will<lb/> be held on <date>Sunday, the 4<hi rend=\"sup\">th</hi>\n                        of Nissan, the 24<hi rend=\"sup\">th</hi> of March</date>, at 10 o'clock, A.\n                    M., at the<lb/> Vestry Room of the Portuguese Congregation, in <placeName>Cherry\n                        Street</placeName>.</hi>\n            </p>\n            <p>BY ORDER OF THE PRESIDENT.</p>\n            <p><hi rend=\"italics\">Secretary</hi>.</p>\n            <p><add>pointing hand symbol</add> Balloting for <persName>Messrs. Simon Weil</persName>\n                and <persName>Selig Hohenfels</persName>.</p>\n            <p rend=\"indent(1)\">The following Amendments to the Constitution and By-Laws, laid on\n                the table at the last Stated Meeting, will<lb/> come up for action:</p>\n            <p rend=\"indent(1)\">“The Committee for revising the Constitution and By-Laws beg leave\n                to offer the following additional Amend-<lb/>ments:</p>\n            <p rend=\"align(center)\">AMENDMENTS TO CONSTITUTION.</p>\n            <p>ARTICLE IV. SECT. 1. Strike out after the world “and” “two,” and insert “four.”</p>\n            <p>ARTICLE XV. After the world “paying” strike out “six” and insert “eight.”</p>\n            <p rend=\"align(center)\">AMENDMENTS TO BY-LAWS.</p>\n            <p rend=\"indent(1)\">Make the first paragraph SECT. 1, and let those paragraphs now\n                marked <hi rend=\"italics\">one</hi> to <hi rend=\"italics\">nine</hi>, be subdivisions\n                of said SECT. 1,<lb/> and marked <hi rend=\"italics\">a, b, c, d, e, f, g, h, </hi>and\n                    <hi rend=\"italics\">i</hi>, respectively; and change the numbering of the\n                remaining sections to corre-<lb/>spond with this alteration: so SECT. 10 will be 2;\n                11, 3; 12, 4; 13, 5; and make SECT. 14 and 15 SECT. 6, to read<lb/> as follows:</p>\n            <p rend=\"indent(1)\">“The Board shall at their first meeting after the annual election,\n                and oftener if occasion requires, draw the names<lb/> of the several members out of\n                a box, to be provided, for the purpose of performing the duties of the watch,\n                which<lb/> shall be as follows:</p>\n            <p rend=\"indent(1)\">“From the first, &amp;c.”</p>\n            <p rend=\"indent(1)\">Make SECT. 16, SECT. 7; SECT. 17, SECT. 8; SECT. 18, SECT. 9; and\n                strike out “and in the event of” till<lb/> “funeral.”</p>\n            <p rend=\"indent(1)\">Make SECT. 19, SECT. 10, and let it read, “A messenger shall be\n                appointed by the Board at their first meeting<lb/> after the annual election, who\n                shall receive such salary as shall be fixed form time to time by them; he shall\n                give<lb/> satisfactory security to the Board, and shall perform all the duties\n                required of him.”</p>\n            <p rend=\"indent(1)\">Make SECT. 20, SECT. 11, and add after the word “messenger” “if a\n                member.”</p>\n            <p rend=\"indent(1)\">Make SECT. 21, SECT. 12; SECT. 22, SECT. 13, and alter so as to\n                read: “The Secretary shall make out the bills<lb/> and hand them to the Treasurer\n                for collection. He shall also record,” &amp;c.</p>\n            <p rend=\"indent(1)\">Make SECT. 23, SECT. 14; SECT. 24, SECT. 15, and alter the whole so\n                as to read: “The Treasurer shall at each<lb/> and every annual meeting exhibit,”\n                &amp;c.</p>\n            <p rend=\"indent(1)\">Make SECT. 25, SECT. 16; SECT. 26, SECT. 17; SECT. 27, SECT. 18;\n                SECT. 28, SECT. 19; SECT. 29, SECT. 20;<lb/> make a new SECT. 21, to read: “In case\n                of the death of a member, every member shall be charged 25 cents for<lb/> the use of\n                the Society.”</p>\n            <p rend=\"indent(1)\">Make SECTS. 30, 31, and 32, SECT. 22, and let it read: “The\n                following fines shall be enforced by the Society, viz.”</p>\n            <p rend=\"indent(1)\">Insert the present SECT. 30, next the present SECT. 32, and strike\n                out after “said duties” the words “after consent-<lb/>ing to serve,” after “serve”\n                in the next paragraph read “notice or attend on meeting,” after <add>מנין</add> read\n                “25 cents,<lb/> and should the,” &amp;c.</p>\n            <p rend=\"indent(1)\">All which is respectfully submitted.</p>\n            <p rend=\"indent(8)\"><persName>ISAAC LEESER</persName>, Chairman.</p>\n            <p rend=\"indent(8)\"><persName>H. POLOCK</persName>.</p>\n            <p rend=\"indent(8)\"><persName>D. PESOA</persName>.</p>\n            <p rend=\"indent(8)\"><persName>HENRY M. PHILLIPS</persName>.</p>\n            <p rend=\"indent(8)\"><persName>JOHN D. JACKSON</persName>.”</p>\n            <p><placeName>Philadelphia</placeName>, <date>Dec. 17<hi rend=\"sup\">th</hi>,\n                5604</date>.</p>\n            <p rend=\"align(center)\">SPECIAL AMENDMENTS PROPOSED BY MR.\n                <persName>LEESER</persName>.</p>\n            <p>ARTICLE IV. After the above amendment “four” add “who shall take the duties of the\n                office in rotation; and<lb/> the person who has been longest in office to be the\n                senior, or if elected at the same time, the one who has the largest<lb/> number of\n                votes, and if the vote be equal, seniority is to be decided by lot.”</p>\n            <p>ARTICLE XVII. SECT. 3. Strike out all after the word\n                    “<placeName>Philadelphia</placeName>.”</p>\n            <p>Strike out By-law 29.</p>\n            <p>Make a new section, “If the Board deem it requisite they may appoint an Assistant\n                Secretary, to whom they may<lb/> give a compensation not exceeding twenty dollars\n                per annum. Such Assistant Secretary need not be a member of<lb/> the Society.</p>\n            <p><add>pointing hand symbol</add>Please to compare this notice with the printed\n                Constitution in your possession, and bring it with you to the<lb/> meeting, that you\n                may vote understandingly upon every amendment proposed. Also endeavour not to be\n                absent from<lb/> the meeting, so that the full sense of the Society may be elicited\n                upon the foregoing amendments.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6978,
+          "width": 4608,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad0f0978-57a8-4a58-b520-f3976c7f3ed4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4608,
+                "height": 6978,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad0f0978-57a8-4a58-b520-f3976c7f3ed4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/assets/ad0f0978-57a8-4a58-b520-f3976c7f3ed4/original",
+              "label": "Original File - 96.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<table cols=\"2\" rows=\"7\">\n                <row>\n                    <cell>\n                        <persName>David Solis</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Novbr 25</date>\n                    </cell>\n                    <cell>1.50</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Dec 2</date>\n                    </cell>\n                    <cell>.75</cell>\n                </row>\n                <row>\n                    <cell>\n                        <add>?</add>\n                        <date>Janry 27</date>\n                    </cell>\n                    <cell>1.40</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>March 23</date>\n                    </cell>\n                    <cell>.50</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Aug 8</date>\n                    </cell>\n                    <cell>1.25</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Sept. 21</date>\n                    </cell>\n                    <cell>1.50</cell>\n                </row>\n            </table>\n            <table cols=\"2\" rows=\"18\">\n                <row>\n                    <cell>\n                        <persName>Aaron Levy</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Novbr 25</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Dec 2</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>9</date>\n                    </cell>\n                    <cell>40</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>16</date>\n                    </cell>\n                    <cell>16</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>30</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <add>?</add>\n                        <date>Jan 13</date>\n                    </cell>\n                    <cell>14</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>—20</date>\n                    </cell>\n                    <cell>14</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>febry 3</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>—17</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>March 8</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>20</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Ap 4-5</date>\n                    </cell>\n                    <cell>14</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>—27</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>May 4</date>\n                    </cell>\n                    <cell>14</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>18</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>24-25</date>\n                    </cell>\n                    <cell>40</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>June 22</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n            </table>\n            <p rend=\"Second column.\"/>\n            <table cols=\"2\" rows=\"3\">\n                <row>\n                    <cell>\n                        <persName>Aaron Levy</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Septr 7</date>\n                    </cell>\n                    <cell>80</cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell>\n                        <date>14-15</date>\n                    </cell>\n                </row>\n            </table>\n            <table cols=\"2\" rows=\"14\">\n                <row>\n                    <cell>\n                        <persName>Elias P Levy</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Novb 25</date>\n                    </cell>\n                    <cell>40</cell>\n                </row>\n                <row>\n                    <cell>Dec 2</cell>\n                    <cell>53</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>- 30</date>\n                    </cell>\n                    <cell>1-:-</cell>\n                </row>\n                <row>\n                    <cell>18<add>?</add><date>febry 10</date></cell>\n                    <cell>1.20</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>March 23</date>\n                    </cell>\n                    <cell>75</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>May 4</date>\n                    </cell>\n                    <cell>1-:-</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>4</date>\n                    </cell>\n                    <cell>1-:-</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>June 15</date>\n                    </cell>\n                    <cell>1</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>July 13</date>\n                    </cell>\n                    <cell>1.25</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Augt 31</date>\n                    </cell>\n                    <cell>1</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Octbr 4</date>\n                    </cell>\n                    <cell>67</cell>\n                </row>\n                <row>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                    <cell>4.25</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>12</date>\n                    </cell>\n                    <cell>4.50</cell>\n                </row>\n            </table>\n            <table cols=\"2\" rows=\"4\">\n                <row>\n                    <cell>\n                        <persName>David Pesoa</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Novb 25</date>\n                    </cell>\n                    <cell>53</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Dec 23</date>\n                    </cell>\n                    <cell>40</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Sept 14.15</date>\n                    </cell>\n                    <cell>80</cell>\n                </row>\n            </table>\n            <p rend=\"Third column.\"/>\n            <table cols=\"2\" rows=\"6\">\n                <row>\n                    <cell>\n                        <persName>Jos L Moss</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Novbr 25</date>\n                    </cell>\n                    <cell>1</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Apr 4.5.6</date>\n                    </cell>\n                    <cell>3</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Septr 7</date>\n                    </cell>\n                    <cell>2</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>14-15</date>\n                    </cell>\n                    <cell>4</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>23-24</date>\n                    </cell>\n                    <cell>2</cell>\n                </row>\n            </table>\n            <table cols=\"3\" rows=\"11\">\n                <row>\n                    <cell>\n                        <persName>D<add>?</add>Juan Biel</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>25 Novbr</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>9 Dec</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell><date>23</date> do</cell>\n                    <cell>14</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>24 febry</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>13 Ap</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>11 May</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>15 June</date>\n                    </cell>\n                    <cell>20</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>20 July</date>\n                    </cell>\n                    <cell>14</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>24 Aug</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>21 Sept</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n            </table>\n            <table cols=\"2\" rows=\"5\">\n                <row>\n                    <cell>\n                        <persName>Aaron Myers</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Novbr 25</date>\n                    </cell>\n                    <cell>40</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Dec 23</date>\n                    </cell>\n                    <cell>50</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Ap 10-11</date>\n                    </cell>\n                    <cell>75</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>27</date>\n                    </cell>\n                    <cell>25</cell>\n                </row>\n            </table>\n            <table cols=\"2\" rows=\"3\">\n                <row>\n                    <cell>\n                        <persName>John Moss</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Dec 2</date>\n                    </cell>\n                    <cell>5</cell>\n                </row>\n                <row>\n                    <cell>\n                        <add>?</add>\n                        <date>Sept 23</date>\n                    </cell>\n                    <cell>4</cell>\n                </row>\n            </table>\n            <p rend=\"Fourth column.\"/>\n            <table cols=\"2\" rows=\"7\">\n                <row>\n                    <cell>\n                        <persName>Jacob Levy</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Decr 2</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>March</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Apr 10&amp;11</date>\n                    </cell>\n                    <cell>50</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>May 18</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>June 29</date>\n                    </cell>\n                    <cell>50</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>July 27</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n            </table>\n            <table cols=\"2\" rows=\"3\">\n                <row>\n                    <cell>\n                        <persName>Lazarus Arnold</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Decr 2</date>\n                    </cell>\n                    <cell>1.50</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Ap 4.56</date>\n                    </cell>\n                    <cell>1.75</cell>\n                </row>\n            </table>\n            <table cols=\"2\" rows=\"6\">\n                <row>\n                    <cell>\n                        <persName>David Tobias</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Dec 2</date>\n                    </cell>\n                    <cell>67</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>March 8</date>\n                    </cell>\n                    <cell>53</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>April 10</date>\n                    </cell>\n                    <cell>14</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>13</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>May 11</date>\n                    </cell>\n                    <cell>27</cell>\n                </row>\n            </table>\n            <table cols=\"2\" rows=\"2\">\n                <row>\n                    <cell>\n                        <persName>Abm I Lutz</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Dec 2</date>\n                    </cell>\n                    <cell>$1-:-</cell>\n                </row>\n            </table>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rb6wn8p/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

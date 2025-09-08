@@ -1,0 +1,604 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Morais, Sabato; Philadelphia, PA; 2 February 1905",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30000m1j"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Morais, Sabato; Philadelphia, PA; 2 February 1905"]
+    },
+    {
+      "label": "Date",
+      "value": ["1860"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "6 pages on 11 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item210"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ff4bea6-b84a-436f-a5eb-280e6f0e595f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ff4bea6-b84a-436f-a5eb-280e6f0e595f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 7012,
+          "width": 4486,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ff4bea6-b84a-436f-a5eb-280e6f0e595f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4486,
+                "height": 7012,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ff4bea6-b84a-436f-a5eb-280e6f0e595f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/assets/2ff4bea6-b84a-436f-a5eb-280e6f0e595f/original",
+              "label": "Original File - 94.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"align(center)\">A <date>Thanksgiving</date> Address</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6954,
+          "width": 4486,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/02e582ea-cd17-4003-b930-677899d56a24%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4486,
+                "height": 6954,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/02e582ea-cd17-4003-b930-677899d56a24%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/assets/02e582ea-cd17-4003-b930-677899d56a24/original",
+              "label": "Original File - 93.8 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6954,
+          "width": 4486,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3d9173fc-64af-453f-ac3a-da0a562c095f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4486,
+                "height": 6954,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3d9173fc-64af-453f-ac3a-da0a562c095f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/assets/3d9173fc-64af-453f-ac3a-da0a562c095f/original",
+              "label": "Original File - 93.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>“Oh bless our judge people, &amp; make the voice of his praise be heard” Beloved\n                hearers! If<lb/> under what circumstance soever it is a moving light to behold the\n                creature in humble<lb/> adoration worship his Creator, the impression upon the heart\n                must be deeper still<lb/> when millions of immortal beings, prompted by community of\n                sentiments, shout a<lb/> hallelujah to their Divine Benefactor; and although the\n                manner in which their tokens<lb/> of gratitude are exhibited, may differ externally,\n                yet when the thought which pervades<lb/> the mind is but one, it will harmonize\n                every dissonance into a sweet accord. As at<lb/> the touch of the <sic>skilful</sic>\n                musician, all the keys of a stringed instrument, are attuned<lb/> into a unity of\n                sound, which delights the ear, &amp; softens the soul, so does<lb/> gratitude,\n                striking the chords of human hearts, knit them together into a single chain<lb/> of\n                godly affections. And thus is why, after he had enumerated some of the merciful\n                acts<lb/> of the Deity, the Shepherd King called upon all mankind, to raise a hymn\n                of thanks<lb/> to the Lord God of <placeName>Israel</placeName>. “Bless <hi\n                    rend=\"underline\">our</hi> God, ye people” he exclaimed, for ye all are the\n                children<lb/> of his love &amp; the recipients of his bounty. Because they first\n                acknowledged his name, he<lb/> chose the family of <placeName>Israel</placeName> as\n                a kingdom of priests, but He delights in the praise of every<lb/> creatures that has\n                breath. It is remarkable, however, that the sentence which precedes<lb/> this\n                summons of the inspired writer, and which we have selected for our text, speaks\n                of<lb/> the watchfulness of Providence in the government of nations, &amp; of his\n                wisdom in thwarting<lb/> the devices of the froward. I will <del>read</del> cite it\n                that you may ponder thereon: It was thus. “He<lb/> ruleth by his power for ever, his\n                eyes behold the nations, let not the rebellious exalt themselves”<lb/> My Friends!\n                It is to proclaim that self-same truth, that the pre-beings who populate<lb/> our\n                Commonwealth, have solemnly assembled. Do acknowledge that their prosperity as\n                Penn=<lb/>=sylvanians, and their greatness as an integral part of a glorious\n                Confederacy, spring <del>forth</del> from the<lb/> fountain of all good, they have\n                readily acquiesced in the pious request of their Governor.<lb/> They have not\n                convened together, to triumph over the issue of sanguinary battles, they have\n                not<lb/> brought the trophies of recent conquests, nor do they exult at this hour\n                because their sword<lb/> has thinned the ranks of their adversaries; they come not\n                to the dwelling of the Eternal, to rejoice<lb/> over their accession of dominion:\n                no, a nobler incentive actuates the children of the American<lb/> Republic; they\n                meet to thank the Rock of all ages, that He has vouchsafed to show unto them<lb/>\n                also the year his mercy &amp; protection. And indeed, who can gainsay, when\n                recalling to his mind<lb/> the momentous events which have rapidly succeeded each\n                other, who can gainsay, but that at the<lb/> opening of this year, they\n                    foreb<add>?</add> disasters! The honor of the nation was in jeopardy, our<lb/>\n                heirloom so precious &amp; so cherished, had been polluted &amp; the swords of\n                millions quenched in their<lb/> scabbards who curbed those vehement spirits, that\n                might have hastened to a fatal termination<lb/> a transaction which demanded\n                unparalleled discretion? God in his mercy. God “whose eyes<lb/> behold the nations”\n                stood at the right hand of the just &amp; averted from them impending<lb/> dangers.\n                He dispelled the mist which was fast gathering around our horizon, &amp; honor\n                &amp;<lb/> peace continued to harbor wither our territories. Across the mighty ocean\n                was the olive<lb/> branch wafted &amp; they with whose community of language &amp;\n                community of interests bound with<lb/> us, disavowed their connivance at any act of\n                advised contempt. But not alone from<lb/> without were the arms of the Lord extended\n                to uphold our national dignity &amp; withhold<lb/> our hand from being imbued in\n                human blood, but written likewise, He proved our stanchion<lb/> in the hour of\n                trial. A deleterious seed had taken root amidst the salubrious plants<lb/> with\n                which this garden of the <placeName>North</placeName> is replete, it rapidly spread\n                its <sic>venermous</sic> influence,<lb/> &amp; threatened to sap the tree of life,\n                beneath whose foliage, wearied humanity finds<lb/> a restoring shade. But the air of\n                heaven blighted its growth, so that the stem it<lb/> brought forth, must need wither\n                &amp; die. Ah no! God would not suffer this soil <sic>consumated</sic><lb/> to\n                freedom, to become a <placeName>land of Nod</placeName>, where the exile would be\n                denied a tranquil house.</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6954,
+          "width": 4486,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0070b779-d980-44a8-b3ca-ae6d31fbd0fd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4486,
+                "height": 6954,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0070b779-d980-44a8-b3ca-ae6d31fbd0fd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/assets/0070b779-d980-44a8-b3ca-ae6d31fbd0fd/original",
+              "label": "Original File - 93.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>for this also “is a land that the Eternal careth for, &amp; which his eyes are even\n                upon, from the<lb/> beginning of the year, even unto the end of the year” He has\n                cast a bulwark around it, He<lb/> has girded its walls with strength, He has\n                enriched it with the treasures hid in the earth.<lb/> The sea offers tributes unto\n                it, &amp; the gold of <placeName>Theba'</placeName> is poured into its lap. Like ancient<lb/>\n                <placeName>Tyre</placeName>, “the merchants thereof are true princes, and the\n                traffickers the honorable of the country”<lb/> They bid them “surfit messengers” go,\n                &amp; they return fraught with choicest products of remote<lb/> climes. With their\n                enterprising genius they have cooled, as it were, their cities &amp; towns<lb/>\n                &amp; with the velocity of thoughts, from one <add>?</add> to its opposite one, they\n                interchange<lb/> their wishes. But all this <hi rend=\"underline\">Providence</hi> has\n                wrought. Providence, “whose eyes behold the<lb/> nations” had blessed these regions\n                with an ever growing prosperity, but solely because he<lb/> had reserved them as a\n                palladium of persecuted humanity, while the oppressed of the<lb/> earth, shall reap\n                unmolested the fruits of God's bounty, new viz our &amp; new freshness,<lb/> shall\n                be added to this land of the free, but if theories subversive of the principles of\n                justice,<lb/> should ever be engrafted in their political core then......but no, it\n                shall never occur.<lb/> “God is in the midst thereof” God shall be her daily\n                guardian, that “the rebellious may<lb/> not exhalt themselves” O bless <del>our\n                    God</del> them ye people, &amp; make the voice of his praise be<lb/> heard\n                “Already in the brief period, that elapsed since we last entered his courts with\n                Thanksgiving<lb/> the Almighty gave palpable evidence of his <del>watchfulness</del>\n                vigilance over our nations preservation.<lb/> He has proven to us, &amp; to the\n                world at large, that He will rescue that matchless constitution<lb/> framed by the\n                Sages of this Republic, both from foreign machinations &amp; domestic\n                fanaticism,<lb/> &amp; even letters, when we appeared to verge towards a\n                catastrophe, his pervading spirit directed<lb/> the mind of the American\n                Constituents, that this beloved Union of ours, might not be<lb/> scathed. But I am\n                warned, that it is not <sic>not</sic> from the pulpit that the political<lb/> events\n                of the day ought to be descanted upon, &amp; truly my brethren, such was not my\n                design.<lb/> I have cursorily adverted to them, solely to draw therefrom a tribute\n                of thanksgiving to<lb/> our Celestial Benefactor. May He grant that whenever they\n                recur to our thoughts, the<lb/> feelings they shall arouse may be, like at this\n                hour, <del>a</del> noble pride &amp; heartfelt gratitude,<lb/> for, we cannot too\n                highly value that inheritance which ensures to every one, the free<lb/> exercise of\n                his religious tenets, &amp; the full possession of his inherent rights. Yet it\n                may<lb/> be, that these inestimable immunities, bequeathed to us by the venerated\n                leaders of the<lb/> revolution, have lost in the sight of their successors somewhat\n                of their excellency,<lb/> for <del>what</del> that which is daily attained without\n                any effort, fails to impress the mind<lb/> with its sterling worth. He has been ever\n                wont to set at a luxurious table, cannot<lb/> rightly imagine the pangs occasioned\n                by hunger; and <del>are</del> neither can be who has<lb/> ever basked in the sun of\n                liberty, conceive the horrors concomitant with an existence<lb/> drawn in the\n                darkness of tyranny. But ask it, my friends, ask it of them who<lb/> seek shelter\n                beneath the extensive folds of the star spangled banner, &amp; they will tell<lb/>\n                how invigorating to the mind, how vivifying to the soul is the shadow it\n                overspreads.<lb/> They who felt the iron arm of despotism, they who saw the noblest\n                of God's creatures<lb/> caged in dungeons, or scourged by the <add>?</add>, because,\n                like your immortal progenitors,<lb/> they sought to tear their shackles asunder,\n                they will say, how ineffably delight=<lb/>=ful it is to possess the consciousness of\n                one's independence, to feel certain<lb/> that no man, however great or powerful can,\n                at his will, crush another<lb/> man to the earth, and this consciousness, this\n                assurance, every one of you<lb/> carries within himself. It will beseem you\n                therefore, to <sic>forego</sic>, one day in the<lb/> year, your worldly vocations,\n                &amp; convey unto the altar of your heavenly Protector,<lb/> sentiments of\n                thankfulness, for “his eyes which behold the nations, have</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 6954,
+          "width": 4486,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0c01504b-b20a-404d-b61f-28c55bbceefb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4486,
+                "height": 6954,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0c01504b-b20a-404d-b61f-28c55bbceefb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/assets/0c01504b-b20a-404d-b61f-28c55bbceefb/original",
+              "label": "Original File - 93.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>Deigned to look down upon you with peculiar benignity. Through his<lb/> vigilance was\n                your national dignity upheld, your internal peace, maintained,<lb/> and by his grace\n                the stream of your prosperity continued to flow uninterruptedly.<lb/> But despite\n                the fruition of these blessing which God has supremely granted to us,<lb/> we might,\n                beloved hearers? be not happy. I do not mean, individually (for amid<lb/> the\n                struggles of life, nothing save an unwavering faith can render us thus) but\n                nationally.<lb/> If the Almighty “shut up the heaven that there be no rain” if the\n                sun instead of ripening<lb/> our products by a general heat, devoured the labor of\n                the husbandman, we would<lb/> lack the principal element of happiness. It was in\n                view of this incontrovertible fact that<lb/> the chief executive of our state,\n                invited us to publicly avow the mercy of the omnipotent<lb/> “who has crowned the\n                past year with his goodness, &amp; caused our paths to cross with fatings”<lb/> The\n                unusual severity of the winter did not cut off the staff of life. The vernal\n                season<lb/> was propitious, summer &amp; autumn smiled upon our soil. Not alone we\n                &amp; our children,<lb/> shall, God willing, rejoice at the teeming of our crops,\n                but nations we know not, will eat<lb/> of our plenteous harvest &amp; be satisfied.\n                Ought we not then to be thankful? Contrast<lb/> your thriving condition with that of\n                continental <placeName>Europe</placeName>. See, how a protracted war has<lb/>\n                drained the sources of wealth, see the lands which might have yielded treasures,\n                lying<lb/> fallow, because the stalworth arms of the\n                    <sic>ploughman</sic><add>?</add>, were made <del>the</del> to <sic>weild</sic>\n                the sword.<lb/> Here, poverty thicken the operatives rise against their rulers,\n                there, they are compelled to<lb/> maintain by their industry, the pageants of an\n                idle aristocracy. In one place the, so<lb/> called, servitors of religion, fatten\n                upon the hard-earned <del>earned</del> substance of the laymen, in<lb/> another the\n                riches of the country are sent afar off to replenish the coffers of foreign\n                poten=<lb/>=tates. And ought we not to be thankful? Ought not the knowledge that\n                our<lb/> opulence is solely ours &amp; our children's, <del>is</del> that handcraft\n                obtains a commensurate re<lb/>=muneration, that the ministers of religion have no\n                    <sic>ascendency</sic>, save in imparting the<lb/> dogmas of these various\n                creeds; that we recognize no master, but Almighty God, ought it<lb/> not I repeat\n                it, to swell our breasts with gratitude? But you will say, that these<lb/>\n                privileges which we enjoy, are the natural consequences of our pre-eminence in the\n                scale<lb/> of civilization. I shall not now compete your assertions, but I will\n                merely inquire whether<lb/> it is by adroitness alas that the clouds become pregnant\n                with exhalations, &amp; discharge upon<lb/> our land <add>?</add>ious rains, or\n                whether we can by our ingenuity control light &amp; heat that they<lb/> may subserve\n                our purposes. So be sure, our cooperation is <sic>needfull</sic>, nay, is\n                indispen=<lb/>sable to render the gifts of the heavens useful to men, but if the\n                former refuses us these<lb/> favors, all the combined efforts of the latter would\n                prove futile &amp; abortive. Let us then<lb/> own our utter dependence upon the\n                Creator of the universe, &amp; as we have been recom=<lb/>=mended “bless the Lord\n                our God with unison of thoughts, &amp; make the voice of his praise be heard”<lb/>\n                for he alone is the author of our maternal &amp; moral advancement. “He opens his\n                hand widely,<lb/> to satisfy <hi rend=\"underline\">every living being</hi>” Yes, by\n                filling our granaries with his goodness, he benefits mankind<lb/> at large, as well\n                as ourselves, for, strangers flock to our shores, &amp; are made participants\n                of<lb/> our affluence. By sustaining our liberal constitution, he confers a boon\n                alike open &amp; upon<lb/> the human race, because from it, the aliens together with\n                the denizens,derive security<lb/> &amp; peace. By yearly consolidating the bonds of\n                our Union, despite the machinations of spurious<lb/> children who see their\n                dissolution—he significantly demonstrates, that he will be unto this<lb/> land of\n                freedom “a wall of fire round a bout” &amp; he will be his glory in the midst\n                thereof”<lb/> Our strength then, my beloved brethren is enormable<add>?</add>,\n                because it is founded upon the execution<lb/> of what is just &amp; true; the\n                republics of antiquity, &amp; throne of medial ages crumbled into<lb/> dust, because\n                egotism &amp; self-aggrandizement were their props. They reputed <hi\n                    rend=\"underline\">themselves</hi><lb/> the source of light, &amp; the rest of\n                mankind their satellites. <placeName>Greece</placeName> &amp;\n                    <placeName>Rome</placeName> deeming<lb/> to have reached the climax of\n                civilization, looked down with disdain upon millions</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 6954,
+          "width": 4486,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8e24881a-2a20-4ae9-80be-ad70248877f7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4486,
+                "height": 6954,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8e24881a-2a20-4ae9-80be-ad70248877f7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/assets/8e24881a-2a20-4ae9-80be-ad70248877f7/original",
+              "label": "Original File - 93.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>of Gods creatures. Whosoever was born beyond their domains was styled with the\n                name<lb/> of barbarian. <persName>Venue</persName> &amp; <persName>Genon</persName>,\n                struggling for supremacy, made the <placeName>Adriatic</placeName> stream<lb/> with\n                blood. <persName>Pisa</persName> &amp; <persName>Horance</persName> jealous of each\n                other, exhausted their vigor in fratri<lb/>cidal wars, and now of their military\n                prowess, &amp; of <del>theses</del> their vast conquests, the<lb/> memory alone has\n                been left. But our strength is invisible also, my friends, because it is<lb/> not\n                borrowed from foreign bayonets, but it rests upon the moral sentiment of every\n                free<lb/> citizen. <placeName>Europe</placeName> is disorganized &amp; disrupted.\n                Compacts formed but yesterday, are to-day<lb/> barefacedly violated. Monarchs that\n                seemed to have forgotten, in struggling in the same<lb/> cause, their inveterate\n                antipathies, have proven unfaithful to one another; and now the<lb/> disgraceful\n                sight of a constitutional government leagued with a <sic>grovelling</sic> despotism,\n                is to be<lb/> exhibited to the astounded world. Why is the history of that continent\n                to be sullied by events<lb/> so opprobrious? Because its political institutions are\n                rotten to the core, &amp; to prevent their<lb/> downfall, every means, even the\n                foulest, must unscrupulously be resorted to.</p>\n            <p>But our strength is invincible, mainly because it is built upon the Rock of all ages.\n                    <hi rend=\"underline\">That</hi><lb/> has ever been our impregnable fortress. You\n                remember the motto upon the ensign of true<lb/> patriots who fought under the\n                immortal <persName>Warren</persName>. On one side the words “Appeal to heaven”<lb/>\n                were inscribed in blazing characters, whilst on the other, the later device “Zim\n                branstaht sustinet”<lb/>\n                <add>?</add> shone, as an evidence of their conviction that the <hi rend=\"underline\"\n                    >Omnipotent</hi> would have<lb/> wrought their salvation. And the same faith old\n                prove, amidst all the perils of the<lb/> revolutionary war, the sustaining power of\n                our gallant leaders. They never despaired of<lb/> success, but uplifted hands they\n                invoked the blessing of the God of battles in their sacred cause,<lb/> hence, when a\n                victory had signalized their progress, or when their enemies <del>war</del> had\n                been<lb/> routed they summoned their brethren to a solemn convocation and together\n                in the dwelling<lb/> of the Eternal “they made the voice of his praise be heard” I\n                know not, whether it is from<lb/> this ancestral <sic>habitude</sic>, that our\n                annual <date>day of thanksgiving</date> derives its origin, but spring<lb/> whence\n                it may, it argues well for the descendants of our magnanimous forefathers, it<lb/>\n                proves that although the pernicious connexion between religion &amp; politics has\n                been for<lb/> ever dissolved, yet the former refulges<add>?</add> with undimmed\n                brightness in the eyes of the sons<lb/> of <placeName>America</placeName>. It\n                proves, what the enemies of liberty, would fair <hi rend=\"underline\">dis</hi>prove,\n                that<lb/> the true of religion, takes deeper root, thrives more quickly, &amp; sends\n                its ramifications far<lb/> &amp; wide, whenever the dew of heaven irrigates a soil\n                consecrated to freedom. I call <hi rend=\"underline\">that a</hi><lb/> pure religion,\n                which, like a spring which nature has fashioned, flows spontaneously,<lb/> &amp;\n                such a religion can only be evinced, where the conscience is <sic>untramelled</sic>.\n                Here therefore,<lb/> tokens of piety, ought to be the exponent of one's inward\n                sentiments, and when we meet, like<lb/> upon this day, to raise a hallelujah to our\n                Celestial Benefactor, we should lay upon his<lb/> altar a <hi rend=\"underline\"\n                    >sincere</hi> offering of thanksgiving. The recollection of past benefits,\n                crowding our<lb/> minds, ought to make our hearts overflow with gratitude &amp; such\n                    <del>was</del> has been the purport of<lb/> my address. I have striven to\n                instill the belief that our prosperity, during the year<lb/> was the immediate\n                effect of the goodness of the Most High. But He upheld our dignity,<lb/> when it was\n                impugned, that by his unceasing watchfulness was the subtlety of<lb/> miscreants,\n                detected &amp; frustrated; that through his benignity, was our Confederacy\n                spared<lb/> the <sic>calamaties</sic> which afflict foreign climes, &amp; lastly\n                that He has, not alone for our sake<lb/> but for that of afflicted humanity—whom we\n                call brethren, &amp; whom we generously invite<lb/> to partake of our\n                happiness—powerfully cemented our glorious Union, that it may endure<lb/> “as the\n                days of heaven upon earth”. Now, my beloved hearers! <sic>if</sic> I have succeeded\n                in<lb/> bringing these solemn truths home to your hearts, I may hope to achieve a\n                still greater success<lb/> I may hope to rejoice at the supreme eminence which this\n                city of love, will attain in the<lb/> scale of religious influence. As in the days\n                of her youth, she was the <placeName>Areopagus</placeName><lb/> where the wrongs\n                against humanity were vindicated; as <del>th</del> at that primeval time of\n                    <placeName>America</placeName></p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 6956,
+          "width": 4428,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8b1df34b-937d-41e2-a20c-79cd3ba57d21%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4428,
+                "height": 6956,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8b1df34b-937d-41e2-a20c-79cd3ba57d21%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/assets/8b1df34b-937d-41e2-a20c-79cd3ba57d21/original",
+              "label": "Original File - 92.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>glory, she was the ark of the covenant, towards which the eyes of the faithful<lb/>\n                looked for their deliverance, so will she now, by exhibiting a pious demeanour,<lb/>\n                become a prototype, which millions will strive to copy. Clinging with<lb/>\n                unyielding tenacity to the charter of her noble Constitution, she will never<lb/>\n                ally herself with proscriptive castes; love is her name, &amp; from love will<lb/>\n                she draw inspiration. The memory of her unparalleled achievements, during<lb/> four\n                scores of years, will convince her, that whilst she adheres to the<lb/> doctrines of\n                her sages, she shall grow in might &amp; grandeur; but what<lb/> will impel her with\n                greater force to pursue the same course unswervingly<lb/> is the desire of doing\n                what is right in the signs of the Lord God. In<lb/> the volumes which she reveres\n                has been written “Love they neighbor as thy<lb/>=self” &amp;\n                    <placeName>Philadelphia</placeName> will ever act in pursuance to this\n                hallowed<lb/> commandment. She will not tear asunder the ties which bind her<lb/> to\n                the whole human race. She will not <del>drown</del> sink into egotism, &amp;<lb/>\n                disown those who suffer, because the land of their nativity lies beyond<lb/> her\n                boundaries, but kindles with brotherly love, she will stand erect upon<lb/> her /\n                high-places, and “come,” will she exclaim “leave ye all, who eat<lb/> the bread of\n                anguish, &amp; drain the cap of sorrow, come and call the<lb/> choicest fruits\n                planted in my garden, with them shall ye satisfy your<lb/> hunger, &amp; in my teats\n                ye shall dwell in place, for <placeName>Philadelphia</placeName> is<lb/> “the city\n                of righteousness, the city of fidelity.”</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 6954,
+          "width": 4486,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c66d68a-04d5-4912-9de3-79fbe7e11d3e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4486,
+                "height": 6954,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c66d68a-04d5-4912-9de3-79fbe7e11d3e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/assets/2c66d68a-04d5-4912-9de3-79fbe7e11d3e/original",
+              "label": "Original File - 93.8 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 6236,
+          "width": 4904,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e1c66c92-698d-44c2-8fc9-02aeae71a505%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4904,
+                "height": 6236,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e1c66c92-698d-44c2-8fc9-02aeae71a505%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/assets/e1c66c92-698d-44c2-8fc9-02aeae71a505/original",
+              "label": "Original File - 92 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>are the laws of righteousness and whose sole defender is peace. Oh! let us pray for\n                the<lb/> dawning of that joyous day when thirty five reunited States shall offer a\n                national<lb/> thanksgiving, while the symbol of their greatness shall proudly wave\n                over every<lb/>\n                <add>?</add>ome and spire. Let us pray for peace.</p>\n            <p>Parent of good! we lay prostrate at the footstool of Thy mercy and crave for\n                peace,<lb/> grateful for Thy manifold favors at all times and this year especially,\n                we yet cannot fully<lb/> rejoice in its fruition. Thou hast verily filled to\n                overflowing the cup of our prosperity, but<lb/> that of bitter sorrow is also\n                brought night to our lips. The aspect of the dead, the<lb/> agony of the wounded,\n                the moaning of the sufferers, tear our hearts. From the<lb/> insanguined battle\n                field, from the chilly and dreary camps, from the bereaved and lonely<lb/> hearth, a\n                voice rises unto Thee, O compassionate Lord! and “peace, peace” it cries. Oh I\n                send<lb/> a ray of Divine wisdom to <sic>illumme</sic> the mind of our Chief\n                Magistrate, that he may discover<lb/> the instrument of peace. Let the gentle spirit\n                of forbearance hover around the Assembly<lb/> of our Senators and <del>?</del>\n                Representatives and guide their deliberations. Repress the vehemence<lb/> of\n                zealots, and let the feelings of the obdurate be softened by tokens of brotherhood\n                and love.<lb/> May we speedily throng again. My holy courts, to thank and praise Thy\n                name, oh most High God! for the longed-for peace of our beloved Union.<lb/> and now\n                I beseech Thee O Lord! to excite within us a sentiment of patriotism, that we\n                may<lb/> enlist our names among those of our beneficent men and women who labor for\n                the sake of our<lb/> defenders at sea and on land. May our hospitals, our sanitary\n                commissions and our<lb/> soldiers and societies obtain a ready and generous\n                cooperation from those who have been taught<lb/> to believe that “Charity\n                    <del>deli?</del> delivereth from death” May such be Thy gracious will, O<lb/>\n                Heavenly Creator. Amen.</p>\n            <p>a <date>thanksgiving</date> discourse for the year <date>1864</date></p>\n            <p\n                rend=\"There is an arrow pointing, from the right, at the last line of the text above.\"/>\n            <p rend=\"The following text is added in red ink.\">This is from another sermon by\n                    <persName role=\"author\"><sic>Morris</sic></persName><lb/> NOTE the IDENTICAL\n                writing of not only<lb/> all the page <hi rend=\"underline\">but</hi> especially of\n                the<lb/> word “<date>THANKSGIVING</date>” with that on the cover<lb/> sheet of this\n                sermon</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 6348,
+          "width": 5002,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/66418a73-0816-4a4e-a609-d08d7987cb7e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5002,
+                "height": 6348,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/66418a73-0816-4a4e-a609-d08d7987cb7e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/assets/66418a73-0816-4a4e-a609-d08d7987cb7e/original",
+              "label": "Original File - 95.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p10/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/manifest/annotation/p10",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"The first 5 lines of the text are written in red ink.\"/>\n            <p rend=\"Note:\">ORIGINAL<lb/> size of letter<lb/> by<lb/>\n                <persName role=\"author\">Sabato Morais</persName><lb/> (see attached<lb/> for\n                enlargement)</p>\n            <p>at a special meeting of the Faculty of Maimonides College held<lb/> in consequence of\n                the sad<add>?</add> bereavement <del>lately</del> recently sustained by<lb/> the\n                house of <placeName>Israel</placeName>, the following preamble and resolution\n                were<lb/> unanimously adopted</p>\n            <p>Whereas the demise of the <persName>Revd Isaac Leeser</persName> is deemed by<lb/>\n                each of us a national loss, and whereas it is our conviction<lb/> that the\n                establishing of this institution was principally due<lb/> to the unremitting\n                exertions of our late colaborer, and to his<lb/> constant advocacy of religious\n                education, therefore</p>\n            <p>Resolved that we express our feelings of deep sorrow at the<lb/> loss of a man so\n                zealous for the moral welfare of his people,<lb/> so energetic in promoting the\n                culture of human knowledge, so<lb/> efficient as a professor, so exemplary assiduous\n                in the discharge<lb/> of all his duties.</p>\n            <p>Resolved that we <del>gladly</del> descry bearing our testimony to the uniform\n                kindness and<lb/> courtesy that marked his official relations with us, and to<lb/>\n                his timely and useful suggestions as <del>the</del> Provost of this college</p>\n            <p>Resolved that we will ever cherish his memory as that of a friend,<lb/> and teach\n                    <del>our</del> the students of this Institution to revere his <del>memory</del>\n                name</p>\n            <p>Resolved that these resolutions be published one of our dailies &amp; in all\n                Jewish<lb/> periodicals; <del>and</del></p>\n            <p rend=\"indent(4)\">\n                <persName role=\"author\">S. Morais</persName>\n            </p>\n            <p rend=\"indent(5)\">sect Pt.</p>\n            <p>\n                <date>February 5<hi rend=\"sup\">th</hi> 1868</date>\n            </p>\n        </body>\n    </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p11",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 6298,
+          "width": 4886,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4bd81bf4-d78f-46aa-81f5-c3d2d5c4b44f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4886,
+                "height": 6298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4bd81bf4-d78f-46aa-81f5-c3d2d5c4b44f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/canvas/p11"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000m1j/assets/4bd81bf4-d78f-46aa-81f5-c3d2d5c4b44f/original",
+              "label": "Original File - 92.5 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Theodore; November 10, 1833",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p31r6ns3s"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Theodore; November 10, 1833"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Theodore (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1833-11-10"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["4 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["New York (N.Y.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF2_11", "ilcajs_b1f1_0009"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/af100c09-197b-4e92-86b1-aae39b4e1470%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/af100c09-197b-4e92-86b1-aae39b4e1470%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5632,
+          "width": 4446,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/af100c09-197b-4e92-86b1-aae39b4e1470%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4446,
+                "height": 5632,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/af100c09-197b-4e92-86b1-aae39b4e1470%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/assets/af100c09-197b-4e92-86b1-aae39b4e1470/original",
+              "label": "Original File - 75.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <placeName>New York</placeName>\n                                        <date>Sunday Sunday 10 Nov. 1833</date>\n                              </p>\n                              <p>Dear <addressee>Leeser</addressee></p>\n                              <p rend=\"indent(2)\"><persName>Mr. Moses E. Levy</persName> (of\n                                                  <placeName>Florida</placeName>) intending to<lb/>\n                                        leave here in the morning I steal a few moments from\n                                        dinner<lb/> to address you—as otherwise I should not have\n                                        time to do so<lb/> as I have as yet not had the opportunity\n                                        of conferring with<lb/> my Brother on business matters, to\n                                        which purpose I must<lb/> devote my afternoon possibly\n                                        evening also–</p>\n                              <p rend=\"indent(1)\">We had a tedious time on <date>Friday</date>—only\n                                        reached <placeName>Birden<lb/>=town</placeName> at 1 oclock\n                                        owing to the fog in the\n                                        <placeName>Delaware</placeName>—and<lb/> waited there till\n                                        3, so as to allow the cars from <placeName>NYork</placeName>\n                                        to<lb/> arrive before we should start. In consequence of all\n                                        which<lb/> we only arrived at the wharf at 8 o'clock at\n                                        night and<lb/> after, I may say contending for our baggage,\n                                        was at last<lb/> pursuing my route up our brilliant lively\n                                                  <placeName>Broadway</placeName><lb/> Thank God\n                                        found all well, and somewhat uneasy at the<lb/> delay. Your\n                                        letters to Cousin <persName>Isaac</persName> I delivered\n                                        him, and<lb/> that for <persName>Mr. Hart</persName>, handed\n                                        to his nephew <persName>Mr. Davids</persName> to convey<lb/>\n                                        to him.</p>\n                              <p rend=\"indent(1)\">We this day were favored with delightful\n                                        weather<lb/> and altho' not a very full, a very liberal\n                                        audience to<lb/> listen to the Discourse of <persName>Dr.\n                                                  Peixotto</persName>, at our temporary\n                                        syna<lb/>-gogue, we collected about $270 which really is a\n                                        most opportune event for our society. Please mention to\n                                        ma<lb/> chere amie <persName>Miss R.</persName> this\n                                        fortunate circumstance. <sic>to</sic> wit the<lb/> delivery\n                                        of the discourse, as I pride myself (perhaps rather</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5732,
+          "width": 4472,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/330f43ab-0af5-464e-82e9-a57dd57aa85d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4472,
+                "height": 5732,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/330f43ab-0af5-464e-82e9-a57dd57aa85d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/assets/330f43ab-0af5-464e-82e9-a57dd57aa85d/original",
+              "label": "Original File - 77.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>presumptuously) on her sympathy in my behalf-having<lb/> been\n                                        acquainted with the repeated disappointment, I have<lb/> (in\n                                        common with a few others) endured on this account–<lb/>\n                                        Since I am thus <hi rend=\"underline\">fairly</hi> embarked on\n                                        a subject, than which<lb/> a more pleasing one could not\n                                        offer itself, say also that<lb/> to the <hi rend=\"underline\"\n                                                  >letter</hi> and in the very spirit of the\n                                        commands with<lb/> which I was both honored entrusted by\n                                        her—have<lb/> I fulfilled them. I delivered within a brief\n                                        hour after<lb/> my arrival her large letter to\n                                                  <persName>Miss Hortensia[?]</persName>, and\n                                                  <persName>Miss<lb/> Pesoa</persName>—and I pleased\n                                        myself <hi rend=\"underline\">doubly</hi> last evening in<lb/>\n                                        conveying the small packet intended <hi rend=\"underline\"\n                                                  >solely</hi> for the use of<lb/>\n                                        <persName>Mr. Robert P Noah</persName> c—and in spending a\n                                        few very agreeable <del>few</del><lb/> hours with the major,\n                                        his wife sister. They made many enqui<lb/>=ries, to which I\n                                        responded as well as circumstances enabled<lb/> me. Now my\n                                        dear friend, for the life and soul of me I cannot<lb/>\n                                        separate or detach from my mind the image of her, whom\n                                        I<lb/> so recently left in\n                                        <placeName>Philad</placeName>:–Prepare yourself if you\n                                        have<lb/> courage or patience, sympathy or indulgence, to\n                                        read the outpour<lb/>=ings of a doating passion. Yes if I\n                                        must allow myself<lb/> vanquished, by the blandishments of a\n                                        cultivated mind, an<lb/> amiable disposition, and a model of\n                                        domestic virtues, for so do<lb/> I esteem the idol to which\n                                        my heart (you may say impiously<lb/> or insanely)\n                                                  <sic>yeilds</sic> its homage then must you be\n                                        content to find<lb/> my letters filled with such expressions\n                                        as my feelings dictate.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 5724,
+          "width": 4528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5bc8a272-d3b5-4a67-b540-7f7aa2009cc4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4528,
+                "height": 5724,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5bc8a272-d3b5-4a67-b540-7f7aa2009cc4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/assets/5bc8a272-d3b5-4a67-b540-7f7aa2009cc4/original",
+              "label": "Original File - 78 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>I had just composed myself yesterday to address those thoughts<lb/>\n                                        which the place and occasion required. I should devote\n                                        impi<lb/>=ous supplication. When the language of the\n                                        [Hebrew] presented to<lb/> my mind the whole detail of\n                                                  <persName>Isaacs</persName> marriage with\n                                                  <persName>Rebekah</persName></p>\n                              <p rend=\"indent(1)\">Perhaps the name alone first <sic>rivetted</sic>\n                                        my attention, be it as it<lb/> may. down went my prayer\n                                        book, and I <sic>dont</sic> think I ever<lb/> perused this\n                                        interesting narrative with stronger feelings of\n                                        admiration<lb/> at the amiability and benevolence of\n                                                  <persName>Rebekah</persName>. it is true my\n                                        ideas<lb/> of gallantry could not approve the acquiescence\n                                        of the servant<lb/> suffering her to draw water for the\n                                        camels and I hope yo[?]<lb/> find in our traditions\n                                        sufficient grounds to prove, that her [?]<lb/> nature was\n                                        not imposed on to that extent. What a [?]<lb/> subject for a\n                                        discourse! Just by way of a bit of peandal[?], small<lb/> I\n                                        ask if one of our southern Belles would do the like for a\n                                        husband<lb/> even were she to know the reward before\n                                        hand—which the kind <persName>Rebe=<lb/>kah</persName> did\n                                        not. When you have nought better to write you can touch<lb/>\n                                        on this subject.</p>\n                              <p rend=\"indent(1)\">When you see <persName>Mrs. R Hart</persName>,\n                                        please tell her I delivered her<lb/> message to\n                                                  <persName>Miss Hendricks</persName>. I hope\n                                                  <persName>Mr. A</persName> has recovered, and\n                                        that<lb/> his family may enjoy better health, and enabled to\n                                        visit us soon.</p>\n                              <p>Remember me with much esteem to all enquiring friends, and<lb/> to\n                                        those whom I more particularly care for, and admire,\n                                        you<lb/> may strengthen that expression. all which I leave\n                                        to your judgt..<lb/> of me and him or her, as the case may\n                                        be.</p>\n                              <p rend=\"indent(1)\">The family desires as usual to be remembered to\n                                        you and<lb/> as ever believe me your friend <persName\n                                                  role=\"author\">Theodore</persName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 5746,
+          "width": 4690,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/484b6056-4c03-4d47-9f88-cb505a2df867%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4690,
+                "height": 5746,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/484b6056-4c03-4d47-9f88-cb505a2df867%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/assets/484b6056-4c03-4d47-9f88-cb505a2df867/original",
+              "label": "Original File - 81.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Walnut, 2d. Door west of 4th Street</placeName>\n                              </p>\n                              <p>\n                                        <persName>Mr. M. E Levy</persName>\n                                        <hi rend=\"indent(2)\">\n                                                  <placeName>Philadelphia</placeName>\n                                        </hi>\n                              </p>\n                              <p><hi rend=\"underline\">Forget not</hi>, when you write to speak on\n                                        that subject, the most pleasing, that<lb/> my mind can dwell\n                                        on– and of one which, every thing will be interesting–</p>\n                              <p rend=\"indent(7)\">\n                                        <persName role=\"author\">T.</persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31r6ns3s/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

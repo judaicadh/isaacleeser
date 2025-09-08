@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Greenewald, Jacob J.; Leeser, Isaac, Rev.; Hagerstown, MD; 16 April 1863",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3nk36r3p"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Greenewald, Jacob J.; Leeser, Isaac, Rev.; Hagerstown, MD; 16 April 1863"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1863-04-16"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Maryland -- Hagerstown",
+        "United States -- Maryland",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF10_19"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b19194c7-c690-45da-9a21-f52b30bc09f0%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b19194c7-c690-45da-9a21-f52b30bc09f0%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4640,
+          "width": 3880,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b19194c7-c690-45da-9a21-f52b30bc09f0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3880,
+                "height": 4640,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b19194c7-c690-45da-9a21-f52b30bc09f0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/assets/b19194c7-c690-45da-9a21-f52b30bc09f0/original",
+              "label": "Original File - 54 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Hagerstown</placeName>\n                <date>April 16/63</date>\n            </p>\n            <p><addressee>Rev. I Leeser</addressee>.</p>\n            <p rend=\"indent(1)\">Dear Sir.</p>\n            <p rend=\"indent(2)\">I take the liberty to address<lb/> to you these few lines to inform\n                in regard to<lb/> the proceedings of a certain gentleman named<lb/> “<persName>Rabbi\n                    Holstein</persName>” whom you gave a good<lb/>\n                <sic>reccomendation</sic> as a man who would &amp; could<lb/> with integrity fill\n                the office of a Schoet &amp;<lb/> Hassan, but I am sorry to say you were\n                greatly<lb/> mistaken in your man as you will hear from<lb/> the following facts\n                which I hope you will place<lb/> in a <sic>conspicous</sic> part of your much\n                valuable<lb/> Paper, the “Occident” for it is a disgrace to the<lb/> Jewish name.\n                    <persName>Mr Holstein</persName> came here last<lb/>\n                <date>January</date> with his family with letters of<lb/>\n                <sic>reccomendation</sic> from <persName>Rev Dr Raphel</persName> of\n                    <placeName>New<lb/> York</placeName> &amp; <persName>Rev I. Leeser</persName> of\n                    <placeName>Philadelphia</placeName> as a<lb/> man capable to instruct the\n                children of<lb/> this town in various forms &amp; rites of the<lb/> Jewish Religion\n                &amp; also to butcher for the<lb/> Jewish families of this town so that could<lb/>\n                live like true Israelites, but the disgraced his<lb/> office in the following\n                manner. First he<lb/> persuaded a certain man here a butcher &amp; a<lb/>\n                <persName>Jehuda</persName> to leave his wife &amp; children, &amp; at last<lb/> had\n                so much power over this man that he</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4640,
+          "width": 3880,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/01adc72c-f496-4535-bd5e-5a6491544d77%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3880,
+                "height": 4640,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/01adc72c-f496-4535-bd5e-5a6491544d77%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/assets/01adc72c-f496-4535-bd5e-5a6491544d77/original",
+              "label": "Original File - 54 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>left his wife &amp; children to want &amp; he (<lb/>\n                <persName>Mr Holstein</persName>) went in partnership with<lb/> this butcher &amp;\n                did not send to his business<lb/> at all for which he came for. He did not<lb/>\n                teach the children would not butcher as a (Schoet)<lb/> ought to have done) for an\n                Israelite; also on a<lb/>\n                <date>Sabbath</date> he smoked, butchered became beastly<lb/> drunk, &amp; tried\n                more than once to drive the<lb/> poor woman (whom he had ruined already by<lb/>\n                depriving the mother of a husband &amp; the<lb/> children of a father) in the street\n                &amp; insulting<lb/> her in every manner possible that he made himself<lb/> so\n                obnoxious that the children of this town<lb/> both Jews &amp; Christians stare at\n                him when they<lb/> saw him <persName>Mrs Stein</persName> the forsaken woman\n                with<lb/> her children moved in a house which was<lb/> bought by her husband &amp;\n                    <persName>Mr Holstein</persName> bought<lb/> the house from her husband so that\n                he<lb/> could drive the poor suffering soul out into<lb/> the street but he did not\n                succeed as well as he<lb/> expected for by breaking the peace so often &amp;c<lb/>\n                the law was on her side &amp; at last he was<lb/> arrested with <persName>Mr\n                    Stein</persName> &amp; placed in jail where<lb/> thanks be to the Almighty he\n                will stay there<lb/> but in my opinion he ought to rot there his<lb/> lifetime.\n                Being advised by the leading<lb/> Israelites to write the above facts so that\n                the<lb/> whole world should know it &amp; so take caution<lb/> Hoping that you will\n                correct all mistakes</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4640,
+          "width": 3880,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/671061b8-fced-462a-b394-7356d8e07ee8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3880,
+                "height": 4640,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/671061b8-fced-462a-b394-7356d8e07ee8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/assets/671061b8-fced-462a-b394-7356d8e07ee8/original",
+              "label": "Original File - 54 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>and send me the “Occident” in which you will<lb/> place it I remain</p>\n            <p rend=\"indent(9)\">Your obedient Serv't</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">Jacob J. Greenewald</persName>\n            </p>\n            <p rend=\"indent(10)\">Son of <persName>Mr Greeenewald</persName></p>\n            <p rend=\"indent(10)\">of the firm <persName>Greenewald &amp;<lb/>Kohlberg</persName></p>\n            <p rend=\"indent(11)\">\n                <placeName>No 110 N. Third</placeName>\n            </p>\n            <p>Please excuse</p>\n            <p>mistakes &amp; bad writing</p>\n            <p>N. B. Give the above to <persName>Dr Wise</persName> of\n                        <placeName><sic>Cincinatti</sic></placeName><lb/> so that he can place in\n                public print<lb/> Yours <persName role=\"author\">JJG</persName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nk36r3p/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 17 October 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p38c9rq44"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 17 October 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-10-17"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_87"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/863112d6-dcfe-44f0-a9f9-62a3299d0165%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/863112d6-dcfe-44f0-a9f9-62a3299d0165%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3218,
+          "width": 2104,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/863112d6-dcfe-44f0-a9f9-62a3299d0165%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2104,
+                "height": 3218,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/863112d6-dcfe-44f0-a9f9-62a3299d0165%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/assets/863112d6-dcfe-44f0-a9f9-62a3299d0165/original",
+              "label": "Original File - 20.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Montreal</placeName>\n                <date>17 <sic>tober</sic> 54</date>.</p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir</p>\n            <p rend=\"indent(2)\">Enclosed please find<lb/> seven dollars 37 cts amount of 4\n                (larger<lb/> size) prayer books sent less Express<lb/> charges as per a/c enclosed.\n                I hope to<lb/> sell the small ones soon but would not<lb/> wait to remit you,\n                although the books<lb/> are not yet paid for. I send by Express<lb/> because the\n                post is not safe. I once<lb/> remitted to <persName>Moss &amp; Bro.</persName> In\n                your city a small<lb/> amount which went where perhaps you<lb/> and <persName>Mr\n                    Newhouses</persName> new <add>?</add> are. <persName>Mrs<lb/> Cohen</persName>\n                sent a dollar in a letter to <persName>Sarah<lb/> Joseph</persName> a couple of\n                weeks since, that also<lb/> has been <hi rend=\"underline\">geganavd</hi><add>?</add>\n                as a worthy Bar<lb/> Tismel here is accustomed to say. It will<lb/> cost you little\n                more than post charges.</p>\n            <p rend=\"indent(1)\">It trust you have by this<lb/> time received the copy of my\n                father's<lb/> work on the “Melodies” which was ordered<lb/> to be sent you from\n                    <placeName>New York</placeName>. The <placeName>London</placeName><lb/> press\n                musical &amp; literary critics have<lb/> spoken in the highest terms of the\n                books<lb/> and pronounced the melodies incomparably<lb/> solemn. Many of these\n                melodies have</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3218,
+          "width": 2104,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0c5660b8-80b9-45bc-bac7-4ee631164ef4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2104,
+                "height": 3218,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0c5660b8-80b9-45bc-bac7-4ee631164ef4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/assets/0c5660b8-80b9-45bc-bac7-4ee631164ef4/original",
+              "label": "Original File - 20.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>been introduced into the German synagogues<lb/> of <placeName>London</placeName>\n                since the publication of<lb/> the book. I have yet received no<lb/> orders as to\n                advertising it in the <placeName>U. S.</placeName><lb/> Jewish papers; but when you\n                again<lb/> will, please let me what a square of<lb/> 10 or 12 lines will cost for\n                one year.<lb/> I regret that only a few copies have<lb/> as yet arrived, and as many\n                as I could<lb/> spare have gone to Editors—yours among<lb/> them sent from\n                    <placeName>New York</placeName>; but I need<lb/> not add I shall be much pleased\n                to<lb/> receive subscribers names from you<lb/> until you can be supplied; or if you<lb/>\n                <hi rend=\"underline\">will send me the names I may be able</hi><lb/>\n                <hi rend=\"underline\">to send the books</hi>. The work has been<lb/> very successful\n                indeed in <placeName>England</placeName>, and<lb/> as they possess the plates I hope\n                that<lb/> if they meet with due encouragement<lb/> they will issue the book at a\n                cheaper<lb/> rate, and also a volume of the chants<lb/> which are equally fine.\n                Please bring<lb/> the book prominently before your reader<lb/> It deserves honorable\n                mention.</p>\n            <p rend=\"indent(1)\"><persName>Sarah Joseph</persName> desires me to<lb/> inform you that\n                a copy of the Occident</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3218,
+          "width": 2104,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/95fd1fe4-2d53-4d35-9fb0-dcd764bf7ad2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2104,
+                "height": 3218,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/95fd1fe4-2d53-4d35-9fb0-dcd764bf7ad2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/assets/95fd1fe4-2d53-4d35-9fb0-dcd764bf7ad2/original",
+              "label": "Original File - 20.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>is left for her regularly at <persName>Mrs Cohens</persName><lb/> in\n                    <placeName>Philada</placeName>—so <persName>Mrs Cohen</persName> writes\n                her.<lb/> Now as she receives one from me—you<lb/> yourself having directed it on\n                some<lb/> occasions, there must be a mistake<lb/> here, which you will no doubt\n                rectify.</p>\n            <p rend=\"indent(1)\">As far as I have been able to learn<lb/> I regret to say our few who\n                buy prayer<lb/> books here are not likely to <add>?</add><lb/> the publication of\n                the Hebrew Edition of prayers<lb/> you propose. If those who pay $10 for a<lb/> set\n                of Hebrew are a class who would sooner<lb/> pay 8 more &amp; have a set of Hebrew\n                &amp; English<lb/> —while those who buy all Hebrew prefer<lb/> those famous 5 dollar\n                sets Feyertags<lb/> Gibethe den Sphaidim<add>?</add> published “Bey<lb/>\n                <persName>Auton Edlen vore Sch<add>?</add></persName> (may his shadow<lb/> never be\n                less—even if his paper &amp; print be<lb/> better.) This ever living house has\n                issued<lb/> more than one sugar paper edition of<lb/> prayers with (such!) spanish\n                or<lb/> rather Shponish. I once thought it<lb/> would do to print Hebrew daily\n                prayers and<lb/> spoke to you about it. But <persName>Bush's</persName><lb/>\n                <add>?</add>, and a very nice little one<lb/> printed in Amsterdam which Hazan<lb/>\n                <persName>Lyons</persName>\n                <sic>showd</sic> me when in <placeName>New York</placeName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 3218,
+          "width": 2104,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d23cee9-eb65-4799-8bd1-e80ac56f0dc5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2104,
+                "height": 3218,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d23cee9-eb65-4799-8bd1-e80ac56f0dc5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/assets/7d23cee9-eb65-4799-8bd1-e80ac56f0dc5/original",
+              "label": "Original File - 20.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>costing 25 cents put me out of <add>?</add><lb/> with such a notion.</p>\n            <p rend=\"indent(1)\">There is nothing stirring here<lb/> worth writing about. I hope\n                your<lb/> synagogue gives a head and proves<lb/> that there is plenty of room\n                for<lb/> two or even three for the Portuguese<lb/> Minhag in these days of\n                Minhag<lb/> America</p>\n            <p rend=\"indent(3)\">I remain yours truly</p>\n            <p rend=\"indent(4)\">\n                <persName role=\"author\">Abraham de Sola</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38c9rq44/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

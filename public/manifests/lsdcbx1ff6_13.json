@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Ansell, A.; Leeser, Isaac, Rev.; Buffalo, NY; 13 February 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3m902k42"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Ansell, A.; Leeser, Isaac, Rev.; Buffalo, NY; 13 February 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-02-13", "13 February 5609"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- Buffalo",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_13"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/6d35c326-9859-487c-91fc-73a2b74a7ae5%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/6d35c326-9859-487c-91fc-73a2b74a7ae5%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5930,
+          "width": 4796,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6d35c326-9859-487c-91fc-73a2b74a7ae5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4796,
+                "height": 5930,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6d35c326-9859-487c-91fc-73a2b74a7ae5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/assets/6d35c326-9859-487c-91fc-73a2b74a7ae5/original",
+              "label": "Original File - 85.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">Buffalo <date>Feby 13<hi rend=\"sup\">th</hi>\n                                                  5609</date></p>\n                              <p>Revd Sir</p>\n                              <p rend=\"indent(2)\">I am directed by the President and<lb/> Trustees\n                                        of our Congregation to inform you<lb/> that we have\n                                        established a <add>Hebrew</add>\n                                        <hi rend=\"underline\">here</hi> and<lb/> chartered the same\n                                        in the name &amp; Title of<lb/>\n                                        <add>Hebrew</add> Beth El, and they request you will\n                                        please<lb/> to Advertise the same in your valuable\n                                        publication<lb/> the Occident. We number at present\n                                                  <add>Hebrew</add><lb/> God preserve them 30\n                                        Families and I have no doubt<lb/> at no remote period will\n                                        destined to be a large<lb/> congregation and by your\n                                        inserting the following<lb/> will confer an obligation\n                                        on</p>\n                              <p rend=\"indent(9)\">Revd. Sir</p>\n                              <p rend=\"indent(9)\">yours Sincerely</p>\n                              <p rend=\"indent(9)\"><persName role=\"author\">A Ansell</persName>\n                                        Secty</p>\n                              <p rend=\"indent(7)\"><placeName>Buffalo</placeName> Hebrew Congregation\n                                        Beth El</p>\n                              <p rend=\"indent(8)\">Constituted <date>June 13<hi rend=\"sup\">th</hi>\n                                                  5608/<lb/>1848</date></p>\n                              <list type=\"simple\">\n                                        <head>List of members</head>\n                                        <item rend=\"indent(3)\"><persName>Abm Jacobs</persName>\n                                                  President</item>\n                                        <item rend=\"indent(3)\"><persName>E I\n                                                  B</persName><add>?</add> Treasurer</item>\n                                        <item rend=\"indent(3)\">\n                                                  <persName>M Fridenberg</persName>\n                                        </item>\n                                        <item rend=\"indent(3)\"><persName>I M Getske</persName>\n                                                  Trustees</item>\n                                        <item rend=\"indent(3)\">\n                                                  <persName>Saul Phillips</persName>\n                                        </item>\n                              </list>\n                              <p><persName role=\"author\">Revd A Ansell</persName> Reader &amp;\n                                        Secty.</p>\n                              <p>\n                                        <add>?</add>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5902,
+          "width": 4818,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1af8bd3c-b6f9-4c24-bc4a-4feb7c28aa82%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4818,
+                "height": 5902,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1af8bd3c-b6f9-4c24-bc4a-4feb7c28aa82%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/assets/1af8bd3c-b6f9-4c24-bc4a-4feb7c28aa82/original",
+              "label": "Original File - 85.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">The President <persName>Mr Abm Jacobs</persName>\n                                        wishes to<lb/> become a subscriber to your periodical.\n                                        and<lb/> desires that you will please to send Him your<lb/>\n                                        last publication, which in all <sic>probabilty</sic>\n                                        may<lb/> tend to others following in taking them</p>\n                              <p>Please to address</p>\n                              <p>\n                                        <persName>Abm Jacobs</persName>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Main St</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Buffalo</placeName>\n                              </p>\n                              <p>To <addressee>Revd Isaac Lesser</addressee></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4722,
+          "width": 5812,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad91ee5c-3247-4096-a617-929252794556%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5812,
+                "height": 4722,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad91ee5c-3247-4096-a617-929252794556%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/assets/ad91ee5c-3247-4096-a617-929252794556/original",
+              "label": "Original File - 82.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">\n                                        <hi rend=\"underline\">Prepaid</hi>\n                              </p>\n                              <p>\n                                        <addressee>Revd Isaac Lesser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Third Street</placeName>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_6_12.pdf\">The above\n                                                  text refers to Occident Volume 6 No. 12 page 620.\n                                                  Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k42/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

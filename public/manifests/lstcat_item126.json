@@ -1,0 +1,273 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Rehine, Zalma; Leeser, Isaac; Baltimore, MD; 18 January 1832",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3mk65v4x"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Rehine, Zalma; Leeser, Isaac; Baltimore, MD; 18 January 1832"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1832-01-18"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "1 page on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Maryland -- Baltimore",
+        "United States -- Maryland",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item126"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/4628c695-b710-46d2-ade1-7ad527e21c4c%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/4628c695-b710-46d2-ade1-7ad527e21c4c%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6202,
+          "width": 4970,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4628c695-b710-46d2-ade1-7ad527e21c4c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4970,
+                "height": 6202,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4628c695-b710-46d2-ade1-7ad527e21c4c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/assets/4628c695-b710-46d2-ade1-7ad527e21c4c/original",
+              "label": "Original File - 92.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Baltimore</placeName>\n                <date>January 18<hi rend=\"sup\">th</hi> 1832</date>\n            </p>\n            <p>Dear <addressee>Isaac</addressee></p>\n            <p rend=\"indent(1)\">I am happy to inform you that I am <sic>Quite</sic><lb/> recovered\n                from my late <sic>indispossion</sic> hope you are also much<lb/> better in health\n                enclosed is a <sic>Draught</sic> for 119 Dollars Aunt is well<lb/>\n                <persName>Mrs Depass</persName> is unwell but no more than common remember us<lb/>\n                to all our friends I am your friend &amp; — <persName role=\"author\">Zalma\n                    Rehine</persName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6202,
+          "width": 5002,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d6b44c19-eb18-4b38-88e2-67bf30d6ebf4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5002,
+                "height": 6202,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d6b44c19-eb18-4b38-88e2-67bf30d6ebf4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/assets/d6b44c19-eb18-4b38-88e2-67bf30d6ebf4/original",
+              "label": "Original File - 93.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6202,
+          "width": 4910,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d58ca209-2621-4c7f-b4cf-e4d4c3bcbbcd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4910,
+                "height": 6202,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d58ca209-2621-4c7f-b4cf-e4d4c3bcbbcd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/assets/d58ca209-2621-4c7f-b4cf-e4d4c3bcbbcd/original",
+              "label": "Original File - 91.6 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6202,
+          "width": 4980,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/77d392cb-0cd9-45eb-ba5a-2b058f825f3f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4980,
+                "height": 6202,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/77d392cb-0cd9-45eb-ba5a-2b058f825f3f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/assets/77d392cb-0cd9-45eb-ba5a-2b058f825f3f/original",
+              "label": "Original File - 92.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Mr Isaac Leeser</addressee>\n            </p>\n            <p>At the Care of <persName>A G Peixotto Esqr</persName></p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"The following is written sideways beneath the address.\"/>\n            <p rend=\"indent(1)\">81</p>\n            <p rend=\"indent(1)\">\n                <hi rend=\"underline\"> 3</hi>\n            </p>\n            <p rend=\"indent(1)\">93</p>\n            <p rend=\"indent(1)\">\n                <hi rend=\"underline\">15 26</hi>\n            </p>\n            <p rend=\"indent(1)\">\n                <hi rend=\"underline\">10 9 15</hi>\n            </p>\n            <p rend=\"indent(1)\">\n                <hi rend=\"underline\">37 58</hi>\n            </p>\n            <p rend=\"indent(1)\">1.47</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mk65v4x/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

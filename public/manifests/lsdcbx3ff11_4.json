@@ -1,0 +1,184 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Leeser, Isaac, Rev.",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3kk9545t"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Leeser, Isaac, Rev."]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Moďse, R. C. (creator)"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["3 pages on 2 sheets."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Augusta (Ga.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF11_4", "ilcajs_b3f11_0004"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b780d8ea-5167-4116-a4ec-3590f2a6dc05%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b780d8ea-5167-4116-a4ec-3590f2a6dc05%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 3600,
+          "width": 4542,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b780d8ea-5167-4116-a4ec-3590f2a6dc05%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4542,
+                "height": 3600,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b780d8ea-5167-4116-a4ec-3590f2a6dc05%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/assets/b780d8ea-5167-4116-a4ec-3590f2a6dc05/original",
+              "label": "Original File - 49.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Revd Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 3600,
+          "width": 4542,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d8f9d53c-a9ad-4220-a131-12db638df7f1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4542,
+                "height": 3600,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d8f9d53c-a9ad-4220-a131-12db638df7f1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/assets/d8f9d53c-a9ad-4220-a131-12db638df7f1/original",
+              "label": "Original File - 49.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>To the <addressee>Revd Mr. Leeser</addressee></p>\n            <p rend=\"indent(1)\">Esteemed Sir</p>\n            <p rend=\"indent(2)\">Accept my<lb/> thanks for the use of your “Reason &amp; <lb/> Faith”\n                &amp; let the assurance that they<lb/> have illumined the benighted path<lb/> of a\n                care worn <sic>traveller</sic> console you<lb/> for the loss of their use, for\n                the<lb/> last 2 months, I hope I have<lb/> benefited by the close perusal of<lb/>\n                this little work, as well as the<lb/> many others you were so kind as<lb/> to loan\n                me. I trust you have<lb/> not suffered your pen to lie dormant<lb/> since I left But\n                are providing a<lb/> rich repast for those who like my-<lb/>self hail each effort of\n                your mind,<lb/> as a new light which will guide<lb/> them on their path to\n                Celestial<lb/> Glory. I hope your health has im-<lb/>proved from your late\n                excursion<lb/> My parents sisters &amp; <persName>Sarah Anna</persName> requ<lb/>est\n                to be kindly remembered — I am</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3kk9545t/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Selena; Philadelphia, PA; 8 June 1856",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3599zn24"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Selena; Philadelphia, PA; 8 June 1856"]
+    },
+    {
+      "label": "Date",
+      "value": ["1856-06-08"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF3_16"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/92db5ba7-18e1-4047-9d5f-a77450021a02%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/92db5ba7-18e1-4047-9d5f-a77450021a02%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5379,
+          "width": 4376,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/92db5ba7-18e1-4047-9d5f-a77450021a02%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4376,
+                "height": 5379,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/92db5ba7-18e1-4047-9d5f-a77450021a02%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/assets/92db5ba7-18e1-4047-9d5f-a77450021a02/original",
+              "label": "Original File - 70.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Philadelphia</placeName>\n                <date>June 8th/56</date>\n            </p>\n            <p>Dear Friend</p>\n            <p rend=\"indent(2)\">I intended answering your<lb/> long and interesting letter,\n                yesterday, but<lb/> as I had exhausted all my stock of<lb/> news to <hi\n                    rend=\"underline\"><persName>Stella</persName></hi>, I felt myself unable to<lb/>\n                write one worthy of my friend “<hi rend=\"underline\">Bene</hi>”—<lb/> and as mother\n                intends favoring you I<lb/> believe with a few lines she wished me<lb/> to write\n                yesterday fearing you might have<lb/> left <placeName>Boston</placeName> ere my\n                letter would have<lb/> reached its destination, but I flattered<lb/> myself by\n                thinking you would not have<lb/> until you had heard from me, me-<lb/>-thinks I hear\n                you say how <add>?</add>— “very<lb/> significantly, which would not doubt<lb/> mean\n                if translated in plain english<lb/> “What presumption”! N ' importe ce m'est<lb/>\n                egale— Who would have supposed<lb/> the <persName>Reverend Isaac Leeser</persName>\n                should</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5379,
+          "width": 4376,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/821385e3-910c-4dbe-9d86-23c250ce4f0b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4376,
+                "height": 5379,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/821385e3-910c-4dbe-9d86-23c250ce4f0b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/assets/821385e3-910c-4dbe-9d86-23c250ce4f0b/original",
+              "label": "Original File - 70.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>ever have become a “meddler”, poor<lb/>\n                <persName>Mrs Cohen</persName>, her ears must have smarted<lb/> well, whilst you\n                were writing, you<lb/> draw so good a picture of the good<lb/> “hold Henglish” lady\n                and family<lb/> that you very nearly made me en-<lb/>-vious of not being in your\n                place to<lb/> have enjoyed not only their acquaintance<lb/> but their “toute\n                ensemble”, Did you<lb/> see <persName>Mrs Joseph</persName> in <placeName>New\n                    York</placeName>? I suppose<lb/> not, as you would not have lost so<lb/> good an\n                opportunity in lengthening<lb/> your letter. We expect <persName>Uncle\n                    Gershom</persName><lb/> on <date>Sunday</date> to spend a day or two with<lb/>\n                us as I do not think he will like<lb/> leaving his family for a longer time<lb/>\n                just before he goes to <placeName>Europe</placeName>.</p>\n            <p>The two <persName>Mr Moses</persName> are in town, <persName>Fred</persName><lb/> and\n                    <persName>Brandon</persName>, one from <placeName>California</placeName><lb/>\n                the other from <placeName>China</placeName>, they have been<lb/> here for a week,\n                they say they admire<lb/>\n                <placeName>Philadelphia</placeName> exceedingly, best entre</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5379,
+          "width": 4376,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6c67391a-e8c2-4a20-b373-03051c4d773d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4376,
+                "height": 5379,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6c67391a-e8c2-4a20-b373-03051c4d773d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/assets/6c67391a-e8c2-4a20-b373-03051c4d773d/original",
+              "label": "Original File - 70.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>nous—I think it is not <hi rend=\"underline\">the city</hi><lb/> that excites their\n                admiration as they<lb/> have seen nothing of it with the ex-<lb/>-ception of\n                        <placeName><hi rend=\"underline\">Chestnut</hi> St</placeName>, but a<lb/>\n                couple of <hi rend=\"underline\">our</hi> fair sex, who they are<lb/> I leave to your\n                fertile imagination—<lb/> We have had quite an excitement<lb/> lately that is within\n                the last few<lb/> days, about the election of <persName>Mayor<lb/> Judge\n                    Conrad</persName> the Whig, and <persName>Mr Vaux</persName><lb/> the\n                Democractic Candidate, the Whigs<lb/>\n                <hi rend=\"underline\">as a matter of course</hi>, gained, Father<lb/> for the <hi\n                    rend=\"underline\">first time</hi> I believe voted<lb/> for a democrat, but\n                    <persName>Mr Vaux</persName> being<lb/> a personal friend of his, could not\n                do<lb/> less. <persName>Uncle Theodore</persName> came on<lb/> last\n                    <date>Sunday</date> night and stayed till<lb/>\n                <date>Tuesday</date> afternoon, he merely came<lb/> on with\n                    <persName>Eugene</persName> to see Grandma<lb/> who is improving slowly. Have\n                you<lb/> seen <persName>Mr M. Abecassis</persName> who I hear<lb/> is in\n                    <placeName>Boston</placeName> studying law? <hi rend=\"underline\">Your\n                    friend</hi></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5379,
+          "width": 4376,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8274db0-3047-4161-b377-36dcc5c00894%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4376,
+                "height": 5379,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8274db0-3047-4161-b377-36dcc5c00894%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/assets/b8274db0-3047-4161-b377-36dcc5c00894/original",
+              "label": "Original File - 70.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><persName>Fanny Levy</persName> took tea with us <date>Tuesday</date><lb/> evening,\n                but as I had an engagement<lb/> to spend the evening out, she did not enjoy my\n                society if you go<lb/> to <placeName>Niagra</placeName> I trust you will write\n                me<lb/> a faithful description of it, and<lb/> ditto for\n                    <placeName>Canada</placeName>—, but “bevare of the<lb/> vomen”, the Canadians in\n                particular<lb/> as you know what a fine specimen<lb/>\n                <hi rend=\"underline\">we once had</hi> in <placeName>Philadelphia</placeName>,\n                chaque<lb/> à son gaut, what pleases one may not<lb/> suit another. There I am half\n                way<lb/> down the page and I promised to leave<lb/>\n                <hi rend=\"underline\">some</hi> space for mother, and I know<lb/> you would not like\n                me to break my<lb/> word so good bye, trusting this will meet<lb/> you in health I\n                remain</p>\n            <p rend=\"indent(10)\">yours truly</p>\n            <p rend=\"indent(11)\">\n                <persName role=\"author\">Selena</persName>\n            </p>\n            <p>As Ma had not an opportunity to add<lb/> in this i would not detain my letter<lb/> as\n                    <hi rend=\"underline\">I know</hi> you are all anxiety to<lb/> get, she wishes to\n                be kindly remembered<lb/> and <add>?</add> sends her <hi rend=\"underline\">fond</hi>\n                love—</p>\n            <p rend=\"letter continues upside down in top margin of page 1\">I was quite puzzled about\n                directing this<lb/>\n                <sic>wether</sic> it should be Reverend or Mr<lb/> let me know which you are in the\n                habit of<lb/> receiving</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zn24/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

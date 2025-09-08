@@ -1,0 +1,291 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Cohen, Solomon; Leeser, Isaac; Savannah, GA; 13 October 1850",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p33776f9n"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Cohen, Solomon; Leeser, Isaac; Savannah, GA; 13 October 1850"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Cohen, Solomon", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1850-10-13"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Georgia -- Savannah",
+        "United States -- Georgia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item9"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6509338-06d6-443f-b9d7-2bffd5c55307%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6509338-06d6-443f-b9d7-2bffd5c55307%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6318,
+          "width": 5112,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6509338-06d6-443f-b9d7-2bffd5c55307%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5112,
+                "height": 6318,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6509338-06d6-443f-b9d7-2bffd5c55307%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/assets/f6509338-06d6-443f-b9d7-2bffd5c55307/original",
+              "label": "Original File - 97.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Savannah</placeName>\n                <date>13 October 1850</date>\n            </p>\n            <p>My dear Sir,</p>\n            <p rend=\"indent(1)\">I received a few days ago your kind<lb/> letter,\n                    <sic>coverring</sic> the proof of an article, which<lb/> you propose to publish\n                in the next Occident;<lb/> and although you do not <hi rend=\"underline\">exactly</hi>\n                ask my<lb/> advice, I am led to infer that you desire it,<lb/> by the fact that you\n                sent me the “proof.”<lb/> I would publish no article on the subject, nor<lb/> would\n                I <hi rend=\"underline\">allude</hi> to it in any manner <hi rend=\"underline\"\n                    >what</hi>=<lb/><hi rend=\"underline\">soever</hi>, either in print, or in <hi\n                    rend=\"underline\">conversation</hi>.<lb/> You have been badly treated, but\n                neither writing<lb/> nor talking will mend the mend<add>?</add> the matter, or\n                place<lb/> you in <hi rend=\"underline\">status quo</hi>. Why then write? It will\n                give<lb/> pain to your real friends, who will think it indig=<lb/>nified and\n                pleasure to your enemies, who will<lb/> thereby see, &amp; know that you are\n                mortified. <hi rend=\"underline\">Silence</hi><lb/> will, <hi rend=\"underline\">I\n                    think</hi>, produce a reaction. <hi rend=\"underline\">I am sure</hi> it<lb/> will\n                make you friends, and that it will be more<lb/> dignified. Men should never act\n                without an<lb/> object, and what do you propose to effect by your<lb/> proposed\n                article. If however you think otherwise<lb/> I pray you strike out those words I\n                have passed<lb/> my pen through. I think you wrong to have any</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6534,
+          "width": 5206,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5186dde-26bf-43ea-a10f-ed65d66d43ea%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5206,
+                "height": 6534,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5186dde-26bf-43ea-a10f-ed65d66d43ea%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/assets/e5186dde-26bf-43ea-a10f-ed65d66d43ea/original",
+              "label": "Original File - 102 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>feeling against <persName>Mr. DeSola</persName>, or <persName>Dr. Raphall</persName>.\n                It was no<lb/> breach of friendship in the former becoming a<lb/> candidate, when\n                applications were invited by pub=<lb/>=lic advertisement; and you must admit that\n                his<lb/> offering neither injured, nor <sic>benefitted</sic> you. Your<lb/> enemies\n                were determined to put you down the<lb/> same crew had been striving for that object\n                for<lb/> twenty five years, and the wonder is that you<lb/> held your ground so\n                long. Now as to <persName>Dr. Rs.</persName> Giving<lb/> a <hi rend=\"underline\"\n                    >certificate</hi> of <hi rend=\"underline\">qualification</hi>, I have no\n                hesi=<lb/>=tancy in saying that <hi rend=\"underline\">he</hi>, and <hi\n                    rend=\"underline\">every other man</hi><lb/>\n                <hi rend=\"underline\">is bound</hi> by every principle of honor, and duty<lb/> to\n                give such a certificate whenever called on to<lb/> do so, if the party is capable. I\n                have given cer=<lb/>=tificates of qualification, when at the same<lb/> time I\n                desired an other equally capable to<lb/> receive the appointment. Try, my friend,\n                to<lb/> think differently of mankind—do not, I pray you,<lb/> suppose that every\n                body is against you. There<lb/> is good and evil in this world—and all of us\n                have<lb/> our respective shares. You may remember<lb/> an anecdote of <persName>Dr.\n                    Franklin</persName>. When about leaving<lb/>\n                <placeName>Boston</placeName> for his voyage of life, he went to see an old<lb/>\n                friend, who at his departure took him through<lb/> a dark passage by which he struck\n                his head against<lb/> a beam. The old man said, let this teach you<lb/> that you\n                must often stoop if you want to<lb/> pass through life without difficulty.\n                    <persName>Franklin</persName><lb/> took the hint, &amp; you know his\n                history.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6308,
+          "width": 5064,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8bbbc210-1c94-4b49-a21d-5151835648fc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5064,
+                "height": 6308,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8bbbc210-1c94-4b49-a21d-5151835648fc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/assets/8bbbc210-1c94-4b49-a21d-5151835648fc/original",
+              "label": "Original File - 96.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Now I, by no means, intend to advise, a mean, time<lb/> serving policy: being all\n                things unto all men<lb/> we should have fixed <hi rend=\"underline\">principles</hi>,\n                and should adhere to<lb/>\n                <hi rend=\"underline\">them</hi> at every <sic>hazzard</sic>. But there are many\n                things<lb/> in which <hi rend=\"underline\">principle</hi> is not involved, and then\n                it is<lb/> not only our right but it is our duty (if we desire<lb/> success) to use\n                the <hi rend=\"underline\">suaviter<add>?</add> in modo</hi> to flatter<lb/> (not at\n                the expense of principle) the petty vanities of<lb/> those among whom we live and to\n                bend these very<lb/> follies to our own use. If a man wants to be servic-<lb/>able\n                in his calling—be it what it may—he<lb/> must command the love and respect of\n                those<lb/> among whom his lot is cast; and to do this<lb/> he must be firm—honest\n                &amp; honorable—and he<lb/> must also yield to their wishes in <hi rend=\"underline\"\n                    >minor</hi> things.<lb/> But excuse me. I may perhaps tire you, but at<lb/> any\n                rate be assured that all that I do say<lb/> is prompted by a sincere friendship and\n                a<lb/> desire for your welfare &amp; happiness.</p>\n            <p>I would beg you to be <hi rend=\"underline\">sure</hi> of success before<lb/> you\n                undertake any of the new works you now<lb/> propose. Continue if possible the\n                Occident.<lb/> Send it hereafter to <persName>Mr. D. L. Cohen</persName>,\n                    <placeName>Savannah Geo.</placeName><lb/> who you may put down as a permanent,\n                paying<lb/> subscriber. My family join in kindest regards.</p>\n            <p rend=\"indent(8)\">Yrs most truly</p>\n            <p rend=\"indent(9)\">\n                <persName role=\"author\">Solomon Cohen</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6308,
+          "width": 5064,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5a1a04a7-f0be-40f3-96c3-a8ca5493d3fc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5064,
+                "height": 6308,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5a1a04a7-f0be-40f3-96c3-a8ca5493d3fc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33776f9n/assets/5a1a04a7-f0be-40f3-96c3-a8ca5493d3fc/original",
+              "label": "Original File - 96.1 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

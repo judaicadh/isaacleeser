@@ -1,0 +1,267 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Rosenbach, Isabella H.; Leeser, Isaac; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3tq5s111"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Rosenbach, Isabella H.; Leeser, Isaac; Philadelphia, PA; undated"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Rosenbach, Isabella H.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item113"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/ccc49d26-3ee8-4c2f-b244-3c122f76e8dd%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/ccc49d26-3ee8-4c2f-b244-3c122f76e8dd%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4376,
+          "width": 2856,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ccc49d26-3ee8-4c2f-b244-3c122f76e8dd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2856,
+                "height": 4376,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ccc49d26-3ee8-4c2f-b244-3c122f76e8dd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/assets/ccc49d26-3ee8-4c2f-b244-3c122f76e8dd/original",
+              "label": "Original File - 37.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">My dear friend,</p>\n            <p rend=\"indent(2)\">With<lb/> emotions deeper than those of sincere regret<lb/> have I\n                heard of your serious illness, and<lb/> as your medical advisers have\n                prohibited<lb/> the admittance of visitors, I cannot refrain<lb/> from giving some\n                expression to the feelings<lb/> of sympathy I entertain for your sufferings.<lb/>\n                Could I in any manner contribute to<lb/> your comfort or provide any delicacy\n                of<lb/> which you are able to partake I beg of<lb/> you to let me know as I would\n                consider<lb/> it a favor to serve you. May the God of<lb/>\n                <placeName>Israel</placeName> in whose cause you have so long<lb/> and nobly labored\n                restore you once more<lb/> to usefulness, and that he may comfort</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4376,
+          "width": 2856,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c4bce13a-010e-4b8b-b140-903e6a52df76%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2856,
+                "height": 4376,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c4bce13a-010e-4b8b-b140-903e6a52df76%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/assets/c4bce13a-010e-4b8b-b140-903e6a52df76/original",
+              "label": "Original File - 37.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>and console you in the hour of pain and<lb/> sorrow and reward you with eternal\n                happiness<lb/> prays yours sincerely</p>\n            <p rend=\"indent(2)\">\n                <persName role=\"author\">Isabella H. Rosenbach</persName>\n            </p>\n            <p>Please accept the assurance of the kind<lb/> regards of each member of our family</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4376,
+          "width": 2856,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/36222ff5-10b0-48a6-94e6-1da01b106d44%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2856,
+                "height": 4376,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/36222ff5-10b0-48a6-94e6-1da01b106d44%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/assets/36222ff5-10b0-48a6-94e6-1da01b106d44/original",
+              "label": "Original File - 37.7 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4376,
+          "width": 2856,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/dbb9e928-2887-436e-bb6f-823ea7930389%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2856,
+                "height": 4376,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/dbb9e928-2887-436e-bb6f-823ea7930389%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3tq5s111/assets/dbb9e928-2887-436e-bb6f-823ea7930389/original",
+              "label": "Original File - 37.7 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

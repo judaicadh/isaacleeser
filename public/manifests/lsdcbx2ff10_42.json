@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Marcuson, E.; Wise, Dr.; St. Paul, MN; 20 October 1863",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3sn01q4f"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Marcuson, E.; Wise, Dr.; St. Paul, MN; 20 October 1863"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Wise, Dr."]
+    },
+    {
+      "label": "Date",
+      "value": ["1863-10-20", "5623"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Minnesota -- St. Paul",
+        "United States -- Minnesota",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF10_42"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/d4892e87-fe71-45fb-9eec-ef2595f4a456%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/d4892e87-fe71-45fb-9eec-ef2595f4a456%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4460,
+          "width": 3714,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d4892e87-fe71-45fb-9eec-ef2595f4a456%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3714,
+                "height": 4460,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d4892e87-fe71-45fb-9eec-ef2595f4a456%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/assets/d4892e87-fe71-45fb-9eec-ef2595f4a456/original",
+              "label": "Original File - 49.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Saint Paul</placeName>\n                <date>October 20 5623</date>.</p>\n            <p rend=\"indent(2)\">\n                <sic>\n                    <addressee>Doctor vice</addressee>\n                </sic>\n            </p>\n            <p rend=\"indent(3)\">Sir!</p>\n            <p rend=\"indent(4)\">I am one of them,<lb/> who never read your paper, for this reason,\n                    <hi rend=\"underline\">should</hi><lb/> there be any thing <hi rend=\"underline\"\n                    >worth</hi> of reading, surely, I have<lb/> read it before, and to spend time in\n                reading the ideas<lb/> of your <hi rend=\"underline\">own</hi>! Which is indeed very\n                poor, that would<lb/> be, to waste away time, of which I am able thank God<lb/> to\n                employ it in some thing <hi rend=\"underline\">better</hi> than the fabulous<lb/>\n                paper, as <hi rend=\"underline\">you know me</hi>. But having been represented<lb/>\n                with one of your scandalous paper, and having observed<lb/> your anxiety to know my\n                where abouts is, and seeing<lb/> that none comply with your wish, I thought it\n                proper<lb/> to inform you myself, and to let you know, that I<lb/> was engaged in\n                this worthy congregation, after your unworthy<lb/> paper was read, to convince you\n                of the truth of the German<lb/> proverb, “<add>?</add><lb/>\n                <add>?</add>” Sir! You say that I am<lb/>\n                <sic>travling</sic> about as a cheat, <sic>As</sic> a convert. <sic>are</sic> you\n                able sir<lb/> to point out any place where I said that I am so or so?<lb/> I will\n                consider you one of the two; either as the <persName>king<lb/> Solomon</persName>\n                says <add>פתי מאמין לכל דבר</add>, or should it be of your own<lb/> fabrication, to\n                injure a person merely because he<lb/> is not of your opinion, you deny the coming\n                of a Messiah<lb/> and I believe in his coming, you deny the <sic>resurection</sic>,\n                and I<lb/> believe it, you say that this is not the same Bible which<lb/> the\n                Almighty gave it to us through <persName>Moses</persName>, and I believe it</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4460,
+          "width": 3714,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c09a72a6-c2be-4364-a34e-c4a9688a0536%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3714,
+                "height": 4460,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c09a72a6-c2be-4364-a34e-c4a9688a0536%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/assets/c09a72a6-c2be-4364-a34e-c4a9688a0536/original",
+              "label": "Original File - 49.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>And above all, in the name of conscience, you know<lb/> me, and all what it was\n                spoken about me, and why<lb/> have you chosen me to be one of your <add>בית\n                    דין</add> to make<lb/> the <add>גיורת</add>, why have you given me\n                    <add>קבלה</add>? Why have you<lb/>\n                <sic>deffended</sic> me against the man who spoke ill, of the<lb/>\n                <persName>Rev Mr. Rosenfield</persName>, of yourself and of me?\n                <sic>indeed</sic><lb/> sir, I see that my opinion of you from the very<lb/> first\n                time I knew you was true, I kept you for an<lb/>\n                <add>איש משוגע</add>, a <add>הפכפך</add>. It is indeed true the saying of the<lb/>\n                <add>גר\"א</add>—which in the name of <add>רבי מאיר</add> says he always<lb/>\n                considered a man by his name, and so I consider<lb/> you, it is not for nothing that\n                your name is vice,<lb/> but because you are the foundation of all viciousness<lb/>\n                since you came to this country the true faith found<lb/> its end, you trod true\n                religion under foot, you made<lb/>\n                <placeName>Israel</placeName>\n                <hi rend=\"underline\">light</hi>\n                <sic>istaed</sic> of Israelite, in short sir you<lb/> are the man who can do good to\n                none, and even to<lb/> yourself without injuring another. Now sir, I will tell<lb/>\n                you what you are if none told you yet, you are no Talmudist at<lb/> all and your\n                Philosophy indeed while a child I knew it.<lb/> You can only fool ignorant man, but\n                among learned<lb/> what do you know? nothing—know therefore that it is<lb/> this\n                only time I write to answer you, and from now you can<lb/> write whatever you\n                please, no answer will be given to you<lb/> and this time I answer you only that you\n                should not say<lb/> that you silenced me, and to show you that your slandering<lb/>\n                can do me no harm Please God, you have great <add>חוצפה</add><lb/> because you are\n                sure of being engaged for life, and I am sure<lb/> in the help of the true living\n                God of <placeName>Israel</placeName>. <persName role=\"author\">E.\n                Marcuson</persName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3sn01q4f/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

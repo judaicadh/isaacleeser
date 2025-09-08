@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Lindo, A. A.; Leeser, Isaac, Rev.; Cincinnati, OH; 14 December 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3fj29w0p"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Lindo, A. A.; Leeser, Isaac, Rev.; Cincinnati, OH; 14 December 1848"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1848-12-14", "14 December 5609"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Ohio -- Cincinnati",
+        "United States -- Ohio",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_41"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/cfa00255-454e-4894-81ad-176523cbecf2%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/cfa00255-454e-4894-81ad-176523cbecf2%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5924,
+          "width": 4782,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cfa00255-454e-4894-81ad-176523cbecf2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4782,
+                "height": 5924,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cfa00255-454e-4894-81ad-176523cbecf2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/assets/cfa00255-454e-4894-81ad-176523cbecf2/original",
+              "label": "Original File - 85.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Cincinnati Ohio</placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <date>14<hi rend=\"sup\">th</hi> December <hi rend=\"sup\"\n                                                  >5609</hi>/<hi rend=\"sub\">1848</hi></date>\n                              </p>\n                              <p>Revd Sir</p>\n                              <p rend=\"indent(2)\">I have read attentively and with much satisfaction<lb/>\n                                        <persName>Dr. Wise's</persName> address and your preliminary\n                                        and appended remarks upon<lb/> it, inserted in the Occidents\n                                        of this month. You have both spoken out<lb/> and truly\n                                        represented the many existing circumstances that are any\n                                        thing<lb/> but satisfactory to those who among us appreciate\n                                        the religion we profess<lb/> and the great part our nation\n                                        has been destined to fill in the Divine<lb/> economy. Unless\n                                        our people are now what they were when reproached as<lb/> in\n                                        Isaiah” Who is blind but my servant? Or deaf, as my\n                                        messenger<lb/> that I sent? Who is blind as he that is\n                                        perfect, and blind as the<lb/> Lord's servant? seeing many\n                                        things, but thou observest not: opening<lb/> the ears, but\n                                        he heareth not,” such appeals as yours &amp; <persName>Dr.\n                                                  Wise's</persName><lb/> cannot fail to rouse them\n                                        to a sense of what they owe to their God.—to<lb/> society\n                                        and to themselves. Through <persName>Mr. Gutheime</persName>\n                                        you will learn<lb/> those appeals have produced their effect\n                                        here. several members of the<lb/> three congregations of\n                                        this city met and adopted the resolutions he<lb/> forwards\n                                        you, a copy of which is to be sent likewise to the Trustees\n                                        of<lb/> each of the Synagogues. It is expected that the\n                                        Trustees will jointly<lb/> convene a general meeting of\n                                        their members and though the result<lb/> cannot be certainly\n                                        predicted we cherish the hope that the meeting<lb/> will\n                                        express their concurrence in the views taken by you &amp;\n                                                  <persName>Dr Wise</persName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5924,
+          "width": 4782,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/02ea5b76-749e-45d4-84b0-36a0d4663492%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4782,
+                "height": 5924,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/02ea5b76-749e-45d4-84b0-36a0d4663492%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/assets/02ea5b76-749e-45d4-84b0-36a0d4663492/original",
+              "label": "Original File - 85.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>and resolve on appointing agents to attend the meeting proposed\n                                        by<lb/> you both: probably the congregations here may\n                                        resolve to address<lb/> a circular to the several synagogues\n                                        in the Union suggestive of<lb/> each adopting a similar\n                                        course: Your meeting may then present<lb/> the imposing\n                                        character of a representation of all or of such of the<lb/>\n                                        congregations in these states as are disposed to consider\n                                        the expediency<lb/> and utility of forming the Union in\n                                        question. Should the Trustees<lb/> of the Synagogues here\n                                        convene a general meeting and the result<lb/> prove such as\n                                        we wish I will then forward you from time to time<lb/> some\n                                        details upon the objects, effects &amp;c of such a union, in\n                                        order<lb/> that being disseminated through the occident the\n                                        great importance<lb/> of the measure and the numerous\n                                        benefits that may be expected to<lb/> accrue from it to the\n                                        whole community of Jews may be generally<lb/> perceived. I\n                                        am reverend Sir</p>\n                              <p rend=\"indent(3)\">Yours truly</p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">A A. Lindo</persName>\n                              </p>\n                              <p>\n                                        <addressee>Revd Isaac Leeser</addressee>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4782,
+          "width": 5924,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/62413cbd-e611-4ea1-8f08-1b439e983c5c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5924,
+                "height": 4782,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/62413cbd-e611-4ea1-8f08-1b439e983c5c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/assets/62413cbd-e611-4ea1-8f08-1b439e983c5c/original",
+              "label": "Original File - 85.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p>\n                                        <placeName>371 Walnut Street</placeName>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_6_9.pdf\">The above\n                                                  text refers to Occident Volume 6 No. 9 pages 421\n                                                  through 436. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3fj29w0p/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

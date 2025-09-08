@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 11 May 1856",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3g15tx32"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 11 May 1856"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1856-05-11"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF3_11"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/9ca5885a-5e53-42f7-9318-f0482ccd84c7%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/9ca5885a-5e53-42f7-9318-f0482ccd84c7%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3794,
+          "width": 3288,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9ca5885a-5e53-42f7-9318-f0482ccd84c7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3288,
+                "height": 3794,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9ca5885a-5e53-42f7-9318-f0482ccd84c7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/assets/9ca5885a-5e53-42f7-9318-f0482ccd84c7/original",
+              "label": "Original File - 37.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n\t\t\t\t<placeName>Montreal</placeName>\n\t\t\t\t<date>11<hi rend=\"sup\">th</hi> May '56</date>\n\t\t\t</p>\n\t\t\t<p>\n\t\t\t\t<addressee>Rev. Isaac Leeser</addressee>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">\n\t\t\t\t<placeName>Philadelphia</placeName>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(2)\">Dear Sir</p>\n\t\t\t<p rend=\"indent(3)\">It was only upon looking into the<lb/>\n\t\t\t\t<date>May</date> Occident received two days since, that I <sic>learnd</sic> of your\n\t\t\t\tserious<lb/> loss by fire. <persName>Miss Gratz's</persName> letter informing\n\t\t\t\t\t<persName>Mrs <del>?</del> Joseph</persName> of the<lb/> occident only reached\n\t\t\t\there a day before and I had not seen <persName>Mrs J.</persName><lb/> for some days.\n\t\t\t\tWhile I sincerely regret your loss has been so great<lb/> I cannot but think you\n\t\t\t\tfortunate in having preserved your plate<lb/> which will render the reproduction of\n\t\t\t\tyour books a matter of<lb/> no great labor or loss of time. I beg leave to subjoin a\n\t\t\t\tlist of the<lb/> books with which I have been favored either by you or <persName>Mr\n\t\t\t\t\tM Joseph</persName><lb/> for sale</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<hi rend=\"underline\">Statement</hi>\n\t\t\t</p>\n\t\t\t<table cols=\"3\" rows=\"22\">\n\t\t\t\t<row>\n\t\t\t\t\t<cell role=\"label\">Books received</cell>\n\t\t\t\t\t<cell role=\"label\">To Whom Sold</cell>\n\t\t\t\t\t<cell role=\"label\">Remarks</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>per <persName>Mr Joseph</persName></cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>2 sets Prayers</cell>\n\t\t\t\t\t<cell>1 <persName>W. Benjamin</persName></cell>\n\t\t\t\t\t<cell>paid <date>8 Feb. 55</date> and</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell>1 <persName>B W Warner</persName></cell>\n\t\t\t\t\t<cell>amount have <add>?</add> to Mr</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell><persName>Joseph</persName> as per his receipt.</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>2 sets Pentateuch</cell>\n\t\t\t\t\t<cell>unsold</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>6 2,to English Bibles</cell>\n\t\t\t\t\t<cell>unsold</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>11 <persName>Dias'</persName> Letters</cell>\n\t\t\t\t\t<cell>3 sold<persName> Asher Benjamin</persName></cell>\n\t\t\t\t\t<cell>Pd <date>8 Feb</date> as per <persName>Mr Joseph</persName></cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>25 <persName>Pichatto</persName></cell>\n\t\t\t\t\t<cell>unsold</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>1 <date>Kipoor</date> Book</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Mr Benjamin</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>recd per <persName>Mr Leeser</persName></cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>4 sets Prayers</cell>\n\t\t\t\t\t<cell>1 <persName>M Kortosk</persName></cell>\n\t\t\t\t\t<cell>Pd <date>18 Feb 55</date> as per <persName>Mr Joseph</persName></cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell>1 <persName>L Benjamin</persName></cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<date>15 Aug 55</date>\n\t\t\t\t\t\t<add>?</add>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell>1 Kablinstic<add>?</add></cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<date>12 Decr 55</date>\n\t\t\t\t\t\t<add>?</add>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell>1 <persName>S Hyman</persName></cell>\n\t\t\t\t\t<cell>not yet paid</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>6 Daily <add>?</add></cell>\n\t\t\t\t\t<cell>1 <persName>L Benjamin</persName></cell>\n\t\t\t\t\t<cell>Pd <date>15 Aug'55</date>\n\t\t\t\t\t\t<add>?</add></cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell>1 <persName>L Moss</persName></cell>\n\t\t\t\t\t<cell>Pd <date>12 Dec 55</date>\n\t\t\t\t\t\t<add>?</add></cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell>1 <persName>E Moss</persName></cell>\n\t\t\t\t\t<cell><hi rend=\"underline\">these two Daily prayers</hi> Pd <date>14 Feb\n\t\t\t\t\t\t\t'56</date></cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell>1 <persName>G Benjamin</persName></cell>\n\t\t\t\t\t<cell><hi rend=\"underline\">were not paid <persName>Mr J.</persName></hi> Pd\n\t\t\t\t\t\t\t<date>13 March '56</date></cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell>1</cell>\n\t\t\t\t\t<cell>as I waited to</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell>1 not paid</cell>\n\t\t\t\t\t<cell>remit you a large</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell>amount</cell>\n\t\t\t\t</row>\n\t\t\t</table>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3794,
+          "width": 3288,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/195cd6d2-af06-4d0a-8e2c-f568e2096189%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3288,
+                "height": 3794,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/195cd6d2-af06-4d0a-8e2c-f568e2096189%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/assets/195cd6d2-af06-4d0a-8e2c-f568e2096189/original",
+              "label": "Original File - 37.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>The payments have been so tardy that I find myself unwarranted<lb/> to send you an\n\t\t\t\torder for books. I feel my inclination to do so<lb/> much greater than my ability,\n\t\t\t\tstill if you like to send a couple<lb/> of sets &amp; a few Dailys I will try what I\n\t\t\t\tcan do with them<lb/> I will remit you per <persName>Mr Joseph</persName> for the\n\t\t\t\tset sold <persName>Mr S Hymans</persName> (<add>?</add><lb/> west to the Dame\n\t\t\t\t\t<add>?</add>—perhaps a line from you may be effective)<lb/> though I\n\t\t\t\t\t<sic>dont</sic> think he will pay for it just yet—he has frequently<lb/> been\n\t\t\t\tasked. I want no disconnect on it thinking it scarcely<lb/> fair for you to pay it\n\t\t\t\ton such long credits. I will also remit<lb/> you for<lb/>\n\t\t\t\t<date>Kipoor</date> &amp; 2 Daily. The copies of the <persName>Soto</persName> Bible\n\t\t\t\tsent<lb/> out I know nothing about. <persName>Mr J.</persName> sent them out and I\n\t\t\t\tbelieve<lb/> had tried to collect the amounts, but as I have not deemed<lb/> myself\n\t\t\t\tauthorized to interfere I have refrained from pressing<lb/> payment, but if you send\n\t\t\t\tme a line (which I can show) requesting<lb/> me to obtain payment for you I think I\n\t\t\t\tmay be able to do<lb/> something for you. With respect to the Occident it is not\n\t\t\t\tmy<lb/> fault if it has not more readers here, for although I may<lb/> have deemed\n\t\t\t\tits conduct towards me not over generous, I have<lb/> always recommended it as the\n\t\t\t\t\tsuperb<add>?</add> Jewish magazine, but<lb/> my people are very like their\n\t\t\t\tbrethren <add>?</add> side the lines<lb/>\n\t\t\t\t<hi rend=\"underline\">the Journal</hi>, ledger &amp; cash Book have great interest as\n\t\t\t\tserious<lb/> reading while for lighter moments the Book of Kings (&amp;\n\t\t\t\t<add>?</add>)<lb/> obtain their share of attention. Do you intend to <add>?</add>\n\t\t\t\tyour<lb/> weekly?</p>\n\t\t\t<p rend=\"indent(4)\">I am dear sir</p>\n\t\t\t<p rend=\"indent(5)\">Yours truly</p>\n\t\t\t<p rend=\"indent(6)\">\n\t\t\t\t<persName role=\"author\">Abraham de Sola</persName>\n\t\t\t</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3288,
+          "width": 3794,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8886ce30-e925-4959-bc46-3259315b5a76%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3794,
+                "height": 3288,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8886ce30-e925-4959-bc46-3259315b5a76%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/assets/8886ce30-e925-4959-bc46-3259315b5a76/original",
+              "label": "Original File - 37.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n\t\t\t\t<addressee>Rev. Isaac Leeser</addressee>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">\n\t\t\t\t<placeName>371 Walnut Street</placeName>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(2)\">\n\t\t\t\t<placeName>Philadelphia</placeName>\n\t\t\t</p>\n\t\t</body>\n\t</text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx32/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

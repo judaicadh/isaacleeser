@@ -1,0 +1,368 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 29 March 1859",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p31c1v216"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 29 March 1859"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1859-03-29", "29 March 5619"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "5 pages on 3 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF6_5"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/46f6019b-1989-46d7-9204-ce784365ca59%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/46f6019b-1989-46d7-9204-ce784365ca59%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3982,
+          "width": 2634,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/46f6019b-1989-46d7-9204-ce784365ca59%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2634,
+                "height": 3982,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/46f6019b-1989-46d7-9204-ce784365ca59%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/assets/46f6019b-1989-46d7-9204-ce784365ca59/original",
+              "label": "Original File - 31.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Montreal</placeName>\n                <date>29 March 5619</date>.</p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(2)\">Dear Sir.</p>\n            <p rend=\"indent(3)\">If not too late please send<lb/> with the <date>March</date>\n                Occidents three copies<lb/> of your Daily Prayers—Two of the larger<lb/> 8 mo size\n                &amp; 1 of the 12 mo. edition. If<lb/> too late for the <date>March</date>\n                Occidents, and you<lb/> have no other opportunity, the parties<lb/> wanting them\n                might wait till <date>April</date>.</p>\n            <p rend=\"indent(1)\">I am much engaged just now<lb/> and have no leisure to write you at\n                any<lb/> length. I have a lecture to prepare for<lb/> the natural history society\n                who have<lb/> lately moved in a fine new building<lb/> In witness whereof I have\n                sent you a<lb/> circular wherein you may see I am<lb/> booked for next week. The\n                opening was<lb/> a very pleasant occasion.</p>\n            <p rend=\"indent(1)\">I trust to have the pleasure<lb/> of writing you soon and with\n                best<lb/> wishes for your health and welfare<lb/> Please hand enclosed to<lb/>\n                <persName>Mr Wm Florance</persName>. I am<lb/> sincerely sorry for his and <hi\n                    rend=\"underline\">your</hi> loss.<lb/> Have you any numbers<lb/> of the Asmonean\n                you<lb/> would feel disposed<lb/> to part with to complete<lb/> a set.</p>\n            <p rend=\"indent(10)\">I am Yours truly</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">Abraham de Sola</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3982,
+          "width": 2634,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6d30ea87-0876-4caa-8fad-20e29eec6562%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2634,
+                "height": 3982,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6d30ea87-0876-4caa-8fad-20e29eec6562%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/assets/6d30ea87-0876-4caa-8fad-20e29eec6562/original",
+              "label": "Original File - 31.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">INAUGURATION</p>\n            <p rend=\"align(center)\">OF</p>\n            <p rend=\"align(center)\">The New Building</p>\n            <p rend=\"align(center)\">OF THE</p>\n            <p rend=\"align(center)\">\n                <placeName>MONTREAL</placeName>\n            </p>\n            <p rend=\"align(center)\">NATURAL HISTORY SOCIETY,</p>\n            <p rend=\"align(center)\"><date>TUESDAY, FEB. 22, 1859</date>.</p>\n            <p rend=\"align(center)\">——————</p>\n            <p rend=\"align(center)\">The Museum will be opened at Seven</p>\n            <p rend=\"align(center)\">o'clock, and the Chair will be taken by</p>\n            <p rend=\"align(center)\">PRINCIPAL <persName>DAWSON</persName>, President of the\n                Society,</p>\n            <p rend=\"align(center)\">AT EIGHT O'CLOCK, PRECISELY.</p>\n            <p rend=\"align(center)\">ADDRESSES ARE EXPECTED FROM</p>\n            <p rend=\"align(center)\">HIS EXCELLENCY <persName>SIR WM. EYRE</persName>,</p>\n            <p rend=\"align(center)\"><persName>PROFESSOR HALL</persName> OF\n                    <placeName>ALBANY</placeName>,</p>\n            <p rend=\"align(center)\">THE <persName>LORD BISHOP</persName> OF\n                    <placeName>MONTREAL</placeName>,</p>\n            <p rend=\"align(center)\">THE <persName>HON. P.O. CHAUVEAU</persName>,</p>\n            <p rend=\"align(center)\">THE <persName>HON. JUDGE AYLWIN</persName>,</p>\n            <p rend=\"align(center)\"><persName>DR. HOLMES</persName>,</p>\n            <p rend=\"align(center)\">\n                <persName>F. G. JOHNSON, ESQ.</persName>\n            </p>\n            <p rend=\"align(center)\">——————</p>\n            <p rend=\"align(center)\">Several Pieces of Music will be performed</p>\n            <p rend=\"align(center)\">during the Evening.</p>\n            <p rend=\"align(center)\">\n                <emph rend=\"italics\">Recess for Promenade and Conversation</emph>\n            </p>\n            <p rend=\"align(center)\">\n                <emph rend=\"italics\">from 9 to half past 9. </emph>\n            </p>\n            <p rend=\"align(center)\">COFFEE, &amp;c., by <persName>Mr. Chas.\n                ALEXANDER</persName>.</p>\n            <p rend=\"align(center)\">TICKETS,—Gentleman's, 2s 6d; Lady's, 2s 6d,</p>\n            <p rend=\"align(center)\">including Refreshments.</p>\n            <p rend=\"align(right)\"><persName>JOHN LEEMING</persName>, Rec. Sec.</p>\n            <p/>\n            <p>Henry Rose, Printer.    [OVER.]</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3982,
+          "width": 2634,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6022ad59-266d-478a-b082-465611d841f7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2634,
+                "height": 3982,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6022ad59-266d-478a-b082-465611d841f7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/assets/6022ad59-266d-478a-b082-465611d841f7/original",
+              "label": "Original File - 31.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">The Winter Course of Lectures,</p>\n            <p rend=\"align(center)\">WHICH ARE</p>\n            <p rend=\"align(center)\">FREE TO THE PUBLIC,</p>\n            <p rend=\"align(center)\">WILL BE DELIVERED AS FOLLOWS:</p>\n            <p rend=\"align(center)\"><date>TUESDAY, 1<hi rend=\"sup\">st</hi> March</date>—Introductory\n                Lecture by the President.</p>\n            <p rend=\"align(center)\"><date>TUESDAY, 8<hi rend=\"sup\">th</hi> March</date>—By <persName\n                    role=\"author\">Rev. Dr. DeSola</persName>—Subject, “Scripture Zoology.”</p>\n            <p rend=\"align(center)\"><date>TUESDAY, 15<hi rend=\"sup\">th</hi> March</date>—By\n                    <persName>W. H. Hingston, M. D.</persName>—Subject, “Climate<lb/> of\n                    <placeName>Canada</placeName>.”</p>\n            <p rend=\"align(center)\"><date>TUESDAY, 22<hi rend=\"sup\">nd</hi>\n                    March</date>—<persName>By Rev. A. F. Kemp</persName>—Subject, “Fresh Water\n                Algae.”</p>\n            <p rend=\"align(center)\"><date>TUESDAY, 29<hi rend=\"sup\">th</hi> March</date>—By\n                    <persName>Professor S. P. Robins</persName>—Subject, “Force.”</p>\n            <p rend=\"align(center)\"><date>TUESDAY, 5<hi rend=\"sup\">th</hi> April</date>—By the\n                    <persName>Lord Bishop</persName>—Subject, “State and Prospects of<lb/> Science\n                and Literature in <placeName>Montreal</placeName>.”</p>\n            <p rend=\"align(center)\">The Lectures commence each evening at EIGHT o'clock.</p>\n            <p/>\n            <p rend=\"align(center)\">The following are the</p>\n            <p rend=\"align(center)\">OFFICERS OF THE NATURAL HISTORY SOCIETY.</p>\n            <p rend=\"align(center)\">FOR THE YEAR <date>1859</date>.</p>\n            <p rend=\"align(center)\">PRINCIPAL\n                    <persName>DAWSON</persName>,.....................................<emph\n                    rend=\"italics\">President.</emph></p>\n            <p rend=\"align(center)\"><persName role=\"author\">REV. A.\n                    DESOLA</persName>.................................1<hi rend=\"sup\">st</hi>\n                <emph rend=\"italics\">Vice President.</emph></p>\n            <p rend=\"align(center)\">THE <persName>LORD\n                    BISHOP</persName>,...................................2<hi rend=\"sup\">nd</hi>\n                <emph rend=\"italics\">Vice President.</emph></p>\n            <p rend=\"align(center)\"><persName>E. BILINGS</persName>,\n                    Esq.,.......................3<hi rend=\"sup\">rd</hi>\n                <emph rend=\"italics\">Vice President.</emph></p>\n            <p rend=\"align(center)\"><persName>JAS. FERRIER, JR., Esq.</persName>,.................\n                    <emph rend=\"italics\">Treasurer.</emph></p>\n            <p rend=\"align(center)\"><persName>W. H. HINGSTON, M.\n                    D</persName>...............................<emph rend=\"italics\">Cor.\n                    Secretary.</emph></p>\n            <p rend=\"align(center)\"><persName>JOHN\n                LEEMING</persName>,................................. <emph rend=\"italics\">Rec.\n                    Secretary.</emph></p>\n            <p rend=\"align(center)\">The Annual Subscription to the Society is $4 and one dollar\n                entrance and<lb/> diploma.</p>\n            <p rend=\"align(center)\">Persons desirous of becoming Members will please apply to any of\n                the<lb/> Officers of the Society.</p>\n            <p rend=\"align(center)\">The Canadian Naturalist, a bi-monthly Magazine is issued under\n                the</p>\n            <p rend=\"align(center)\">auspices of the Society, price $3 per annum, published by\n                    <persName>B. Dawson &amp; Sons</persName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 2606,
+          "width": 4060,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb2325e2-6607-4df3-8688-a11e8885836a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4060,
+                "height": 2606,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb2325e2-6607-4df3-8688-a11e8885836a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/assets/eb2325e2-6607-4df3-8688-a11e8885836a/original",
+              "label": "Original File - 31.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Montreal</placeName>\n                <date>29<hi rend=\"sup\">th</hi> March 59</date>\n            </p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir.</p>\n            <p rend=\"indent(1)\">The Parcel of<lb/> Asmoneans Prayers &amp; Occidents duly<lb/> came\n                to hand. For former receive<lb/> my thanks. The nos only contained<lb/> two I\n                required, should you have<lb/> any more turning up at this<lb/> time of\n                    <add>Hebrew</add> post them s. a. p.<lb/> instead of learning them. I only\n                write<lb/> you now to advise you to send<lb/> in several extra copies of your<lb/>\n                No 1 new series, as it is only by<lb/> sending them out extensively that<lb/> I can\n                hope to get you new subscribers.<lb/> I have already given more to <persName>Mr<lb/>\n                    Abm Joseph</persName> of <placeName>Quebec</placeName> who happened</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 2606,
+          "width": 4060,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/459ee1f3-9fa0-4eb0-bab7-063cd8467e6b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4060,
+                "height": 2606,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/459ee1f3-9fa0-4eb0-bab7-063cd8467e6b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/assets/459ee1f3-9fa0-4eb0-bab7-063cd8467e6b/original",
+              "label": "Original File - 31.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to be here. He will subscribe, to<lb/> send him direct his nos. I mailed<lb/> for you\n                the nos. you requested.<lb/> We have of course to prepay<lb/> one cent postage from\n                one part<lb/> of the Province to the other. I will<lb/> endeavor to make some\n                collections<lb/> for you in <date>Medianos Pesach</date>.<lb/> Tell them I am pretty\n                well engaged.<lb/> Wishing you <add>Hebrew</add></p>\n            <p rend=\"indent(9)\">I am yours truly</p>\n            <p rend=\"indent(9)\">\n                <persName role=\"author\">Abraham de Sola</persName>\n            </p>\n            <p>You had better send in<lb/> your extra copies of No 1 by mail.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31c1v216/canvas/p5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

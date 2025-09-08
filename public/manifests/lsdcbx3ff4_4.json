@@ -1,0 +1,207 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leeser, Isaac; Philadelphia, PA; 19 November 1839",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p31z42d2n"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Leeser, Isaac; Philadelphia, PA; 19 November 1839"]
+    },
+    {
+      "label": "Date",
+      "value": ["1839-11-19"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF4_4"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/3cf960d6-fb12-406e-9a2e-7e4329148c7e%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/3cf960d6-fb12-406e-9a2e-7e4329148c7e%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6518,
+          "width": 5243,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3cf960d6-fb12-406e-9a2e-7e4329148c7e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5243,
+                "height": 6518,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3cf960d6-fb12-406e-9a2e-7e4329148c7e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/assets/3cf960d6-fb12-406e-9a2e-7e4329148c7e/original",
+              "label": "Original File - 103 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"><placeName>Philadelphia</placeName>\n                <date>Nov 19th 5598</date>.</p>\n            <p>Dear Aunt.</p>\n            <p rend=\"indent(1)\">When <persName>Mr. Cohen</persName> left me on\n                    <date>Wednesday</date> afternoon he said<lb/> that he would call to see me\n                before he left, but he did not<lb/> do so, no doubt owing to the bad weather on\n                    <date>Thursday</date> evening.<lb/> I hope that before this uncle\n                        <persName>A<add>?</add></persName> is much better, and able to<lb/> help\n                himself a little, and that your eyes do not hurt<lb/> you as much as they did last\n                week. When I came<lb/> home I found that <persName>David Peixotto</persName> was\n                very sick with<lb/> the inflammatory rheumatism; he is sick yet, and<lb/> quite\n                unable to help himself, but still he is better<lb/> than he has been. It is not very\n                pleasant to be<lb/> sick at a boarding house, especially where he is if it<lb/> were\n                my case I would not be able to stand it, on account<lb/> of the greasy smell of\n                cooking which constantly salutes<lb/> one as soon as you enter the door. It is well\n                that<lb/> some folks have stronger nerves than others.\n                <persName>Rachel</persName><lb/> is the whole day with him, and <add>?</add> when\n                she can be<lb/> away from her school. It will probably not before next week<lb/>\n                that he will be able to sit up or to get up without some<lb/> assistance. Several\n                young men have sat up with him<lb/> every night, and <persName>Mrs.\n                    Cozens</persName> also one night and <persName>S.</persName>\n                <add>?</add><lb/> two. He receives a good deal of attention, as he is generally<lb/>\n                liked. I myself have not offered to stay with him; first<lb/> I am not well enough\n                to do so, and secondly, <hi rend=\"underline\">I must do to</hi><lb/>\n                <hi rend=\"underline\">all the Congregation alike</hi>, and as I cannot sit up with\n                all, I must<lb/> decline offering such assistance to all. I have been\n                frequently<lb/> to see him. He is very restless; but this is natural enough</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6518,
+          "width": 5243,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/54739595-de77-4f17-842d-64d223b4a1c5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5243,
+                "height": 6518,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/54739595-de77-4f17-842d-64d223b4a1c5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/assets/54739595-de77-4f17-842d-64d223b4a1c5/original",
+              "label": "Original File - 103 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>as he can scarcely use his hand, and could up to yesterday keep<lb/> but little in\n                his stomach. His uncle was to see him on <date>Sabbath</date>;<lb/> he invited him\n                to go to his house again but <persName>David</persName> is not able<lb/> to be\n                moved, even if he had accepted the invitation.</p>\n            <p rend=\"indent(1)\">For my own part, I feel somewhat better today; the attack<lb/> of\n                pain in my head, which I had last <date>Sunday</date> evening at your house<lb/> has\n                not left me; of course I did not expect it, knowing<lb/> that it is too good a\n                friend to leave me in a hurry. However,<lb/> thank God, I have so far without being\n                compelled to give up,<lb/> and this is about all I can look for with my rickety\n                health.</p>\n            <p rend=\"indent(1)\">I had partly looked for a letter; but I hope not to be too<lb/> long\n                    d'<sic>sappointed</sic>.</p>\n            <p rend=\"indent(1)\">Please tell uncle that I will write to him as soon as<lb/> he can\n                read again; but at present he had better not be<lb/> d'sturbed with such things. My\n                best regard to <persName>Messrs. Judah</persName><lb/> &amp;\n                    <persName>Block</persName>, <persName>Mrs. Dr. Pass</persName>, <persName>Mrs.\n                    Block</persName>, <persName>Mr. &amp; Mrs. Cohen</persName>, the\n                    <persName>Ettings</persName><lb/> and <persName>Abby</persName> &amp;\n                    <persName>Rachel</persName>. Do not however omit <persName>Mr. Anger</persName>\n                and<lb/> other inquiring friends; likewise <persName>Dr. Potter</persName> &amp;\n                cousin <persName>Ben</persName>.</p>\n            <p rend=\"indent(1)\">As <persName>Mr Weil</persName> said he was going today to\n                    <placeName>Baltimore</placeName><lb/> I shall put up three Daily Prayer Books to\n                complete the<lb/> sets you have at your house; if he does not go I shall send<lb/>\n                this by mail without the books of course.</p>\n            <p rend=\"indent(1)\">Wishing you much health &amp; happiness</p>\n            <p rend=\"indent(6)\">I remain</p>\n            <p rend=\"indent(6)\">your obt nephew</p>\n            <p rend=\"indent(7)\"><persName role=\"author\">Isaac Leeser</persName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31z42d2n/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

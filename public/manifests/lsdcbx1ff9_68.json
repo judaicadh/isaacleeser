@@ -1,0 +1,317 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leo, Ansel; Leeser, Isaac, Rev.; New York, NY; 13 October 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p34747b7x"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Leo, Ansel; Leeser, Isaac, Rev.; New York, NY; 13 October 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-10-13", "13 October 5612"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_68"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/79c5d8a4-9804-43cb-8d09-9c2fde95c0fd%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/79c5d8a4-9804-43cb-8d09-9c2fde95c0fd%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4404,
+          "width": 3602,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/79c5d8a4-9804-43cb-8d09-9c2fde95c0fd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3602,
+                "height": 4404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/79c5d8a4-9804-43cb-8d09-9c2fde95c0fd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/assets/79c5d8a4-9804-43cb-8d09-9c2fde95c0fd/original",
+              "label": "Original File - 47.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>New York 144 Thompson St.</placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <date>Oct 13<hi rend=\"sup\">th</hi> 5612</date>\n                              </p>\n                              <p>Dear Sir/</p>\n                              <p rend=\"indent(1)\">I missed you at the consecration of our<lb/> new\n                                        synagogue. I believe had you been present you<lb/> would\n                                        have been pleased with the ceremony. I enclose<lb/> you a\n                                        Book containing the form of service for the<lb/> occasion,\n                                        and will also give you a short description<lb/> in the way\n                                        of criticism upon the whole according to the<lb/> best of my\n                                                  <sic>judgement</sic>. The Building I am told is\n                                        Gothic<lb/> but as I do not understand architectural terms I\n                                        will not<lb/> attempt a description of it, it is however\n                                        according to my<lb/> taste the most beautiful synagogue I\n                                        have ever seen. It<lb/> is yet in an unfinished state this\n                                        in a measure marred<lb/> the effect on the day of\n                                        consecration yet still under this<lb/> great disadvantage it\n                                        was a most beautiful picture, the<lb/> Ladies Gallery was so\n                                                  <sic>crouded</sic> that it was found\n                                        necessary<lb/> to seat many <del>Ladies</del> below in the\n                                        body of the building<lb/> which was very full without being\n                                                  <sic>crouded</sic>. The Mayor<lb/> and authorities\n                                        of the city were all present But the<lb/>\n                                        <add>חזנים</add> of the synagogues various (who were all\n                                        invited) were nearly<lb/> all absent. I however noticed that\n                                                  <persName>Doctor Lilienthal</persName> was<lb/>\n                                        there. The orchestra which were composed of the most<lb/>\n                                        eminent Professional men in the city was truly\n                                        beautiful<lb/> the opening symphony or overture called\n                                        Joseph composed<lb/> by <persName>Mehul</persName> was most\n                                        splendidly performed. The chorus<lb/> composed of Boys &amp;\n                                        men numbering 25 were exceedingly well</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4404,
+          "width": 3602,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9bc4ce26-d49c-4e4a-81b9-86658fcb5193%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3602,
+                "height": 4404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9bc4ce26-d49c-4e4a-81b9-86658fcb5193%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/assets/9bc4ce26-d49c-4e4a-81b9-86658fcb5193/original",
+              "label": "Original File - 47.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>drilled and performed their parts admirably—the six<lb/> first\n                                                  <add>מזמורים</add> were all <sic>chaunted</sic> by\n                                        me which was not<lb/> according to my original intention as\n                                        each <add>חזן</add> had been<lb/> presented with a\n                                                  <add>מזמור</add> but as they were not present\n                                        I<lb/> was obliged to undertake the whole. The\n                                                  <sic>chaunting</sic> was<lb/> in the old style by\n                                        verse and next verse <del>answered</del> by chorus<lb/>\n                                        accompanied by the organ until the few concluding\n                                        verses<lb/> which were sang by the <add>in the old style by\n                                                  חזן verse and next verse</add> to original music\n                                        composed<lb/> by my Brother <persName>Louis Leo</persName>\n                                        of <placeName>London</placeName>—accompanied either by<lb/>\n                                        the organ or the Band. The 7<hi rend=\"sup\">th</hi>\n                                        <add>חזן</add> was arranged<lb/> as a Trio—sang by\n                                                  <persName>Mr Lichtenstein</persName>\n                                        <persName>Master Hecht</persName> and<lb/>\n                                                  myself—<add>מזמור</add> was sang by myself and\n                                        chorus<lb/> accompanied by the full band—next came\n                                                  <persName>Dr <sic>Raphhalls</sic></persName><lb/>\n                                        sermon (no doubt you have seen it published as a composition\n                                        of its merit<lb/> I will not speak but it occupied too long\n                                        a time and<lb/> the long prayer composed by the late\n                                                  <persName>Dr Herschel</persName> read in<lb/>\n                                        Hebrew by the Doctor and the long list of Donations<lb/>\n                                        which amounted to nearly $2000 so completely tired<lb/> the\n                                        congregation that many left—next came that<lb/> splendid\n                                        composition of the late <persName>professor\n                                                  Harwitz</persName> one<lb/> verse of which was\n                                        adapted by <persName>Dr Raphall</persName> for the<lb/>\n                                        occasion—next the <add>מזמור לדוד</add> sung by me\n                                        accompanied by the<lb/> full orchestra, and the Finale\n                                                  <add>נותן תשועה</add> by the chorus<lb/> and full\n                                        orchestra—the whole occupied about<lb/> three hours and a\n                                        half and I suppose the sermon<lb/> the prayer &amp; the\n                                                  <add>הללויה</add> occupied at least 2 hours<lb/>\n                                        and ¼ this great length of the sermon &amp;c &amp;c\n                                        added<lb/> to the one hours delay before commencing was\n                                        the<lb/> only reasonable fault that could be found with\n                                        the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4404,
+          "width": 3602,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/72938da4-0ae3-4b6d-b89e-47194cd5f86d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3602,
+                "height": 4404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/72938da4-0ae3-4b6d-b89e-47194cd5f86d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/assets/72938da4-0ae3-4b6d-b89e-47194cd5f86d/original",
+              "label": "Original File - 47.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>ceremony. Upon the whole the congregation were<lb/> highly\n                                        delighted, and I rec<hi rend=\"sup\">d</hi> many flattering\n                                        compliments<lb/> from members as well as strangers for the\n                                        manner<lb/> in which I had <sic>superinteded</sic> the\n                                        whole—the Gentlemen<lb/> of the orchestra were delighted\n                                        with the music<lb/> composed by my Brother who wrote it\n                                        about 20<lb/> years ago for the consecration of the London\n                                        Synagogue<lb/> in <placeName>St Albans Place,\n                                                  Haymarket</placeName>, where my late Father<lb/>\n                                        was <add>מי שברך</add> the ode by the late\n                                                  <persName>Professor Hurwitz</persName> was\n                                        also<lb/> written for the same occasion.</p>\n                              <p rend=\"indent(1)\">The Trustees being impressed by the great\n                                        labor<lb/> I had in getting up this ceremony presented<lb/>\n                                        me with a very liberal sum of money as a<lb/> mark of their\n                                        approbation for the service I had<lb/> rendered them.</p>\n                              <p rend=\"indent(1)\">This my dear Sir is a rough sketch which<lb/> you\n                                        can make use of or not just as it suits<lb/> you—and if you\n                                        please to insert the<lb/> particulars in the Occident rest\n                                        assured<lb/> there is no exaggeration or prejudice in<lb/>\n                                        any one of the facts stated</p>\n                              <p>Trusting that this will find you in excellent<lb/> health</p>\n                              <p rend=\"indent(8)\">I am Dear Sir</p>\n                              <p rend=\"indent(8)\">yours faithfully</p>\n                              <p rend=\"indent(8)\">\n                                        <persName role=\"author\">Ansel Leo</persName>\n                              </p>\n                              <p>To</p>\n                              <p rend=\"indent(1)\">\n                                        <addressee>Revd I. Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">&amp;c &amp;c &amp;c</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 3602,
+          "width": 4404,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/da4070a7-c0b7-4a1d-9f75-08f8a9a7a999%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4404,
+                "height": 3602,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/da4070a7-c0b7-4a1d-9f75-08f8a9a7a999%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/assets/da4070a7-c0b7-4a1d-9f75-08f8a9a7a999/original",
+              "label": "Original File - 47.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">&amp;c &amp;c &amp;c</p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34747b7x/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leeser, Isaac; Rehine, Zalma; Philadelphia, PA; 18 June 1835",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3h708m3w"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Leeser, Isaac; Rehine, Zalma; Philadelphia, PA; 18 June 1835"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Rehine, Zalma"]
+    },
+    {
+      "label": "Date",
+      "value": ["1835-06-18", "21 Sivan 5595"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item27"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/35765a3b-7bd7-4699-9224-f52fae35f73a%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/35765a3b-7bd7-4699-9224-f52fae35f73a%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6154,
+          "width": 4940,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/35765a3b-7bd7-4699-9224-f52fae35f73a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4940,
+                "height": 6154,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/35765a3b-7bd7-4699-9224-f52fae35f73a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/assets/35765a3b-7bd7-4699-9224-f52fae35f73a/original",
+              "label": "Original File - 91.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                <placeName>Philadelphia</placeName>\n                <date>June 18<hi rend=\"sup\">th</hi>. Sivan 21<hi rend=\"sup\">st</hi>. 5595</date>\n            </p>\n            <p>Dear Uncle.</p>\n            <p rend=\"indent(1)\">Last Evening <persName>Mr Goldsmidt</persName> gave me your letter\n                of the<lb/> day before while at <persName>Mr. Solis'</persName> to marry\n                        <persName>Israel<add>?</add> Levy</persName> of\n                    <placeName>Richmond</placeName> to<lb/>\n                <persName>Mr S.'s</persName> daughter. I am really glad to understand that you\n                are<lb/> so much better and only hope it may long continue to be the<lb/> same. You\n                want the news of this place<lb/> but as I am engaged as you well know from early in\n                the morning to late in the evening<lb/> I do hear but little. But some few Items I\n                will just tell. Yester-<lb/>day week <persName>Miss Israel</persName> was married;\n                the wedding went off delightfully<lb/> people danced, sang &amp; were merry. Some\n                remained till three or four in<lb/> the morning, and I staid till near ½ past\n                eleven. The same may be<lb/> said of yesterday's <sic>frolick</sic>; there was\n                almost literally “fife, fiddle &amp;<lb/> drum,” or tambourine, fiddles &amp;\n                    <sic>clarionett</sic>, I left also about ½ aft. 11<lb/> and already I am up a\n                little after 5 to send this if possible by<lb/>\n                <persName>David I. Cohen</persName> whom I just stumbled upon in the street\n                yester-<lb/>day morning during a recess which I gave to the boys, in consequence\n                of<lb/> keeping them in till 2 on account of the wedding. <persName>Mr.\n                    Allen</persName><lb/> made a Berit<add>?</add> last <date>Thursday</date>, which\n                is the fourth we have<lb/> had in about three weeks. This year thus far there have\n                been 10<lb/> funerals, 9 Berits and three weddings, besides several female\n                children<lb/> were born during this same periods. <persName>Miss Rose\n                    Hays</persName> is to be<lb/> married this fall to <persName>Mr. Charles\n                    Marx</persName> of <placeName>Richmond</placeName>, but this<lb/> no doubt is\n                old news. <persName>Mr. Mordecai</persName> was here during the<lb/> holydays, when\n                I delivered an address on education, I have not<lb/> yet received it back; I believe\n                that it was not very well<lb/> received by many on account of its coming home too\n                much; but<lb/> this of course cannot be avoided, when one wishes to do his duty.<lb/>\n                <persName>Mr. Mordecai</persName> came here for the purpose of leaving\n                    <persName>Laura</persName> at<lb/> a boarding school; she appears to be a very\n                fine girl. I understand<lb/> that <persName>Miss Peixotto</persName> is learning the\n                stock making business; I believe<lb/> it must be true, altho' she did not tell me so\n                herself. My <sic>scholl</sic> now<lb/> numbers 16 boys; <persName>David\n                    Sarfaty</persName> has not yet come, and I doubt whether<lb/> he will come in a\n                hurry. <persName>Simha P.</persName> told me that she had heard but not direct</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6154,
+          "width": 4940,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e9bf716b-340f-4519-a548-982cae3e938e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4940,
+                "height": 6154,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e9bf716b-340f-4519-a548-982cae3e938e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/assets/e9bf716b-340f-4519-a548-982cae3e938e/original",
+              "label": "Original File - 91.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>from her uncle <persName>Peixotto</persName> that <persName>Mr. Sarfaty</persName>\n                did not approve of my circular;<lb/>\n                <persName>Mr. S.</persName> by the way is a very intelligent man, but rather too\n                fond of setting<lb/> himself up as a literary judge and <sic>critick</sic>, and in\n                this way he has <sic>criticised</sic><lb/> some of my sermons which I allowed\n                    <persName>Simha</persName> to copy and send to him,<lb/> which however to me\n                appears rather ridiculous as his education<lb/> has been by no means one from which\n                a man could derive that<lb/> peculiar talent so requisite to form a correct judgment\n                of literary com-<lb/>positions, which is full as difficult as book-keeping or buying\n                &amp; selling<lb/> dry goods and groceries. Several people have spoken about sending\n                their<lb/> children but I know not whether they are coming or not. <persName>Miss\n                    Rebecca<lb/> Phillips</persName> desired me to convey to you her regrets at not\n                having seen you.<lb/> She sends her love, as do also many others.\n                    <persName>Theodore</persName> wrote to me and he<lb/> &amp;\n                    <persName>Myrtilla</persName> both desire their affectionate remembrance.\n                    <persName>Isaac Seixas</persName><lb/> inquires about you all in a letter I got\n                on <date>Monday</date>. <persName>Mr. Goldsmit</persName><lb/> &amp; <persName>Mr\n                    Hyneman</persName> were much gratified by your hospitality.</p>\n            <p rend=\"indent(1)\">Give my love to aunt and all the rest. Not having any more time<lb/>\n                they must excuse me for being brief.</p>\n            <p rend=\"indent(3)\">Your affectionate nephew</p>\n            <p rend=\"indent(4)\"><persName role=\"author\">Isaac Leeser</persName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6154,
+          "width": 4940,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/546d1f98-be98-469c-a7f2-50b38ef70e96%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4940,
+                "height": 6154,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/546d1f98-be98-469c-a7f2-50b38ef70e96%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/assets/546d1f98-be98-469c-a7f2-50b38ef70e96/original",
+              "label": "Original File - 91.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6154,
+          "width": 4940,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2759d1fa-bf65-4533-99fb-92dd43293cf1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4940,
+                "height": 6154,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2759d1fa-bf65-4533-99fb-92dd43293cf1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/assets/2759d1fa-bf65-4533-99fb-92dd43293cf1/original",
+              "label": "Original File - 91.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                <addressee>Mr. Zalma Rehine</addressee>\n            </p>\n            <p rend=\"align(center)indent(1)\">\n                <placeName>HolyDay Street</placeName>\n            </p>\n            <p rend=\"align(center)indent(2)\">\n                <placeName>Baltimore</placeName>\n            </p>\n            <p>Favour of <persName>Mr. D. I. Cohen.</persName></p>\n            <p>—-K. S. P.—</p>\n            <p rend=\"The following is... The following is written sideways below the address.\"/>\n            <table cols=\"3\" rows=\"4\">\n                <row>\n                    <cell/>\n                    <cell>50</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>62</cell>\n                    <cell>50</cell>\n                    <cell>131</cell>\n                </row>\n                <row>\n                    <cell>\n                        <hi rend=\"underline\">68</hi>\n                    </cell>\n                    <cell>\n                        <hi rend=\"underline\">32</hi>\n                    </cell>\n                    <cell>\n                        <hi rend=\"underline\">62</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell>130</cell>\n                    <cell/>\n                    <cell>293</cell>\n                </row>\n            </table>\n            <p>\n                <hi rend=\"underline\">9</hi>\n            </p>\n            <p>\n                <hi rend=\"underline\">3</hi>\n            </p>\n            <p>6</p>\n            <p>1</p>\n            <p>1</p>\n            <p>1</p>\n            <p>\n                <hi rend=\"underline\">1</hi>\n            </p>\n            <p>10</p>\n            <p>\n                <hi rend=\"underline\">2</hi>\n            </p>\n            <p>8</p>\n            <p>1</p>\n            <p>1</p>\n            <p>1</p>\n            <p>1</p>\n            <p>\n                <hi rend=\"underline\">1</hi>\n            </p>\n            <p>13</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3h708m3w/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

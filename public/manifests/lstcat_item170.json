@@ -1,0 +1,195 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3r786867"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Philadelphia, PA; undated"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item170"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/2061a8c4-dccb-4c8c-ae61-0e13eae5a758%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/2061a8c4-dccb-4c8c-ae61-0e13eae5a758%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6176,
+          "width": 5004,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2061a8c4-dccb-4c8c-ae61-0e13eae5a758%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5004,
+                "height": 6176,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2061a8c4-dccb-4c8c-ae61-0e13eae5a758%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/assets/2061a8c4-dccb-4c8c-ae61-0e13eae5a758/original",
+              "label": "Original File - 92.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<list type=\"ordered\">\n                <head/>\n                <item n=\"1\">\n                    <date>Friday Oct. 23<hi rend=\"sup\">rd</hi> 1857</date> child of <persName>Joseph\n                        Newhouse</persName><add>?</add> in family lot</item>\n                <item n=\"2\">\n                    <del>?</del>\n                    <date>Sunday Feb. 28. 58</date>\n                    <persName>Miriam Gans</persName> Mount Sinai Cemetery</item>\n                <item n=\"3\">\n                    <date>August 12 1858</date>\n                    <persName>Mrs Henrietta Cromelier</persName> In Libris<add>?</add> Lot</item>\n                <item n=\"4\">\n                    <date>Sep. 5<hi rend=\"sup\">th</hi> 1850</date>\n                    <persName>Mrs Eve Bloomingdale</persName> In <persName>B's</persName> Lot</item>\n                <item n=\"5\">\n                    <date>October 17.1818</date>\n                    <persName>Gertrude Bloomingdale</persName> “</item>\n                <item n=\"6\">\n                    <date>October 20.1850</date>\n                    <persName>Miss Isabella Moses</persName> Mount Sinai Cemetery</item>\n                <item n=\"7\">\n                    <date>October 21. 1858</date>\n                    <persName>Hart Levy</persName> in regular row</item>\n                <item n=\"8\">\n                    <date>Novbr 3.</date>\n                    <persName>Clara Aub</persName> In <persName>Aub's</persName> Lot</item>\n                <item n=\"9\">\n                    <date>January 26<hi rend=\"sup\">th</hi> 1859</date>\n                    <persName>Rebecca Binswanger</persName> in Mount Sinai</item>\n                <item n=\"10\">\n                    <date>February 16. 1859</date>\n                    <persName>Mrs Myrtilla Florance</persName> In <persName>Florance's</persName>\n                    Lot</item>\n                <item n=\"11\">\n                    <date>Feb. 25<hi rend=\"sup\">th</hi>. 1859</date>\n                    <persName>Arnold Myers</persName>\n                    <persName>Miss A Myer's</persName> Lot.</item>\n                <item n=\"12\">\n                    <date>April 11<hi rend=\"sup\">th</hi></date> “ 2 children of <persName>Moses\n                        Shloper</persName> regular row</item>\n                <item n=\"13\"> “</item>\n                <item n=\"14\">\n                    <date>May 18<hi rend=\"sup\">th</hi></date> “ <persName>Ak. Kaufman</persName>\n                    “</item>\n                <item n=\"15\">\n                    <date>July 18.</date> “ <persName>Mrs Cornelia Lichtenstein</persName> “</item>\n                <item n=\"16\">\n                    <date>July 26</date> “ <persName>Mini Binswanger</persName> Mount\n                    L<add>?</add></item>\n                <item n=\"17\">\n                    <date>Oct. 17</date> “ <persName>Leah Esther Friedebrg</persName>\n                    <persName>Fr's</persName> Lot.</item>\n                <item n=\"18\">\n                    <date>Nov. 18</date>\n                    <persName>Samuel De Lissa</persName> seporah</item>\n                <item n=\"19\">\n                    <date>March 11. 1860</date>\n                    <persName>Mrs Amelia Ezekiel</persName>\n                    <persName>E's</persName> Lot</item>\n                <item n=\"20\">\n                    <date>April 16</date> Child of <persName>Mr Weil</persName> Regular Row</item>\n                <item n=\"21\">\n                    <date>May 23</date> “ of <persName>Moses Shlifar</persName> “</item>\n                <item n=\"22\">\n                    <date>June <del>2</del>3</date> “ of <persName>Danl Polack</persName> “</item>\n                <item n=\"23\">\n                    <date>July 26</date>\n                    <persName>Johan<add>?</add> Hertz</persName> 14 years “ </item>\n                <item n=\"24\">\n                    <date>July 26</date>\n                    <persName>Morais Henry Hernberger</persName> “</item>\n                <item n=\"25\">\n                    <date>Sept. 9</date>\n                    <persName>Joseph Nathan</persName>\n                    <persName>I. Nathan's</persName> Lot</item>\n                <item n=\"26\">\n                    <date>Sep. 29</date>\n                    <persName>Meta Nathans</persName> M—</item>\n                <item n=\"27\">\n                    <date>Oct 3</date>\n                    <persName>Mrs Fanny Levy</persName> M. S.</item>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6160,
+          "width": 4968,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/54399597-22a8-476b-a30f-779c970c12a7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4968,
+                "height": 6160,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/54399597-22a8-476b-a30f-779c970c12a7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/assets/54399597-22a8-476b-a30f-779c970c12a7/original",
+              "label": "Original File - 92 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<item n=\"28\">\n                    <date>Oct. 15. 1860</date> child of <persName>Armand Levy</persName> N.\n                    P.</item>\n                <item n=\"29\">\n                    <date>Nov 19</date>—<persName>Solomon Hirch</persName> 17 —</item>\n                <item n=\"30\">\n                    <date>Dec.</date>\n                    <add>?</add> child of <persName>Benj.</persName>\n                    <add>?</add> —</item>\n                <item n=\"31\">\n                    <date>Dec. 18</date>\n                    <persName>Abraham Abel</persName> —</item>\n                <item n=\"32\">\n                    <date>Jan 3</date>\n                    <add>?</add>\n                    <add>?</add>\n                    <persName>Rhine</persName>\n                    <persName>Rhines</persName> Lot</item>\n                <item n=\"33\">\n                    <date>Jan 6</date> – <persName>Flora Elean</persName> R. R</item>\n                <item n=\"34\">\n                    <date>Jan 15</date> – <persName>Miss Pesche Sternberger</persName> R. R.</item>\n            </list>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3r786867/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

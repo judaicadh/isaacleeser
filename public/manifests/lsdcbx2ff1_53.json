@@ -1,0 +1,264 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Davis, Michael M.; Leeser, Isaac, Rev.; Petersburg, USA; 12 June 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p34b2xr1z"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Davis, Michael M.; Leeser, Isaac, Rev.; Petersburg, USA; 12 June 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-06-12"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_53"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/fbd3598d-0d27-4c98-b040-c208ddc904cc%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/fbd3598d-0d27-4c98-b040-c208ddc904cc%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4610,
+          "width": 3648,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fbd3598d-0d27-4c98-b040-c208ddc904cc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3648,
+                "height": 4610,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fbd3598d-0d27-4c98-b040-c208ddc904cc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/assets/fbd3598d-0d27-4c98-b040-c208ddc904cc/original",
+              "label": "Original File - 50.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Petersburg</placeName>\n                <date>June 12th 1854</date>\n            </p>\n            <p rend=\"indent(1)\">\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">\n                <placeName>Phila.</placeName>\n            </p>\n            <p rend=\"indent(2)\">Dr Sir</p>\n            <p rend=\"indent(3)\">Enclosed I hand you<lb/> draft on <persName>Driscel<add>?</add>\n                    &amp; Co</persName> your city for 151 47/100 Dolls<lb/> being the amount paid in\n                for your works<lb/> sent me, and subscriptions to Occident—as pr<lb/> statement\n                annexed—I have the remainder of<lb/> the books here—subject to your order—I do<lb/>\n                not think the prospect of selling them here<lb/> is very good—however I will use my\n                best<lb/> endeavours for your interest. <persName>Sol Myers</persName> has<lb/>\n                removed to <placeName>Richmond</placeName> &amp; I will send him his<lb/> Bible by\n                first opportunity &amp; collect the amt.<lb/>\n                <persName>Mr Feldenheimer</persName> has removed to <placeName>Baltimore</placeName>.<lb/>\n                <persName>Mr Kating</persName> says he only took your Occident for<lb/> about four\n                mos. and consequently did not pay<lb/> me. <persName>Mr B. A. Davis</persName>\n                declined purchasing the set<lb/> Prayer Books. Doubtlessly you have thought me<lb/>\n                very remiss in not attending to this matter before<lb/>\n                <del>this</del>—and not without reason, for a long time<lb/> has elapsed since the\n                receipt of your letter—but<lb/> really the cares and duties of business have\n                been<lb/> so very pressing as to leave me little leisure<lb/> to attend to any\n                business entrusted to me</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4350,
+          "width": 3560,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/19718ce8-d7ef-4c65-a217-493dd983ee2a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3560,
+                "height": 4350,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/19718ce8-d7ef-4c65-a217-493dd983ee2a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/assets/19718ce8-d7ef-4c65-a217-493dd983ee2a/original",
+              "label": "Original File - 46.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>apart from my own. Hoping my delay in<lb/> this affair has caused no serious\n                inconvenience<lb/> or embarrassment on your part and best<lb/> wishes for your good\n                health, prosperity and<lb/> success I remain</p>\n            <p rend=\"indent(11)\">Yours very Truly</p>\n            <p rend=\"indent(11)\">\n                <persName role=\"author\">Michael M. Davis</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4350,
+          "width": 3560,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a45c4fe5-9916-457a-809b-6c63261ebc9a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3560,
+                "height": 4350,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a45c4fe5-9916-457a-809b-6c63261ebc9a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/assets/a45c4fe5-9916-457a-809b-6c63261ebc9a/original",
+              "label": "Original File - 46.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Cr—(<hi rend=\"underline\">the following for accts as named</hi>)—</p>\n            <table cols=\"4\" rows=\"13\">\n                <row>\n                    <cell><persName>Goodman Davis</persName>—</cell>\n                    <cell>Bible</cell>\n                    <cell>$12 4 yrs subs. to Occident $12</cell>\n                    <cell>$24.00</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>B. A. Davis</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>12 —————————</cell>\n                    <cell>12.00</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>P. Abrahams</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>8 —————————</cell>\n                    <cell>8.00</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>George Davis</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>12 —————————</cell>\n                    <cell>12.00</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Mark Davis</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>12 1 set Prayer Bks $25</cell>\n                    <cell>37.00</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Geo H. Davis</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>8 2 yrs subs. To Occident $6</cell>\n                    <cell>14.00</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Geo Lyon</persName>\n                    </cell>\n                    <cell>———</cell>\n                    <cell>4 “ “ “ $12</cell>\n                    <cell>12.00</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Newman Heo</persName>\n                    </cell>\n                    <cell/>\n                    <cell>2 “ “ “ 6</cell>\n                    <cell>6.00</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Levi Philips</persName>\n                    </cell>\n                    <cell/>\n                    <cell>1 “ “ “</cell>\n                    <cell>3.00</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Micheal M Davis</persName>\n                    </cell>\n                    <cell/>\n                    <cell>1 set Prayer Books</cell>\n                    <cell>\n                        <hi rend=\"underline\"> 25.00</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell/>\n                    <cell>$153.00</cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell>less 1% for Exch.</cell>\n                    <cell>\n                        <hi rend=\"underline\"> 1 53</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell>Amt Draft enclosed</cell>\n                    <cell>$ 151.47</cell>\n                </row>\n            </table>\n            <p>Books remaining in my possession</p>\n            <list type=\"simple\">\n                <head/>\n                <item>1 Gilt Edge Bible</item>\n                <item>1 Marble “</item>\n                <item>1 set Prayer Books</item>\n                <item>8 <persName>Dias</persName> Letters</item>\n            </list>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34b2xr1z/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 29 June 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3np1x156"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 29 June 1848"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Sola, Abraham de, 1825-1882", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["29 June 1848", "29 June 5608"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_18"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/47950597-a71d-4573-8a31-0befdf4bfc29%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/47950597-a71d-4573-8a31-0befdf4bfc29%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4884,
+          "width": 3098,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/47950597-a71d-4573-8a31-0befdf4bfc29%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3098,
+                "height": 4884,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/47950597-a71d-4573-8a31-0befdf4bfc29%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/assets/47950597-a71d-4573-8a31-0befdf4bfc29/original",
+              "label": "Original File - 45.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Montreal</placeName>\n                                        <date>June 29, 5608</date>\n                              </p>\n                              <p>\n                                        <addressee>Rev Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">My dear Friend</p>\n                              <p rend=\"indent(4)\">I can very readily excuse<lb/> you for what I\n                                        began to think was a little piece<lb/> of neglect on your\n                                        part in delaying to write me a long<lb/> note that I know\n                                        what was the cause one which I<lb/> regalled much to hear,!\n                                                  <add>Hebrew</add> you are not to <add>?</add><lb/>\n                                        yourself for a <add>Hebrew</add> It is true that in no\n                                        period<lb/> of their existence nationally, did our brethren\n                                        stand in greater<lb/> need of instruction and of being\n                                        aroused to a due sense of their<lb/> duty than now, and\n                                        therefore, I still continue to say <add>Hebrew</add><lb/>\n                                        but do not let your health suffer by so doing, why not\n                                        take<lb/> a little recreation? Why not take a trip into\n                                                  <placeName>Montreal</placeName> this summer?<lb/>\n                                        Do you wait for a formal invitation? Here is one for you\n                                        there<lb/> “The <persName>Rev Abraham deSola</persName> sees\n                                        also many other friends will be most<lb/> happy to see the\n                                                  <persName>Rev Isaac Leeser</persName> in\n                                                  <placeName>Montreal</placeName> during the\n                                        present<lb/> summer, when, should the <persName>Rev. I\n                                                  L.</persName> determine upon coming, they<lb/>\n                                        will <sic>will</sic> endeavor to make the arrangements\n                                        which<lb/> will enable him to pass his time as pleasurably\n                                        as it is possible<lb/> to do in so outlandish a place ”\n                                        Please excuse the pink edged<lb/> not paper, but seriously,\n                                        dear Friend, I think that a trip to<lb/>\n                                        <placeName>Canada</placeName> would do you much good, and I\n                                        shall be delighted to see<lb/> you, to find you a room, to\n                                        show you my books, and (probably)<lb/> to grovel with you\n                                        over their contents.</p>\n                              <p>Receive my best thanks for your kindness in inserting the long<lb/>\n                                        notice of my lecture, I have not the least doubt as to the\n                                        party<lb/> who sent it, He <hi rend=\"underline\">is</hi> an\n                                        esteemed friend of mine, and one I believe<lb/> with whom\n                                        you are also well acquainted but as you don't<lb/> mention\n                                        names I shall not.</p>\n                              <p>You misunderstand me as regards the <add>Hebrew</add>. My object\n                                        was<lb/> to publish it in the same way as\n                                                  <persName>English's</persName> book was\n                                        republished<lb/> in <placeName>Jamaica</placeName> It would\n                                        have been an anonymous publication—<lb/> this I think I\n                                        neglected to tell you, as I write in haste, My<lb/> object\n                                        was further, to <add>?</add> from you as the person\n                                        most<lb/> able to inform me, whether there were reading\n                                        Israelites enough<lb/> in <placeName>America</placeName> to\n                                        pay for the printing of the book, not to<lb/> make it a\n                                        course of profit, that of course I would not expect.<lb/> I\n                                        know as well as you (excuse nay indulgence) that\n                                        neither<lb/> pudding nor fame was to be derived from it, but\n                                        such</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4884,
+          "width": 3098,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8acf5d43-4884-4eb2-a7f0-f4dbc0b518fa%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3098,
+                "height": 4884,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8acf5d43-4884-4eb2-a7f0-f4dbc0b518fa%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/assets/8acf5d43-4884-4eb2-a7f0-f4dbc0b518fa/original",
+              "label": "Original File - 45.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>is my estimation of the work, that I think it would do<lb/> a great\n                                        deal of good, were it generally known. I did not at all<lb/>\n                                        expect, my dear Friend, that you would gather\n                                        subscriptions<lb/> To repeat your own words “That figure is\n                                        out of the question.”<lb/> I only <add>?</add> open for what\n                                        you have readily given me<lb/> your advise, and\n                                        co-operation. Many thanks for your<lb/>\n                                        <add>?</add> as to fishing in troubled waters. I am well\n                                        convinced<lb/> I can assure you of the value &amp; truth of\n                                        what you say, but in<lb/> case of being attacked by some of\n                                        our christian friends (which I<lb/> think would be unlikely,\n                                        the publication being anonymous<lb/> I would always be in\n                                        possession of the <add>?</add> provide) by some<lb/>\n                                        <add>?</add> of controversial writers on our side the\n                                        auction so that<lb/> at all events I should have the means\n                                        if not the capability to<lb/> give them drubbing for\n                                        drubbing. I have no wish however as<lb/> I know my own\n                                        (insufficiency, to enter into controversial<lb/>\n                                        disputation, and if I desired to give to the public some of\n                                        my<lb/> translations <hi rend=\"underline\">as my own</hi> and\n                                        which I have by me I<lb/> certainly would not choose the\n                                                  <add>Hebrew</add> but rather my <hi\n                                                  rend=\"underline\">humble</hi><lb/> renderings of\n                                        our <hi rend=\"underline\">Rabbinical</hi> writers, I am more\n                                        attached to them<lb/> than to Lituanian<add>?</add>\n                                                  Caraibes<add>?</add> and always was so. Tell me,\n                                        how<lb/> would you like to receive some of these\n                                        translations for<lb/> publication in the Occident, and then,\n                                        before the matter is distributed<lb/> print off\n                                                  <sic>seperately</sic>, say 500 copies of them I\n                                        paying the difference<lb/> and receiving the books or you\n                                                  <sic>takeing</sic> those with me in the\n                                        profits<lb/> and leaving the proportionate expense. The\n                                        difference could not<lb/> be very great as there would be\n                                        but little alteration to be<lb/> made in the matter before\n                                        it is distributed and merely<lb/> the expense of paper &amp;\n                                        press work. I am sure I could dispose<lb/> of many in\n                                                  <placeName>England</placeName>\n                                        <add>?</add>. I have promised to<lb/> contribute to the\n                                        Occident and I don't know why one should<lb/> not derive\n                                        mutual benefit from the course first proposed—</p>\n                              <p>Please understand me, I do not mean that the <add>Hebrew</add>\n                                        should<lb/> so appear, but smaller works such as the\n                                                  <add>Hebrew</add><lb/>\n                                        <add>Hebrew</add> translations of<lb/> which I have made\n                                        although not completed. <sic>Dont</sic> think<lb/> either\n                                        that it is a mania for printing which leads me<lb/> to\n                                        propose this but receive it as a casual thought the<lb/>\n                                        value and practicability of which you are yourself to<lb/>\n                                        determine in your next communication. But let me</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4884,
+          "width": 3098,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7f48b953-28fc-4f2a-9500-6df0027e8e84%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3098,
+                "height": 4884,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7f48b953-28fc-4f2a-9500-6df0027e8e84%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/assets/7f48b953-28fc-4f2a-9500-6df0027e8e84/original",
+              "label": "Original File - 45.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>remind you, that selections from the writings of\n                                                  <persName>Maimonides</persName> were<lb/>\n                                        published by <persName>Bernard</persName>, though not those\n                                        which I have.<lb/> The book sold well among christians and\n                                        even among Jews<lb/> no doubt because the author was a\n                                                  chestiuvuad<add>?</add>.</p>\n                              <p rend=\"indent(1)\">You will ere this have received the first\n                                                  <sic>instalment</sic> of my<lb/> promised article\n                                        on the settlement of the Jews in\n                                                  <placeName>England</placeName>. It<lb/> is a dark\n                                        subject and perhaps you and your readers may say<lb/> a\n                                        profitable one, but it is one which I was compelled to\n                                        write<lb/> in my lecture on the Jews of\n                                                  <placeName>England</placeName> and you have it in\n                                                  <add>?</add><lb/> form. The Sermon or the\n                                                  <add>Hebrew</add> you will perceive is<lb/> one of\n                                        a series therefore if you have not already published<lb/> it\n                                        and will press it back a month or so, inducting the<lb/>\n                                        Enquiry “instead, I will send you one or two others on\n                                        the<lb/> same subject. With the 2<hi rend=\"sup\">nd</hi>\n                                        <sic>instalment</sic> of the “Enquiry” some<lb/> you\n                                                  <sic>you</sic> will have enough of my scribbles\n                                        has at least<lb/> 3 Occidents to come i.e. If you reckon the\n                                        Sermon and<lb/> publish the <sic><hi rend=\"underline\"\n                                                  >instalments</hi></sic> separately if you print\n                                        them<lb/> together pray let me know for I am quite in the\n                                        dark as to your<lb/> proceedings as we get the Occidents so\n                                        late here, but not<lb/> here only. Why should <persName>Mrs\n                                                  Joel</persName> of <placeName>London</placeName>\n                                        say she had not<lb/> received any for the last 3 months.\n                                        Prenez garde, Monsieur le<lb/> Redacteur! Thanks for the\n                                                  aptra<add>?</add> she sent me. I shall<lb/> (in\n                                        return/) expect the same favor every time any papers of<lb/>\n                                        mine may be inserted. I send you a report (or rather a<lb/>\n                                        digest of one since it would be inconvenient to send so\n                                        much<lb/> paper, of the first years operations of our\n                                        society. If you<lb/>\n                                        <sic>dont</sic> feel inclined to publish all the\n                                                  <add>?</add> names<lb/> it contains, pray do not,\n                                        but just say 'an those will that<lb/> “there follow the\n                                        names” The committees wanted to give the people enough<lb/>\n                                        but I think the feel stated should be quite sufficient. I am\n                                        quite pleased with <persName>Mrs Jacob<lb/>\n                                                  Joseph</persName>, lately arrived among us, and\n                                        indeed so<lb/> are all here. She is extremely amiable and\n                                        intelligent<lb/> I regret much that I have not been able to\n                                        see her<lb/> as often as I could wish. Preuis<add>?</add> le\n                                        temps viendra<lb/> Pray do not allow so long &amp; time to\n                                        intervene</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4884,
+          "width": 3098,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/35b3f403-a028-40a8-bdbb-42a6c4c26f0d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3098,
+                "height": 4884,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/35b3f403-a028-40a8-bdbb-42a6c4c26f0d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/assets/35b3f403-a028-40a8-bdbb-42a6c4c26f0d/original",
+              "label": "Original File - 45.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>before writing again By the way, your letter is dated<lb/>\n                                        <date>1<hi rend=\"sup\">st</hi> June</date> and I did not\n                                        receive it till the <date>27<hi rend=\"sup\">th</hi></date>\n                                        with<lb/> the Occidents. Stand when you write, write\n                                        fully.</p>\n                              <p rend=\"indent(1)\">Now dear friend farewell for the present<lb/> with\n                                        earnest prayers for your perfect health and<lb/> general\n                                        welfare believe me</p>\n                              <p rend=\"indent(4)\">Very truly yours</p>\n                              <p>\n                                        <placeName>\n                                                  <sic>1 Pres deVille Plase</sic>\n                                        </placeName>\n                              </p>\n                              <p rend=\"indent(5)\">\n                                        <persName role=\"author\">Abraham deSola</persName>\n                              </p>\n                              <p>A lady (<persName>Miss Miriam Belisario</persName>) formerly a\n                                        pupil<lb/> of mine has lately published a Hebrew &amp;\n                                        English <add>?</add><lb/> advertised in the day to Jewish\n                                        papers as <add>Hebrew</add> &amp; he<lb/>she wishes that she\n                                        has sent me a copy, but<lb/> having entrusted it to some\n                                        person to <add>?</add> me, who<lb/> was going out to\n                                                  <placeName>Canada</placeName> I have not yet seen\n                                        it.<lb/> I would otherwise have written a review (for the\n                                        sake of<lb/> old acquaintanceship) for the Occident. If you\n                                        feel<lb/> disposed to resign the post of honor, or\n                                                  <sic>dont</sic> intend<lb/> writing one, pray send\n                                        me the books per first<lb/> opportunity and I will endeavor\n                                        to do the<lb/> needful.</p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_6_3.pdf\">The above\n                                                  text refers to Occident Volume 6 No. 3 pages 143\n                                                  through 148. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3np1x156/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Nathan, M. N.; Leeser, Isaac; Kingston, Jamaica; 6 March 1863",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3hd7pd03"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Nathan, M. N.; Leeser, Isaac; Kingston, Jamaica; 6 March 1863"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1863-03-06"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "6 pages on 6 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Jamaica -- Kingston",
+        "Jamaica",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item99"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5c36a22-394f-46ef-92cd-d568ec84ffaf%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5c36a22-394f-46ef-92cd-d568ec84ffaf%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4616,
+          "width": 2990,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5c36a22-394f-46ef-92cd-d568ec84ffaf%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2990,
+                "height": 4616,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5c36a22-394f-46ef-92cd-d568ec84ffaf%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/assets/e5c36a22-394f-46ef-92cd-d568ec84ffaf/original",
+              "label": "Original File - 41.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>96 Orange St.</placeName>\n            </p>\n            <p rend=\"align(right)\"><placeName>Kingston Jam</placeName>: <date>6<hi rend=\"sup\"\n                        >th</hi> March<lb/>1863</date>.</p>\n            <p>My dear <addressee>Mr. Leeser</addressee>.</p>\n            <p rend=\"indent(1)\">I duly acknowledge<lb/> your last 2 letters, and the receipt of<lb/>\n                Occidents and 3 copies of the printed<lb/> Edition of the Pentateuch. You must<lb/>\n                like all good and loyal citizens of the<lb/> great Republic, submit to the\n                difficulties<lb/> of the present situation. When so much<lb/> paper is required for\n                    <hi rend=\"underline\">Green Backs</hi> and<lb/> other numerous varieties of\n                notes, issued<lb/> for the maintenance of public credit, the<lb/> Editor of the\n                Occident should not grumble<lb/> at the rise in price of printing material.<lb/>\n                Sacrifices are indispensable on the part<lb/> of every individual when so glorious a\n                war<lb/> for the redemption and freedom of the negro<lb/> race, and the subjugation\n                of white rebels<lb/> is to be brought to a triumphant close.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4532,
+          "width": 2998,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6734b183-42de-448c-8769-cac521da9955%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2998,
+                "height": 4532,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6734b183-42de-448c-8769-cac521da9955%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/assets/6734b183-42de-448c-8769-cac521da9955/original",
+              "label": "Original File - 41 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>When that object is accomplished, your self<lb/> denial, tho' it may involve you in\n                pecuniary<lb/> losses, will be appreciated; and congress, when<lb/> personally\n                appealed to, will, doubtless, especially<lb/> the <hi rend=\"underline\"\n                    >republican</hi> part of it, recompense you with<lb/> a grant from the public\n                treasury. Your petition<lb/> cannot fail of being signed by all the Jewish<lb/>\n                population throughout the States, and public<lb/> virtue will thus meet its own\n                reward. I have<lb/> not yet had time to peruse the article to which<lb/> you direct\n                my attention. My time is so occupied<lb/> with my school, owing to the Shamash of\n                the<lb/> Congregation; my assistant Hebrew teacher,<lb/> having left for\n                    <placeName>California</placeName>, that I have had no<lb/> leisure. Our new\n                minister, <persName>Mr. Myers</persName>, has got<lb/> himself into a dilemma with\n                some of the big<lb/> wigs of the Synagogue, in consequence of his<lb/> many refusal\n                to sanction the calling up to<lb/> the Sepher, of people married to Christian\n                women,<lb/> and <hi rend=\"underline\">colored</hi> women to boot. You can have\n                no<lb/> conception of the falling off in this particular congre-<lb/>gation from\n                various causes within the last twenty<lb/> years. Its numerous members have dwindled\n                down<lb/> to a mere <sic>handfull</sic>; but the pride and arrogance<lb/> remain as\n                of old; and tincture all their acts, to<lb/> which had feelings, towards all who\n                venture to differ<lb/> from the <hi rend=\"underline\">rulers</hi> in opinion, largely\n                add their share.<lb/> As for the <hi rend=\"underline\">minister</hi> of the other\n                Synagogue, De<add>?</add><lb/> the least I say of him the better. I am not a\n                    <add>מלשין</add></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4546,
+          "width": 2990,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cfb924a4-07bf-4b1a-908e-e485c68ef7fd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2990,
+                "height": 4546,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cfb924a4-07bf-4b1a-908e-e485c68ef7fd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/assets/cfb924a4-07bf-4b1a-908e-e485c68ef7fd/original",
+              "label": "Original File - 41 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">work out for the Occident, if my <hi rend=\"underline\">liver</hi> permits.<lb/>\n                <persName>Moses</persName>, it is evident could not have imposed on the<lb/> 2\n                    <add>?</add> tribes the duty of going over the <placeName>Jordan</placeName>\n                <add>חמשים</add><lb/> but only <add>חלוצים</add> armed for war; and therefore he\n                uses the<lb/> latter; whereas <persName>Joshua</persName> could, as commanded,<lb/>\n                decline to forage for them, and compel them to manage<lb/> their own commissariat.\n                The sacred text is not<lb/> strained to <del>meet</del>\n                <sic>acord</sic> with this explanation but rather<lb/> removes the difficulty of\n                accounting in what<lb/> way the people subsisted, until the <add>?</add><lb/>\n                fell.</p>\n            <p rend=\"indent(1)\">I have formed an acquaintance with<lb/> a <persName>Dr.\n                    Daniell</persName>—of the British army, a man<lb/> of wonderful knowledge in all\n                matters relating<lb/> to <placeName>Africa</placeName>, where he passed 18 years of\n                his life.<lb/> He is a great scholar, not alone in the studies<lb/> appertaining to\n                his profession, but in others, and<lb/> is esteemed an <hi rend=\"underline\"\n                    >authority</hi> in <placeName>England</placeName> in philology,<lb/> ethnology,\n                botany, &amp;c. A bosom friend of <persName>Professor<lb/> Owen</persName> the\n                Eminent naturalist. We had a<lb/> delightful evening's talk till 12 o'Clock\n                last<lb/> night, and that is how I spent my <date>Purim</date>. He<lb/> possesses\n                monotheism, but believes in the Bible,<lb/> not I think, in the Testament.</p>\n            <p rend=\"indent(1)\">The war, I see, continues to linger.<lb/> The termination cannot\n                however be very<lb/> distant, and I hope it will end as I wish.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4556,
+          "width": 2990,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a4ab2c0c-234d-4cc0-9964-187366569d55%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2990,
+                "height": 4556,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a4ab2c0c-234d-4cc0-9964-187366569d55%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/assets/a4ab2c0c-234d-4cc0-9964-187366569d55/original",
+              "label": "Original File - 41.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>It may however become more complicated<lb/> by the defiant attitude of one of\n                the<lb/> belligerents towards the French Emperor.<lb/> The English Government is not\n                hypocritical.<lb/> Your charge is not just. If it had intervened,<lb/> I incline to\n                think with <persName>Lords Palmerston</persName><lb/> and\n                    <persName>Russel</persName> that the <placeName>north</placeName> would have\n                raised<lb/> such an overwhelming force as would have<lb/> crushed the\n                    <placeName>south</placeName> at once <add>אל תעמוד לפני רעך בשעת כעסו</add><lb/>\n                applies as well to nations as individuals.<lb/>\n                <placeName>England</placeName> has enough on her hands in meeting the<lb/> hungry\n                cravings of her starving operatives<lb/> without putting her fingers into her\n                neighbour's<lb/> dish. I call their neutral action wise and<lb/> humane, and it will\n                prove to be so in the<lb/> long run. The feelings of the English government<lb/>\n                &amp; nation too are with the <placeName>south</placeName>, and the<lb/> ravings of\n                    <persName>Bright</persName> &amp; <persName>Cobden</persName> and the anti-<lb/>\n                slavery party are ineffectual to change them.<lb/> I am alive to the short comings\n                of my native<lb/> country, but <del>they are</del> in this matter it is not<lb/>\n                obnoxious to the abuse lavished upon it by the<lb/> people of\n                    <placeName>America</placeName>.</p>\n            <p rend=\"indent(1)\">My wife and mother join with<lb/> me in affectionate wishes &amp;\n                regards</p>\n            <p rend=\"indent(8)\">Yours Sincerely</p>\n            <p rend=\"indent(8)\">\n                <persName role=\"author\">M N Nathan</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 4536,
+          "width": 2990,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/759eb2fd-20f3-4ee2-ab46-a2e64d68c737%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2990,
+                "height": 4536,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/759eb2fd-20f3-4ee2-ab46-a2e64d68c737%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/assets/759eb2fd-20f3-4ee2-ab46-a2e64d68c737/original",
+              "label": "Original File - 40.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>but I would surprise you, were I to often the<lb/> budget of doings and sayings of\n                this man. Judaism<lb/> is in a bad state here, spirit of religion is utterly<lb/>\n                wanting, with no one competent to rouse it from the<lb/> torpor into which it has\n                fallen. We have had here a<lb/> certain <persName>Rabbi Alfendri</persName> from\n                    <placeName>Smyrna</placeName>, his mission<lb/> here was a failure; we are too\n                poor ourselves, and<lb/> have too many indigent ones in our midst, to<lb/>\n                contribute to the claims (?) of such travelling gentry.<lb/> Why don't they stop at\n                home? We hear of the<lb/> doings and writings of <persName>Mr. De Solla</persName>,\n                late of <placeName>Montego<lb/> Bay</placeName>, against <persName>Mr.\n                    Morais</persName>. Can't you send me some<lb/> of that precious productions? Are\n                you not going<lb/> to use your pen in defense of scripture against<lb/>\n                <persName>Bishop Calendo</persName>? <persName>Benisch</persName> has come out\n                manfully,<lb/> but altho' he has answered some points admirably,<lb/> I do not like\n                    <hi rend=\"underline\">all</hi> he has written. The wood, water,<lb/> and pasture\n                question he has handled ably. I<lb/> am, just to keep my hand in, maintaining a\n                cor<lb/>respondence on the subject with a <sic>xtian</sic> clergyman;<lb/> and made\n                the word <add>חמשים</add>\n                <del>the</del> my study, at his request.<lb/> I cannot agree that it means equipped,\n                or harnessed,<lb/> in gist, or armed, but <add>?</add> think it signifies<lb/> v<hi\n                    rend=\"underline\">ictualled</hi> or <hi rend=\"underline\">provisioned</hi> from\n                    <add>חמץ</add> the abdomen.<lb/> The Bible says <add>וגם צדה לא עשו להם</add>;\n                Does that imply that<lb/> they had no <hi rend=\"underline\">food</hi> at all except\n                the <add>בצק</add>? I should say<lb/> that <add>צדה</add> means <hi rend=\"underline\"\n                    >cooked</hi> or <hi rend=\"underline\">prepared</hi> provisions, and<lb/>\n                <add>עשו</add> being joined to it, an act of preparation or<lb/> cooking is\n                inferred, the same as <add>אפה</add> to <add>בצק</add> before<lb/> the latter\n                becomes <add>לחם</add>. Hence the Israelites might</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 4616,
+          "width": 2990,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/dfec6f32-8f07-4dec-a2e7-504493bdf470%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2990,
+                "height": 4616,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/dfec6f32-8f07-4dec-a2e7-504493bdf470%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/assets/dfec6f32-8f07-4dec-a2e7-504493bdf470/original",
+              "label": "Original File - 41.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>not have had <add>צדה</add>, and get the onions, leeks<lb/> garlic, and Cucumbers as\n                vegetables, and the<lb/> melons and <hi rend=\"underline\">dates</hi> as fruits might\n                have afforded<lb/> them a plentiful supply of food for the <add>חמץ</add> belly<lb/>\n                or stomach, and hence they were <add>חמשים</add>. In\n                <persName>Joshua</persName><lb/> chap: i 11 the people are ordered <add>הכינו לכם\n                    צדה</add>, whilst<lb/> in verse 14 the <persName>Reub</persName>:\n                    <persName>Gad</persName>: through: are told <add>חמושים</add><lb/>\n                <add>ואתם תעברו חמשים</add> ye shall pass over <hi rend=\"underline\">victualled</hi>,\n                ergo, you must<lb/> furnish your own commissarist. Again in IV.12<lb/> it is written\n                they passed over <add>חמשים</add>\n                <hi rend=\"underline\">provisioned</hi>, and in<lb/> the following verse <add>חלוצי\n                    צבא</add> in <hi rend=\"underline\">fighting tr<add>?</add></hi>, or<lb/>\n                <hi rend=\"underline\">armed for war</hi>. In Judges VII.II the <add>חמשים</add> could\n                not<lb/> have been the <hi rend=\"underline\">armed men</hi>, or they would have\n                been<lb/> called sentinels, patriots, or piquets, whose duty is<lb/> always\n                    <add>בקצה המחנה</add>; and in verse 19 they are properly<lb/> named,\n                    <add>שמרים</add> which you have rendered <hi rend=\"underline\">sentinels</hi>. These<lb/>\n                <add>חמשים</add> must consequently have been the <hi rend=\"underline\"\n                        ><sic>suttlers</sic></hi><lb/> whose place or station was <hi\n                    rend=\"underline\">outside</hi> the <hi rend=\"underline\">lives</hi>, and<lb/> not\n                within them with the soldiery. If this view<lb/> can be maintained, it disposes of\n                the objections of<lb/> those who assert that the people had no food but<lb/> the\n                    <add>בצק</add>. God did not lead them thro' a fertile country<lb/> like the\n                    <add>ארץ פלשתים</add>, but into the <add>מדבר</add>; yet that unpro-<lb/>ductive\n                waste had no terrors for them, they had no<lb/> immediate fears of hunger, for they\n                were <add>חמשים</add> furnished<lb/> with food, tho' not with <add>צדה</add> cooked\n                food. If<lb/> rationalists must be satisfied and shown demon-<lb/>stratively that\n                the multitude was not in a<lb/> starving condition, my exegesis will convince<lb/>\n                them. This hasty sketch I may possibly</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hd7pd03/canvas/p6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

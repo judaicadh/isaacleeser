@@ -1,0 +1,299 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Oppenheim, Samuel S.; Leeser, Isaac; London, United Kingdom; 23 September 1861",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3z31p85c"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Oppenheim, Samuel S.; Leeser, Isaac; London, United Kingdom; 23 September 1861"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Oppenheim, Samuel S.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1861-09-23", "5621"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United Kingdom -- London",
+        "United Kingdom",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx9FF16_14"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/fd800346-1681-4e65-89c2-f604f1cbcbd8%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/fd800346-1681-4e65-89c2-f604f1cbcbd8%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 8150,
+          "width": 5294,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fd800346-1681-4e65-89c2-f604f1cbcbd8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5294,
+                "height": 8150,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fd800346-1681-4e65-89c2-f604f1cbcbd8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/assets/fd800346-1681-4e65-89c2-f604f1cbcbd8/original",
+              "label": "Original File - 129 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"align(right)\"><placeName>London</placeName>, <date>Sept. 23rd 5621</date>.</p>\n            <p rend=\"align(right)\">\n                <placeName>22 Erdsleigh St. Tavistock Sqre.</placeName>\n            </p>\n            <p rend=\"indent(1)\"><addressee>Revd. Isaac Leeser</addressee>,</p>\n            <p rend=\"indent(2)\">Dear Sir/</p>\n            <p rend=\"indent(3)\">Wishing you the compliments<lb/> of the season, &amp; that you may\n                be spared many<lb/> more years as a teacher &amp; writer in\n                    <placeName>Israel</placeName>,<lb/> against the attacks of those who wish to\n                break<lb/> down Judaism, I must apologize for not<lb/> answering your letter before,\n                but have been<lb/> very much engaged in business &amp; not much in<lb/>\n                <placeName>London</placeName> until now, I made some inquiries with<lb/> regard to\n                your offer some time back about printing<lb/> a certain number of your Bibles at a\n                low price<lb/> but could not learn why the matter fell to the<lb/> ground, no one\n                appearing to know, I named it to<lb/>\n                <persName>Dr. Adler</persName> &amp; he said we wanted a cheap <hi rend=\"underline\"\n                    >Hebrew</hi><lb/> &amp; <hi rend=\"underline\">English</hi> edition for the use of\n                Schools, as there<lb/> was not such a work to be had, &amp; the <sic>hebrew</sic>\n                ought<lb/> not to be neglected, he also said he appreciated<lb/> you very much,\n                &amp; would always be happy to be of<lb/> any service he could to you. If you should\n                consider<lb/> it advisable to publish a cheap Hebrew &amp; English<lb/> edition of\n                the <hi rend=\"underline\">whole Bible</hi> I would advise you to<lb/> lay your plans\n                before <persName>Dr. Adler</persName>, &amp; correspond with<lb/> him on the\n                subject, &amp; also make the price the<lb/> lowest possible figure you can.</p>\n            <p>I have read &amp; heard with great joy, the foundation<lb/> of an American Board of\n                Delegates, it is my<lb/> greatest wish it will prosper &amp; that all<lb/> the\n                Orthodox Synagogues that have not yet<lb/> joined will do so, including the Old,\n                    <placeName>New<lb/> York</placeName>, Portuguese congregation, which ought\n                to</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 8150,
+          "width": 5294,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e5f347c-cd5e-4391-9ac4-808703597f01%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5294,
+                "height": 8150,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e5f347c-cd5e-4391-9ac4-808703597f01%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/assets/7e5f347c-cd5e-4391-9ac4-808703597f01/original",
+              "label": "Original File - 129 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>have been the first on the list, I consider the<lb/> establishment of this board, the\n                first blow at<lb/> Reform, it has already showed the weakness of<lb/> those new\n                light Preachers &amp; congregations, inasmuch<lb/> as they are opposed to the\n                foundation of that body,<lb/> &amp; have refused (although invited to send<lb/>\n                delegates) to join the association, for fear we<lb/> must come to the conclusion\n                that the many different<lb/> views of each reform congregation, (for they are<lb/>\n                not united themselves) may be crushed by the<lb/> United votes of all the true\n                Jewish Orthodox<lb/> Congregations, Is it not strange that these very<lb/> reform\n                Preachers &amp; congregations, who branded the<lb/> Board of Deputies of British\n                Jews with the<lb/> name of a Bigoted body, at the time they would<lb/> not admit\n                delegates from the <placeName>Margaret Street</placeName><lb/> congregation into\n                their Society, are the very ones<lb/> who now refuse the invitation to send\n                delegates<lb/> to the American Body, I congratulate the body<lb/> also with having\n                chosen you for one of their<lb/> Vice Presidents, as many years you have wished<lb/>\n                such a Society to be established, &amp; may God<lb/> bless you that you will be\n                spared to see a<lb/> great deal of good emanate from the united<lb/> efforts of all\n                true Jewish congregations &amp;<lb/> that the blasphemy &amp; Infidelity preached &amp;<lb/>\n                <sic>practised</sic> throughout a great many of the new<lb/> reform congregations\n                may be <sic>anihilated</sic> for ever<lb/> &amp; that they may return again to true\n                Judaism,<lb/> Yesterday being Penitential <date>Sabbath</date>\n                <persName>Revd. Dr.<lb/> Adler</persName> preached in the Great Synagogue,\n                taking<lb/> for his text, <hi rend=\"underline\">2nd <persName>Samuel</persName>,\n                    Chapter 12</hi> explaining<lb/> that <persName>David</persName> had committed a\n                great sin, <persName>Nathan</persName> the</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 8150,
+          "width": 5294,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/62f83025-f0cb-4822-9b5f-51b2d354b20c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5294,
+                "height": 8150,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/62f83025-f0cb-4822-9b5f-51b2d354b20c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/assets/62f83025-f0cb-4822-9b5f-51b2d354b20c/original",
+              "label": "Original File - 129 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>Prophet came to him he acknowledged the crime by saying<lb/> I have sinned,\n                    <persName>Nathan</persName> then said, he should not die<lb/> but that his sin\n                was put aside, he did not say<lb/> his sin was forgiven, but put aside to see if he\n                really<lb/> repented, that from that time he never committed<lb/> a single Sin until\n                the day of his death, &amp; <sic>therfore</sic><lb/> truly repented &amp; was\n                forgiven, showing that our sins<lb/> are laid aside in the same manner, &amp; that\n                if we<lb/> truly repent these days, the Almighty will forgive us also. Is not this a\n                contrast to the name given<lb/> by the reform preachers to\n                    <persName>David</persName> on account<lb/> of this crime, “the greatest sinner\n                in <placeName>Israel</placeName>.”<lb/>\n                <persName>Mr. Herman Adler</persName> B. A. second son of the Chief Rabbi<lb/>\n                Preached on the first day of <date>New Year</date> in the<lb/> New Synagogue, taking\n                for his text <persName>Jeremiah</persName><lb/> Chapter 10. Verse 16. he also\n                lectures in that<lb/> Synagogue on <date>Day of Atonement</date>, he is a young<lb/>\n                man fit to set an example to some older<lb/> preachers in\n                    <placeName>America</placeName>, I will now bring this<lb/> to a close wishing\n                you well over your fast<lb/> &amp; that you may be inscribed in the book<lb/> of\n                life. I remain</p>\n            <p rend=\"indent(1)\">Rev'd &amp; dear Sir,</p>\n            <p rend=\"indent(1)\">Your's truly,</p>\n            <p rend=\"indent(1)\"><persName role=\"author\">Samuel S. Oppenheim</persName>.</p>\n        </body>\n    </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 8150,
+          "width": 5294,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/65cf88ab-0429-4fcb-88de-d9cb499ac237%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5294,
+                "height": 8150,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/65cf88ab-0429-4fcb-88de-d9cb499ac237%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3z31p85c/assets/65cf88ab-0429-4fcb-88de-d9cb499ac237/original",
+              "label": "Original File - 129 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

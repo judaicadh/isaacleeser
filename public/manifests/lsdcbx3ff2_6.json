@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Dyer, J.; Leeser, Isaac, Rev. Mr.; Galveston, TX; 21 February 1867",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p32v2cs77"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Dyer, J.; Leeser, Isaac, Rev. Mr.; Galveston, TX; 21 February 1867"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1867-02-21"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Texas -- Galveston",
+        "United States -- Texas",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF2_6"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/35d66075-f888-48bc-bf4a-cf99c2dd0cb0%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/35d66075-f888-48bc-bf4a-cf99c2dd0cb0%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4926,
+          "width": 4076,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/35d66075-f888-48bc-bf4a-cf99c2dd0cb0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4076,
+                "height": 4926,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/35d66075-f888-48bc-bf4a-cf99c2dd0cb0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/assets/35d66075-f888-48bc-bf4a-cf99c2dd0cb0/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Galveston</placeName>\n                <date>Feby 21st 1867</date>\n            </p>\n            <p>\n                <addressee>Rev Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">Dear Sir</p>\n            <p rend=\"indent(1)\">Your favor <date>11th</date> Inst together with Power of\n                Attorney<lb/> is recd and I hasten to comply with your request.<lb/> Enclosed you\n                will find sight draft on New<lb/> York payable to yourself for $1896 00/100 of this\n                amount<lb/> $16 is for subscription to the Occident which<lb/> you will please mail\n                to <persName>M Koppel</persName>. <persName>I. C. Levy</persName><lb/>\n                <persName>I. W. Frank</persName> and myself all <placeName>Galveston\n                    Texas</placeName>.<lb/> I was much <sic>disapointed</sic> in not procuring<lb/>\n                you more subscribers, the fact is a Co religion<lb/>ist here engaged in the book\n                business induced<lb/> those I calculated upon to subscribe for the<lb/> Messenger,\n                and I could not prevail upon them<lb/> to encourage you also, in your laudable\n                work<lb/> And it was useless to urge them to subscribe<lb/> to your other works, as\n                nearly all here are<lb/> Germans, besides not religiously inclined.<lb/> Besides we\n                have no synagogue here yet.<lb/> Should it however be in my power here after<lb/> to\n                increase the list of names. It will afford<lb/> me pleasure to do so. I was pleased\n                to<lb/> learn that your health had improved.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4926,
+          "width": 4076,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9a079a6a-fc25-4527-8edd-bb952867b0ba%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4076,
+                "height": 4926,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9a079a6a-fc25-4527-8edd-bb952867b0ba%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/assets/9a079a6a-fc25-4527-8edd-bb952867b0ba/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>you will please acknowledge receipt<lb/> of enclosed draft by return of mail<lb/> and\n                oblige yours truly</p>\n            <p><persName role=\"author\">J. Dyer</persName>.</p>\n            <p>Statement</p>\n            <table cols=\"2\" rows=\"6\">\n                <row>\n                    <cell>Paid <persName>W. S. Jutt<add>?</add></persName> Rev. Tax on Legacy\n                        $2000</cell>\n                    <cell>120</cell>\n                </row>\n                <row>\n                    <cell>Balance due you “ “</cell>\n                    <cell>1880</cell>\n                </row>\n                <row>\n                    <cell>Subscription for 4 Copies of Occident</cell>\n                    <cell>\n                        <hi rend=\"underline\">16</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell>$ 2016</cell>\n                </row>\n                <row>\n                    <cell>Less U S Rev Tax</cell>\n                    <cell>\n                        <hi rend=\"underline\">120</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell>To Draft enclosed for</cell>\n                    <cell>$18.96</cell>\n                </row>\n            </table>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32v2cs77/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

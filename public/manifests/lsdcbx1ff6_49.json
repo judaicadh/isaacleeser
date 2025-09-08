@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Defsan, A.; Leeser, Isaac, Rev.; Macon, GA; 16 July 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3w669r4x"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Defsan, A.; Leeser, Isaac, Rev.; Macon, GA; 16 July 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Defsan, A.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-07-16"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Georgia -- Macon",
+        "United States -- Georgia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_49"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f22b957-e847-41ca-8d40-220746dd86cb%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f22b957-e847-41ca-8d40-220746dd86cb%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5804,
+          "width": 4678,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f22b957-e847-41ca-8d40-220746dd86cb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4678,
+                "height": 5804,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f22b957-e847-41ca-8d40-220746dd86cb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/assets/9f22b957-e847-41ca-8d40-220746dd86cb/original",
+              "label": "Original File - 81.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                                        <placeName>Macon Geo</placeName>\n                                        <date>July 16 1849</date>\n                              </p>\n                              <p>\n                                        <addressee>Rev. I. Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\"><placeName>Philadelphia</placeName>.</p>\n                              <p rend=\"indent(3)\">Dear Sir!</p>\n                              <p rend=\"indent(4)\">I received this morning<lb/> the last Occident;\n                                        but as I do not find my name among the<lb/> receipt, I\n                                        apprehend that you have not received my subscription<lb/>\n                                        yet. <persName>Mr Elias Block</persName> formerly from\n                                                  <placeName>Griffin</placeName> called on me<lb/>\n                                        when he was about removing to\n                                                  <placeName>Philadelphia</placeName> on the\n                                                  <date>6<hi rend=\"sup\">th</hi> of May</date><lb/>\n                                        and I sent with him the Three Dollars. I request you\n                                        respectfully<lb/> to cause an inquiry after him,\n                                                  <persName>Mrsses Blum</persName> &amp;\n                                                  <persName>Simpson</persName> or<lb/>\n                                        <persName>Arnolds</persName> could tell you where to find\n                                        him.</p>\n                              <p>Be so kind as to remember me to <persName>Mr.\n                                        Hackenburg</persName>, I read<lb/> with sorrow the demise of\n                                        his son <persName>Henry</persName>. Give him my<lb/> care,\n                                        May the Lord remember him to good, and may he be<lb/>\n                                        consoled! I am your admirer and</p>\n                              <p rend=\"indent(1)\">Brother in faith</p>\n                              <p rend=\"indent(1)\"><persName role=\"author\">A. Defsan</persName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4678,
+          "width": 5804,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/83509c5b-2cf6-4f75-a23e-d2560e4cd522%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5804,
+                "height": 4678,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/83509c5b-2cf6-4f75-a23e-d2560e4cd522%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/assets/83509c5b-2cf6-4f75-a23e-d2560e4cd522/original",
+              "label": "Original File - 81.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <hi rend=\"underline\">past paid</hi>\n                              </p>\n                              <p>\n                                        <addressee>Rev. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>\n                                                  <hi rend=\"underline\">Philadelphia</hi>\n                                        </placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Pa.</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669r4x/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; San Francisco, CA; Leeser, Isaac, Rev.; 4 October 1859; 4 October 1859",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3rf5m19f"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; San Francisco, CA; Leeser, Isaac, Rev.; 4 October 1859; 4 October 1859"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1859-10-04"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- San Francisco",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF6_34"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/1fef4ea8-b27e-43da-ac4d-630ebc7fbc61%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/1fef4ea8-b27e-43da-ac4d-630ebc7fbc61%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4564,
+          "width": 3762,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1fef4ea8-b27e-43da-ac4d-630ebc7fbc61%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3762,
+                "height": 4564,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1fef4ea8-b27e-43da-ac4d-630ebc7fbc61%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/assets/1fef4ea8-b27e-43da-ac4d-630ebc7fbc61/original",
+              "label": "Original File - 51.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>San Francisco</placeName>\n                <date>Oct 4 1859</date>\n            </p>\n            <p>\n                <addressee>Revd Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">Dear friend—</p>\n            <p rend=\"indent(4)\">I have duly recd your<lb/> Letter of the <date>11th</date> ulto also\n                the list of your debtors for<lb/> the subscription of the “Occident”</p>\n            <p rend=\"indent(1)\">I send you enclosed sight Draft on<lb/>\n                <persName>Drexel &amp; Co</persName> for $65.20 for which I have paid<lb/> 2%\n                exchange making $1.30¢ which together amount<lb/> to $66.50, being the amount I have\n                collected<lb/> for the subscription of the “Occident” as follows:</p>\n            <table cols=\"3\" rows=\"12\">\n                <row>\n                    <cell>\n                        <persName>M. Mayblum</persName>\n                    </cell>\n                    <cell>\n                        <placeName>San Francisco</placeName>\n                    </cell>\n                    <cell>$3.00</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>H. Neustadter</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>5.—</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>D. Stern</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>5.—</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Samuel Marx</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>9.—</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Hamburger Brothers</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>10.—</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>L. Tichner</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>6.—</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Scholle Bros</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>7.50</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Lazard Freres</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>9.—</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>H. W. Stein</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>3.—</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Jules Cerf</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>6.—</cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>J. A. Brunner</persName>\n                    </cell>\n                    <cell>“ 1 year adv.</cell>\n                    <cell>\n                        <hi rend=\"underline\">3.—</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell>(making the above mentioned sum)</cell>\n                    <cell/>\n                    <cell>$66.50</cell>\n                </row>\n            </table>\n            <p rend=\"indent(1)\">You will perceive that the most of mentioned<lb/> payments are not\n                in full, as I have followed<lb/> out your requests &amp; have compromised with</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4564,
+          "width": 3762,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/683ee39b-cb30-42b6-950b-ad2a5daa242f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3762,
+                "height": 4564,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/683ee39b-cb30-42b6-950b-ad2a5daa242f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/assets/683ee39b-cb30-42b6-950b-ad2a5daa242f/original",
+              "label": "Original File - 51.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>all those who complained that they did not<lb/> receive the “Occidents” regularly,\n                that they never<lb/> ordered them, that they gave notice for a<lb/> discontinuation\n                &amp;c &amp;c. &amp; I have deemed it<lb/> to be your benefit to comply with your\n                request<lb/> &amp; took all I could get from the parties.</p>\n            <p rend=\"indent(1)\">You have <persName>Mr Mayblum</persName> down for 2 years;<lb/> he\n                says that he recd the “Occident” in the capacity<lb/> of <placeName>South\n                    Carolina</placeName> of Post Master &amp; as such did<lb/> not think himself\n                liable for any subscription &amp;c<lb/> therefore I have compromised it for\n                $3.00</p>\n            <p rend=\"indent(1)\">$5.00 is all I could collect from <persName>H\n                Neustadter</persName>;<lb/> says that he did not wish the Occid for<lb/> some time;\n                he <hi rend=\"underline\">wishes to stop his subscription</hi><lb/> The same remark is\n                applicable to <persName>D. Stern</persName></p>\n            <p rend=\"indent(1)\"><persName>Mr Saml Hart</persName> wishes all the back<lb/> Nos since\n                the weekly has been commenced</p>\n            <p rend=\"indent(1)\"><persName>Hamburger Bros</persName> think they cannot owe<lb/> you\n                $15.00, still if you were sure they will<lb/> pay the Balance of $5.00</p>\n            <p rend=\"indent(1)\">$7.50 was the most I could draw from <persName>Scholle<lb/>\n                    Bros</persName>; they wish the “Occident” no more.</p>\n            <p rend=\"indent(1)\"><persName>H. W. Stern</persName> makes the reason for paying<lb/>\n                less, not receiving it &amp; <add>?</add>; he also wishes to<lb/> discontinue his\n                subscription</p>\n            <p rend=\"indent(1)\"><persName>Mr S. T. Meyer</persName>, whom you have on the<lb/> list\n                resides now at <placeName>New York</placeName>; <persName>Mr Aaron<lb/>\n                    Jacobs</persName> there can tell you where he can be<lb/> found. <persName>Jules\n                    Cerf</persName> makes also the excuse</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4564,
+          "width": 3762,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/53235ad6-3ffd-4fa6-b1ec-5f82ae119c8e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3762,
+                "height": 4564,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/53235ad6-3ffd-4fa6-b1ec-5f82ae119c8e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/assets/53235ad6-3ffd-4fa6-b1ec-5f82ae119c8e/original",
+              "label": "Original File - 51.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>not having subscribed &amp; <add>?</add> he wishes to dis-<lb/>-continue his\n                subscription, you will observe<lb/> that I also settled with him.</p>\n            <p rend=\"indent(1)\">Since you gave me authority to settle<lb/> with the parties who made\n                excuses &amp; complaints<lb/> to escape payments, I have used it, &amp;<lb/> with my\n                most active endeavors in your<lb/> behalf have I worked to make these\n                collections,<lb/> &amp; I trust you will approve of my work.</p>\n            <p rend=\"indent(1)\">I would beg leave to suggest to you to<lb/> stop always the\n                subscription when desired,<lb/> as you cannot afford to supply people<lb/> with\n                papers without their wishes &amp; payments.</p>\n            <p rend=\"indent(1)\">Please do not forget to acknowledge<lb/> in your next issue all the\n                various<lb/> payments as collected; as I have not given<lb/> any receipts, save in a\n                single instance.</p>\n            <p rend=\"indent(1)\">Please accept the following new<lb/> subscribers I got:\n                        <persName><hi rend=\"underline\">Lewis Cohn</hi></persName>, <placeName>San\n                    Francisco</placeName><lb/>\n                <persName>J. A. <hi rend=\"underline\">Bruner</hi></persName>, <placeName>San\n                    Francisco</placeName>, (the latter<lb/> gentleman has paid one year's\n                subscription<lb/> in advance, which you will observe amongst<lb/> the list of\n                collections) <persName><hi rend=\"underline\">Regensburger</hi><lb/>\n                    <hi rend=\"underline\">&amp; Stern</hi></persName>\n                <placeName>San Francisco</placeName>, whose subscription<lb/> is in place of\n                    <persName>D Stern</persName> (discontinued)</p>\n            <p rend=\"indent(1)\"><persName>Mr Alexander Mayer</persName> who arrived<lb/> here in\n                safety from <placeName>Phil</placeName> requests me to<lb/> state that he has sold\n                all the bibles save<lb/> one. <persName>Mr Jacob Bloomingdale</persName> whom</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4564,
+          "width": 3762,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1d77d65d-bb12-4491-bd17-39422834f9c4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3762,
+                "height": 4564,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1d77d65d-bb12-4491-bd17-39422834f9c4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/assets/1d77d65d-bb12-4491-bd17-39422834f9c4/original",
+              "label": "Original File - 51.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>you have on the list lives now in<lb/>\n                <placeName>Germany</placeName> think <placeName>Frankfort</placeName>. I see that\n                you have<lb/>\n                <persName>Haas</persName> &amp; <persName>Rosenfeld</persName> on the list for\n                $15.00, which<lb/> is doubtful that I will be able to collect<lb/> as on their last\n                payment they requested<lb/> a discontinuance, of which I wrote you<lb/> at the time.\n                    <persName>Raphael Schoyer</persName> is<lb/> not in the city, he left for\n                    <placeName>Japan</placeName>.</p>\n            <p rend=\"indent(1)\"><persName>S. Fleishhacker</persName> resides at\n                    <placeName>Placerville</placeName><lb/> &amp; I hope you will not send him<lb/>\n                the “Occident” as you can never ex-<lb/>-pect a cent from him, being too fond<lb/>\n                of whiskey &amp; rum. <persName>Hess</persName> lives in <placeName>N\n                    York</placeName>.<lb/> where <persName>Cha-Simon</persName> is I cannot\n                tell,<lb/> you better therefore discontinue sending<lb/> the “Occid” to him. From\n                    <persName>F. M.<lb/> Reinhart</persName> I cannot collect anything; he<lb/>\n                lives here now &amp; am well acquainted<lb/> with him. <persName>Aaron\n                    Rosenheim</persName> does not<lb/> live anymore at\n                <placeName>Nevada</placeName>, he resides<lb/> here now; I think his Brother lives\n                there<lb/> yet. You are wrong in believing <del>then</del><lb/>\n                <persName>Aaron Rosenheim</persName> rich.</p>\n            <p rend=\"indent(1)\">I have made those collections<lb/> all myself; time did not allow\n                me<lb/> to call on every one as yet, but shall<lb/> do so as soon as I shall have\n                some</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m19f/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

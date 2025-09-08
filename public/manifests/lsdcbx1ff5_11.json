@@ -1,0 +1,214 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Cohen, Solomon; Leeser, Isaac, Rev.; Lew, USA; 20 March 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3kh0fg03"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Cohen, Solomon; Leeser, Isaac, Rev.; Lew, USA; 20 March 1848"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1848-03-20"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_11"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/16fe94ff-426f-421a-b4e6-f2fa2e8fcd4b%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/16fe94ff-426f-421a-b4e6-f2fa2e8fcd4b%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5732,
+          "width": 4618,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/16fe94ff-426f-421a-b4e6-f2fa2e8fcd4b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4618,
+                "height": 5732,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/16fe94ff-426f-421a-b4e6-f2fa2e8fcd4b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/assets/16fe94ff-426f-421a-b4e6-f2fa2e8fcd4b/original",
+              "label": "Original File - 79.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Lew</placeName><add>?</add>:\n                                                  <date>20 March 1848</date></p>\n                              <p>My dear Sir,</p>\n                              <p rend=\"indent(2)\">Enclosed you will receive a ten<lb/> dollar ($10)\n                                        Bill of the Western Bank of<lb/>\n                                        <placeName>Philadelphia</placeName>, for the Cheap Jewish\n                                        publi-<lb/>cation society_for the following persons<lb/>\n                                        <hi rend=\"underline\">towit</hi>\n                                        <persName role=\"author\">Solomon Cohen</persName>,\n                                                  <persName>Octavius Cohen</persName>, <persName>A.\n                                                  Minis</persName><lb/>\n                                        <persName>Miss Fanny Y. Cohen</persName>, (<hi\n                                                  rend=\"underline\">care of <persName>Octavius\n                                                  Cohen</persName></hi>) <persName>Isaac<lb/>\n                                                  Cohen</persName>, <persName>M. S.\n                                        Cohen</persName>, <persName>I. Dela Ilotta</persName>,\n                                                  <persName>Miss<lb/> T. Minis</persName> (care of\n                                                  <persName>A. Minis</persName>) <persName>Miss C.\n                                                  Cohen</persName><lb/> (care of <persName>Solomon\n                                                  Cohen</persName>) &amp; <persName>Theodore\n                                                  Minis</persName><lb/> in all ten. I will try &amp;\n                                        get you a few<lb/> more—All of the above are original\n                                        sub-<lb/>scribers, except the last named, who is a<lb/> new\n                                        one. Do acknowledge the receipt of<lb/> this &amp; tell me\n                                        when the year com-<lb/>mences, so that hereafter, I may\n                                        be<lb/> more regular.</p>\n                              <p>I wrote you some time since sending<lb/> you ten Dolls: for five\n                                        Copies of <persName>Miss<lb/> Aguilar's</persName> Jewish\n                                        Faith. W<hi rend=\"underline\">as the letter<lb/>\n                                                  received?</hi> I also wrote you a few<lb/> days\n                                        since a review of <add>?</add>\n                                        <persName>O'Neal's</persName><lb/> opinion. I hope it\n                                        reached you in<lb/> safety. You will now have an<lb/>\n                                        opportunity of answering my <hi rend=\"underline\"\n                                        >three</hi></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5732,
+          "width": 4618,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b04e6108-2fc9-4e6c-be2e-37ca9b673314%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4618,
+                "height": 5732,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b04e6108-2fc9-4e6c-be2e-37ca9b673314%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/assets/b04e6108-2fc9-4e6c-be2e-37ca9b673314/original",
+              "label": "Original File - 79.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><hi rend=\"underline\">short</hi> letters. Shorter, than I\n                                        desire<lb/> them to be, but I am a poor<lb/> correspondent.\n                                                  <persName>Mrs. Cohen</persName> sends<lb/> her\n                                        kind regards—truly yours</p>\n                              <p rend=\"indent(3)\">\n                                        <hi rend=\"underline\">\n                                                  <persName role=\"author\">Solomon Cohen</persName>\n                                        </hi>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3kh0fg03/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

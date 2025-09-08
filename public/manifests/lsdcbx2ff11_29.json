@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Hanford, H. S.; Leeser, Isaac, Rev.; New York, NY; 26 May 1864",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3m902p4d"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Hanford, H. S.; Leeser, Isaac, Rev.; New York, NY; 26 May 1864"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Hanford, H. S.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1864-05-26"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF11_29"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b0c1bc96-2a73-4c1f-9cfe-efe09f92186f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b0c1bc96-2a73-4c1f-9cfe-efe09f92186f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3976,
+          "width": 4674,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b0c1bc96-2a73-4c1f-9cfe-efe09f92186f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4674,
+                "height": 3976,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b0c1bc96-2a73-4c1f-9cfe-efe09f92186f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/assets/b0c1bc96-2a73-4c1f-9cfe-efe09f92186f/original",
+              "label": "Original File - 55.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                <placeName>N 40 South St</placeName>\n            </p>\n            <p rend=\"align(right)\">\n                <placeName>N York</placeName>\n                <date>May 26th 1864</date>\n            </p>\n            <p>My dear <addressee>Mr Leeser</addressee></p>\n            <p rend=\"indent(1)\">I duly recd your favor of <date>9th</date><lb/> inst. and ever since\n                have been waiting<lb/> an opportunity to reply thereto. But it<lb/> has seemed\n                between church Bank<lb/> &amp; nursery matters and 5 or 6 Hours<lb/> consumed daily\n                in traveling—that<lb/> I have not a moments time for<lb/> anything else.</p>\n            <p rend=\"indent(1)\">Perhaps you have not heard that<lb/>\n                <persName>Mrs Hanford</persName> some 10 days since presented<lb/> me with twin\n                Babies—a Girl &amp; a Boy—<lb/> please tell <persName>Mrs Cozens</persName>. The\n                mother &amp;<lb/> children are doing remarkably well.<lb/> Besides this a new Bank\n                has just been<lb/> organized at <placeName>So Norwalk</placeName> of which I am<lb/>\n                Director &amp; Vice President which takes up<lb/> all my evenings—being chairman of\n                the<lb/> committee on By Laws &amp; a member of</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3976,
+          "width": 4674,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/496c91d6-50e7-46e6-a943-b4e956afbbde%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4674,
+                "height": 3976,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/496c91d6-50e7-46e6-a943-b4e956afbbde%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/assets/496c91d6-50e7-46e6-a943-b4e956afbbde/original",
+              "label": "Original File - 55.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><sic>of</sic> any other committee on Building<lb/> Safes &amp;c.</p>\n            <p>Your Parcels have been regularly<lb/> recd and contents distributed as\n                addressed.<lb/> The Am European Express Co. people<lb/> say your parcels have all\n                been ditd<lb/> and recd in <placeName>England</placeName>. They also say<lb/> they\n                will have to raise the price<lb/> of Freight, but could not then say<lb/> how\n                much.</p>\n            <p>I enclose the Express Co. receipts<lb/> for the last 3 Parcels.</p>\n            <p>Are you not afraid your paper<lb/> will be stopped a guard of <add>?</add><lb/> Bucks\n                put over your types &amp; yourself<lb/> consigned to <placeName>Fort\n                    Lafayette</placeName>. (I wonder<lb/> what that illustrious Patriot would\n                say<lb/> if he could know how his name is<lb/> being desecrated). The <hi\n                    rend=\"underline\">Autocrat</hi><lb/> might with equal justice do these<lb/>\n                things to us or any one else as to have done<lb/> it to Parties here for publishing\n                with</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902p4d/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

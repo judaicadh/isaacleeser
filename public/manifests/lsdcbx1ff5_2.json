@@ -1,0 +1,193 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Lindo, Abraham Alexandre; February 23, 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p31j9809w"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter to Isaac Leeser from Lindo, Abraham Alexandre; February 23, 1848"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": [
+        "Leeser, Isaac (contributor)",
+        "Lindo, Abraham Alexandre (creator)"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": ["1848-02-23"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Cincinnati (Ohio)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_2", "ilcajs_b1f5_0002"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/faae379c-9402-40a6-b1bd-840511db6d9b%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/faae379c-9402-40a6-b1bd-840511db6d9b%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5862,
+          "width": 4684,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/faae379c-9402-40a6-b1bd-840511db6d9b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4684,
+                "height": 5862,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/faae379c-9402-40a6-b1bd-840511db6d9b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/assets/faae379c-9402-40a6-b1bd-840511db6d9b/original",
+              "label": "Original File - 82.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Cincinnati Ohio</placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <date>23 February 1848</date>\n                              </p>\n                              <p>Rev Sir</p>\n                              <p rend=\"indent(2)\">I received in due course your favor of<lb/> the\n                                        14th Inst.: I perceived the notice taken of the\n                                        Retrospects<lb/> in the <date>February</date> number of the\n                                        Occident, and now hand<lb/> you a circular containing\n                                        notices of the work by the Press here<lb/> which please\n                                        insert at large in your April number of the<lb/> Occident,\n                                        and send your amount for the same to\n                                                  <persName>Messieurs<lb/> Robinson</persName> and\n                                                  <persName>Jones</persName> of this City.</p>\n                              <p rend=\"indent(2)\"><persName>Mr Guthrie</persName>, the partner of\n                                                  <persName>Mr. Elias Mayer</persName><lb/> has\n                                        kindly taken charge of this and of 50 Copies of the<lb/>\n                                        Retrospect: I feel obliged by your pronure[?] to bring\n                                        them<lb/> under the notice of your friends and shall be glad\n                                        to see<lb/> the work received in the Occident</p>\n                              <p rend=\"indent(2)\">I need not tell you who must have had<lb/>\n                                        sufficient experience of the fact, how much exertion must\n                                        be<lb/> used to preserve from loss there who engage in\n                                        similar efforts<lb/> as these on behalf of our people: As\n                                        yet I am minus 2/3 d.<lb/> the cost of printing the\n                                        Retrospect but through the influence<lb/> of Gentlemen like\n                                        yourself I trust I shall not be a sufferer<lb/> to any\n                                        extent in the end: I have not sought to make money<lb/>\n                                        through this channel but I confess my inability to sustain<lb/>\n                                        <sic>conviniently</sic> any loss from it. I wrote\n                                                  <persName>Rabbi Lilienthall</persName><lb/> and\n                                        the <persName>Revd Aurel Leo</persName> but as yet have not\n                                        been favored<lb/> with any reply—I am reverend Sir</p>\n                              <p rend=\"indent(3)\">Your obt. Servant</p>\n                              <p rend=\"indent(5)\">\n                                        <persName role=\"author\">A A Lindo</persName>\n                              </p>\n                              <p><addressee>Revd. I Leeser</addressee>–</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4672,
+          "width": 5764,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9979baf-f94c-48af-a671-1645c2a6604f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5764,
+                "height": 4672,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9979baf-f94c-48af-a671-1645c2a6604f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/assets/b9979baf-f94c-48af-a671-1645c2a6604f/original",
+              "label": "Original File - 81 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p>Favored by</p>\n                              <p>\n                                        <persName>Mr. A. A. Guthrie</persName>\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_6_5.pdf\">The above\n                                                  text refers to Occident Volume 6 No. 5 pages 602\n                                                  through 603. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31j9809w/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

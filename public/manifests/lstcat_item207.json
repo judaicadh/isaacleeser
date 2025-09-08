@@ -1,0 +1,511 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leeser, Isaac; Hirschel, Solomon; Philadelphia, PA; 4 November 1836",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3s75756g"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Leeser, Isaac; Hirschel, Solomon; Philadelphia, PA; 4 November 1836"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Hirschel, Solomon"]
+    },
+    {
+      "label": "Date",
+      "value": ["1836-11-04", "12 Heshvar 5596"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "8 pages on 8 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item207"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/1c57beba-d97d-4787-8c8e-145a59751e57%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/1c57beba-d97d-4787-8c8e-145a59751e57%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6354,
+          "width": 5134,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1c57beba-d97d-4787-8c8e-145a59751e57%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5134,
+                "height": 6354,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1c57beba-d97d-4787-8c8e-145a59751e57%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/assets/1c57beba-d97d-4787-8c8e-145a59751e57/original",
+              "label": "Original File - 98.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Philadelphia (Pennsylvania</placeName>) <date>Thursday\n                    Heshvan 12<hi rend=\"sup\">th</hi> (Nov. 4<hi rend=\"sup\">th</hi>) 5596</date>.</p>\n            <p>To the Rt. <addressee>Rev. Dr Solomon Hirschel</addressee></p>\n            <p rend=\"indent(1)\">Grand Rabbi of the Polish &amp; German Jews in\n                    <placeName>London</placeName>.</p>\n            <p rend=\"indent(2)\">Honoured Sir</p>\n            <p rend=\"indent(2)\">The eminent station which you occupy has made your name<lb/>\n                familiarly known among us, and the fame which attaches to you as<lb/> an able\n                expounder of the holy law with which we are blessed naturally<lb/> makes you\n                conspicuous to us even who are separated from your residence<lb/> by the distance\n                which the great sea interposes. In this country there is none<lb/> who is authorized\n                to give an opinion in contested or uncertain points of<lb/> law, and we are\n                therefore compelled upon any emergency which arises to<lb/> decide for ourselves as\n                best we can, or to ask an opinion of one another,<lb/> and as our books for\n                reference are but few, and our knowledge in these<lb/> matters not being as\n                extensive as it should be; I have on mature reflec-<lb/>tion, and upon the advice of\n                friends, amongst whom I may mention <persName>Dr. Mr. Ema<lb/>nuel</persName>, whom\n                you well know, resolved to place before you several questions for<lb/> your\n                decision, and to beg you most earnestly to favour me with your<lb/> reply by the\n                earliest possible opportunity, that we may have a certain and<lb/> an authentic\n                opinion to go upon in the cases hereafter to be enumerated.<lb/> I myself am a\n                native of <placeName>Westphalia in Germany</placeName>, whence I emigrated<lb/> to\n                this country in the winter of the year <date>5584</date> when I was seventeen years\n                old;<lb/> I had then a slight acquaintance with <add>?</add> having gone through\n                    <add>בבא מציעא, ביצה</add><lb/> and a part of <add>חולין</add> and <add>בבא\n                    בתרא</add>; with the <add>פוסקים</add> I had as yet not meddled, as<lb/> of\n                course I was yet too young at that time for so important a study,<lb/> and after I\n                reached <placeName>America</placeName> I was engaged in business, and had\n                besides<lb/> neither books nor teachers to help myself further. It is now about\n                six<lb/> years and a quarter since I was elected to serve as <add>חזן</add> to the\n                Portuguese<lb/> congregation <add>מקוה ישראל</add> in this place, altho' I can\n                hardly say that I was suffi-<lb/>ciently qualified, but owing to there being but few\n                in this country capable at all<lb/> for this station the partiality of the people\n                here called me away from <placeName>Richmond<lb/> in Virginia</placeName> where I\n                had lived five years and a quarter with my uncle, an old gentleman</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6354,
+          "width": 5102,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/96ac81ae-83de-406b-a63b-65e4f644f375%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5102,
+                "height": 6354,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/96ac81ae-83de-406b-a63b-65e4f644f375%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/assets/96ac81ae-83de-406b-a63b-65e4f644f375/original",
+              "label": "Original File - 97.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>who had been settled for many years in <placeName>America</placeName>. Knowing my own\n                want of<lb/> proper qualification I would never have consented to serve, if others\n                more<lb/> fitting in point of standing, information or other qualities had been\n                here; but<lb/> this not being the case, as is proved by there being yet two\n                congregations at<lb/> least in this country without a regular <add>חזן</add> I\n                consented to serve. During the<lb/> whole time of my being in office constantly\n                occurrences have taken place<lb/> which demanded decisions more complicated than my\n                own information was<lb/> able to afford. But having in the neighbouring city of\n                    <placeName>New York</placeName> a man of<lb/> sterling information and a\n                connection of my family by name of <persName>Israel B.<lb/> Kursheedt</persName>, no\n                doubt also known to you by reputation, I occasionally<lb/> referred to him. But as\n                he is not authorized in the regular way to give<lb/> decisions, and as therefore his\n                opinions are liable to be objected to, I now<lb/> address you, as already stated to\n                ask of you, which will without doubt be<lb/> a pleasure to you, to assist your\n                brethren in <placeName>America</placeName> with your advice and<lb/> counsel in\n                their endeavours to worship the God of their fathers in truth.<lb/> Perhaps all said\n                hitherto might have been as well omitted, but yet I thought it<lb/> best to inform\n                you at once why you are troubled with a letter by one who<lb/> is in all\n                    <sic>likelyhood</sic> a perfect stranger to you, for I doubt whether even\n                my<lb/> name has ever reached your ears before. In the first place then allow<lb/>\n                me to levy a case before you which has recently occurred here, and which<lb/> has\n                carried a considerable degree of excitement. You must know that<lb/> from a cause or\n                the other things occur here for which it is difficult to<lb/> find a parallel\n                elsewhere, and so it happened that a man by name of<lb/>\n                <persName>Reuben Etting</persName> living in <placeName>Baltimore</placeName>, where\n                there was no <add>מוהל</add> had a son<lb/> born to him about 35 years ago. He sent\n                for a <add>מוהל</add> from <placeName>Philadelphia</placeName><lb/> if I am not\n                mistaken, and they <sic>alledge</sic> that some accident happened<lb/> to the child\n                in consequence of the <add>מילה</add>, which however the family of the<lb/>\n                <add>מוהל</add>, who has been dead long before I came to\n                    <placeName>America</placeName>, as strenuously<lb/> deny. Be this as it may,\n                three sons born to <persName>Etting</persName> after that time were<lb/> left\n                uncircumcised, the youngest of whom was however circumcised here after<lb/> he was\n                old enough to judge for himself. The elder two however are <add>ערלים</add>, and</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6338,
+          "width": 5180,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ce14574-500c-477d-9c01-814fe41515e1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5180,
+                "height": 6338,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ce14574-500c-477d-9c01-814fe41515e1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/assets/2ce14574-500c-477d-9c01-814fe41515e1/original",
+              "label": "Original File - 98.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>one of them, named <persName>Benjamin</persName> was married some years back to the\n                daughter of a<lb/> gentleman of <placeName>Richmond</placeName> by name of\n                    <persName>Joseph Marx</persName>, highly respected for his wealth<lb/> and\n                standing as a merchant. I lately saw in this place the gentleman that<lb/> gave them\n                    <add>ערלים</add> and he assured me that he did not know that the man<lb/> he\n                married was an <add>ערל</add>. Of this however I can not speak with certain-<lb/>ty,\n                and I only state it that you may have all the circumstances of the<lb/> case as far\n                as known to myself. <persName>Benj. Etting</persName> had born him two<lb/> sons,\n                whom he <hi rend=\"underline\">contrary</hi> to the advice of his family, (who are now\n                all<lb/> residents in <placeName>Philadelphia</placeName>,) left <add>ערלים</add>.\n                In the beginning of the summer<lb/> he himself went out on a voyage to\n                    <placeName>Canton in China</placeName>, and in the mean<lb/> time his youngest\n                son sickened and died on the last <date>Sunday in<lb/> Elul</date>.<lb/> Our\n                congregation was applied to, to permit the child to be buried in our<lb/>\n                <add>בית עליון</add>, and by my advice the Parnass permitted it to be done; I\n                conten<lb/>ded that the child was <add>מזרע ישראל</add>, and not worse than\n                    <add>מומר קטן שהמיר עם אביו או אמו</add><lb/> of whom it is said <add>אין מתבלין\n                    עליו</add>, from which I inferred that<lb/> a <add>יורה דעה סי שמה סנו'</add> he\n                may have, not being able to find any thing in relation to <add>קבורה</add><lb/>\n                mentioned in the <add>יורה דעה</add>; at the same time I decided that the child\n                should be<lb/> looked upon as a <add>קטן שלא הגיע למילה</add>, and that they should\n                give it <add>מילה</add> and call<lb/> it a name as it mentioned in reference to a\n                child that dies before it is<lb/> eight days old. <persName>Dr. Emanuel</persName>\n                made the <add>מילה</add>; but because the parents had<lb/> been <add>פושעים</add>\n                and having been warned, I refused to attend the <add>לויה</add>, not being<lb/>\n                willing to read the <add>תפלות</add> over such a child. Understand me well,\n                venerable<lb/> Rabbi, that on no account would I have presumed to <del>have</del>\n                given an opinion,<lb/> if there were any body else here to whom I could have applied\n                for advice, and<lb/> thus therefore I was compelled to act, as I have done, altho by\n                so doing I<lb/> gave <sic>offence</sic> to those that said the child ought not to\n                have been buried<lb/> at all, and others again, and among them the large family\n                connection<lb/> of the child, who said I should and ought to have attended the\n                    <add>לויה</add>. I<lb/> therefore ask now your opinion, upon the following\n                points arising out of this case</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6360,
+          "width": 5126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/21b074d9-b8fd-4a33-a52d-fd044d753c9e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5126,
+                "height": 6360,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/21b074d9-b8fd-4a33-a52d-fd044d753c9e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/assets/21b074d9-b8fd-4a33-a52d-fd044d753c9e/original",
+              "label": "Original File - 98 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>a) Is a <add>יהודי ערל</add> allowed to marry a <add>בת ישראל</add> or not?</p>\n            <p>b) Is a “ allowed to have a <add>מצוה</add> or to be <add>עולה לתורה</add> or\n                not?</p>\n            <p>c) Is he allowed to come to <add>קבר ישראל</add>, and if he is, what is to be done in\n                case<lb/> he is full grown and had had an opportunity to take the <add>מילה</add> on\n                himself?</p>\n            <p>d) Is he entitled to be buried in the regular row or should he be laid <add>חן\n                    הצר</add>?</p>\n            <p>e) Should the <add>חזן</add> say <add>צדוק הדין</add> over a child like the one\n                spoken of, or had he<lb/> better not be at the burial?</p>\n            <p>f) Should <add>צדוק הדין</add> and the other <add>תפלות</add> be at all said over\n                such a <add>ערל</add> or not?</p>\n            <p>g) Are the <hi rend=\"underline\">daughters</hi> of such a man, born to him by a\n                    <add>בת ישראל</add> regular<lb/> and <add>חותרות לבא בקהל</add> or not?</p>\n            <p>On some of these points I have no draft myself, but to satisfy every one<lb/> both\n                who agreed with and those who differed from me of what is really the law I<lb/> have\n                asked perhaps more questions than were necessary. In case you answer<lb/> this be\n                kind enough also to quote the authorities, if there are any to which<lb/> we may\n                refer for future decisions, that we may not be compelled to encroach<lb/> again upon\n                your valuable time. I forgot to mention that <persName>Mr. Reuben\n                Etting</persName><lb/> has besides the four sons already mentioned a fifth to whom\n                he gave regularly<lb/> the <add>מילה</add>, and so it would appear that he may have\n                been prevented in the other<lb/> instances by a fear, however idle, of accidents,\n                which he believed to have<lb/> occurred to his eldest son. The whole family was very\n                much distressed at my<lb/> absence from the burial, and were of course in a\n                corresponding degree angry,<lb/> at what they thought a wanton insult offered at\n                them. However it must<lb/> be borne in mind that there are four or five more\n                families here who are<lb/> situated in the same way, and as there are at least <hi\n                    rend=\"underline\">two</hi> grown persons, it<lb/> is absolutely necessary that we\n                should have some fixed opinion to go by, that<lb/> we may in future avoid giving\n                just <sic>offence</sic> to anyone, for I believe sin-<lb/>cerely if once an opinion\n                has been obtained from you or some other great<lb/> teacher in\n                    <placeName>Israel</placeName>, but especially you, since you are the only one\n                now<lb/> in the countries where English is spoken, it will settle the matter\n                for-<lb/>ever; since despite of this professed indifference men may feel for\n                religion in<lb/> this country still they have sense enough left and virtue enough\n                too to<lb/> submit to a <del>?</del> righteous decision once given, for <add>הרקנים\n                    שבך מלאים מצות כרימון</add></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 6416,
+          "width": 5146,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1c616070-bfe5-4b45-91a5-f12a09e338d6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5146,
+                "height": 6416,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1c616070-bfe5-4b45-91a5-f12a09e338d6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/assets/1c616070-bfe5-4b45-91a5-f12a09e338d6/original",
+              "label": "Original File - 99.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>And having ventured thus far permit me to ask you a few other questions.<lb/> In this\n                country there are unfortunately many who have married <add>בנות של ניכר</add><lb/>\n                and there are many children descended either by the father or mother's<lb/> side\n                from <add>יהודים</add>; you know well what is said <add>קמים גרים לישראל\n                כספחת</add>; still<lb/> a great multitude is lost to our people by the great mixture\n                which<lb/> has unfortunately subsisted for so many years. I should like\n                therefore<lb/> to have a distinct answer to the following question, only premising\n                that<lb/> we are in this country permitted to make as many <add>גרים</add> as we\n                please.<lb/> I know also that <add>גרים</add> are not likely to be the best\n                    <add>יהודים</add> still the confu<lb/>sion arising from the number of females\n                particularly who are partly Jews<lb/> causes me to lay this question before you for\n                your candid decision and<lb/> sincere reflection:</p>\n            <p>First. Would it be lawful in case a <add>יהודי</add> has married a <add>בת אל\n                    זכר</add> to<lb/> receive her as a <add>גיורת</add> that the children born from\n                such a union<lb/> may be <add>יהודים</add>, or would it be better to leave them go\n                altogether<lb/> to destruction, and to refuse them every opportunity of coming\n                again<lb/> among us.</p>\n            <p>You will easily perceive that this matter is of great importance, and<lb/> if it\n                would be legalized might prevent much evil. Further, since there<lb/> are in this\n                country very often <add>נכריות</add> who are willing to marry <add>יהודים</add>\n                and<lb/> become <add>גיורות</add> before hand, whether under the circumstances of\n                the country<lb/> it would be right to take them, knowing what their object is\n                in<lb/> joining us. Instances indeed have occurred where gentile women<lb/> would\n                have been willing to <del>have</del> become Jewesses, and being refused<lb/> they\n                still married and they and their children were afterwards<lb/>\n                <add>למכשול ולפוקה</add>, since their daughters afterwards married <add>יהודים</add>\n                and so carried<lb/> the sin from generation to generation.</p>\n            <p><hi rend=\"underline\">Second</hi>. In what light are children to be regarded whose\n                father was a Jew and<lb/> whose mother a <add>נכרית</add>?</p>\n            <p><hi rend=\"underline\">Third</hi>. What must be done to children whose mother was a\n                    <add>יהודית</add> and whose<lb/> father a <add>גוי</add>? are they to be\n                considered as <add>יהודים</add> without <add>טבילה</add> or must they too</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 6416,
+          "width": 5092,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e49fb1cd-ca7b-496b-aae6-6ee8decdd741%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5092,
+                "height": 6416,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e49fb1cd-ca7b-496b-aae6-6ee8decdd741%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/assets/e49fb1cd-ca7b-496b-aae6-6ee8decdd741/original",
+              "label": "Original File - 98.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>have <add>טבילה</add>?</p>\n            <p><hi rend=\"underline\">Fourth</hi>. Suppose a <add>לוי</add> marries a <add>גויה</add>\n                and they have children, and afterwards the mother<lb/> become a <add>גיורת</add> are\n                the children both before her <add>טבילה</add> to be considered as <add>לוים</add> or\n                not?<lb/> I myself have decided that they are also <add>גרים</add> and of course not\n                    <add>לוים</add>; but<lb/> I should like to know whether I was right or\n                wrong?</p>\n            <p><hi rend=\"underline\">Fifth</hi>. Suppose a <add>יהודית</add> should have children or\n                rather daughters by a <add>גוי</add> are<lb/> they <add>מותרות לכהן</add> or\n                not?</p>\n            <p><hi rend=\"underline\">Sixth</hi>. Would it be right <add>להתחלה</add> to accept as\n                    <add>גרים</add> grown persons whose father<lb/> was a <add>יהודי</add> and whose\n                mother a <add>גויה</add>?</p>\n            <p>At the present moment I cannot think of more cases concerning<lb/> this point, but be\n                kind enough to write out if you can do it without<lb/> too much trouble all the laws\n                relating to this important consideration,<lb/> and you will I hope undertake to\n                satisfy us in this country, when I assure<lb/> you that there are at least a third\n                of all the American families interested<lb/> in it, I refer especially to those that\n                live in <placeName>Philadelphia</placeName>. There are<lb/> also a number in\n                    <placeName>New York</placeName> and elsewhere similarly situated, but of<lb/>\n                those I cannot speak with as much certainty.</p>\n            <p rend=\"indent(1)\">Sometime ago several families from various causes wished<lb/> the\n                marriage of their daughters to take place in the morning instead<lb/> of the\n                afternoon as usual. The congregation very properly refused<lb/> granting their\n                consent to such an innovation. But yet it would give<lb/> us much satisfaction to\n                have your decision on this subject also, and<lb/> whether a marriage may take place\n                in the morning or not?—</p>\n            <p rend=\"indent(1)\">Would a marble basin, hewn out of a solid block, holding a<lb/>\n                <add>שעור מקוה</add> filled with water coming by means of fixed machinery from\n                a<lb/> river, which water is originally forced up in a reservoir by means<lb/> of\n                machine pump be <add>כשר</add> for a <add>מקוה</add>? or would it be considered a\n                    <add>כלי</add> and <add>פסול</add>?<lb/> bay water brought into a bath built of\n                    <hi rend=\"underline\">stone</hi> or <del>single</del> bricks cemented by<lb/>\n                mortar from a river as above be used for a <add>מקוה</add> or are they considered as\n                    <add>מים שאובים</add>?</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 6394,
+          "width": 5104,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5ac50b87-58e6-4b75-b43a-b6112cea292b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5104,
+                "height": 6394,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5ac50b87-58e6-4b75-b43a-b6112cea292b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/assets/5ac50b87-58e6-4b75-b43a-b6112cea292b/original",
+              "label": "Original File - 98.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">I should like to ask your opinion upon many other points from time\n                to<lb/> time, if you would permit me, to address you occasionally; which I\n                trust<lb/> you will grant me, and I assure you, that you still never need blame<lb/>\n                yourself for the favour granted. If you can conveniently do it,<lb/> please to make\n                your reply in English, that it may be extensively<lb/> circulated. Answer this if\n                you can by the earliest packet, since<lb/> not I alone but many other persons are\n                anxious for your opinion.</p>\n            <p rend=\"indent(1)\">I have seen with pleasure that <add>חזן</add>\n                <persName>De Sola</persName> has undertaken<lb/> a new edition of the Portuguese\n                service, since the books formerly issued<lb/> by <persName>David Levy</persName>\n                <add>?</add> are not now to be had any more though often inquired<lb/> after. Two\n                years ago I wanted to undertake the same labour myself,<lb/> but a <sic>sever</sic>\n                illness, the small-pox, kept me confined for several months,<lb/> and my health has\n                ever since continued too bad to permit me to<lb/> undertake so heavy a task. Having\n                been thus myself prevented by<lb/> the hand of God from accomplishing my design, I\n                am glad to see it under-<lb/>taken by one who I hope is fully capable to do justice\n                to the work. If it is<lb/> well done, I shall rejoice that it has been accomplished,\n                and shall use<lb/> my endeavours, feeble as they are, to forward the author's\n                design. If you<lb/> think proper you may communicate this to him, altho' I have\n                never<lb/> had the pleasure of hearing any thing about him, till I heard of his<lb/>\n                prospectus some weeks since from a bookseller of eminence who belongs<lb/> to our\n                congregation, and not till this morning was the prospectus itself<lb/> placed in my\n                hands.</p>\n            <p rend=\"indent(1)\">I am afraid I have detained you too long, particularly by\n                matters<lb/> not <sic>relevent</sic> to my inquiries, if so I beg you to excuse me;\n                and to<lb/> forgive the errors of a stranger, who speaks to a father and\n                teacher<lb/> in <placeName>Israel</placeName>; whom he would gladly personally see\n                &amp; know. May our<lb/> God preserve you many years in health and prosperity, and\n                may there<lb/> never be wanting one in your family to sit on the seat of judgment in\n                    <placeName>Israel</placeName>.</p>\n            <p>\n                <add>כ\"ד עבד אדוני המוכן לשרתו ה\"ק יצחק אילן אורי ליפיץ אליעזר</add>\n            </p>\n            <p><add>בפילאד'</add>\n                <persName role=\"author\">Isaac Leeser</persName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 6404,
+          "width": 5194,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a1b66f48-5883-4ff0-9e2d-0eea4f33d4f0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5194,
+                "height": 6404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a1b66f48-5883-4ff0-9e2d-0eea4f33d4f0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/assets/a1b66f48-5883-4ff0-9e2d-0eea4f33d4f0/original",
+              "label": "Original File - 100 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>My address is <persName role=\"author\">Isaac Leeser</persName>\n                <placeName>Philadelphia Pennsylvania</placeName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s75756g/canvas/p8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

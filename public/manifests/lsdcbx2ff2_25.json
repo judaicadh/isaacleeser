@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 11 May 1855",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3ht2gz01"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 11 May 1855"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Sola, Abraham de, 1825-1882", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1855-05-11", "11 May 5615"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF2_25"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/d12cc0d6-ea11-4b31-a3f5-1ebca096d92c%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/d12cc0d6-ea11-4b31-a3f5-1ebca096d92c%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3908,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d12cc0d6-ea11-4b31-a3f5-1ebca096d92c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 3908,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d12cc0d6-ea11-4b31-a3f5-1ebca096d92c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/assets/d12cc0d6-ea11-4b31-a3f5-1ebca096d92c/original",
+              "label": "Original File - 34.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Montreal</placeName>\n                <date>11<hi rend=\"sup\">th</hi> May 5615</date>\n            </p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(2)\">Dear Sir,</p>\n            <p rend=\"indent(3)\">My brother in law <persName>Rev. A. P. Mendes</persName> of<lb/>\n                <placeName>Birmingham</placeName> calls my attention in a letter received from\n                him<lb/> yesterday to the fact that <persName>Dr Wise</persName> of\n                    <placeName>Cincinnati</placeName> accuses<lb/> him most wrongfully of plagiarism\n                in a sermon called<lb/> “The Perpetual Light” preached by <persName>Mr.\n                    M.</persName> in <placeName>London</placeName> and<lb/> continues “I have\n                addressed myself to <persName>Mr Leeser</persName> to whom I have<lb/> written a\n                letter for publication in the Occident and have also<lb/> sent my sermon claimed by\n                this <persName>Wise</persName>, for publication in<lb/> his pages. I do not know\n                whether he will oblige me with the<lb/> space solicited as I have not the pleasure\n                to be known to him.<lb/> Will you oblige me by using your influence with him to\n                procure<lb/> for my request his kind consideration?” At <persName>Mr M's</persName>\n                expression<lb/> “all my influence with you” I could but smile. I regretted<lb/>\n                however that though misconception he should have written<lb/> to the last person\n                competent to do him a service with you in<lb/> the matter. Fortunately for him his\n                case (in my humble,<lb/> estimation) is one that recommends itself by its own\n                merits.<lb/> Though I believe too much is made of the affair on both sides<lb/> yet\n                some texts (and God forbid there should be a monopoly<lb/> of Scripture) and even\n                identical ideas do not warrant the<lb/> harsh term plagiarism. I have not seen\n                    <persName>Mr M's</persName> sermon<lb/> (and therefore my name must not appear\n                in this controversy<lb/> as yet,) but (I am pretty sure from my intimate\n                knowledge)<lb/> of him his abilities &amp; (principles that he would not stoop</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3908,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/59d7b02a-b0bc-48fa-86e3-e3876d918237%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 3908,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/59d7b02a-b0bc-48fa-86e3-e3876d918237%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/assets/59d7b02a-b0bc-48fa-86e3-e3876d918237/original",
+              "label": "Original File - 34.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to the plagiarism of which he is accused. Now, my dear Sir, although<lb/> I cannot\n                “use any influence with you to procure for <persName>M's</persName> request<lb/>\n                your kind consideration” still I will venture to represent to you<lb/> that as\n                    <persName>Mr Mendes</persName> considers himself <hi rend=\"underline\"\n                    >wrongfully</hi> accused<lb/> of no trifling thing, and as you have in the pages\n                of the Occident<lb/> declared your willingness to give them to any defense of\n                the<lb/> Jewish Ministry when wrongfully accused—and as <persName>Mr\n                M's</persName><lb/> reputation (and perhaps even to some extent his usefulness<lb/>\n                may be endangered were the charge of literary <hi rend=\"underline\">theft</hi>\n                not<lb/> immediately refuted—your own charity shown in cases<lb/> somewhat similar\n                will induce you to give <persName>Mr M</persName>, an<lb/> opportunity of being\n                heard in his <sic>defence</sic>. I do not urge the many<lb/> considerations which\n                occur to me &amp; which would have the effect<lb/> of entitling your sympathy in his\n                cause for I do not wish nor have<lb/> I time to trouble you with a longer letter,\n                but they will very<lb/>—much more—readily occur to you.</p>\n            <p rend=\"indent(1)\">Will you oblige me with a line at your convenience to<lb/> inform me\n                definitely whether you are willing or decline to<lb/> with the joint publication of\n                Templo's Grammar <persName>Sarah Joseph</persName><lb/> told me you had “said\n                something about its being no use to<lb/> print the school books but she forgot what\n                you said exactly”<lb/> Did your remarks apply to the Grammar as well as to the other\n                books?<lb/> I had thought of being able to put the question to you personally<lb/>\n                in <placeName>New York</placeName> at the dedication of the hospital, but I\n                can't<lb/> conveniently go. Trusting you are in good health I am<lb/> with\n                    <persName>Mrs deS</persName>' kind regards</p>\n            <p rend=\"indent(11)\">Yours truly</p>\n            <p rend=\"indent(11)\">\n                <persName role=\"author\">Abraham de Sola</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ht2gz01/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

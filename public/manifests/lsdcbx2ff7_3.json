@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Harris, Abraham; Leeser, Isaac, Rev.; Charleston, SC; 23 January 1860",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3p26qp95"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Harris, Abraham; Leeser, Isaac, Rev.; Charleston, SC; 23 January 1860"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1860-01-23"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF7_3"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/0ab2f482-5277-4532-b749-63cbdd274a03%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/0ab2f482-5277-4532-b749-63cbdd274a03%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3920,
+          "width": 2772,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0ab2f482-5277-4532-b749-63cbdd274a03%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2772,
+                "height": 3920,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0ab2f482-5277-4532-b749-63cbdd274a03%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/assets/0ab2f482-5277-4532-b749-63cbdd274a03/original",
+              "label": "Original File - 32.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><date>Monday</date> Morning</p>\n            <p rend=\"align(right)\">\n                <date>Jany 23/60</date>\n            </p>\n            <p>\n                <addressee>Rev I Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">Dear Sir</p>\n            <p rend=\"indent(3)\">I think it<lb/> due to myself as well as your-<lb/>self that I\n                should give you<lb/> an extract of a letter I re-<lb/>ceived last\n                        <date><sic>friday</sic></date> from <persName>Dr Mayer</persName><lb/> “upon\n                expressing my astonish-<lb/>ment to <persName>Mr Leeser</persName> that you a<lb/>\n                staunch orthodox should<lb/> have applied for a situation<lb/> as minister to a\n                reformed<lb/> congregation he at once and<lb/> very curtly observed He'll do<lb/>\n                anything for money. It was in<lb/> that conversation he told me that<lb/> a Hebrew\n                lady of <placeName>Philadelphia</placeName> upon<lb/> one occasion of his calling\n                just<lb/> when you left her house, had<lb/> requested him to tell you that<lb/> she\n                wished to dispense with<lb/> your visits for the reason</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3920,
+          "width": 2772,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7a885990-d854-43cf-b2f8-9b45dbb42a2d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2772,
+                "height": 3920,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7a885990-d854-43cf-b2f8-9b45dbb42a2d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/assets/7a885990-d854-43cf-b2f8-9b45dbb42a2d/original",
+              "label": "Original File - 32.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>as assigned by <persName>Mr Leeser</persName> be-<lb/>cause you called too often<lb/>\n                and protracted your visits too<lb/> long. He also told me then that<lb/>\n                <persName>Dr Fischel</persName> had related to him the<lb/> fact of your intended\n                conversion.<lb/> The tone of <persName>Mr Leeser</persName> during<lb/> the whole\n                conversation was that<lb/> of indignation and contempt<lb/> produced as then was and\n                is<lb/> still my impression. I say this<lb/> injustice to him, by his belief,\n                that<lb/> you had deceived him with<lb/> regard to your profession of<lb/>\n                orthodoxy.”</p>\n            <p rend=\"indent(6)\">I am</p>\n            <p rend=\"indent(6)\">Dear Sir</p>\n            <p rend=\"indent(6)\">Your obedient servant</p>\n            <p rend=\"indent(6)\">\n                <persName role=\"author\">Abraham Harris</persName>\n            </p>\n            <p rend=\"indent(6)\">\n                <placeName>Charleston S.C.</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3p26qp95/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

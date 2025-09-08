@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Cohn, L.; Leeser, Isaac, Rev.; New Orleans, LA; 6 April 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p35d8nx4m"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Cohn, L.; Leeser, Isaac, Rev.; New Orleans, LA; 6 April 1848"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1848-04-06"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Louisiana -- New Orleans",
+        "United States -- Louisiana",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_12"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/0096fdae-9d4c-4e82-ab20-e22ec9f24391%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/0096fdae-9d4c-4e82-ab20-e22ec9f24391%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5864,
+          "width": 4626,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0096fdae-9d4c-4e82-ab20-e22ec9f24391%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4626,
+                "height": 5864,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0096fdae-9d4c-4e82-ab20-e22ec9f24391%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/assets/0096fdae-9d4c-4e82-ab20-e22ec9f24391/original",
+              "label": "Original File - 81.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>New Orleans</placeName>, <date>April\n                                                  6<hi rend=\"sup\">th</hi> 1848</date></p>\n                              <p>\n                                        <addressee>Revd Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(2)\">DSir!</p>\n                              <p rend=\"indent(3)\">I beg have to inform you<lb/> that at the annual\n                                        Meeting of the Hebrew Benevolent Associa-<lb/>tion of\n                                                  <placeName>New Orleans</placeName>, held on\n                                                  <date>Sunday March 26<hi rend=\"sup\"\n                                                  >th</hi>1848</date>,<lb/> the following Officers,\n                                        were elected to serve for the ensuing<lb/> year.</p>\n                              <list type=\"members\">\n                                        <head>List of members</head>\n                                        <item rend=\"indent(1)\"><persName>A Emanuel.</persName>\n                                                  President.<persName>M Kursheedt </persName> Vice\n                                                  President</item>\n                                        <item rend=\"indent(1)\"><persName>David Sanger.</persName>\n                                                  Treasurer. And <persName>Leopold Cohn</persName>\n                                                  Secretary</item>\n                              </list>\n                              <p>Board of Managers—<persName>S. Magner</persName>. <persName>A\n                                                  Harber</persName>, <persName>E. Jacobs</persName>.\n                                                  <persName>G G Levi</persName><lb/> and\n                                                  <persName>N. Worms</persName></p>\n                              <p rend=\"indent(1)\">The anniversary Ball, given in this city on the\n                                                  <date>20<hi rend=\"sup\">th</hi><lb/> March\n                                                  1848.</date> for the benefit of the association,\n                                        was very num-<lb/>erously attended many distinguished\n                                        citizens, and dignitaries<lb/> of the state were present on\n                                        the, Occasion,</p>\n                              <p rend=\"indent(1)\">It is gratifying to state, that the affair\n                                        passed<lb/> off to the entire <sic>satisfactione</sic> of\n                                        all, and much praise<lb/> is due to the <hi rend=\"underline\"\n                                                  >committee of arrangement</hi>, for the<lb/>\n                                        Splendor and style in which the ball was conducted<lb/> and\n                                        their untiring efforts, to give general satisfaction,<lb/>\n                                        has been crowned with great success. <sic>the</sic> nett\n                                        proceeds<lb/> amounting to Seven Hundred dollars which\n                                        amount<lb/> greatly replenishes the exhausted state of the\n                                        fund of<lb/> the Society, having expended for charitable\n                                        purposes<lb/> Fifteen Hundred Dollars during the passed\n                                        year.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5752,
+          "width": 4604,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f2cf2bdc-5efb-487c-93a6-279a8374dcb9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4604,
+                "height": 5752,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f2cf2bdc-5efb-487c-93a6-279a8374dcb9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/assets/f2cf2bdc-5efb-487c-93a6-279a8374dcb9/original",
+              "label": "Original File - 79.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>caused by the raging Epidemic of last summer.</p>\n                              <p rend=\"indent(1)\">I have the honor to remain with sentiments of\n                                        esteem</p>\n                              <p rend=\"indent(5)\">Your Very Obt Sevt</p>\n                              <p rend=\"indent(6)\">\n                                        <persName role=\"author\">L. Cohn</persName>\n                              </p>\n                              <p rend=\"indent(6)\">Secretary H. B. A.</p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_6_2.pdf\">The above\n                                                  text refers to Occident Volume 6 No. 2 page 107.\n                                                  Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35d8nx4m/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

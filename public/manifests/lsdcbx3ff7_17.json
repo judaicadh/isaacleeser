@@ -1,0 +1,209 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Gratz, Rebecca; Leeser, Isaac, Rev.; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3kd1r256"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Gratz, Rebecca; Leeser, Isaac, Rev.; Philadelphia, PA; undated"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF7_17"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/381f3273-4ad5-47e0-8be2-7ce3fd46b76f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/381f3273-4ad5-47e0-8be2-7ce3fd46b76f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5156,
+          "width": 4348,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/381f3273-4ad5-47e0-8be2-7ce3fd46b76f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4348,
+                "height": 5156,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/381f3273-4ad5-47e0-8be2-7ce3fd46b76f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/assets/381f3273-4ad5-47e0-8be2-7ce3fd46b76f/original",
+              "label": "Original File - 67.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>To</p>\n            <p rend=\"indent(1)\">The <addressee>Revd Isaac Leeser</addressee></p>\n            <p rend=\"indent(3)\">\n                <placeName>Walnut Street</placeName>\n            </p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4348,
+          "width": 5156,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ec8e7e92-98ad-4852-96d9-9d11ab5d673f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5156,
+                "height": 4348,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ec8e7e92-98ad-4852-96d9-9d11ab5d673f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/assets/ec8e7e92-98ad-4852-96d9-9d11ab5d673f/original",
+              "label": "Original File - 67.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p><addressee>Mr. Leeser</addressee>,</p>\n            <p rend=\"indent(1)\">I return you many thanks for the<lb/> perusal of the enclosed, you\n                see I have read it with<lb/> parcel in hand, and have taken the liberty of<lb/>\n                making some passages where the omission of words<lb/> would I think strengthen &amp;\n                improve the style.</p>\n            <p>There is a little obscurity about the introduction<lb/> of the 139th Psalm did that\n                apt quotation immed<lb/>iately follow the beautiful lives to which it\n                    <sic>applys</sic><lb/> the whole would be much more impressive<lb/> he would not\n                stop to <sic>enquire</sic> if the history of<lb/> the cholera verifies scripture.\n                When the facts you<lb/> stole seem as if they might have inspired<lb/> the holy king\n                with those <add>?</add> of eloquent<lb/> subscription and deep\n                    conviction<add>?</add> of the omnipotence<lb/> of God if I did not know that you\n                are in the habit<lb/> of writing rapidly, and not revising before you submit<lb/>\n                your manuscripts I should be different of giving an<lb/> opinion because you would\n                be certainly a better<lb/> judge but <add>?</add> sometimes places the\n                    stress<add>?</add><lb/> into the hands of the weak and you see how<lb/> they\n                take advantage of it —</p>\n            <p rend=\"indent(7)\">believe me very sincerely</p>\n            <p rend=\"indent(7)\">your friend <persName role=\"author\">R G</persName></p>\n        </body>\n    </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3kd1r256/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

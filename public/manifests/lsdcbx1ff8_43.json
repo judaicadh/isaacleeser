@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Meldola, David; Leeser, Isaac, Rev.; London, United Kingdom; 4 January 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3gm8283f"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Meldola, David; Leeser, Isaac, Rev.; London, United Kingdom; 4 January 1851"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-01-04", "4 January 5611"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United Kingdom -- London",
+        "United Kingdom",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF8_43"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/46a47864-db7c-495a-a41e-3c9ba9d1069b%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/46a47864-db7c-495a-a41e-3c9ba9d1069b%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4456,
+          "width": 3614,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/46a47864-db7c-495a-a41e-3c9ba9d1069b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3614,
+                "height": 4456,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/46a47864-db7c-495a-a41e-3c9ba9d1069b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/assets/46a47864-db7c-495a-a41e-3c9ba9d1069b/original",
+              "label": "Original File - 48.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <placeName>London</placeName>\n                                        <date>4th January 5611</date>\n                              </p>\n                              <p rend=\"indent(4)\">Most Esteemed Friend</p>\n                              <p rend=\"indent(7)\">I have read attentively your statement and<lb/>\n                                        communication to me of the <date>24th Iyar</date> from which\n                                        as well as from the course of our<lb/> correspondence I have\n                                        drawn in full and can well make out the character of such\n                                        individu<lb/>=als <add>הפושעים המורדים בך</add>\n                                        <persName>Brother Leeser</persName>! <add>דום לה' והתחולל\n                                                  לו</add> in the course of our correspondence you\n                                        had<lb/> occasion to remind me of the saying <add>לא לחכם\n                                                  הלך זרזיר וכ\"ו</add> on my reflecting thereon it\n                                        struck<lb/> me rather strange that such has been the case\n                                        throughout the proceedings for in that<lb/>\n                                        <hi rend=\"underline\">true</hi>\n                                        <persName>Lady Clarissa</persName> (whom I have never seen\n                                        since) of course you are well acquainted with<lb/> her\n                                                  <add>ספר יוחסין</add> Father, Brothers, brother in\n                                        law &amp;c Butchers <add>עסקם בבהמות</add> and for her having<lb/>\n                                        <del>having</del> taken such interest and under handed work\n                                        for a certain party she surely<lb/> must have had a scent\n                                                  <add>ריחא מלתא היא</add> that he is as well as\n                                        herself <add>מוחס</add> in the same way by father,<lb/>\n                                        grand father, great grand father &amp;c although butchers in\n                                        this country are closer to the<lb/> mark of <hi\n                                                  rend=\"underline\">imitating</hi> a gentleman's\n                                        business, by their having a Desk to write upon, cheque<lb/>\n                                        book, banker, and after business hour attending at meetings\n                                        with a fine coat (of course<lb/> at that moment divested\n                                        from the <hi rend=\"underline\">blue apron</hi>) which is not\n                                        the case in <placeName>Leghorn</placeName> they are<lb/>\n                                        literally <add>שותפו של עמלק שפלים בתכלית השפלות</add> and\n                                        in no better sphere than the common drover, here;<lb/>\n                                        consequently this may in part answer the conduct of his\n                                        behaviour towards yourself &amp;<lb/> myself, for you know\n                                        well <add>זרוק חוטרא לאוירא אעיקרא קאי</add> when I say\n                                        myself I mean to say<lb/> that near his departure or during\n                                        the treatise of the affair he approached me closer<lb/> than\n                                        he ever did for 4 years he was here, appearing friendly, and\n                                        open'd his mind to me<lb/> of course as his countryman &amp;\n                                        superior, (but I held all this with suspicion) nevertheless\n                                        he<lb/> had the most kind behaviour &amp; hospitality from\n                                        one and all at my house; such has<lb/> been the <hi\n                                                  rend=\"underline\">amiable</hi> &amp; <hi\n                                                  rend=\"underline\">modest</hi> Divine that he has\n                                        never had the politeness I shall not<lb/> say write me a\n                                        letter, but compt. to me, or my family, and I was the only\n                                        one who accompanied<lb/> him 7 miles to see him off by the\n                                        Train; I can only attribute such behavior chiefly to\n                                        the<lb/> above reason, and than as I took no hints of what\n                                        he was coming so friendly after me, and<lb/> what he wished,\n                                        he expected that I should have shelter'd him under one of\n                                        the great men that<lb/>\n                                        <placeName>Leghorn</placeName> had <hi rend=\"underline\">once\n                                                  upon a time</hi> the poor <add>תלמיד</add>\n                                        <sic>beginer</sic> of the present day, was quite\n                                        mistaken,<lb/> I know him well also his full weight, the\n                                        first rudiments of the Bible <add>דקדוק</add> grammar a\n                                        little<lb/> it is &amp; <add>?</add> with the learned\n                                        Lecturer. I could not allow him in our official\n                                        certificate<lb/> but the truth and that only, as far as his\n                                        competency as Hazan. With regard to <persName>E</persName>:\n                                                  <persName>H</persName>:\n                                        <persName>L</persName>:<lb/> you could easily perceive the\n                                        truth of the <hi rend=\"underline\">amiable</hi>, the other\n                                        Two <sic>naturaly</sic> falls; <hi rend=\"underline\"\n                                                  >modest</hi> to be to the contrary<lb/>\n                                        <add>רשי ודיני אורח חיים it is &amp;</add>\n                                        <hi rend=\"underline\">learned</hi>, <del>after</del> a\n                                        learned man will easily find that out, what can such a\n                                        judge<lb/> signify, who knows not the least in our\n                                        literature <add>מאין לו מיחומו, מגודל חכמתו</add> he cannot\n                                        translate one verse</p>\n                              "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4456,
+          "width": 3614,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c9afcdf8-d57c-4d62-a863-28072a47f3c8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3614,
+                "height": 4456,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c9afcdf8-d57c-4d62-a863-28072a47f3c8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/assets/c9afcdf8-d57c-4d62-a863-28072a47f3c8/original",
+              "label": "Original File - 48.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p>from the Hebrew, the little information he has picked up in from\n                                        the numerous<lb/>\n                                        <sic>spanish</sic> books we have a religious points as you\n                                        well know, Cuzaris, Conciliator,<lb/> Hobat a Cebabot &amp;c\n                                        &amp;c &amp;c but chiefly on this subject one maxim will\n                                        answer you all and<lb/> any difficulty you may have, <hi\n                                                  rend=\"underline\">much</hi> is done now <add>דבר\n                                                  בלה\"ק</add> I believe he has not written any<lb/>\n                                        more than the first letters to his friends <add>לא מאהבתו של\n                                                  פלוני אלא משנאתו של פלוני</add> otherwise we\n                                        should have had Bushels of<lb/>\n                                        <hi rend=\"underline\">puffing</hi> in the chronicle of the\n                                                  <hi rend=\"underline\">miracles</hi>, wonders,\n                                        performed by him.—I shall in my<lb/> next write to you the\n                                        cause of all such <add>אוהביו ואנשי בריתו</add> we have some\n                                        here among us <sic>equaly</sic> to<lb/> yours—I hereby send\n                                        you a copy of the letter sent by me to <persName>Mr. <hi\n                                                  rend=\"underline\">Hart</hi></persName><lb/> let me\n                                        know your opinion about it, let me beg of you to keep it in\n                                        confidence not to<lb/> make any public use of it, you are at\n                                        liberty to show it to any friend. Without<lb/> the least\n                                        flattery I assure you I never read any thing more powerful,\n                                        striking to the<lb/> feelings, <hi rend=\"underline\"\n                                                  >mainly</hi>, than your Introduction &amp; your\n                                        reply to the address, in the occident<lb/>\n                                        <date>April</date> last—you drew tears from my eyes as I was\n                                        in full possession of all passed.<lb/> I shall be most happy\n                                        to hear from you in hopes you are doing well, and have\n                                        the<lb/> laugh over them <add>אהבה שהיא תלויה וכ\"ו</add> and\n                                        hope many will have their eyes open to see it, you will<lb/>\n                                        candidly let me know if this is the case which I expect it\n                                        to be <add>ניכר מתוך החושך כי יתרון האור</add><lb/> wishing\n                                        you heartily every prosperity, ready at your commands. Ever\n                                        sincere</p>\n                              <p rend=\"align(right)\">\n                                        <persName role=\"author\">David Meldola</persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm8283f/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

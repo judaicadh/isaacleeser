@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Asorio, M. D.; Leeser, Isaac, Rev.; Anytown, St. Thomas; 26 December 1861",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3f766t0z"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Asorio, M. D.; Leeser, Isaac, Rev.; Anytown, St. Thomas; 26 December 1861"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1861-12-26"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virgin Islands -- St. Thomas",
+        "United States -- Virgin Islands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF8_18"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/0e7f4bf6-cd7b-455c-a49c-428ec72808dc%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/0e7f4bf6-cd7b-455c-a49c-428ec72808dc%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5032,
+          "width": 4090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0e7f4bf6-cd7b-455c-a49c-428ec72808dc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4090,
+                "height": 5032,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0e7f4bf6-cd7b-455c-a49c-428ec72808dc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/assets/0e7f4bf6-cd7b-455c-a49c-428ec72808dc/original",
+              "label": "Original File - 61.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>St. Thomas</placeName>\n                <date>26<hi rend=\"sup\">th</hi> December 1861</date>\n            </p>\n            <p rend=\"indent(1)\">\n                <addressee>Revd Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(4)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(2)\">Revd &amp; dear Sir</p>\n            <p rend=\"indent(4)\">I read with much plea„<lb/>„sure your issue of Povbr<add>?</add> a\n                p, and as I am interested in<lb/>\n                <persName>P's</persName> letter I beg to thank you for its publication. I\n                regret<lb/> to say that our <persName>Revd Mr. M</persName> has not escaped the fate\n                of<lb/> most good men and his good intentions and honest perseverance<lb/> are\n                doubted by a <sic>handfull</sic> of his congregation, thanks to<lb/> God it is the\n                worst judging portion, still they may influence<lb/> enemies against him in\n                countries where they are not known.<lb/> Therefore as eulogions<add>?</add> have\n                appeared in your paper in his favor<lb/> and his <sic>entagonist</sic> may select\n                the same field to attack him<lb/> I address you these few lines, as it were to put\n                you on your<lb/> guard; I am aware that the principle under which you<lb/> conduct\n                your valuable &amp; much esteemed Occident, is to allow<lb/> free discussions, but I\n                am certain when those discussions aim to<lb/> destroy the reputation of a faithful\n                servant of <placeName>Israel's</placeName> God you<lb/> will know with what contempt\n                to treat them, and not lend<lb/> your periodical to such purposes. I inform you this\n                much<lb/> that you may know in case you are addressed, otherwise please<lb/> not to\n                mention anything to the public, as I wish not to be the<lb/> means of exposing any\n                little difficulties which may exist among<lb/> us. <persName>Mr Myers</persName>\n                friends are the most respectable members of<lb/> his congregation, besides I am\n                happy to say he enjoys the esteem<lb/> of the whole community,\n                    <persName>N's</persName> letter therefore expressed the views</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5032,
+          "width": 4090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b084bf94-f15c-405c-ad0c-14031089e762%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4090,
+                "height": 5032,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b084bf94-f15c-405c-ad0c-14031089e762%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/assets/b084bf94-f15c-405c-ad0c-14031089e762/original",
+              "label": "Original File - 61.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>of a respectable majority.</p>\n            <p rend=\"indent(3)\">I am respectfully</p>\n            <p rend=\"indent(5)\">Yours</p>\n            <p rend=\"indent(6)\">\n                <persName role=\"author\">MDAsorio</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t0z/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

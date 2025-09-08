@@ -1,0 +1,188 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Cohen from Hirshell, Dr.; June 13, 1835",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3ns0mq0p"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Cohen from Hirshell, Dr.; June 13, 1835"]
+    },
+    {
+      "label": "Name",
+      "value": ["Cohen, M.I. (contributor)", "Hirshell, Dr. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1835-06-13"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["London (England)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF2_13", "ilcajs_b1f1_0011"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/a9d4cd0e-6c50-4680-b5f3-32096aea98b4%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/a9d4cd0e-6c50-4680-b5f3-32096aea98b4%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 4290,
+          "width": 5708,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a9d4cd0e-6c50-4680-b5f3-32096aea98b4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5708,
+                "height": 4290,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a9d4cd0e-6c50-4680-b5f3-32096aea98b4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/assets/a9d4cd0e-6c50-4680-b5f3-32096aea98b4/original",
+              "label": "Original File - 73.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><persName role=\"author\">Dr. Hirshell</persName> presents his\n                                        com-<lb/>pliments to <persName>Mr. Cohen</persName> if\n                                        conveni<lb/>ient to him <persName role=\"author\">Dr.\n                                                  Hirshell</persName> will<lb/> call on\n                                                  <date>Monday</date> or following\n                                                  <date>Thurs-<lb/>day</date> evening</p>\n                              <p>\n                                        <placeName>5/ Bury Court Mary Axe</placeName>\n                              </p>\n                              <p>\n                                        <date>June 12<hi rend=\"sup\">th</hi> 95/a.m</date>\n                              </p>\n                              <p>An answer will oblige</p>\n                              <p><persName role=\"author\">Revd. DH</persName> chief Rabbi of\n                                                  <placeName>England</placeName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4212,
+          "width": 5536,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1d2e839d-5ba7-4bbf-ae94-de9655be5744%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5536,
+                "height": 4212,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1d2e839d-5ba7-4bbf-ae94-de9655be5744%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/assets/1d2e839d-5ba7-4bbf-ae94-de9655be5744/original",
+              "label": "Original File - 70.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <persName role=\"author\">Rabbi Hirschell</persName>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <addressee>M I. Cohen Esq</addressee>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>143 Oxford Str</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mq0p/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

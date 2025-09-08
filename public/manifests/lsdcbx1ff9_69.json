@@ -1,0 +1,314 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Jaroslawski, L.; Pittsburgh, PA; 18 October 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p38w38n7s"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Jaroslawski, L.; Pittsburgh, PA; 18 October 1852"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-10-18"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Pittsburgh",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_69"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/bf1767cb-aa37-4540-8dc8-aa237e312bf5%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/bf1767cb-aa37-4540-8dc8-aa237e312bf5%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4628,
+          "width": 3492,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bf1767cb-aa37-4540-8dc8-aa237e312bf5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3492,
+                "height": 4628,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bf1767cb-aa37-4540-8dc8-aa237e312bf5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/assets/bf1767cb-aa37-4540-8dc8-aa237e312bf5/original",
+              "label": "Original File - 48.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName><sic>Pittsburg</sic></placeName>\n                                        <date>Octr 18<hi rend=\"sup\">th</hi> 1852</date>.</p>\n                              <p>\n                                        <addressee>Rev. Mr. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(2)\"><placeName>Philadelphia</placeName>.</p>\n                              <p rend=\"indent(4)\">Dear Sir!</p>\n                              <p rend=\"indent(5)\">Since <persName>Mr. Marcusson</persName><lb/> has\n                                        honored me with the perusal of the contents of your<lb/>\n                                        letter, I take the liberty to say, that we need not<lb/> at\n                                        all be surprised at the false assertions of\n                                                  <persName>Bonahan</persName><lb/> or any of his\n                                        colleagues in the fabrication of falshoods<lb/> in regard to\n                                        their pretended invasion into Judaism.<lb/> The knowledge I\n                                        have obtained on various occasions of men<lb/> of their\n                                        stamp, has taught me sufficiently that protes-<lb/>tantic\n                                        jesuitism is existing to a great extent, among<lb/> a class\n                                        of man who render the name of a society for<lb/> the purpose\n                                        of ameliorating the condition of the jews<lb/> send many\n                                        idlers abroad, among them a few renegades<lb/> from our holy\n                                        religion, who are <sic>to</sic> lazy to work for an<lb/>\n                                        honest living. (We can easily spare them as the prophet says<lb/>\n                                        <add>ועוד בה עשיריה ושבה והיתה לבער ישעיהו ו, י\"ג</add>).\n                                        These men are ever ready and so very eager<lb/> to bounce\n                                        upon every word uttered by an unsuspecting man<lb/>\n                                        especially when he happens not to be familiar with the<lb/>\n                                        language, to construe this to their purpose, than to\n                                        publish<lb/> it with so many embellishments and\n                                                  <sic>fabulus</sic> ideas of their own<lb/>\n                                        begetting, as to make it very interesting to the ear of\n                                        their<lb/> bigotted emploiers. A matter of fact only lately\n                                        occurred<lb/> to <sic>miself</sic>, will serve to illustrate\n                                        the above. As man<lb/> calling himself <persName><hi\n                                                  rend=\"underline\">Avery</hi></persName> from\n                                                  <placeName>New York</placeName> state and\n                                        travelling</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4628,
+          "width": 3492,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0235f4ec-5cc5-448e-9bf7-d4467fa0d0d9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3492,
+                "height": 4628,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0235f4ec-5cc5-448e-9bf7-d4467fa0d0d9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/assets/0235f4ec-5cc5-448e-9bf7-d4467fa0d0d9/original",
+              "label": "Original File - 48.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>as he stated for the above named society, called on me<lb/> and\n                                        after having taken the trouble twice to converse with<lb/>\n                                        him on religion, he felt so fully defeated, that\n                                        although<lb/> he promised to call again, he never did so. I\n                                        saw him<lb/> walking the streets frequently after that, and\n                                        I was told<lb/> by the minister of the fifth\n                                                  <sic>presbiterian</sic> church*, that he<lb/>\n                                        preached the <date>Sunday</date> following our arguments at\n                                        his<lb/> church, <sic>were</sic> he stated, that he visited\n                                        some of the jews<lb/> in this city, that he found them very\n                                        intelligent, and that<lb/> he entertained great hopes soon\n                                        to bring them to the<lb/> knowledge of divine truth. He has\n                                        not even been listened<lb/> to what his mission was, by any\n                                        other jew in this city, and<lb/> as to the truth of the\n                                        effects of my arguments, as above said<lb/> I will bring\n                                        christians who were present at the time to tes-<lb/>tify to\n                                        the same. This and similar facts with what I know<lb/> of\n                                                  <persName>Mr. M.</persName> up to this day, leads\n                                        me to suppose that those<lb/> Sharks after paying him what\n                                        they had agreed upon, to<lb/> compensate his soils in giving\n                                        them hebrew lessons, they ende-<lb/>vor to represent this as\n                                        a bribe to induce the above said<lb/> Gentl<hi rend=\"sup\"\n                                                  >n</hi> to change his religion. Now\n                                                  <sic>miself</sic> and many others<lb/> here will\n                                        prove that he regards money <hi rend=\"underline\">to</hi>\n                                        little ever to<lb/> fall a victim to such a snare. I have\n                                        ascertained<lb/> that he has instructed those men for nearly\n                                        four months<lb/> every day except <date>Saturday</date>\n                                        &amp; <date>Sunday</date>—for the small pittance<lb/> of 70\n                                        Dollars, and now it appears, since they full well knew<lb/>\n                                        that their stupid minds would not pick up sufficient<lb/>\n                                        hebrew an <sic>equevalence</sic> for their so much spoken of\n                                                  <add>?</add>,<lb/> they had a more jesuitic aim in\n                                        view in regard to <persName>Mr M.</persName><lb/> but since\n                                        they did not succeed, they try to revenge</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4628,
+          "width": 3492,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3979f6d8-815f-4a1e-8838-95fc3ffb9f19%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3492,
+                "height": 4628,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3979f6d8-815f-4a1e-8838-95fc3ffb9f19%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/assets/3979f6d8-815f-4a1e-8838-95fc3ffb9f19/original",
+              "label": "Original File - 48.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>themselves, by proclaiming to the world the flattering<lb/> hope of\n                                        the conversion of a Rabby.</p>\n                              <p>The position of these men, and especially that of <persName>Mr\n                                                  Bonahan</persName><lb/> is actually very\n                                        deplorable. The latter gentln although I have<lb/> no\n                                        personal knowledge of, I still have received such<lb/> a\n                                        description of his character by a very eminent\n                                        christian<lb/> a Gentl<hi rend=\"sup\">n</hi> of great\n                                        learning and thorough knowledge<lb/> to\n                                                  <sic>guarrantee</sic> my supposition, that we may\n                                        rely as much<lb/> on his assertions, as on those of any\n                                        other <add>מלמד</add>.</p>\n                              <p>What most surprised me was that, <persName>Mr. M.</persName>\n                                        condescended<lb/> even to take the least notice of the\n                                        slanderous productions<lb/> of a parcel of man, who for\n                                        money collected or almost-<lb/>extorted, from the blind\n                                        industrious portion of the community,<lb/> pretend to\n                                        undertake, to ameliorate the condition of a nation,<lb/> who\n                                        because being least, had ever to submit to all sorts<lb/> of\n                                        persecutions; at the same time losing <sic>intirely</sic>\n                                        sight<lb/> of the great defects existing among their own\n                                        people.<lb/> Considering them <sic>cristians</sic>, because\n                                        they curse &amp; swear by<lb/> the name of <sic>Crist</sic>.\n                                                  <hi rend=\"underline\">Who needs\n                                        conversion?</hi><lb/> Surely no man of sense! <hi\n                                                  rend=\"underline\">Besides can pecuniary<lb/>\n                                                  inducements convert a man</hi>? She will say\n                                        no!<lb/> Then why did these men of\n                                                  <placeName>Montgomery</placeName>\n                                        <sic>promiz</sic> him such<lb/> a glorious future of\n                                        indolence and opulence, if he would<lb/> only to consent to\n                                        stay with them, by which means they<lb/> supposed to produce\n                                        a rupture between him and his<lb/> people? Why bring those\n                                        by <persName>Mr. M.</persName> so hard earned paltry<lb/> 70\n                                        Dollars so emphatically into consideration. For my part<lb/>\n                                        I am so well <sic>aquainted</sic> with these petty\n                                                  <sic>manoevers</sic> such<lb/> as invitations to\n                                        prayer meetings, and other apparent brotherly</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4628,
+          "width": 3492,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2b10bed8-d1b5-4fa0-84e8-52745bf5bdda%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3492,
+                "height": 4628,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2b10bed8-d1b5-4fa0-84e8-52745bf5bdda%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/assets/2b10bed8-d1b5-4fa0-84e8-52745bf5bdda/original",
+              "label": "Original File - 48.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>treatments and even lies to effect their purpose.<lb/> But not\n                                        every body can comprehend their motives.</p>\n                              <p rend=\"indent(1)\">Let us cast a look into the dissensions of their\n                                        own<lb/> churches where nothing but love is taught but not\n                                        prac-<lb/>tised, with plenty of brothers and sisters on\n                                        their tongue<lb/> but none in their hearts, and then look at\n                                        the <add>?</add><lb/> friendly face of the missionary, and\n                                        we cannot mistake<lb/> the <sic>hipocrite</sic>.</p>\n                              <p>Their attempt to injure <persName>Mr Ms</persName> character as a\n                                        Rabby is<lb/> to bottomless, to cause him any fear.</p>\n                              <p>I would refer him to Deut. 7.17.18.</p>\n                              <p>If my time as a business man would only permit me I<lb/> could tell\n                                        many things which have come under my<lb/> notice, as well in\n                                        this country as in <placeName>england</placeName>.</p>\n                              <p rend=\"indent(1)\">I hope the above will suffice at present, and<lb/>\n                                        I think that the public may be benefitted by reading<lb/>\n                                        the words of Alether.</p>\n                              <p>I hope <persName>Mr Leeser</persName> that you may grant it a space\n                                        in your<lb/> valuable paper as far as you may consider\n                                        proper.<lb/> The truth of all I said I can establish by\n                                        living <sic>wittnesses</sic>,<lb/> and as <persName>Mr.\n                                                  Marcusson</persName> has not sufficient power of\n                                        the English<lb/> language, I thought to do no more than my\n                                        duty in<lb/> defending him against <add>מלמדים</add>. This\n                                        latter expression<lb/> I have also used above, since I know\n                                        they consider it<lb/> the greatest insult.</p>\n                              <p rend=\"indent(2)\">Yours Sir very <sic>respectfuly</sic></p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">L. Jaroslawski</persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38w38n7s/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; B(usch), I.; Leeser, Isaac; St. Louis, MO; 4 May 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p36d5px5p"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; B(usch), I.; Leeser, Isaac; St. Louis, MO; 4 May 1851"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-05-04", "4 May 5611"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Missouri -- Saint Louis",
+        "United States -- Missouri",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF8_40"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/03a82d89-6016-4d93-b233-aa08ee7640a0%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/03a82d89-6016-4d93-b233-aa08ee7640a0%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4352,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/03a82d89-6016-4d93-b233-aa08ee7640a0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 4352,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/03a82d89-6016-4d93-b233-aa08ee7640a0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/assets/03a82d89-6016-4d93-b233-aa08ee7640a0/original",
+              "label": "Original File - 46.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName><hi rend=\"underline\">St.\n                                                  Louis</hi></placeName>. A correspondent from this\n                                        flourishing<lb/> city writes as follows</p>\n                              <p><placeName>St Louis, Mo</placeName>, <date>May 4th 5611</date>.</p>\n                              <p>\n                                        <addressee>Mr Isaac Leeser</addressee>\n                                        <placeName>Ph<hi rend=\"sup\">a</hi></placeName>\n                              </p>\n                              <p>With sincere joy and an admiration, as only my own\n                                        experi<lb/>ences, earned on your thorufull<add>?</add>\n                                        field, can inspire, I received the<lb/> first number of the\n                                        new series of your Occident, and I determi-<lb/>ned to obey\n                                        your friendly and repeated demand for some\n                                        con<lb/>tributions of my pen. To save you the trouble of\n                                        translating-<lb/> I write <del>you</del> in English and\n                                        hope, your readers will excuse<lb/> their German brother for\n                                        the want of elegance and even<lb/> correctness of style, and\n                                                  <del>might anyhow</del> that they may find\n                                                  <del>the manner</del> what he<lb/> offers them,\n                                        worthy of their noticing.</p>\n                              <p>As a correspondent <add>at</add> of this place I feel it my duty to\n                                        begin<lb/> with local matters, though they may not be of\n                                        much interest, as<lb/>\n                                        <del>far as I know of them, which, I confess</del> my\n                                        knowledge of them is but very little and <del>yet less</del>\n                                                  tho<add>?</add> not<lb/> favorable. The body of\n                                        the Jews here <del>were</del> are of Polish <del>rite</del>\n                                        origin and<lb/> habits and <add>?</add> followed the\n                                        clothing trade, which <del>was</del> is little\n                                        calcu-<lb/>lated to gain the esteem of our fellow citizens;\n                                        but even<lb/> many Jews were unwilling to join them\n                                                  <del>for</del> on account of their\n                                                  <sic>intollerance</sic> and <del>high</del><lb/>\n                                        emotions at every opportunity. The result is that a kind of\n                                        stag-<lb/>nation prevails in our community and while\n                                                  <placeName>St Louis</placeName> has become in<lb/>\n                                        the last <del>decenium</del> ten years one of the largest\n                                        and wealthiest cities of the<lb/>\n                                        <placeName>U. S.</placeName> and whilst the number and\n                                        wealth of its Israelites did<lb/>\n                                        <del>not remain behind its growth</del> kept pace in\n                                        proportion, our religious institutions are<lb/>\n                                        insignificant, our house of worship poor, &amp; there is no\n                                        learned<lb/> man at the head of the community to devote on\n                                        the <date>Sabbath</date> our<lb/> minds and hearts, to\n                                        instruct our children, which are in great<lb/> numbers sent\n                                        to parochial <del>schools</del> and catholic <del>sisters\n                                                  for getting</del> nunning schools to obtain<lb/>\n                                        their first <del>instruction</del> rudiments of education.\n                                        Most probably the old community thought</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4352,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a51009aa-ad71-47f7-9c3c-555da39f0171%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 4352,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a51009aa-ad71-47f7-9c3c-555da39f0171%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/assets/a51009aa-ad71-47f7-9c3c-555da39f0171/original",
+              "label": "Original File - 46.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to <del>get</del> obtain adherents by making extravagant charges\n                                        when a Jew,<lb/>\n                                        <del>that</del> who was not a member had the sad duty to\n                                                  <add>?</add> to bury his friend<del>s</del><lb/>\n                                        or relation. This was a <del>rebuke</del> grievance to many\n                                        and <del>some</del> they formed lately<lb/> though with very\n                                        little means new congregations, one of which is<lb/>\n                                        generally called the Bavarian the other the Bohemian\n                                                  <del>Jews</del>. The latter though very few in\n                                        number <sic>dis<lb/>sing</sic> with themselves by a greater\n                                        degree of tol<del>l</del>erance; <del>though very\n                                                  few</del><lb/><del>in number</del> they have by\n                                        great sacrifices purchased a <sic>burring</sic> ground of\n                                        their<lb/> own and have organized a well <del>organized\n                                                  service</del> regulated system of worship, which\n                                        is well attended on our<lb/> holy days. It is to be hoped\n                                        that</p>\n                              <p><del>May</del> the future furnish a more rejoicing\n                                                  <add>agreeable</add> report <del>in</del> with\n                                        regard to<lb/>\n                                        <del>these</del> our interests; until then you will not\n                                        wonder that<lb/> your <del>journal</del> magazine finds but\n                                        very few subscribers in this great<lb/>\n                                        <del>metropolis</del> of the west, and that a <placeName>St\n                                                  Louis</placeName> Paper*, speaking of Jews<lb/> in\n                                        general and (though as a catholic organ inclined to speak\n                                        favorably<lb/> of them) mentions the Jews of\n                                                  <placeName>South Carolina</placeName> and\n                                                  <placeName>Savannah</placeName><lb/> of\n                                                  <placeName>New York</placeName> and\n                                                  <placeName>Philadelphia</placeName> but does not\n                                        find anything to say in<lb/> praise of those Jews, that are\n                                        its own readers.</p>\n                              <p rend=\"indent(10)\">\n                                        <persName role=\"author\">I.B.(usch)</persName>\n                              </p>\n                              <p>* the St Louis Union of the <date>25th of April</date><lb/>\n                                        contained the following article:</p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36d5px5p/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

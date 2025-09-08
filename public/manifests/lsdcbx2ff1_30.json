@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Wolff, A.; Leeser, I., Rev.; Anytown, St. Thomas; 14 April 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p34f1n455"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Wolff, A.; Leeser, I., Rev.; Anytown, St. Thomas; 14 April 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-04-14", "5614"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virgin Islands -- St. Thomas",
+        "United States -- Virgin Islands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_30"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/27b664a0-fe8e-4e86-83ae-d89819407b2d%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/27b664a0-fe8e-4e86-83ae-d89819407b2d%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4656,
+          "width": 3750,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/27b664a0-fe8e-4e86-83ae-d89819407b2d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3750,
+                "height": 4656,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/27b664a0-fe8e-4e86-83ae-d89819407b2d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/assets/27b664a0-fe8e-4e86-83ae-d89819407b2d/original",
+              "label": "Original File - 52.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <date>\n                                                  <hi rend=\"underline\">5614</hi>\n                                        </date>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <placeName>St Thomas</placeName>\n                                        <date>14 Ap 1854</date>\n                              </p>\n                              <p>\n                                        <addressee>Revd Mr Leeser</addressee>\n                              </p>\n                              <p>\n                                        <placeName>Phila</placeName>\n                              </p>\n                              <p rend=\"indent(1)\">Dear Sir</p>\n                              <p rend=\"indent(2)\">I am in receipt of your esteemed<lb/> letter of\n                                        the <date>2d</date> In. annexing Invoice of Bibles,\n                                        Prayer<lb/> Books &amp;c. which shall be attended to after\n                                        the sailing<lb/> of the Packet as I have no time to attend\n                                        to the<lb/> collection during her stay. The Congregation\n                                        has<lb/> paid me $12 for advertising in the Occident.</p>\n                              <p>I enclose <add>?</add> it Green agent of the Pa<add>?</add><lb/>\n                                        Rail Road Co on its President for Two hundred &amp;\n                                        seventy<lb/> five dollars which I advance you &amp; please\n                                        credit it<lb/> me for ten of the bibles are undeliver'd,\n                                        parties who<lb/> subscribed for them being absent from the\n                                                  <placeName>Island</placeName>.</p>\n                              <p>I have not seen <persName>Mr Car<add>?</add></persName> yet.<lb/>\n                                        My Son <persName>Mr Moses Wolff</persName> of\n                                                  <placeName>Laguayra<add>?</add></placeName> his\n                                        wife 2 sons<lb/> with his sister in law <persName>Mrs\n                                                  Jeller</persName> &amp; her daughter take<lb/>\n                                        passage in this steamer to reside in <placeName>New\n                                                  York</placeName>, may I<lb/> ask your attention to\n                                        them.</p>\n                              <p rend=\"indent(4)\">Truly Dr Sir</p>\n                              <p rend=\"indent(5)\">yours</p>\n                              <p rend=\"indent(6)\">\n                                        <persName role=\"author\">A.Wolff</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3780,
+          "width": 4604,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c71d8c0-9a88-49a0-b077-4dbaed3d4519%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4604,
+                "height": 3780,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c71d8c0-9a88-49a0-b077-4dbaed3d4519%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/assets/2c71d8c0-9a88-49a0-b077-4dbaed3d4519/original",
+              "label": "Original File - 52.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd Mr I. Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philada.</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34f1n455/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

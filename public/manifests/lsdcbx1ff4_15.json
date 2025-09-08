@@ -1,0 +1,392 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Leeser from Labatt, David C.; November 11, 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30000s09"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Leeser from Labatt, David C.; November 11, 1847"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Labatt, David C. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-11-11"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["6 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["New Orleans (La.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF4_15", "ilcajs_b1f4_0016"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/5fc6680d-3bb1-45c3-85fc-5a23fe395333%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/5fc6680d-3bb1-45c3-85fc-5a23fe395333%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5694,
+          "width": 4878,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5fc6680d-3bb1-45c3-85fc-5a23fe395333%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4878,
+                "height": 5694,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5fc6680d-3bb1-45c3-85fc-5a23fe395333%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/assets/5fc6680d-3bb1-45c3-85fc-5a23fe395333/original",
+              "label": "Original File - 83.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"><persName>Moses</persName> Rescued by\n                                                  <persName>Pharaoh's Daughter</persName></p>\n                              <p rend=\"align(center)\">from the french of <persName>Victor\n                                                  Hugo</persName> by <persName>Henry J.\n                                                  Labatt</persName></p>\n                              <p rend=\"align(center)\">Sisters! The wave is freshest in the morn,</p>\n                              <p rend=\"align(center)\">The reaper in his cot still lies,</p>\n                              <p rend=\"align(center)\">The bank is yet forlorn;</p>\n                              <p rend=\"align(center)\">From <placeName>Memphis</placeName> murmurs\n                                        loud arise</p>\n                              <p rend=\"align(center)\">And our chaste pleasures, by this gurgling\n                                        wave,</p>\n                              <p rend=\"align(center)\">Except <persName>Aurora's</persName> Eye, no\n                                        other witness have.</p>\n                              <p rend=\"align(center)\">\"My father's palace is the seat of art,</p>\n                              <p rend=\"align(center)\">But walks so fragrant please me more:</p>\n                              <p rend=\"align(center)\">They to my eye impart,</p>\n                              <p rend=\"align(center)\">More joy than does the golden ore,</p>\n                              <p rend=\"align(center)\">When mought with art into some goblet fine</p>\n                              <p rend=\"align(center)\">Where rubies charm without,–within, the ruddy\n                                        wine.</p>\n                              <p rend=\"align(center)\">\"These heavenly songs my sweetest concerts\n                                        are,</p>\n                              <p rend=\"align(center)\">I love the zephyr's cooling breeze,</p>\n                              <p rend=\"align(center)\">When wafted from afar</p>\n                              <p rend=\"align(center)\">Through aromatic herbs and trees,</p>\n                              <p rend=\"align(center)\">Far more than all those scented, sweet\n                                        perfumes</p>\n                              <p rend=\"align(center)\">Burned on our altars new, which their bright\n                                        flame illumes</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5694,
+          "width": 4878,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/be3eec58-858c-41ba-bbdd-77376c81071f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4878,
+                "height": 5694,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/be3eec58-858c-41ba-bbdd-77376c81071f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/assets/be3eec58-858c-41ba-bbdd-77376c81071f/original",
+              "label": "Original File - 83.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\"Come! for the wave is clear, the sky is\n                                        bright,</p>\n                              <p rend=\"align(center)\">And leave those graceful folds to sail,</p>\n                              <p rend=\"align(center)\">Folds of girdles white,</p>\n                              <p rend=\"align(center)\">Upon the breeze. Take off my veil</p>\n                              <p rend=\"align(center)\">My diadem. I sport with ye to day,</p>\n                              <p rend=\"align(center)\">In clear and placid wave, and in the foaming\n                                        spray.</p>\n                              <p rend=\"align(center)\">\"Come, haste! but 'mid the morning's early\n                                        dew,</p>\n                              <p rend=\"align(center)\">What is it yonder meets my eye?</p>\n                              <p rend=\"align(center)\">And, through the dusky hue,</p>\n                              <p rend=\"align(center)\">My maids! What is it I descry?</p>\n                              <p rend=\"align(center)\">Fear not, it is the trunk of some old\n                                        tree,</p>\n                              <p rend=\"align(center)\">Borne onward by the stream, to meet the open\n                                        sea.</p>\n                              <p rend=\"align(center)\">\"What see I? If my sight does not deceive,</p>\n                              <p rend=\"align(center)\">'Tis Isis' conch or Hermes' shell</p>\n                              <p rend=\"align(center)\">See how the waters cleave,</p>\n                              <p rend=\"align(center)\">While zephyrs bright, its sails prophet.–</p>\n                              <p rend=\"align(center)\">No! 'tis a bark where lies a child asleep,</p>\n                              <p rend=\"align(center)\">As on its <del>his</del> mother's breast, and\n                                        wanders o'er the deep.</p>\n                              <p rend=\"align(center)\">\"He sleeps! Afar I see his sling bed,</p>\n                              <p rend=\"align(center)\">Upon the inconstant river float,</p>\n                              <p rend=\"align(center)\">Behold his feeble head,</p>\n                              <p rend=\"align(center)\">Reclining on his rusty boat;</p>\n                              <p rend=\"align(center)\">The sport of winds, he's rocked upon the\n                                        wave,</p>\n                              <p rend=\"align(center)\">He sleeps upon the stream, which bears him to\n                                        his grave.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 5694,
+          "width": 4424,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d87e76ca-503e-4fa3-b596-7483d2d8e872%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4424,
+                "height": 5694,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d87e76ca-503e-4fa3-b596-7483d2d8e872%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/assets/d87e76ca-503e-4fa3-b596-7483d2d8e872/original",
+              "label": "Original File - 75.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\"He wakes! Oh haste! Ye maids of\n                                                  <placeName>memphis</placeName>,</p>\n                              <p rend=\"align(center)\">He cries! upon the cruel tide,</p>\n                              <p rend=\"align(center)\">Her son, what mother placed,</p>\n                              <p rend=\"align(center)\">where wakers roll on every side?</p>\n                              <p rend=\"align(center)\">His arms outstretched, his life to save.\n                                        Alas,</p>\n                              <p rend=\"align(center)\">The only rampart left,–a fragile bed of\n                                        grass!</p>\n                              <p rend=\"align(center)\">\"Save him! Perhaps he is an Israelite,</p>\n                              <p rend=\"align(center)\">my sire permits them not to live.</p>\n                              <p rend=\"align(center)\">This babe, perhaps last night,</p>\n                              <p rend=\"align(center)\">His mother to the waves did give:</p>\n                              <p rend=\"align(center)\">my cruel father slays the infant son;</p>\n                              <p rend=\"align(center)\">a wicked dead! Yet must the monarch's will be\n                                        done.</p>\n                              <p rend=\"align(center)\">\"Poor babe! His innocence my heart doth\n                                        move,</p>\n                              <p rend=\"align(center)\">To him a mother I shall be;</p>\n                              <p rend=\"align(center)\">a Guardian true I'll prove,–</p>\n                              <p rend=\"align(center)\">His youth shall be a care to me–</p>\n                              <p rend=\"align(center)\">Though not his mother, yet will I assume</p>\n                              <p rend=\"align(center)\">a mother's task, and rear the child to\n                                        manhood's bloom.</p>\n                              <p rend=\"align(center)\">Thus <persName>Iphis</persName> spoke, the\n                                        glory of a King;</p>\n                              <p rend=\"align(center)\">and then along the flowing\n                                                  <placeName><sic>nile</sic></placeName>,</p>\n                              <p rend=\"align(center)\">as borne on sportive wing,</p>\n                              <p rend=\"align(center)\">she wandered, careless, many a mile;</p>\n                              <p rend=\"align(center)\">and, when the virgin doffed her dress of\n                                        Gold,</p>\n                              <p rend=\"align(center)\">Her maidens thought they saw our mother\n                                                  \"<persName>Eve</persName> of Old\"</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 4614,
+          "width": 5694,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b4b6b9c4-ca76-4c6f-bcce-ff3e760abce5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5694,
+                "height": 4614,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b4b6b9c4-ca76-4c6f-bcce-ff3e760abce5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/assets/b4b6b9c4-ca76-4c6f-bcce-ff3e760abce5/original",
+              "label": "Original File - 79 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\"<persName>Eve</persName> of old\"</p>\n                              <p rend=\"align(center)\">The tide aheady shudders at her sight,</p>\n                              <p rend=\"align(center)\">and pity guides her fearful pace;</p>\n                              <p rend=\"align(center)\">The infant Israelite</p>\n                              <p rend=\"align(center)\">sees not her beauteous royal face.</p>\n                              <p rend=\"align(center)\">She takes the bark. The modest maiden\n                                        flies,</p>\n                              <p rend=\"align(center)\">and on the shore fast by, she stills the\n                                        infant's cries.</p>\n                              <p rend=\"align(center)\">The babe she takes and places on the\n                                        sand,–</p>\n                              <p rend=\"align(center)\">whom all her maids in turn embrace,</p>\n                              <p rend=\"align(center)\">Taking his little hand,–</p>\n                              <p rend=\"align(center)\">Imprinting on his lonely face</p>\n                              <p rend=\"align(center)\">a kiss, as when two heavenly beings, fair</p>\n                              <p rend=\"align(center)\">unite in wedlock firm, and mutual love do\n                                        swear.</p>\n                              <p rend=\"align(center)\">Haste! thou who from afar with anxious eye</p>\n                              <p rend=\"align(center)\">Thy son's uncertain path dost trace,</p>\n                              <p rend=\"align(center)\">with many a deep drawn sigh.</p>\n                              <p rend=\"align(center)\">Fear not, fond mother, they embrace,</p>\n                              <p rend=\"align(center)\">Thy tears, they Joy, will not thy child\n                                        betray</p>\n                              <p rend=\"align(center)\">For <persName>Iphis</persName> is as yet but\n                                        in her maiden day.</p>\n                              <p rend=\"align(center)\">Then, while with hurried step and nimble\n                                        feet</p>\n                              <p rend=\"align(center)\">stern Pharaoh's <persName>Iphis</persName>\n                                        <del>seeks</del> hastes to seek</p>\n                              <p rend=\"align(center)\">with flowery tears and sweet,</p>\n                              <p rend=\"align(center)\">The maid bedews the infant's cheek;</p>\n                              <p rend=\"align(center)\">and, heavenly music bursting from the lyre</p>\n                              <p rend=\"align(center)\">Is raised to God above, by an angelic\n                                        choir.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "p. 5",
+          "height": 5694,
+          "width": 4748,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0350a954-dd20-41e9-b3c7-54bb817b6892%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4748,
+                "height": 5694,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0350a954-dd20-41e9-b3c7-54bb817b6892%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/assets/0350a954-dd20-41e9-b3c7-54bb817b6892/original",
+              "label": "Original File - 81.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\"Weep not, Oh <placeName>Israel</placeName>!\n                                        in thy bondage vile,–</p>\n                              <p rend=\"align(center)\">and mingle not they holy tear,</p>\n                              <p rend=\"align(center)\">with waters of the\n                                        <placeName>Nile</placeName>?</p>\n                              <p rend=\"align(center)\">For now, at last, the day draws near;</p>\n                              <p rend=\"align(center)\"><placeName>Jordan</placeName> shall\n                                                  <sic>ope</sic> his floods and\n                                                  <placeName>Goshen</placeName> flee,</p>\n                              <p rend=\"align(center)\">And the poor captive, loosed, no more shall\n                                        bond the knee,</p>\n                              <p rend=\"align(center)\">The ark which from the waves her maids\n                                        convey,</p>\n                              <p rend=\"align(center)\">Does <placeName>Sinai</placeName>'s holy king\n                                        enclose;</p>\n                              <p rend=\"align(center)\">who shall, at future day,</p>\n                              <p rend=\"align(center)\">Deliver <placeName>Israel</placeName> from her\n                                        woes.</p>\n                              <p rend=\"align(center)\">Reflect, ye who of God despise the call!</p>\n                              <p rend=\"align(center)\">An infant, <placeName>Israel</placeName>\n                                        saves; an infant shall save all.\"</p>\n                              <p>\n                                        <addressee>Mr. I. Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(2)\">Dr. Sir</p>\n                              <p rend=\"indent(3)\">The above is performance<lb/> of a young gentleman\n                                        scarce 15 years old deeming<lb/> it possessed some merit\n                                        from its religious caste I have<lb/> taken the liberty of\n                                        asking a place in your valuable<lb/> periodical for it.\n                                        Respectfully</p>\n                              <p rend=\"indent(6)\">\n                                        <persName role=\"author\">D. C. Labatt</persName>\n                              </p>\n                              <p>\n                                        <placeName>N. Orleans</placeName>\n                                        <date>Nov. 10<hi rend=\"sup\">th</hi> 1847</date>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "p. 6",
+          "height": 5694,
+          "width": 4878,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a4bf4c09-b88e-4183-a974-19b9230a1db9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4878,
+                "height": 5694,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a4bf4c09-b88e-4183-a974-19b9230a1db9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/assets/a4bf4c09-b88e-4183-a974-19b9230a1db9/original",
+              "label": "Original File - 83.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Mr. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Penna</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30000s09/canvas/p6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

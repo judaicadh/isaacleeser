@@ -1,0 +1,214 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Daniel, Samuel E.; Leeser, Isaac, Rev.; Barbados, Lesser Antilles; 23 November 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3w08wz88"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Daniel, Samuel E.; Leeser, Isaac, Rev.; Barbados, Lesser Antilles; 23 November 1848"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1848-11-23"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Barbados",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_34"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/df42959c-75c6-4510-a127-8eb837b131a4%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/df42959c-75c6-4510-a127-8eb837b131a4%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5968,
+          "width": 4848,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/df42959c-75c6-4510-a127-8eb837b131a4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4848,
+                "height": 5968,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/df42959c-75c6-4510-a127-8eb837b131a4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/assets/df42959c-75c6-4510-a127-8eb837b131a4/original",
+              "label": "Original File - 87 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Barbados</placeName>\n                                        <date>23 Nov. 1848</date>\n                              </p>\n                              <p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">My Dear Sir</p>\n                              <p rend=\"indent(2)\">I have this instant heard that there is<lb/> a\n                                        conveyance for <placeName>Baltimore</placeName>, and embrace\n                                        the opportunity<lb/> reluctantly to inform you that the set\n                                        of Parasah Books<lb/> you sent me in the early part of last\n                                        year, I had sold<lb/> to the <persName>Revd. John\n                                                  Birchannon</persName><add>?</add> of the\n                                                  <add>?</add> of Barbie with<lb/> a promise that\n                                        the amount would be remitted me shortly<lb/> after his\n                                        arrival, but <del>but</del> by the last steamer, I\n                                        received<lb/> a letter announcing his death, and that all\n                                        his property had<lb/> been levied on by excusion to pay a\n                                        prior claim against him, con-<lb/>-sequently the amount he\n                                        is indebted to me is lost, as he<lb/> has nothing else\n                                        available to pay, however on my arrival<lb/> please God, I\n                                        hope we shall be able to understand each other,<lb/> as it\n                                        is not likely we'll fight about such a trifle as\n                                        fifteen<lb/> dollars—please present my family's line to my\n                                        sister, <persName>Mr.<lb/> Fontes</persName> and the\n                                                  <persName>Carvalhos</persName>, and say my wife is\n                                        busily em-<lb/>-ployed cutting out flannels, and other warm\n                                        clothing in<lb/> readiness for our departure, and as I have\n                                        to attend in pur-<lb/>-chasing the different articles, I\n                                        have no time to write<lb/> either of them, hoping that on my\n                                        arrival please God<lb/> a mutual good understanding will\n                                        exist between us, and<lb/> that it may be in our power to\n                                        assist each other.</p>\n                              <p rend=\"indent(10)\">I remain</p>\n                              <p rend=\"indent(10)\">My Dear Sir</p>\n                              <p rend=\"indent(10)\">Your's faithfully</p>\n                              <p rend=\"indent(10)\">\n                                        <persName role=\"author\">Samuel E. Daniels</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4848,
+          "width": 5968,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8243adcf-729f-4d01-abc4-1f96d6004764%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5968,
+                "height": 4848,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8243adcf-729f-4d01-abc4-1f96d6004764%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/assets/8243adcf-729f-4d01-abc4-1f96d6004764/original",
+              "label": "Original File - 87 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>371 Walnut Street</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p>Via <placeName>Baltimore</placeName></p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08wz88/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

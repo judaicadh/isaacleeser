@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Kalisch, Isidor; Leeser, Isaac, Rev.; Cleveland, OH; 17 April 1855",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3hm53507"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Kalisch, Isidor; Leeser, Isaac, Rev.; Cleveland, OH; 17 April 1855"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Kalisch, Isidor", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1855-04-17"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Ohio -- Cleveland",
+        "United States -- Ohio",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF2_18"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/6a7c5d9a-2f4a-4b75-a88d-70605c31cd70%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/6a7c5d9a-2f4a-4b75-a88d-70605c31cd70%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4504,
+          "width": 3690,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6a7c5d9a-2f4a-4b75-a88d-70605c31cd70%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3690,
+                "height": 4504,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6a7c5d9a-2f4a-4b75-a88d-70605c31cd70%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/assets/6a7c5d9a-2f4a-4b75-a88d-70605c31cd70/original",
+              "label": "Original File - 49.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><addressee>Rev. Isaac Leeser</addressee> in <placeName>Philadelphia</placeName></p>\n            <p rend=\"align(right)\"><placeName>Cleveland O.</placeName>\n                <date>April 17<hi rend=\"sup\">th</hi>\n                    <hi rend=\"underline\">1855</hi></date>.</p>\n            <p>Dear Sir,</p>\n            <p rend=\"indent(1)\">The <date>25<hi rend=\"sup\">th</hi> of March (Nissan 6th)</date><lb/>\n                plunged me and my family into a deep<lb/> grief: because we have lost the crown<lb/>\n                of our house. My dear wife, mother<lb/> of five minor children, died after<lb/> two\n                years suffering on the mentioned<lb/> day in the 37<hi rend=\"sup\">th</hi> year of\n                her age.<lb/> She was endeared and beloved by<lb/> all, who knew her. My demise is<lb/>\n                <sic>unspeacable</sic>. But not only to<lb/> suffice my sorrow in speaking<lb/> them\n                out publicly I send you<lb/> the enclosed articles with the<lb/> request to be\n                inserted in the<lb/> Occident, I feel, that I am duty<lb/> bound to deplore such a\n                brave<lb/> character before the public.<lb/> Hoping you will comply with<lb/> my\n                humble wishes I remain</p>\n            <p rend=\"indent(3)\">Yours</p>\n            <p rend=\"indent(4)\"><persName role=\"author\">Isidor Kalisch</persName>,</p>\n            <p rend=\"indent(5)\">Rabbi.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3708,
+          "width": 4574,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d69b7d30-ff32-4525-8d8a-9fa6ab1e2fe4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4574,
+                "height": 3708,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d69b7d30-ff32-4525-8d8a-9fa6ab1e2fe4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/assets/d69b7d30-ff32-4525-8d8a-9fa6ab1e2fe4/original",
+              "label": "Original File - 50.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">Rev.</p>\n            <p><addressee>Isaac Leeser</addressee>,</p>\n            <p>Editor of the Occident</p>\n            <p>\n                <placeName>No 371 Walnut Street</placeName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>\n                    <hi rend=\"underline\">Philadelphia</hi>\n                </placeName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Pa.</placeName>\n            </p>\n            <div>\n                <p>\n                    <ref target=\"Occident_PDFs/Occ_13_3.pdf\">The above text refers to Occident\n                        Volume 13 No. 3 pages 142 through 144. Click here to view.</ref>\n                </p>\n            </div>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hm53507/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

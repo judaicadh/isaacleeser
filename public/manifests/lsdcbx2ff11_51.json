@@ -1,0 +1,213 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Rhine, Isaac; Leeser, Issac, Rev.; Philadelphia, PA; 12 September 1864",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3nz8193g"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Rhine, Isaac; Leeser, Issac, Rev.; Philadelphia, PA; 12 September 1864"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1864-09-12"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF11_51"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/cf5107fb-f126-4061-8339-ab31cc0dd06b%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/cf5107fb-f126-4061-8339-ab31cc0dd06b%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3798,
+          "width": 2540,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cf5107fb-f126-4061-8339-ab31cc0dd06b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2540,
+                "height": 3798,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cf5107fb-f126-4061-8339-ab31cc0dd06b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/assets/cf5107fb-f126-4061-8339-ab31cc0dd06b/original",
+              "label": "Original File - 28.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Rev Mr Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir!</p>\n            <p rend=\"indent(1)\">Be kind enough to send<lb/> me a <sic>german</sic> Prayerbook for<lb/>\n                <date><sic>Yomkipur</sic></date> &amp; oblige</p>\n            <p rend=\"indent(3)\">Yours Truly</p>\n            <p rend=\"indent(3)\">\n                <persName role=\"author\">Isaac Rhine</persName>\n            </p>\n            <p rend=\"indent(4)\">\n                <placeName>332 Market</placeName>\n            </p>\n            <p>\n                <date>Sept 12 / 64</date>\n            </p>\n            <p>Please send at your earliest<lb/> convenience</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3818,
+          "width": 2566,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/570431c7-c7cc-4f59-9bcc-0d53432013cd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2566,
+                "height": 3818,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/570431c7-c7cc-4f59-9bcc-0d53432013cd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/assets/570431c7-c7cc-4f59-9bcc-0d53432013cd/original",
+              "label": "Original File - 29.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<table cols=\"2\" rows=\"18\">\n                <row>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                    <cell><persName>Rosenbach</persName> 2 <add>?</add></cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName role=\"author\">I Rhine</persName>\n                    </cell>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>A Loeb</persName>\n                    </cell>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>J N Cardzo</persName> 2</cell>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>L Bloomydel</persName> 1_2</cell>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                </row>\n                <row>\n                    <cell><persName>L L I Hecht</persName> 2</cell>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>A Heilman</persName>\n                    </cell>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>J L Berg</persName>\n                    </cell>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                </row>\n                <row>\n                    <cell>\n                        <persName>M Arnold</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>J Kohn</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>J E<add>?</add></persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>A Adler</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>E S El<add>?</add></persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell><persName><add>?</add></persName> 3</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>\n                            <add>?</add>\n                        </persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>\n                            <add>?</add>\n                        </persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Ic Wolf</persName>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>N Rosenbach</persName>\n                    </cell>\n                    <cell/>\n                </row>\n            </table>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nz8193g/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

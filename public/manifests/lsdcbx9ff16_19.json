@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Miller, M. R.; Leeser, Isaac; Senecaville, OH; 20 June 1867",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p32n50439"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Miller, M. R.; Leeser, Isaac; Senecaville, OH; 20 June 1867"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1867-06-20"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Ohio -- Senecaville",
+        "United States -- Ohio",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx9FF16_19"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/2589d3a7-0d09-4a57-9fc7-b30357f056aa%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/2589d3a7-0d09-4a57-9fc7-b30357f056aa%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 8116,
+          "width": 5328,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2589d3a7-0d09-4a57-9fc7-b30357f056aa%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5328,
+                "height": 8116,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2589d3a7-0d09-4a57-9fc7-b30357f056aa%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/assets/2589d3a7-0d09-4a57-9fc7-b30357f056aa/original",
+              "label": "Original File - 130 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"><placeName>Senecaville O.</placeName>\n                <date>June 20. 1867</date>.</p>\n            <p><addressee>Mr. Leeser</addressee>.</p>\n            <p rend=\"indent(1)\">Dear Sir,</p>\n            <p rend=\"indent(2)\">As I have the impression that<lb/> you never read the “Israelite” I\n                take the liberty<lb/> to send you the <sic>inclosed</sic> article cut from the<lb/>\n                Israelite. I thought it would be interesting to<lb/> you to learn that thoughts so\n                favorable to the<lb/> reality of miracles appear in that paper. I take<lb/> it for\n                granted that this article is much more<lb/> agreeable to your views than the\n                treatment which<lb/> the same subject and the manna receive in<lb/>\n                <persName>Dr. Wise's</persName> History.</p>\n            <p rend=\"indent(1)\">In contending, however, for the historical<lb/> truth of miracles. I\n                am afraid that among<lb/> your people we have now a mighty current<lb/> against us.\n                When I was in <placeName>Cincinnati</placeName> more<lb/> than a year ago, examining\n                the <persName>Licking Co.</persName> relics,<lb/> I met a <persName>Mr.\n                    Moering</persName>, an aged Israelite, who told<lb/> me that he believed that\n                the whole Jewish commu=<lb/>nity were sliding into the views of <persName>Drs\n                    Lilienthal</persName><lb/> and <persName>Wise</persName> on miracles, and that\n                these men<lb/> would succeed in what they had undertaken<lb/> so that in twenty\n                years orthodox Judaism would<lb/> be lost. And what appeared to me stranger<lb/> he\n                himself appeared to look on it as all right.<lb/> He intimated that there might have\n                been some con=<lb/>cealed knowledge and use of gunpowder by\n                    <persName>Moses</persName><lb/> in the destruction of the company of\n                    <persName>Korah</persName>.</p>\n            <p rend=\"indent(1)\">The common way of speaking of such things<lb/> among Gentiles is\n                just this, that the Jews are now<lb/> going right into infidelity, and that they are\n                proving<lb/> unfaithful to their great trust in the preservation<lb/> of the\n                truth.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 8116,
+          "width": 5328,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8ed8ec53-5021-4720-80fd-faeac2d3f18f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5328,
+                "height": 8116,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8ed8ec53-5021-4720-80fd-faeac2d3f18f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/assets/8ed8ec53-5021-4720-80fd-faeac2d3f18f/original",
+              "label": "Original File - 130 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Do not understand me however<lb/> as writing these things to discourage you.<lb/> It\n                is one comfort that though error may<lb/> triumph for an age or century, time\n                will<lb/> eventually give <hi rend=\"underline\">truth</hi> the unfading victory.</p>\n            <p rend=\"indent(1)\">Excuse me for this interruption<lb/> of your studies by a few\n                friendly words,<lb/> and believe me</p>\n            <p rend=\"indent(2)\">Yours most respectfully,</p>\n            <p rend=\"indent(3)\"><persName role=\"author\">M. R. Miller</persName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32n50439/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

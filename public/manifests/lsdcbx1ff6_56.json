@@ -1,0 +1,315 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Philadelphia, PA; 12 September 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3mg7gc18"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Philadelphia, PA; 12 September 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-09-12", "12 September 5609"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_56"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/97bee7c3-828b-4af3-811b-9936dee1400a%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/97bee7c3-828b-4af3-811b-9936dee1400a%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5630,
+          "width": 4484,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/97bee7c3-828b-4af3-811b-9936dee1400a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4484,
+                "height": 5630,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/97bee7c3-828b-4af3-811b-9936dee1400a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/assets/97bee7c3-828b-4af3-811b-9936dee1400a/original",
+              "label": "Original File - 76 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><date>Sept 12 5609</date>.</p>\n                              <p>\n                                        <addressee>Rev. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">Dear Friend,</p>\n                              <p rend=\"indent(3)\">Yours from <placeName>Baltimore</placeName> I\n                                        duly<lb/> received but have been unable to acknowledge it\n                                        till<lb/> now. You are more fortunate than I in being able\n                                        to<lb/> run about and get a little recreation. I had fully\n                                        determined<lb/> to take a short time about the country but\n                                        L'homme proposes<lb/> et Dieu disposes. I put it off till\n                                        this week when a<lb/> child of <persName>Mr Moss</persName>\n                                        dies of cholera and I am fixed, a veritable<lb/>\n                                        <add>חשק בצוע</add>. In respect to “the mystery in\n                                        connection with a<lb/> lady in\n                                                  <placeName>Montreal</placeName>” I have to remark\n                                        (the ladies of course<lb/> claiming first attention from we\n                                        modern Rabbanim)since<lb/>\n                                        <persName>S Selig newman</persName> says in a sermon\n                                        preached at the <placeName>London</placeName><lb/> Jewish\n                                        free school, “the key <add>?</add> used formerly to be\n                                                  <add>והוא מזל זך</add><lb/> but now, complains\n                                                  <persName>newman</persName>, perhaps from\n                                        actual<lb/> experience poor fellow, “it is <add>והוא ימזל\n                                                  זך</add>”, the Lecture<lb/> meant no doubt\n                                        pathetically to say we had been <add>קל</add><lb/> enough,\n                                        and so allowed the ladies to turn &amp; <add>?</add> at\n                                        us<lb/> in the <add>נפעל</add> form.) but to <add>?</add>\n                                        from this long<lb/> parenthesis to the “mystery” Did I\n                                        mention my lady?<lb/> Certainly not and yet you seem very\n                                        anxious to assure<lb/> me that “nothing has ever passed\n                                        between us”<add>?</add> who<lb/> are us? You are one, and\n                                        who is the second—Oh<lb/> you guilty man! You can't keep a\n                                        secret too, I find.<lb/> It is certainly very kind of you to\n                                        hope the lady <sic>wont</sic><lb/> refuse a good match, even\n                                        myself, in your account after I already</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5630,
+          "width": 4484,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b174300b-b0fa-465f-85e2-bff22be8ca5d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4484,
+                "height": 5630,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b174300b-b0fa-465f-85e2-bff22be8ca5d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/assets/b174300b-b0fa-465f-85e2-bff22be8ca5d/original",
+              "label": "Original File - 76 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>wrote you that I would not stand in your way (<add>?</add><lb/> of\n                                        me.) But seriously, my respected friend, I do not\n                                        presume<lb/> to suggest myself less to dictate to you who\n                                        shall be your partner if what<lb/> you tell me will be the\n                                        downward course of your life,<lb/> nor <hi rend=\"underline\"\n                                                  >when</hi> you shall take her. You are better\n                                        competent<lb/> to decide these yourself, I hope that the\n                                        little <persName>M<add>?</add></persName><lb/> at banter in\n                                        which I have indulged may have been<lb/> not\n                                                  <sic>agreable</sic> to you In dismissing (for the\n                                        present!)<lb/> this soft subject let me say in justice to\n                                        the young<lb/> ladies to whom we have alluded that we\n                                        might<lb/> both “go farther and fail worse” As for me, my\n                                        dear<lb/> friend, if you find yourself “not in a situation\n                                        to<lb/> marry”, I also find myself in such a situation.\n                                        You<lb/> only hold your situation for a year longer, I\n                                        have<lb/> mine for three only, from present date, Besides\n                                        “I<lb/> am not young” and am too busily employed for<lb/>\n                                        self and others to think of marriage for a few years<lb/>\n                                        and <add>דינינו</add> When I have done a little more (if I\n                                        may<lb/> be presumptuous enough to say I have done anything) for<lb/>\n                                        <hi rend=\"underline\">the cause</hi> I shall then be entitled\n                                        to spend a few<lb/> hours in the pleasures of domesticity\n                                        as<lb/> a reward for my work. You are now fully\n                                        entitled<lb/> to such a partial rest, and nothing would\n                                        afford<lb/> me greater pleasure than to receive a call from\n                                        you<lb/> to introduce you (<add>על ידי חופה וקידושין</add>\n                                        into the happy <add>?</add><lb/> At the same time I confess\n                                        that it would be a <hi rend=\"underline\">little</hi><lb/>\n                                        gratifying to me if I were in a position to ask the same of\n                                        you.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5630,
+          "width": 4484,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/65eaf6c5-8c41-49c5-a092-5e9f53af0bb7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4484,
+                "height": 5630,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/65eaf6c5-8c41-49c5-a092-5e9f53af0bb7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/assets/65eaf6c5-8c41-49c5-a092-5e9f53af0bb7/original",
+              "label": "Original File - 76 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>It was with regret and surprise that I recd your account<lb/> of\n                                        the manner in which you as yet find yourself\n                                        remunerated<lb/> for your writings, thus, mon ami, le temps\n                                        viendra.</p>\n                              <p rend=\"indent(1)\">It would give me much pleasure to make the<lb/>\n                                        acquaintance of Mrs as also of <persName>Mr Cohen</persName>\n                                        of <placeName>Baltimore</placeName>,<lb/> persons of whom\n                                        fame speaks so favorably here, I gave<lb/>\n                                        <persName>Mrs <sic>Cohens</sic></persName> message to\n                                                  <persName>Mrs <add>?</add> Solomons</persName>,\n                                                  <persName>Mrs S</persName> desires<lb/> me to ask\n                                        you when you are going to <placeName>New Orleans</placeName><lb/>\n                                        <persName>Mr Touro</persName> of that place is related to\n                                        them, and you<lb/> know how it is when we have rich\n                                        relations, we like<lb/> to know something of their\n                                        whereabouts. She would<lb/> also like to know where\n                                                  <persName>Mr Touro</persName> is living in\n                                                  <placeName>New Orleans</placeName><lb/> I gave\n                                        your message to <persName>Mr Jacob Joseph</persName>, but as\n                                        his<lb/> brother <persName>Pepe</persName> and sister\n                                                  <persName>Esther</persName> are in your city\n                                        you<lb/> can make your own explanations to the <add>אם סוד\n                                                  דעתיך</add></p>\n                              <p rend=\"indent(1)\">The Occident for <date>September</date> has not\n                                        arrived yet<lb/> so cannot say anything on matters literary,\n                                        The<lb/> articles on the Jews of\n                                                  <placeName>Persia</placeName> I shall not be able to<lb/>\n                                        <sic>commense</sic>\n                                        <sic>untill</sic> after <add>סוכות</add>. It is seldom or\n                                        never<lb/> that I stipulate for special time for <del>the\n                                                  Oc</del> my articles<lb/> but in the case of\n                                        sermons I do, I have published<lb/> scarcely other than\n                                        occasional sermons which<lb/> loose their interest and\n                                        effect when the cause or<lb/> event they speak upon is part.\n                                        Thus my<lb/> Sermon on the cholera would have been much\n                                        more<lb/> seasonable reading for your readers while the<lb/>\n                                        epidemic prevailed, and might have been to me<lb/> more\n                                        effect, so a sermon I sent you for</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5630,
+          "width": 4484,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ecd0b6ac-7d36-4bc5-8259-4855efd3e226%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4484,
+                "height": 5630,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ecd0b6ac-7d36-4bc5-8259-4855efd3e226%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/assets/ecd0b6ac-7d36-4bc5-8259-4855efd3e226/original",
+              "label": "Original File - 76 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><add>שנת ברכה והצלחה</add> was published a “day after the fair” In\n                                        future I must<lb/> trouble you to let me know when I send a\n                                        sermon whether<lb/> it can be published at the time required\n                                        as I would then<lb/> prefer its not being published at all\n                                        if not at the<lb/> specified time.</p>\n                              <p rend=\"indent(1)\">You have been made aware long before this of\n                                        the<lb/> visit of <persName>Dr Raphael</persName> and\n                                                  <persName>Dr Isaacs</persName> to the\n                                                  <placeName>United States</placeName>.<lb/> The\n                                        latter <add>?</add> avowedly to seek for a situation in\n                                                  <placeName>America</placeName><lb/> the former to\n                                        make a little fortune by lecturing<lb/> and as the chronicle\n                                        tells us will no doubt be<lb/> permanently engaged in the\n                                                  <placeName>United States</placeName>. I hope<lb/>\n                                        both these gentlemen for their sakes will not find<lb/>\n                                        themselves mistaken. I am not sanguine enough<lb/> of you\n                                        Yankee Israelites to believe that <persName>Dr\n                                                  Raphael</persName><lb/> will find a better\n                                        situation than the one he filled<lb/> at\n                                                  <placeName>Birmingham</placeName> &amp; which\n                                        yielded him £500 sterling<lb/> It would be uncharitable to\n                                                  <hi rend=\"underline\">believe</hi> all that is\n                                        said<lb/> of <persName>Mr D Isaacs</persName>, but he was\n                                        spoke of both in<lb/>\n                                        <placeName>London</placeName> and elsewhere as possessing a\n                                        temper not at all<lb/> likely to <add>?</add> success. Let\n                                        me hear what you<lb/> think of the contemplated visits. I\n                                        have now written<lb/> your <add>?</add> fully and must\n                                        therefore close. Wishing<lb/> you many happy returns of the\n                                        coming <add>Hebrew</add><lb/> and praying that the coming\n                                        year may be to<lb/> you <add>Hebrew</add></p>\n                              <p rend=\"indent(9)\">I am dear Friend</p>\n                              <p rend=\"indent(9)\">Yours truly</p>\n                              <p rend=\"indent(10)\">\n                                        <persName role=\"author\">Abraham de Sola</persName>\n                              </p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_7_7.pdf\">The above\n                                                  text refers to Occident Volume 7 No. 7 pages 348\n                                                  through 362. Click here to view.</ref>\n                                        </p>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_7_10.pdf\">The above\n                                                  text also refers to Occident Volume 7 No. 10 pages\n                                                  504 through 507. Click here to view.</ref>\n                                        </p>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_7_11.pdf\">The above\n                                                  text also refers to Occident Volume 7 No. 11 pages\n                                                  549 through 554. Click here to view.</ref>\n                                        </p>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_7_12.pdf\">The above\n                                                  text also refers to Occident Volume 7 No. 12 pages\n                                                  596 through 601. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3mg7gc18/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

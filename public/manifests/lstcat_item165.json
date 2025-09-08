@@ -1,0 +1,273 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Sommers, E.; Leeser, Isaac; Charleston, SC; 2 June 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3988374w"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Sommers, E.; Leeser, Isaac; Charleston, SC; 2 June 1851"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-06-02"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "1 page on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item165"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/32a2747e-3ae2-4265-9e70-335c36b0b086%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/32a2747e-3ae2-4265-9e70-335c36b0b086%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6388,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/32a2747e-3ae2-4265-9e70-335c36b0b086%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6388,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/32a2747e-3ae2-4265-9e70-335c36b0b086%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/assets/32a2747e-3ae2-4265-9e70-335c36b0b086/original",
+              "label": "Original File - 96.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"align(right)\">\n                <placeName>Charleston</placeName>\n                <date>June 2<hi rend=\"sup\">nd</hi> 1851</date>\n            </p>\n            <p><addressee>Rev Isaac Leeser</addressee>.</p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(3)\">Dear Sir!</p>\n            <p rend=\"indent(4)\">Enclosed I send<lb/> you check on Union Bank New York for<lb/>\n                Twenty Seven Dollars which please distribute<lb/> as follows viz take $3. as my\n                yearly subscription<lb/> to the Occident the balance of twenty four<lb/> dollars is\n                the <sic>ammount</sic> subscribed by the members<lb/> of the congregation Shearith\n                Israel for the benefit<lb/> of our poor brethren in <placeName>Jerusalem</placeName>\n                and as I<lb/> do not know who is authorized to receive the<lb/>\n                <sic>ammount</sic> at present for the purpose of <sic>transmition</sic><lb/> I\n                therefore send it to you knowing that you<lb/> will take proper steps to transmit it to<lb/>\n                <placeName>London</placeName> or wherever it is necessary.</p>\n            <p rend=\"indent(1)\">I must<lb/> inform you that the <persName>Rev Ellis Lyons</persName>\n                was<lb/> yesterday unanimously <sic>Ellected</sic> minister of<lb/> our congregation\n                for 2 years in place of the <persName>Rev<lb/> Mr Rosenfeld</persName>.</p>\n            <p rend=\"indent(1)\">Trusting this may meet you in the<lb/> enjoyment of good health I\n                subscribe myself</p>\n            <p rend=\"indent(9)\">Your Friend &amp; Obt Servt</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">E. Sommers</persName>\n            </p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6388,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b70e5d3f-e6f4-44c8-96a1-5f60027e7b63%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6388,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b70e5d3f-e6f4-44c8-96a1-5f60027e7b63%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/assets/b70e5d3f-e6f4-44c8-96a1-5f60027e7b63/original",
+              "label": "Original File - 96.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6388,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/458c32ad-a42f-475e-ac7d-157e806151c4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6388,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/458c32ad-a42f-475e-ac7d-157e806151c4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/assets/458c32ad-a42f-475e-ac7d-157e806151c4/original",
+              "label": "Original File - 96.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6388,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a7f9d3a8-c23f-43db-b4e5-43c65de068a6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6388,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a7f9d3a8-c23f-43db-b4e5-43c65de068a6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/assets/a7f9d3a8-c23f-43db-b4e5-43c65de068a6/original",
+              "label": "Original File - 96.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"indent(1)\">\n                <hi rend=\"underline\">paid</hi>\n            </p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia Pa</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3988374w/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Cellner, S.; Leeser, Isaac, Rev.; Montgomery, AL; 23 August 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3ws8j629"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Cellner, S.; Leeser, Isaac, Rev.; Montgomery, AL; 23 August 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-08-23"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Alabama -- Montgomery",
+        "United States -- Alabama",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_49"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/35ae96ad-ddd0-480e-be57-c606f8d1d8e2%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/35ae96ad-ddd0-480e-be57-c606f8d1d8e2%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4688,
+          "width": 3856,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/35ae96ad-ddd0-480e-be57-c606f8d1d8e2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3856,
+                "height": 4688,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/35ae96ad-ddd0-480e-be57-c606f8d1d8e2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/assets/35ae96ad-ddd0-480e-be57-c606f8d1d8e2/original",
+              "label": "Original File - 54.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                                        <placeName>Montgomery</placeName>\n                                        <date>23 August 1852</date>\n                              </p>\n                              <p><addressee>Rev Isaac Leeser</addressee>.</p>\n                              <p rend=\"indent(2)\">Sir!</p>\n                              <p>I enclosed send you three Dollars for a copy<lb/> of the Occident,\n                                        which you have send to the <persName>Rev E.<lb/>\n                                                  Marmson</persName> of this city (formerly.)</p>\n                              <p>I believe you have been already informed, the<lb/> circumstances,\n                                                  <sic>conected</sic>\n                                        <sic>whit</sic> the <persName>Rev. E.\n                                        Marmson</persName><lb/> but if not? I will tell you</p>\n                              <p rend=\"indent(1)\">The Kahl of this city—(I am not a member)<lb/> had\n                                        engaged <persName>Mr Marmson</persName> for a year\n                                        payable<lb/> quarterly at the rate of $500 a year.\n                                                  <sic>Thee</sic>\n                                        <sic>wuld</sic><lb/> not agree, and <persName>Mr\n                                                  Marmson</persName> send his resignation<lb/> and\n                                        left them and went to the Ministers of the<lb/> Christian\n                                        Faith, he has then for the last 6 or 8<lb/> weeks boarded\n                                        and lodged <sic>whit</sic> them and the<lb/> rumor here in\n                                        this city, was, that he has been<lb/> converted to the\n                                        Christian faith,</p>\n                              <p rend=\"indent(1)\">I meet then <persName>Mr Marmson</persName> and\n                                        ask him of<lb/> the truth, he then <sic>denided</sic> and\n                                        said all is<lb/> a Lie, and false. I told him that he\n                                        should<lb/> to <sic>satisfied</sic> the Brothers of our\n                                        faith, and the<lb/>\n                                        <sic>comunity</sic> in <sic>generally</sic>, publish the\n                                        truth in the city<lb/> papers, under his own signature,\n                                        which he<lb/> promise me to do it, but in vain he left<lb/>\n                                        here I do not <sic>wer</sic> he went to and <sic>dit</sic>\n                                        not <sic>don</sic><lb/> it. I send you this information to\n                                        satisfy</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4688,
+          "width": 3856,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/aa983142-1f92-495d-886f-0b75a3e2bd7e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3856,
+                "height": 4688,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/aa983142-1f92-495d-886f-0b75a3e2bd7e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/assets/aa983142-1f92-495d-886f-0b75a3e2bd7e/original",
+              "label": "Original File - 54.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>you and our Brothers in the <placeName>United\n                                                  <sic>Stated</sic></placeName> to have<lb/> a look\n                                        out and to be on their guard.</p>\n                              <p rend=\"indent(1)\">And I no say If <persName>Mr Marmson</persName>\n                                        <sic>dos</sic> not<lb/> publish the truth in your\n                                                  <sic>Pamplet</sic> our Asmonean<lb/> under his own\n                                        signature?</p>\n                              <p rend=\"indent(1)\">I will then publish his name over<lb/> the\n                                        world</p>\n                              <p rend=\"indent(6)\">More anon</p>\n                              <p rend=\"indent(7)\">Yours Truly</p>\n                              <p rend=\"indent(7)\">\n                                        <persName role=\"author\">S. Cellner</persName>\n                              </p>\n                              <p>P. S.  The three Dollars for the Occident<lb/>   I have received of\n                                        the President<lb/>   from Kahl for him——</p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j629/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Hart from Solis, David H.; September 13, 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3m61cg1b"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Hart from Solis, David H.; September 13, 1857"]
+    },
+    {
+      "label": "Name",
+      "value": [
+        "Hart, Abraham, 1810-1885 (contributor)",
+        "Solis, David H. (creator)"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-09-13"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages on 1 sheet."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF4_68", "ilcajs_b2f4_0065"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/d2176e89-9500-47a4-81fc-268bbbc2a51d%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/d2176e89-9500-47a4-81fc-268bbbc2a51d%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 4446,
+          "width": 3770,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d2176e89-9500-47a4-81fc-268bbbc2a51d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3770,
+                "height": 4446,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d2176e89-9500-47a4-81fc-268bbbc2a51d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/assets/d2176e89-9500-47a4-81fc-268bbbc2a51d/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p><addressee>Mr. A Hart</addressee> Pres. Cong K. K. M Israel</p>\n            <p rend=\"indent(1)\">Dear Sir</p>\n            <p rend=\"indent(2)\">Please present this as my<lb/> resignation of membership of the\n                above<lb/> congregation, with my best wishes for their<lb/> prosperity I am very</p>\n            <p rend=\"indent(6)\">Respectfully yours</p>\n            <p rend=\"indent(7)\">\n                <persName role=\"author\">D. H. Solis</persName>\n            </p>\n            <p><placeName>Philada</placeName>, <date>Sept 13<hi rend=\"sup\">th</hi> 1857</date></p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 3770,
+          "width": 4446,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9ee7ae9e-05e0-4a10-a762-63c1e1767964%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4446,
+                "height": 3770,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9ee7ae9e-05e0-4a10-a762-63c1e1767964%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/assets/9ee7ae9e-05e0-4a10-a762-63c1e1767964/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>Resignation of</p>\n            <p>\n                <persName role=\"author\">Mr DH Solis</persName>\n            </p>\n            <p>Received <date>Sept 13/57</date></p>\n        </body>\n    </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m61cg1b/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dv1dd9d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter, 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3dv1dd9d"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter, 1847"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "hower[?], Miles (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-03"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["Yiddish"]
+    },
+    {
+      "label": "Location",
+      "value": ["Savannah (Ga.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF4_7_1", "ilcajs_b1f4_0008"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb60dee1-b951-4509-9db3-54565c9f3975%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb60dee1-b951-4509-9db3-54565c9f3975%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dv1dd9d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dv1dd9d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dv1dd9d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 4068,
+          "width": 4740,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb60dee1-b951-4509-9db3-54565c9f3975%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4740,
+                "height": 4068,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb60dee1-b951-4509-9db3-54565c9f3975%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3dv1dd9d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dv1dd9d/assets/eb60dee1-b951-4509-9db3-54565c9f3975/original",
+              "label": "Original File - 58.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dv1dd9d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dv1dd9d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <hi rend=\"underline\">Hebrew</hi>\n                              </p>\n                              <p rend=\"indent(10)\">\n                                        <date>Adar 1842 (or 1847)</date>\n                              </p>\n                              <p rend=\"indent(10)\">\n                                        <placeName>Savannah</placeName>\n                              </p>\n                              <p rend=\"indent(1)\">Peace and every good to my honorable<lb/> friend\n                                        etc. etc.</p>\n                              <p rend=\"indent(1)\">I want to announce to you, my dear and<lb/>\n                                        honorable friend that I <del>have</del> received your\n                                        letter<lb/> last <date>Friday</date>, and was exceedingly\n                                        happy. You<lb/> may send the Pentateuchs in any way you\n                                        like<lb/> if only they reach the two brothers whose\n                                        name<lb/> I have already given you;\n                                                  <persName><sic>Rebbi</sic> Nahum</persName><lb/>\n                                        and <persName><sic>Rebbi</sic> Jacob Leib</persName> of the\n                                        city of <placeName>Shliss–<lb/>shik</placeName> in\n                                                  <placeName>Poland</placeName>.</p>\n                              <p rend=\"indent(1)\">I very much regret the misfortune that<lb/> has\n                                        befallen you, about which I read in the<lb/> Occident. But I\n                                        know nothing with which<lb/> to comfort you. You know that\n                                        it is of god.<lb/> As our sages said, \"A man does not\n                                        move<lb/> his finger etc....and who can say<lb/> to Him\n                                        'What do you do?'\", May God<lb/> free you from every evil,\n                                        and may He fulfill<lb/> all his desires. Such is the wish of\n                                        your<lb/> friend. Asher.....<persName role=\"author\">Miles\n                                                  hower</persName></p>\n                              <p rend=\"indent(1)\">over</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3dv1dd9d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

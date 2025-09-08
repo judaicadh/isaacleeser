@@ -1,0 +1,191 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Jonah of the house of Bondi; Philadelphia, PA; 1 November 1865",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3gm82514"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Jonah of the house of Bondi; Philadelphia, PA; 1 November 1865"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": ["1865-11-01", "3 Kislev"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF4a_3"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c558865-2601-433c-84b7-3e69499d4e04%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c558865-2601-433c-84b7-3e69499d4e04%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4626,
+          "width": 3760,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c558865-2601-433c-84b7-3e69499d4e04%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3760,
+                "height": 4626,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c558865-2601-433c-84b7-3e69499d4e04%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/assets/2c558865-2601-433c-84b7-3e69499d4e04/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4626,
+          "width": 3760,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d92f4e6f-7fb3-4906-91e0-1994b6a23bf1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3760,
+                "height": 4626,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d92f4e6f-7fb3-4906-91e0-1994b6a23bf1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/assets/d92f4e6f-7fb3-4906-91e0-1994b6a23bf1/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>that if you must continue my Hebrew article in the <date>January</date> issue,<lb/>\n                otherwise, I must ask you to send it back to me, since I want to have it<lb/>\n                printed in <placeName>Europe</placeName> in pamphlet form.</p>\n            <p rend=\"indent(1)\">Did you <sic>forwars</sic> my letter to <persName>Jacob\n                    Friedman</persName>? I have<lb/> received no answer from him. I beg of you to\n                remind him.</p>\n            <p rend=\"indent(1)\">Send me 50 copies of your small catechism bound.</p>\n            <p rend=\"indent(1)\">I call your attention to the fact that I have moved my<lb/> office\n                to <placeName>117 Nassau Street, Room 10</placeName>. Please send everything\n                there.</p>\n            <p rend=\"indent(2)\">With sincere respect,</p>\n            <p rend=\"indent(3)\">Your loyal friend,</p>\n            <p rend=\"indent(4)\">\n                <persName role=\"author\">Jonah of the house of Bondi</persName>\n            </p>\n            <p>I must also ask you to print my German articles either at the end or in<lb/> an\n                appendix. That is to your advantage, too.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gm82514/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

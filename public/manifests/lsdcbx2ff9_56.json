@@ -1,0 +1,211 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Pizal, David M.; Anytown, St. Thomas; 23 December 1862",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3ft8f49v"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Pizal, David M.; Anytown, St. Thomas; 23 December 1862"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": ["1862-12-23"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virgin Islands -- St. Thomas",
+        "United States -- Virgin Islands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF9_56"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/74dd6ca3-eb8a-46f3-ba97-34e8bc88ee82%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/74dd6ca3-eb8a-46f3-ba97-34e8bc88ee82%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3934,
+          "width": 5040,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/74dd6ca3-eb8a-46f3-ba97-34e8bc88ee82%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5040,
+                "height": 3934,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/74dd6ca3-eb8a-46f3-ba97-34e8bc88ee82%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/assets/74dd6ca3-eb8a-46f3-ba97-34e8bc88ee82/original",
+              "label": "Original File - 59.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>St. Thomas</placeName>\n                <date>23<hi rend=\"sup\">rd</hi> Dec/62</date>\n            </p>\n            <p>Dear Sir,</p>\n            <p rend=\"indent(1)\">I have the pleasure to own the<lb/> receipt of your esteemed lines\n                of <date>6<hi rend=\"sup\">th</hi></date>. Inst,<lb/> and now beg to hand you herewith\n                a Dft.<lb/> for $47.78 for collections &amp;c as p note annexed.<lb/> The <date>2<hi\n                        rend=\"sup\">nd</hi></date> thereof was sent to <placeName>Boston</placeName>\n                on <date>15<hi rend=\"sup\">th</hi></date> Inst.<lb/> for acceptance, and will no\n                doubt have been<lb/> forwarded you thence ere the receipt of this.<lb/>\n                <persName>Mrs. DaCosta</persName> being unwell since last year,<lb/> her copy of the\n                Occident has been given up,<lb/> and is taken by <persName>Mr. M. D.\n                    Osorio</persName>. <persName>Rev. Myers</persName><lb/> said ere his departure\n                that he would pay<lb/> his subscription to <persName>Mr. Nathan</persName>, your\n                Agent<lb/> in <placeName>Jamaica</placeName>. You mention having asked me<lb/>\n                lately to collect for the magazine, but that<lb/> letter must have strayed, as I did\n                not notice<lb/> the request before. The Bibles and Prayer Bks.<lb/> having been sold\n                you may send me a new<lb/> supply.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3938,
+          "width": 5044,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/097ca936-e122-4206-a166-8239106bc36d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5044,
+                "height": 3938,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/097ca936-e122-4206-a166-8239106bc36d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/assets/097ca936-e122-4206-a166-8239106bc36d/original",
+              "label": "Original File - 59.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">You will have perceived that a Minister for<lb/> our congregation\n                has been advertised for. The<lb/> promptitude of the Board I believe was not\n                gen<lb/>erally known by the members, but to have the<lb/> vacancy speedily filled\n                would, doubtless meet<lb/> with the concurrence of a large number. In<lb/> fact the\n                Bye Laws in <sic>recognising</sic> the Minister<lb/> as one of the Officers of the\n                Synagogue do not<lb/> provide for his absence, and therefore it is held<lb/> that\n                these laws cannot be binding on the members<lb/> while the illegality of any article\n                can be proved.<lb/> But I understand that only $1200. have been<lb/> offered and\n                while I know that our congregation<lb/> cannot afford a salary of $2000. as you\n                suggest,<lb/> its expenses being already large, I must likewise<lb/> confess that\n                less than $1500. would be very small.<lb/> I would mention privately that there is\n                now<lb/> an application but of course the candidate is<lb/> not an Englishman, and\n                it is not known whether<lb/> he has had much practice in English oratory.<lb/> In\n                many other respects he would suit us, and</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ft8f49v/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

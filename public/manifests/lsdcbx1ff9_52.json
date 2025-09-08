@@ -1,0 +1,317 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Ezekiel, Jacob; Leeser, Isaac, Rev.; Richmond, VA; 4 September 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3959ct64"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Ezekiel, Jacob; Leeser, Isaac, Rev.; Richmond, VA; 4 September 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-09-04"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virginia -- Richmond",
+        "United States -- Virginia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_52"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/c00b694b-8b47-4de8-a874-aa8b9e723df9%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/c00b694b-8b47-4de8-a874-aa8b9e723df9%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4204,
+          "width": 3248,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c00b694b-8b47-4de8-a874-aa8b9e723df9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3248,
+                "height": 4204,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c00b694b-8b47-4de8-a874-aa8b9e723df9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/assets/c00b694b-8b47-4de8-a874-aa8b9e723df9/original",
+              "label": "Original File - 41.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Richmond</placeName>\n                                        <date>Sept 4, 1852</date>\n                              </p>\n                              <p>\n                                        <addressee>Revd Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">Dear Friend!</p>\n                              <p rend=\"indent(2)\">By the favourable oppor-<lb/>tunity afforded by\n                                        our friend <persName>Mr Mailert</persName><lb/> leaving for\n                                        your place, I drop you<lb/> a few lines hoping that they\n                                        may<lb/> meet you in the enjoyment of that<lb/>\n                                                  vigo<del>u</del>rous state of mind which the\n                                        al-<lb/>mighty has for years past endowed<lb/> you with. My\n                                        health during<lb/> this summer has been much enfeebled<lb/>\n                                        but thank God I am much impro-<lb/>ved.</p>\n                              <p rend=\"indent(1)\">I read your last no of the<lb/> “Occident” with\n                                        much delight, your<lb/> views as to the wants of our\n                                        people<lb/> could not have been better portrayed,<lb/> the\n                                        question is, how can it be spee-<lb/>dily accomplished, year\n                                        after year<lb/> has glided away since your noble<lb/> scheme\n                                        of a convention has been pro-<lb/>posed. If that cannot be\n                                        effected, we<lb/> can do nothing, as that scheme has laid<lb/>\n                                        <sic>dorment</sic> so long, and as the New Yorkers<lb/> are\n                                        so jealous on any subject that does<lb/> not originate with\n                                        them, could we not</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4204,
+          "width": 3248,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5470fdf8-f2cc-45c0-b2ae-47051284cfba%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3248,
+                "height": 4204,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5470fdf8-f2cc-45c0-b2ae-47051284cfba%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/assets/5470fdf8-f2cc-45c0-b2ae-47051284cfba/original",
+              "label": "Original File - 41.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>get them to make a new move in the matter,<lb/> let them have the\n                                        honor and the glory of<lb/> reviving the subject, something\n                                        must be<lb/> done.</p>\n                              <p rend=\"indent(1)\">“Our Ritual and its Recital” has claimed<lb/> much\n                                        notice here as also <persName>Mr Eckman's</persName>\n                                        ar-<lb/>ticle, they contain stubborn facts and they<lb/>\n                                        must be remedied, I often wished that<lb/> some reformation\n                                        could be made in the<lb/> recital of our ritual, my\n                                        principal, and<lb/> instructions that I have invariably\n                                        given<lb/> to our hazanim here has been, “that<lb/> every\n                                        portion of the device that is read<lb/> in the synagogue\n                                        should be read in<lb/> a slow, distinct and impressive\n                                        manner<lb/> irregardless of the time that it occupies,”<lb/>\n                                        if the Form of Service is too long for to be<lb/> recited in\n                                        that manner in reasona-<lb/>ble length of time, steps should\n                                        be taken<lb/> to have them curtailed by omitting all<lb/>\n                                        <sic>repititions</sic>, The Catholics have their<lb/> “Three\n                                        hail Mary's &amp;c” it is not necessary<lb/> for us to have\n                                        these repetitions.</p>\n                              <p rend=\"indent(1)\">Only look at the Kipur service where<lb/>\n                                                  “<add>?</add>” are repeated so often. “El\n                                        Meleck<lb/> yosheb” is rattled away ridiculous and<lb/> so\n                                        it goes through the whole of the ser-<lb/>vice the Question\n                                        arises, how are our<lb/> children to learn to say their\n                                        prayers</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4204,
+          "width": 3248,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3c69d213-5719-4150-81fd-7307e49fbf4d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3248,
+                "height": 4204,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3c69d213-5719-4150-81fd-7307e49fbf4d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/assets/3c69d213-5719-4150-81fd-7307e49fbf4d/original",
+              "label": "Original File - 41.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>with that devotion necessary for the recital of<lb/> our sublime\n                                        ritual, it gives the high min-<lb/>ded adult a distaste for\n                                        the service, now<lb/> contrast our service with that of the\n                                        gentiles<lb/> only see how decorous every part of their<lb/>\n                                        service is performed. When you enter into<lb/> some of their\n                                        churches we are struck with<lb/> awe we are reminded often\n                                        with the solemn<lb/> scriptural injunction of “the Lord is\n                                        in this<lb/> holy Temple let all the earth keep\n                                        si-<lb/>lence before Him.”</p>\n                              <p rend=\"indent(1)\">There must be something done to stimu-<lb/>late\n                                        this lukewarmness existing amongst<lb/> our Co-religionists,\n                                        had I but the power<lb/> to <sic>weild</sic> the pen and\n                                        give vent my fee<lb/>lings in this matter.</p>\n                              <p rend=\"indent(1)\">I am aware that any attempt to ab-<lb/>ridge our\n                                        form of service would meet<lb/> with opposition at first,\n                                        but as it is<lb/> not the old mosaic or Temple form of<lb/>\n                                        service I see no good reason why the<lb/> change cannot be\n                                        made to suit the<lb/> country &amp; times in which we live.\n                                        I wish we<lb/> had but one minhag in\n                                                  <placeName>America</placeName>, and the<lb/>\n                                        service read in good grammatical Hebrew,<lb/> any thing that\n                                        I in my feeble efforts can<lb/> effect, God knows I am\n                                        willing to<lb/> do, hoping to hear soon. I remain yours\n                                        &amp;c</p>\n                              <p rend=\"indent(9)\">\n                                        <persName role=\"author\">Jacob Ezekiel</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 3248,
+          "width": 4204,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/31503921-f746-4379-adb6-67ad23e79e72%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4204,
+                "height": 3248,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/31503921-f746-4379-adb6-67ad23e79e72%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/assets/31503921-f746-4379-adb6-67ad23e79e72/original",
+              "label": "Original File - 41.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">\n                                        <addressee>Revd Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(3)\">\n                                        <placeName>Pa</placeName>\n                              </p>\n                              <p>Favd by</p>\n                              <p>\n                                        <persName>Mr A. Mailert</persName>\n                              </p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_10_5.pdf\">The above\n                                                  text refers to Occident Volume 10 No. 5 pages 247\n                                                  through 254. Click here to view.</ref>\n                                        </p>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_10_5.pdf\">The above\n                                                  text also refers to Occident Volume 10 No. 5 pages\n                                                  225 through 238. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct64/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

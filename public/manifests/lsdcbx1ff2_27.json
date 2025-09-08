@@ -1,0 +1,244 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Gutheim, James Koppel, 1817-1886; November 19, 1845",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3hq3sq7b"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter to Isaac Leeser from Gutheim, James Koppel, 1817-1886; November 19, 1845"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": [
+        "Leeser, Isaac (contributor)",
+        "Gutheim, James Koppel, 1817-1886 (creator)"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": ["1845-11-19"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["3 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["New York (N.Y.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF2_27", "ilcajs_b1f1_0023"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/19fc6458-b180-4f69-b933-dedc3e77242d%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/19fc6458-b180-4f69-b933-dedc3e77242d%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5882,
+          "width": 4716,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/19fc6458-b180-4f69-b933-dedc3e77242d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4716,
+                "height": 5882,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/19fc6458-b180-4f69-b933-dedc3e77242d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/assets/19fc6458-b180-4f69-b933-dedc3e77242d/original",
+              "label": "Original File - 83.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p rend=\"align(right)\">\n                                        <placeName>New York</placeName>\n                                        <date>Novr. 19. 1845</date>\n                              </p>\n                              <p>Revd. Dear Sir</p>\n                              <p rend=\"indent(2)\">Enclosed are $3.00 for this<lb/> year's Occident\n                                        from <persName>Mr. B. Lichtenstein</persName>,\n                                                  <placeName>Buffalo</placeName>.<lb/> I should feel\n                                        obliged if you would send me the <date>Sep<lb/>tember</date>\n                                        No. <del>which</del> as I have lost it.</p>\n                              <p rend=\"indent(1)\"><persName>Dr. Lilienthal</persName> late of\n                                                  <placeName>St. Petersburg</placeName> has\n                                        ar<lb/>rived. It is very probable that You may secure\n                                        his<lb/> aid for your paper. I have seen him last night<lb/>\n                                        he told me that he intended to reduce the obser<lb/>vations\n                                        he has made concerning our co-religionists<lb/> during his\n                                        stay in <placeName>Russia</placeName> to writing\n                                        communicate<lb/> them to the Zeitung des Juden [?]. I\n                                        remarked to him<lb/> that it would be very desirable for the\n                                        English<lb/> Jews generally if his essays on the\n                                        subject<lb/> would appear simultaneously in the English<lb/>\n                                        Press that you would certainly publish his\n                                        com<lb/>munications with pleasure. The condition of<lb/> our\n                                        brethren in <placeName>Russia</placeName>, according to his\n                                        accounts,<lb/> are wretched beyond our conception.\n                                        Hitherto<lb/> they have at least enjoyed the liberty of\n                                        following<lb/> the religion of our fathers, but this boon\n                                        will<lb/> in all probability very soon been denied\n                                        them.<lb/> To renounce their religion or die, will be\n                                        the<lb/> only alternative left them. A sad cala<lb/>mity for\n                                        2 millions of our brethren.</p>\n                              <p rend=\"indent(1)\"><persName>Dr. L.</persName> tenders you, through\n                                        me, his kind regards</p>\n                              "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5874,
+          "width": 4902,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5faab91c-604d-4db8-bd0b-312cc98fc9bd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4902,
+                "height": 5874,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5faab91c-604d-4db8-bd0b-312cc98fc9bd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/assets/5faab91c-604d-4db8-bd0b-312cc98fc9bd/original",
+              "label": "Original File - 86.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p> should feel himself greatly honoured if you would<lb/> enter into\n                                        correspondence with him. He is a man<lb/> that feels a warm\n                                        interest in our religion our<lb/> nation who according to my\n                                        opinion, would make<lb/> an able champion.</p>\n                              <p rend=\"indent(1)\">I remain Dear Sir, with sincere respect</p>\n                              <p>Yours truly</p>\n                              <p>\n                                        <persName role=\"author\">James K. Gutheim</persName>\n                              </p>\n                              <p>To the <addressee>Revd. I. Leeser</addressee></p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p>P.S. If you should be acquainted with a <persName>Mr.<lb/>\n                                                  Hirshfeld</persName> of\n                                                  <placeName>Marburg</placeName>, who arrived some\n                                        time<lb/> ago in your city, please to present him my<lb/>\n                                        compliments</p>\n                              "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 4800,
+          "width": 6076,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d00eb180-aa18-43aa-b444-85976b73d069%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6076,
+                "height": 4800,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d00eb180-aa18-43aa-b444-85976b73d069%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/assets/d00eb180-aa18-43aa-b444-85976b73d069/original",
+              "label": "Original File - 87.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n                              <p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>118 South 4<hi rend=\"\">th</hi> Str.</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>\n                                                  <hi rend=\"underline\">Philadelphia</hi>\n                                        </placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hq3sq7b/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

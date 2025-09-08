@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Moise, Thos. J.; Leeser, I., Rev.; Charleston, SC; 27 June 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3zp3wm0j"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Moise, Thos. J.; Leeser, I., Rev.; Charleston, SC; 27 June 1851"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-06-27"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF8_6"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/3ea89a7f-cf1e-40b3-a372-81ef2055dfdb%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/3ea89a7f-cf1e-40b3-a372-81ef2055dfdb%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4244,
+          "width": 3424,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3ea89a7f-cf1e-40b3-a372-81ef2055dfdb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3424,
+                "height": 4244,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3ea89a7f-cf1e-40b3-a372-81ef2055dfdb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/assets/3ea89a7f-cf1e-40b3-a372-81ef2055dfdb/original",
+              "label": "Original File - 43.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Charleston</placeName>\n                                        <date>June 27/51</date>\n                              </p>\n                              <p>\n                                        <addressee>Rev I Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(2)\">Dr Sir Your favor<lb/> of <date>10th</date> inst\n                                        has been some time received.<lb/> I have been obliged to\n                                        leave town for<lb/> some days since it reached me, or I\n                                        would<lb/> have received my earlier attention. I<lb/> have\n                                        collected $9 from <persName>A Moise Inn</persName>\n                                        &amp;<lb/> will send to <persName>Mrs Griswold</persName>\n                                        for the amt<lb/> due from her. <persName>Mr Joshua\n                                                  Lazarus</persName> as<lb/> you are doubtless aware\n                                        has left for<lb/>\n                                        <placeName>Europe</placeName>. I ascertain thus far that<lb/>\n                                        <persName>Mrs M L Cohen</persName><lb/>     <persName>John\n                                                  I. Cohen</persName><lb/>     <persName>Leopold\n                                                  Cohn</persName><lb/>\n                                        <persName>Col M Jacobs</persName><lb/> are <hi\n                                                  rend=\"underline\">not</hi> subscribers to the\n                                        Occident. My<lb/> friend <persName>P Wineman</persName> did\n                                        not desire it<lb/> either, but (to please me I think)\n                                        has<lb/> concluded to take it for the year at<lb/> any rate.\n                                                  <persName>Mr B D\n                                        Lazarus</persName><lb/>               &amp; <persName>B\n                                                  Mordecai</persName><lb/>\n                                        <hi rend=\"underline\">marked with a star</hi> in yr list, I\n                                        have<lb/> not yet seen. I have not had time<lb/> to solicit\n                                        new subscribers, but yr list<lb/> is so full already in\n                                                  <placeName>Charleston</placeName>, that<lb/> I\n                                        know of few others to whom<lb/> application could be made.\n                                        In the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4244,
+          "width": 3424,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce459e1d-f22d-4ea8-a07d-008e0fb6870c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3424,
+                "height": 4244,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce459e1d-f22d-4ea8-a07d-008e0fb6870c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/assets/ce459e1d-f22d-4ea8-a07d-008e0fb6870c/original",
+              "label": "Original File - 43.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>cases of the 4 persons before named who<lb/> decline the Occident,\n                                        I have not been<lb/> able to get numbers back. Some say<lb/>\n                                        they did not get but <hi rend=\"underline\">one</hi>\n                                        number,<lb/> &amp; others that what they did get were<lb/>\n                                                  ret<hi rend=\"underline\">d</hi> &amp;c &amp;c I\n                                        will endeavor to <hi rend=\"underline\">retain</hi><lb/>\n                                        <persName>B Mordecai</persName> &amp; <persName>B D\n                                                  Lazarus</persName> if possible<lb/> I learn from\n                                                  <persName>David Lopez</persName>, <persName>M H\n                                                  Nathan</persName><lb/>\n                                        <persName>M D Hyams</persName> &amp; <persName>N A\n                                                  Cohen</persName> that their<lb/> withdrawal from\n                                        yr subscription roll<lb/> originated from no objection to yr\n                                        course<lb/> The two first did not want it &amp; had<lb/> no\n                                        time to read it &amp; the two last had<lb/> copies in their\n                                        houses taken by their<lb/> sons. I will inquire of\n                                                  <persName>Jackson Moses</persName><lb/> whether he\n                                        considers himself a subscriber<lb/> or, also of <persName>I.\n                                                  L. DeLange</persName> &amp; <persName>J.\n                                                  Harris</persName></p>\n                              <p rend=\"indent(1)\">If anything can be done for the<lb/> Prayers &amp;\n                                        Bible or Occident, I will<lb/> endeavor to accomplish it\n                                        during<lb/> the ensuing dull season.</p>\n                              <p rend=\"indent(1)\">Yr Occident for <date>July</date> is at hand<lb/>\n                                        It bears down manfully upon the<lb/> disorganizing clique\n                                        who now rule<lb/> our congregational matters without<lb/>\n                                        religion, without order &amp; without<lb/> law.</p>\n                              <p rend=\"indent(1)\">It must do the Occident good with</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4244,
+          "width": 3424,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3cbaed43-b89b-473b-a857-562f787cc67f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3424,
+                "height": 4244,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3cbaed43-b89b-473b-a857-562f787cc67f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/assets/3cbaed43-b89b-473b-a857-562f787cc67f/original",
+              "label": "Original File - 43.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Israelites <hi rend=\"underline\">generally</hi>, 'altho with some\n                                        of<lb/> the straggling followers of the now<lb/> dethroned\n                                                  <persName>Posnanski</persName>\n                                        dissatisfaction<lb/> may be created</p>\n                              <p rend=\"indent(1)\">Of course this (the <hi rend=\"underline\"\n                                        >good</hi>,) is not the object, but<lb/> I for one will not\n                                        object if it prove an<lb/>\n                                        <hi rend=\"underline\">incident</hi> to the publications\n                                        referred<lb/> to.</p>\n                              <p rend=\"indent(1)\">I have to return you the regards<lb/> &amp; good\n                                        wishes of the individuals,<lb/> to whom you desired\n                                        remembrance<lb/> &amp; subscribe myself</p>\n                              <p rend=\"indent(3)\">Yrs Truly &amp;c</p>\n                              <p rend=\"indent(3)\">\n                                        <persName role=\"author\">Thos J Moise</persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm0j/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

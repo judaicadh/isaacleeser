@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Raphall, M. J.; Leeser, I., Rev.; New York, NY; 21 November 1856",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p35t3gk5s"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Raphall, M. J.; Leeser, I., Rev.; New York, NY; 21 November 1856"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1856-11-21"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF3_31"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/174bc95b-90ea-4f1d-b386-fa8ecd7dfd4d%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/174bc95b-90ea-4f1d-b386-fa8ecd7dfd4d%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4568,
+          "width": 3886,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/174bc95b-90ea-4f1d-b386-fa8ecd7dfd4d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3886,
+                "height": 4568,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/174bc95b-90ea-4f1d-b386-fa8ecd7dfd4d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/assets/174bc95b-90ea-4f1d-b386-fa8ecd7dfd4d/original",
+              "label": "Original File - 53.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>New York</placeName>\n                <date>21. Nov/56</date>\n            </p>\n            <p>My dear Sir!</p>\n            <p rend=\"indent(2)\">I have been requested by our friend<lb/>\n                <persName>Mr. Selig Newman</persName> to subject your good offices<lb/> and advice\n                to help him to obtain subscribers for<lb/> an American Edition of his Hebrew\n                Grammar</p>\n            <p rend=\"indent(1)\">This grammar has pressed through several<lb/> editions and is\n                favorably known in <placeName>england</placeName>. I my<lb/>self have used it in the\n                Hebrew National School<lb/>\n                <placeName>Birmingham</placeName>, and it is generally considered<lb/> as best\n                adapted for Hebrew Schools. <persName>Mr. N's</persName> long<lb/> experience as a\n                teacher has taught him what<lb/> an Heb. Grammr ought to be, so that he has\n                produced<lb/> one, well digested in its system clear in its rules<lb/> brief but\n                distinct in the directions, and condensing<lb/> within a moderate number of pages,\n                every thing the<lb/> student needs. The <placeName>London</placeName> J: Chron. For\n                    <date>Novr. 1854</date> also<lb/> speaks of it in the highest terms.</p>\n            <p rend=\"indent(1)\"><persName>Mr. Newmans</persName> requests to you are 1. That\n                you<lb/> would please favorably to <sic>anounce</sic> his gramr in<lb/> the\n                Occident. 2. That you would afford him the<lb/> benefit of your advice as to the\n                best mode of going<lb/> to work, in order to obtain subscribers. 3. Where he<lb/>\n                can best get it printed and is likely to find a<lb/> publisher. Any further\n                suggestions will be thankfully recd.<lb/> His address is <persName>S.\n                    Newman</persName>. <placeName>218. 8<hi rend=\"sup\">th</hi>.\n                Avenue</placeName>.</p>\n            <p rend=\"indent(7)\">Yours my Dr Sir    Very Sincerely</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">M J Raphall Dr</persName>\n            </p>\n            <p>\n                <addressee>Rev I. Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Pha.</placeName>\n            </p>\n            <p rend=\"indent(2)\">Turn Over</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4568,
+          "width": 3886,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f979fdd1-c384-45dd-b451-4c44c917b14b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3886,
+                "height": 4568,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f979fdd1-c384-45dd-b451-4c44c917b14b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/assets/f979fdd1-c384-45dd-b451-4c44c917b14b/original",
+              "label": "Original File - 53.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>The Grammar will contain about<lb/> 100 pages. What ought he to charge<lb/> for\n                it?</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35t3gk5s/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

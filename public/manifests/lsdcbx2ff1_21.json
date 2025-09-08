@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Cohen. Samuel H.; Leeser, Isaac; San Francisco, CA; 26 March 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3wh2f12s"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Cohen. Samuel H.; Leeser, Isaac; San Francisco, CA; 26 March 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-03-26"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- San Francisco",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_21"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/de3a77aa-f1ca-4814-8ead-b7074205cba0%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/de3a77aa-f1ca-4814-8ead-b7074205cba0%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4566,
+          "width": 3654,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/de3a77aa-f1ca-4814-8ead-b7074205cba0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3654,
+                "height": 4566,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/de3a77aa-f1ca-4814-8ead-b7074205cba0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/assets/de3a77aa-f1ca-4814-8ead-b7074205cba0/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>San Francisco</placeName>\n                                        <date>March 26/54</date>\n                              </p>\n                              <p>To</p>\n                              <p>\n                                        <sic>\n                                                  <addressee>Isaacs Lesser Esqre</addressee>\n                                        </sic>\n                              </p>\n                              <p>\n                                        <placeName>371 Walnut St. Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(1)\">Dear Sir</p>\n                              <p rend=\"indent(2)\">I arrived in this city from\n                                                  <placeName>Auburn</placeName><lb/> about two weeks\n                                        back, have seen your agent<lb/>\n                                        <persName>Mr C Myers</persName> who kindly give me the\n                                        Occident<lb/> containing the portion of my letter.</p>\n                              <p rend=\"indent(1)\">I have used my endeavours in forwarding<lb/> your\n                                                  <sic>enterpriseing</sic> work the Bible,\n                                        which<lb/> I must say is a Credit to you, and trust<lb/>\n                                        will prove productive for your labours.</p>\n                              <p rend=\"indent(1)\">In regard to further Information<lb/> respecting\n                                        the Jews in <placeName>China</placeName>, I have had an<lb/>\n                                        Interview with <persName>Mr Spear</persName> of whom I spoke\n                                        of<lb/> in my last, he <sic>his</sic> not the Gent who\n                                        was<lb/> in <placeName>China</placeName> in my time, he has\n                                        only been in<lb/>\n                                        <placeName>Canton</placeName> three years and not out of it\n                                        till he<lb/> come to this country, as he said to me we\n                                        who<lb/> reside at <placeName>Canton</placeName> can have\n                                        but little com-<lb/>-munication with the Chinese in\n                                        consequence<lb/> of its being unsafe to go out into the\n                                        streets, he<lb/> also says that he never heard or read of\n                                        any such<lb/> sect as Jews &amp;c in\n                                                  <placeName>China</placeName> he is only acquainted\n                                        with<lb/> the Canton Dialect, in the Occident of\n                                                  <date>January</date><lb/> Page 514 you propose to\n                                        send a person duly qualified<lb/> to\n                                                  <placeName>Shanghai</placeName> to open\n                                        communication with<lb/> the people of\n                                                  <placeName>Kai-fong-foo</placeName>, that\n                                        proposition</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4566,
+          "width": 3654,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/227563e1-b4c9-4794-bd89-1212324105e3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3654,
+                "height": 4566,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/227563e1-b4c9-4794-bd89-1212324105e3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/assets/227563e1-b4c9-4794-bd89-1212324105e3/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><sic>his</sic> highly <sic>esential</sic> as that <hi\n                                                  rend=\"underline\">must</hi> be the first step. To\n                                        begin about there to carry out the object in\n                                        <add>?</add><lb/> then follow the plan of the\n                                                  <sic>Jesuites</sic> which is to<lb/> establish\n                                        posts of communications in every<lb/> district from\n                                                  <placeName>Shanghai</placeName> to the place\n                                                  <sic>wher</sic> our supp<lb/>-osed\n                                                  <sic>Bretherin</sic> are to be found, this is to\n                                        be done by<lb/> feeing<add>?</add> the officer of each\n                                        district then they will<lb/> pass the letters of\n                                                  <sic>corrospondance</sic>, and\n                                        <sic>verry</sic><lb/> probable pass a <sic>foreignor</sic>\n                                        through, as let a <sic>foreignor</sic><lb/> Disguise himself\n                                        ever so much the Chinese can<lb/> Discover him, which if\n                                        such should be the case<lb/> the officer of the district can\n                                        torment him in a most<lb/> Barbarous manner for any length\n                                        of time and<lb/> when he thinks proper he can send him\n                                        back<lb/> through the same districts as he come to his\n                                        first<lb/> starting place, and then the isolated\n                                        Traveller<lb/> cannot have any redress from his\n                                        Government,<lb/> a Little money works wonders among the\n                                        China officials<lb/>\n                                        <sic>therefor</sic> I am still of the same opinion that the<lb/>\n                                        <sic>Obsticals</sic> are to be over come in\n                                        communicating<lb/> with the people of\n                                                  <placeName>Kai-fong-foo</placeName>.</p>\n                              <p rend=\"indent(1)\"><sic>if</sic> the people in the\n                                                  <placeName><sic>atlantic</sic></placeName> are\n                                        going to send<lb/> out a mission and they have confidence\n                                        enough<lb/> in me I should have no objection of being\n                                        one<lb/> of the parties for that mission to\n                                                  <placeName>Shanghai</placeName>, provided<lb/>\n                                        that I was paid for going out there, any persons<lb/> which\n                                        they may send if they should come by way<lb/> of\n                                                  <placeName>California</placeName> I shall be most\n                                        happy to give them<lb/> all the information that lays in my\n                                        power as with<lb/> one hour conversation with them I should\n                                        be able</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4566,
+          "width": 3654,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a3517f21-6e6f-4c0e-8b56-483e28ecd115%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3654,
+                "height": 4566,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a3517f21-6e6f-4c0e-8b56-483e28ecd115%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/assets/a3517f21-6e6f-4c0e-8b56-483e28ecd115/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to enlighten them more than writing six sheets of<lb/> paper full\n                                        about <placeName>China</placeName>. Questions would\n                                        bring<lb/> things to my memory <sic>wher</sic> other wise I\n                                        cannot<lb/> think of them and I would not have any\n                                        thing<lb/> which I may write or repeat go before the\n                                        public<lb/> but that which I know to be the Truth.</p>\n                              <p rend=\"indent(1)\">I will conclude by wishing you<lb/> every success\n                                        in your undertakings<lb/> &amp; <sic>Belive</sic> me to be\n                                        yours</p>\n                              <p rend=\"indent(2)\">\n                                        <persName role=\"author\">Samuel H. Cohen</persName>\n                              </p>\n                              <p>care of <persName>B Keesing</persName>\n                                        <placeName>Box 488 Post Office</placeName></p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_11_10.pdf\">The\n                                                  above text refers to Occident Volume 11 No. 10\n                                                  pages 510 through 514. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3wh2f12s/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

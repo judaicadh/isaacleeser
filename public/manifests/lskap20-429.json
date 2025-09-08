@@ -1,0 +1,310 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leeser, E.; Gunzburg, A.; Philadelphia, Pennsylvania, United States; Baltimore, Maryland, United States; 1852 November 28",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3nc5sh95"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Leeser, E.; Gunzburg, A.; Philadelphia, Pennsylvania, United States; Baltimore, Maryland, United States; 1852 November 28"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, E.", "Gunzburg, A."]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-11-28"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Arnold and Deanne Kaplan Collection of Early American Judaica (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Description",
+      "value": [
+        "Letter from Dr. A. Gunzburg to E. Leeser, offering to supply an article for Leeser and to consider selling books at his Hebrew school; Philadelphia, PA; Baltimore, MD"
+      ]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "German"]
+    },
+    {
+      "label": "Subject",
+      "value": ["Correspondence"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Maryland -- Baltimore",
+        "United States -- Maryland",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.56, Box 4, Folder 2"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": [
+        "2006.12.26.03489",
+        "{AF8C33AA-910A-42CC-AB4E-6DE149D73DBC}",
+        "20.429"
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/460bf4c0-3f81-48ac-8647-4810f3d64656%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/460bf4c0-3f81-48ac-8647-4810f3d64656%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5953,
+          "width": 4699,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/460bf4c0-3f81-48ac-8647-4810f3d64656%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4699,
+                "height": 5953,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/460bf4c0-3f81-48ac-8647-4810f3d64656%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/assets/460bf4c0-3f81-48ac-8647-4810f3d64656/original",
+              "label": "Original File - 68.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"align(center)\"><sic>Rev<hi rend=\"sup\">d</hi><addressee>E.\n                    Leeser</addressee></sic>, <placeName>Philadelphia</placeName></p>\n            <p rend=\"align(right)\">\n                <placeName>\n                    <hi rend=\"underline\">Baltimore</hi>\n                </placeName>\n                <date>den 28t Nov. 5613</date>\n            </p>\n            <p rend=\"align(right)\">\n                <placeName>646. Fayette <hi rend=\"underline\">Str</hi></placeName>\n            </p>\n            <p>Geehrteter Herr!</p>\n            <p>Sie haben mich vor längerer Zeit ersucht Ihnen Einsendun-<lb/>gen zu machen. Das ich\n                Ihrer Aufforderung bis her nicht<lb/> nachgekommen hieran liegt die Schuld mehr in\n                den ver˶<lb/>hältnissen, als in mir; da ich in Folge der mannigfach zu\n                er˶<lb/>füllende Berufs pflichten nur weniger Mußestunde mich<lb/> erfreue. Dach\n                nichts desto wieder habe ich es mir<lb/> nun vorgenommen, die bisher beobachtete\n                Zurückgezogen,<lb/>heit zu verlassen, und von Zeit zu Zeit der einer oder<lb/> der\n                andere theologischen Gegenstand öffentlich zu besprechen.<lb/> Ich erlaube mir nun\n                an Sie die Frage: ob Sie Artikel,<lb/> die ich Ihnen einsende gefälligst übersetzen\n                und auf˶<lb/>nehmen wollen?</p>\n            <p>Ich richte deise Frage darum vor der Einsendung an Sie;<lb/> da ich zu jener gehöre,\n                die täglich beten: <add>ולא ניגע לריק ולא נלד לבהלה</add><lb/> daß aber meine\n                Einsendungen der Aufnahme in Ihrem schätz˶<lb/>baren Jounale nicht unwürdig lege\n                werde, können Sie sich<lb/> versichert halte; denn es ist mein Grundsatz: \"besser<lb/>\n                <hi rend=\"underline\">nicht</hi>, als <hi rend=\"underline\">Nichts</hi>\n                schreiben\"—.</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5938,
+          "width": 4702,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d29ac8d-1fd3-4a97-b494-6b2ad71102ad%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4702,
+                "height": 5938,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d29ac8d-1fd3-4a97-b494-6b2ad71102ad%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/assets/8d29ac8d-1fd3-4a97-b494-6b2ad71102ad/original",
+              "label": "Original File - 65.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>Ich bedaure, das es mir bisher nicht möglich war, hinsichtlich<lb/> Ihrer Bibel\n                übersetzung etwas für Sie zu thun;<lb/> lieder sind die miesten hiesigen Jude zu\n                sehr materiell-<lb/> vielleicht wenn das ganze Wert vollendet ist, das sich<lb/>\n                eher was anbringen läßt.</p>\n            <p>Besser ich mich recht erinnere, so habe Sie auch <hi rend=\"underline\">hebräische</hi><lb/>\n                <hi rend=\"underline\"><sic>Lesebüchel</sic></hi>\n                <hi rend=\"underline\">für Anfänger</hi>. Besser es Ihnen beliebt,<lb/> so können Sie\n                mir zur Besieht 1 Exemplar schicken, und<lb/> der Preis pr Dozend <add>?</add>\n                bemerken; an wenn selbe ent˶<lb/>sprechen ich für meine Schule einige Dozend\n                nehmen<lb/> würde—</p>\n            <p>Es grüßt Sie freundschaftlich und empfiehlt sich<lb/> bestens<lb/> Ihr<lb/>\n                Ergebenster</p>\n            <p>\n                <persName role=\"author\">D<hi rend=\"sup\">r</hi> A. Günzburg</persName>\n            </p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 6915,
+          "width": 5379,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a865af79-316f-4df5-bdf8-30a1df740e70%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5379,
+                "height": 6915,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a865af79-316f-4df5-bdf8-30a1df740e70%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/assets/a865af79-316f-4df5-bdf8-30a1df740e70/original",
+              "label": "Original File - 96.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>Rev <del>E E</del>\n                <addressee>E. Leeser</addressee> in <placeName>Philadelphia</placeName></p>\n            <p rend=\"align(right)\"><placeName>Baltimore</placeName>, <date>Nov. 28th 5613</date></p>\n            <p rend=\"align(right)\">\n                <placeName>64 E. Fayette Str.</placeName>\n            </p>\n            <p>Dear Sir:</p>\n            <p rend=\"indent(1)\">A while ago you asked me to send you<lb/> articles. Conditions are\n                more to blame than myself<lb/> for having not <sic>fullfilled</sic> your request up\n                to now.<lb/> My business leaves me only a few hours for<lb/> myself. But I have\n                decided to get out of my<lb/> isolation and to discuss publicly every once in a<lb/>\n                while a theological subject. Will you<lb/> translate and print the articles which\n                I<lb/> will send you?</p>\n            <p rend=\"indent(1)\">I ask this question before I<lb/> send you anything because I belong\n                to<lb/> those who pay daily.</p>\n            <p rend=\"indent(1)\">You may be assured that my articles <del>are</del><lb/> will not be\n                unworthy of <del>printing</del> being<lb/> printed in your journal. For it is<lb/>\n                one of my principles better not to write at<lb/> all than to write meaningless\n                words.<lb/> Regarding your bible translation, I regret that I did not<lb/> have a\n                chance to do anything for you</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 6884,
+          "width": 5346,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ff56d6a5-5ec2-4d13-aafb-aa2172d18127%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5346,
+                "height": 6884,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ff56d6a5-5ec2-4d13-aafb-aa2172d18127%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/assets/ff56d6a5-5ec2-4d13-aafb-aa2172d18127/original",
+              "label": "Original File - 95.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"align(center)\">2</p>\n            <p><del>\n                    <add>?</add>\n                </del> so far. Most of the Jews here are<lb/> too materially inclined. Maybe I can\n                do some-<lb/>thing after you have completed the whole<lb/> translation.</p>\n            <p rend=\"indent(1)\">If I remember rightly, you have<lb/> also Hebrew books for\n                beginners. If you wish<lb/> you may send me a copy for inspection and let me<lb/>\n                know the price per dozen.</p>\n            <p rend=\"indent(1)\">If they are suitable, I will take<lb/> a few dozen for my\n                school.</p>\n            <p rend=\"indent(1)\">With kindest regards,</p>\n            <p rend=\"indent(2)\">yours</p>\n            <p rend=\"indent(2)\">\n                <persName role=\"author\">Dr. A. Günzburg</persName>\n            </p>\n        </body>\n    </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3nc5sh95/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

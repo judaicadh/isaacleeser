@@ -1,0 +1,290 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Leeser, Isaac, Rev., 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p32j68w7r"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Leeser, Isaac, Rev., 1848"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1848-02-16"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["4 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["New York (N.Y.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_3", "ilcajs_b1f5_0003"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/dda5f1f8-a679-4fc8-b388-27bf7f530cbb%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/dda5f1f8-a679-4fc8-b388-27bf7f530cbb%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5872,
+          "width": 4746,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/dda5f1f8-a679-4fc8-b388-27bf7f530cbb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4746,
+                "height": 5872,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/dda5f1f8-a679-4fc8-b388-27bf7f530cbb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/assets/dda5f1f8-a679-4fc8-b388-27bf7f530cbb/original",
+              "label": "Original File - 83.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Reverend Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(2)\">Dear Sir</p>\n                              <p rend=\"indent(3)\">I received your very kind letter of <date>10\n                                                  Dec</date><lb/> am quite ashamed of not having\n                                        acknowledged it before, but<lb/> the enclosed reflections\n                                        must impart plead my excuse if they meet<lb/> your\n                                        approbation at the time I received it I was also engaged\n                                        in<lb/> writing to a clergyman who after a lapse of five\n                                        years had the Grace<lb/> to answer a letter which I write to\n                                        him on subjects connected with<lb/> our Holy religion.\n                                        however I delivered your enclosed letter to our<lb/> friend\n                                                  <persName>Mr I Lindo</persName> called on\n                                                  <persName>Mrs Joel</persName> who said she had\n                                        already<lb/> forwarded to you the statement you required. I\n                                        also called on the<lb/> Publisher of the Jewish Chronicle\n                                        who in as much surprised that<lb/> there should have been\n                                        any irregularity in the delivery of the numbers<lb/> which\n                                        he say were regularly posted every week he gave me the<lb/>\n                                        enclosed order for a set of the Jewish Miscellany which he\n                                        request<lb/> you to send at your earliest convenience he\n                                        will pay the cost to <persName>Mrs<lb/> Joel</persName> or\n                                        elsewhere as you may direct I have received the\n                                        prospectus<lb/> of the works you propose engaging in should\n                                        feel very happy if<lb/> I could contribute to your success,\n                                        but I have already told you<lb/> what very little influence\n                                        I possess in the nation what a reserved<lb/> life I lead I\n                                        fear any application on my part for support to<lb/> your\n                                        exertion <del>it</del> would be ineffectual be considered as\n                                        a rem[?]<lb/> instance of my assurance put me down as a\n                                        subscriber<lb/> to the Jewish advocate–</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5872,
+          "width": 4746,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4eba5362-cb03-41e9-a5b4-64480351bd19%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4746,
+                "height": 5872,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4eba5362-cb03-41e9-a5b4-64480351bd19%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/assets/4eba5362-cb03-41e9-a5b4-64480351bd19/original",
+              "label": "Original File - 83.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>I am glad you received the apocryphal New Testament I presume<lb/>\n                                        <persName>Dr Raphael</persName> is correct in stating that\n                                        the Publisher [?] was prosecuted<lb/> but I do not think it\n                                        could have been for this publication you will see<lb/> that\n                                        several of the books have been translated published in the\n                                        works<lb/> of learned men here. but I remember seeing in his\n                                        shop windows in<lb/> fleet street an atrocious caricature of\n                                        the almighty in which he was<lb/> depicted with all the\n                                        figurative descriptions used in the Bible <lb/> at the foot\n                                        \"Christians Here is your God as by Law established\"</p>\n                              <p>I believe few persons had the audacity to enter the shop purchase\n                                        it<lb/> I had not. I see the result of your interview with\n                                                  <persName>Mr Knit</persName> his<lb/> reply that\n                                        the synod had resolved to reply only to a Jewish\n                                        assembly<lb/> of [?] not to an individual is very\n                                        significant. however the ques<lb/>tion how my letter came to\n                                        the hands of the publisher of the asmonean<lb/> will soon be\n                                        solved for I see by the number for the week ending 20<lb/>\n                                        decr (which the publisher politely sent me) that my letter\n                                        was<lb/> sent to him by a Gentleman connected with the Synod\n                                        accompanied<lb/> by an answer which on account of the [?] of\n                                        the <sic>stile</sic> he did not<lb/> publish he proposed\n                                        doing up shortly with a running commentary</p>\n                              <p rend=\"indent(1)\">If the answer is signed by the writer requires any\n                                        other answer<lb/> than the commentary I shall perhaps take\n                                        notice of it, but not if it<lb/> is anonymous perhaps you\n                                        will say that my writings which you have<lb/> though worthy\n                                        of a place in your interesting periodical has also been<lb/>\n                                        anonymous by they have not been written to or at anybody but\n                                        your<lb/> self to any inquirers you could always supply the\n                                        name</p>\n                              <p>I read with much pleasure your review of <persName>Dr\n                                                  Raphel's</persName> lectures</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 5914,
+          "width": 4108,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/785cc5da-134b-46e0-ba00-47a53d01edc6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4108,
+                "height": 5914,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/785cc5da-134b-46e0-ba00-47a53d01edc6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/assets/785cc5da-134b-46e0-ba00-47a53d01edc6/original",
+              "label": "Original File - 73.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>I suppose he finds[...]<lb/> to print them I h[...]<lb/> nor have I\n                                        ever heard [...]<lb/> abundance of material [...]<lb/>\n                                        volume might be arranged [...]<lb/> account of the Jews in\n                                                  <placeName>Spain</placeName>\n                                        <placeName>Portugal</placeName> [...]<lb/> information on\n                                        the same subject in Mr [...]</p>\n                              <p rend=\"indent(1)\">The enclosed reflection I for[...]<lb/> as my\n                                        former writings they are at you[...]<lb/> they can be of any\n                                        use to our [...]<lb/> may have to discuss with [...]<lb/>\n                                        the scheme of Christianity. as I refer[...]<lb/>\n                                        <persName>Bishop of <placeName>London</placeName></persName>\n                                        to the Creeds of the [...]<lb/> sent you those two\n                                        document). loose who [...]<lb/> them from passage) as my\n                                        vouchers for [...]<lb/> my reflections I shall be happy to\n                                        [...]<lb/> to say that your prospects have become\n                                        brig[...]<lb/> my utmost isolated position does not\n                                        aff[...]<lb/> of being [?] to you I remain with you[...]</p>\n                              <p rend=\"indent(8)\">Reverend Sir your's[...]</p>\n                              <p rend=\"indent(10)\">[?]</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 5886,
+          "width": 4852,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c8f04ab6-05b2-48b0-9503-8db0cdd7e280%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4852,
+                "height": 5886,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c8f04ab6-05b2-48b0-9503-8db0cdd7e280%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/assets/c8f04ab6-05b2-48b0-9503-8db0cdd7e280/original",
+              "label": "Original File - 85.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Reverend Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>U S.</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32j68w7r/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

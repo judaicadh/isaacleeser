@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Lindo, E. H.; Leeser, Isaac, Rev.; London, United Kingdom; 30 April 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30k26x63"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Lindo, E. H.; Leeser, Isaac, Rev.; London, United Kingdom; 30 April 1851"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-04-30"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United Kingdom -- London",
+        "United Kingdom",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF8_35"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9138d47-53d2-4e51-a528-0bda411fdefc%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9138d47-53d2-4e51-a528-0bda411fdefc%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4162,
+          "width": 3470,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9138d47-53d2-4e51-a528-0bda411fdefc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3470,
+                "height": 4162,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9138d47-53d2-4e51-a528-0bda411fdefc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/assets/b9138d47-53d2-4e51-a528-0bda411fdefc/original",
+              "label": "Original File - 43.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd Mr Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <placeName>London</placeName>\n                                        <date>30 April 1851</date>\n                              </p>\n                              <p rend=\"indent(2)\">Dear Sir</p>\n                              <p rend=\"indent(4)\">I duly received your favor of <date>31st</date>\n                                        Ulto.<lb/> &amp; notice your observations in reply to my\n                                        remarks on the arrangement<lb/> made for the Conciliator\n                                        sent you, certainly I did not know of your having<lb/> paid\n                                        duty freight &amp;c for except three copies sent through\n                                                  <persName>Chapman</persName> the others<lb/> were\n                                        forwarded by private hands, but nothing more need be said on\n                                        that<lb/> subject as I accepted of your proposal &amp; which\n                                        as I advised you <persName>Mrs. Joel</persName><lb/> settled\n                                        for the <date>22 Jany</date>. Altho' as the author you may\n                                        set a high value on your<lb/> Occident still you must\n                                        remember that except for some good Sermons it is not\n                                        inter<lb/>-esting to a European as the news in it from this\n                                        part of the world is stale to them<lb/> &amp; any thing of\n                                        congregational matters that happen in the\n                                                  <placeName>West</placeName> is immediately\n                                        inser<lb/>ted in the journals here &amp; appear long before\n                                        the Occident is seen as to its nominal<lb/> value please to\n                                        recollect when I sent you the Conciliator the price was 25/\n                                        &amp; my<lb/> History is selling @12/ which together is\n                                        equal to 5 vol. of the Occident it could be of<lb/> no use\n                                        to me in my literary pursuits therefore it cannot be\n                                        supposed I would lay out<lb/> money to purchase it. I have\n                                        the first volume which my son in\n                                                  <placeName>Jamaica</placeName> sent me &amp;<lb/>\n                                        had you have presented me with the others should have been\n                                        put to the <sic>expence</sic> of<lb/> having them bound\n                                        which I now save, but as you make it a matter of dollars\n                                        &amp; cents<lb/> I have no objection to treat it in the same\n                                        way &amp; if you like it will give <persName>Mrs\n                                                  Joel</persName> five<lb/>\n                                        <hi rend=\"underline\">unbound</hi> copies of the Conciliator\n                                        for the 7 last volumes of your Occident on no other<lb/>\n                                        terms would I add it to my already extensive library.</p>\n                              <p rend=\"indent(1)\">I thank you for your kind intention towards my\n                                        recommendation of <persName>Mr Moraes</persName><lb/> who I\n                                        feel convinced you will find grateful for any thing you may\n                                        do for him &amp; equally<lb/> so that you will be pleased\n                                        with him as you get better acquainted with him.<lb/> In\n                                        reiterating towards yourself your kind expressions to me I\n                                        remain</p>\n                              <p rend=\"indent(3)\">Sincerely Yours</p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">E H Lindo</persName>\n                              </p>\n                              <p>I have just learned that <persName>Mr. M</persName> has been\n                                        elected<lb/> &amp; to my great surprise that you were a\n                                        candidate<lb/> for I had heard that you had refused the\n                                        office</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3470,
+          "width": 4162,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/af087e1f-42db-4e22-af3d-e0c64a017f23%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4162,
+                "height": 3470,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/af087e1f-42db-4e22-af3d-e0c64a017f23%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/assets/af087e1f-42db-4e22-af3d-e0c64a017f23/original",
+              "label": "Original File - 43.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd. Mr. I. Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30k26x63/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

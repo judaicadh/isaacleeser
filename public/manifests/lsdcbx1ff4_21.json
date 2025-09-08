@@ -1,0 +1,241 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Judah, Uriah H.; December 10, 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3j679p1v"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter to Isaac Leeser from Judah, Uriah H.; December 10, 1847"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Judah, Uriah H. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-12-10"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["3 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["New York (N.Y.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF4_21", "ilcajs_b1f4_0023"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b2640178-66a7-4331-87ee-31c9cd997501%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b2640178-66a7-4331-87ee-31c9cd997501%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5918,
+          "width": 4858,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b2640178-66a7-4331-87ee-31c9cd997501%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4858,
+                "height": 5918,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b2640178-66a7-4331-87ee-31c9cd997501%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/assets/b2640178-66a7-4331-87ee-31c9cd997501/original",
+              "label": "Original File - 86.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>No 143 Maiden Lane</placeName>.</p>\n                              <p rend=\"align(right)\"><placeName>New York</placeName>, <date>Decr.\n                                                  10. 1847</date>.</p>\n                              <p><addressee>Revd. Isaac Leeser</addressee>,</p>\n                              <p rend=\"indent(2)\">Sir,</p>\n                              <p rend=\"indent(1)\">I yesterday recd. the enclosed letter from<lb/>\n                                        <persName>Mr. M. Reed</persName>, a gentleman of high\n                                        standing in<lb/> this community. In reply thereto, I have\n                                        stated<lb/> that my time is so engrossed with business\n                                        matters<lb/> as to necessarily deter me from answering his\n                                        interrog<lb/>-atories as fully and as explicitly as I could\n                                        desire–<lb/>but that I had submitted his letter to the\n                                        consider=<lb/>=ation of one of the most able and learned\n                                        of<lb/> my persuasion, who would doubtless allow it to<lb/>\n                                        appear in the Occident, with <hi rend=\"underline\">his</hi>\n                                        views in<lb/> reference to the points embraced.</p>\n                              <p rend=\"indent(9)\">Respectfully,</p>\n                              <p rend=\"indent(9)\">\n                                        <persName role=\"author\">Uriah H. Judah</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5920,
+          "width": 4820,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3a5e7a8d-f5de-4b60-bbb0-88552d18c079%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4820,
+                "height": 5920,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3a5e7a8d-f5de-4b60-bbb0-88552d18c079%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/assets/3a5e7a8d-f5de-4b60-bbb0-88552d18c079/original",
+              "label": "Original File - 85.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>New York</placeName>. <date>Dec. 9.\n                                                  1847</date>.</p>\n                              <p>To <persName role=\"author\">Uriah H. Judah Esq.</persName></p>\n                              <p rend=\"indent(3)\">Sir,</p>\n                              <p rend=\"indent(4)\">The following<lb/> questions appear to me to\n                                        involve a subject of most<lb/> deep and peculiar interest,\n                                        not only to ourselves in-<lb/>dividually, but to the whole\n                                        religious community.<lb/> These questions are addressed to\n                                        you under the im-<lb/>pression that your acknowledged\n                                        respectability of<lb/> character and liberality of views\n                                        will prompt you<lb/> to answer them.</p>\n                              <p rend=\"indent(1)\">1st. Is it not <hi rend=\"underline\"\n                                                  >peculiarly</hi> the spirit and priv-<lb/>ilege\n                                        and work of Judaism to spread among<lb/> idolatrous nations,\n                                        the knowledge of the true God, and the records of His\n                                        communion with<lb/>\n                                        <persName>Abraham</persName>\n                                        <persName>Isaac</persName> and <persName>Jacob</persName>\n                                        and all the ancient<lb/> prophets?</p>\n                              <p rend=\"indent(1)\">2nd. Does the Christian enterprise of universal\n                                        Bible<lb/> distribution commend itself to the Jewish<lb/>\n                                        community? Or</p>\n                              <p rend=\"indent(1)\">3d. Are there such features in either the\n                                        nature<lb/> or the invariably accompanying\n                                        circumstances<lb/> of the Christian religious enterprises,\n                                        as necessarily<lb/> shut out the Jew from all participation,\n                                        and leave<lb/> no conceivable ground of benevolent union\n                                        between<lb/> Jew and Christian, except the broad</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 5882,
+          "width": 4814,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8802d093-2365-4cdb-b3bc-27c2b5f71a3b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4814,
+                "height": 5882,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8802d093-2365-4cdb-b3bc-27c2b5f71a3b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/assets/8802d093-2365-4cdb-b3bc-27c2b5f71a3b/original",
+              "label": "Original File - 85.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>platform of common secular benevolence?</p>\n                              <p rend=\"indent(6)\">Yours, very respectfully,</p>\n                              <p rend=\"indent(6)\"><persName>M. Reed</persName>.</p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3j679p1v/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Dovale, A. I.; New York, NY; 20 March 1866",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3qf8k19v"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Dovale, A. I.; New York, NY; 20 March 1866"]
+    },
+    {
+      "label": "Name",
+      "value": ["Dovale, A. I."]
+    },
+    {
+      "label": "Date",
+      "value": ["1866-03-20"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF1_19"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b538c91f-bcb0-4e62-8b6a-56116dbf7d10%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b538c91f-bcb0-4e62-8b6a-56116dbf7d10%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4064,
+          "width": 2854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b538c91f-bcb0-4e62-8b6a-56116dbf7d10%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2854,
+                "height": 4064,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b538c91f-bcb0-4e62-8b6a-56116dbf7d10%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/assets/b538c91f-bcb0-4e62-8b6a-56116dbf7d10/original",
+              "label": "Original File - 34.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>New York</placeName>\n                <date>March 20th 1866</date>.</p>\n            <p>Dear Sir.</p>\n            <p rend=\"indent(1)\">I received in due time your<lb/> kind lines of ..., as also your\n                issue<lb/> of this month, in which I had the<lb/> pleasure of perusing the\n                article<lb/> concerning the laying of the cor<lb/>nerstone of the Temple\n                “Emanu-el”<lb/> in <placeName>Curaçao</placeName>. The reason why<lb/> I did not ere\n                this acknowledge<lb/> the receipt of the former &amp; express<lb/> my thanks for its\n                amiable con<lb/>tents is merely on account of<lb/> the manifold business I was<lb/>\n                overcharged with of late, but I<lb/> hope this delay will not pre<lb/>vent you from\n                remaining con<lb/>vinced that the friendly feelings<lb/> therein manifested towards\n                me<lb/> and fully reciprocated.</p>\n            <p rend=\"indent(1)\">With regard to the insert<lb/>ion of the above mentioned<lb/>\n                article, I must say that it<lb/> afforded me no little pleasure</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4064,
+          "width": 2854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5725268c-736c-4251-93c4-634b0f6635ff%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2854,
+                "height": 4064,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5725268c-736c-4251-93c4-634b0f6635ff%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/assets/5725268c-736c-4251-93c4-634b0f6635ff/original",
+              "label": "Original File - 34.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>as in my humble opinion you<lb/> have thereby given a signal<lb/> proof to the world,\n                that while<lb/> advocating your principles<lb/> on the broad ground of Juda<lb/>ism\n                you do not allow your<lb/> self to be made the champion<lb/> of any private party,\n                which<lb/> while pretending to defend<lb/> religion do not aim but at<lb/>\n                personalities. By the by let<lb/> me assure you that if you were<lb/> to become\n                acquainted with<lb/> the two parties in <placeName>Curaçao</placeName> you<lb/> will\n                soon find out that the<lb/> liberal one is by far not the<lb/> worst of the two.</p>\n            <p rend=\"indent(1)\">Wishing to send my friends<lb/> there some copies of the said<lb/>\n                number of the “Occident” you<lb/> will please remit me about<lb/> twenty five\n                informing me at<lb/> the same time of their value.</p>\n            <p rend=\"indent(1)\">Believe me Dear Sir, Yours Truly.</p>\n            <p rend=\"indent(2)\"><persName role=\"author\">A. J. Dovale</persName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k19v/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

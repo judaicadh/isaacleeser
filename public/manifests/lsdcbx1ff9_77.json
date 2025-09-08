@@ -1,0 +1,264 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Myerston, A.; Leeser, Isaac; Philadelphia, PA; 5 December 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p37941f01"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Myerston, A.; Leeser, Isaac; Philadelphia, PA; 5 December 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-12-05"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_77"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/19c272a3-4cfc-4c78-abd3-0b408468e7d6%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/19c272a3-4cfc-4c78-abd3-0b408468e7d6%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4662,
+          "width": 3766,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/19c272a3-4cfc-4c78-abd3-0b408468e7d6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3766,
+                "height": 4662,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/19c272a3-4cfc-4c78-abd3-0b408468e7d6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/assets/19c272a3-4cfc-4c78-abd3-0b408468e7d6/original",
+              "label": "Original File - 52.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>P<hi rend=\"sup\">h</hi>\n                                                  Cabello</placeName>\n                                        <date>5<hi rend=\"sup\">th</hi> December 1852</date>.</p>\n                              <p rend=\"indent(1)\">\n                                        <addressee>Isaac Leeser Esqre</addressee>\n                              </p>\n                              <p>\n                                        <placeName>371 Walnut St. Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(3)\">Dear Sir!</p>\n                              <p rend=\"indent(1)\">A couple of months ago, being in\n                                                  <placeName>Caracao</placeName>, I was\n                                        presented<lb/> with the accompanying prospectus, by\n                                                  <persName>Samuel Piso, Esqr</persName>, of<lb/>\n                                        <placeName>Barcelona</placeName>, and wishing to become a\n                                        subscriber to the “Occident<lb/> and American Jewish\n                                        Advocate” (Monthly Periodical) I have<lb/> taken the liberty\n                                        of filling up my name etc. in the said prospectus<lb/> and\n                                        of addressing you on the subject. I am very wishful to\n                                        be<lb/> in the possession of the 9 volumes, which have\n                                        already appeared<lb/> and the one which is now in progress\n                                        of this periodical, and you<lb/> will therefore extremely\n                                        oblige me by handing the same to <persName>Captn.<lb/>\n                                                  Wilkins</persName> of the Barque Paez, who will\n                                        give you $20.—that is<lb/> till the completion of the 10<hi\n                                                  rend=\"sup\">th</hi> volume Ulto. <date>March\n                                                  1853</date>, and<lb/> also to let me know what two\n                                        copies of the new translation of<lb/> the Holy Scriptures,\n                                        and one of the <sic>portuguese</sic> form of prayer<lb/>\n                                        bound as noted in their respective subscriptions will\n                                        amount<lb/> to, so that I may be able to forward you a bill\n                                        for the costs fur<lb/> „ther you oblige me by sending the\n                                        same, when ready to my ad<lb/> „dress, and by the beginning\n                                        of the 11<hi rend=\"sup\">th</hi> volume of the monthly<lb/>\n                                        to forward me the numbers as they are issued by the Dallett\n                                        pack<lb/> „et, for which I shall remit the subscription in\n                                        due time.</p>\n                              <p rend=\"indent(1)\">Please be so kind as to inform me also, what may\n                                        be<lb/> the cost of a Hebrew grammar, in English, Lexicon,\n                                        and English<lb/>\n                                        <hi rend=\"underline\">&amp; Hebrew</hi></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4662,
+          "width": 3766,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5429d161-bd6c-4c3e-84f1-2b354cf7746c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3766,
+                "height": 4662,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5429d161-bd6c-4c3e-84f1-2b354cf7746c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/assets/5429d161-bd6c-4c3e-84f1-2b354cf7746c/original",
+              "label": "Original File - 52.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>&amp; Hebrew, and Hebrew &amp; English Dictionary, neatly\n                                        bound-</p>\n                              <p rend=\"indent(1)\">In return I shall be very happy, in case I can be\n                                        of use<lb/> to you, to offer you my services, and remain,\n                                        Dear Sir,</p>\n                              <p rend=\"indent(11)\">Yours very truly</p>\n                              <p rend=\"indent(11)\">\n                                        <persName role=\"author\">A Myerston</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3766,
+          "width": 4662,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f5f89524-11cc-40b2-bb3c-6c30d1ba75de%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4662,
+                "height": 3766,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f5f89524-11cc-40b2-bb3c-6c30d1ba75de%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/assets/f5f89524-11cc-40b2-bb3c-6c30d1ba75de/original",
+              "label": "Original File - 52.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Isaac Leeser Esqr</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>371 Walnut <sic>street</sic></placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>\n                                                  <hi rend=\"underline\">Philadelphia</hi>\n                                        </placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37941f01/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

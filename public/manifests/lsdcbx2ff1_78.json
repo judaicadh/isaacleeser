@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De La Mar, C. M.; Leeser, Isaac, Rev.; Montreal, Canada; 24 August 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3rf5m211"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De La Mar, C. M.; Leeser, Isaac, Rev.; Montreal, Canada; 24 August 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-08-24"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_78"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/25d4418e-0c32-40a6-bc56-264b65347d08%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/25d4418e-0c32-40a6-bc56-264b65347d08%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4478,
+          "width": 3596,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/25d4418e-0c32-40a6-bc56-264b65347d08%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3596,
+                "height": 4478,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/25d4418e-0c32-40a6-bc56-264b65347d08%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/assets/25d4418e-0c32-40a6-bc56-264b65347d08/original",
+              "label": "Original File - 48.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><hi rend=\"underline\">$40 Enclosed</hi>.</p>\n            <p rend=\"align(right)\">\n                <placeName>202 St. Paul Street</placeName>\n            </p>\n            <p rend=\"align(right)\">\n                <placeName>Montreal</placeName>\n                <date>Aug. 24th/54</date>\n            </p>\n            <p><addressee>Rev. Isaac Leeser</addressee>    <placeName>Phila.</placeName></p>\n            <p rend=\"indent(2)\">Dear Sir.</p>\n            <p rend=\"indent(3)\">I returned<lb/> from <placeName>New York</placeName> on\n                    <date>Monday</date> and<lb/> found your note of <date>3d</date> inst. with<lb/>\n                an enclosed for <persName>Mr. De Sola</persName>, which<lb/> was delivered. Accept\n                my heart-<lb/>felt thanks for your kindness.</p>\n            <p rend=\"indent(1)\">I leave another favour to ask of<lb/> you, which I am confident you\n                will<lb/> kindly execute for me. While<lb/> a Prisoner at\n                    <placeName>Wilmington</placeName> I had<lb/> occasion to borrow some money<lb/>\n                on a <hi rend=\"underline\">diamond ring</hi> from a <persName><hi rend=\"underline\"\n                        >Mr</hi>.<lb/>\n                    <hi rend=\"underline\">Raw</hi></persName>, who keeps a clothing store<lb/> in\n                    <placeName>Wilmington</placeName> on <placeName>Market Street near<lb/> 4<hi\n                        rend=\"sup\">th</hi></placeName>. He loaned me $20, for which<lb/> I promised\n                to pay him $23. He<lb/> gave me a receipt for the ring, which<lb/> I forwarded to\n                    <persName>Mr. Frankel</persName>. <persName>Mr. F.</persName><lb/> has promised\n                to get me the ring, ac-<lb/>cording to the enclosed letter. I also<lb/> owe\n                    <persName>Mr. Frankel</persName> $15 which he kind-<lb/>ly loaned me. I\n                therefore enclose</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4478,
+          "width": 3596,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a70f6646-7633-4ec7-8d66-ddb9890d56b1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3596,
+                "height": 4478,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a70f6646-7633-4ec7-8d66-ddb9890d56b1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/assets/a70f6646-7633-4ec7-8d66-ddb9890d56b1/original",
+              "label": "Original File - 48.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>you $40. in order that you may<lb/> pay <persName>Mr. Frankel</persName> $15 and give<lb/>\n                <persName>Mr. F.</persName> $23 to get the ring and $20<lb/> for expense to\n                    <placeName>Wilmington</placeName> &amp; return,<lb/> and pay Express on ring to\n                        <placeName><hi rend=\"underline\">N. York</hi></placeName></p>\n            <p rend=\"indent(1)\">The ring is a single stone <hi rend=\"underline\">pure first</hi><lb/>\n                <hi rend=\"underline\">water diamond</hi> ladies ring, chased<lb/> gold.</p>\n            <p rend=\"indent(1)\">Please send the ring to <placeName><hi rend=\"underline\">New\n                        York</hi></placeName><lb/> by Express addressed to me, and<lb/> marked “to\n                be called for”. <hi rend=\"underline\">Please</hi><lb/>\n                <hi rend=\"underline\">advise me of having sent it</hi> by <hi rend=\"underline\"\n                    >ad</hi>-<lb/><hi rend=\"underline\">dressing</hi> me to <placeName><hi\n                        rend=\"underline\">Earles Hotel N. Y.</hi></placeName><lb/> where I shall be\n                by <date>Monday</date> next.<lb/> I hope you will be able to forward<lb/> it by that\n                time as my wife will<lb/> be waiting for it.</p>\n            <p rend=\"indent(1)\">With great respect and esteem</p>\n            <p rend=\"indent(2)\">Yours Most Gratefully</p>\n            <p rend=\"indent(3)\">\n                <hi rend=\"underline\">\n                    <persName role=\"author\">C. M. De La Mar</persName>\n                </hi>\n            </p>\n            <p><persName>Mr. Frankel</persName> or his partner has the order for the<lb/> ring.\n                Write me to <placeName>Earles Hotel N.Y.</placeName><lb/> and mark letter “<hi\n                    rend=\"underline\">To be called for</hi>”</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rf5m211/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

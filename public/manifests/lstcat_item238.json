@@ -1,0 +1,291 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Montreal, Canada; Leeser, Isaac; 20 December 1869; 20 December 1869",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p33r0qd6g"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Montreal, Canada; Leeser, Isaac; 20 December 1869; 20 December 1869"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1869-12-20"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item238"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/fd8f8953-45fc-400f-a5e8-dcd2ac475e9d%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/fd8f8953-45fc-400f-a5e8-dcd2ac475e9d%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5896,
+          "width": 4490,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fd8f8953-45fc-400f-a5e8-dcd2ac475e9d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4490,
+                "height": 5896,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fd8f8953-45fc-400f-a5e8-dcd2ac475e9d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/assets/fd8f8953-45fc-400f-a5e8-dcd2ac475e9d/original",
+              "label": "Original File - 79.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Montreal</placeName>\n                <date>20 Dec 1869</date>\n            </p>\n            <p rend=\"indent(1)\">My Dear Sir</p>\n            <p rend=\"indent(3)\">I have omitted nothing several of your <add>?</add><lb/> but all\n                have come duly to hand with the Occidents the last of wh<add>?</add> were<lb/>\n                received on the <date>17<hi rend=\"sup\">th</hi></date> You will notice a very\n                reasonable <add>?</add> made<lb/> by the Express of only 1/10 per package. I\n                    <add>?</add> a statement of <add>?</add><lb/> &amp; disbursements showing a\n                small Balance due you. The arrear <add>?</add><lb/> made every effort to collect but\n                with little success. <persName>Mr Goodman</persName>\n                <add>?</add><lb/> yet insists on not paying. Several I do not ask for prompt\n                    <add>?</add>ment<lb/> from—as they would willingly give up their subscriptions.\n                I will<add>?</add> remit<lb/> the Balance due you—so soon as I ascertain if any\n                thing has been <add>?</add> reud<add>?</add><lb/> to you in\n                    <placeName>Phila.</placeName> We have now snow &amp; cold but no Ice—tho we\n                    <add>?</add> soon<lb/> to have some. The season has been mild &amp; favorable.\n                By the <add>?</add> if<lb/> Railroad we are less distant than ever from\n                    <placeName>New York</placeName> this winter the<lb/> trip from <placeName>N\n                    York</placeName> to <placeName>Washington</placeName> is now made in 24\n                    hours—<add>?</add> in 12<lb/> hours so we are certain 2 to 2 ½ days travel\n                    <add>?</add></p>\n            <p rend=\"indent(1)\">I regret to hear a few differences between yourself &amp;\n                    <add>?</add><lb/> congregations—there is yet time for an\n                agreement<add>?</add><lb/> satisfactory to all parties. It would be unfortunate if\n                    <add>?</add><lb/> work that is considered useful to all should prove\n                    <add>?</add><lb/>\n                <add>?</add> alone—to harvesting to <persName>Mr Aaron Hart</persName> shall\n                    <add>?</add> your<lb/> kind remembrance of her—they are in <placeName>Three\n                    Rivers</placeName>. I<add>?</add><lb/> the family entitled to the obituary\n                notice in the last Oc<add>cident</add> they<lb/> may be readers but none of them are\n                supporters thereof. <add>?</add> have<lb/> little regard for their principles and\n                only by the <add>?</add><lb/> are they ever well treated. <persName>Mr\n                    Desola</persName> appears well <add>?</add><lb/> here—he is certainly much liked\n                and I believe <add>?</add><lb/> few minutes can manage to give benevolent\n                    <add>?</add></p>\n            <p rend=\"indent(1)\"><persName>Mrs. Joseph</persName> &amp; child are well.\n                    <persName>Miss Rebecca</persName>\n                <add>?</add><lb/> a <add>?</add> convenient <sic>traveller</sic> when required to\n                    vis<add>?</add></p>\n            <p rend=\"indent(1)\"><persName>Mrs Joseph</persName> desires best regards Believe me</p>\n            <p rend=\"indent(7)\">Truly <add>?</add></p>\n            <p rend=\"indent(8)\">\n                <add>?</add>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5898,
+          "width": 4490,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d68ce7b1-fc6e-454c-8e96-e31065179b69%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4490,
+                "height": 5898,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d68ce7b1-fc6e-454c-8e96-e31065179b69%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/assets/d68ce7b1-fc6e-454c-8e96-e31065179b69/original",
+              "label": "Original File - 79.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p>\n                <hi rend=\"underline\">Paid</hi>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5906,
+          "width": 4490,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/02d52a66-52fd-40e0-895b-ff4eccb8e0dc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4490,
+                "height": 5906,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/02d52a66-52fd-40e0-895b-ff4eccb8e0dc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/assets/02d52a66-52fd-40e0-895b-ff4eccb8e0dc/original",
+              "label": "Original File - 79.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p\n                rend=\"This page is divided into columns, with lines between columns.  The left hand side of the page is folded, making it difficult to read the text in that column.\"/>\n            <p><persName>Revd I Leeser</persName> in <add>?</add> with <persName>J H\n                    Joseph</persName></p>\n            <table cols=\"7\" rows=\"27\">\n                <row>\n                    <cell>\n                        <date>1868</date>\n                    </cell>\n                    <cell/>\n                    <cell/>\n                    <cell>\n                        <date>1868</date>\n                    </cell>\n                    <cell/>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>Aug</date>\n                        <add>?</add>\n                    </cell>\n                    <cell><persName>Joss</persName> a Express charges on Occident</cell>\n                    <cell>“47</cell>\n                    <cell>\n                        <date>Jan 25</date>\n                    </cell>\n                    <cell>Reqred <persName>Dr Davids</persName> Subs to Occident</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                    <cell>To “do—-do—-</cell>\n                    <cell>“96</cell>\n                    <cell/>\n                    <cell>for <date>1846</date> &amp; <date>1847</date></cell>\n                    <cell>1 10<add>?</add></cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Mar 28</date>\n                    </cell>\n                    <cell>To “—-do—-do—-</cell>\n                    <cell>“47</cell>\n                    <cell/>\n                    <cell>By “ <persName>H Solomon's</persName></cell>\n                    <cell>“ 15“</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Apr</date>\n                    </cell>\n                    <cell>To “ do—-do—-</cell>\n                    <cell>“39</cell>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                    <cell>By “ <persName>Archer</persName> 10/, <persName>Joseph</persName> 15/,\n                            <persName>Desola</persName> 15/, <persName>L Solomon</persName>\n                        15/</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <date>June 20</date>\n                    </cell>\n                    <cell>To “do—-do—-</cell>\n                    <cell>“29</cell>\n                    <cell/>\n                    <cell>&amp; <persName>I Levy</persName> 15/</cell>\n                    <cell>4 10 “</cell>\n                </row>\n                <row>\n                    <cell><add>?</add> 17</cell>\n                    <cell>To “do—-do—-</cell>\n                    <cell>“ 55</cell>\n                    <cell/>\n                    <cell>By Balance overpaid</cell>\n                    <cell>4 12“</cell>\n                </row>\n                <row>\n                    <cell>\n                        <add>?</add>\n                    </cell>\n                    <cell>To remittance &amp; Exchange</cell>\n                    <cell>\n                        <hi rend=\"underline\">9 13 11</hi>\n                    </cell>\n                    <cell/>\n                    <cell/>\n                    <cell/>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell>11 7 0</cell>\n                    <cell/>\n                    <cell/>\n                    <cell>\n                        <hi rend=\"underline\">11 7 0</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell/>\n                    <cell>\n                        <date>1849</date>\n                    </cell>\n                    <cell/>\n                    <cell/>\n                </row>\n                <row>\n                    <cell/>\n                    <cell>To Balance</cell>\n                    <cell>4 12 0</cell>\n                    <cell>\n                        <date>June 5</date>\n                    </cell>\n                    <cell>By <persName>Desola</persName>; Sub for <date>1849</date></cell>\n                    <cell>“ 15“</cell>\n                </row>\n                <row>\n                    <cell><add>?</add> 16</cell>\n                    <cell>To Express charge</cell>\n                    <cell>“39</cell>\n                    <cell/>\n                    <cell>“<persName>J Levey's</persName> “ <date>1848</date></cell>\n                    <cell>“ 15“</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Dec 18</date>\n                    </cell>\n                    <cell>To do—-do—-</cell>\n                    <cell>“6 10</cell>\n                    <cell/>\n                    <cell>“<persName>Archer's</persName> 2 year sub to</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell><add>?</add>49<lb/></cell>\n                    <cell/>\n                    <cell/>\n                    <cell/>\n                    <cell/>\n                    <cell/>\n                </row>\n                <row>\n                    <cell><add>?</add>n 23</cell>\n                    <cell>To do—-do—-</cell>\n                    <cell>“3 8</cell>\n                    <cell/>\n                    <cell>Publication Society</cell>\n                    <cell>“ 10“</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Feb 13</date>\n                    </cell>\n                    <cell>To do—-do—-</cell>\n                    <cell>“3 5</cell>\n                    <cell>\n                        <date>July 23</date>\n                    </cell>\n                    <cell>By <persName>H Benjamin</persName> /<placeName>Quebec</placeName>/\n                        Occident <date>1848</date></cell>\n                    <cell>“ 15“</cell>\n                </row>\n                <row>\n                    <cell><add>?</add>pr 11</cell>\n                    <cell>To do—- do—-</cell>\n                    <cell>“6 10</cell>\n                    <cell>\n                        <date>Oct</date>\n                    </cell>\n                    <cell>By “ <persName>Sam Benjamin</persName> do <date>1847</date></cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell><date>June</date>“</cell>\n                    <cell>To—do—-do—-</cell>\n                    <cell>“3 9</cell>\n                    <cell/>\n                    <cell>do—-do <date>1848</date> &amp; <date>1849</date></cell>\n                    <cell>2 5</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Aug 13</date>\n                    </cell>\n                    <cell>To do—-do——</cell>\n                    <cell>“26</cell>\n                    <cell/>\n                    <cell>do Publication Society 2 yrs</cell>\n                    <cell>“ 10“</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Sep 17</date>\n                    </cell>\n                    <cell>To do—-do——</cell>\n                    <cell>“39</cell>\n                    <cell/>\n                    <cell>do <persName>Miss Aguilar's</persName> Works</cell>\n                    <cell>1“ “</cell>\n                </row>\n                <row>\n                    <cell><add>?</add>ct 11</cell>\n                    <cell>To—- do—-do—-</cell>\n                    <cell>“26</cell>\n                    <cell>\n                        <date>Nov</date>\n                    </cell>\n                    <cell>By <persName>Miss David</persName> for a book</cell>\n                    <cell>“7 6</cell>\n                </row>\n                <row>\n                    <cell><add>?</add>ly</cell>\n                    <cell>To—-do—-do—-</cell>\n                    <cell>“34</cell>\n                    <cell>\n                        <date>Dec</date>\n                    </cell>\n                    <cell>By <persName>J H Joseph's</persName> Occident <date>1849</date></cell>\n                    <cell>“ 15“</cell>\n                </row>\n                <row>\n                    <cell><add>?</add>ov</cell>\n                    <cell>To—-do—-do—-</cell>\n                    <cell>“111</cell>\n                    <cell/>\n                    <cell>By <persName>Levy Solomons</persName> do—-</cell>\n                    <cell>“ 15“</cell>\n                </row>\n                <row>\n                    <cell>\n                        <date>Dec 17</date>\n                    </cell>\n                    <cell>To—-do—-do—-</cell>\n                    <cell>110</cell>\n                    <cell/>\n                    <cell/>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>19</cell>\n                    <cell>To Balance</cell>\n                    <cell>\n                        <hi rend=\"underline\">1 115</hi>\n                    </cell>\n                    <cell/>\n                    <cell/>\n                    <cell/>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell>\n                        <hi rend=\"underline\">8 76</hi>\n                    </cell>\n                    <cell/>\n                    <cell/>\n                    <cell>\n                        <hi rend=\"underline\">8 7 6</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell/>\n                    <cell/>\n                    <cell>“ 19 By Balance due <persName>Mr Leeser</persName></cell>\n                    <cell>1 11 5</cell>\n                </row>\n            </table>\n            <p rend=\"align(center)\">2.5.8 9.8<lb/> 116</p>\n            <p rend=\"align(right)\">E E M<add>?</add>\n                <date>19 Dec'49</date>\n                <persName>M Joseph</persName></p>\n            <p>\n                <hi rend=\"underline\">Arrears</hi>\n            </p>\n            <table cols=\"4\" rows=\"16\">\n                <row>\n                    <cell>\n                        <persName>A H David</persName>\n                    </cell>\n                    <cell><date>1848</date> &amp; <date>1849</date></cell>\n                    <cell>1.10.0</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>Publication Society (how much?)</cell>\n                    <cell/>\n                    <cell>0.5.0</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>G I Ascher</persName>\n                    </cell>\n                    <cell>\n                        <date>1849</date>\n                    </cell>\n                    <cell>0.15.0</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>I Levy</persName>\n                    </cell>\n                    <cell>“</cell>\n                    <cell>0.15.0</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>H <add>?</add> Solomon</persName>\n                    </cell>\n                    <cell><date>1848</date> &amp; <date>1849</date></cell>\n                    <cell>1.10.0</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Miss Hart</persName>\n                        <placeName>Rivers<add>?</add></placeName>\n                    </cell>\n                    <cell>\n                        <date>1848</date>\n                    </cell>\n                    <cell>0.15.0</cell>\n                    <cell><persName>Abm Hart</persName> 46 &amp; 47—80%</cell>\n                </row>\n                <row>\n                    <cell><persName>A E Hart</persName> “</cell>\n                    <cell>\n                        <date>1849</date>\n                    </cell>\n                    <cell>0.15.0</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell><persName><add>?</add> Benjamin</persName>\n                        (<placeName>Quebec</placeName>)</cell>\n                    <cell>'49</cell>\n                    <cell>0.15.0</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>David Moss</persName>\n                    </cell>\n                    <cell>48 &amp; 49</cell>\n                    <cell>1.7.6</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>\n                        <persName>Goodman Benjamin</persName>\n                    </cell>\n                    <cell>\n                        <date>1846</date>\n                    </cell>\n                    <cell/>\n                    <cell/>\n                </row>\n                <row>\n                    <cell/>\n                    <cell>47</cell>\n                    <cell/>\n                    <cell/>\n                </row>\n                <row>\n                    <cell/>\n                    <cell>48</cell>\n                    <cell>2.5.8</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell/>\n                    <cell>49</cell>\n                    <cell>3.0.0.</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>11 Enter Number 1/0</cell>\n                    <cell/>\n                    <cell>0.13.9</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>Publication Society <add>?</add>?</cell>\n                    <cell/>\n                    <cell>\n                        <hi rend=\"underline\">0. 10. 0</hi>\n                    </cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell>£12. 11. 3</cell>\n                    <cell/>\n                </row>\n            </table>\n            <p>2. 5. 8.</p>\n            <p>4 12.</p>\n            <p>\n                <hi rend=\"underline\">1 11. 5</hi>\n            </p>\n            <p>8. 7 1</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5898,
+          "width": 4490,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/44fdafdb-7c25-4d22-acd2-3867fc313146%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4490,
+                "height": 5898,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/44fdafdb-7c25-4d22-acd2-3867fc313146%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33r0qd6g/assets/44fdafdb-7c25-4d22-acd2-3867fc313146/original",
+              "label": "Original File - 79.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

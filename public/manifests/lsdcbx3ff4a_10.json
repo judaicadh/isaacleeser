@@ -1,0 +1,413 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Jonah of the house of Bondi; Leeser, Isaac; New York, NY; 5 February 1905",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3bg2hx1g"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Jonah of the house of Bondi; Leeser, Isaac; New York, NY; 5 February 1905"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1863", "4 Kislev"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF4a_10"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/1a45ccb5-ccc5-4a49-bcdd-94bd4bb3ff02%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/1a45ccb5-ccc5-4a49-bcdd-94bd4bb3ff02%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "Envelope",
+          "height": 2388,
+          "width": 3764,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1a45ccb5-ccc5-4a49-bcdd-94bd4bb3ff02%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3764,
+                "height": 2388,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1a45ccb5-ccc5-4a49-bcdd-94bd4bb3ff02%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/assets/1a45ccb5-ccc5-4a49-bcdd-94bd4bb3ff02/original",
+              "label": "Original File - 27 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "Envelope verso",
+          "height": 2388,
+          "width": 3764,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7b512a09-f9a6-428a-ac6e-ddd37b1c4bad%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3764,
+                "height": 2388,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7b512a09-f9a6-428a-ac6e-ddd37b1c4bad%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/assets/7b512a09-f9a6-428a-ac6e-ddd37b1c4bad/original",
+              "label": "Original File - 27 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5175,
+          "width": 3239,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/783e0c20-d217-41a0-b81d-b89f9f034fab%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3239,
+                "height": 5175,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/783e0c20-d217-41a0-b81d-b89f9f034fab%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/assets/783e0c20-d217-41a0-b81d-b89f9f034fab/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <date>Tuesday the 4th day of<lb/> month <add>טבת</add></date>\n            </p>\n            <p>\n                <date>1863-4?</date>\n            </p>\n            <p><sic>greeting</sic> to my beloved<lb/> win<add>?</add> friend <persName>Mr.\n                    Isaac</persName><lb/> Finally, I came to a deci-<lb/>sion after\n                investigating<lb/> the circumstances <del>right</del><lb/> on the place and in a\n                    <add>?</add><lb/> way. I believe and hope that<lb/> we'll be able to stay\n                there<lb/> for room and board and for<lb/> telephone calls we'll pay<lb/> (budget)\n                and except this<lb/> we'll try to do what is only<lb/> possible with the only<lb/>\n                aim not to bring illegitimate<lb/> children into the nation<lb/> of\n                    <placeName>Israel</placeName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5175,
+          "width": 3239,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b313f89c-a10e-4ec7-a3c6-099f2c68a60c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3239,
+                "height": 5175,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b313f89c-a10e-4ec7-a3c6-099f2c68a60c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/assets/b313f89c-a10e-4ec7-a3c6-099f2c68a60c/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">2</p>\n            <p>trying legally and not<lb/> against the law, even<lb/> although it is with<lb/>\n                regret <del>mo</del> that the<lb/> missing cann'<sic>t</sic> be<lb/> avoided.</p>\n            <p>I would insist that<lb/> opinions for and against<lb/> shall be expressed before<lb/>\n                the accident. <date>Monday</date><lb/> I'll see the gentleman for a couple of<lb/>\n                hours &amp; come to a conclusion with<lb/> him. I hope to hear from you &amp;<lb/>\n                you will hear from me &amp; you can<lb/> expect by news<add>?</add> from me.</p>\n            <p rend=\"indent(7)\">Your friend who</p>\n            <p rend=\"indent(6)\">cherishes him expects him</p>\n            <p rend=\"indent(7)\">\n                <persName role=\"author\">Jonah, from the house Bondi</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5175,
+          "width": 3239,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fdb1234d-5750-44b0-a66e-1a5899fd9671%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3239,
+                "height": 5175,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fdb1234d-5750-44b0-a66e-1a5899fd9671%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/assets/fdb1234d-5750-44b0-a66e-1a5899fd9671/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5175,
+          "width": 3239,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8d1ef75-348f-4faf-a0d3-5267fa745b45%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3239,
+                "height": 5175,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8d1ef75-348f-4faf-a0d3-5267fa745b45%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/assets/b8d1ef75-348f-4faf-a0d3-5267fa745b45/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 7164,
+          "width": 5685,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a0a40c48-8d74-4aa9-86c0-611a863c875f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5685,
+                "height": 7164,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a0a40c48-8d74-4aa9-86c0-611a863c875f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/assets/a0a40c48-8d74-4aa9-86c0-611a863c875f/original",
+              "label": "Original File - 122 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 7164,
+          "width": 5685,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ff9cee1b-68a7-4062-825d-3fa452601c19%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5685,
+                "height": 7164,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ff9cee1b-68a7-4062-825d-3fa452601c19%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bg2hx1g/assets/ff9cee1b-68a7-4062-825d-3fa452601c19/original",
+              "label": "Original File - 122 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

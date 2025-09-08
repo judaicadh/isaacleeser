@@ -1,0 +1,317 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 8 May 1865",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3j38m41r"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 8 May 1865"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1865-05-08", "8 May 5625"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF12_20"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/ac575a26-7d45-4a93-a069-188b4491e7f8%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/ac575a26-7d45-4a93-a069-188b4491e7f8%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4438,
+          "width": 3040,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ac575a26-7d45-4a93-a069-188b4491e7f8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3040,
+                "height": 4438,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ac575a26-7d45-4a93-a069-188b4491e7f8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/assets/ac575a26-7d45-4a93-a069-188b4491e7f8/original",
+              "label": "Original File - 40.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Montreal</placeName>\n                <date>8th May 5625</date>.</p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir-</p>\n            <p rend=\"indent(2)\">I send you herewith<lb/> fifty Dollars which will balance the<lb/>\n                amount of my indebtedness to you for<lb/> Books &amp; printing to date. The\n                following<lb/> is a statement as per your favors of<lb/>\n                <date>September</date> last &amp;c</p>\n            <table cols=\"3\" rows=\"12\">\n                <row>\n                    <cell>“10 Sets will cost you</cell>\n                    <cell>17.</cell>\n                    <cell>$170</cell>\n                </row>\n                <row>\n                    <cell> less 20 per cent</cell>\n                    <cell/>\n                    <cell>\n                        <hi rend=\"underline\"> 34</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell>136</cell>\n                </row>\n                <row>\n                    <cell> add binding 70 vols</cell>\n                    <cell>60</cell>\n                    <cell>\n                        <hi rend=\"underline\"> 42</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell> 6 daily</cell>\n                    <cell>3.25—19.50</cell>\n                    <cell>178</cell>\n                </row>\n                <row>\n                    <cell> less 20 per cent</cell>\n                    <cell>\n                        <hi rend=\"underline\">3.80</hi>\n                    </cell>\n                    <cell>\n                        <hi rend=\"underline\">15.70</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell> 15.70</cell>\n                    <cell>193.70</cell>\n                </row>\n                <row>\n                    <cell>Printing Sermon &amp; Biography</cell>\n                    <cell/>\n                    <cell>\n                        <hi rend=\"underline\"> 31.00</hi>\n                    </cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell/>\n                    <cell>224 70</cell>\n                </row>\n                <row>\n                    <cell>cr.</cell>\n                    <cell/>\n                    <cell/>\n                </row>\n                <row>\n                    <cell><date>Sep '54</date> By draft</cell>\n                    <cell> 175</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell><date>May 55</date> “ Bills</cell>\n                    <cell>50</cell>\n                    <cell>225.</cell>\n                </row>\n            </table>\n            <p>leaving 30 cents to my credit; though</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4438,
+          "width": 3040,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c3a30e9-a160-460f-aaab-b2919a168193%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3040,
+                "height": 4438,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c3a30e9-a160-460f-aaab-b2919a168193%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/assets/2c3a30e9-a160-460f-aaab-b2919a168193/original",
+              "label": "Original File - 40.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>there will be due you $9 for <persName>Mrs<lb/> Naapers</persName> subscription to\n                the Occident.<lb/>—I have been hunting everywhere<lb/> to <hi rend=\"underline\"\n                    >elucidate</hi> this matter, but though<lb/> I have entries of monies paid on\n                your<lb/> account in <date>1860</date> I cannot find that<lb/> I paid <persName>Mr\n                    Joseph</persName> that identical amount.<lb/> But as <persName>Mrs N.</persName>\n                paid, &amp; you did not receive<lb/> the amount I am the defaultee, and<lb/> will\n                send it you another time, as I<lb/> could only readily obtain today $50<lb/> in your\n                currency—now pretty near<lb/> our own in value. While I write<lb/> it occurs to me\n                you could pay yourself<lb/> &amp; accommodate me, if you would<lb/> let me draw\n                through you on<lb/> the esteemed editor of the <placeName>N. Y.</placeName>\n                Jewish<lb/> Record who owes me a <add>?</add><lb/> amount <add>עששת ימי\n                בראשית</add>. Let me know,<lb/> please, if you would like to do this<lb/> and I will\n                send you the order.</p>\n            <p rend=\"indent(1)\">You would oblige me when<lb/> you send the Occidents to let me\n                have</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4438,
+          "width": 3040,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ed4cd5d9-35cd-4d39-ad20-7930860896f1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3040,
+                "height": 4438,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ed4cd5d9-35cd-4d39-ad20-7930860896f1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/assets/ed4cd5d9-35cd-4d39-ad20-7930860896f1/original",
+              "label": "Original File - 40.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>at the same time the subjoined nos of the<lb/>\n                <sic>occident</sic> which I require to complete<lb/> *my pyle—Except 3, they are all\n                of<lb/> the weekly series and failed to reach<lb/> me through irregularity of the\n                Post Office</p>\n            <list type=\"simple\">\n                <head/>\n                <item>Vol 14 nos 1,2.</item>\n                <item rend=\"indent(1)\"> 15 no 5.</item>\n                <item rend=\"indent(1)\"> 17 nos 23, 25, 26, 28, 31, 43.</item>\n                <item rend=\"indent(1)\"> 18 nos 6, 12, 40, 41, 47, 49, 51</item>\n            </list>\n            <p>You can send them by mail—the weeklies<lb/> can go in one wrapper.</p>\n            <p rend=\"indent(1)\">In a recent letter you ask<lb/> whether something can't be done\n                with<lb/> the <persName>Benjamins</persName>. I before wrote you<lb/> enclose your\n                account and I will<lb/> do what I can with <persName>Wm Benjamin</persName><lb/>\n                here. You also are surprised<lb/> that your subscribers here are, so few, but\n                    <add>בעה\"ר</add> Jews don't<lb/> increase in <placeName>Canada</placeName>. If\n                you have<lb/> no field here, be comforted with<lb/> the reflection that neither have\n                I</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4438,
+          "width": 3040,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5acd18de-80be-488b-b3a8-f3b5b158055d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3040,
+                "height": 4438,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5acd18de-80be-488b-b3a8-f3b5b158055d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/assets/5acd18de-80be-488b-b3a8-f3b5b158055d/original",
+              "label": "Original File - 40.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>nor any one else. It is because I have<lb/> as good a position as a Jew could<lb/>\n                obtain among <add>?</add>, and that my<lb/> position at College has greatly\n                improved<lb/> that I am satisfied with the extent<lb/> of my Jewish field. I presume<lb/>\n                <persName>Mr Joseph</persName> paid you for his set of<lb/> prayers in sheets, which\n                I duly handed<lb/> him. I am greatly obliged to you<lb/> for the portrait which I\n                have appropriated<lb/> to myself—the other one we have I don't<lb/> think so good. I\n                send you some<lb/> verses written by an esteemed &amp; talented<lb/> friend\n                    <persName>Miss Sarah Livia</persName> of <placeName>London</placeName> on\n                the<lb/> death of my brother <persName>Isaac</persName>\n                <add>?</add> which from<lb/> their religious fervor you may think<lb/> worthy of\n                publishing in the Occident.<lb/>\n                <persName>Miss Livia</persName> who is not sufficiently known<lb/> to our people has\n                    <add>?</add> for some years<lb/> some excellent pieces in prose as well as<lb/>\n                poetry to various <placeName>London</placeName> magazines and<lb/> no doubt, had not\n                her natural retiringness<lb/> been in the way, she would worthily have<lb/> filled\n                the place left vacant by <persName>Grace Aguilar</persName>. I send<lb/> the lines\n                rather to show that the true <add>?</add> is<lb/> among</p>\n            <p rend=\"Letter cuts off here.\"/>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3j38m41r/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

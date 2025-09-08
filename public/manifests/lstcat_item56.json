@@ -1,0 +1,309 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Günzburg, A., Dr.; Leeser, Isaac; Baltimore, MD; 27 March 1853",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p37h1f694"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Günzburg, A., Dr.; Leeser, Isaac; Baltimore, MD; 27 March 1853"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1853-03-27", "5613"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["German"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Maryland -- Baltimore",
+        "United States -- Maryland",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item56"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/53a133ad-c7fa-418f-9ce4-0394b7bd699e%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/53a133ad-c7fa-418f-9ce4-0394b7bd699e%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6170,
+          "width": 4886,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/53a133ad-c7fa-418f-9ce4-0394b7bd699e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4886,
+                "height": 6170,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/53a133ad-c7fa-418f-9ce4-0394b7bd699e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/assets/53a133ad-c7fa-418f-9ce4-0394b7bd699e/original",
+              "label": "Original File - 90.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Baltimore</placeName>\n                <date>der 27<hi rend=\"sup\">th</hi> März 5613</date>\n            </p>\n            <p><addressee>Revd. Isaac Leeser</addressee> in <placeName>Philadelphia</placeName></p>\n            <p>Geehrteter <add>?</add>!</p>\n            <p>Mittels Gegenwürdiger erlaube ich mir der überbringer<lb/> als meiner sehr\n                schätzbarre <add>?</add>\n                <persName>Revd. Dr. B. Illowy</persName> be,<lb/>tens zu empfehlen. Derselbe ist\n                nicht nur seiner gründlicher<lb/> und viel<add>?</add> theologische kenntnisse,\n                sondern auch<lb/> seiner Wissenschaftlichkeit in Allgemeinen, und ganz<lb/>\n                besonders seines wehrhaft <add>?</add> Characters <add>?</add><lb/> der <add>?</add>\n                möglichten beempfehlung, und die wer<add>?</add>ung<lb/>\n                <add>?</add>s heiße, der für Sö<add>?</add> des Guten Sinn und<lb/> Herz hat\n                würdig.<lb/> Besonders ist derselbe ausgezeichnet als Prediger<lb/> und Lecturer,\n                waren er hier glänzende Beweise<lb/> geliefert. Dir nur derselbe beabsichtigt in\n                    <placeName>Philadelphia</placeName><lb/> einige Vorträge zu halten, und ich Ihre\n                Einfluß</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6274,
+          "width": 4890,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5494b02f-78a8-40d1-b06f-6f6a1adbfe2c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4890,
+                "height": 6274,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5494b02f-78a8-40d1-b06f-6f6a1adbfe2c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/assets/5494b02f-78a8-40d1-b06f-6f6a1adbfe2c/original",
+              "label": "Original File - 92.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>kenne, so bitte ich Sie derselbe mit Hertz und <add>?</add><lb/> die <add>?</add> zu\n                gehen, und all Ihre Einfluß zu dessen<lb/> Besten gelten zu <add>?</add>; der Sie\n                    Bäume<add>?</add> sich versichert<lb/> halten, als Sie <add>?</add> für eine\n                Bewürdiger, noch<lb/> für eine <add>?</add>baren siche ver<add>?</add>.<lb/> Außer\n                den aber will ich alles das<lb/> was Sie für der<lb/> selben thure<add>?</add> so\n                betrachten, als hätte Sie es<lb/> für mich selbst geth<add>?</add>, und verbinde Sie\n                mich<lb/> hindurch für immer.</p>\n            <p>Ihr mir gesandtes Monatsheftchen habe erhalten, nur<lb/> hat es mich befreundt, als\n                Sie, Ihren verspreche<lb/> gemäß, der Ihren eingesandten b<add>?</add> noch\n                nicht<lb/> augenommen, doch hasse ich, als Sie nicht länger zögern<lb/> werde, wo\n                ich Ihne s<add>?</add> unges<add>?</add> die <add>?</add>setzung<lb/> sende\n                wert.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6150,
+          "width": 4824,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0d3095f1-d52d-4a84-ba03-8db760f36285%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4824,
+                "height": 6150,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0d3095f1-d52d-4a84-ba03-8db760f36285%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/assets/0d3095f1-d52d-4a84-ba03-8db760f36285/original",
+              "label": "Original File - 89.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Ihren bestens mich empfehlend und Ihre <add>?</add>s<lb/> Wohl<add>?</add>\n                    räuschend<add>?</add>, zeichnet sich<lb/> mit <add>?</add>reundschaft und\n                    behtung<add>?</add>.</p>\n            <p rend=\"indent(1)\">\n                <persName role=\"author\">Dr. A. Günzburg</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6158,
+          "width": 4824,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d32f0641-ba4a-446a-a3e1-59945d7f2944%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4824,
+                "height": 6158,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d32f0641-ba4a-446a-a3e1-59945d7f2944%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/assets/d32f0641-ba4a-446a-a3e1-59945d7f2944/original",
+              "label": "Original File - 89.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Revd. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f694/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

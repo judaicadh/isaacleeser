@@ -1,0 +1,809 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; [Morais, Sabato]; Philadelphia, PA; 1 September 1861",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3zp3wm11"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; [Morais, Sabato]; Philadelphia, PA; 1 September 1861"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1861-09-01"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "7 pages on 16 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item209"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/759a11b8-a9ac-4e7e-8478-57a62238c68c%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/759a11b8-a9ac-4e7e-8478-57a62238c68c%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5188,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/759a11b8-a9ac-4e7e-8478-57a62238c68c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 5188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/759a11b8-a9ac-4e7e-8478-57a62238c68c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/759a11b8-a9ac-4e7e-8478-57a62238c68c/original",
+              "label": "Original File - 64.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">Reprinted in <hi rend=\"underline\">Jewish Mess.</hi></p>\n            <p rend=\"align(right)\"><placeName>N. Y.</placeName>\n                <date>Oct. 4, 1861</date> pp 52-3</p>\n            <p rend=\"align(center)\">For the <date>national fast-day</date></p>\n            <p>\n                <persName role=\"author\">MORAIS, SABATO</persName>\n            </p>\n            <p rend=\"indent(1)\">Civil War Sermon</p>\n            <p rend=\"align(right)\">/1498Lcb</p>\n            <p rend=\"align(right)\">Civil War</p>\n            <p rend=\"align(right)\">PATRIOTISM etc <add>?</add> Cot 4 <persName role=\"author\"\n                    >Morais</persName></p>\n            <p rend=\"align(right)\">Sermon/</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5188,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/dbbc2bd4-9e1e-4a25-bdb5-66eaff760167%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 5188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/dbbc2bd4-9e1e-4a25-bdb5-66eaff760167%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/dbbc2bd4-9e1e-4a25-bdb5-66eaff760167/original",
+              "label": "Original File - 64.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5188,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/65d4287b-13ba-4e1e-a989-64dcc41af706%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 5188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/65d4287b-13ba-4e1e-a989-64dcc41af706%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/65d4287b-13ba-4e1e-a989-64dcc41af706/original",
+              "label": "Original File - 64.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5188,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/36169f4d-d34c-410c-83bb-8d0b5f1d3612%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 5188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/36169f4d-d34c-410c-83bb-8d0b5f1d3612%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/36169f4d-d34c-410c-83bb-8d0b5f1d3612/original",
+              "label": "Original File - 64.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 5234,
+          "width": 4160,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c1cac0b6-07d6-47fb-977d-f93a38e68bd0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4160,
+                "height": 5234,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c1cac0b6-07d6-47fb-977d-f93a38e68bd0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/c1cac0b6-07d6-47fb-977d-f93a38e68bd0/original",
+              "label": "Original File - 65.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>1</p>\n            <p>Brethren! Were it my province to address an audience of non-Israelites,<lb/> I would,\n                on the present occasion, select as my text a weighty sentence<lb/> which occurs in\n                the 14<hi rend=\"sup\">th</hi> chapter of Exodus. It is the following <add>דבר אל זני\n                    וכ\"ו</add><lb/>\n                <add>מים על ים</add> “The Eternal said to <persName>Moses</persName>, wherefore\n                criest<lb/> thou unto me,? Bid the children of <placeName>Israel</placeName> go\n                forward” When dearly bought<lb/> freedom is in jeopardy; when the angry billows of a\n                political sea im=<lb/>=pede the march of civilization, and the adversaries of human\n                brotherhood<lb/> are skillfully <sic>marshalled</sic> for the onslaught, deeds of\n                self-denial more<lb/> than psalmody<add>?</add> will sanctify the life of man. The\n                Lord of hosts will<lb/> be extolled by the efforts which tried to uphold truth, more\n                than by<lb/> the fervent utterance of the lips. Let him therefore who values\n                his<lb/> country's honor speed on, let him trustingly follow the path which<lb/>\n                leads to national deliverance, and when the happy goal shall have<lb/> been\n                attained, raise the anthem which will be reverberated <add>ה' הושיעה המלך יעננו ביום\n                    וגו'</add><lb/> from sea to sea, even from the <placeName>Atlantic</placeName>\n                to the <placeName>Pacific Ocean</placeName>.<lb/> Thus would I briefly speak this\n                day, and dismiss <del>a</del> the <hi rend=\"underline\">greater</hi> assemblage.<lb/>\n                But as my lot was cast among those who are singled out in their<lb/> belief and\n                their worship, I deemed it expedient to adopt a different<lb/> course. A\n                non-compliance of the Hebrew Community with the<lb/> counsel of the\n                    <persName>President</persName> of the <placeName>United States</placeName>,\n                might at this jun=<lb/>=cture, have been open to animadversion. It therefore\n                became</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 5188,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e4518ad5-c237-4f64-a5bf-b89919a13916%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 5188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e4518ad5-c237-4f64-a5bf-b89919a13916%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/e4518ad5-c237-4f64-a5bf-b89919a13916/original",
+              "label": "Original File - 64.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>2</p>\n            <p>fit that we, who in our devotional outpourings at this solemn<lb/> season,\n                    <del>ever</del> tearfully remembered the sorrows of\n                    <placeName>America</placeName>, that we, who ceaselessly<lb/> pray for the\n                welfare of the land of our adoption, and testified the love<lb/> we bear it, when at\n                the first summons of the Executive we swelled the<lb/> ranks of her defenders, it\n                became imperative, I say, that we should<lb/> nevertheless your own voices, this day\n                also, to that of our fellow-citizens who<lb/> implore God for the restoration of\n                peace. And verily, my friends!<lb/> Whatever opinion we may entertain touching the\n                appositeness of the<lb/> request, our acquiescence therein <del>will</del> can be\n                but the prompting of our<lb/> responsive <del>sentiments</del> feelings. This\n                country, which many of you<lb/> claim at that of their birth, and some as that of\n                them choice, has<lb/> not, like others that vaunt liberality, doled out her benefits\n                to<lb/> you, O descendants of <persName>Jacob</persName>! but she has generously\n                invited you<lb/> to participate in all the exuberance of her goods; hence, you as\n                you did glory<lb/> in her happiness, <del>and</del> grieve over her distress. And\n                when the custodian<lb/> of her liberties, descrying imminent danger, exhorts to\n                prayer that it may be<lb/> averted, you who taught the world how to pray, will even\n                at this hour<lb/> exclaim as you are wont <add>אולי</add>. “Save us O Lord,\n                answer<lb/> us O King on this day that we call upon thy name”. But in<lb/> attuning\n                our hearts to the national supplications, we receive an addition<lb/>=al incentive,\n                in the present instance, by the remembrance that the<lb/> Chief Magistrate of our\n                beloved Union, did not transcend the proper <del>his</del> limits, to</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 5188,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8e7738a8-cd1b-45d0-9cbb-2aacad863b06%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 5188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8e7738a8-cd1b-45d0-9cbb-2aacad863b06%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/8e7738a8-cd1b-45d0-9cbb-2aacad863b06/original",
+              "label": "Original File - 64.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>3</p>\n            <p>pander to the irregular wishes of a majority. His proclamation is<lb/> the exponent\n                of that excellent provision in the American Constitution,<lb/> which forms its\n                brightest ornament, but of which zealots are now<lb/> striving to divert it. Not\n                they who tender divine adoration to the man<lb/> of <placeName>Nazareth</placeName>\n                are exclusively recommended to beseech the living God for<lb/> the triumph of\n                rightful authority over usurpation but the people at large, so that<lb/> the\n                entreats of a whole nation ascending the throne of grace may bring<lb/> down\n                plentiful blessings upon our afflicted country. Such, or the like,<lb/> are his\n                words; very dissimilar my Brethren! from those of some high functionaries,<lb/>\n                whose narrow views debar them from discerning beyond the pale<lb/> of their\n                religion, an object worthy of any consideration. In confor<lb/>mity therefore with\n                so discreet a summons, we will again pour<lb/> out our souls before the Omnipotent\n                    <add>עושה במלאכה ואחת מחזקת השלחבאחת ידו</add><lb/> “Peradventure will He think\n                on us, that we perish not” <del>Yet</del> But, the<lb/> prayer of freedom-loving\n                Americans must be accompanied by deeds of<lb/> abnegation. I will repeat it:\n                    <del>That</del> Yonder sturdy man who in these<lb/> stirring times <hi\n                    rend=\"underline\">inactively</hi> contemplates the perilous state of the\n                    <del>country</del> Republic,<lb/> though he bow the head as a bulrush, mistakes\n                the aim of his exist<lb/>=ence. When around the noblest monument of human\n                wisdom,<lb/> fall destroyers have gathered, let the vigorous, like the ancient\n                Hebrews<lb/> labour with one hand in the work of reconstruction, and wield in\n                the<lb/> other a repelling sword. <add>אין סומכין על הנס</add></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 5188,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2870d050-7bc9-4afe-8275-c81025986106%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 5188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2870d050-7bc9-4afe-8275-c81025986106%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/2870d050-7bc9-4afe-8275-c81025986106/original",
+              "label": "Original File - 64.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>4</p>\n            <p>the God of battles <del>of</del> will lead to victory. But if the patriotic\n                ardour<lb/> that seemed to burn in every breast, when the national escutcheon\n                was<lb/> first tarnished, has been quenched by the Liuthean<add>?</add> water of\n                egotism;<lb/> if the memory of the past achievements and past glory contrasted\n                with<lb/> the present humiliation does not arouse <del>not</del> in our midst the\n                    <persName>Leonidas</persName>, that<lb/> will struggle for the maintenance of\n                this peerless Union; if the<lb/> taunts of the ungenerous foreigner, and the\n                sardonic smile of despots,<lb/> are incapable of inspiriting <hi rend=\"underline\"\n                    >all</hi> to energetic actions, the entreaties<lb/> offered this day will fail\n                to <sic>propitrate</sic> the assistance of the Most High.<lb/>\n                <add>בעון בצעו קצפתי ואכהו הסתר ואקצף וילך שובב בדרך לבו</add>, is a wise aphorism\n                of <placeName>Israel's</placeName> ancient Teachers.<lb/> “We must not rely on\n                miracles” Nothing is impossible to Him<lb/> who inspired a\n                    <persName>Gideon</persName>, and by three hundred of the faithful, put to\n                flight<lb/> the redoubtable <del>best</del> army of <placeName>Midian</placeName>,\n                but while <del>we</del> it behooves us to beseech<lb/> Him and confide in his\n                support for the ultimate success of a<lb/> righteous cause we must labour for our\n                salvation. <sic>we</sic> must render ourselves deserving of it by prefer=<lb/>=ring\n                to <hi rend=\"underline\">individual</hi> promotion, national honor, national\n                    <del>greatness</del> Unity,<lb/> national peace. Shall I now point out, how the\n                pursuing of<lb/> the opposite course, became the bane of\n                    <placeName>America</placeName>,? how personal<lb/> ambition becomes the vampire\n                that fed on her life's blood? How self-<lb/>interest gave birth to parasites who\n                scampered with the rich spoil of<lb/> their unsuspecting host? Shall I say, that\n                even at this hour, when</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 5188,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/672b26c7-437d-4fc9-b212-3bd3135005e0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 5188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/672b26c7-437d-4fc9-b212-3bd3135005e0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/672b26c7-437d-4fc9-b212-3bd3135005e0/original",
+              "label": "Original File - 64.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>5</p>\n            <p>the tocsin resounds which tells the world that the pioneer of civil<lb/> and\n                religious liberty is verging on a precipice, men—<del>shall I call them<lb/>\n                    men</del>, no, heartless and soulless beings—are found, who will turn<lb/> to\n                profit the mighty struggles of the brave to escape the yawning gulf?\n                No<del>y</del>,<lb/> let others enumerate the sins which have exposed the country of<lb/>\n                <placeName>Washington</placeName> to the contumely of the stranger and the horrors\n                of war.<lb/> I will rather deplore them and acknowledge the justice of the Divine<lb/>\n                <del>?</del> verdict <add>דרכיו ראיתי וארפאהו ואנחהו ואשלם נחמים לו\n                ולאבליו</add><lb/> “For the inequity of his covetousness was I wrath, and smote him,\n                I hid<lb/> myself and was indignant, for he went on forwardly in the way of<lb/> his\n                heart”. This sentence of <persName>Isaiah</persName> so applicable to your\n                unhappy<lb/> condition, O my hearers, reveals the plague which has putrified\n                the<lb/> channels whence have sprung these waters of <placeName>Meribah</placeName>\n                (contention). Yet, it lies<lb/> in your power to convert them again into refreshing\n                streams of <add>Hebrew</add><lb/> brotherhood. God showed you the tree that will\n                sweeten those<lb/> bitter waters, in the example of your immortal predecessors.<lb/>\n                Let the memory of their sterling virtues cluster around your minds, and<lb/> awaken\n                them to deeds of magnanimous valour, let them counsel<lb/> the renunciation of all\n                preconceived <del>thoughts</del> notions for the preservation of<lb/> this palladium\n                of human rights, the total subjugation of selfishness<lb/> for the\n                    <del>benefit</del> prosperity of the common country, the repudiation of all</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 5188,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/682d1e04-39ad-4684-8851-7295f730897b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 5188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/682d1e04-39ad-4684-8851-7295f730897b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/682d1e04-39ad-4684-8851-7295f730897b/original",
+              "label": "Original File - 64.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p10/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/manifest/annotation/p10",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>6</p>\n            <p>doctrines subversive of the principles which they who framed the<lb/> Declaration of\n                your independence unequivocally for the spread of civilization enunciated; then\n                will<lb/> you regain the attitude from whence you were ruthlessly &amp; unnaturally\n                    <del>cast</del> forced down,<lb/> or, to continue in the language of the prophet\n                “God will see your ways and<lb/> heal you, He will guide you securely, and restore\n                comforts to you and those<lb/> who mourn for your sorrows <add>Hebrew</add><lb/> And\n                this day which a spirit of meekness has devoted to sacred communion,<lb/> will be\n                the opening of a new era, glorious to <placeName>America</placeName>, and\n                fruitful<lb/> of joy to the whole <hi rend=\"underline\">human race</hi>.</p>\n            <p>Lord God! who didst bless this land with Thy favour, restore her, we<lb/> beseech\n                Thee, to Unity. Cancel her inequities, and let her be distinguished<lb/> anew for\n                the virginal purity of her pristine years. Grant that<lb/> charity and truth may\n                weave the garland that shall adorn her children,<lb/> for then will righteousness\n                and peace be met in her midst clasped in each<lb/>\n                <del>mutual, others</del> others' embrace. Guide Thou the steps which are now\n                wending toward<lb/> the conquest of national supremacy over faction, that they may\n                not<lb/> overreach the bounds justly prefixed. Oh! Eternal Being who didst<lb/>\n                rekindle <del>the long suppressed</del> feelings of love in the bosom of the\n                fierce<lb/> son of <persName>Isaac</persName>, breathe into us words of brotherly\n                reconciliation, and let the hand<lb/> that wields the sword be <del>mutually,\n                    grasped</del> fraternally seized with a mutual grasp <del>fraternal\n                    pressure</del>. At this<lb/> hour, when the heart of a whole nation is upheaved\n                to Thee, calm<lb/> O Omnipotent! its inward perturbation. Regard the prayer\n                which</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p11",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 5188,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/18422574-2ff5-40ca-92c7-a043105d027e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 5188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/18422574-2ff5-40ca-92c7-a043105d027e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p11"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/18422574-2ff5-40ca-92c7-a043105d027e/original",
+              "label": "Original File - 64.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p11/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/manifest/annotation/p11",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>7</p>\n            <p>in various strains but in consonance of thoughts is addressed to Thee;<lb/> let the\n                angels of mercy present it to the throne of grace, and bring<lb/> down thy fatherly\n                blessing upon thy suppliants, even, honor, Union<lb/> and peace for evermore.\n                Amen.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p12",
+          "@type": "sc:Canvas",
+          "label": "12",
+          "height": 5188,
+          "width": 4126,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/138d55e6-d729-4f4d-9e8c-5ad9af3043cc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4126,
+                "height": 5188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/138d55e6-d729-4f4d-9e8c-5ad9af3043cc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p12"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/138d55e6-d729-4f4d-9e8c-5ad9af3043cc/original",
+              "label": "Original File - 64.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p13",
+          "@type": "sc:Canvas",
+          "label": "13",
+          "height": 6736,
+          "width": 5180,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c1f790c9-420a-4148-9245-2e2d55e6cefb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5180,
+                "height": 6736,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c1f790c9-420a-4148-9245-2e2d55e6cefb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p13"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/c1f790c9-420a-4148-9245-2e2d55e6cefb/original",
+              "label": "Original File - 105 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p13/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/manifest/annotation/p13",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">Specimen of <persName role=\"author\">Morais</persName>\n                writing</p>\n            <p rend=\"align(center)\">orig size of document</p>\n            <p rend=\"Down arrow inserted, pointing to copy of document.\"/>\n            <p>at a special meeting of the Faculty of Maimonides College held<lb/> in consequence of\n                the sad<add>?</add> bereavement recently sustained by<lb/> the house of\n                    <placeName>Israel</placeName>, the following preamble and resolutions were<lb/>\n                unanimously adopted</p>\n            <p>Whereas the demise of the <persName>Revd Isaac Leeser</persName> is deemed by<lb/>\n                each of us a national loss, and whereas it is our conviction<lb/> that the\n                establishing of this institution was principally due<lb/> to the unremitting\n                exertions of our late colaborer, and to his<lb/> constant advocacy of religious\n                education, therefore</p>\n            <p>Resolved that we express our feelings of deep sorrow at the<lb/> loss of a man so\n                zealous for the moral welfare of his people,<lb/> so energetic in promoting the\n                culture of human knowledge, so<lb/> efficient as a professor, so exemplary assiduous\n                in the discharge<lb/> of all his duties.</p>\n            <p>Resolved that we <del>gladly</del> descry bearing our testimony to the uniform\n                kindness and<lb/> courtesy that marked his official relations with us, and to<lb/>\n                his timely and useful suggestions as <del>the</del> Provost of this College</p>\n            <p>Resolved that we will ever cherish his memory as that of a friend,<lb/> and teach\n                    <del>our</del> the students of this Institution to revere his <del>memory</del>\n                name</p>\n            <p>Resolved that these resolutions be published in one of our dailies &amp; in all\n                Jewish<lb/> periodicals; <del>and</del></p>\n            <p rend=\"indent(3)\">\n                <persName role=\"author\">S. Morais</persName>\n            </p>\n            <p rend=\"indent(4)\">sect Pt.</p>\n            <p>\n                <date>February 5<hi rend=\"sup\">th</hi> 1868</date>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p14",
+          "@type": "sc:Canvas",
+          "label": "14",
+          "height": 6628,
+          "width": 5180,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bb9d50ee-be99-41fe-819d-dc6eb58b7abe%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5180,
+                "height": 6628,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bb9d50ee-be99-41fe-819d-dc6eb58b7abe%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p14"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/bb9d50ee-be99-41fe-819d-dc6eb58b7abe/original",
+              "label": "Original File - 103 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p15",
+          "@type": "sc:Canvas",
+          "label": "15",
+          "height": 6664,
+          "width": 5140,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b21392e1-f4bb-4501-b919-2474fef4fd87%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5140,
+                "height": 6664,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b21392e1-f4bb-4501-b919-2474fef4fd87%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p15"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/b21392e1-f4bb-4501-b919-2474fef4fd87/original",
+              "label": "Original File - 103 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p16",
+          "@type": "sc:Canvas",
+          "label": "16",
+          "height": 6664,
+          "width": 5180,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/470cb247-88b8-4b98-a87e-3ab0d188de62%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5180,
+                "height": 6664,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/470cb247-88b8-4b98-a87e-3ab0d188de62%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p16"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/assets/470cb247-88b8-4b98-a87e-3ab0d188de62/original",
+              "label": "Original File - 104 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p16/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/manifest/annotation/p16",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"Note:\">Duplicate of page 13. The following is written in the left margin, near\n                the top of the page (where <placeName>Israel</placeName> is underlined): especially\n                notable<lb/> comparison<lb/> line 4 page 1<lb/><date>Thanksgiving</date>\n                discourse</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3zp3wm11/canvas/p16"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

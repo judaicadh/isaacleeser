@@ -1,0 +1,290 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Jacobs, Henry S.; July 05, 1866",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3542k15k"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Jacobs, Henry S.; July 05, 1866"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Jacobs, Henry S. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1866-07-05"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["4 pages on 2 sheets."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["New Orleans (La.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF1_38", "ilcajs_b3f1_0038"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/e67d76ce-5223-4890-a23f-8abe34e7ea46%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/e67d76ce-5223-4890-a23f-8abe34e7ea46%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 4636,
+          "width": 3918,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e67d76ce-5223-4890-a23f-8abe34e7ea46%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3918,
+                "height": 4636,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e67d76ce-5223-4890-a23f-8abe34e7ea46%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/assets/e67d76ce-5223-4890-a23f-8abe34e7ea46/original",
+              "label": "Original File - 54.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>New Orleans</placeName>\n                <date>5th July 5626</date>\n            </p>\n            <p>\n                <addressee>Rev Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(2)\">Dear Sir,</p>\n            <p rend=\"indent(3)\">Your letter on your return home duly reached<lb/> me. I regret very\n                sincerely to learn of your impaired health, of which<lb/> my\n                    <placeName>Richmond</placeName> correspondents had before informed me; but most\n                earnest-<lb/>ly do I pray that further tidings may be of a happier character.</p>\n            <p rend=\"indent(1)\">The lukewarmness and indifference that<lb/> you noticed in your\n                recent Southern trip, in religious matters, had<lb/> long ago been perceptible to\n                me, and occasioned serious and painful<lb/> thought. This degeneracy has been\n                creeping along for some time and<lb/> I see fearful signs of its continuous\n                progress. The battle between<lb/> Principle and Gain almost invariably terminates in\n                favor of the<lb/> latter; hence those leaders who will smooth away the\n                “difficulties”<lb/> which beset the path of conformity with recognized duties,\n                and<lb/> not insist on the uncompromising fidelity required of us, are<lb/> certain\n                of being popular and influential. My “<sic>dilenda</sic> est<lb/> Carthago” is the\n                onslaught in and out of the Pulpit on the<lb/> modern manufacture of a “Religion of\n                Convenience.” I have<lb/> confidence in the innate piety and good sense of the\n                people<lb/> who often, tho offenders against the the Law, do not palliate<lb/> or\n                argue away the wrong, and may be wrought on for their</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4636,
+          "width": 3918,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1bd9d214-8ca2-4ead-9615-f15cbdc9626d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3918,
+                "height": 4636,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1bd9d214-8ca2-4ead-9615-f15cbdc9626d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/assets/1bd9d214-8ca2-4ead-9615-f15cbdc9626d/original",
+              "label": "Original File - 54.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>good <add>ושובו מדרכיהם הרעים</add>; but when Teachers rise up, and by<lb/> precept\n                and example inculcate as unimportant, useless, and<lb/> contrary to the spirit of\n                the age — all or much of what they had<lb/> been trained up to observe — what is to\n                be expected? The awakened<lb/> religious feelings become enlisted in favor of what\n                requires so little<lb/> effort; only build a magnificent place of worship,\n                modernize,<lb/> hope<add>?</add> &amp; render agreeable its services, preserve\n                decorum, &amp; have an<lb/> external varnish of piety, and the <add>ר\"ה</add> is\n                attained. I place<lb/> a great deal of the blame for this wretched state of\n                affairs<lb/> on the shoulders of our so-called Orthodox chiefs, who are idle\n                &amp;<lb/> selfish, and contribute nothing to the <hi rend=\"underline\">general</hi>\n                good of <placeName>Israel</placeName>. All<lb/> their efforts seem concentrated on\n                little aims which began in their<lb/> own Synagogues and end there. And then there\n                is no unity of<lb/> action. Look for assistance at the several large congregations\n                at<lb/> the <placeName>North</placeName>. At the <placeName>19th St.</placeName>\n                Synagogue, everything seems to have been<lb/> attained in <persName>Mr\n                        Lyn's<add>?</add></persName> cadences &amp; his choir's artistic\n                performances.<lb/> The pulpit is silent, and does not seem to be needed. Our<lb/>\n                worthy brethren there are apparently contented with the order of<lb/> things as they\n                are, and are either so pious as not to require<lb/> explanations or so wicked as to\n                fear denunciation. At <persName>Dr. Raphall's</persName><lb/> &amp; <persName>Mr.\n                    Isaacs's</persName>, I hear trumpet-tongued praises of the <hi rend=\"underline\"\n                    >choir</hi>, in<lb/> the former, it is said, led by a Xian! Do you not remember\n                my<lb/> fickle and unsuccessful effort in <add>?</add> at the first Sephim of<lb/>\n                the Board of Delegates to have its scope of a character which</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 4636,
+          "width": 3918,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5f989d7d-4ce9-4e58-a0ed-055b30bea63c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3918,
+                "height": 4636,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5f989d7d-4ce9-4e58-a0ed-055b30bea63c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/assets/5f989d7d-4ce9-4e58-a0ed-055b30bea63c/original",
+              "label": "Original File - 54.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>might meet our wants;- a College — preparatory Schools — a<lb/> supervising Board to\n                examine into the qualifications &amp; personal<lb/> worth of those coming to this\n                country for office&amp;c? But no: it<lb/> seemed that the assembly of Delegates from\n                various parts of the<lb/> Union looked only to the aggrandizement of <placeName>New\n                    York</placeName>, and we<lb/> Dummies had only to listen with rapt attention to\n                the to the Delphic<lb/> oracles &amp; play the meek parts of “make weights.” I\n                hope<lb/> better things are in progress for I notice at last, some wakefullness<lb/>\n                on the great needs of one day. But perhaps my expectations<lb/> are premature, and\n                another <persName>Rip Van Winkle</persName> nap will follow.</p>\n            <p rend=\"indent(1)\">Your article in the <date>June</date> No. is sound &amp;<lb/>\n                telling, and I trust to see it followed up by some tangible plan<lb/> for training\n                up an American ministry. It is singular that<lb/> our wealthy Congrns. have not been\n                influenced even by common<lb/> policy to do something even of a selfish nature for\n                their own<lb/> future advantage; and I throw out the hint which you might<lb/> use,\n                that lacking any general or organized effort, that each<lb/> might devote a portion\n                of its funds annually set apart to edu<lb/>cate in <placeName>Europe</placeName> —\n                after the usual Collegiate Course here — a<lb/> respectable &amp; pious-minded young\n                man, in whose services it<lb/> would have the first claim. My little boy I\n                    <sic>purpose</sic>, God<lb/> willing, bringing up to the sacred profession, and\n                if nothing better, or<lb/> as good offer here at the proper age to send him to\n                    <placeName>Breslau</placeName>; and<lb/> all my strivings peculiarly are devoted\n                towards this attainment,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 4636,
+          "width": 3918,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a3e2d93b-5284-4a3f-af60-adb519c0605f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3918,
+                "height": 4636,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a3e2d93b-5284-4a3f-af60-adb519c0605f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/assets/a3e2d93b-5284-4a3f-af60-adb519c0605f/original",
+              "label": "Original File - 54.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>not depending on any Congregational action. I wish a few others<lb/> would attempt\n                the same procedure. I can but <hi rend=\"underline\">hope</hi> it.</p>\n            <p rend=\"indent(1)\"><persName>Mr. Aletrino</persName> has shown some diligence<lb/> in\n                the matter of the Agency, and has handed me the following bit of<lb/> additional\n                subscribers, to whom please mail the Occident,—if possible<lb/> from the\n                    <date>Nissan</date> No. when the present Vol. began. If you cannot do this<lb/>\n                to all, endeavor to do so for the <persName>Messrs. De\n                    Meza</persName>.—<persName>Joshua D Henriques</persName>,<lb/>\n                <persName>E. de Pina</persName>, <persName>Morris Woolf</persName>, <persName>A de\n                    Sola</persName>, <persName>J. O. DeCastro</persName>, <persName>S J de\n                    Meza</persName>,<lb/>\n                <persName>A H de Meza</persName>, &amp; <persName>Henry Aaron</persName>.\n                    <persName>Mr B Y Benyamin</persName> is still uncertain<lb/> as to subscribing.\n                Send a list of amts due you by previous Sub.<lb/> for collection. Send the follg\n                Books p Express—addressed to <persName>Mr<lb/> M Alentino</persName>, <placeName>80\n                    Prytania St. - N.O.</placeName></p>\n            <table cols=\"2\" rows=\"4\">\n                <row>\n                    <cell>1 Set P Books — Sheep</cell>\n                    <cell>@ $25.00</cell>\n                </row>\n                <row>\n                    <cell>1 “ “ fancy</cell>\n                    <cell>@ $30.00</cell>\n                </row>\n                <row>\n                    <cell>1 Pentateuch Sheep mention the price</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>1 Bible Ea 3.50 &amp; 5.00</cell>\n                    <cell/>\n                </row>\n            </table>\n            <p>As soon as he collects for these and subsns. I will see that the amt.<lb/> be\n                promptly remitted you.</p>\n            <p rend=\"indent(1)\">I hinted to <persName>Mr. Gutheim</persName> of his long\n                silence;<lb/> and I understood him to say he would soon write you. Perhaps he<lb/>\n                has already done so. The <placeName>Rampart St.</placeName> synagogue is to be torn\n                down &amp;<lb/> made more spacious, the adjoining lot having been purchased. The\n                Polish<lb/> on Colonial <add>?</add> to be finished for <add>פסח</add>, that on\n                    <placeName>Jackson St</placeName> for <add>Hebrew</add></p>\n            <p rend=\"indent(1)\"><persName>Mrs. Jacobs</persName> joins me in kind regards.</p>\n            <p rend=\"indent(4)\">Yours truly</p>\n            <p rend=\"indent(6)\">\n                <persName role=\"author\">Henry S. Jacobs</persName>\n            </p>\n            <div>\n                <p>\n                    <ref target=\"Occident_PDFs/Occ_24_3.pdf\">The above text refers to Occident\n                        Volume 24 No. 3 pages 97 through 106. Click here to view.</ref>\n                </p>\n            </div>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3542k15k/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

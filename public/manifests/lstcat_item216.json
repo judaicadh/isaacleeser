@@ -1,0 +1,1398 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest",
+  "@type": "sc:Manifest",
+  "label": "Pamphlet; Philadelphia, PA; 16 June 1822",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30863r9g"]
+    },
+    {
+      "label": "Title",
+      "value": ["Pamphlet; Philadelphia, PA; 16 June 1822"]
+    },
+    {
+      "label": "Date",
+      "value": ["1822-06-16", "5582"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["pamphlets"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Pamphlet"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "26 pages on 27 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item216"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/f1adf947-9f14-4dfa-910e-44beb397fde0%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/f1adf947-9f14-4dfa-910e-44beb397fde0%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "Front",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f1adf947-9f14-4dfa-910e-44beb397fde0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f1adf947-9f14-4dfa-910e-44beb397fde0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/f1adf947-9f14-4dfa-910e-44beb397fde0/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "Inside front",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6cd9085b-7d0d-4d73-8aef-16d39b8595ff%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6cd9085b-7d0d-4d73-8aef-16d39b8595ff%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/6cd9085b-7d0d-4d73-8aef-16d39b8595ff/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/499d5660-b676-4d31-b7d0-0c3f771e0843%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/499d5660-b676-4d31-b7d0-0c3f771e0843%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/499d5660-b676-4d31-b7d0-0c3f771e0843/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">CONSTITUTION</p>\n\t\t\t<p rend=\"align(center)\">AND</p>\n\t\t\t<p rend=\"align(center)\">BY-LAWS</p>\n\t\t\t<p rend=\"align(center)\">OF THE</p>\n\t\t\t<p rend=\"align(center)\">“<persName role=\"author\">UNITED HEBREW BENEFICENT\n\t\t\t\t\tSOCIETY</persName></p>\n\t\t\t<p rend=\"align(center)\">OF <placeName>PHILADELPHIA</placeName>.”</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<add>חברת גמילות חסדים וחנוך נערים</add>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">INSTITUTED IN THE MONTH OF <date><add>בשנת</add></date></p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<add>הרופא לשבורי לב ומחבש לעצבותם לפ\"ק</add>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">A. M. <date>5582.—JUNE 16, 1822</date>.</p>\n\t\t\t<p rend=\"align(center)\">INCORPORATED <date>MDCCCXXIX</date>.</p>\n\t\t\t<p rend=\"align(center)\"><placeName>PHILADELPHIA</placeName>:</p>\n\t\t\t<p rend=\"align(center)\">PRINTED FOR THE USE OF THE SOCIETY,</p>\n\t\t\t<p rend=\"align(center)\">BY <persName>HASWELL, BARRINGTON, AND HASWELL</persName>.</p>\n\t\t\t<p rend=\"align(center)\"><date>1837</date>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cb2a115b-e662-4b48-9a9b-d973dcf2ff9a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cb2a115b-e662-4b48-9a9b-d973dcf2ff9a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/cb2a115b-e662-4b48-9a9b-d973dcf2ff9a/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n\t\t\t\t<add>כי לא יחדל אביון מקרב הארץ על כן אנכי מצוך לאמר פתח תפתח את ידך לאחיך לעניך\n\t\t\t\t\tולאבינך בארצך</add>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">“For the poor shall never cease out of thy land: therefore I\n\t\t\t\tcommand<lb/> thee, saying, Thou shalt open thine hand wide unto thy brother, to\n\t\t\t\tthy<lb/> poor, and to thy needy, in thy land.”—<hi rend=\"italics\">Deut. Chap. xv. v.\n\t\t\t\t</hi>11.</p>\n\t\t\t<p>\n\t\t\t\t<add>טוב ללכת לבית אבל מלכת לבית משתה באשר הוא סוף כל האדם והחי יתן אל לבו</add>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">“It is better to go the house of mourning, than to go to the house\n\t\t\t\tof<lb/> feasting: for that is the end of all men: and the living will lay it to\n\t\t\t\this<lb/> heart.”—<hi rend=\"italics\">Eccl. ch. </hi>vii. <hi rend=\"italics\">v.\n\t\t\t\t</hi>2.</p>\n\t\t\t<p>\n\t\t\t\t<add>לתת לפתאים ערמה לנער דעת ומזמה</add>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">“To give <sic>subtilty</sic> to the simple, to the young man\n\t\t\t\tknowledge and<lb/> discretion.”—<hi rend=\"italics\">Prov. ch. </hi>i. <hi\n\t\t\t\t\trend=\"italics\">v.</hi> 4.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/21914ecb-42c1-4cdf-baee-fcf89ae6744d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/21914ecb-42c1-4cdf-baee-fcf89ae6744d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/21914ecb-42c1-4cdf-baee-fcf89ae6744d/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">CONSTITUTION.</p>\n\t\t\t<p rend=\"align(center)\">PREAMBLE.</p>\n\t\t\t<p rend=\"indent(1)\">To provide in the best manner possible for the<lb/> relief of our\n\t\t\t\tunfortunate and indigent brethren,<lb/> and to ameliorate their sufferings to the\n\t\t\t\tutmost of<lb/> our abilities, is the performance of an obligation<lb/> which\n\t\t\t\tstrengthens the bonds of society, by the<lb/> endearing ties of benevolence and\n\t\t\t\tgratitude.</p>\n\t\t\t<p rend=\"indent(1)\">Impressed with these truths, we whose names<lb/> are hereto\n\t\t\t\tsubscribed, citizens of the State of<lb/>\n\t\t\t\t<placeName>Pennsylvania</placeName>, hereby unite in a Benevolent As-<lb/>sociation,\n\t\t\t\tand for our government, as members<lb/> thereof, adopt the following Rules and\n\t\t\t\tRegula-<lb/>tions; each of us pledging himself to the others<lb/> to observe them\n\t\t\t\twith honour and good faith.</p>\n\t\t\t<p rend=\"align(center)\">ARTICLE I.</p>\n\t\t\t<p rend=\"align(center)\">The name of the Society shall be</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<add>חברת גמילות חסדים וחנוך נערים</add>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">“<persName role=\"author\">THE UNITED HEBREW BENEFICIENT\n\t\t\t\t\tSOCIETY</persName><lb/> OF <placeName>PHILADELPHIA</placeName>.”</p>\n\t\t\t<p rend=\"align(center)\">ARTICLE II.</p>\n\t\t\t<p rend=\"indent(1)\">The funds of the Society shall be appropriated<lb/> to the following\n\t\t\t\tpurposes:</p>\n\t\t\t<p rend=\"indent(1)\">1. Relief to the poor and sick of the Jewish<lb/> persuasion.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/88c04688-e5d8-4411-954a-59f401570698%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/88c04688-e5d8-4411-954a-59f401570698%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/88c04688-e5d8-4411-954a-59f401570698/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">4</p>\n\t\t\t<p rend=\"indent(1)\">2. To procure attendance, medicine, &amp;c., for<lb/> such sick as\n\t\t\t\tare unable to provide for themselves;<lb/> and in case of death to bury them with\n\t\t\t\tdecency.</p>\n\t\t\t<p rend=\"indent(1)\">3. To bind poor children apprentices to me-<lb/>chanical trades,\n\t\t\t\twith the concurrence of their<lb/> parents or guardians.</p>\n\t\t\t<p rend=\"indent(1)\">4. Whenever the funds will admit—to encou-<lb/>rage the acquirement\n\t\t\t\tof the Holy Tongue among<lb/> the children of the members of our persuasion.</p>\n\t\t\t<p rend=\"align(center)\">ARTICLE III.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 1. The officers of this Society\n\t\t\t\tshall<lb/> consist of a President, Vice-President, Secretary,<lb/> Treasurer, and\n\t\t\t\teight members who shall form a<lb/> Board of Managers for the transaction of\n\t\t\t\tbusiness.<lb/> They shall be elected separately, by written<lb/> ballot, by a\n\t\t\t\tmajority of votes, on the first <date>Sunday</date><lb/> after <add>ראש השנה</add>\n\t\t\t\tin each and every year.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 2. Vacancies in office shall be\n\t\t\t\tfilled<lb/> by the Board, on such event taking place.</p>\n\t\t\t<p rend=\"align(center)\">ARTICLE IV.</p>\n\t\t\t<p rend=\"indent(1)\">The President shall preside at all meetings; in<lb/> his absence the\n\t\t\t\tVice-President shall take his<lb/> place; and in the absence of both, a\n\t\t\t\tChairman<lb/> shall be appointed from the members who com-<lb/>pose the Board.</p>\n\t\t\t<p rend=\"align(center)\">ARTICLE V.</p>\n\t\t\t<p rend=\"indent(1)\">The Treasurer shall take charge of all moneys<lb/> and securities\n\t\t\t\tbelonging to the Society, and shall<lb/> deposit all sums above fifty dollars, in\n\t\t\t\tsuch bank<lb/> or other moneyed institution as the Board of<lb/> Managers shall from\n\t\t\t\ttime to time direct, in the<lb/> name and behalf of the Society. He shall make</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6e054f4-0b02-4924-b38a-a555f406e273%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6e054f4-0b02-4924-b38a-a555f406e273%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/f6e054f4-0b02-4924-b38a-a555f406e273/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">5</p>\n\t\t\t<p>payments agreeably to the written orders of the<lb/> President for the time being;\n\t\t\t\tkeep a correct ac-<lb/>count of all receipts and expenditures, which ac-<lb/>counts\n\t\t\t\tshall at all times be open to the inspection<lb/> of the Managers; he shall give a\n\t\t\t\tstatement of<lb/> the funds to the Board at their stated meetings,<lb/> and to the\n\t\t\t\tSociety annually at the general meet-<lb/>ing. If he leaves the city for more than\n\t\t\t\tfourteen<lb/> days, he shall deliver the balance of cash in<lb/> hand to the\n\t\t\t\tSecretary, or some other fit person<lb/> until his return, taking a receipt for the\n\t\t\t\tsame,<lb/> and giving notice to the presiding officer of the<lb/> Society.</p>\n\t\t\t<p rend=\"align(center)\">ARTICLE VI.</p>\n\t\t\t<p rend=\"indent(1)\">The Secretary shall keep records of the pro-<lb/>ceedings of the\n\t\t\t\tSociety and of the Board; do all<lb/> other writing not connected with the office\n\t\t\t\tof<lb/> Treasurer; prepare notice and deliver them to<lb/> the person who shall be\n\t\t\t\tappointed by the Board<lb/> to serve them.</p>\n\t\t\t<p rend=\"align(center)\">ARTICLE VII.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 1. The general yearly meeting of\n\t\t\t\tthis<lb/> Society shall take place on the first <date>Sunday</date> after<lb/>\n\t\t\t\t<add>ראש השנה</add> at some convenient place to be ap-<lb/>pointed by the Board of\n\t\t\t\tManagers.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sect. </hi>2. The President shall have power\n\t\t\t\tto<lb/> call special meetings of the Board or of the Socie-<lb/>ty whenever he shall\n\t\t\t\tdeem it expedient; and it<lb/> shall be his duty to call a meeting of the\n\t\t\t\tSociety<lb/> whenever required in writing by seven members,<lb/> or of the Board, at\n\t\t\t\tthe written request of any four<lb/> members thereof.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sect.</hi> 3. Stated meetings of the Board shall\n\t\t\t\tbe<lb/> held on the first <date>Sundays</date> of the months of <add>אב</add></p>\n\t\t\t<p rend=\"align(center)\">1*</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/41746be1-9275-464e-9d9a-57ca171b01db%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/41746be1-9275-464e-9d9a-57ca171b01db%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/41746be1-9275-464e-9d9a-57ca171b01db/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">6</p>\n\t\t\t<p>(“<date>Ab</date>”) <add>חשון</add> (“<date>Hesvan</date>”) <add>שבט</add>\n\t\t\t\t\t(“<date>Sebat</date>”) <add>אייר</add><lb/> (“<date>Yar</date>”) in every\n\t\t\t\tyear.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sect.</hi> 4. <del>Seventeen</del> Eleven members\n\t\t\t\tshall form a<lb/> quorum of the Society, and six a quorum of the<lb/> Board.</p>\n\t\t\t<p rend=\"align(center)\">ARTICLE VIII.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section </hi>1. Any Jew residing in the state of<lb/>\n\t\t\t\t<placeName>Pennsylvania</placeName>, desirous of becoming a member<lb/> of this\n\t\t\t\tSociety, may apply in writing at any<lb/> meeting, which application shall lie over\n\t\t\t\tuntil<lb/> the next stated Board meeting, at which time,<lb/> or at a subsequent\n\t\t\t\tstated Board meeting, the<lb/> applicant shall be <sic>ballotted</sic> for; and if\n\t\t\t\the shall<lb/> receive the votes of two-thirds of the members<lb/> present, shall be\n\t\t\t\tadmitted to membership, pro-<lb/>vided he signs this Constitution, and pays one<lb/>\n\t\t\t\tdollar on entrance, to the Treasurer, within three<lb/> months after his\n\t\t\t\telection.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sect.</hi> 2. No person who shall be married\n\t\t\t\tother-<lb/>wise than according to the Jewish rites, can apply<lb/> for, or be\n\t\t\t\tadmitted to membership in this Society:<lb/> and if any member shall marry otherwise\n\t\t\t\tthan<lb/> according to the Jewish laws, he shall, by the<lb/> vote of a majority at\n\t\t\t\tany Board meeting, forfeit<lb/> his membership—from which vote an appeal may<lb/>\n\t\t\t\tlie to the next general yearly meeting of the So-<lb/>ciety, whose decision thereon\n\t\t\t\tshall be final.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sect.</hi> 3. No member in arrears to the\n\t\t\t\tSociety<lb/> shall be permitted to vote at any general election<lb/> for officers;\n\t\t\t\tand every member who shall be in<lb/> arrears to the Society for one year's\n\t\t\t\tsubscription<lb/> and fines, and shall not discharge the same within<lb/> three\n\t\t\t\tmonths after receiving notice thereof from<lb/> the Secretary, shall be reported by\n\t\t\t\tthe Treasurer</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/606744fb-cd0f-4f73-9b94-8292ad2cfef0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/606744fb-cd0f-4f73-9b94-8292ad2cfef0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/606744fb-cd0f-4f73-9b94-8292ad2cfef0/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">7</p>\n\t\t\t<p>at the next stated meeting of the Board, who may,<lb/> by a majority of votes, expel\n\t\t\t\tsuch delinquent if<lb/> they think proper, and order the Treasurer in-<lb/>stantly\n\t\t\t\tto commence suit for all sums due by said<lb/> delinquent to the Society.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sect.</hi> 4. Any officer or member may be\n\t\t\t\tex-<lb/>pelled or otherwise dealt with by the Society on<lb/> an impeachment,\n\t\t\t\tprovided such impeachment be<lb/> signed by at least four members, and a copy\n\t\t\t\tof<lb/> the same, with a notice of the time and place of<lb/> meeting furnished to\n\t\t\t\tthe accused, at least one<lb/> week previously; a majority of the members of<lb/>\n\t\t\t\tthe Society present at any such meeting, shall<lb/> determine the question of guilt\n\t\t\t\tor innocence, and<lb/> may impose any sentence not amounting to ex-<lb/>pulsion,\n\t\t\t\twhich shall require the votes of three-<lb/>fourths of the members present, or fine\n\t\t\t\tnot ex-<lb/>ceeding one hundred dollars, or suspension from<lb/> membership, either\n\t\t\t\tof which shall require the<lb/> votes of two-thirds of the members present.</p>\n\t\t\t<p rend=\"align(center)\">ARTICLE IX.</p>\n\t\t\t<p rend=\"indent(1)\">Every member shall contribute four dollars<lb/> annually to the\n\t\t\t\tsociety in quarterly payments;<lb/> and every member who shall on entrance pay<lb/>\n\t\t\t\tforty dollars, shall be exempted from all contri-<lb/>butions during his continuance\n\t\t\t\tin the Society.</p>\n\t\t\t<p rend=\"align(center)\">ARTICLE X.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sect.</hi> 1. The President shall, at his\n\t\t\t\tdiscretion,<lb/> on application by any person professing Judaism,<lb/> whom he may\n\t\t\t\tdeem an object worthy of charity,<lb/> have the power to relieve such applicant with\n\t\t\t\ta<lb/> sum not exceeding five dollars: if, however, he<lb/> thinks any applicant\n\t\t\t\tentitled to more, he shall in</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1562833f-1d1b-4e73-98c0-acb89176303b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1562833f-1d1b-4e73-98c0-acb89176303b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/1562833f-1d1b-4e73-98c0-acb89176303b/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p10/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">8</p>\n\t\t\t<p>that consult the Board, and whatever sum<lb/> may be voted to such applicant, shall\n\t\t\t\tbe drawn<lb/> from the funds by an order signed by the Presi-<lb/>dent and attested\n\t\t\t\tby the Secretary. Weekly al-<lb/>lowances may be given to poor resident\n\t\t\t\tfamilies<lb/> applying in writing to the President, who shall<lb/> lay the same\n\t\t\t\tbefore the Board to decide thereon,<lb/> and order such amount as the applicants are\n\t\t\t\tto<lb/> receive; these orders being also signed by the<lb/> President and attested\n\t\t\t\tby the Secretary; <hi rend=\"italics\">Provid-<lb/>ed always</hi>, That the aforesaid\n\t\t\t\tweekly allowances,<lb/> and all other expenditures, shall never exceed<lb/>\n\t\t\t\tthree-fourths of the yearly income of this Society.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sect.</hi> 2. It shall be the duty of the Board\n\t\t\t\tof<lb/> Managers to visit the sick, order medical assist-<lb/>ance, nurses and other\n\t\t\t\tnecessaries required.—<lb/> They shall call on poor applicants, inquire into<lb/>\n\t\t\t\ttheir distresses, and see that the Society is not<lb/> imposed on by false\n\t\t\t\trepresentations. They shall<lb/> employ proper persons to sit up with the dying<lb/>\n\t\t\t\tand the dead, who are unable to procure such at-<lb/>tendants at their own expense,\n\t\t\t\tand to watch their<lb/> remains at the <add>בית חיים</add> In every instance\n\t\t\t\twhere<lb/> a child of a poor person may be bound an appren-<lb/>tice by this\n\t\t\t\tSociety, it shall be the duty of the<lb/> Board to see that he is bound out in such\n\t\t\t\ta man-<lb/>ner as to keep his <date>Sabbaths</date> and Holy-days, and<lb/> in all\n\t\t\t\tother respects to adhere as nearly as possi-<lb/>ble to his religion, agreeably to\n\t\t\t\tthe Jewish laws;<lb/> they shall also inquire, previously to such bind-<lb/>ing, as\n\t\t\t\tto the moral character of the intended<lb/> master, as well as to his capacity to\n\t\t\t\tteach the<lb/> child his trade in a workmanlike manner: and<lb/> they shall exercise\n\t\t\t\ta kindly guardianship over<lb/> such child, so far as they may with propriety,<lb/>\n\t\t\t\tand see justice done him in every respect. And</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p11",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8f1d9dea-9e59-4b1b-ada7-b409f88fa301%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8f1d9dea-9e59-4b1b-ada7-b409f88fa301%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p11"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/8f1d9dea-9e59-4b1b-ada7-b409f88fa301/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p11/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">9</p>\n\t\t\t<p>no person shall have any claim to the charity of<lb/> this Society, unless when\n\t\t\t\tapplied to by the Board,<lb/> he will agree to their binding his child or\n\t\t\t\tchildren<lb/> apprentices to learn mechanical trades, unless he<lb/> shall give a\n\t\t\t\tsatisfactory reason why he will not<lb/> comply with their wishes.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sect.</hi> 3. The Board may, if they think\n\t\t\t\tproper,<lb/> form themselves into Committees on Charity, on<lb/> the Sick and Dead,\n\t\t\t\ton Education and Apprenti-<lb/>ces, and such other committees as may facilitate<lb/>\n\t\t\t\tand more fully carry into effect the objects of this<lb/> Institution.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sect.</hi> 4. The Board shall elect a Messenger\n\t\t\t\tand<lb/> fix his salary: his duties shall be to collect moneys<lb/> due; attend the\n\t\t\t\tSociety and Board at all meet-<lb/>ings; keep the place of meeting in order;\n\t\t\t\tvisit<lb/> the sick, and make report to the Board; attend<lb/> all funerals and\n\t\t\t\t\t<add>מנין</add> deliver all notices of meetings,<lb/> of attending <add>קבורה\n\t\t\t\t\tטהרה</add> and <add>מנין</add> and such<lb/> others as may be delivered to him\n\t\t\t\tby the proper<lb/> officers of the Society; give the female relatives<lb/> of the\n\t\t\t\tmembers notice to attend sewing, and<lb/> report to the Secretary every member who\n\t\t\t\thas<lb/> subjected himself to a fine.</p>\n\t\t\t<p rend=\"align(center)\">ARTICLE XI.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 1. No part of this Constitution\n\t\t\t\tshall in<lb/> any manner be altered, nor any addition made<lb/> thereto, unless the\n\t\t\t\tsame shall have been proposed<lb/> in writing at a meeting of the Society, and\n\t\t\t\tcon-<lb/>curred in at a subsequent meeting, by the votes<lb/> of three-fourths of\n\t\t\t\tthe members present: and<lb/> such alterations and amendments are to be\n\t\t\t\tcerti-<lb/>fied by the Attorney General and Supreme Court,<lb/> and enrolled\n\t\t\t\taccording to law.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p12",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/309ef963-4668-4b90-90d3-8379649aa048%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/309ef963-4668-4b90-90d3-8379649aa048%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p12"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/309ef963-4668-4b90-90d3-8379649aa048/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p12/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p10",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">10</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Sect</hi>. 2. All By-laws, Rules, and\n\t\t\t\tRegulations,<lb/> not repugnant to the Jewish laws or to this Con-<lb/>stitution,\n\t\t\t\twhich may from time to time be agreed<lb/> on by this Society, shall be binding on\n\t\t\t\tits mem-<lb/>bers, and have the same effect as if they were<lb/> part of this\n\t\t\t\tConstitution: <hi rend=\"italics\">Provided</hi>, They shall<lb/> have been proposed\n\t\t\t\tin writing at any meeting,<lb/> and concurred in at a subsequent general\n\t\t\t\tmeet-<lb/>ing of the Society, by the votes of two-thirds of<lb/> the members\n\t\t\t\tpresent; <hi rend=\"italics\">And provided, </hi>That such<lb/> By-laws, Rules, and\n\t\t\t\tRegulations, be not repug-<lb/>nant to the Constitution and Laws of the United<lb/>\n\t\t\t\tStates, or the Constitution and Laws of this<lb/> Commonwealth.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p13",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7c1ef4fa-85a7-485b-934b-ca35d828e8c4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7c1ef4fa-85a7-485b-934b-ca35d828e8c4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p13"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/7c1ef4fa-85a7-485b-934b-ca35d828e8c4/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p13/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p11",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">11</p>\n\t\t\t<p rend=\"align(center)\">AN ACT</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<hi rend=\"italics\">To authorize certain alterations in the Charter of the</hi>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<hi rend=\"italics\"><persName role=\"author\">United Hebrew Beneficent\n\t\t\t\t\t\tSociety</persName> of <placeName>Philadelphia</placeName>.</hi>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">WHEREAS the <persName role=\"author\">United Beneficent\n\t\t\t\t\tSociety</persName> of <placeName>Philadelphia</placeName><lb/> has been\n\t\t\t\tincorporated for the purpose of relieving poor Israel-<lb/>ites, educating poor\n\t\t\t\tchildren and binding them apprentices<lb/> to learn mechanical trades, ministering\n\t\t\t\tto the sick, and burying<lb/> the indigent dead: And whereas under present\n\t\t\t\tcircumstances<lb/> its sphere of usefulness is greatly circumscribed by a\n\t\t\t\trequisi-<lb/>tion in its Charter that applicants for membership shall reside<lb/>\n\t\t\t\twithin this commonwealth, and shall apply in writing: And<lb/> whereas a large\n\t\t\t\tmajority of the members of the Society have<lb/> petitioned for such alterations in\n\t\t\t\ttheir Charter as, in their<lb/> opinion, the General Assembly alone can grant.\n\t\t\t\tTherefore</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 1. Be it enacted by the Senate and\n\t\t\t\tHouse of Re-<lb/>presentatives of the Commonwealth of\n\t\t\t\t\t<placeName>Pennsylvania</placeName> in<lb/> General Assembly met, and it is\n\t\t\t\thereby enacted by the<lb/> authority of the same, That the <persName role=\"author\"\n\t\t\t\t\t>United Hebrew Beneficent<lb/> Society</persName> of\n\t\t\t\t\t<placeName>Philadelphia</placeName> shall have the power to elect as its<lb/>\n\t\t\t\tmembers individuals residing out of the State, in the same<lb/> manner as other\n\t\t\t\tmembers may be elected, according to the<lb/> provisions of the Charter of the said\n\t\t\t\tSociety.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 2. And be it further enacted by the\n\t\t\t\tauthority afore-<lb/>said, That, from and after the passing of this act, any\n\t\t\t\tmem-<lb/>ber of the said Society may propose another for membership,<lb/> and that a\n\t\t\t\twritten application shall not be indispensably<lb/> necessary.</p>\n\t\t\t<p rend=\"indent(1)\"><hi rend=\"italics\">Section</hi> 3. And be it further enacted by the\n\t\t\t\tauthority afore-<lb/>said, That so much of any portion of the Charter of the\n\t\t\t\tsaid<lb/> Society as is inconsistent with the foregoing provisions of this<lb/> act\n\t\t\t\tbe, and the same is, hereby repealed, annulled, and made<lb/> void.</p>\n\t\t\t<p rend=\"indent(7)\"><persName>JOHN LAPORTE</persName>,</p>\n\t\t\t<p rend=\"indent(6)\">\n\t\t\t\t<hi rend=\"italics\">Speaker of the House of Representatives.</hi>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(7)\"><persName>WM. G. HAWKINS</persName>,</p>\n\t\t\t<p rend=\"indent(8)\">\n\t\t\t\t<hi rend=\"italics\">Speaker of the Senate.</hi>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">Approved <date>April 7, 1832</date>.</p>\n\t\t\t<p rend=\"indent(3)\"><persName>GEORGE WOLF</persName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p14",
+          "@type": "sc:Canvas",
+          "label": "12",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/16d88b61-f0ca-4316-8d23-184129a77a2e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/16d88b61-f0ca-4316-8d23-184129a77a2e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p14"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/16d88b61-f0ca-4316-8d23-184129a77a2e/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p15",
+          "@type": "sc:Canvas",
+          "label": "13",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f73dfe3f-70cf-45cd-9078-948dd838b035%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f73dfe3f-70cf-45cd-9078-948dd838b035%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p15"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/f73dfe3f-70cf-45cd-9078-948dd838b035/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p15/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p13",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">BY-LAWS.</p>\n\t\t\t<p rend=\"align(center)\">I.</p>\n\t\t\t<p rend=\"indent(1)\">The President shall take the chair within half<lb/> an hour after\n\t\t\t\tthe time specified in the notices for<lb/> meeting, provided there be a quorum—call\n\t\t\t\tthe<lb/> members to order, and have the minutes of the<lb/> preceding meeting read\n\t\t\t\tand submitted for ap-<lb/>proval, prior to any other business being brought<lb/>\n\t\t\t\tforward.</p>\n\t\t\t<p rend=\"align(center)\">II.</p>\n\t\t\t<p rend=\"indent(1)\">When the Vice-president or other chairman<lb/> shall preside, in the\n\t\t\t\tabsence of the President, he<lb/> shall be bound by the duties, and invested\n\t\t\t\twith<lb/> the same powers as are enjoined on, and exer-<lb/>cised by the\n\t\t\t\tPresident.</p>\n\t\t\t<p rend=\"align(center)\">III.</p>\n\t\t\t<p rend=\"indent(1)\">All motions regularly made in writing and se-<lb/>conded, shall,\n\t\t\t\tbefore any debate takes place<lb/> thereon, be stated from the chair, and no\n\t\t\t\tother<lb/> shall be received but to amend, postpone, reject<lb/> or adjourn, which\n\t\t\t\tlast shall always be in order,<lb/> and be decided without debate.</p>\n\t\t\t<p rend=\"align(center)\">IV.</p>\n\t\t\t<p rend=\"indent(1)\">All votes shall be <hi rend=\"italics\">viva voce</hi>, except in\n\t\t\t\telections<lb/> for members or officers, which shall be by ballot;<lb/> and at the\n\t\t\t\trequest of any three members, the<lb/> yeas and nays shall be entered on the\n\t\t\t\tminutes.</p>\n\t\t\t<p rend=\"align(center)\">2</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p16",
+          "@type": "sc:Canvas",
+          "label": "14",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4c8a342b-d918-4ae6-afde-3a50adb13f67%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4c8a342b-d918-4ae6-afde-3a50adb13f67%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p16"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/4c8a342b-d918-4ae6-afde-3a50adb13f67/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p16/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p14",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">14</p>\n\t\t\t<p rend=\"align(center)\">V.</p>\n\t\t\t<p rend=\"indent(1)\">No vote by proxy shall be allowed in any case<lb/> whatever.</p>\n\t\t\t<p rend=\"align(center)\">VI.</p>\n\t\t\t<p rend=\"indent(1)\">All questions, not otherwise provided for, shall<lb/> be determined\n\t\t\t\tby a majority of the voters present;<lb/> and on such occasions the chairman shall\n\t\t\t\tnot<lb/> vote except on an equal division, when he shall<lb/> have the casting\n\t\t\t\tvote.</p>\n\t\t\t<p rend=\"align(center)\">VII.</p>\n\t\t\t<p rend=\"indent(1)\">No member shall be allowed to speak more<lb/> than twice on the same\n\t\t\t\tquestion, without the<lb/> consent of the presiding officer; nor shall any<lb/>\n\t\t\t\tmember leave the meeting without permission<lb/> from the chair.</p>\n\t\t\t<p rend=\"align(center)\">VIII.</p>\n\t\t\t<p rend=\"indent(1)\">The Secretary shall attend all meetings, and<lb/> it shall be his\n\t\t\t\tduty to bring with him, or send at<lb/> the time prescribed, such books and papers\n\t\t\t\tas<lb/> may be required.</p>\n\t\t\t<p rend=\"align(center)\">IX.</p>\n\t\t\t<p rend=\"indent(1)\">Any member elected to an office and refusing<lb/> to serve, or\n\t\t\t\taccepting any office and afterwards<lb/> resigning, shall, unless liberated by the\n\t\t\t\tBoard,<lb/> be fined in the following sums—viz.: President,<lb/> or Vice-President,\n\t\t\t\tten dollars; Treasurer, or Se-<lb/>cretary, seven dollars and fifty cents;\n\t\t\t\tMember<lb/> of the Board, five dollars: <hi rend=\"italics\">provided always</hi>,\n\t\t\t\tthat</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p17",
+          "@type": "sc:Canvas",
+          "label": "15",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/21521d00-9403-4261-b1c3-bc5d8efbffd5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/21521d00-9403-4261-b1c3-bc5d8efbffd5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p17"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/21521d00-9403-4261-b1c3-bc5d8efbffd5/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p17/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p15",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">15</p>\n\t\t\t<p>any member who may have served in office, or<lb/> paid his fine, shall not be obliged\n\t\t\t\tto serve again<lb/> in that or any other office, for three years after<lb/> the\n\t\t\t\texpiration of the first term for which he shall<lb/> have been elected.</p>\n\t\t\t<p rend=\"align(center)\">X.</p>\n\t\t\t<p rend=\"indent(1)\">The following fines shall be imposed by the<lb/> society on its\n\t\t\t\tmembers for neglects or delinquen-<lb/>cies, from which an appeal may lie to the\n\t\t\t\tPresi-<lb/>dent, who may remit them on proper excuses<lb/> being shown, and from his\n\t\t\t\tdecision an appeal<lb/> shall be further had to the next stated Board-<lb/>meeting,\n\t\t\t\twhose decision thereon shall be final.</p>\n\t\t\t<p rend=\"align(center)\">FINES.</p>\n\t\t\t<table cols=\"2\" rows=\"16\">\n\t\t\t\t<row>\n\t\t\t\t\t<cell/>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<hi rend=\"italics\">Dolls. Cts.</hi>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>For absence at roll-call from any meeting of the</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell> Society or Board, . . . . .</cell>\n\t\t\t\t\t<cell> 25</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>For absence from any entire meeting of the</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell> Society or Board, . . . . .</cell>\n\t\t\t\t\t<cell> 50</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>For leaving a meeting without permission from</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell> the chair, . . . . .</cell>\n\t\t\t\t\t<cell> 50</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell> And if such leaving the meeting should</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell> break a quorum, . . . .</cell>\n\t\t\t\t\t<cell>1 00</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>For not attending <add>טהרה</add> . . . . .</cell>\n\t\t\t\t\t<cell> 50</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>For not attending <add>לויה</add> or finding a proper substi-</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell> tute, . . . . . . .</cell>\n\t\t\t\t\t<cell> 12</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell> And if there be no <add>מנין</add> in consequence, each</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell> absentee shall be fined . . . .</cell>\n\t\t\t\t\t<cell> 50</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>For leaving the burial ground before the grave is</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell> filled and the ceremonies concluded, . .</cell>\n\t\t\t\t\t<cell> 25</cell>\n\t\t\t\t</row>\n\t\t\t</table>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p18",
+          "@type": "sc:Canvas",
+          "label": "16",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/64affc41-7122-48b9-890a-f736cfdc9086%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/64affc41-7122-48b9-890a-f736cfdc9086%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p18"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/64affc41-7122-48b9-890a-f736cfdc9086/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p18/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p16",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">16</p>\n\t\t\t<p rend=\"align(center)\">XI.</p>\n\t\t\t<p rend=\"indent(1)\">Any member guilty of any disorderly conduct<lb/> at a meeting, may\n\t\t\t\tbe fined by the chairman to<lb/> an amount not exceeding five dollars, from\n\t\t\t\twhich<lb/> an appeal may lie to the same meeting, who may<lb/> reduce or release the\n\t\t\t\tfine, and their judgment<lb/> shall be final and conclusive.</p>\n\t\t\t<p rend=\"align(center)\">XII.</p>\n\t\t\t<p rend=\"indent(1)\">The Society shall subscribe to the City Dis-<lb/>pensary <hi\n\t\t\t\t\trend=\"italics\">five dollars</hi>, annually, and to the North-<lb/>ern and\n\t\t\t\tSouthern Dispensaries <hi rend=\"italics\">three dollars</hi> each,<lb/> annually.</p>\n\t\t\t<p rend=\"align(center)\">XIII.</p>\n\t\t\t<p rend=\"indent(1)\">Any person leaving a legacy of <hi rend=\"italics\">fifty dollars</hi>\n\t\t\t\tor<lb/> more to the Society, shall have honourable men-<lb/>tion made of his name at\n\t\t\t\tevery yearly meeting.</p>\n\t\t\t<p rend=\"align(center)\">FORM OF A LEGACY.</p>\n\t\t\t<p rend=\"indent(1)\">“<hi rend=\"italics\">I give and bequeath to the <persName\n\t\t\t\t\t\trole=\"author\">United Hebrew<lb/> Beneficent Society</persName> of\n\t\t\t\t\t\t<placeName>Philadelphia</placeName>, the sum of<lb/> —- dollars, to be paid\n\t\t\t\t\tto their Treasurer for<lb/> the time being, —- months after my decease,<lb/> and\n\t\t\t\t\tto be applied towards carrying on the charitable<lb/> designs of their\n\t\t\t\t\tInstitution.”</hi></p>\n\t\t\t<p rend=\"align(center)\">XIV.</p>\n\t\t\t<p rend=\"indent(1)\">Donations may be received from persons of<lb/> every religious\n\t\t\t\tdenomination, whose names shall<lb/> be honourably mentioned at every general\n\t\t\t\tyearly<lb/> meeting of the society.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p18"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p19",
+          "@type": "sc:Canvas",
+          "label": "17",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9ad95965-d12c-4d49-b527-f671979984f2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9ad95965-d12c-4d49-b527-f671979984f2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p19"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/9ad95965-d12c-4d49-b527-f671979984f2/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p19/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p17",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">17</p>\n\t\t\t<p rend=\"align(center)\">XV.</p>\n\t\t\t<p rend=\"indent(1)\">Life-subscriptions, legacies, and donations to<lb/> the amount of\n\t\t\t\t\t<hi rend=\"italics\">thirty dollars</hi> and upwards, shall<lb/> be invested in\n\t\t\t\tpublic stocks when they amount<lb/> to <hi rend=\"italics\">five hundred dollars</hi>,\n\t\t\t\tas a permanent fund, the<lb/> interest only to be expended.</p>\n\t\t\t<p rend=\"align(center)\">XVI.</p>\n\t\t\t<p rend=\"indent(1)\">In all legal controversies between the Society<lb/> and any of its\n\t\t\t\tmembers, the books and accounts<lb/> of the Society, verified by the oath of the\n\t\t\t\tproper<lb/> officer, shall be evidence of contributions or fines<lb/> due from such\n\t\t\t\tmember to the Society.</p>\n\t\t\t<p rend=\"align(center)\">XVII.</p>\n\t\t\t<p rend=\"indent(1)\">If any member purposes leaving the state for<lb/> any considerable\n\t\t\t\tlength of time, he may notify<lb/> the same to the President, and pay up all\n\t\t\t\tarrears<lb/> to the end of the quarter in which he resigns; and<lb/> if such member\n\t\t\t\tshall again return to the state,<lb/> and wish to be re-admitted, he may again\n\t\t\t\tbe<lb/> considered a member without being <sic>ballotted</sic><lb/> for, or paying\n\t\t\t\tany new entrance fee, by consent<lb/> of a majority of the Board.</p>\n\t\t\t<p rend=\"align(center)\">XVIII.</p>\n\t\t\t<p rend=\"indent(1)\">Any member wishing to resign, must pay all<lb/>\n\t\t\t\t<sic>arrearages</sic> to the end of the quarter in which he<lb/> resigns, and notify\n\t\t\t\this intention, in writing, to<lb/> the President, who shall lay it before the\n\t\t\t\tBoard<lb/> for consideration at their next meeting</p>\n\t\t\t<p rend=\"align(center)\">2*</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p19"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p20",
+          "@type": "sc:Canvas",
+          "label": "18",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/47583823-decb-41b8-9e10-1e1914146dce%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/47583823-decb-41b8-9e10-1e1914146dce%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p20"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/47583823-decb-41b8-9e10-1e1914146dce/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p20/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p18",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">18</p>\n\t\t\t<p rend=\"align(center)\">XIX.</p>\n\t\t\t<p rend=\"indent(1)\">When a person shall be admitted to member-<lb/>ship in the middle of\n\t\t\t\ta quarter, his first quarterly<lb/> subscription shall become payable at the\n\t\t\t\tsame<lb/> time as that of the other members.</p>\n\t\t\t<p rend=\"align(center)\">XX.</p>\n\t\t\t<p rend=\"indent(1)\">On the death of a member, it shall be the duty<lb/> of the Society\n\t\t\t\tto follow his remains to the grave,<lb/> and attend, in turn, morning and evening prayers<lb/>\n\t\t\t\t<add>מנין</add>, or if a member becomes<lb/>\n\t\t\t\t<add>בתוך שבעה ימי אבלות</add> the Society shall in their turns attend\n\t\t\t\t\t<add>אבל</add>,<lb/> and prayers shall be said in the <add>מנין</add> desired\n\t\t\t\tby<lb/> the <add>מנהג</add>.</p>\n\t\t\t<p rend=\"align(center)\">XXI.</p>\n\t\t\t<p rend=\"indent(1)\">All the members who shall be in the city or<lb/> county of\n\t\t\t\t\t<placeName>Philadelphia</placeName>, shall be summoned to<lb/> attend the\n\t\t\t\tfuneral of every member of the So-<lb/>ciety.</p>\n\t\t\t<p rend=\"align(center)\">XXII.</p>\n\t\t\t<p rend=\"indent(1)\">Male relatives of a member who are not more<lb/> than twenty-one\n\t\t\t\tyears of age shall be entitled to<lb/> the services of the <add>אבל</add>.</p>\n\t\t\t<p rend=\"align(center)\">XXIII.</p>\n\t\t\t<p rend=\"indent(1)\">Female relatives of a member on whom it is<lb/> obligatory to make\n\t\t\t\t\t<add>חברה</add> and to observe the<lb/> seven days mourning, are entitled to the\n\t\t\t\tservices<lb/> usually rendered by a <add>קריעה</add> to females.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p21",
+          "@type": "sc:Canvas",
+          "label": "19",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c3f9b1f3-5e54-4a91-a13d-7933f0bc6cd1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c3f9b1f3-5e54-4a91-a13d-7933f0bc6cd1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p21"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/c3f9b1f3-5e54-4a91-a13d-7933f0bc6cd1/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p21/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p19",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">19</p>\n\t\t\t<p rend=\"align(center)\">XXIV.</p>\n\t\t\t<p rend=\"indent(1)\">If any indigent Jew lies sick, and apprehen-<lb/>sions are\n\t\t\t\tentertained of his death, the Board, or<lb/> their Committee on the sick, shall\n\t\t\t\tprocure suita-<lb/>ble persons to attend him in his last moments,<lb/> and they\n\t\t\t\tshall in all instances appoint the hours<lb/> for <add>חברה</add> and regulate all\n\t\t\t\tproceedings<lb/> thereto.</p>\n\t\t\t<p rend=\"align(center)\">XXV.</p>\n\t\t\t<p rend=\"indent(1)\">The committee on the sick and dead, shall<lb/> select eight members\n\t\t\t\tto perform <add>טהרה וקבורה</add> who shall<lb/> permit no person to interfere,\n\t\t\t\twithout the con-<lb/>sent of the chairman of said committee; nor shall<lb/> any\n\t\t\t\tmember be permitted to give to any other<lb/> person that duty which he shall have\n\t\t\t\tbeen called<lb/> on to perform, without the consent of the same<lb/> chairman; and\n\t\t\t\tno member shall depart the burial-<lb/>ground, until all the ceremonies are\n\t\t\t\tperformed—<lb/> except in cases of contagious disease.</p>\n\t\t\t<p rend=\"align(center)\">XXVI.</p>\n\t\t\t<p rend=\"indent(1)\">The aforesaid by-laws Nos. 24 and 25, shall<lb/> on no account\n\t\t\t\twhatever, interfere with the rules<lb/> and regulations already adopted by the\n\t\t\t\t\t<add>טהרה</add><lb/>\n\t\t\t\t<add>חברות</add> established in this city.</p>\n\t\t\t<p rend=\"align(center)\">XXVII.</p>\n\t\t\t<p rend=\"indent(1)\">The name of every member of the Society<lb/> shall be entered on a\n\t\t\t\tlist, to be kept by the Se-<lb/>cretary, and on the requisition of the\n\t\t\t\tcommittee<lb/> on the sick and dead, it shall be his duty to sum-<lb/>mon in turn, a\n\t\t\t\tsufficient number to attend <add>קברנים</add></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p21"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p22",
+          "@type": "sc:Canvas",
+          "label": "20",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c7b8a8c-6b65-4725-a304-2675135d5275%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c7b8a8c-6b65-4725-a304-2675135d5275%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p22"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/5c7b8a8c-6b65-4725-a304-2675135d5275/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p22/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p20",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">20</p>\n\t\t\t<p rend=\"indent(1)\">taking care that the same names are not selected<lb/> twice, until\n\t\t\t\tthe whole roll of the Society shall<lb/> have been gone through.</p>\n\t\t\t<p rend=\"align(center)\">XXVIII.</p>\n\t\t\t<p rend=\"indent(1)\">The committee on the sick and dead, shall,<lb/> whenever it is\n\t\t\t\tpracticable, employ Jews, and no<lb/> others, to dig the graves of the deceased\n\t\t\t\tmem-<lb/>bers, or such poor Jews as shall be interred at<lb/> the expense of the\n\t\t\t\tSociety; and it shall be the<lb/> duty of such persons so employed, to direct\n\t\t\t\tand<lb/> see them filled and finished.</p>\n\t\t\t<p rend=\"align(center)\">XXIX.</p>\n\t\t\t<p rend=\"indent(1)\">Any member who shall pay two dollars quar-<lb/>terly, in lieu of the\n\t\t\t\tcontribution required in the<lb/> 9<hi rend=\"sup\">th</hi> Article of the\n\t\t\t\tConstitution, shall be exempted<lb/> from all fines, except fines for improper\n\t\t\t\tconduct<lb/> at a meeting, and every member who shall have<lb/> signified his\n\t\t\t\tintention of thus becoming an ex-<lb/>empt member, shall continue to be so\n\t\t\t\tconsidered<lb/> until he shall otherwise direct in writing, to the<lb/>\n\t\t\t\tSecretary.</p>\n\t\t\t<p rend=\"align(center)\">XXX.</p>\n\t\t\t<p rend=\"indent(1)\">Any member who shall, on entrance, pay fifty<lb/> dollars in lieu of\n\t\t\t\tthe life contribution required in<lb/> the Constitution, shall, during his\n\t\t\t\tcontinuance<lb/> in the Society, be exempted from all further con-<lb/>tributions,\n\t\t\t\tand from all fines except fines for im-<lb/>proper conduct at a meeting: <hi\n\t\t\t\t\trend=\"italics\">Provided, neverthe</hi>-<lb/><hi rend=\"italics\">less</hi>, that\n\t\t\t\tnothing contained in this or the forego-<lb/>ing by-law, shall be so construed as to\n\t\t\t\texonerate<lb/> any such exempt member from his liability to the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p23",
+          "@type": "sc:Canvas",
+          "label": "21",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad95f8b0-2b88-4d7e-a97b-085206a39245%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad95f8b0-2b88-4d7e-a97b-085206a39245%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p23"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/ad95f8b0-2b88-4d7e-a97b-085206a39245/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p23/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p21",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">OFFICERS FOR 5597.</p>\n\t\t\t<p rend=\"align(center)\">PRESIDENT—<persName>ABRAHAM L. HART</persName>.</p>\n\t\t\t<p rend=\"align(center)\">VICE PRESIDENT—<persName>J. ALTAMONT PHILLIPS</persName>.</p>\n\t\t\t<p rend=\"align(center)\">TREASURER—<persName>LEWIS ALLEN</persName>.</p>\n\t\t\t<p rend=\"align(center)\">SECRETARY—<persName>A. DESSAU</persName>.</p>\n\t\t\t<p rend=\"align(center)\">MANAGERS.</p>\n\t\t\t<table cols=\"2\" rows=\"4\">\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Jacob Phillips</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Zadok A. Davis</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>I. J. Levy</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Herman Van Beil</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Samuel Lyons</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Abraham Hart</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Simeon Dreyfous</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Henry M. Phillips</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t</table>\n\t\t\t<p rend=\"align(center)\">MEMBERS OF THE SOCIETY,</p>\n\t\t\t<p rend=\"align(center)\"><date><hi rend=\"italics\">January </hi>8<hi rend=\"italics\"><hi\n\t\t\t\t\t\t\trend=\"sup\">th</hi></hi>, 1837</date>.</p>\n\t\t\t<table cols=\"2\" rows=\"16\">\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Moses Abrahams</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>George A. Davis</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Lewis Allen</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Goodman Davis</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Joseph J. Andrews</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Mark Davis</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Mitchel Ancker</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Z. A. Davis</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Mayer Arnold</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Isaac De Young</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Joseph Bomeisler</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>M. H. De Young</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>M. Breslau</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Michael De Young</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>M. H. Cardozo</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>A. Dessau</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>M. Cauffman</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>S. Dreyfous</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Abraham H. Cohen</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>M. I. Drucker</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Benjamin W. Cohen</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Simon Elfelt</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>David Cohen</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Abraham Elkin</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Moses Cohen</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Dr. M. Emanuel</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Benjamin Davis</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>B. Eytinge</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>David A. Davis</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Jacob Ezekiel</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>George Davis</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>M. Freidenburg</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t</table>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p23"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p24",
+          "@type": "sc:Canvas",
+          "label": "22",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/287e5626-5fd3-4bd5-89ec-91cb769ddc86%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/287e5626-5fd3-4bd5-89ec-91cb769ddc86%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p24"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/287e5626-5fd3-4bd5-89ec-91cb769ddc86/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p24/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p22",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"This page is handwritten in pencil.\"/>\n\t\t\t<p rend=\"align(center)\">Officers <date>5619</date></p>\n\t\t\t<table cols=\"2\" rows=\"4\">\n\t\t\t\t<row>\n\t\t\t\t\t<cell>President</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>L J Leberman</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>V President</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>M. Cauffman</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>Treasr</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>I J Phillips</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>Sectry</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>M. M. Allen</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t</table>\n\t\t\t<p rend=\"align(center)\">Managers</p>\n\t\t\t<table cols=\"2\" rows=\"4\">\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>I A Phillip</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>I. Newhouse</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>A Hart</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>I. Hunt</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>M A Mitchell</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>L Mayer</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>L. L. Moses</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>I Langdorf</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t</table>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p25",
+          "@type": "sc:Canvas",
+          "label": "23",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f9ed7e6f-7689-4b1a-9895-bc8ae87b7e08%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f9ed7e6f-7689-4b1a-9895-bc8ae87b7e08%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p25"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/f9ed7e6f-7689-4b1a-9895-bc8ae87b7e08/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p25/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p23",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"This page is handwritten in pencil.\"/>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<persName>M. Rosenbach</persName>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<persName>Jacob J. Phillips</persName>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<persName>Abm Isaacs</persName>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<persName>Harding Newhouse</persName>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<persName>David Solomon</persName>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<persName>Isaac Myers</persName>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<persName>B. Brummer</persName>\n\t\t\t</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p26",
+          "@type": "sc:Canvas",
+          "label": "24",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0a15dee1-69a8-490b-afe7-06f754f5fa71%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0a15dee1-69a8-490b-afe7-06f754f5fa71%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p26"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/0a15dee1-69a8-490b-afe7-06f754f5fa71/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p26/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/manifest/annotation/p24",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">24</p>\n\t\t\t<table cols=\"2\" rows=\"24\">\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Abraham Hart</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Joseph L. Moss</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Abraham L. Hart</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell><del><persName>A. Myers</persName>,</del>\n\t\t\t\t\t\t(<placeName>Richmond</placeName>)</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>B. B. Hart</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Joseph Myers</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Hyman M. Hart</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>A. C. Peixotto</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Andrew Isaacs</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>H.</del>\n\t\t\t\t\t\t<persName>M. Phillips</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>George Isaacs</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Jacob Phillips</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Jacob I. Keys</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>J. A. Phillips</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Abraham Lazarus</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Isaac J. Phillips</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Henry Lazarus</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Levy Phillips</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell><persName>Henry Lazarus</persName> (<placeName>Mobile</placeName>)</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Zalma Rehine</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Isaac Leeser</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Edward Roget</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Lyon Lemberger</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>G. D. Rosengarten</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>David Levine</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Aaron Samuel</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell><del><persName>A. Levy</persName></del>\n\t\t\t\t\t\t(<placeName>Richmond</placeName>)</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>David Samuel</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Alexander Levy</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Frederick Samuel</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>I. J. Levy</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Mayer Shoyer</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Jacob A. Levy</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>R. J. Switzer</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>L. J. Levy</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<persName>Israel Tobiason</persName>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Samuel Lyons</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Jacob Ulman</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>August Mendelsohn</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>H. Van Beil</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Simpson Morris</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Simon Weil</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Hart I. Moses</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Wolf Weil</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>John Moss</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Jonathan Zachariah</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t</row>\n\t\t\t\t<row>\n\t\t\t\t\t<cell>\n\t\t\t\t\t\t<del>\n\t\t\t\t\t\t\t<persName>Isaac M. Moss</persName>\n\t\t\t\t\t\t</del>\n\t\t\t\t\t</cell>\n\t\t\t\t\t<cell/>\n\t\t\t\t</row>\n\t\t\t</table>\n\t\t</body>\n\t</text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p27",
+          "@type": "sc:Canvas",
+          "label": "Back",
+          "height": 4486,
+          "width": 2844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d6bd7897-e1e6-419e-bfa7-c83e68d5d0ca%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2844,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d6bd7897-e1e6-419e-bfa7-c83e68d5d0ca%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/canvas/p27"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30863r9g/assets/d6bd7897-e1e6-419e-bfa7-c83e68d5d0ca/original",
+              "label": "Original File - 38.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

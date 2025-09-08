@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Cohen, Joseph; Leeser, Isaac; Newark, NJ; 29 September 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3cv4cb9x"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Cohen, Joseph; Leeser, Isaac; Newark, NJ; 29 September 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-09-29"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New Jersey -- Newark",
+        "United States -- New Jersey",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_84"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/50cbd69a-d8d5-4d42-95bf-85bfb15fe396%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/50cbd69a-d8d5-4d42-95bf-85bfb15fe396%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4400,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/50cbd69a-d8d5-4d42-95bf-85bfb15fe396%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 4400,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/50cbd69a-d8d5-4d42-95bf-85bfb15fe396%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/assets/50cbd69a-d8d5-4d42-95bf-85bfb15fe396/original",
+              "label": "Original File - 46.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Newark</placeName>\n                <date>Sept 29<hi rend=\"sup\">th</hi>\n                    <hi rend=\"underline\">1854</hi></date>\n            </p>\n            <p>\n                <addressee>Mr. I. Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir!</p>\n            <p>Owing to you an answer of your last you will<lb/> excuse me for the detention up to\n                day, I had no<lb/>\n                <sic>succsess</sic> yet for more <sic>supscribers</sic> next week I shall<lb/> call\n                if you wish for what is due and send it on to you, please write some more plain\n                as<lb/> can't very well make <sic>outt</sic> all.</p>\n            <p>We had <sic>I</sic> fine and large audience last <add>Hebrew</add><lb/> and been\n                obligent to next liberty stall<lb/> for services. Our President gave us a good<lb/>\n                <sic>Lectur</sic> which I will <sic>sent</sic> you too.</p>\n            <p><sic>for</sic> our lot we have <sic>payd</sic> and now we<lb/> like to build but\n                money we have not<lb/> and our sources are <sic>exhuastet</sic> that is<lb/> we\n                    poor<add>?</add> our members are mechanics<lb/> mostly can't <sic>mak</sic> more\n                    <sic>then</sic> their<lb/> living. We will address you for writing<lb/> a letter\n                to represent to all congregation.<lb/> in <placeName>N. J.</placeName> and wish\n                Persons for assistance<lb/> and have it <sic>printet</sic> in english &amp;\n                german.<lb/> with you reference <persName>Mr. Isaacs</persName> &amp;\n                    <persName>Raphael</persName>.<lb/> I hope this will bring us some <add>?</add>\n                to</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4400,
+          "width": 3528,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/955b5cf1-bbe9-4f5e-9b36-d3fd90cefb28%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3528,
+                "height": 4400,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/955b5cf1-bbe9-4f5e-9b36-d3fd90cefb28%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/assets/955b5cf1-bbe9-4f5e-9b36-d3fd90cefb28/original",
+              "label": "Original File - 46.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>build which is the greatest want for<lb/> our <add>Hebrew</add> after our Election I\n                shall give the<lb/> names from the Trustee</p>\n            <p>Wishing you well I remain <sic>Respectfull</sic></p>\n            <p rend=\"indent(3)\">your servant</p>\n            <p rend=\"indent(3)\">\n                <persName role=\"author\">Joseph Cohen</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3528,
+          "width": 4400,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/56fcce4c-f1a8-4569-8889-72ac8f1d8538%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4400,
+                "height": 3528,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/56fcce4c-f1a8-4569-8889-72ac8f1d8538%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/assets/56fcce4c-f1a8-4569-8889-72ac8f1d8538/original",
+              "label": "Original File - 46.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Mr. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cv4cb9x/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

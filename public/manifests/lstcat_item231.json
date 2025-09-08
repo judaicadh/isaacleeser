@@ -1,0 +1,737 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/manifest",
+  "@type": "sc:Manifest",
+  "label": "Pamphlet; New York, NY; 1850",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3804z54r"]
+    },
+    {
+      "label": "Title",
+      "value": ["Pamphlet; New York, NY; 1850"]
+    },
+    {
+      "label": "Date",
+      "value": ["1850"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["pamphlets"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Pamphlet"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "12 pages on 14 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item231"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/20bbe94d-0933-403e-916f-fca8d7637aec%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/20bbe94d-0933-403e-916f-fca8d7637aec%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "Front",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a26e6e3b-765b-4cc6-b584-ebf04ca71487%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a26e6e3b-765b-4cc6-b584-ebf04ca71487%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/a26e6e3b-765b-4cc6-b584-ebf04ca71487/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/20bbe94d-0933-403e-916f-fca8d7637aec%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/20bbe94d-0933-403e-916f-fca8d7637aec%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/20bbe94d-0933-403e-916f-fca8d7637aec/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">A REVIEW</p>\n            <p rend=\"align(center)\">OF</p>\n            <p rend=\"align(center)\">“THE REVIEW”</p>\n            <p rend=\"align(center)\">OF</p>\n            <p rend=\"align(center)\">THE LATE CONTROVERSY</p>\n            <p rend=\"align(center)\">BETWEEN THE</p>\n            <p rend=\"align(center)\">\n                <persName>REV. ISAAC LEESER</persName>\n            </p>\n            <p rend=\"align(center)\">AND THE</p>\n            <p rend=\"align(center)\"><placeName>Philadelphia</placeName> Congregation, “Mickve\n                Israel;”</p>\n            <p rend=\"align(center)\">BY</p>\n            <p rend=\"align(center)\"><persName role=\"author\">AN ISRAELITE</persName>.</p>\n            <p rend=\"align(center)\"><placeName>NEW YORK</placeName>:</p>\n            <p rend=\"align(center)\">PUBLISHED AT THE <placeName>OFFICE OF THE\n                ASMONEAN</placeName>,</p>\n            <p rend=\"align(center)\"><placeName>140 Nassau Street</placeName>.</p>\n            <p rend=\"align(center)\"><date>1850</date>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4fe3ee91-206e-45ea-9866-543b589275e3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4fe3ee91-206e-45ea-9866-543b589275e3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/4fe3ee91-206e-45ea-9866-543b589275e3/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b83040b4-b05a-4f37-a5ce-4f707a8659c5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b83040b4-b05a-4f37-a5ce-4f707a8659c5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/b83040b4-b05a-4f37-a5ce-4f707a8659c5/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">A REVIEW OF “THE REVIEW”</p>\n            <p rend=\"align(center)\">OF THE LATE CONTROVERSY BETWEEN</p>\n            <p rend=\"align(center)\">THE <persName>REV. ISAAC LEESER</persName></p>\n            <p rend=\"align(center)\">AND THE</p>\n            <p rend=\"align(center)\">\n                <hi rend=\"italics\">CONGREGATION “MICKVE ISRAEL.”</hi>\n            </p>\n            <p rend=\"indent(1)\">When men throw their private quarrels before the public,<lb/> they\n                cease to be private, and that public to whom the appeal is<lb/> manifestly made, has\n                the right to approve or disapprove, as facts<lb/> may demand. It is this feeling\n                which prompts me to examine<lb/> the controversy, and through the Press, to proclaim\n                the opinion<lb/> of an humble, but disinterested Israelite.</p>\n            <p rend=\"indent(1)\">There are but few occurrences in life which may not be\n                pro-<lb/>ductive of good, and I can but trust that, though a good man may<lb/> be\n                sacrificed to the malice of his enemies, yet that this controver<lb/>sy between\n                    <persName>Mr. Leeser</persName>, and the <placeName>Philadelphia</placeName>\n                congregation<lb/> Mickve Israel, will be productive of the happiest results, by\n                im-<lb/>pressing the minds of the Jews of <placeName>America</placeName> with the\n                necessity<lb/> of elevating the Priesthood, of making them Teachers of\n                    <placeName>Israel</placeName>,<lb/> not the mere hirelings of a moment, the\n                pliant tools of a Parnas<lb/> and Adjunta, who may, or may not be fit to rule. The\n                paths of<lb/> duty of the two are entirely distinct. The Parnas and Adjunta<lb/>\n                should manage the temporal concerns of the congregation, whilst<lb/> the Priest, or\n                Hazan should teach, guide, control, and direct the<lb/> congregation. How can he be\n                a Teacher unless he have power<lb/> in <hi rend=\"italics\">all things</hi> pertaining\n                to his office? How can he rebuke sin in<lb/> high places, perhaps the very sins of\n                his petty tyrants, when he<lb/> is powerless, the mere servant of these very men?\n                The idea,<lb/> then of making a Hazan a bonded officer, and of forcing him<lb/> to\n                obtain leave of the Parnas before he may deliver a moral dis-<lb/>course, or perform\n                the marriage or burial service, is altogether<lb/> repugnant to a just conception of\n                his proper position, and whilst<lb/> such an idea obtains, he is no Teacher, no head\n                of the flock, but a</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9e0ade10-82ce-44f4-b821-d3e92dbe6c16%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9e0ade10-82ce-44f4-b821-d3e92dbe6c16%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/9e0ade10-82ce-44f4-b821-d3e92dbe6c16/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>4</p>\n            <p rend=\"align(center)\">A REVIEW.</p>\n            <p>mere tool and an underling. Any rule therefore which requires<lb/> a Teacher in\n                    <placeName>Israel</placeName> to give a bond for the performance of his\n                du-<lb/>ties—a bond, forsooth, that he shall be “<hi rend=\"italics\"\n                >devout”!!!</hi>—is a dis-<lb/>grace to the congregation, and at war with the spirit\n                of the age.<lb/> Our Priests should “be clothed with righteousness,” men of<lb/>\n                character, and able to teach and control their flock. The Hazan<lb/> should be\n                elected as <persName>Mr. Carvallo</persName> was elected in <date>1815</date>— “<hi\n                    rend=\"italics\">noth-</hi><lb/>\n                <hi rend=\"italics\">ing being said about the term of office.</hi>”</p>\n            <p rend=\"indent(1)\">These remarks bring me directly to the pamphlet under\n                con-<lb/>sideration.</p>\n            <p rend=\"indent(1)\">As regards “the regular <hi rend=\"italics\">Hazanim</hi> who preceded\n                    <persName>Mr. Leeser</persName>,”<lb/> I have nothing to say—comparisons are\n                odious—they may have<lb/> been intellectual “giants.” I take it for granted, that\n                they were<lb/> undoubtedly men of worth—perhaps the superiors of <persName>Mr.\n                    Leeser</persName>.<lb/> I repeat I will institute no comparisons, but this much\n                I will say,<lb/> that in our day and generation, <persName>Mr. Leeser</persName>\n                stands in<lb/> the general good that he has done in <placeName>America</placeName>,\n                and those very<lb/> “English discourses” so <sic>delightingly</sic> spoken of in the\n                pamphlet<lb/> under review, have done more to exalt the Jewish name in<lb/>\n                <placeName>America</placeName>, to awaken a spirit of piety among our people,\n                to<lb/> breathe life, and spiritually into our religion, than the ritual could<lb/>\n                do in a thousand years, however dignified, and impressively it<lb/> may have been\n                said. And here, too, I may remark, it is strange<lb/> that if <persName>Mr.\n                    Leeser</persName> has for years, hurried through our beautiful<lb/> ritual in\n                “an undignified, and unimpressive manner,” that he<lb/> should have been retained as\n                Hazan for more than twenty years,<lb/> have been <hi rend=\"italics\">five</hi> times\n                elected, and “that a majority of the mem-<lb/>bers would have been willing to have\n                elected him for ten years<lb/> longer.” Alas! I fear the writer spoke from his\n                prejudices,<lb/> rather than his judgment.</p>\n            <p rend=\"indent(1)\">At Page 6 of the pamphlet, we are told that “the Committee<lb/> on\n                the subject of certain complaints against the <hi rend=\"italics\">Shochet</hi> made\n                a<lb/> report in which they recommended that the tenure of his office,<lb/> which\n                before that time, was during the pleasure of the congre-<lb/>gation, should be\n                turned into an annual term”—and again—“it<lb/> has always been the policy of the\n                congregation to elect the Ha-<lb/>zan for a stipulated period, and the principle is\n                the same as to the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ffdb9351-9812-4e10-b75a-6af8022bbe9d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ffdb9351-9812-4e10-b75a-6af8022bbe9d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/ffdb9351-9812-4e10-b75a-6af8022bbe9d/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">5</p>\n            <p rend=\"align(center)\">A REVIEW.</p>\n            <p>Shochet.” What! are the Shochet and the Hazan to be compar-<lb/>ed? Are there no\n                distinctions in society? no grades in the va-<lb/>rious callings of life? Do the\n                butcher and the Minister of God—<lb/> the baker, and the lawyer—the blacksmith, and\n                the physician<lb/> stand on the same platform? Politically they are equal, but\n                no<lb/> farther. My minister, my spiritual guide and teacher, must be<lb/> my equal\n                socially and otherwise, or he can not have a proper and<lb/> controlling influence\n                over me. My butcher, or Shochet, may be<lb/> an honest man—I may respect him as\n                such, but he can not be a<lb/> companion for me, or my family. And I am sure I\n                hazard<lb/> nothing in saying that the Hazan, and Shochet of the congrega-<lb/>tion,\n                do, and will ever, occupy very different stations in the minds<lb/> of all right\n                thinking people in <placeName>Philadelphia</placeName>, and every where else.<lb/>\n                The comparison therefore, does not hold good—there is no analogy<lb/> in the duties\n                of Hazan and Shochet, and the rules governing the<lb/> one, would be inapplicable to\n                the other. The one is the highest<lb/> and holiest calling to which man can devote\n                the energies of his<lb/> mind, the other a mere physical duty, which any one may\n                per-<lb/>form; requiring neither mind nor morals, beyond that morality<lb/> which\n                impels my barber, or tailor to do his work faithfully.—<lb/> When therefore, a\n                candidate for the office of Hazan is a strang-<lb/>er to a congregation, it is\n                perhaps well to take him for a limited<lb/> period on trial, and afterwards he\n                should be elected, and have<lb/> nothing “<hi rend=\"italics\">said about the term of\n                    service.</hi>”</p>\n            <p rend=\"indent(1)\">The Judge's tenure, <hi rend=\"italics\">dum bene se gesserint</hi>,\n                may, or may not<lb/> be proper—but again, there is no analogy between these\n                offices.<lb/> The life tenure of the Judge was created as a protection to the<lb/>\n                liberties of the people. If he held his office at the will of a ty-<lb/>rant, he\n                would pander to the tyrants pleasures—but again I see<lb/> no analogy between these\n                offices. If the writer really desired<lb/> an analogous case, he should have\n                referred to the Christian<lb/> Preacher, or the Jewish Priests of former days. Are,\n                or were,<lb/> these elected from year to year? Do, or did they give bonds,<lb/> with\n                money penalties for their good behaviour, for their “devout<lb/> manner?”</p>\n            <p rend=\"indent(1)\">This idea of annual, or decennial elections, and of making the<lb/>\n                Hazan a bonded officer, finds no sanction in the habits of the</p>\n            <p rend=\"align(center)\">1*</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/03d2407b-fd6c-4638-b9d6-38d00a90d7f3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/03d2407b-fd6c-4638-b9d6-38d00a90d7f3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/03d2407b-fd6c-4638-b9d6-38d00a90d7f3/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>6</p>\n            <p rend=\"align(center)\">A REVIEW.</p>\n            <p>Jews in the palmy days of their nationality—none in the present<lb/> practice of the\n                Christian world. For our sins we are dispersed<lb/> over the whole world. We have no\n                temple—no regularly God-<lb/>appointed Priesthood, but if we desire our Hazanim,\n                teachers in<lb/>\n                <placeName>Israel</placeName>, men of worth, and piety, and really spiritual guides,\n                we<lb/> must elevate the Ministry; we must draw a distinction between<lb/> things\n                sacred and profane, we must raise our Hazan above our<lb/> Shochet.</p>\n            <p rend=\"indent(1)\">But let us pass on to Page 8, where we are told that <persName>Mr.\n                    Lee-<lb/>ser</persName> “was willing to hold himself out to the world as elected\n                for<lb/> life, and yet take the office under a secret written engagement<lb/> with\n                the congregation, converting its tenure into a <sic>tenantcy</sic> at<lb/> will,\n                subject to be determined at any time by a bare majority<lb/> vote; which was the\n                more degrading position, an open honorable<lb/> engagement for ten years, or a false\n                representation to the world,<lb/> of an engagement for life, with the reality of a\n                secret under-<lb/>standing that it was but a tenure at will? The congregation\n                re-<lb/>fused to become a party to such a hypocritical proceeding.”—<lb/>Now I\n                appeal to any candid man, and ask if such language is<lb/> proper, if the writer (as\n                he states on his first page) really de-<lb/>sired to diffuse the light of truth,”\n                and “to give a brief review<lb/> of the late controversies between <persName>Mr.\n                    Leeser</persName> and the congre-<lb/>gation?” Is this language supported by the\n                    <hi rend=\"italics\">facts</hi> of the case,<lb/> or rather, is it not,\n                manifestly, the outpourings of bitterness, and<lb/> prejudice? <hi rend=\"italics\"\n                    >Let the pamphlet itself, answer these questions.</hi> At<lb/> Page 6, we find\n                “that <persName>Abraham Hart, Esq.</persName>, Parnas, announced<lb/> from the\n                Chair, that he was authorized by <persName>Mr. Leeser</persName> to state to<lb/>\n                the congregation, that if they adopted any other tenure of office,<lb/> than during\n                good behavior, he would not be a candidate for re-<lb/>election, but adding in\n                substance, that if he were elected during<lb/> good behavior, he was willing to hand\n                in a written resignation of<lb/> his office, to take effect whenever called for by\n                the congregation.”<lb/> Was this any thing like “a secret written engagement?”\n                Was<lb/> this a false representation to the world? Did not <persName>Mr.\n                    Hart</persName><lb/> proclaim it aloud, before the assembly, over which he\n                presided?<lb/> Was it not known to the writer of the pamphlet, who is\n                mani-<lb/>festly no friend of <persName>Mr. Leeser</persName>; and can any one\n                justly call this</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/12b6d69d-feef-47b0-82aa-49ee0976386e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/12b6d69d-feef-47b0-82aa-49ee0976386e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/12b6d69d-feef-47b0-82aa-49ee0976386e/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">7</p>\n            <p>A REVIEW.</p>\n            <p>a “secret engagement,” “a false representation,” “a hypocriti-<lb/>cal proceeding?”\n                The truth is, <persName>Mr. Leeser</persName> assumed the true<lb/> ground. The\n                ground on which <persName>Mr. Carvalho's</persName> election was<lb/> placed. The\n                ground taken by <persName>Mr. Lazarus</persName> in <date>1824</date>, and the<lb/>\n                ground which I trust, will hereafter be taken by every Hazan<lb/> in\n                    <placeName>America</placeName>. The tenure of the office of Hazan should be\n                at<lb/> will. He should be bound to his congregation, and they to him,<lb/> by the\n                bonds of love, and not of money penalties; and he should<lb/> serve no longer than\n                was mutually agreeable, for no longer could<lb/> he be useful.</p>\n            <p rend=\"indent(1)\">Let us <hi rend=\"italics\">test this idea</hi> of making the Hazan a\n                bonded officer,<lb/> for limited periods, say five, or ten years, and to do this,\n                let us<lb/> examine the terms and character of the articles of agreement,<lb/> which\n                may be found at Page 10, of the pamphlet. The Hazan<lb/> agrees to serve and\n                officiate for ten years, during which time, he<lb/> is to perform the duties of the\n                station—these duties are subse-<lb/>quently defined, viz: on <date>Sabbaths</date>\n                and Holy days, to read the<lb/> prayers in devout manner in the original Hebrew. To\n                attend<lb/> funerals &amp;c: to support and abide by, and obey the Charter<lb/> and\n                Bye-Laws, and obey the legal orders of the Parnas. In<lb/> consideration of said\n                services, the congregation agrees to pay<lb/> $1200 per ann. during the ten years in\n                quarterly payments. And<lb/> for the due performance of the covenants, each party\n                (Hazan<lb/> and congregation) binds himself in the penal sum of one thou-<lb/>sand\n                dollars. Now as the covenant has <hi rend=\"italics\">expressed precisely</hi>,\n                what<lb/> each party is to do, no more could be claimed in law, or morals,<lb/> than\n                what is therein expressed. It is therefore manifest that a<lb/> Hazan under that\n                covenant would be entitled to recover his<lb/> salary, if he read the prayers in\n                Hebrew, on <date>Sabbaths</date> and Holy<lb/> days, attended funerals, &amp;c.\n                &amp;c., even though he lived in open vi-<lb/>olation of the moral law, and should\n                ascend the <hi rend=\"italics\">tebah</hi> dressed in<lb/> the most fantastic attire.\n                I do not press this point of my argu-<lb/>ment too far. When men enter into written\n                contracts, the con-<lb/>tract becomes to them, the law, and they can not go beyond it.<lb/>\n                <hi rend=\"italics\">Expressio unius, est exclusio alterius</hi>. Could the\n                congregation<lb/> sue the bond, and <sic>alledge</sic> as a breach the bad moral\n                character of<lb/> the Hazan, or if the Hazan were compelled to sue, would his</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/29b6b824-5480-4ef8-b1dd-1b9c60c05bd3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/29b6b824-5480-4ef8-b1dd-1b9c60c05bd3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/29b6b824-5480-4ef8-b1dd-1b9c60c05bd3/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>8</p>\n            <p rend=\"align(center)\">A REVIEW.</p>\n            <p>character be allowed in evidence? Certainly not. All this re-<lb/>minds me of an\n                anecdote, of which I was personally cognizant.<lb/> A man presented himself as a\n                candidate for Hazan—it was re-<lb/>marked that he was flippant in his manners,\n                foppish in his<lb/> dress, and above all, of doubtful moral character. But said\n                one<lb/> of his advocates, “have you heard him read—he has a magnifi-<lb/>cent\n                voice,” and I suppose he might have added, “he would<lb/> read our beautiful Hebrew\n                ritual in a dignified and impressive<lb/> manner.” Let me not be misunderstood—I am\n                no reformer—I<lb/> love and venerate our beautiful Hebrew ritual. It is a noble\n                lan-<lb/>guage—it is the mother of languages, and above all, it is sancti-<lb/>fied,\n                by time, and the glorious recollection that it was the lan-<lb/>guage of our\n                Prophets, and our Poet King, and that in it, God<lb/> spoke to his people amid the\n                thunders of <placeName>Sinai</placeName>. Let it then be<lb/> read in a sonorous\n                voice, and in a dignified, and impressive man-<lb/>ner; but let all this be\n                secondary to the pure character, and moral<lb/> teachings of the Hazan.</p>\n            <p rend=\"indent(1)\">But let us return to the pamphlet. At page 17 we find that a<lb/>\n                vote of censure by the Adjunta was passed upon the Hazan,<lb/> (<persName>Mr.\n                    Leeser</persName>) for an article which he published in the <hi rend=\"italics\"\n                    >Occident</hi><lb/> of <date>October</date> last. Now, if anything were wanting\n                to show the<lb/> bitter persecution, and relentless hostility of <persName>Mr.\n                    Leeser's</persName> ene-<lb/>mies, it will be found in this whole affair. It is\n                marked by a ty-<lb/>ranny and oppression, that, thank God, finds no parallel in\n                our<lb/> country, blessed as it is by free institutions, guaranteeing to every<lb/>\n                one liberty of conscience, and protecting <hi rend=\"italics\">the Liberty of the\n                    Press.</hi><lb/> But this <placeName>Philadelphia</placeName> Adjunta, riding\n                above the spirit of the age,<lb/> would trammel the press, and entrenching\n                themselves behind<lb/> the dignity of office, would punish by votes of censure any\n                one<lb/> who would differ from them, or animadvert upon their conduct.<lb/>\n                <persName>Mr. Leeser</persName>, as Hazan, had certain duties to perform,\n                specifical-<lb/>ly set forth in the Bond, and I cannot find among these duties\n                any<lb/> that requires him to consult the Adjunta, as to what articles he<lb/> might\n                write, or that inhibits him from scanning their votes on<lb/> any subject. But the\n                whole affair seems to me extra-judicial—<lb/>an assumption of power, and strongly\n                savoring of all the ingre-<lb/>dients of a libel. The Bond does not make him\n                amenable to the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a093e461-746e-45df-a57d-38becd242d09%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a093e461-746e-45df-a57d-38becd242d09%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/a093e461-746e-45df-a57d-38becd242d09/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p10/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">9</p>\n            <p>A REVIEW.</p>\n            <p>Adjunta, except as to marriage and funeral rites, and as he is<lb/> elected by the\n                congregation, it alone should have the power of<lb/> censure. It is true that in\n                political and national organizations,<lb/> there are tribunals created to try and\n                punish officers and others<lb/> for misdemeanors, but surely a Hazan should be only\n                responsi-<lb/>ble to the congregation—as the creating power. It will not avail<lb/>\n                to reply that the congregation approved the action of the Board,<lb/> for no\n                subsequent act can legalize an usurpation, the more espe-<lb/>cially when the rights\n                of a third party are affected. And besides<lb/> this, it is manifest that though the\n                Adjunta had attempted to<lb/> control and direct public opinion, still the\n                congregation would<lb/> have allowed the resolutions to pass unnoticed, thereby\n                tacitly ap-<lb/>proving the contemptuous silence of <persName>Mr. Leeser</persName>,\n                who properly<lb/> disdained to offer “any explanation, palliation or\n                apology,”—“but<lb/> for an onslaught on the Board made by one or two of the\n                Ha-<lb/>zan's indiscreet friends.” It was the conduct of the “friends”<lb/> then,\n                that the congregation animadverted upon, and not the con-<lb/>duct of <persName>Mr.\n                    Leeser</persName>. Such being the true version of the affair, the<lb/>\n                congregation committed the injustice of punishing <persName>Mr.\n                Leeser</persName><lb/> for the indiscretion of his friends.</p>\n            <p rend=\"indent(1)\">It is right and proper that we return again to this idea of\n                mak-<lb/>ing the Priest who ministers at the altar of God a bonded officer<lb/> for\n                a specified period of time. I am no advocate for a <hi rend=\"italics\">life\n                    tenure</hi><lb/> for the same reasons that I object to any engagement for a <hi\n                    rend=\"italics\">limit-</hi><lb/><hi rend=\"italics\">ed time.</hi> Suppose you\n                engage a man for life, or for five or ten<lb/> years, how are you to get rid of him\n                until the expiration of the<lb/> time of the agreement? He may perform his duties\n                and yet be<lb/> obnoxious to the congregation, or they to him. You are bound<lb/>\n                hand and foot together by the harsh chains of a stern agreement,<lb/> and not united\n                by the silken cords of <sic>love.</sic> and the interchange<lb/> of mutual benefits\n                and blessings. Nor does your Bond with a<lb/> money penalty mend the matter—it\n                circumscribes the power of<lb/> the Hazan and congregation, and limits their rights\n                to the terms<lb/> of the bond. Let then our Hazanim (except perhaps when<lb/>\n                strangers to the congregation) be elected without any thing being<lb/> “said about\n                the term of service,” and then the majority of the<lb/> congregation may dismiss, or\n                the Hazan retire at pleasure. It</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p11",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/22369095-e81c-4370-a557-ea9d7dea1399%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/22369095-e81c-4370-a557-ea9d7dea1399%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p11"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/22369095-e81c-4370-a557-ea9d7dea1399/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p11/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/manifest/annotation/p10",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>10</p>\n            <p rend=\"align(center)\">A REVIEW.</p>\n            <p>cannot be urged that this may leave a congregation without a<lb/> Hazan, for it\n                cannot, in fairness, be supposed that the connection<lb/> would be dissolved without\n                timely notice. But even supposing<lb/> the probability of this contingency, or that\n                the Hazan may be<lb/> thrown penniless on the world, still it is far better for both\n                par-<lb/>ties to have the congregation thus arranged, than to have Hazan<lb/> and\n                congregation tied to each other, even after love, respect, and<lb/> power of\n                usefulness were all departed. And again, this tenure<lb/> at will is a guarantee,\n                worth all the bonds in the world, for mu-<lb/>tual forbearance, respect, and\n                devotion to their respective duties.</p>\n            <p rend=\"indent(1)\">One word in conclusion, and that in relation to the pamphlet\n                it-<lb/>self. To the <hi rend=\"italics\">casual</hi> and careless observers (and\n                these form a<lb/> large majority of readers), it would seem that this was an\n                official<lb/> expose, a manifesto from the Adjunta. This impression is fairly<lb/>\n                <sic>inferrible</sic> from the three first paragraphs of the pamphlet, and the<lb/>\n                internal evidence that the books, papers, and minutes of the Ad-<lb/>junta must have\n                been under the free control of the writer. And<lb/> yet I for <sic>oneam</sic> sure\n                that it is not an <hi rend=\"italics\">official production</hi>, firstly,\n                be-<lb/>cause it is not declared to be so; and secondly, because it is\n                anon-<lb/>ymous, and even the very office from which it is issued is\n                con-<lb/>cealed. The writer of the pamphlet is evidently a man of talent<lb/> and of\n                education, and his sense of justice should have induced<lb/> him to have declared\n                    <hi rend=\"italics\">in express terms</hi>, that he wrote on his own<lb/>\n                individual responsibility, and not to have left so important a fact<lb/> in doubt.\n                But there are other objections to the pamphlet, of a<lb/> more serious character. It\n                charges a man, who for the fifth part<lb/> of a century has been the Hazan of one of\n                the most respectable<lb/> congregations in <placeName>America</placeName>, with\n                false representations, hypocrisy,<lb/> violation of duty, and a childish vanity that\n                induced him to sacri-<lb/>fice his holy official duties to “one engrossing fancy.”\n                And does<lb/> the “light of truth” thus daguerreotype the character of\n                    <persName>Isaac<lb/> Leeser</persName>? No, no, no, and such would be the echo\n                and response<lb/> of ninety-nine hundredths of the Jews of\n                    <placeName>England</placeName> and <placeName>America</placeName>.<lb/>\n                <persName>Mr. Leeser</persName> is “neither more nor less than a man,” he has\n                the<lb/> faults and the frailties of humanity. His quick sensibility, his<lb/>\n                ardent temperament, may, and perhaps do, rob him of that suavi-<lb/>ty of manner,\n                which, like the tinsel glitter of false ornaments, too</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p12",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7b4ce471-c581-434a-8325-4bc655851ccd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7b4ce471-c581-434a-8325-4bc655851ccd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p12"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/7b4ce471-c581-434a-8325-4bc655851ccd/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p12/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/manifest/annotation/p11",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">11</p>\n            <p rend=\"align(center)\">A REVIEW.</p>\n            <p>often deceives and deludes. But he is honest, capable, intelligent,<lb/> stands high\n                in public estimation, and should be the pride, as he is<lb/> an ornament, of our\n                nation.</p>\n            <p rend=\"indent(1)\">For myself, I have no personal object to attain. My desire was<lb/>\n                to protect and vindicate the private character and public useful-<lb/>ness of one\n                who is “a great man in <placeName>Israel</placeName>,” and whose writings<lb/> will\n                cause him to be remembered when his detractors shall be<lb/> forgotten.</p>\n            <p rend=\"align(right)\"><persName role=\"author\">AN ISRAELITE</persName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p13",
+          "@type": "sc:Canvas",
+          "label": "Inside back",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9b120077-9783-439a-99ec-8d6c075a3e07%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9b120077-9783-439a-99ec-8d6c075a3e07%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p13"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/9b120077-9783-439a-99ec-8d6c075a3e07/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p14",
+          "@type": "sc:Canvas",
+          "label": "Back",
+          "height": 4486,
+          "width": 2944,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4ac6b76e-b916-401f-9614-20ac91223bcc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2944,
+                "height": 4486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4ac6b76e-b916-401f-9614-20ac91223bcc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/canvas/p14"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3804z54r/assets/4ac6b76e-b916-401f-9614-20ac91223bcc/original",
+              "label": "Original File - 39.6 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

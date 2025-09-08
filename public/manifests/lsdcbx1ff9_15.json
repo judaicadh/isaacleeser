@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Redfield, J. S.; Leeser, Isaac, Rev.; New York, NY; 1 March 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30r9mq4s"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Redfield, J. S.; Leeser, Isaac, Rev.; New York, NY; 1 March 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-03-01"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "5 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_15"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/6eec6594-dc66-4696-baeb-06429b86ce17%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/6eec6594-dc66-4696-baeb-06429b86ce17%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4642,
+          "width": 3644,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6eec6594-dc66-4696-baeb-06429b86ce17%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3644,
+                "height": 4642,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6eec6594-dc66-4696-baeb-06429b86ce17%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/assets/6eec6594-dc66-4696-baeb-06429b86ce17/original",
+              "label": "Original File - 51 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Clinton Hall</placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <placeName>New York</placeName>\n                                        <date>March 1852</date>\n                              </p>\n                              <p>Dear Sir,</p>\n                              <p rend=\"indent(1)\">I am about publishing a work<lb/> the design of\n                                        which is to present biograph=<lb/>=ical instruction\n                                        respecting living persons who<lb/> may be interesting to the\n                                        public in the<lb/> various departments of active and\n                                        intellect=<lb/>=ual life.„ It is partly based upon a\n                                        similar<lb/> English work and will bear the same title<lb/>\n                                        \"men of the Time in 1852\".„ A specimen page of<lb/> its\n                                        general treatment is enclosed.„ As the object<lb/> is,\n                                        within the necessary limits, to make this work<lb/> as\n                                        perfect as possible, I apply to you personally<lb/> for such\n                                        details of dates and facts in your own<lb/> case as you may\n                                        think continent and desirable<lb/> for a book of reference\n                                        of this kind.„ As the book<lb/> will go to press\n                                        immediately, an answer at the<lb/> earliest moment will\n                                        oblige</p>\n                              <p rend=\"indent(2)\">Yours respectfully</p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">J. S. Redfield</persName>\n                              </p>\n                              <p>To <addressee>Revd. Isaac Leeser</addressee></p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"align(right)\">over</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4464,
+          "width": 3644,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9775e99a-ef2d-4e20-970d-4c5d0805257f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3644,
+                "height": 4464,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9775e99a-ef2d-4e20-970d-4c5d0805257f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/assets/9775e99a-ef2d-4e20-970d-4c5d0805257f/original",
+              "label": "Original File - 49 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>8</p>\n                              <p rend=\"align(center)\"\n                                                  ><persName>CROLY</persName>—<persName>DUMAS</persName>—<persName>DUPONT</persName>.</p>\n                              <p/>\n                              <p>    <persName>CROLY, REV. DR. GEORGE</persName>, Poet and\n                                        Clergyman, was born in<lb/>\n                                        <placeName>Ireland</placeName>, educated at Trinity College,\n                                                  <placeName>Dublin</placeName>, and ordained in\n                                        the<lb/> Church of England. His verses are more remarkable\n                                        for correctness<lb/> than vigour, and are not very popular.\n                                        He enjoys the rectory of <placeName>St.<lb/> Stephen's,\n                                                  Wallbrook, London</placeName>, and is understood\n                                        to indulge in<lb/> \"writing for the newspapers.\" He was\n                                        formerly connected with<lb/> the \"Britannia,\" a Tory weekly\n                                        paper. The interior of the church<lb/> in which his sermons\n                                        are delivered is said to be the masterpiece of<lb/>\n                                        <persName>Sir Christopher Wren</persName>. <persName>Dr.\n                                                  Croly's</persName> best work is a romance,\n                                        \"Sala-<lb/>thiel, or the Wandering Jew.\" His chief poems are\n                                        \"Paris in 1815;\"<lb/> \"The Angel of the World;\" and \"Gems\n                                        from the Aubigené.\" He<lb/> has likewise written a Life of\n                                        Burke, and a work on the Apocalypse<lb/> of St. John.</p>\n                              <p>    <persName>DUMAS, JEAN BAPTISTE</persName>, the first Practical\n                                        Chemist of <placeName>France</placeName>,<lb/> late Minister\n                                        of Agriculture and Commerce, Professor of Chemistry<lb/> at\n                                        the Sorbonne, in the School of Medicine, Member of the\n                                        Institute,<lb/> was born at <placeName>Alais</placeName>,\n                                                  <date>July 1800</date>. When fourteen,\n                                                  <persName>Dumas</persName> went to<lb/>\n                                        <placeName>Geneva</placeName>, to study chemistry, botany,\n                                        and medicine, and his first pub-<lb/>lication was an essay\n                                        in connexion with <persName>De Candolle</persName>, then a\n                                        profes-<lb/>sor in the Swiss city. The attention of\n                                        scientific men was soon<lb/> attracted to him by his\n                                        researches in animal physiology, in which he<lb/> was\n                                        associated with <persName>M. Prevost</persName>. In\n                                                  <date>1821</date> he was appointed teacher<lb/> of\n                                        chemistry in the Ecole Polytechnique,\n                                                  <placeName>Paris</placeName>. In\n                                        <date>1821</date>, <persName>Dumas</persName><lb/> published\n                                        a memoir on the relations existing between the specific<lb/>\n                                        weights of solid bodies and their atomic weight; and from\n                                        that time<lb/> to the present has been constantly adding to\n                                        our stock of knowledge<lb/> on the subjects of gaseous\n                                        substances, organic salts, the atomic con-<lb/>stitution of\n                                        the different kinds of ether, the nature of heavy oil\n                                        of<lb/> wine, the sulphate of oxide of ethyle, oxalic acid,\n                                        the compounds of<lb/> the chemical properties of chloroform,\n                                        idoform, and bromoform, stear-<lb/>optène; the oil of\n                                        rosemary and valerian, upon organic compounds.<lb/>\n                                        <persName>Dumas'</persName> theory of substitution is one of\n                                        the most important works of<lb/> this chemis, and his\n                                        treatise on chemistry, as applied to the arts, is<lb/>\n                                        another valuable offering to practical science. His \"Leçons\n                                        sur<lb/> la Philosophie Chimique\" are popular. As a\n                                        lecturer, <persName>Dumas</persName> is one<lb/> of the most\n                                        distinguished in <placeName>Paris</placeName>. In <date>May\n                                                  1849</date>, <persName>Dumas</persName> was\n                                        elected<lb/> to the National Assembly; and the President of\n                                        the Republic called<lb/> him on the <date>31st of\n                                                  October</date>, to join the administration, and\n                                                  <sic>intrusted</sic><lb/> him with the post of\n                                        Minister of Agriculture and Commerce, where<lb/> his\n                                        chemical knowledge enabled him to render public service.\n                                        He<lb/> originated annual meetings bearing on agriculture,\n                                        commerce, and<lb/> manufactures. <persName>Dumas</persName>\n                                        was Chairman of the Jury, Class 2, in the<lb/> Great\n                                        Exhibition of <date>1851</date>, in\n                                                  <placeName>London</placeName>.</p>\n                              <p>    <persName>DUPONT (DE L'EURE)</persName>, Ex-President of the\n                                        Council in <placeName>France</placeName>,<lb/> is now in his\n                                        83d year, and though there have been many abler and<lb/>\n                                        more successful men, still we doubt if there be a sincerer,\n                                        a more<lb/> straightforward and an honester deputy in all\n                                                  <placeName>France</placeName>. In the year<lb/>\n                                        <date>1808</date> he was a member of the Council of Five\n                                        Hundred; in <date>1811</date>, he<lb/> was President of the\n                                        Court of <placeName>Rouen</placeName>; in <date>1813</date>\n                                        he was President of<lb/> the <emph rend=\"italics\">Corps\n                                                  Législatif</emph>; in <date>1815</date> he\n                                        proposed the famous Declaration,<lb/> in which the rights of\n                                        citizens were reserved; and in <date>1830</date> he was</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4460,
+          "width": 3644,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1b3e3c6f-2c3a-48b6-aaba-a483c2044179%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3644,
+                "height": 4460,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1b3e3c6f-2c3a-48b6-aaba-a483c2044179%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/assets/1b3e3c6f-2c3a-48b6-aaba-a483c2044179/original",
+              "label": "Original File - 49 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"\n                                                  ><persName>GROTE</persName>—<persName>HUNT</persName>—<persName>LAWRENCE</persName></p>\n                              <p rend=\"align(right)\">9</p>\n                              <p>appointed Minister of Justice. His appointment derived its\n                                        signifi-<lb/>cancy from being a personal protest against\n                                                  <persName>Marshal Bugeaud</persName>. He<lb/> is,\n                                        moreover, highly esteemed by the French people. At the\n                                        elec-<lb/>tions of <date>1842</date>, <persName>M.\n                                                  Dupont</persName>, indignant at seeing the\n                                        deputies of the Eure<lb/> servilely voting in favour of the\n                                        execrated Guizot ministry, contested<lb/> four colleges of\n                                        that department simultaneously; he was elected in<lb/> all\n                                        four, and chose Evreux. <persName>M. Dupont</persName>\n                                        invariably voted against<lb/> the corrupt and dishonest\n                                        administration which fell with the late<lb/> king.</p>\n                              <p>    <persName>GROTE, GEORGE</persName>, Banker, political Reformer\n                                        and Author, was<lb/> born in <date>1794</date>, at\n                                                  <placeName>Clay Hill</placeName>, near\n                                                  <placeName>Beckenham, Kent</placeName>. His\n                                        ancestors<lb/> came to this country from\n                                                  <placeName>Germany</placeName>, and his\n                                        grandfather founded, in<lb/> conjunction with <persName>Mr.\n                                                  George Prescott</persName>, the banking-house in\n                                                  <placeName>Thread-<lb/>needle Street</placeName>,\n                                        which still bears the name of the original partners.<lb/>\n                                        <persName>Mr. Grote</persName> was educated at the\n                                        Charter-house school, and entered<lb/> his father's\n                                        establishment as a clerk in his sixteenth year. His<lb/>\n                                        leisure was for many years afterwards spent in unremitting\n                                        study.<lb/> About <date>1823</date>, he commenced writing a\n                                        \"History of Greece,\" upon<lb/> which work he steadily\n                                        laboured till the Reform movement of\n                                                  <date>1830</date><lb/>-<date>1831</date>, called\n                                        him forward into public life. He espoused the cause<lb/> of\n                                        radical reform, and successfully contested the city of\n                                                  <placeName>London</placeName> in<lb/>\n                                        <date>December 1832</date>; which he represented in three\n                                        successive parlia-<lb/>ments, until his retirement in\n                                                  <date>1841</date>. His first publication was\n                                        a<lb/> pamphlet in reply to <persName>Sir James\n                                                  Mackintosh's</persName> \"Essay on\n                                        Parilamen-<lb/>tary Reform,\" in the \"Edinburgh Review;\" it\n                                        was printed anony-<lb/>mously in <date>1821</date>. He has\n                                        since written a small work on the \"Essen-<lb/>tials of\n                                        Parliamentary Reform,\" an article on\n                                                  \"<persName>Mitford</persName>,\" in the<lb/>\n                                        \"Westminster,\" and another on <persName>Niebuhr's</persName>\n                                        \"Heroic Legends of<lb/> Greece,\" in the \"London and\n                                        Westminster Review.\" In Parliament<lb/> he was considered to\n                                        have in especial charge the advocacy of the<lb/> ballot, a\n                                        question upon which he regularly made an annual motion.<lb/>\n                                        He has for some time retired from active participation in\n                                        politics,<lb/> and has thus recently been able to give to\n                                        the world the earlier<lb/> books of his \"History of\n                                        Greece.\"</p>\n                              <p>    <persName>HUNT, FREDERICK KNIGHT</persName>, Journalist, Editor\n                                        of the \"Daily<lb/> News,\" born in\n                                                  <placeName>Buckinghamshire</placeName> in\n                                                  <date>1814</date>. In a volume which<lb/>\n                                        enumerates the journalists of <placeName>London</placeName>,\n                                        the name of the editor of the<lb/> \"Daily News\" must have a\n                                        place. <persName>Mr. Hunt</persName> was a member of\n                                        the<lb/> editorial staff selected for the \"Daily News\" when\n                                                  <persName>Mr. Charles<lb/> Dickens</persName>\n                                        established that journal in <date>1846</date>, and in\n                                                  <date>1851</date> became the<lb/> chief editor of\n                                        the paper. He had been a writer for the press, and<lb/> a\n                                        newspaper editor, for several years before his connexion\n                                        with the<lb/> journal he now conducts. He is the author,\n                                        amongst other things,<lb/> of \"The Fourth Estate: or,\n                                        Contributions to the History of News-<lb/>papers, and of the\n                                        Liberty of the Press,\" 2 vols. <date>1850</date>.</p>\n                              <p>    <persName>LAWRENCE, ABBOT</persName>, Minister of the\n                                                  <placeName>United States</placeName> to St.<lb/>\n                                        James's, was born in the state of <placeName>Massachusetts,\n                                                  U. S.</placeName>, <date>Dec. 1792</date>.<lb/>\n                                        Having received a liberal education, he went to live at\n                                                  <placeName>Boston</placeName> in<lb/>\n                                        <date>1808</date>, and a few years after went into business\n                                        as an importing mer-<lb/>chant, in partnership with his\n                                        brothers. In <date>1815</date> he conceived the<lb/> design\n                                        of establishing for his country a manufacturing system,\n                                        by</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mq4s/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

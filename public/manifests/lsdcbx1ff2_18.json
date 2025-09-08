@@ -1,0 +1,188 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Anker, H. M.; June 23, 1840",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3fq9qw1h"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Anker, H. M.; June 23, 1840"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Anker, H. M. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1840-06-23"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["German"]
+    },
+    {
+      "label": "Location",
+      "value": ["Baltimore (Md.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF2_18", "ilcajs_b1f1_0015"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/df83b72f-7a9f-4662-a173-fd6336613af2%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/df83b72f-7a9f-4662-a173-fd6336613af2%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 6982,
+          "width": 4906,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/df83b72f-7a9f-4662-a173-fd6336613af2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4906,
+                "height": 6982,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/df83b72f-7a9f-4662-a173-fd6336613af2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/assets/df83b72f-7a9f-4662-a173-fd6336613af2/original",
+              "label": "Original File - 103 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Herr <addressee>Isaak Leeser</addressee> a\n                                                  <placeName><sic>Philedelphia</sic></placeName></p>\n                              <p rend=\"align(right)\">\n                                        <placeName>Baltimore</placeName>\n                                        <date><sic>Juny</sic> 23d. <hi rend=\"underline\"\n                                                  >40</hi></date>\n                              </p>\n                              <p rend=\"indent(1)\">Den Anscheine nach, scheinen Sie<lb/> nicht, dich\n                                        zu erinnere, daß ich in vorigen Jahre<lb/> Sie ersuchte,\n                                        mir, die von mir habenden Bücher<lb/> zurück zu geben, und\n                                        Sie er[?]achen mir Selbe<lb/> zu[?], so bald, Sie mit der\n                                        Ausarbeiten<lb/> der [?]eigen fertig <sic>wärend</sic>. Es\n                                        muss mir glauben<lb/> machen, dass Sie keine gehörige Notiz,\n                                        von<lb/> Ihren Ver[?]ungen nehmen, so [?] würden<lb/> Sie\n                                        mir die Bücher, welche Sie bereits 3. Jahre<lb/> in händen\n                                        schon längst zurück geschickt haben.<lb/> Sie wissen, das\n                                        ich alle R[?] complet besitze<lb/> und möchte daher sie\n                                        zusammen behalten. Ich<lb/> [?] nicht, dass Sie Ihre\n                                        Benutzung der [?]<lb/> beendet haben, und ist mein Gesuch\n                                        der<lb/> das Sie mir erstens meine Bücher remitiren[?]<lb/>\n                                        [?] ich sie augenblicklich selbst zu gebrauchen<lb/> habe.\n                                        Ich z[?] nicht, das sie mein Gesuch<lb/> nachkommen, und\n                                        zeichen mich mit Achtung.</p>\n                              <p rend=\"indent(1)\">der Ihrige</p>\n                              <p rend=\"indent(2)\">\n                                        <persName role=\"author\">H. M. Anker</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4710,
+          "width": 6950,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7264206e-36e2-470b-a926-8ec9fb6c8706%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6950,
+                "height": 4710,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7264206e-36e2-470b-a926-8ec9fb6c8706%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/assets/7264206e-36e2-470b-a926-8ec9fb6c8706/original",
+              "label": "Original File - 98.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><addressee>Rev. Isaac Leeser</addressee>.</p>\n                              <p>Reader of the Portuguese <sic>Sinagoge</sic></p>\n                              <p rend=\"indent(1)\">[?]eare [?]:</p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>\n                                                  <hi rend=\"underline\">Philadelphia</hi>\n                                        </placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3fq9qw1h/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

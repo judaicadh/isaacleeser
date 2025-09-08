@@ -1,0 +1,297 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Freedman, Joseph; Detroit, MI; 13 November 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3b85443n"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Freedman, Joseph; Detroit, MI; 13 November 1851"]
+    },
+    {
+      "label": "Name",
+      "value": ["Freedman, Joseph", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-11-13"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Michigan -- Detroit",
+        "United States -- Michigan",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx9FF14_15"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d15845c-df79-4e95-aff2-18031e6f23d6%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d15845c-df79-4e95-aff2-18031e6f23d6%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 7844,
+          "width": 5294,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d15845c-df79-4e95-aff2-18031e6f23d6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5294,
+                "height": 7844,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d15845c-df79-4e95-aff2-18031e6f23d6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/assets/7d15845c-df79-4e95-aff2-18031e6f23d6/original",
+              "label": "Original File - 125 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"align(right)\">\n                <placeName>Detroit</placeName>\n                <date>Novemb 13/51</date>\n            </p>\n            <p>\n                <addressee>Rev Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philad.</placeName>\n            </p>\n            <p rend=\"indent(2)\">Your favor of the <date>28th</date> ult and also<lb/> your\n                    <sic>valueable</sic> magazine came to hand<lb/> We enclose $3 for our\n                subscription &amp; $3 for<lb/>\n                <persName>C &amp; C E Baessler</persName>\n                <placeName>Detroit</placeName> to whose address<lb/> you will also please to send\n                the Occident</p>\n            <p rend=\"indent(1)\">We shall when an opportunity<lb/> offers gladly speak to our friends\n                of the<lb/> Occident &amp; your translated bible &amp; solicit<lb/>\n                subscription.</p>\n            <p>As regards our congregation here, it counts<lb/> only a very limited number of\n                members<lb/> &amp; is of a quite recent organization.<lb/> Several men having moved\n                here with their<lb/>\n                <del>their</del> families (sometime last year) the<lb/> total want of all\n                opportunities for religious<lb/> instruction of their children was severely<lb/>\n                felt especially as their business called<lb/> them away from home most of the\n                time.<lb/> Subsequently at a meeting called among<lb/> those few <add>Hebrew</add>\n                residing here (12 members)<lb/> it was resolved to call a teacher &amp; shochet<lb/>\n                &amp; also to buy a plot of land for a <sic>burrying</sic><lb/> ground. The incident\n                expenses though con,<lb/>siderable were contributed with a good<lb/> deal of\n                liberality &amp; the above resolution carved out.<lb/> The number of our member has\n                since then<lb/> augmented to 18.</p>\n            <p>The prospects for erection of a synagogue are<lb/> rather remote yet being so few in\n                number<lb/> it will have to be differed to a <sic>latter</sic></p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 7844,
+          "width": 5294,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0730b0d6-2477-4b5d-8288-054c3d194c0b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5294,
+                "height": 7844,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0730b0d6-2477-4b5d-8288-054c3d194c0b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/assets/0730b0d6-2477-4b5d-8288-054c3d194c0b/original",
+              "label": "Original File - 125 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>and more auspicious period.<lb/> Should on your contemplated western tour<lb/> you\n                happen to visit <placeName>Detroit</placeName> allow us<lb/> to invite you to call\n                on us.</p>\n            <p rend=\"indent(1)\">We shall cheerfully <sic>attent</sic> to any thing that<lb/> might\n                be of service to your cause.</p>\n            <p rend=\"indent(1)\">Wishing you health &amp; happiness</p>\n            <p rend=\"indent(2)\">We remain Respectfully</p>\n            <p rend=\"indent(3)\">\n                <persName>S Freedman &amp; Bros</persName>\n            </p>\n            <p rend=\"indent(3)\">by <persName role=\"author\">Joseph Freedman</persName></p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 7844,
+          "width": 5294,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/05bb578c-65ef-48f2-b114-62c6ac4b034a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5294,
+                "height": 7844,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/05bb578c-65ef-48f2-b114-62c6ac4b034a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/assets/05bb578c-65ef-48f2-b114-62c6ac4b034a/original",
+              "label": "Original File - 125 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>\n                <addressee>Rev Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(2)\">\n                <placeName>Penn</placeName>\n            </p>\n            <p>Paid</p>\n        </body>\n    </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 7844,
+          "width": 5294,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a320028e-c777-4f42-b608-d90a8185925f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5294,
+                "height": 7844,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a320028e-c777-4f42-b608-d90a8185925f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85443n/assets/a320028e-c777-4f42-b608-d90a8185925f/original",
+              "label": "Original File - 125 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

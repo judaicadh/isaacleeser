@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Costez, Morr.; Leeser, Isaac, Rev.; New York, NY; 27 September 1860",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3v11w59t"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Costez, Morr.; Leeser, Isaac, Rev.; New York, NY; 27 September 1860"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1860-09-27"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF7_30"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/becbe5d3-43aa-4d2d-8ec2-f044ff0c07d4%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/becbe5d3-43aa-4d2d-8ec2-f044ff0c07d4%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4378,
+          "width": 3512,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/becbe5d3-43aa-4d2d-8ec2-f044ff0c07d4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3512,
+                "height": 4378,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/becbe5d3-43aa-4d2d-8ec2-f044ff0c07d4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/assets/becbe5d3-43aa-4d2d-8ec2-f044ff0c07d4/original",
+              "label": "Original File - 46.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>N York</placeName>\n                <date>Septembr the 27. 1860</date>\n            </p>\n            <p>\n                <addressee>The Rev. Leeser</addressee>\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p>Dear Sir—Permit me, respectfully, to recom-<lb/>mend to your kindly notice that I\n                have opened in <placeName>Cha-<lb/>tham Street No. 94</placeName> a Bookstore under\n                the Firm<lb/>\n                <persName>Costez &amp; Guttmann</persName>.</p>\n            <p>In consequence of an unexpected demand for Hebr.<lb/> prayer Mackizim<add>?</add>,\n                chomasiem &amp; Tephiloth we<lb/> have by strong recommendations received<lb/> a\n                depot of every kind from <persName>Frank &amp; Co.</persName>\n                <persName>Ellinger &amp; Co.</persName><lb/>\n                <persName>Rev. Dr. Bondy</persName> etc. in <placeName>N. Y.</placeName> we are glad\n                to<lb/> be able to state that we have sold for the<lb/> Holy days a good\n                    <sic>assortiment</sic>.</p>\n            <p>Now I request also your protection. I live just in the best<lb/> part of\n                    <placeName>N. Y.</placeName> to sell Jewish books. I self was in\n                    <placeName>Holland</placeName><lb/> (whereof I am a native) the Editor &amp;\n                proprietor of<lb/> the Jewish Gazette and publisher of a great many<lb/> works. I\n                request also that you will take informa-<lb/>tion for my person and business to\n                    <persName>Mrs. Frank</persName><lb/>\n                <persName>Rev. Bondy</persName>\n                <persName>Ellinger &amp; Co</persName> and to the <persName>Rev.\n                    Goldsmith</persName><lb/>\n                <sic>wich</sic> Getln send to you his best respects.<lb/> We wish to have in comm.\n                in depot one or two of<lb/> your publications and you will do me a private<lb/>\n                favor to inform yourself about our punctual<lb/> payments. We will send you after\n                selling directly</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4378,
+          "width": 3512,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6e76fa51-f71c-43ad-9500-5cdff095932b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3512,
+                "height": 4378,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6e76fa51-f71c-43ad-9500-5cdff095932b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/assets/6e76fa51-f71c-43ad-9500-5cdff095932b/original",
+              "label": "Original File - 46.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>cash or any other way so as you are wishing.<lb/> We will so we hope are able to sell\n                with <add>?</add><lb/><add>?</add> of your Editions.</p>\n            <p>What is the cheapest way to receive your good<lb/> from\n                        <placeName><sic>philadelphia</sic></placeName>?</p>\n            <p>The maybe that I will send from time to time<lb/> some articles for your Occident.\n                (There is many<lb/> in the messenger of my hand) will you correct<lb/> my English? I\n                am not the best <sic>scolar</sic>.</p>\n            <p rend=\"indent(1)\">You will very much oblige with to take<lb/> information and to send\n                your worthy answer<lb/> to your <sic>respectfll</sic> Servant</p>\n            <p rend=\"indent(2)\">\n                <persName role=\"author\">Morr. Costez</persName>\n            </p>\n            <p rend=\"indent(1)\">of <persName>Costez &amp; Guttmann</persName></p>\n            <p rend=\"indent(1)\">\n                <hi rend=\"underline\">Booksellers</hi>\n                <placeName>94 Chath. Street</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w59t/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

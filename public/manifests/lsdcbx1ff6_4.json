@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Hart, Isaac; Leeser, Isaac, Rev.; New Orleans, LA; 18 January 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3jw8742m"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Hart, Isaac; Leeser, Isaac, Rev.; New Orleans, LA; 18 January 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Hart, Isaac", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-01-18"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Louisiana -- New Orleans",
+        "United States -- Louisiana",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_4"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/916c9513-e996-4ca2-9db4-eafe5179e00c%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/916c9513-e996-4ca2-9db4-eafe5179e00c%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5672,
+          "width": 4590,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/916c9513-e996-4ca2-9db4-eafe5179e00c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4590,
+                "height": 5672,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/916c9513-e996-4ca2-9db4-eafe5179e00c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/assets/916c9513-e996-4ca2-9db4-eafe5179e00c/original",
+              "label": "Original File - 78.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>New Orleans</placeName>\n                                        <date>Jany 18, 1849</date>\n                              </p>\n                              <p>\n                                        <addressee>Isaac Leeser Eq </addressee>\n                              </p>\n                              <p rend=\"indent(2)\">Revd &amp; dear Sir</p>\n                              <p>For some days past I have been<lb/> very unwell The cholera\n                                        attacked<lb/> me very hard but thanks to a Divine<lb/>\n                                        Providence I am again restor'd<lb/> to Health &amp; at your\n                                        Service<lb/> I instructed my Book Keeper<lb/> to answer your\n                                        Last Letter, which<lb/> he informs me he did. I must\n                                        here<lb/> confirm his words, vz, some of those<lb/> Books\n                                        are not only Insured but<lb/> appear to have been used.</p>\n                              <p>Its strange not one of the members<lb/> of the Portuguese\n                                        Congregation<lb/> seem willing to buy any of your<lb/>\n                                        <sic>Preyer</sic> Books. now I presume<lb/> If there was\n                                        none here they would<lb/> be forwarding their Orders to\n                                        you<lb/> or elsewhere for various Books<lb/> yet here they\n                                        are &amp; not a soul<lb/> needs them. I am happy to\n                                        inform<lb/> you the <add>?</add>etcher Books are moving<lb/>\n                                        I sent <persName>Emanuel Mobile</persName> 1 Doz Four<lb/>\n                                        of each price &amp; have left 7 c2.75—11 c 2 50</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5672,
+          "width": 4590,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d5b3e06-04b4-4de7-9efb-9f71b7423c2c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4590,
+                "height": 5672,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d5b3e06-04b4-4de7-9efb-9f71b7423c2c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/assets/8d5b3e06-04b4-4de7-9efb-9f71b7423c2c/original",
+              "label": "Original File - 78.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>&amp; 4 c $3.00—these Books will sell<lb/> here all the year round.\n                                        I see them<lb/> at your Invoice price</p>\n                              <p>I was notified by <persName>Barnett</persName>\n                                        <add>?</add><lb/> &amp; a <persName>De Young</persName> (not\n                                        positive of the latter)<lb/> that the <date>December</date>\n                                        No of the<lb/> Occident did not reach them<lb/> but the\n                                                  <date>January</date> Number<lb/> is at hand &amp;\n                                        I have waited<lb/> on the two first Gentlemen &amp;<lb/>\n                                        find they are in receipt of their<lb/> number for this\n                                        present<lb/> month.</p>\n                              <p rend=\"indent(1)\">I beg to return you<lb/> for my most Sincere\n                                        thanks<lb/> for your notice of our Loan<lb/> on Whole\n                                        Congregation will feel<lb/> themselves your Debtors. The\n                                                  <persName>Revd Mr Carrolina</persName> has\n                                        now<lb/> been here some time endeavouring<lb/> to obtain the\n                                        office of Reader to<lb/> the Portuguese Congregation<lb/> It\n                                        is still expected <persName>Mr Nathan</persName> will<lb/>\n                                        come but should he decline<lb/> the <persName>Revd\n                                                  Carrolina</persName> will not\n                                        <sic>suceed</sic><lb/> He is very unpopular—</p>\n                              <p>I have given to <persName>Joseph Turner</persName><lb/> the Numbers\n                                        1c10 of this Volume<lb/> of the Occident. send him the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5672,
+          "width": 4590,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b216b307-aa32-4ab6-966f-37fb66a2f800%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4590,
+                "height": 5672,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b216b307-aa32-4ab6-966f-37fb66a2f800%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/assets/b216b307-aa32-4ab6-966f-37fb66a2f800/original",
+              "label": "Original File - 78.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>next number when it comes out<lb/> (<date>February</date>) &amp;\n                                        send me the 10 numbers I give<lb/> to Him. add his name to\n                                        your List<lb/> of subscribers. I will collect their\n                                        money<lb/> &amp; with what I trust soon to be<lb/> enabled\n                                        to send you from the sale<lb/> of your Books I will add the\n                                        amount<lb/> of those subscribers I have obtained<lb/> I\n                                        shall obtain all the subscribers I<lb/> possibly can &amp;\n                                        now Sir I must<lb/> come to a hasty conclusion<lb/> Pardon\n                                        this scrawl my Business<lb/> occupying so much of my time\n                                        gives<lb/> me but a few moments to private<lb/>\n                                        correspondence</p>\n                              <p rend=\"indent(2)\">Believe me to</p>\n                              <p rend=\"indent(2)\">remain your</p>\n                              <p rend=\"indent(2)\">Sincere Well Wisher</p>\n                              <p rend=\"indent(3)\">\n                                        <persName role=\"author\">Isaac Hart</persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3jw8742m/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

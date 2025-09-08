@@ -1,0 +1,292 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Sola, Abraham de; November 24, 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p39883d25"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter to Isaac Leeser from Sola, Abraham de; November 24, 1847"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Sola, Abraham de (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-11-24"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["4 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Montréal (Québec)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF4_18", "ilcajs_b1f4_0020"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/4bc253a5-798b-449f-8318-d25bbb2ed794%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/4bc253a5-798b-449f-8318-d25bbb2ed794%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5830,
+          "width": 4444,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4bc253a5-798b-449f-8318-d25bbb2ed794%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4444,
+                "height": 5830,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4bc253a5-798b-449f-8318-d25bbb2ed794%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/assets/4bc253a5-798b-449f-8318-d25bbb2ed794/original",
+              "label": "Original File - 77.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>1 Presde Ville Place</placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <placeName>Montreal</placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <date>Nov 24 1847</date>\n                              </p>\n                              <p>\n                                        <addressee>Rev Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">My dear Friend</p>\n                              <p rend=\"indent(3)\">You flatter me much when you say<lb/> you will be\n                                        happy to count me among the few you favor with<lb/> an\n                                        interchange of communication. Though I am pleased to stand\n                                        in<lb/> correspondence with the <persName>Rev Isaac\n                                                  Leeser</persName> Minister of the\n                                                  <sic>Portugese</sic> Israelites<lb/> in\n                                                  <placeName>Philadelphia</placeName> I am much more\n                                        pleased to communicate with the Editor<lb/> of the Occident,\n                                        and the author of the \"Jewish Discourses,\" and of the\n                                        \"Mosaic<lb/> Law\" If therefore I am at any time not to\n                                        remedy in answering your favors<lb/> as this feeling would\n                                        prompt, do not impute it to neglect but to its<lb/> true\n                                        cause inability. It has been inability that has prevented my\n                                        answering<lb/> yours of the <date>16th</date> till the\n                                        present moment, and it has been inability that<lb/> has\n                                        forbidden my sending you by opportunity of <persName>Mr\n                                                  Joseph</persName> an article which<lb/> I have but\n                                        just now been able to commence, and which I promised\n                                        you<lb/> in my last. I know not whether it will suit the\n                                        Occident, because<lb/> although a Jewish subject, it is\n                                        likely to prove more interesting to the readers<lb/> of a\n                                        British Periodical, it may be called an Essay or\n                                                  <sic>Enquiry</sic> into the first<lb/> settlement\n                                        of Jews in <placeName>England</placeName>. When in\n                                                  <placeName>London</placeName> I took some little\n                                        trouble<lb/> in collecting materials for the subject and in\n                                        the above form they<lb/> are much at the service of yourself\n                                        and of the readers of the Occident<lb/> Please let me know\n                                        by earliest opportunity whether you [?] to<lb/> receive it.\n                                        I would have sent you sermon for publication but<lb/>\n                                        suppose that even now you would be unable to insert it\n                                        from<lb/> the number you have on hand. Will my father's be\n                                        among those<lb/> you intend publishing. English news would\n                                        lead one to believe</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5830,
+          "width": 4444,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/10d8c8fa-fade-445d-afc6-41abf003bb94%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4444,
+                "height": 5830,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/10d8c8fa-fade-445d-afc6-41abf003bb94%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/assets/10d8c8fa-fade-445d-afc6-41abf003bb94/original",
+              "label": "Original File - 77.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>that its remarks are as pertinent now as when delivered. News\n                                        from<lb/> here I can send you but little, A friend who\n                                        lately paid us a visit, and still<lb/> more lately visits\n                                                  <placeName>Philadelphia</placeName> (I believe) is\n                                        pleased to say \"altho we Canadians do not<lb/> form (here)\n                                        one of the largest and most influential congregations we\n                                        prove that<lb/> we sufficiently understand what is [?] to\n                                        the respectability of Synagogue worship<lb/> \"The building\n                                        is most striking for its very neat pretty appearance, marked\n                                        decorum<lb/> pervaded the assembled, and an utter absence of\n                                        that boisterousness, sometimes<lb/> unfortunately prevailing\n                                        in our larger Synagogues was observable xxx The prayers<lb/>\n                                        were read by the [Hebrew] <add>[?]</add> with an apparent\n                                        desire to avoid that style which<lb/> reminds one so much of\n                                        the opera and which for time and place is alike<lb/>\n                                        objectionable xxxx It must be highly gratifying to you to\n                                        know that your<lb/> discourses, and general services as\n                                        reader and teacher are highly spoken of (dont[?]<lb/> you\n                                        think dear friend I have some excuse if I grow vain?) My\n                                        friend ([?]) continues,<lb/> But what pleased me most was to\n                                        see your pupil (Mouther[?] I <persName>Ascher the son<lb/>\n                                                  of the Parnass</persName>) called us\n                                                  <persName>Maphlir[?]</persName>, The very correct\n                                        and pleasing name of<lb/> his reading afforded me much\n                                        pleasure.\" If you wish to give us all a fond<lb/> character\n                                        here you can insert it in your news Items. The name of the\n                                        writer (tho'<lb/> perhaps known to you shall be provided if\n                                        you require it editorially tho'<lb/> I am not sure he would\n                                        like it (his name) to appear in the Occident for All he says\n                                        is–\"If<lb/> you choose, write <persName>Mr Leeser</persName>\n                                        what a <hi rend=\"underline\">first rate</hi> character\n                                        stranger gives<lb/> you.\" All the news I can give you of us\n                                        (should you pronounce that <hi rend=\"underline\">no</hi><lb/>\n                                        news) is that our Parnas is <persName>Mr Ascher</persName>\n                                        whose inde[?]able services as Parnas, and<lb/> whose jealous\n                                        endeavors to promote the welfare and quiet of the\n                                        community<lb/> with his <sic>colleage</sic>\n                                        <persName>Dr David</persName>\n                                        <del>the</del> President are mentioned by all in the\n                                        highest<lb/> terms. They all have been unanimously\n                                        re-elected. The formation[?] of the new Board of Trustees\n                                        has <del>also</del> caused general satisfaction<lb/> among\n                                                  <del>to</del> the members. These are\n                                                  <persName>Messrs S. Benjamin</persName>,\n                                                  <persName>Simon Hart</persName>, and\n                                                  <persName>Jesse Joseph</persName>,<lb/> Treasurer\n                                                  <persName>John Levy</persName> (re-elected) and\n                                                  <persName>Levy Myer Solomons</persName> (also\n                                        re-elected.) During<lb/> the late summer an unprecedented[?]\n                                        number of German Jewish Emigrants visited<lb/>\n                                        <placeName>Canada</placeName>, Indigent, and in many cases\n                                        sick! They provide most services<lb/> drain on the funds of\n                                        our Infant Philanthropic Society, About Thirty<lb/>\n                                        unfortunate persons many with families besides one\n                                        noatbly[?] pensioner, were<lb/> recipients. On [?] that the\n                                        committee contemplated a Benefit Ball<lb/> but have not yet\n                                        held any [?] of [?]. Should they determine<lb/> upon this,\n                                        they will no doubt make it known in the Occident.<lb/> This\n                                        dear friend is all the news I can scrape together\n                                        concerning<lb/> our precious selves, and I have preferred\n                                        giving you most of it as<lb/> an \"Extract from a private\n                                        communication\" because if I had myself</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 5830,
+          "width": 4444,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/111acbae-fbad-4a2e-86d8-ed2028266e23%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4444,
+                "height": 5830,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/111acbae-fbad-4a2e-86d8-ed2028266e23%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/assets/111acbae-fbad-4a2e-86d8-ed2028266e23/original",
+              "label": "Original File - 77.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>undertaken to \"give characters\" I should altho' finding much to\n                                        praise<lb/> still find a little to censure–But to other\n                                        matters. I received last<lb/> week a letter from my friend\n                                                  <persName>D Benisk</persName> now Editor of the\n                                        Voice of Jews<lb/> He writes me that it is to be\n                                        considerably enlarged and the whole to be<lb/> under his\n                                        management. This last would imply, strange fingers in the\n                                        Free<lb/> and I think this has been the case with the late\n                                        [?] articles contend<lb/> in the Voice. In a letter received\n                                        from my father the same mail he writes<lb/> \"I hear that it\n                                        is the intention of your friend <persName>Mr\n                                                  Leeser</persName> to visit old<lb/>\n                                        <placeName>England</placeName>–Do you know whether this is\n                                        really the case, I should be most<lb/> happy to have it in\n                                        my power to exercise my great esteem for him.\"<lb/> What am\n                                        I to reply, dear friend? I hear this for the fist time.\n                                        He<lb/> encloses me a prospectus of\n                                                  <persName>Mayer's</persName> projected\n                                        publication–What do<lb/> you think of this. There is no\n                                        doubt I should say that as far as abilities,<lb/> Rabbinical\n                                        and general knowledge so, there is not a man, christian or\n                                        Jew<lb/> who is better able to answer <persName>Mr\n                                                  C[?]</persName> than this said\n                                                  <persName>Hoya</persName>. As a<lb/> Hebraist he\n                                        has not I firmly believe his equal. Witness his\n                                        [Hebrew]<lb/> and Hebrew Translation of <persName>Mr\n                                                  Cauls</persName> Old Paths. Some attribute<lb/>\n                                        the Heb version of the Christian Common Prayer to him but\n                                        looking<lb/> at the style of that sublime composition I\n                                        should doubt this much<lb/> His last articles too in the\n                                                  <placeName>London</placeName> Jewish Chronicle\n                                        are–to make<lb/> use of a mysterious old saying \"not to be\n                                        sneezed at. I am more<lb/> anxious to see his 1st no. The\n                                        [?] of state [?] I suppose has<lb/> retired purposely to\n                                        make room for the \"faithful missionary\" who<lb/> will\n                                        doubtless occupy much room on the tables of the\n                                        religious<lb/> reading world, but the Jewish Christian,\n                                        altho' the same apathy<lb/> unfortunately exist to [?]\n                                        [Hebrew] here, as on the subject of an<lb/> efficient\n                                        ministry. With respect to this last the observation<lb/> of\n                                        my father very often seems occurs to me. He very dryly\n                                        observed one day<lb/> \"The [Hebrew] to sail them must be\n                                        [Hebrew] [?]\"<lb/> and I think he is right. But I sincerely\n                                        hope this unhealthy<lb/> state of things will give way to\n                                        more worthy [?] notions<lb/> It has done so in many cases\n                                        let us hope that its <sic>observence</sic><lb/> will soon be\n                                        universal.</p>\n                              <p>I informed <persName>Mrs Ascher</persName> of your invitation not\n                                        to charge for<lb/> the nos, and she denies to acknowledge\n                                        your politeness–</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 5830,
+          "width": 4444,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f282655-7b7b-44a1-9179-0eb3f80e303e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4444,
+                "height": 5830,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f282655-7b7b-44a1-9179-0eb3f80e303e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/assets/9f282655-7b7b-44a1-9179-0eb3f80e303e/original",
+              "label": "Original File - 77.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>So you are a reformer. I have not yet seen your\n                                                  <date>November</date> number<lb/> but doubt well\n                                        that the reforms there propounded will shock<lb/> orthodox\n                                        susceptibility but little, and that they are of a\n                                        practiced<lb/> and [?]. I too am a reformer as far as\n                                        endeavours<lb/> which I believe to be <hi rend=\"underline\"\n                                                  >consistent</hi> and legal, in improving the\n                                        manner<lb/> of Synagogue worship are concerned. I don't\n                                        think the cause of<lb/> orthodoxy would suffer much did\n                                        conservative Synagogues introduce<lb/> quiet respectability\n                                        in their services. Orthodoxy by nature<lb/> by age, and by\n                                        character is respectable. Absurd and inconsistent<lb/>\n                                        novelty in the Synagogue is disrefutable in its very\n                                        essence<lb/> and it appears therefore a serious cruel\n                                        anomaly that while<lb/> all that care [?] devotional\n                                        feelings prevail in the new [?]<lb/> in the old, very much\n                                        that is calculated to excite disgust<lb/> worldly and impure\n                                        feelings is there observable. But my dear<lb/> friend\n                                        [Hebrew], continue to sound in the unwilling ears<lb/> of\n                                        the [Hebrew], and [?] success <hi rend=\"underline\">must</hi>\n                                        one day follow.</p>\n                              <p rend=\"indent(1)\">\"Prata albicaul camis friunis\" Our Canadian\n                                        winter<lb/> approaches in the shape of a few slight snow\n                                        storms. See too<lb/> looks more plentiful in the streets\n                                        than it did in summer, But<lb/> with all its severity\n                                        speaking from last winters experienced<lb/> I like the\n                                        winter here much. There is a [?] the cold [?]<lb/> clearness\n                                        of atmosphere that renders the season here much more<lb/>\n                                        agreeable and healthy than in\n                                        <placeName>London</placeName>.</p>\n                              <p rend=\"indent(1)\">I must now bid you good bye dear friend for<lb/>\n                                        the present. Hoping you will write me very soon, and<lb/>\n                                        [?] and that you may receive this [Hebrew]!</p>\n                              <p rend=\"indent(6)\">I am My dear Friend</p>\n                              <p rend=\"indent(6)\">Yours very sincerely</p>\n                              <p rend=\"indent(6)\">\n                                        <persName role=\"author\">Abraham deSola</persName>\n                              </p>\n                              <p><persName>Mrs Joseph</persName> daughters desire</p>\n                              <p>me to remember them to you</p>\n                              <p>with comforts.</p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39883d25/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

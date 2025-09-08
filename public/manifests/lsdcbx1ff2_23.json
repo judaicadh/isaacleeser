@@ -1,0 +1,191 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Bush, Isidor; January 26, 1844",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3bn9xv3w"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Bush, Isidor; January 26, 1844"]
+    },
+    {
+      "label": "Name",
+      "value": [
+        "Leeser, Isaac (contributor)",
+        "Bush, Isidor, 1822-1898 (creator)"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": ["1844-01-26"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Saint Louis (Mo.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF2_23", "ilcajs_b1f1_0018"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/267e9051-36bb-4026-b542-8bb4f7bbcf82%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/267e9051-36bb-4026-b542-8bb4f7bbcf82%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5880,
+          "width": 4656,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/267e9051-36bb-4026-b542-8bb4f7bbcf82%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4656,
+                "height": 5880,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/267e9051-36bb-4026-b542-8bb4f7bbcf82%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/assets/267e9051-36bb-4026-b542-8bb4f7bbcf82/original",
+              "label": "Original File - 82.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>St Louis</placeName>\n                                        <date>Jan 26<hi rend=\"sup\">th</hi> 5604</date>.</p>\n                              <p>Dear Sir!</p>\n                              <p rend=\"indent(1)\">The Directors of our Bnai-El Congregation,\n                                        elected<lb/> at our last annual meeting, whose names you\n                                        will see by the<lb/> enclosed list, have directed me to send\n                                        you our subscriptions<lb/> List and to express to you their\n                                        hope, that you will exert<lb/> yourself in behalf of our\n                                        purpose; thus far we have succeeded<lb/> in getting a pretty\n                                        good subscription here and if a little more<lb/> can be\n                                        collected we will soon be able to go to building</p>\n                              <p rend=\"indent(1)\">Though there is frequently but little gained if\n                                        there stands<lb/> a <sic>beautifull</sic> house dedicated to\n                                        the service of God it is of<lb/> great moment for our people\n                                        here.</p>\n                              <p>As you will have perceived during your last visit to this city\n                                        and<lb/> by your editorial experience, the interest which is\n                                        felt or<lb/> manifested here for our religion, our\n                                        literature c is far below<lb/> that of any other place in\n                                        proportion to its great <sic>jewish</sic><lb/> population,\n                                        but it is no utopian hope, that if a respectable<lb/>\n                                        Synagogue is soon built, many who do not belong now to<lb/>\n                                        any <sic>israel</sic>. Congregation will join us, and so\n                                        will probably the<lb/> others, now inactive congregation,\n                                        either as a whole or as indivi<lb/>duals; more interest will\n                                        then be felt in our affairs and from<lb/> this a better\n                                        future may be anticipated.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5808,
+          "width": 4680,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/86f094fe-8525-4919-9ab4-13b3a0af6200%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4680,
+                "height": 5808,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/86f094fe-8525-4919-9ab4-13b3a0af6200%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/assets/86f094fe-8525-4919-9ab4-13b3a0af6200/original",
+              "label": "Original File - 81.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>The lot we bought from <persName>Mr Jacobs</persName> for the\n                                        Synagogue was sold<lb/> by the same far below its real\n                                        value, in consideration of its<lb/> purpose, it has a front\n                                        of 70 feet (by 75 in depth) its location is<lb/> central and\n                                        it is our plan to erect a plain but handsome building,<lb/>\n                                        the cost of which shall not exceed $6000 including fixtures,\n                                        and<lb/> it shall at the same time have school Rooms for\n                                        religious instruction.</p>\n                              <p rend=\"indent(1)\">Any contribution, small as the amount may be, will\n                                        therefore be<lb/> thankfully received and be of great\n                                        benefit towards a speedy<lb/> accomplishment of these\n                                        designs.</p>\n                              <p rend=\"indent(1)\">I do not think of anything else that might be of\n                                        interest<lb/> for you, except that some of our Israelites,\n                                        though foremost<lb/> in contributing for the relief of the\n                                        suffering emigrants<lb/> desained[?] as and about\n                                                  <placeName>Cairo</placeName> by [?]ce, have made\n                                        among themselves<lb/> besides this an extra collection and\n                                        handed $100.00 as<lb/> a present of a Jewish society for the\n                                        same purpose to the<lb/> mayor of this city.</p>\n                              <p rend=\"indent(1)\">With feelings of confidence in your zeal that\n                                        will<lb/> leave this call go lost, and with the assurance\n                                        of<lb/> my perfect esteem and affection</p>\n                              <p rend=\"indent(4)\">Yours</p>\n                              <p rend=\"indent(5)\">\n                                        <persName role=\"author\">Isidor Bush</persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bn9xv3w/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

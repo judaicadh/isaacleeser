@@ -1,0 +1,601 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p38912b3q"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Philadelphia, PA; undated"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "6 pages on 12 sheets",
+        "LSJesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item92"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/18a7d7d0-5d3e-46b1-85d2-fb8a1f2112f3%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/18a7d7d0-5d3e-46b1-85d2-fb8a1f2112f3%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 7106,
+          "width": 4726,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/18a7d7d0-5d3e-46b1-85d2-fb8a1f2112f3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4726,
+                "height": 7106,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/18a7d7d0-5d3e-46b1-85d2-fb8a1f2112f3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/18a7d7d0-5d3e-46b1-85d2-fb8a1f2112f3/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">1</p>\n            <p rend=\"align(center)\">The Congregation Beth Elohim of\n                    <placeName>Charleston</placeName>.</p>\n            <p>No 6 full price</p>\n            <p>The attention of the Jewish Public being directed to the<lb/> movement of this\n                congregation, we beg leave to lay before them<lb/> a statistical and comprehensive\n                sketch of the part and parsing<lb/> events which have agitated and are now agitating\n                this body.</p>\n            <p>At the period when the <persName>Rev Y Posnanski</persName> was elected for a\n                probationary term of two years Hazan of the<lb/> K. K. B. E. it was one of the most\n                Orthodox, Religious, &amp; <sic>Charatable</sic><lb/> in the <placeName>United\n                    States</placeName>.—after the expiration of one year. The Congregation<lb/> in\n                consideration of his ardent zeal in the cause of our holy Religion<lb/> his piety\n                and conformation to all the laws both Mosaic and<lb/> Rabbinical, Elected him for\n                life.</p>\n            <p rend=\"indent(1)\">As soon as this event took place a course diametrically<lb/>\n                opposite was immediately pursued by <persName>Mr Poznanski</persName>, which<lb/>\n                was the cause of the disastrous outbreak in <date>1841</date>, when upwards<lb/> of\n                Forty of the <del>oldest</del> most <sic>consciensious</sic> and <del>most</del>\n                strictly conservative members were<lb/> scrupulously compelled to <del>resign</del>\n                withdraw, (among whom were<lb/> the founders of the congregation) and to leave in\n                the power of<lb/> its rulers not only that Sacred Edifice which was identified\n                with<lb/> many Holy associations, but <sic>but</sic> were denied any participation\n                in the management of the Kyrankyamits<lb/> Fund to which they had largely\n                contributed until it had<lb/> accumulated to the Sum of $25.000. the Interest of\n                which<lb/> was appropriated to support the very individual who by his<lb/> arbitrary\n                and anti Jewish Conduct cause another dispersion<lb/> in\n                    <placeName>Israel</placeName>, and depriving the aged supporters of the\n                Congregation<lb/> their Venerable matrons and their children, not only of a\n                place<lb/> of worship but also of the <sic>priveledges</sic> of Sepulture, for\n                imme-<lb/>-diately upon their withdrawal, the constitution of the KKBE.<lb/> was\n                amended as follows “Any Subscriber Yehid, or member<lb/> of this Congregation, male\n                or Female who shall habitually<lb/> attend <hi rend=\"underline\">Divine</hi> service\n                at any other place of worship within<lb/> the city than that of the KKB.E. or\n                subscribe there to as<lb/> members or Yeshidim shall be charged annually One\n                Hundred<lb/> Dollars” We do not deem any comment necessary.</p>\n            <p rend=\"indent(1)\">The Congregation remained in a lethargic state until<lb/> its second\n                Revolution in <date>1843</date>, which involved it in an</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 7062,
+          "width": 4578,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c9872c91-8ca4-49fb-80d6-d487184d34e7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4578,
+                "height": 7062,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c9872c91-8ca4-49fb-80d6-d487184d34e7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/c9872c91-8ca4-49fb-80d6-d487184d34e7/original",
+              "label": "Original File - 97.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 7106,
+          "width": 4726,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ae378864-0f51-4288-b973-ebded0f81c42%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4726,
+                "height": 7106,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ae378864-0f51-4288-b973-ebded0f81c42%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/ae378864-0f51-4288-b973-ebded0f81c42/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">2</p>\n            <p>expensive and tedious have Suit, and ended in the withdrawal<lb/> of about 25\n                members, who were opposed to the abrogation<lb/> of the 2<hi rend=\"sup\">nd</hi> Day\n                of the <sic>Hollidays</sic> and other innovations suggested<lb/> by <persName>Mr\n                    Posnanski</persName>. This Event caused a great deal of unhappiness<lb/> and\n                dissensions among families who had hitherto lived in<lb/> peace and Friendship,\n                    <sic>untill</sic> the advent of <persName>Mr Posnanski</persName><lb/> and the\n                promulgation of his new doctrines. These<lb/> Twenty Five joined with those who had\n                withdrawn in <date>1841</date>.<lb/> The K K B.E. Is now threatened with a third,\n                and probably,<lb/>\n                <del>a</del> final dissolution, when this event takes place—and<lb/> of its near\n                approach, indications never were more preferable—<lb/> it will, no doubt, cause the\n                overthrow forever of the un-<lb/>-hallowed and vain panoply of power with which its\n                present<lb/> Rulers are invested.</p>\n            <p rend=\"indent(1)\">It numbers at this time about Forty Members and<lb/> is divided into\n                two parties whom we shall call, for the<lb/> sake of distinction, Radical and\n                Conservative. Their<lb/> present minister the <persName>Rev Julius\n                Eckman</persName>, was elected<lb/> about Eleven months ago (<persName>Mr\n                    Poznanski</persName> having resigned),<lb/> on a probationary term of two years.\n                This Gentleman<lb/> is a regularly ordained <add>רב מורה בישראל</add> (and\n                empowered) by virtue of<lb/> a Diploma honorably conferred on him, under the\n                seals<lb/> of the Rabbinates of <placeName>Berlin</placeName> and\n                    <placeName>Prenzlaw</placeName> (which are<lb/> two of the greatest acknowledged\n                authorities of <placeName>Europe</placeName>) and was duly prepared<lb/> by an\n                examination at the Royal Fredrick Willhelm<lb/> College at\n                    <placeName>Berlin</placeName>, and by his having been a Civis Universitatis<lb/>\n                Berolinensis rite inscriptus, for the space of five years. He was<lb/> elected, <hi\n                    rend=\"underline\">contrary</hi> to his expectations as he had expressed<lb/>\n                himself to all those who called on him previous to that<lb/> time as being entirely\n                opposed to the principles <del>of</del> avowed by their<lb/> late Hazan, and in his\n                Inaugural address he express-<lb/>edly told <del>them</del> the congregation that he\n                appeared before them simply<lb/> as a teacher in <placeName>Israel</placeName> and\n                objected to being considered<lb/> their spiritual Head.</p>\n            <p rend=\"indent(1)\">The cause of the division unto two parties of such</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 7106,
+          "width": 4726,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c459c797-ae64-4557-a5fe-d647dc1bc16e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4726,
+                "height": 7106,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c459c797-ae64-4557-a5fe-d647dc1bc16e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/c459c797-ae64-4557-a5fe-d647dc1bc16e/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 7106,
+          "width": 4726,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/532e7a7c-8495-46f4-9e03-93034660ddb0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4726,
+                "height": 7106,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/532e7a7c-8495-46f4-9e03-93034660ddb0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/532e7a7c-8495-46f4-9e03-93034660ddb0/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">3</p>\n            <p>opposite extremes originated as follows. The <persName>Revd Dr<lb/> Eckman</persName>\n                from repealed conversations <del>from</del> on his first arrival<lb/> with\n                    <persName>Mr Posnanski</persName> and from personal observations\n                afterwards,<lb/> found that all positive religion <del>had fallen into Decay</del>\n                was rejected<lb/> no religious instruction was communicated in the synagogue<lb/>\n                (as <persName>Mr Posnanski</persName> did not lecture) prophecy was denied,\n                hence<lb/> the denial of all that is <del>Dogmatical</del> Doctrinal and National.\n                The<lb/> non observance of the Law not only passively connived at,<lb/> but he\n                exposed some Laws that might offend our<lb/> modern delicacy, to the view of his\n                adherents the more<lb/> effectually to prove there was no <sic>nescessity</sic> for\n                observing them<lb/> his request to <persName>Dr. E.</persName> to preach against the\n                    <sic>Rabbies</sic> and<lb/> all observances whither Biblical or Rabbinical and\n                his acknowledgment to him<lb/> that it was of no consequence where the bible came\n                from<lb/> convinced <persName>Dr Eckman</persName> of <persName>Mr\n                    Posnanskis</persName>\n                <del>rank</del> daring Infidelity,<lb/> as <persName>Mr Newman</persName> calls it.\n                    <persName>Dr Eckman</persName> kept silent<lb/>\n                <sic>untill</sic>\n                <date>Yom Kipur</date> when <persName>Mr Posnanski</persName> was called to<lb/>\n                take part in the sacred functions of that day. This <persName>Dr<lb/>\n                    Eckman</persName>, as an honest man, could not consent to<lb/> and\n                    <sic>and</sic> privately remonstrated with <persName>Mr Posnanski</persName> on\n                the great<lb/> crime of Profanation. <persName>Mr Poznanski</persName> replied,\n                that<lb/> he not only did not believe <del>the <date>Yom Kipur</date></del> these\n                prayers,<lb/> but he detested them, whereupon <persName>Dr Eckman</persName><lb/>\n                denounced him to the Parnass. Not only as an Infidel<lb/> but inimically disposed to\n                the very Institution of<lb/> Judaism, and positively refused to take any part<lb/>\n                in the service of that day. The Personal friends<lb/> of <persName>Mr\n                    Posnanski</persName> immediately arrayed themselves in<lb/> open hostilities\n                against <persName>Dr Eckman</persName> and have waged them <sic>untill</sic> the\n                present<lb/> time. The great Injustice of this <del>course</del> persecution being\n                so<lb/> evident to the public, and <persName>Dr. Eckmans</persName> straight<lb/>\n                German course in the cause of Religion and Truth<lb/> has drawn to his Standard of\n                True Faith a large<lb/> number of the most respectable and intelligent members of\n                the congregation*<lb/> The Radical or <persName>Posnanski</persName> party numbers\n                exactly Eighteen<lb/>\n                <del>*among whom we mention <persName>Mr Joshua Lazarus</persName> the Prest of the\n                    congregation and <persName>Mr M C Mordecai<add>?</add></persName>,<lb/> both so\n                    honorably named in your last number.</del></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 7106,
+          "width": 4726,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c433f385-380a-4e96-a1aa-901b9088bbcc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4726,
+                "height": 7106,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c433f385-380a-4e96-a1aa-901b9088bbcc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/c433f385-380a-4e96-a1aa-901b9088bbcc/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 7106,
+          "width": 4726,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a7888d81-9bf0-4a1c-807d-44dc076c7602%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4726,
+                "height": 7106,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a7888d81-9bf0-4a1c-807d-44dc076c7602%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/a7888d81-9bf0-4a1c-807d-44dc076c7602/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">4</p>\n            <p>the Conservative party Fifteen members and four Congregators<lb/> the remaining\n                    <del>8 or 9 members</del> Eight or nine, are<lb/> indisposed to take any part in\n                Congregational affairs.<lb/>\n                <del>altho we believe they convinced of the fallacious<lb/> ideas they have recently\n                    entertained on Religious subjects.</del></p>\n            <p rend=\"indent(1)\">The public denunciation of the creed By <persName>Dr\n                    Eckman</persName> at the Tabernacle<lb/> Lecture Room some weeks ago; as being\n                anti Jewish, and as<lb/> having been surreptitiously introduced in the\n                Synagogue,<lb/> gave publicity to the following facts viz.</p>\n            <p>The Building Committee received instructions from the<lb/> congregation to have “Our\n                Creed <hi rend=\"underline\">translated</hi> and placed<lb/> in the synagogue; and\n                recommended the <del>services</del> assistance of their<lb/> Hazan the\n                    <persName>Rev. G Posnanski</persName> for that purpose, the committee<lb/>\n                accordingly informed that Gentn of the wishes of the<lb/> congregation, to which he\n                assented, and <del>they subsequently</del> this prepared<lb/>\n                <del>received from him</del> creed was placed in the synagogue as Our „the\n                Maimonidian” creed<lb/>\n                <del>that which is now placed in the synagogue</del> It contains<lb/> like that of\n                    <persName>Maimonides</persName> thirteen articles <del>of I</del> and<lb/>\n                purports to be “Elements of Jewish Faith.”</p>\n            <p rend=\"indent(1)\">This committee, with the exception of <persName>Mr\n                    Posnanski</persName>, with fearless <sic>magninimity</sic>, have<lb/> recently\n                expressed, that they have no <sic>pretentions</sic> to<lb/> Biblical or Rabbinical\n                Lore, that they never supposed<lb/> that <del>it</del> this creed aimed a blow at\n                the very vitals of Judaism,<lb/> they received <del>this creed</del> it in full\n                faith of its really<lb/> being, that which the congregation requested them to<lb/>\n                procure viz a translation of “<hi rend=\"underline\">our</hi> the Maimonidian<lb/>\n                Creed and if it <hi rend=\"underline\">were</hi> any thing else, it was <hi\n                    rend=\"underline\">not</hi><lb/> the acknowledged creed of the congregation;<lb/>\n                a Public meeting of the Sunday School attached<lb/> to the K K B.E. under the sole\n                control of the Ladies<lb/> of the Congregation, was convened soon after this\n                and<lb/> the creed which had hitherto been taught, was rejected<lb/> and forever\n                expelled from school <del>by a vote of 25 to 3</del>.<lb/> It would not be out of\n                place here to answer <del>“C” a</del><lb/> the objections <del>which</del> of “C” in\n                the last “Occident” to<lb/> the views</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 7106,
+          "width": 4726,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c255b06f-f9b4-47a2-b565-b03a10bff05f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4726,
+                "height": 7106,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c255b06f-f9b4-47a2-b565-b03a10bff05f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/c255b06f-f9b4-47a2-b565-b03a10bff05f/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 7106,
+          "width": 4726,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/64cbbd9c-bdea-4e26-8c08-557b38e76dd9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4726,
+                "height": 7106,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/64cbbd9c-bdea-4e26-8c08-557b38e76dd9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/64cbbd9c-bdea-4e26-8c08-557b38e76dd9/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">5</p>\n            <p><persName>Mr Newman</persName> takes (on his <del>anima</del> criticism of this\n                creed) of the substitution of the Divine<lb/> Law handed by\n                    <persName>moses</persName> to our Fathers” for the Universal<lb/> believe (and\n                    <hi rend=\"underline\">correct translation of</hi>\n                <persName>Maimonides</persName>). “that the<lb/> Law was <del>given</del> delivered\n                unto <persName>Moses</persName> by God,” <del>I</del><lb/> The only article of Faith\n                necessary for any believer<lb/> is that of <add>תורה מן השמים</add> if this is\n                admitted <del>then</del> the<lb/> other two propose by “<persName>Albo</persName>,”\n                and the Twelve according to<lb/>\n                <persName>Maimonides</persName>, follow of themselves, as the<del>re</del>\n                whole<lb/> Bible is there acknowledged to be given by God<lb/>\n                <del>to</del> and all the contents binding, but this very<lb/> article is distorted\n                and rendered inane by<lb/> the alteration introduced in article 8<hi rend=\"sup\"\n                    >th</hi> where<lb/> instead of the Universal belief that the Law was<lb/>\n                delivered to <persName>Moses</persName> by God, it is in <persName>Mr\n                    Posnanskis</persName><lb/> creed only considered as a divine Law delivered<lb/>\n                by <persName>Moses</persName> unto our Fathers—now a “divine<lb/> Law delivered by\n                    <persName>Moses</persName> may mean no more<lb/>\n                <del>than</del> and stand no higher than, a “Divine Poem<lb/> By\n                    <persName>Milton</persName>, a Divine Hymn, by <persName>Dr\n                Watts</persName><lb/> “Divine Service by an incompetent Lay man<lb/> or a Divine\n                Comedy by “<persName>Dante</persName>,” the word<lb/> “Divine” is of less import\n                than “Sacred”, and<lb/> “divine and sacred less than “Holy”. The draft<lb/> of the\n                    <hi rend=\"underline\">Translator</hi> may easily be <sic>percured</sic> by<lb/>\n                comparing Article 9<hi rend=\"sup\">th</hi> which immediately follows<lb/> when\n                instead of the Positive and emphatic assertion<lb/>\n                <del>that</del> of <persName>Maimonides</persName> viz we believe with a\n                firm/perfect faith, that<lb/> this Law will never be changed or altered, and<lb/>\n                that there will be <hi rend=\"underline\">no other Law Given</hi> by the<lb/>\n                <hi rend=\"underline\">Creator</hi> Blessed be his name, he simply states<lb/> that we\n                believe the divine Law will never be<lb/> altered or changed”, he has expunged or\n                forgot<lb/> to translate, what we so <hi rend=\"underline\">very much</hi> want to\n                hear<lb/> viz that <hi rend=\"underline\">the Creator blessed be his name, never\n                    will</hi><lb/>\n                <hi rend=\"underline\">give any other Law.</hi><lb/> “C” also states that Mr.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 7106,
+          "width": 4726,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f8c7fc7e-fcf2-4e30-9564-0c2908b595c4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4726,
+                "height": 7106,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f8c7fc7e-fcf2-4e30-9564-0c2908b595c4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/f8c7fc7e-fcf2-4e30-9564-0c2908b595c4/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p11",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 7034,
+          "width": 4726,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c40edd2-b297-421b-a98e-c6bf1f38ba53%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4726,
+                "height": 7034,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c40edd2-b297-421b-a98e-c6bf1f38ba53%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p11"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/2c40edd2-b297-421b-a98e-c6bf1f38ba53/original",
+              "label": "Original File - 99.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p11/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/manifest/annotation/p11",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">6</p>\n            <p><persName>Poznanski</persName> “never advocated doctrines that conflicted with\n                the<lb/> cardinal principles of our religion.” It is not difficult<lb/> to infer\n                what a man's moral and religious principles<lb/> are when his own words and actions\n                sufficiently<lb/> indicate them.</p>\n            <p>Firstly—in his discussion with <persName>Dr Raphall</persName>, when asked<lb/> if he\n                believed in the Bible in the Law &amp; the Prophets<lb/> he in the presence of both\n                Organizations replied after a long hesitation Y-e-s <del>with qualifications\n                    some</del><lb/> several of his <del>friends</del> own congregation inferring\n                from<lb/> his evasion and long consideration, that he did not fully believe</p>\n            <p>\n                <del>Secondly—His unbelief in the coming of the personal messiah<lb/> the,\n                        Ressurection<add>?</add> and in the prayers which<lb/> and “that God gave\n                    the law,” <add>?</add> his creed”</del>\n            </p>\n            <p>Secondly <del>his disbelief in</del> the non obligation of observance of the\n                ceremonial and<lb/> Rabbinical Laws as <add>?</add> to <persName>Dr\n                    Eckman</persName><lb/> and <persName>Mr Newman</persName>,”</p>\n            <p><del>We also understand “C” is the author of the Petition</del><lb/> and Lastly his\n                extreme inconsistent course viz coming to <placeName>Charleston</placeName><lb/> as\n                a pious and orthodox mosaic &amp; Rabbinical Hazan,<lb/> and in a short time\n                afterwards subverting our <hi rend=\"underline\">faith</hi><lb/> by introducing into\n                the synagogue, one of his own<lb/> manufacture which his replete with Infidelity\n                &amp;<lb/> Irreligion”</p>\n            <p rend=\"indent(1)\">The <persName>Posnanski</persName> parties finding themselves\n                reduced<lb/> in the last Ten Years from over One Hundred voting members<lb/> to only\n                Eighteen, and destruction approaching from exposure of<lb/> their leader by\n                    <persName>Dr Eckman</persName> determined as a last<lb/> resort they being in\n                the majority on the Board of<lb/> Trustees, to transmit a petition to the Board\n                with<lb/> the request that <persName>Dr Eckman</persName> should resign as they did\n                not think <del>men</del> suited their needs<add>?</add>. This<lb/> Petition, Signed\n                by the Eighteen members, was<lb/> accordingly sent in, and a resolution passed<lb/>\n                by a note of 4 to 3 that <persName>Dr Eckman</persName> should comply<lb/> with the\n                weeks of the petitions, a contra petition<lb/> was also sent to the Board signed by\n                Fifteen members</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p12",
+          "@type": "sc:Canvas",
+          "label": "12",
+          "height": 7106,
+          "width": 4726,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ee6be189-3f43-45a5-a3d4-0368151d3b76%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4726,
+                "height": 7106,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ee6be189-3f43-45a5-a3d4-0368151d3b76%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/canvas/p12"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38912b3q/assets/ee6be189-3f43-45a5-a3d4-0368151d3b76/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

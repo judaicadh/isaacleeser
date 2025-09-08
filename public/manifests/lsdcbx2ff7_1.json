@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 10 January 1860",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3f47hd90"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 10 January 1860"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1860-01-10", "10 January 5690"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF7_1"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/65617162-c030-4794-978a-8545f2e4f4a0%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/65617162-c030-4794-978a-8545f2e4f4a0%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 2912,
+          "width": 4080,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/65617162-c030-4794-978a-8545f2e4f4a0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4080,
+                "height": 2912,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/65617162-c030-4794-978a-8545f2e4f4a0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/assets/65617162-c030-4794-978a-8545f2e4f4a0/original",
+              "label": "Original File - 35.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Montreal</placeName>\n                <date>10 Jany 5690</date>\n            </p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir.</p>\n            <p rend=\"indent(2)\"><persName>Mr M Joseph</persName> has paid<lb/> me three dollars for\n                a years subscription<lb/> to the Occident which I have requested<lb/>\n                <persName>Miss Sarah J.</persName> to pay you, if on funds.</p>\n            <p rend=\"indent(1)\"><persName>Mrs S. Benjamin</persName> has<lb/> written to inquire\n                about the price<lb/> of a Bible bound in the manner<lb/> and for the purpose\n                    <persName>Sarah J.</persName> will explain<lb/>—or has explained—to you. I\n                only<lb/> refer to it to request you to intimate<lb/> to <persName>Mr S.\n                    B.</persName> that he would oblige<lb/> by paying to me the amount he<lb/> owes\n                you—this <add>בינינו</add>.</p>\n            <p rend=\"indent(1)\">I enclose a review—not<lb/>\n                <hi rend=\"underline\">laudatory</hi> or <hi rend=\"underline\">elaborate</hi> enough\n                of<lb/> one of the best books I have ever</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 2912,
+          "width": 4080,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad481215-1fc4-4fa0-a7c4-e014a413d8a5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4080,
+                "height": 2912,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ad481215-1fc4-4fa0-a7c4-e014a413d8a5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/assets/ad481215-1fc4-4fa0-a7c4-e014a413d8a5/original",
+              "label": "Original File - 35.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>seen on the subject of the <add>?</add><lb/> I have paid some little attention\n                to<lb/> this subject, but am better pleased<lb/> with <persName>Dr. D's</persName>\n                book than with many<lb/> more pretentious ones. Any one<lb/> who has carefully read\n                    <persName>Hugh<lb/> Millers</persName> Lestim<add>?</add> any of the Books<lb/>\n                can well understand why he<lb/> shot himself. If I had been<lb/> an agent for an\n                Insurance Office<lb/> where he had published and I<lb/> had read, I would not, if\n                he<lb/> had applied to me have taken the risk.<lb/> And he has been\n                immo<add>?</add><lb/> I think made too much of it.</p>\n            <p rend=\"indent(1)\"><persName>Dr. D.</persName> has a claim on<lb/> Jews for a little\n                    <add>שבח</add>. We<lb/> respect Hebrew learning and</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47hd90/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

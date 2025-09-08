@@ -1,0 +1,293 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Salsman, Rosa [?]; Heidelberg, Germany; 9 March 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3w08x281"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Salsman, Rosa [?]; Heidelberg, Germany; 9 March 1854"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-03-09"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Germany"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Germany -- Heidelberg",
+        "Germany",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_16"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/6dc9f928-239e-455d-a464-48d02cdc032d%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/6dc9f928-239e-455d-a464-48d02cdc032d%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3790,
+          "width": 2544,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6dc9f928-239e-455d-a464-48d02cdc032d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2544,
+                "height": 3790,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6dc9f928-239e-455d-a464-48d02cdc032d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/assets/6dc9f928-239e-455d-a464-48d02cdc032d/original",
+              "label": "Original File - 29.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>In dem Meeserschen Hause<lb/> über der\n                                                  Brücke<lb/> am Neckar <hi rend=\"underline\"\n                                                  >Heidelberg</hi></placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <date>March 9<hi rend=\"sup\">th</hi> 1854</date>\n                              </p>\n                              <p>Dear friend</p>\n                              <p rend=\"indent(2)\">I am taking the opportunity<lb/> of writing a\n                                        little to you by a Gentleman<lb/> about to leave\n                                                  <placeName>Heidelberg</placeName> for\n                                                  <placeName>New York</placeName>. I<lb/> have not\n                                        your correct address here; I<lb/> therefore must trust to\n                                        his kindness in<lb/> sending it safely to you at\n                                                  <placeName>Philadelphia</placeName>.<lb/> When I\n                                        last heard from my dear family<lb/> one of my sisters wrote\n                                        to say that the “<hi rend=\"underline\">Occident</hi>”<lb/>\n                                        had been sent to me in\n                                                  <placeName>Baker<add>?</add></placeName> in which\n                                        they read<lb/> a <hi rend=\"underline\">beautiful</hi> notice\n                                        of my Poems from<lb/> your gifted mind, with some\n                                        pieces<lb/> transcribed. I assure you I appreciate<lb/>\n                                        <hi rend=\"underline\">much</hi> your kindness also for\n                                        the<lb/> advertisement therein—my sisters have<lb/>\n                                        requested two more copies to be sent<lb/> for them &amp; I\n                                        am to receive <hi rend=\"underline\">my</hi><lb/> number in\n                                                  <date>May</date>, when <persName>Mr\n                                                  Simon's</persName><lb/> family are going to visit\n                                        us, en route</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4114,
+          "width": 2682,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/71eb74d7-9834-4be5-a756-ec27fb907dac%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2682,
+                "height": 4114,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/71eb74d7-9834-4be5-a756-ec27fb907dac%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/assets/71eb74d7-9834-4be5-a756-ec27fb907dac/original",
+              "label": "Original File - 33.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>for <placeName>Switzerland</placeName>.</p>\n                              <p>I presume from this circumstance<lb/> that the books arrived safely\n                                        at their<lb/> destination—&amp; that you have long<lb/>\n                                        since obtained your <hi rend=\"underline\">own</hi>\n                                        rightful<lb/> copy. I hope also that my long letter<lb/>\n                                        reached you from the “<add>?</add>” where<lb/> we then\n                                        resided. I wrote your address<lb/> quite from guess, for I\n                                        left my Occidents<lb/> with all my principal books to\n                                        be<lb/> taken charge of.</p>\n                              <p>My dear friend <persName>Miss Brettell<add>?</add></persName> has\n                                        taken<lb/> with me these charming rooms facing<lb/> the\n                                        Castle &amp; <placeName>Neckar</placeName> where we\n                                        have<lb/> not only a most romantic picture<lb/> ever before\n                                        our eyes, but also every comfort<lb/> &amp; convenience in\n                                        this beautiful House.<lb/> My <hi rend=\"underline\">good</hi>\n                                        Papa at length yielded to my<lb/> longing wish for a more\n                                                  <hi rend=\"underline\">country</hi> life &amp;<lb/>\n                                        now permits me to follow my inclination<del>s</del><lb/>\n                                        which was never in favor of a residence<lb/> in our gay\n                                        &amp; busy city of <placeName>London</placeName>!</p>\n                              <p>It is, as you may imagine, an infinite<lb/> blessing to me thus to\n                                        enjoy, in more<lb/> retirement, the glorious beauties of\n                                        nature,<lb/> &amp; my own favorite studies of Literature\n                                        &amp;<lb/> music. I do not know yet how long we<lb/> may\n                                        remain in <placeName>Heidelberg</placeName>. I think we<lb/>\n                                        shall spend <date>June</date> &amp; <date>July</date> in\n                                                  <placeName>Switzerland</placeName><lb/> (my 3d\n                                        visit) &amp; then most likely go to<lb/>\n                                        <placeName>England</placeName> for a few months as we\n                                        shall<lb/> both be <sic>anscious</sic> to see our friends\n                                        there.</p>\n                              <p>We have had a <hi rend=\"underline\">very</hi> severe winter,\n                                        but<lb/> to <hi rend=\"underline\">me</hi> the charm has been\n                                        so great<lb/> that I could not regret it. To see the<lb/>\n                                        scenery here all enveloped in its <hi rend=\"underline\"\n                                                  >snowy</hi><lb/> mantle—has been a continual\n                                        source<lb/> of enjoyment to me &amp; the tinkling<lb/> bells\n                                        of the horses as they bore the gay<lb/> sledges along, did\n                                        not a little enhance the<lb/> beauty of the picture!</p>\n                              <p>I suppose you hear as much of<lb/> the War as we do. Some\n                                        people<lb/> are of opinion that it is the first</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4070,
+          "width": 2698,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/685408a1-bb4a-4bdf-abcc-75d336fdeb3f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2698,
+                "height": 4070,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/685408a1-bb4a-4bdf-abcc-75d336fdeb3f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/assets/685408a1-bb4a-4bdf-abcc-75d336fdeb3f/original",
+              "label": "Original File - 33.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>step towards the restoration of our<lb/> Nation—according to the\n                                        Prophecies.<lb/> What is your opinion? And how<lb/> goes on\n                                        your interesting work, the Bible?</p>\n                              <p>Have you heard of a <hi rend=\"underline\">small</hi> book<lb/>\n                                        published in <date>1853</date> at Chapman's in the<lb/>\n                                        <placeName>Strand, London</placeName> (price 36 s. d.) “<hi\n                                                  rend=\"underline\">A few words to</hi><lb/>\n                                        <hi rend=\"underline\">the Jews</hi>”? It is splendidly\n                                        written,<lb/> &amp; most touchingly beautiful—<lb/> We, as\n                                        Israelites, cannot be too grateful<lb/> to God for raising\n                                        amongst us such<lb/> an Author—so deeply imbued with the\n                                        true<lb/> spirit of Judaism. I hope it will soon<lb/> be\n                                        well known both in <placeName>England</placeName> &amp;\n                                                  <placeName>America</placeName>.<lb/> We do not\n                                        know the name of the Author<lb/> not his place of abode—he\n                                        merely adds<lb/> in the title page “by one of\n                                        themselves.”<lb/> Surely he will one day be known!<lb/> at\n                                        present all is in mystery respecting the<lb/> books. My\n                                        paper tells me to say farewell<lb/> for the present, &amp;\n                                        trusting you are in<lb/> good health, I remain dear\n                                        friend</p>\n                              <p rend=\"indent(1)\">Your's sincerely, <persName role=\"author\">Rosa\n                                                  <add>?</add> Salsman</persName></p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_11_10.pdf\">The\n                                                  above text refers to Occident Volume 11 No. 10\n                                                  pages 515 through 520. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 3790,
+          "width": 2544,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b6749b87-9899-4905-a50c-d4bc7e347553%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2544,
+                "height": 3790,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b6749b87-9899-4905-a50c-d4bc7e347553%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w08x281/assets/b6749b87-9899-4905-a50c-d4bc7e347553/original",
+              "label": "Original File - 29.1 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

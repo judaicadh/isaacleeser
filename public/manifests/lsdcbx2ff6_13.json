@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Raphall, M. J.; Leeser, Isaac, Rev.; New York, NY; 3 June 1859",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3959ct7m"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Raphall, M. J.; Leeser, Isaac, Rev.; New York, NY; 3 June 1859"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1859-06-03"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF6_13"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/de96d11a-9f6f-4f76-8ddc-9f497e1d9ef0%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/de96d11a-9f6f-4f76-8ddc-9f497e1d9ef0%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3970,
+          "width": 4882,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/de96d11a-9f6f-4f76-8ddc-9f497e1d9ef0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4882,
+                "height": 3970,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/de96d11a-9f6f-4f76-8ddc-9f497e1d9ef0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/assets/de96d11a-9f6f-4f76-8ddc-9f497e1d9ef0/original",
+              "label": "Original File - 58.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>107 Mac Dougal St</placeName>\n            </p>\n            <p rend=\"align(right)\">\n                <placeName>N. Y.</placeName>\n                <date>3d June/59</date>\n            </p>\n            <p>Rev Dear Sir</p>\n            <p rend=\"indent(1)\">The committee of ar<lb/>rangements at <placeName>St.\n                    Louis</placeName> have<lb/> invited me to consecrate their<lb/> Synagogue &amp;\n                I have accepted<lb/> the invitation. This morning I<lb/> receive a letter from them dated<lb/>\n                <date>31<hi rend=\"sup\">st</hi></date> Ulto. In which they say to me<lb/> that they\n                    <sic>inclose</sic> “the 'order<lb/> of service' not having any<lb/> one here\n                capable of translating<lb/> them, would solicit you to<lb/> translate and have them\n                printed<lb/> on one side Hebrew and on the<lb/> other side English—there being<lb/>\n                a number of German members<lb/> of our congregation it is likewise<lb/> desired that\n                some be printed<lb/> in the Hebrew and German languages.<lb/> The whole number to be\n                printed<lb/> is 600 copies say 500 Heb &amp; Engl.<lb/> and 100 Heb. &amp; Germ. It\n                is also</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3970,
+          "width": 4882,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fca9adc1-d79c-4bb1-a673-6e090b5df560%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4882,
+                "height": 3970,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fca9adc1-d79c-4bb1-a673-6e090b5df560%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/assets/fca9adc1-d79c-4bb1-a673-6e090b5df560/original",
+              "label": "Original File - 58.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>suggested that the printing be<lb/> awarded to the <persName>Rev Isaac\n                    Leeser</persName><lb/> &amp; that when done they be forwarded<lb/> here by\n                express with <persName>Billy</persName> for paymt.</p>\n            <p rend=\"indent(1)\">In compliance with their<lb/> suggestion, you will oblige me<lb/> by\n                letting me know whether you<lb/> will undertake the printing<lb/> &amp; engage to\n                have the 600 copies<lb/> delivered at <placeName>St. Louis</placeName> on or before<lb/>\n                <date>15<hi rend=\"sup\">th</hi> June</date>. It will make about<lb/> 14 pages,\n                including the Title. I<lb/> should also like to know if you<lb/> prefer the German\n                translation<lb/> in this sort of writing or in<lb/> German text. The folks at<lb/>\n                <placeName>St. Louis</placeName> do not say how they<lb/> wish their German printed\n                so<lb/> you must exercise your own<lb/> discretion, &amp; use that sort of<lb/> type\n                which you have most<lb/> readily at hand.</p>\n            <p rend=\"indent(1)\">As I fear your reply</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3959ct7m/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

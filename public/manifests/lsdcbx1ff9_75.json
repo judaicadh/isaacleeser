@@ -1,0 +1,197 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Howey, E.; Leeser, Isaac, Mr.; Harlem Springs, OH; 11 November 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3dr2pv7x"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Howey, E.; Leeser, Isaac, Mr.; Harlem Springs, OH; 11 November 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-11-11"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "1 page on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Ohio -- Harlem Springs",
+        "United States -- Ohio",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_75"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/44e2b6d0-3125-4643-9c9b-d27c68753c18%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/44e2b6d0-3125-4643-9c9b-d27c68753c18%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 1016,
+          "width": 3434,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/44e2b6d0-3125-4643-9c9b-d27c68753c18%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3434,
+                "height": 1016,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/44e2b6d0-3125-4643-9c9b-d27c68753c18%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/assets/44e2b6d0-3125-4643-9c9b-d27c68753c18/original",
+              "label": "Original File - 10.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <placeName>Harlem Springs O</placeName>\n                                        <date>Nov. 11<hi rend=\"sup\">th</hi> 1852</date>\n                              </p>\n                              <p>Dear Sir, <persName>Schwabacker</persName> has moved to<lb/>\n                                        <placeName><sic>Steubenvill</sic> Jefferson Co\n                                                  Ohio</placeName>)</p>\n                              <p rend=\"indent(8)\"><persName role=\"author\">E Howey</persName> P M</p>\n                              <pb n=\"Envelope\"/>\n                              <p rend=\"indent(4)\">Free</p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">E Howey</persName>\n                                        <hi rend=\"underline\">P M</hi>\n                              </p>\n                              <p>\n                                        <addressee>Mr Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">Editor of the Jewish Advocate</p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia Pa</placeName>\n                              </p>\n                              <p>\n                                        <placeName>Harlem Springs</placeName>\n                              </p>\n                              <p>\n                                        <date>Nov 11th</date>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "Envelope",
+          "height": 1806,
+          "width": 2522,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/59ed94dd-3d33-4717-98da-8275a99e0091%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2522,
+                "height": 1806,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/59ed94dd-3d33-4717-98da-8275a99e0091%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv7x/assets/59ed94dd-3d33-4717-98da-8275a99e0091/original",
+              "label": "Original File - 13.9 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

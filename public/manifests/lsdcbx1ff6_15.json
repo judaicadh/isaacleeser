@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; [?], Simon; Leeser, Isaac, Rev.; New York, NY; 9 February 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3599zj2s"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; [?], Simon; Leeser, Isaac, Rev.; New York, NY; 9 February 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-02-09", "17 Shebat 5609"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_15"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/4133a196-e288-4d5b-91f8-4e4547924486%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/4133a196-e288-4d5b-91f8-4e4547924486%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5752,
+          "width": 4604,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4133a196-e288-4d5b-91f8-4e4547924486%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4604,
+                "height": 5752,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4133a196-e288-4d5b-91f8-4e4547924486%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/assets/4133a196-e288-4d5b-91f8-4e4547924486/original",
+              "label": "Original File - 79.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                                        <placeName>New York</placeName>\n                                        <date>Shebat 17<hi rend=\"sup\">th</hi> 5609</date>\n                              </p>\n                              <p>\n                                        <addressee>Rev. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philada</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">Dear Sir</p>\n                              <p rend=\"indent(3)\">In answer to yours I have to communicate<lb/> that\n                                        I have another <add>ספר תורה</add> on hand entirely new\n                                        and<lb/> most Splendid written I may say better than the\n                                        former<lb/> you have seen at the same amount $75 or $70. I\n                                        have<lb/> also a new <add>מגילה</add> in fact various, from\n                                        16 to 12, if you<lb/> know of Any <add>קהילה</add> in want\n                                        of the above named articles<lb/> please to name the parties\n                                        or “<add>שלוחו של אחד כמותו</add>”</p>\n                              <p>The subject of which I wanted to meet you, is<lb/> that “<add>כבוד\n                                                  ה הסתר המזל</add>” <persName>Mr Isidore\n                                                  Bush</persName> from\n                                                  <placeName><sic>Wienna</sic></placeName> is<lb/>\n                                        residing here in town and calling on me, as having<lb/> debt\n                                        with him and having confidence in me, his idea<lb/> being to\n                                        commence or rather resume his printing estab-<lb/>lishment\n                                        here, having a large apartment of Hebr. &amp; Germ.<lb/>\n                                        types on hand, there are more particulars concerned\n                                        which<lb/> I cannot mention here, if you might think\n                                        proper<lb/> that anything can or could be done with us it\n                                        would<lb/> to my opinions create much good to all parties,\n                                        and<lb/> would perhaps induce the American Israelites to\n                                        procure<lb/> to their families many books, not possessing at present.<lb/>\n                                        <persName>Mr. I B</persName>; having means to undertake the\n                                        creation of<lb/> a new Establishment, and I would be\n                                        selected<lb/> by him as his <add>בא עזר</add> and salesman\n                                        here ect.<lb/> “please to consider about it” most Respy\n                                        Yours</p>\n                              <p rend=\"indent(6)\">\n                                        <persName role=\"author\">Simon <add>?</add></persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4604,
+          "width": 5752,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/dfdad904-2bc9-41b5-8a06-957d5be01e4c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5752,
+                "height": 4604,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/dfdad904-2bc9-41b5-8a06-957d5be01e4c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/assets/dfdad904-2bc9-41b5-8a06-957d5be01e4c/original",
+              "label": "Original File - 79.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Rev. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philada</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>\n                                                  <hi rend=\"underline\">Penn.</hi>\n                                        </placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3599zj2s/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

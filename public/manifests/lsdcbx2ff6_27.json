@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Raphall, M. J.; Leeser, Isaac, Rev.; New York, NY; 24 August 1859",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p33j39m68"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Raphall, M. J.; Leeser, Isaac, Rev.; New York, NY; 24 August 1859"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1859-08-24"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF6_27"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/e74a2fe4-3159-45f6-8b0d-ffca59b40f3f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/e74a2fe4-3159-45f6-8b0d-ffca59b40f3f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3994,
+          "width": 2794,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e74a2fe4-3159-45f6-8b0d-ffca59b40f3f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2794,
+                "height": 3994,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e74a2fe4-3159-45f6-8b0d-ffca59b40f3f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/assets/e74a2fe4-3159-45f6-8b0d-ffca59b40f3f/original",
+              "label": "Original File - 33.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>New York</placeName>\n                <date>24<hi rend=\"sup\">th</hi>. Augt.</date>\n            </p>\n            <p>\n                <addressee>Rev. I. Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">\n                <placeName>Pha.</placeName>\n            </p>\n            <p>Rev. Dr. Sir!</p>\n            <p rend=\"indent(2)\">I received the proof<lb/> last <add>שבת</add> &amp; returned it on\n                    <date>Sunday</date>.<lb/> I trust it reached you in time.</p>\n            <p rend=\"indent(1)\"><sic>Inclosed</sic> the second part<lb/> of the paper on “Jewish\n                doctrine.”<lb/> It grows under my hand, &amp; to<lb/> me appears very interesting.\n                If<lb/> therefore you are not tired of<lb/> it, I will carry it over.\n                <add>?</add><lb/> papers more—if not I will<lb/> squeeze it into one—Please<lb/> let\n                me know which you prefer<lb/> &amp; oblige me with a proof.</p>\n            <p rend=\"indent(1)\">I see, you advertise a Bible<lb/> in 18 mo for $2.50—with 20\n                    <add>?</add> to<lb/> those who sell—now I don't sell</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3994,
+          "width": 2794,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/721f41b5-2e27-45b3-bbdc-945652b7e661%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2794,
+                "height": 3994,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/721f41b5-2e27-45b3-bbdc-945652b7e661%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/assets/721f41b5-2e27-45b3-bbdc-945652b7e661/original",
+              "label": "Original File - 33.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>but give away, free gratis<lb/> for nothing—Assuming you<lb/> will allow me the hopes\n                that<lb/> this is an English Bible—please<lb/> send me a copy at your<lb/> earliest\n                convenience</p>\n            <p rend=\"indent(7)\">Yours</p>\n            <p rend=\"indent(8)\">Rev Dr Sir</p>\n            <p rend=\"indent(8)\">Very Respy</p>\n            <p rend=\"indent(8)\">\n                <persName role=\"author\">M J Raphall</persName>\n            </p>\n            <div>\n                <p>\n                    <ref target=\"Occident_PDFs/Occ_17_23.pdf\">The above text refers to Occident\n                        Volume 17 No. 23 pages 134 through 135. Click here to view.</ref>\n                </p>\n            </div>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33j39m68/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

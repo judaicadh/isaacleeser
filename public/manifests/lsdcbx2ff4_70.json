@@ -1,0 +1,368 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Mayer, M., Dr.; Leeser, Isaac, Rev.; Charleston, SC; 5 October 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3h12vt6r"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Mayer, M., Dr.; Leeser, Isaac, Rev.; Charleston, SC; 5 October 1857"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-10-05"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "5 pages on 3 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF4_70"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/3c1adcc4-3a72-4532-a3c7-c213a732f9a5%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/3c1adcc4-3a72-4532-a3c7-c213a732f9a5%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4594,
+          "width": 3766,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3c1adcc4-3a72-4532-a3c7-c213a732f9a5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3766,
+                "height": 4594,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3c1adcc4-3a72-4532-a3c7-c213a732f9a5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/assets/3c1adcc4-3a72-4532-a3c7-c213a732f9a5/original",
+              "label": "Original File - 51.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <hi rend=\"underline\">1</hi>\n            </p>\n            <p rend=\"align(right)\"><placeName>Charleston, S. C.</placeName>\n                <date>October 5. 1857</date>.</p>\n            <p rend=\"indent(1)\"><addressee>Rev. Isaac Leeser</addressee>,\n                    <placeName>Philadelphia</placeName>,</p>\n            <p rend=\"indent(4)\">Dear Sir—</p>\n            <p rend=\"indent(5)\">Your letter of the <date>15<hi rend=\"sup\">th</hi></date> ult.<lb/>\n                would have been immediately replied to, although I received it but a<lb/> day after\n                    <add>ר\"ה</add>, had I not been otherwise overwhelmed with the<lb/> most various\n                business engagements, not the least of which was<lb/>\n                <hi rend=\"underline\">moving 2 days after that Festival</hi>. But now, I have sat\n                down<lb/> to write a lengthy answer to your rather long letter, and intend<lb/> to\n                be as open and candid with you as you have been with me.<lb/> First then, you take\n                umbrage at my <sic>indorsing</sic> what <hi rend=\"underline\">you</hi> call<lb/> the\n                    <hi rend=\"underline\">scurrilous</hi> and <hi rend=\"underline\">impertinent</hi>\n                editorial of the Asmonean in re-<lb/>lation to the establishment of your Synagogue.\n                Now, my dear Sir,<lb/> I have always held the opinion that it is unjustifiable, <hi\n                    rend=\"underline\">under</hi><lb/>\n                <hi rend=\"underline\">any circumstances whatever</hi>, to establish a new religious\n                associ-<lb/>ation, unless <hi rend=\"underline\">from principle</hi>. If a change of\n                doctrines has<lb/> taken root in a religious body, then, <hi rend=\"underline\">and\n                    then alone</hi>, I think,<lb/> it is right for those repudiating that change, to\n                establish an<lb/> association of their own. Was such the case in\n                    <placeName>Philadelphia</placeName>?<lb/> Decidedly not! And for this reason I\n                subscribe to the re-<lb/>marks of the <hi rend=\"underline\">Asmonean</hi> which are\n                neither scurrilous nor impertin-<lb/>ent. I would ask any unprejudiced mind, whether\n                the following<lb/> words, to which I made allusion in my last letter, are such\n                as<lb/> you describe them? “What necessity can be shown in\n                    <placeName>Philadelphia</placeName><lb/> for two Sephardim congregations? There\n                exists no difference on<lb/> dogma; none on form, tone or accentuation; neither is\n                the edifice<lb/>\n                <sic>to</sic> small for the congregators, even, if they all invariably attended</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4594,
+          "width": 3766,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/14564cdc-5216-418c-9c1b-f401b856c3a3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3766,
+                "height": 4594,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/14564cdc-5216-418c-9c1b-f401b856c3a3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/assets/14564cdc-5216-418c-9c1b-f401b856c3a3/original",
+              "label": "Original File - 51.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>2/</p>\n            <p>whenever the portals were opened for service. A watchful opposition<lb/> is\n                beneficial, a severing one, suspicious; and the leaders of the<lb/> latter are bound\n                to justify themselves before the world, when they<lb/> attempt to launch into\n                existence an opposition congregation.”<lb/>\n                <hi rend=\"underline\">You</hi> may find these remarks “scurrilous &amp; impertinent,”\n                I think<lb/> they contain the plainest truth. Of course, this is only a\n                difference<lb/> of opinion, upon which neither of <hi rend=\"underline\">us</hi> can\n                decide. However, this<lb/> much I venture to add, that if the Congregation\n                Beth-El-Emeth<lb/> had been a reformed one, and the <hi rend=\"underline\"\n                    >Asmonean</hi> had made even<lb/> some stronger remarks, <persName>Mr.\n                    Leeser</persName> wold not have deemed them<lb/> “scurrilous and impertinent.”\n                You do me further injustice by saying<lb/> that I “So far forgot the courtesies of\n                life, as to decide<lb/> without knowing the least of the situation of affairs in\n                    <placeName>Phila-<lb/>delphia</placeName>.” Now, I can assure you that, although\n                I am no Editor<lb/> of a Journal, a Magazine, I am still pretty well informed<lb/>\n                with regard to all that is going on in the larger congregations<lb/> of our\n                brethren. Besides, have not <hi rend=\"underline\">you</hi> given me the clue<lb/> to\n                “the situation of affairs in <placeName>Philadelphia</placeName>,” at our\n                interview<lb/> on the <date>17<hi rend=\"sup\">th</hi> of July 1856</date>? Did <hi\n                    rend=\"underline\">you</hi> not then tell me that “it<lb/> depended but upon your\n                encouraging the movement, and a new<lb/> congregation would be established; for the\n                tyranny in the old<lb/> had become intolerable.” Thus then it was “<hi\n                    rend=\"underline\">tyranny</hi>” that<lb/> gave birth to the new congregation.\n                Tyranny of opinion, principle,<lb/> reform, innovation, and the like? Nothing of all\n                this. The<lb/> tyranny so called by a minority that desire a majority to\n                sub-<lb/>mit to <hi rend=\"underline\">them</hi>, by a minority that would not obey\n                the laws and<lb/> regulations passed and executed by the legal majority. Is<lb/>\n                such an imaginary “tyranny” a just course for secession? No, no,<lb/> thrice no! And\n                because it is not, such a secession is rebellion that</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4594,
+          "width": 3766,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/829fd1ce-b49a-4178-8219-d9d5b76a7152%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3766,
+                "height": 4594,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/829fd1ce-b49a-4178-8219-d9d5b76a7152%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/assets/829fd1ce-b49a-4178-8219-d9d5b76a7152/original",
+              "label": "Original File - 51.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <hi rend=\"underline\">3</hi>\n            </p>\n            <p>should never be countenanced. But, say you in your letter to me, “did it<lb/> not\n                strike you, that <persName>Isaac Leeser's</persName> friends may have thought that\n                he had been<lb/> in retirement long enough, and that it was but just to protect\n                him<lb/> against the slander of <persName>Wise</persName>,\n                    <persName>Einhorn</persName>, especially that contemptible price<lb/> of\n                criticism in the <date>March</date> Sinai which was translated on\n                    <date>Pureem</date> day in a certain city<lb/> called\n                    <placeName>Charleston</placeName> by a gentleman whom you perhaps know” (<hi\n                    rend=\"underline\">of this</hi><lb/>\n                <hi rend=\"underline\">farther down</hi>), “of the Asmonean, the director of the\n                Deutsch-Americanische<lb/> Skizzen, and <persName>D Philippson</persName>, and\n                correspondents on this side of the <placeName>Atlantic</placeName>?<lb/> Now, as you\n                have read my strictures on the “Deutsch-Americanische<lb/> Skizzen” you must have\n                perceived from the part <hi rend=\"underline\">defending</hi> you, that<lb/> some sort\n                of such a though <hi rend=\"underline\">did</hi> really “strike” my mind; but it is\n                still<lb/> questionable whether the means adopted by your friends with the view<lb/>\n                of giving you satisfaction was a <hi rend=\"underline\">moral</hi> one. The end never\n                justi-<lb/>fies the means; and however great and acute the real or imaginary<lb/>\n                “slanders” were, of which you complain, and however anxious and<lb/> justified your\n                friends may have been to protect and satisfy you<lb/> in <hi rend=\"underline\"\n                    >some</hi> way, all this can not induce me to approve a means<lb/> which I, in\n                my humble opinion, look upon as rebellious and, therefore,<lb/> immoral. Others may\n                think otherwise; they are welcome to their opinion,<lb/> and I do not wish to\n                disturb them in their enjoyment of it, as<lb/> little as I can be divested of mine,\n                or would permit them to dis-<lb/>turb my convictions. From your letter I perceive\n                that the greatest<lb/> number of the Portuguese <add>?</add> of\n                    <placeName>Philadelphia</placeName> attend <hi rend=\"underline\">your</hi>\n                Syna-<lb/> gogue; why, if this majority thus are <hi rend=\"underline\">your</hi>\n                friends, why have<lb/> they not exercised their power in the old congregation, in\n                your favor?<lb/> This would have been legal, moral and, consequently, right, so<lb/>\n                that but the slanderous tongue of malice could then have made any<lb/> objection;\n                whereas now, <hi rend=\"underline\">just</hi> criticism may well find room for<lb/>\n                its strictures and needs fear no <hi rend=\"underline\">retorts</hi>. You see,\n                    <persName>Mr Leeser</persName>, I</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4594,
+          "width": 3766,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f74b1f11-4ea1-4454-bd0a-c1226cca44be%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3766,
+                "height": 4594,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f74b1f11-4ea1-4454-bd0a-c1226cca44be%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/assets/f74b1f11-4ea1-4454-bd0a-c1226cca44be/original",
+              "label": "Original File - 51.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>4/</p>\n            <p>have been often with you, on this point, and shall further imitate you in<lb/>\n                candor, now, as I shall speak of another point, already alluded to above.<lb/>\n                Amongst the slander against which your friends protected you, you<lb/> mention also\n                “that contemptible piece of criticism in the <date>March</date> Sinai,<lb/> which\n                was translated on <hi rend=\"underline\"><date>Pureem</date></hi> day in a certain\n                city called <placeName>Charleston</placeName>,<lb/> by a gentleman whom you (I)\n                perhaps know.”</p>\n            <p rend=\"indent(9)\">\n                <hi rend=\"underline\"><date>November 25. 1857</date>.</hi>\n            </p>\n            <p>This point in my letter I reached on the day mentioned at the head<lb/> of these\n                lines when I was interrupted and would not resume them until<lb/> this day. Yet, I\n                do not regret this long delay for two reasons: it is my<lb/> best <sic>defence</sic>\n                against any charge of writing in excitement; for had your<lb/> letter even caused\n                it, it must have been calmed by the long interval<lb/> between its receipt and my\n                reply to it. In the second place, the <date>November</date><lb/> manner of the <hi\n                    rend=\"underline\">Occident</hi>, which reached me since, offers me an\n                opportuni-<lb/>ty to advert to other matters that were then unknown to me.</p>\n            <p>And now let us return to the subject broken off above. No one<lb/> can deny that the\n                so-called Jewish Sunday Schools, as they have<lb/> been hitherto, and still are\n                managed, did more harm than good,<lb/> have been, in a word, mere mockeries of\n                religious schools. Some old<lb/> maids, with the view, perhaps, of atoning for the\n                sins of their youth, and<lb/> imagining henceforward to consecrate their lives unto\n                the Service of God,<lb/> undertake, altho' knowing as little of their Religion and\n                the history<lb/> of their nation, as their pupils themselves, to establish and\n                manage<lb/> religious schools, that is to say, take it upon themselves to impart\n                the<lb/> most important of all branches of education, which requires some\n                know-<lb/>ledge, circumspection and experience than any of its cognates. Now,<lb/>\n                is the very attempt on the part of these managers not in itself<lb/> sacrilegious?\n                And who are, in general, their assistant teachers?<lb/> A few young girls that do\n                not even know how to <hi rend=\"underline\">read</hi> the language<lb/> of the Bible,\n                or some gentlemen who may be good business men,<lb/> mechanics, artists &amp;c\n                &amp;c, but understand just as much of teaching<lb/> and their Religion as their <hi\n                    rend=\"underline\">sister</hi>-colleagues. All this, and still</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 4568,
+          "width": 3720,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/41f62aa2-f7fa-4771-b355-28af3d76221c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3720,
+                "height": 4568,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/41f62aa2-f7fa-4771-b355-28af3d76221c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/assets/41f62aa2-f7fa-4771-b355-28af3d76221c/original",
+              "label": "Original File - 51 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>will you? I desire to compel them, to inform us also of the <hi rend=\"underline\"\n                    >con</hi>-<lb/><hi rend=\"underline\">clusions</hi> of their arguments, which,\n                thus far, we must only guess. There is<lb/> yet a good deal to be written until the\n                    <add>Hebrew</add> will be fulfilled.</p>\n            <p>I just remembered, that I forgot to mention one point with regard to <persName>Mr.\n                    J's</persName><lb/> arguments, to prove to you, how little we can write without\n                books. You<lb/> remember, that he maintained, that <persName>Hillel</persName>\n                “ordered the non-enactment of<lb/> the <add>Hebrew</add>, because the land was\n                tributary to <placeName>Rome</placeName>. Poor <persName>Mr J.</persName>! A\n                glance<lb/> at <add>Hebrew</add> Vol 386, in the first line, would have told him\n                another story:<lb/>\n                <add>Hebrew</add><lb/> to which <persName>Rashi</persName>\n                <add>Hebrew</add><lb/> remarks: <add>Hebrew</add>. From this point alone you must\n                see, how<lb/> great his Talmudical learning is! He is indeed not yet infallible,\n                although<lb/> he thinks so!</p>\n            <p>You must excuse, that I break off here, so abruptly; the other<lb/> points in your\n                letter will soon be attended to. My dear wife just<lb/> enters my study, and\n                admonishes me to pay a few visits with her.<lb/> Accept her best regards, &amp; my\n                own. Write soon, to yours,</p>\n            <p rend=\"indent(7)\">as ever</p>\n            <p rend=\"indent(7)\">\n                <persName role=\"author\">Dr M Mayer</persName>\n            </p>\n            <p>A propos! Have you published, according to<lb/> request, my German report, about the\n                    “<add>?</add>”?</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3h12vt6r/canvas/p5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

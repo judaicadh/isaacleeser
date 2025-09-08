@@ -1,0 +1,501 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/manifest",
+  "@type": "sc:Manifest",
+  "label": "Print; Philadelphia, PA; 12 January 1842",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3qf8k528"]
+    },
+    {
+      "label": "Title",
+      "value": ["Print; Philadelphia, PA; 12 January 1842"]
+    },
+    {
+      "label": "Date",
+      "value": ["1842-01-12", "12 January 5602"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["prints (visual works)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Print"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "8 pages on 8 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item205"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/60953b06-8fa4-491e-be52-bd1512c0f015%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/60953b06-8fa4-491e-be52-bd1512c0f015%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4952,
+          "width": 3186,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/60953b06-8fa4-491e-be52-bd1512c0f015%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3186,
+                "height": 4952,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/60953b06-8fa4-491e-be52-bd1512c0f015%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/assets/60953b06-8fa4-491e-be52-bd1512c0f015/original",
+              "label": "Original File - 47.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">ADVERTISEMENT.</p>\n            <p rend=\"indent(1)\"><persName role=\"author\">ISAAC LEESER</persName> respectfully calls\n                your attention to the following<lb/> works either written or edited by him; they may\n                be had on appli-<lb/>cation to him by post-paid letters, or to <persName>Messrs.\n                    Carey</persName> &amp; <persName>Hart</persName>,<lb/>\n                <placeName>Philadelphia</placeName>; <persName>Messrs. Levine</persName> &amp;\n                    <persName>Tavel</persName>, <placeName>Charleston, S. C.</placeName>;\n                    <persName>Rev.<lb/> S. M. Isaacs</persName>, &amp; <persName>M. H.\n                    Cardozo</persName>, <placeName>New York</placeName>; <persName>Mr. Z.\n                    Rehine</persName>, <placeName>Balti-<lb/>more</placeName>; <persName>Mr. Jacob\n                    Ezekiel</persName>, <placeName>Richmond</placeName>; <persName>Mr. Isaac\n                    Lyons</persName>, <placeName>Columbia,<lb/> S. C.</placeName>; <persName>Jacob\n                    De La Motta, Esq.</persName>\n                <placeName>Savannah</placeName>; <persName>Mr. Gershom Kursheedt</persName>,<lb/>\n                <placeName>New Orleans</placeName>; <persName>Mr. Phineas Moses</persName>,\n                    <placeName>Cincinnati</placeName>; <persName>M. M. Sollas</persName><lb/> and\n                    <persName>M. Sarfaty, Esqrs.</persName>\n                <placeName>Kingston, Jamaica</placeName>; <persName>Aaron Wolff, Esq.</persName>\n                <placeName>St.<lb/> Thomas</placeName>; <persName>Rev. David Piza</persName>,\n                    <placeName>Montreal, L. C.</placeName>; <persName>Mr. David Q.\n                    Henri-<lb/>ques</persName>, <placeName>London</placeName>; and <persName>Mr.\n                    Henry S. Samuel</persName>, <placeName>Liverpool</placeName>.</p>\n            <p rend=\"align(center)\">1. WORKS OF INSTRUCTION.</p>\n            <p rend=\"align(center)\">1. INSTRUCTION IN THE MOSAIC RELIGION;</p>\n            <p>translated from the German of <persName>J. Johlson</persName>: 8vo. Boards, 139 pages.<lb/>\n                <placeName>Philadelphia</placeName>, <date>5590</date>.</p>\n            <p>**CONTENTS. Chapter 1. Of the Duty and Destination of Man.</p>\n            <p>Chapter 2. Of Religion. Chapter 3. Of God and his Attributes.<lb/> Chapter 4. Of\n                Immortality. Chapter 5. Of Revelation. Chapter<lb/> 6. Of the Ten Commandments.\n                Chapter 7. Of the Tradition.<lb/> Chapter 8. Of the Duties towards God. Chapter 9.\n                Of the Duties<lb/> towards Ourselves. Chapter 10. Of the Duties towards our\n                Fellow-<lb/>men. Chapter 11. Of the Duties towards the State. Chapter 12.<lb/> Of\n                Means to become Pious.—Appendix. Of the Ceremonies and the<lb/> Jewish Almanac.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4990,
+          "width": 3242,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5731901-67f3-44f0-a9c2-f4eaeded9a6e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3242,
+                "height": 4990,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5731901-67f3-44f0-a9c2-f4eaeded9a6e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/assets/e5731901-67f3-44f0-a9c2-f4eaeded9a6e/original",
+              "label": "Original File - 48.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">2</p>\n            <p rend=\"align(center)\">2. CATECHISM FOR YOUNGER CHILDREN;</p>\n            <p>designed as a Familiar Exposition of the Jewish Religion. 12mo.<lb/> boards, 168\n                pages. <placeName>Philadelphia</placeName>, <date>5599</date>.</p>\n            <p>**CONTENTS. Chapter 1. Religion in General. Chapter 2.<lb/> The Mosaic Religion in\n                particular. Chapter 3. God and his Attri-<lb/>butes. Chapter 4. The Revelation of\n                God to Man. Chapter 5.<lb/> The Law revealed through <persName>Moses</persName>.\n                Chapter 6. The Moral Law.<lb/> Chapter 7. The Ten Commandments. Chapter 8. The\n                Kingdom<lb/> of the Messiah. Chapter 9. The Life after Death. Chapter 10.<lb/>\n                Repentance and Atonement. Appendix 1. The Ceremonial Law.<lb/> Appendix 2. The\n                Jewish Creed.</p>\n            <p rend=\"align(center)\">3. THE HEBREW SPELLING BOOK,</p>\n            <p>designed as an easy Guide to the Hebrew Tongue. 8vo. Boards,<lb/> 44 pages.\n                    <placeName>Philadelphia</placeName>, <date>5598</date>.</p>\n            <p rend=\"align(center)\">4. ELEMENTARY INTRODUCTION TO THE<lb/> SCRIPTURES.</p>\n            <p>for the use of Hebrew Children, by <persName>Miss Simha C. Peixotto</persName>.\n                Printed<lb/> under the superintendence of <persName role=\"author\">I. L.</persName>\n                18mo. 196 pages. <placeName>Phila.</placeName>\n                <date>5600</date>.</p>\n            <p>** This book contains the History of the Bible in questions and<lb/> answers, and is\n                designed to convey in a familiar manner the Jewish<lb/> ideas on the events and\n                doctrines of the Sacred Records.</p>\n            <p rend=\"align(center)\">5. THE MOSAIC SYSTEM IN ITS FUNDAMENTAL<lb/> PRINCIPLES;</p>\n            <p>by the <persName>Rev. Dr. Louis Salomon</persName>, late Minister of the Cong.\n                Rodef<lb/> Shalom at <placeName>Philadelphia</placeName>. Edited by <persName\n                    role=\"author\">I. L.</persName> 12mo. 215 pages, <placeName>Phila.</placeName><lb/>\n                <date>5601</date>.</p>\n            <p rend=\"indent(1)\">There has also appeared the following work, designed as a first<lb/>\n                book of religious instruction:</p>\n            <p rend=\"align(center)\">THE ROAD TO FAITH,</p>\n            <p>for the use of Jewish Elementary Schools, translated from the<lb/> German of\n                    <persName>Dr. Henri Loeb</persName>, Chief Rabbi of\n                    <placeName>Belgium</placeName>, by <persName>Moses N.</persName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5032,
+          "width": 3240,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5d285526-eeef-43bc-a822-d213a16cd9c9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3240,
+                "height": 5032,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5d285526-eeef-43bc-a822-d213a16cd9c9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/assets/5d285526-eeef-43bc-a822-d213a16cd9c9/original",
+              "label": "Original File - 49.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">3</p>\n            <p><persName>Nathan</persName>, Minister of the English and German Jews,\n                    <placeName>Kingston,<lb/> Jamaica</placeName>. 18mo. 63 pages.\n                    <placeName>Kingston, Ja.</placeName>\n                <date>5600</date>.</p>\n            <p>**CONTENTS. Introduction. Of Religion in General. Part I.<lb/> Religious Belief.\n                Section 1. Of God and his Attributes. Section<lb/> 2. Of the Creation of the World\n                and Mankind. Section 3. Of<lb/> Providence. Section 4. Of Rewards and Punishments;\n                or a Future<lb/> State.—Part II. Religious Duties. Section 5. Of Repentance and<lb/>\n                Atonement. Section 6. Of our Duties towards God. Section 7.<lb/> Of our Duties\n                towards our Neighbours. Section 8. Of our Duties<lb/> towards Ourselves. Sections 9\n                and 10. Of the Ceremonial Law.</p>\n            <p rend=\"align(center)\">II. BOOKS OF DEVOTION AND ARGUMENT.</p>\n            <p rend=\"align(center)\">1. THE JEWS AND THE MOSAIC LAW.</p>\n            <p>Part I. “Containing a <sic>Defence</sic> of the Revelation of the Pentateuch,<lb/>\n                and of the Jews for their adherence to the same.” Part II. “Con-<lb/>taining Four\n                Essays on the Relative Importance of Judaism and<lb/> Christianity, by a Native of\n                    <placeName>Germany</placeName>, and a Professor of Chris-<lb/>tianity.” 8vo.\n                boards, 277 pages. <placeName>Phila.</placeName>\n                <date>5594</date>.</p>\n            <p>**CONTENTS. Part I. Chapter 1. Conscience and Revelation.<lb/> Chapter 2. Who wrote\n                the Pentateuch? Chapter 3. <persName>Moses</persName> an<lb/> authentic Historian.\n                Chapter 4. The Pentateuch. Chapter 5-8.<lb/> History of\n                    Revelation—<persName>Adam</persName>—<persName>Noah</persName>—<persName>Abraham</persName>—<persName>Isaac</persName>—<persName>Jacob</persName>.<lb/>\n                Chapter 9. The Legation of <persName>Moses</persName>. Chapter 10. The Exodus.<lb/>\n                Chapter 11. The Israelites and Revelation. Chapter 12. The De-<lb/>scent on\n                    <placeName>Sinai</placeName>. Chapter 13. The Decalogue. Chapter 14. The<lb/>\n                Jewish Commonwealth. Chapter 15. The Bible and Paganism.<lb/> Chapter 16. The\n                Phylacteries. Chapter 17. The Festivals. Chap-<lb/>ter 18. The Sacrifices. Chapter\n                19. The Forbidden Meats. Chap-<lb/>ter 20. The Golden Calf. Chapter 21. Inspiration\n                and Prophecy.<lb/> Chapter 22. Fulfilment of Prophecy. Chapter 23. The Religion<lb/>\n                of the Bible. Chapter 24. The Hebrew Worship. Chapter 25.<lb/> The Fasts and\n                Ceremonies. Chapter 26. The Law and the Rabbins.<lb/> Appendix.—Part II.\n                Introduction, Essays 1—4. Notes.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5144,
+          "width": 3336,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b41ebf5d-60f1-4da1-998c-6c067739fb48%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3336,
+                "height": 5144,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b41ebf5d-60f1-4da1-998c-6c067739fb48%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/assets/b41ebf5d-60f1-4da1-998c-6c067739fb48/original",
+              "label": "Original File - 51.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">4</p>\n            <p rend=\"align(center)\">2. DISCOURSES, ARGUMENTATIVE AND DEVOTIONAL,</p>\n            <p>on the subject of the Jewish Religion. Vols. I. and II. (or first<lb/> series) 8vo.\n                boards, pages 590, <placeName>Phila.</placeName>\n                <date>5597</date>.—Vol. III. (or second<lb/> series) 268 pages,\n                    <placeName>Phila.</placeName>\n                <date>5601</date>.</p>\n            <p>**Contents of Vol. I. Dis. 1. Confidence in God. Dis. 2.<lb/> Want of Faith. Dis. 3.\n                Pious Energy. Dis. 4. The Destruction<lb/> of <placeName>Jerusalem</placeName>. Dis.\n                5. The Consolation of <placeName>Israel</placeName>. Dis. 6. Perfec-<lb/>tion with\n                God. Dis. 7. The Covenant. Dis. 8. Sin and Repent-<lb/>ance. Dis. 9. The Creation.\n                Dis. 10. Pious Reflections. Dis. 11.<lb/> The Festival of <date>Hanuckah</date>.\n                Dis. 12. The Fear of Loss. Dis. 13.<lb/> The Festival of <date>Purim</date>. Dis.\n                14. Reward and Punishment. Dis.<lb/> 15. The Sanctification of the Lord. Dis. 16.\n                The Glory of the<lb/> Lord. Dis. 17. The Death of the Righteous. Dis. 18. The\n                Resto-<lb/>ration of <placeName>Israel</placeName>. Dis. 19. The <date>New\n                    Year</date>. Dis. 20. The <date>Passover</date>.<lb/> Dis. 21. The\n                    <date>Pentecost</date>. Dis. 22. The Visitation of Heaven (on the<lb/> Cholera).\n                Dis. 23. Obedience and Repentance. Dis. 24. The<lb/> advent of Messiah. Dis. 25. The\n                Institution of Sacrifices. Dis. 26. The Sinfulness of Pride. Dis. 27. Motives of\n                Gratitude. Dis.<lb/> 28. The Sin of Insincerity.</p>\n            <p rend=\"indent(1)\">Contents of Vol. II. Dis. 29. The Duty of Instruction. Dis. 30.<lb/>\n                The Selection of <placeName>Israel</placeName>. Dis. 31. The Duty of Active\n                Benevolence.<lb/> Dis. 32. The Selection of <placeName>Israel</placeName> (in\n                continuation of Dis. 30). Dis.<lb/> 33. The Blessing of Revelation. Dis. 34. The\n                Permanence of the<lb/> Law. Dis. 35. Prayer, Fasting, and Charity. Dis. 36. The\n                Jewish<lb/> Faith. Dis. 37. The Punishment of Pharaoh. Dis. 38. Recom-<lb/>pense and\n                Retribution. Dis. 39. Religious Education. Dis. 40.<lb/> The Transgression of\n                    <placeName>Israel</placeName>. Dis. 41. The Institution of Prayer.<lb/> Dis. 42.\n                The Causes and Remedies of Sin. Dis. 43. The Spirit of<lb/> the Age. Dis. 44-50. The\n                Messiah, in seven Lectures. Dis. 51.<lb/> Address on the Duty and Scope of Charity.\n                Dis. 52. Address on<lb/> the Objects of Charity.</p>\n            <p rend=\"indent(1)\">Contents of Vol. III. Dis. 1. Call to Repentance. Dis. 2. The</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 5054,
+          "width": 3306,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/70863e36-1055-4108-8d12-f0fcd8c30502%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3306,
+                "height": 5054,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/70863e36-1055-4108-8d12-f0fcd8c30502%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/assets/70863e36-1055-4108-8d12-f0fcd8c30502/original",
+              "label": "Original File - 50.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">5</p>\n            <p>Redemption of <placeName>Israel</placeName>. Dis. 3. The Mission of the Prophets.\n                Dis.<lb/> 4. Religious Education and Repentance. Dis. 5. Obedience to the<lb/> Law.\n                Dis. 6. The Resignation of <persName>Aaron</persName>. Dis. 7. The Uncertainty<lb/>\n                of Life. Dis. 8. The Revelation of <placeName>Sinai</placeName>. Dis. 9. Religious\n                Union.<lb/> Dis. 10. The Sorrows of <placeName>Israel</placeName>. Dis. 11. The\n                Requirements of<lb/> the Law. Dis. 12. The Duty of Contentment. Dis. 13. The\n                Way<lb/> of Life. Dis. 14. Salvation through Repentance. Dis. 15. The<lb/> Covenant\n                of <persName>Abraham</persName>. Dis. 16. Religious Education, 1. Dis. 17.<lb/>\n                Religious Education, 2. Dis. 18. Religious Education, 3. Dis. 19.<lb/> Motives of\n                Charity. Dis. 20. Funeral Address. Dis. 21. Persecu-<lb/>tion of the Jews. Dis. 22.\n                Prayer at the S. S. Examination, 1.<lb/> Dis. 23. Prayer at the S. S. Examination,\n                2.</p>\n            <p>NOTE.—Those possessing the First Series can be supplied with<lb/> the Third Volume\n                separately; but not beyond the number of Vols.<lb/> I. and II. on hand.</p>\n            <p rend=\"align(center)\">3. THE CLAIMS OF THE JEWS TO AN EQUALITY OF<lb/> RIGHTS,</p>\n            <p>illustrated in a Series of Letters to the Editor of the\n                    <placeName>Philadelphia</placeName><lb/> Gazette. 8vo. pages 99.\n                    <placeName>Phila.</placeName>\n                <date>5601</date>.</p>\n            <p rend=\"align(center)\">4. THE FORM OF PRAYER,</p>\n            <p>according to the custom of the Spanish and Portuguese Jews, 6<lb/> vols. royal 8vo.\n                    <date>5597- 5598</date>.</p>\n            <p>CONTENTS. Vol. I. Daily Prayers. Vol. II. <date>New Year</date> Services.<lb/> Vol.\n                III. <date>Day of Atonement</date> Service. Vol. IV. Tabernacle Ser-<lb/>vice. Vol.\n                V. <date>Passover</date> and <date>Pentecost</date> Service. Vol. VI.\n                Fast-<lb/>Days' Service.</p>\n            <p>NOTE.—An extra number of the First Volume, containing the<lb/> Daily Prayers, having\n                been printed, it may be had separate from<lb/> the set.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 5088,
+          "width": 3362,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7324184e-721f-4c94-a544-189566cc8675%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3362,
+                "height": 5088,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7324184e-721f-4c94-a544-189566cc8675%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/assets/7324184e-721f-4c94-a544-189566cc8675/original",
+              "label": "Original File - 51.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">6</p>\n            <p rend=\"align(center)\">5. In contemplation, if sufficient encouragement is given,</p>\n            <p rend=\"align(center)\">THE BOOK</p>\n            <p rend=\"align(center)\">OF</p>\n            <p rend=\"align(center)\">THE LAW OF GOD;</p>\n            <p>commonly called the Pentateuch, Hebrew and English. In five<lb/> vols. small octavo,\n                at twelve dollars and fifty cents in paper. Dif-<lb/>ference of exchange and duties\n                to be paid by subscribers.</p>\n            <p rend=\"indent(1)\">It is contemplated to revise the existing translation carefully<lb/>\n                according to the best Jewish authorities, such as <persName>Onkelos</persName>,\n                    <persName>Yarchi</persName>,<lb/>\n                <persName>Mendelssohn</persName>, <persName>Dubna</persName>,\n                    <persName>Zunz</persName>, and others, in order to furnish the<lb/>\n                English-speaking Israelites with a text and translation which may<lb/> be depended\n                upon for as great a share of accuracy as the editor's<lb/> industry can produce. It\n                is probable that the work will require<lb/> about a year and a half for its\n                completion from the time of its com-<lb/>mencement; but if it is undertaken, not\n                time shall be lost, consistent<lb/> with accuracy, to bring it before the\n                public.</p>\n            <p rend=\"indent(1)\">The following is a specimen of the proposed revised\n                translation,<lb/> to correspond with the Hebrew page of the text of\n                    <persName>Pisa</persName>, which will<lb/> be closely followed. The division in\n                sections commonly found in<lb/> the English version being not according to the\n                Massoratic text will<lb/> not be adhered to; still the usual division of chapters\n                will be indi-<lb/>cated as in the subjoined extract.</p>\n            <p rend=\"align(center)\">DEUTERONOMY, X. AND XI. <persName>AYKEB</persName>.</p>\n            <p>the earth and all that is therein. 15. Yet only<lb/> in thy forefathers has the Lord\n                delight, in order<lb/> to love them; he therefore chose their seed after<lb/> them,\n                namely you, from all the nations, as you<lb/> see this day. 16. Remove therefore the\n                obdu-<lb/>racy of your heart, and be no more stiff-necked.<lb/> 17. For the Lord\n                your God, is the God of gods,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 5098,
+          "width": 3308,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8ddd1872-0332-40fa-97d5-0708bcbffe11%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3308,
+                "height": 5098,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8ddd1872-0332-40fa-97d5-0708bcbffe11%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/assets/8ddd1872-0332-40fa-97d5-0708bcbffe11/original",
+              "label": "Original File - 50.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">7</p>\n            <p>and the Lord of lords, the great, mighty, and<lb/> terrible God, who hath no regard\n                to persons,<lb/> and receiveth no bribes; 18. Who executeth<lb/> justice for the\n                fatherless and the widow, and<lb/> loveth the stranger to give him food and\n                rai-<lb/>ment. 19. Love ye then the stranger, for you<lb/> have yourselves been\n                strangers in the land of<lb/>\n                <placeName>Egypt</placeName>. 20. The Lord thy God thou shalt fear,<lb/> him thou\n                shalt serve, to him thou shalt cleave,<lb/> and by his name thou shalt swear. 21. He\n                is<lb/> thy praise, and he is thy God, who hath done<lb/> for thee these great and\n                fearful things which<lb/> thy own eyes have seen. 22. With seventy per-<lb/>sons thy\n                forefathers went down to <placeName>Egypt</placeName>; and<lb/> now the Lord thy God\n                hath made thee as nume-<lb/>rous as the stars of heaven. 1. Love<lb/> CHAP. XI.<lb/>\n                thou therefore the Lord thy God, and<lb/> keep his charge, his statutes, judgments,\n                and<lb/> commandments all thy days. 2. Know ye also<lb/> this day, that not with\n                your children, who have<lb/> not known, and who have not seen the chastise-<lb/>ment\n                of the Lord your God, his greatness, his<lb/> strong hand, and his outstretched arm;\n                3. As<lb/> also his signs and acts which he displayed in<lb/>\n                <placeName>Egypt</placeName>, unto Pharaoh, the king of\n                <placeName>Egypt</placeName>, and<lb/> all his land.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 5022,
+          "width": 3304,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1a5e59aa-368a-4019-b02c-38a036dd79c8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3304,
+                "height": 5022,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1a5e59aa-368a-4019-b02c-38a036dd79c8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/assets/1a5e59aa-368a-4019-b02c-38a036dd79c8/original",
+              "label": "Original File - 50 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">8</p>\n            <p rend=\"align(center)\">ALSO JUST READY.</p>\n            <p rend=\"align(center)\">6. SHEMANG YISRAEL, OR, THE SPIRIT OF JUDAISM.</p>\n            <p>Being an Exposition of the Duties embraced in the Shemang; by<lb/>\n                <persName>Grace Aguilar</persName>, of <placeName>Hackney, England</placeName>,\n                edited by <persName role=\"author\">I. L.</persName> 12mo. cloth<lb/> boards, pages\n                255. <placeName>Phila.</placeName>\n                <date>5602</date>.</p>\n            <p>**CONTENTS. Chapter 1. The Avowal of Unity considered as<lb/> it regards the Jewish\n                Nation. Chapter 2. Definition of the word<lb/> Heart—Love of God considered as it\n                regards the Affections. Chap-<lb/>ter 3. Definition of the word Soul—Love of God\n                considered as it<lb/> regards the Intellectual and Vital Principle of Man. Chapter\n                4.<lb/> Definition of the world Might—Love of God considered as it regards<lb/> our\n                Domestic and Social Duties. Chapter 5. Brief Review of the<lb/> Commandments and the\n                Social Duties therein comprised. Chap-<lb/>ter 6. Hints on the Religious Instruction\n                of the Hebrew Youth.<lb/> Chapter 7. The Spirit of Religion regarded as pervading\n                and<lb/> guiding our Conversation, profane reading, admiration of the Works<lb/> of\n                Nature, etc. Chapter 8. The Spirit and the Forms of Judaism<lb/> considered\n                Separately and together.</p>\n            <p rend=\"indent(1)\">Any letter sent by mail to the address of <persName role=\"author\"\n                    >ISAAC LEESER</persName>, at <placeName>Phila-<lb/>delphia</placeName>, will\n                reach him, unforseen accidents only excepted. The<lb/> public may be assured that\n                every order for any of the above works<lb/> will be promptly attended to, and to\n                persons living out of the limit<lb/> of the <placeName>U. S.</placeName> the charges\n                will be the same as to residents of the<lb/> Union, with the sole addition of duty,\n                &amp;c.</p>\n            <p><hi rend=\"italics\"><placeName>Philadelphia</placeName></hi>, <date>January 12,\n                    5602</date>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qf8k528/canvas/p8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

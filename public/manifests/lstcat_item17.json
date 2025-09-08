@@ -1,0 +1,205 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leeser, Isaac; [Rehine, Zalma]; Philadelphia, PA; 26 August 1838",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p36t0hg8g"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Leeser, Isaac; [Rehine, Zalma]; Philadelphia, PA; 26 August 1838"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Rehine, Zalma"]
+    },
+    {
+      "label": "Date",
+      "value": ["1838-08-26", "5 Elul 5398"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item17"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/3dfa34a6-278a-4ae3-977a-dd35397df29f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/3dfa34a6-278a-4ae3-977a-dd35397df29f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5988,
+          "width": 4974,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3dfa34a6-278a-4ae3-977a-dd35397df29f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4974,
+                "height": 5988,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3dfa34a6-278a-4ae3-977a-dd35397df29f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/assets/3dfa34a6-278a-4ae3-977a-dd35397df29f/original",
+              "label": "Original File - 89.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Philadelphia</placeName>\n                <date>August 26<hi rend=\"sup\">th</hi>. Elul 5<hi rend=\"sup\">th</hi>. 5598</date>\n            </p>\n            <p>Dear Uncle.</p>\n            <p rend=\"indent(1)\"><date>Sabbath</date> is just over and being at <persName>Mr\n                    Allens</persName><lb/> when <persName>Mrs. E. Moses</persName> &amp; other\n                friends are assembled, I have<lb/> resolved to scratch a few lines by way of\n                accompaniment<lb/> to the two sermons I send by her. One I deliver'd on<lb/>\n                <add>פסח</add> and the Men today and was composed during the past<lb/> week on\n                    <date>Tuesday</date>\n                <date>Wednesday</date> &amp; <date>Thursday</date>. The are con-<lb/>nected and are\n                a continuation of the Election of <placeName>Israel</placeName><lb/> in the printed\n                book vol. 2, and I believe the 2<hi rend=\"sup\">nd</hi> &amp; 4th<lb/> thereof. I\n                hope they will please you; yet I fear your<lb/> partiality makes you attach value to\n                things of mine<lb/> which otherwise may deserve but little commendation.<lb/> As I\n                intend probably to continue the subject I would thank<lb/> you to send them back by\n                an early opportunity. I intend<lb/> going to <placeName>N. York</placeName> in the\n                morning, but if the weather<lb/> remains as intensely hot as it has been today I\n                may<lb/> possibly defer my starting.</p>\n            <p rend=\"indent(1)\">Please to console <persName>Aunt R</persName> and\n                    <persName>Rachel</persName> on the<lb/> death of <persName>Mr. M.\n                    Judah</persName>; I know he has not been<lb/> in communication with you for some\n                time, still I have<lb/> no doubt his sudden death will cause him to be<lb/>\n                regretted by those so nearly connected with th<add>?</add> him.<lb/> May the Lord\n                send his consolation to them to preserve</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5998,
+          "width": 4914,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ee49b5b-d806-4f53-ab76-34153ef02c59%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4914,
+                "height": 5998,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ee49b5b-d806-4f53-ab76-34153ef02c59%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/assets/2ee49b5b-d806-4f53-ab76-34153ef02c59/original",
+              "label": "Original File - 88.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>them from further affliction.</p>\n            <p rend=\"indent(1)\">Let me have a letter from you by <date>Thursday</date> evening when\n                I<lb/> intend being back again at this place, God willing. As there<lb/> has been\n                but a few Mendaner<add>?</add> at Synagogue during the sum-<lb/>mer I have delivered\n                no discourses, as I do not like to speak<lb/> to empty benches. Thinking that today\n                many would be there I<lb/> wrote during the week; but the attendance today was bad\n                enough<lb/> This is no great encouragement; but I have never waited for<lb/> this\n                much, so I am never<add>?</add> much disappointed.</p>\n            <p>Wishing you much health happiness</p>\n            <p rend=\"indent(1)\">I remain</p>\n            <p rend=\"indent(1)\">Your obt. nephew</p>\n            <p rend=\"indent(2)\">\n                <persName role=\"author\">Isaac Leeser</persName>\n            </p>\n            <p><persName>Mrs. Moses</persName> will give you all<lb/> the floating talk if there is\n                any, which I doubt.<lb/> My love to all friends.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hg8g/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

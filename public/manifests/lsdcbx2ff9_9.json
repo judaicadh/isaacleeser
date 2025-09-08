@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Mayer, M.; Leeser, Isaac, Rev.; New York, NY; 25 March 1862",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3736mn6b"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Mayer, M.; Leeser, Isaac, Rev.; New York, NY; 25 March 1862"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1862-03-25", "25 March 5622"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF9_9"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/484c452a-ff5d-42f8-acea-9327a42d577c%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/484c452a-ff5d-42f8-acea-9327a42d577c%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4068,
+          "width": 4854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/484c452a-ff5d-42f8-acea-9327a42d577c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4854,
+                "height": 4068,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/484c452a-ff5d-42f8-acea-9327a42d577c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/assets/484c452a-ff5d-42f8-acea-9327a42d577c/original",
+              "label": "Original File - 59.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>New York</placeName>, <date>March 25\n                5622/1862</date>.</p>\n            <p><addressee>Rev. Isaac Leeser</addressee>, <placeName>Philadelphia</placeName>.</p>\n            <p rend=\"indent(1)\">Dear Sir &amp; <hi rend=\"underline\">Colleague</hi>!</p>\n            <p rend=\"indent(4)\">The above address<lb/> will no doubt excite your curiosity &amp;\n                astonishment<lb/> I will at once gratify both. After 4 months'<lb/> reflection &amp;\n                upon the most urgent solicitations of<lb/> my friends &amp; the congregation itself,\n                I have accepted<lb/> the <hi rend=\"underline\">unanimous</hi> election, or rather <hi\n                    rend=\"underline\">invitation</hi> (for<lb/> I did not apply for the place) as\n                Minister<lb/> of the congregation <hi rend=\"underline\">Anche-Emeth</hi> at\n                    <placeName>Albany</placeName>,<lb/> formerly <persName>Dr Wise's</persName>\n                congregation. What do you<lb/> say to this, that <persName>Dr. W.</persName> must\n                see me at the<lb/> head of his former flock?</p>\n            <p rend=\"indent(1)\">As I intend <add>אי\"ה</add> to<lb/> enter upon my duties a fortnight\n                hence, and<lb/> shall, in consequence, be more than occupied<lb/> with winding up my\n                business here and<lb/> preparing for my removal, it will be im-<lb/>possible for me\n                to continue, for the next 2<lb/> months, my translation for the <hi rend=\"underline\"\n                    >Occident</hi>; but<lb/> rely upon it, as soon as I shall be comfortably<lb/>\n                settled, I shall recommence, &amp; finish the work<lb/> without interruption.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4068,
+          "width": 4854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e20958c1-2634-4088-ae40-80fb7e5197e6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4854,
+                "height": 4068,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e20958c1-2634-4088-ae40-80fb7e5197e6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/assets/e20958c1-2634-4088-ae40-80fb7e5197e6/original",
+              "label": "Original File - 59.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">As to my future course in the holy<lb/> office upon which I am about\n                to <hi rend=\"underline\">re</hi>-enter,<lb/> I will say nothing; you know my\n                views,<lb/> principles &amp; convictions—the cause of<lb/> the Jews &amp; Judaism\n                shall never suffer<lb/> shame &amp; disgrace at my hand!</p>\n            <p rend=\"indent(1)\">Believe me to remain, as ever,</p>\n            <p rend=\"indent(3)\">Yours &amp;c</p>\n            <p rend=\"indent(3)\">\n                <persName role=\"author\">M Mayer</persName>\n            </p>\n            <div>\n                <p>\n                    <ref target=\"Occident_PDFs/Occ_20_21.pdf\">The above text refers to Occident\n                        Volume 20 No. 21 page 47. Click here to view.</ref>\n                </p>\n            </div>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3736mn6b/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Hart, Isaac; Leeser, Isaac; New Orleans, LA; 3 April 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3pr7nf04"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Hart, Isaac; Leeser, Isaac; New Orleans, LA; 3 April 1857"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-04-03"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Louisiana -- New Orleans",
+        "United States -- Louisiana",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item163"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/e81d5245-de11-47c1-b7aa-915f2e49934d%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/e81d5245-de11-47c1-b7aa-915f2e49934d%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6326,
+          "width": 5148,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e81d5245-de11-47c1-b7aa-915f2e49934d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5148,
+                "height": 6326,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e81d5245-de11-47c1-b7aa-915f2e49934d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/assets/e81d5245-de11-47c1-b7aa-915f2e49934d/original",
+              "label": "Original File - 97.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>New Orleans</placeName>\n                <date>April 3<hi rend=\"sup\">rd</hi> 1857</date>\n            </p>\n            <p>Friend <addressee>Leeser</addressee></p>\n            <p rend=\"indent(2)\">Rev &amp; Dear Sir</p>\n            <p rend=\"indent(5)\">no doubt<lb/> ere this reach you you are in receipt of<lb/> the\n                papers of yesterday which I sent you each<lb/> containing the account of the\n                Consecration<lb/> of the new Synagogue all that I could say could<lb/> not add to it\n                It was a scene that all<lb/> creeds must have felt proud to witness every<lb/> nook\n                &amp; corner of the Building was occupied in<lb/> fact it was a sea of Human beings\n                such was<lb/> the demands for tickets of <sic>addmission</sic> that<lb/> a large\n                number of our own persuasion<lb/> &amp; many Hundreds of our Citizens were\n                presented<lb/> from attending <sic>oweing</sic> to every place<lb/> being given out\n                some day prior to the<lb/> consecration I also sent you the little Book<lb/> was\n                    <sic>was</sic> freely distributed to every one present<lb/> containing the\n                proceedings The Choir sang<lb/> beautifully accompanied by a Melodeon &amp;\n                full<lb/> Orchestra the sermon of <persName>Mr Gutheim</persName> was<lb/> as you\n                may have anticipated from the learned<lb/> Gentleman exceedingly interesting &amp;\n                seemed to<lb/> entrance the whole of the large assembly there<add>?</add><lb/> His\n                discourse being twice as long I feel<lb/> confident none would have tired. I\n                have</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6326,
+          "width": 5148,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8be25249-1ee8-4480-b472-ab191f0878bd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5148,
+                "height": 6326,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8be25249-1ee8-4480-b472-ab191f0878bd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/assets/8be25249-1ee8-4480-b472-ab191f0878bd/original",
+              "label": "Original File - 97.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>as your agent requested the talented Minister<lb/> to furnish me a copy for your\n                Magazine<lb/> I addressed him a note on the subject<lb/> last evening but no reply\n                yet received<lb/> should the he comply I shall immediately<lb/> forward it to you\n                    <add>?</add> delivers extempore<lb/> it may be some few days ere I obtain<lb/>\n                it or his refusal as If I must ask<add>?</add> not<lb/> He does not care about\n                publishing his<lb/> sermons—after the services were concluded<lb/> nearly the whole\n                of His Congregation &amp; many<lb/> of the <placeName>Rampart St</placeName>\n                Synagogue paid their<lb/> respects to him at his splendidly furnished<lb/> Dwelling\n                    <sic>anexd</sic> to the Synagogue. The House<lb/> was brilliantly lit up with\n                Gas &amp; mine Host<lb/> not unprepared for his Guests, who one &amp; all<lb/> did\n                full Justice to the plentiful supply<lb/> of <sic>champaigne</sic> &amp; other good\n                things <del>?</del><lb/> Take it in all it was an event that will<lb/> live long in\n                pleasant memory to all who<lb/> were so fortunate as to be present The officers<lb/>\n                of the Congregation deserve much credit<lb/> for the credible manner in which\n                every<lb/> thing was arranged &amp; carried out</p>\n            <p>I noticed among the audience a large number<lb/> of our Oldest citizens with their\n                families<lb/> of our course <persName>Mr Sheppard</persName> the old friend of<lb/>\n                the late <persName>Judah Touro</persName> was among the rest<lb/> nothing further to\n                add but remain</p>\n            <p rend=\"indent(10)\">Yours Truly</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">Isaac Hart</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pr7nf04/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Lindo, A. A.; Leeser, Isaac, Rev.; Cincinnati, OH; 21 November 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3028pw33"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Lindo, A. A.; Leeser, Isaac, Rev.; Cincinnati, OH; 21 November 1848"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Lindo, A. A.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1848-11-21"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Ohio -- Cincinnati",
+        "United States -- Ohio",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_33"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/dec592d6-69c1-48de-8019-f2f4b5385456%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/dec592d6-69c1-48de-8019-f2f4b5385456%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5850,
+          "width": 4686,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/dec592d6-69c1-48de-8019-f2f4b5385456%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4686,
+                "height": 5850,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/dec592d6-69c1-48de-8019-f2f4b5385456%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/assets/dec592d6-69c1-48de-8019-f2f4b5385456/original",
+              "label": "Original File - 82.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Cincinnati Ohio</placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <date>21<hi rend=\"sup\">st</hi> Novr 1848</date>\n                              </p>\n                              <p>Reverend Sir.</p>\n                              <p rend=\"indent(2)\">I this day received your favor of the\n                                                  <date>16th</date><lb/> and immediately\n                                        communicated to <persName>Mr Gutheime</persName> the portion\n                                        of it<lb/> relating to him: He intends writing you. It is\n                                        painful to<lb/> learn that labours such as you have put\n                                        forth on behalf of our<lb/> faith has hitherto not been\n                                        better rewarded in a pecuniary sense<lb/> you will however\n                                        always the satisfaction of feeling that you have<lb/> done\n                                        your duty and be persevering in it you will I trust\n                                        eventually<lb/> succeed in rousing our people and reaping a\n                                        just reward for your<lb/> exertions. On the appearance in\n                                        the occident for <date>December</date><lb/> of your article\n                                        and that of <persName>Dr Wise</persName> on the subject of\n                                        ministers holding<lb/> a meeting, I will pay particular\n                                        attention to them: I thank you for<lb/> the offer to insert,\n                                        in the number for <date>January</date> any ideas I may wish\n                                        to<lb/> publish on the subject but persuaded as I am that it\n                                        will be far<lb/> better treated by you and <persName>Dr\n                                                  Wise</persName> I will not risk injuring the\n                                        cause<lb/> I have so much at heart to promote by any\n                                        observations of mine<lb/> upon it. You have not I think\n                                        fully understood me on the<lb/> subject of calling attention\n                                        to my little work “a Retrospect &amp;c”<lb/> I beg therefore\n                                        to explain—The points treated in it though little<lb/>\n                                        familiar to our people generally are still most important to\n                                        them<lb/> to be informed upon. Those points I need not\n                                        indicate to one of<lb/> your rending<add>?</add> and\n                                        knowledge: It would ill become me to review<lb/> my own\n                                        work, more especially as it is in the hands of one so<lb/>\n                                        much more competent to do it, and would you resolve to\n                                        under<lb/> take it</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5850,
+          "width": 4686,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/139391b8-38d7-43e8-8dca-f631042df13e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4686,
+                "height": 5850,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/139391b8-38d7-43e8-8dca-f631042df13e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/assets/139391b8-38d7-43e8-8dca-f631042df13e/original",
+              "label": "Original File - 82.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>I venture to predict the articles you might occasionally<lb/>\n                                        insert in the occident elucidating the points in\n                                        question<lb/> would not be considered the least interesting\n                                        in it.</p>\n                              <p rend=\"indent(1)\">Will you thank <persName>Mr. Sibreuce</persName>\n                                        for the message<lb/> conveyed to me through you &amp;\n                                        believe me</p>\n                              <p rend=\"indent(2)\">Revd Sir Yours sincerely</p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">A A. Lindo</persName>\n                              </p>\n                              <p>\n                                        <addressee>Revd Isaac Leeser</addressee>\n                              </p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_6_9.pdf\">The above\n                                                  text refers to Occident Volume 6 No. 9 pages 421\n                                                  through 436. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3028pw33/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

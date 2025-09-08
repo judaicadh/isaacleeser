@@ -1,0 +1,193 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Arnold, A. B. (Abraham B.), 1820-; April 12, 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3765b49d"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter to Isaac Leeser from Arnold, A. B. (Abraham B.), 1820-; April 12, 1847"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": [
+        "Leeser, Isaac (contributor)",
+        "Arnold, A. B. (Abraham B.), 1820- (creator)"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-04-12"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Easton (Northampton County, Pa.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF4_5", "ilcajs_b1f4_0006"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f256abd-f49e-43e9-a41f-41750bac0b1f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f256abd-f49e-43e9-a41f-41750bac0b1f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5812,
+          "width": 4664,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f256abd-f49e-43e9-a41f-41750bac0b1f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4664,
+                "height": 5812,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f256abd-f49e-43e9-a41f-41750bac0b1f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/assets/9f256abd-f49e-43e9-a41f-41750bac0b1f/original",
+              "label": "Original File - 81.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Easton</placeName>\n                                        <date>April 12/47</date>\n                              </p>\n                              <p>\n                                        <addressee>Mr I. Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">Revd Sir. I have been requested by the\n                                        officers<lb/> of the <placeName>Easton</placeName>\n                                        Congregation to write to you about<lb/> an affair touching\n                                        the <persName>Hart family</persName>. They have a<lb/>\n                                        burial ground here, which they granted to the<lb/>\n                                        congregation to make use of and also to any stranger<lb/>\n                                        who should be a jew. The <sic>borrough</sic> not-long\n                                        since<lb/> passed a law that the owners of the property\n                                        situate<lb/> in the street where <del>the</del> our\n                                        synagogue is, have to get<lb/> pavements made. The\n                                        calculation is, that a pavement in<lb/> front of the burial\n                                        ground would cost about 60 dollars.<lb/> The congregation\n                                        would therefore inform the <persName>Hart\n                                        family</persName><lb/> of this new regulation and wish to\n                                        hear their intentions.<lb/> In want of proper information to\n                                        whom to write about<lb/> this you are respectfully desired\n                                        to apprize some<lb/> of the members of the family of what is\n                                        stated above,<lb/> and please to let us know as soon as\n                                        convenient<lb/> the arrangements they intend to make.</p>\n                              <p rend=\"indent(1)\">I have received your books some time ago, I<lb/>\n                                        shall also write to my brother about the subscription<lb/>\n                                        of the Occident.</p>\n                              <p rend=\"indent(3)\">I have the honor</p>\n                              <p rend=\"indent(4)\">to be yours respectfully</p>\n                              <p rend=\"indent(5)\">\n                                        <persName role=\"author\">A. B. Arnold</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4664,
+          "width": 5812,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5bb1b81b-be5d-4feb-8f11-4637f2fcaf21%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5812,
+                "height": 4664,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5bb1b81b-be5d-4feb-8f11-4637f2fcaf21%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/assets/5bb1b81b-be5d-4feb-8f11-4637f2fcaf21/original",
+              "label": "Original File - 81.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd Mr. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>No 118 South 4<hi rend=\"sup\">th</hi>\n                                                  Street</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Philad.</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b49d/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

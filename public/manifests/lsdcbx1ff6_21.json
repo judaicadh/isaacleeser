@@ -1,0 +1,188 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Manheim, Mayer; March 15, 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3348h76k"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Manheim, Mayer; March 15, 1849"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Manheim, Mayer (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-03-15"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["3 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["Yiddish", "English", "Hebrew"]
+    },
+    {
+      "label": "Location",
+      "value": ["Pittsburgh (Pa.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF6_21", "ilcajs_b1f6_0019"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/e3748cb8-e971-4aa2-b71b-65fbbd30a382%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/e3748cb8-e971-4aa2-b71b-65fbbd30a382%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 6472,
+          "width": 4426,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e3748cb8-e971-4aa2-b71b-65fbbd30a382%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4426,
+                "height": 6472,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e3748cb8-e971-4aa2-b71b-65fbbd30a382%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/assets/e3748cb8-e971-4aa2-b71b-65fbbd30a382/original",
+              "label": "Original File - 86.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <addressee>Mr I. Leeser</addressee>\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p><placeName><sic>Pittsburg</sic></placeName> the <date>15 March\n                                                  1849</date></p>\n                              <p>\n                                        <add>שלום וכל טוב לאדוני ש</add>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <persName role=\"author\">Mayer Manheim</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4426,
+          "width": 6472,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0a46b1f6-584e-41c1-976c-3c0546cc8f6c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6472,
+                "height": 4426,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0a46b1f6-584e-41c1-976c-3c0546cc8f6c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/assets/0a46b1f6-584e-41c1-976c-3c0546cc8f6c/original",
+              "label": "Original File - 86.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><addressee>Rev. I. Leeser</addressee> the within letter you will\n                                                  <sic>persive</sic> how <persName>Mr\n                                                  Kohen</persName> acted<lb/> contrary to the\n                                        station he was in also the wrong the writer of the\n                                        letter<lb/> has done <del>to give</del> on giving\n                                                  <persName>Mr Cohen</persName>\n                                        <add>Hebrew</add> if you think it proper<lb/> to and for the\n                                        Good of <placeName>Israel</placeName>. I think it would do\n                                        good<lb/> to Expose both of the <sic>offenters</sic>\n                                        <sic>trough</sic> your Occident<lb/> I only make the remark\n                                        and leave it at your<lb/>\n                                        <sic>disgresion</sic> yours very Respectfully</p>\n                              <p rend=\"indent(1)\">\n                                        <persName role=\"author\">N Gallinger</persName>\n                              </p>\n                              <p\n                                        rend=\"The following address is written sideways near the right side of the page\">\n                                        <addressee>Rev. Isaac Leeser</addressee>\n                              </p>\n                              <p\n                                        rend=\"The following address is written sideways near the right side of the page\"\n                                        >favor of <persName role=\"author\">Mr. N. Galinger</persName>\n                                        <placeName>Philadelphia. Pa.</placeName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3348h76k/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

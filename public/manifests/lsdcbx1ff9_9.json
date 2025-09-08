@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Ezekiel, Jacob; Leeser, Isaac, Rev.; Richmond, VA; 6 March 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3sj1bb4k"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Ezekiel, Jacob; Leeser, Isaac, Rev.; Richmond, VA; 6 March 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-03-06"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virginia -- Richmond",
+        "United States -- Virginia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_9"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/0f2a803e-010e-4834-b1ec-fff2f22e2b8a%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/0f2a803e-010e-4834-b1ec-fff2f22e2b8a%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4340,
+          "width": 3352,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0f2a803e-010e-4834-b1ec-fff2f22e2b8a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3352,
+                "height": 4340,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0f2a803e-010e-4834-b1ec-fff2f22e2b8a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/assets/0f2a803e-010e-4834-b1ec-fff2f22e2b8a/original",
+              "label": "Original File - 43.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Richmond</placeName>\n                                        <date>Mar. 6th 1852</date>\n                              </p>\n                              <p>\n                                        <addressee>Revd Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">Esteemed Friend!</p>\n                              <p rend=\"indent(4)\">Hoping you ar-<lb/>rived safe and met your\n                                        imme<lb/>diate friends in usual health as<lb/> I trust you\n                                        enjoy, I wish you<lb/> a happy and merry\n                                                  <date><sic>Pureem</sic></date> hoping<lb/> you may\n                                        live many more years<lb/> to see its return,</p>\n                              <p rend=\"indent(1)\">We are all well, I neglec-<lb/>ted when you were\n                                        here for<lb/> to request you to send me the<lb/> various\n                                        forms of blanks now<lb/> in use in the <add>?</add> in\n                                        your<lb/> city. we wish to adopt the same<lb/> here, so\n                                        please by return of the<lb/> mail send them to me, I\n                                        mean<lb/> the various notices &amp;c,</p>\n                              <p rend=\"indent(1)\">All the families join in kind<lb/> remembrance to\n                                        you, I regret that<lb/> you could not remain here\n                                        longer,</p>\n                              <p rend=\"indent(1)\"><persName>Mr Henry</persName> arrived here the\n                                        day<lb/> after you left, called on <persName>Mr Jacob<lb/>\n                                                  A. Levy</persName>, who did not request him<lb/>\n                                        to remain and deliver a lecture<lb/> in synagogue, so he\n                                        left the fol</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4340,
+          "width": 3352,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bad338af-ab83-4241-9f6c-d09c79330aa9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3352,
+                "height": 4340,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bad338af-ab83-4241-9f6c-d09c79330aa9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/assets/bad338af-ab83-4241-9f6c-d09c79330aa9/original",
+              "label": "Original File - 43.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>lowing morning for the <placeName>North</placeName>,</p>\n                              <p rend=\"indent(1)\">Here has nothing new transpired<lb/> since you\n                                        left, I hope that du-<lb/>ring the summer you will come<lb/>\n                                        on and spend some time with us<lb/> really I cannot call\n                                        your short<lb/> stay more than a Doctors visit</p>\n                              <p rend=\"indent(1)\">Love to <persName>Aunt Sally</persName> and<lb/>\n                                        my dear sister and family,<lb/> to my old friend\n                                                  <persName>Mrs hart</persName><lb/> and believe me\n                                        to remain as<lb/> ever  Yours truly</p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">Jacob Ezekiel</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3352,
+          "width": 4340,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e884d3e7-e129-404a-9efb-41538a5b95c7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4340,
+                "height": 3352,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e884d3e7-e129-404a-9efb-41538a5b95c7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/assets/e884d3e7-e129-404a-9efb-41538a5b95c7/original",
+              "label": "Original File - 43.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Pa</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3sj1bb4k/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

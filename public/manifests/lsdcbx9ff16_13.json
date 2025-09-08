@@ -1,0 +1,299 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Oppenheim, Saml. S.; Leeser, Isaac; London, United Kingdom; 9 October 1860",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3v980c0t"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Oppenheim, Saml. S.; Leeser, Isaac; London, United Kingdom; 9 October 1860"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Oppenheim, Saml. S.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1860-10-09", "5620"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United Kingdom -- London",
+        "United Kingdom",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx9FF16_13"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/01a28831-a4a0-4ae1-afae-cf27865769ba%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/01a28831-a4a0-4ae1-afae-cf27865769ba%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 8422,
+          "width": 5328,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/01a28831-a4a0-4ae1-afae-cf27865769ba%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5328,
+                "height": 8422,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/01a28831-a4a0-4ae1-afae-cf27865769ba%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/assets/01a28831-a4a0-4ae1-afae-cf27865769ba/original",
+              "label": "Original File - 135 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>London</placeName>, <date>October 9th 5620</date>.</p>\n            <p rend=\"align(right)\">\n                <placeName>22 Endsleigh St. Enston Sqre.</placeName>\n            </p>\n            <p><addressee>Revrd. Isaac Leeser</addressee>,</p>\n            <p rend=\"indent(1)\">Dear Sir</p>\n            <p rend=\"indent(2)\">I take the opportunity at this<lb/> season of the year to write you\n                a few lines<lb/> wishing you many happy returns of the<lb/> festivals &amp; that you\n                may be spared many<lb/> more years to defend Ancient Orthodox<lb/> Judaism in\n                    <placeName>America</placeName>, against the Anti<lb/> Jewish doctrines of the\n                new lights.<lb/> I receive regularly your Occident, &amp; feel<lb/> the same\n                pleasure in reading it that I<lb/> always did in <placeName>Cincinnati</placeName>,\n                    <persName>Mr Lewis<lb/> Nathan</persName>, <placeName>10 Finsbury\n                    Circus</placeName>, requests me<lb/> to say he wishes to become a\n                subscriber,<lb/> that gentleman is one of the Parnassim of<lb/> the Great Synagogue,\n                [The Synagogues here<lb/> are all conducted on Orthodox principles<lb/> with the\n                exception of the <placeName>Margaret St.</placeName><lb/> one, &amp; that I am told\n                does not increase<lb/> its number of members very rapidly, if at<lb/> all. The\n                branch places of worship of the<lb/> Great &amp; Portuguese Synagogues, in a\n                great<lb/> measure having checked it, as formerly<lb/> numbers attended there who\n                could not walk<lb/> the distance to the City Synagogues; They<lb/> have just\n                reopened it with an Organ, like<lb/> all new customs introduced into Jewish\n                Worship,<lb/> as established by our Sages, they must have<lb/> after a certain time\n                a change, hence the<lb/> introduction of the Organ. The <placeName>Portland<lb/>\n                    St.</placeName> Synagogue a branch of the Great, divide<lb/> the morning\n                Service, from the Reading of the<lb/> Law, Additional Service &amp; Sermon, on\n                    <date>Sabbath</date><lb/> &amp; holidays with the exception of the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 8422,
+          "width": 5328,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/45df9ee1-7cd7-4023-8a56-9ac05fda7e32%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5328,
+                "height": 8422,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/45df9ee1-7cd7-4023-8a56-9ac05fda7e32%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/assets/45df9ee1-7cd7-4023-8a56-9ac05fda7e32/original",
+              "label": "Original File - 135 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><date>New Year</date> &amp; <date>Day of Atonement</date>. The<lb/> prayers for rain\n                &amp; dew have also been<lb/> curtailed in that Synagogue by the Sanction<lb/> of\n                    <persName>Dr. Adler</persName> the Chief Rabbi, but none of<lb/> the other\n                Peyatim are abolished, the Second<lb/> service commences at ½ past 10 Oclock,\n                it<lb/> is true this division makes a great many<lb/> attend service which never\n                used, but at<lb/> the first service the Synagogue is almost<lb/> deserted there\n                being hardly more than Minyan<lb/> attending, so that I believe the rising\n                generation<lb/> when they grow up will almost forget there<lb/> is such a service as\n                Shocras, it would be<lb/> much better to have both services together &amp;<lb/>\n                commence at 9 O Clock; In the country<lb/> most of the Congregations are small, I\n                have<lb/> visited a great many of them, &amp; strange to<lb/> say whereas in the\n                    <placeName>United States</placeName> the small<lb/> congregations increase\n                rapidly, here they diminish.<lb/> At <placeName>Manchester</placeName> besides the\n                orthodox congregation,<lb/> there is a seceding one the minister of<lb/> which was\n                formerly minister of an orthodox<lb/> one but he having had a misunderstanding<lb/>\n                with the members, became a seceder, did the<lb/> disagreement with the members of\n                his former<lb/> congregation alter his religious views? I am<lb/> told a great many\n                attend that Synagogue that<lb/> never before attended any but would not<lb/> the\n                minister have been just as soon able to<lb/> have brought them there by introducing\n                the<lb/> old Orthodox Portuguese Minhag, instead<lb/> of the <placeName>Margaret\n                    St.</placeName> Prayer Book.</p>\n            <p><placeName>Sussex Hall</placeName>, the Jews &amp; General Literary &amp;<lb/>\n                Scientific Institution is about to be closed.<lb/> The Jews College\n                    progres<del>s</del><sic>es</sic> well &amp; I hope<lb/> at some future day to\n                see it send forth</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 8422,
+          "width": 5328,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/da04bbdd-7f21-42d0-928c-9c1e385f5092%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5328,
+                "height": 8422,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/da04bbdd-7f21-42d0-928c-9c1e385f5092%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/assets/da04bbdd-7f21-42d0-928c-9c1e385f5092/original",
+              "label": "Original File - 135 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>some Jewish Divines.</p>\n            <p>In concluding this letter I must say the Great<lb/> Synagogue has a very grand &amp;\n                Solemn appearance<lb/> on the <date>Day of Atonement</date>, there is something<lb/>\n                in it that makes a person feel devout on<lb/> entering &amp; without any organ to\n                occasion those<lb/> feelings. There was only one person wanted &amp;<lb/> that was\n                our respected Chief Rabbi who was<lb/> absent being in ill health &amp; ordered to\n                the sea sick<lb/> but I am glad to say he is fast recovering, the<lb/>\n                <persName>Revd. Mr. Ascher</persName> the Reader, performed the<lb/> services in the\n                same impressive way that he<lb/> used ten years ago when I heard him. I<lb/> must\n                now conclude giving you my best<lb/> wishes &amp; hoping to hear from you,</p>\n            <p rend=\"indent(1)\">I am your's</p>\n            <p rend=\"indent(2)\">truly</p>\n            <p rend=\"indent(1)\"><persName role=\"author\">Saml. S. Oppenheim</persName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 8422,
+          "width": 5328,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/401dc16a-02d5-4971-a5a4-0b4e3002b539%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5328,
+                "height": 8422,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/401dc16a-02d5-4971-a5a4-0b4e3002b539%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v980c0t/assets/401dc16a-02d5-4971-a5a4-0b4e3002b539/original",
+              "label": "Original File - 135 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

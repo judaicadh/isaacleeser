@@ -1,0 +1,317 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Jacobs, Henry S.; Leeser, Isaac, Rev.; Kingston, Jamaica; 1 November 1850",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p38p5vw3q"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Jacobs, Henry S.; Leeser, Isaac, Rev.; Kingston, Jamaica; 1 November 1850"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1850-11-01", "14 November 5610"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Jamaica -- Kingston",
+        "Jamaica",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF7_27"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e67aea5-e371-424e-bbf3-b1ca0a5b5d09%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e67aea5-e371-424e-bbf3-b1ca0a5b5d09%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5772,
+          "width": 4770,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e67aea5-e371-424e-bbf3-b1ca0a5b5d09%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4770,
+                "height": 5772,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e67aea5-e371-424e-bbf3-b1ca0a5b5d09%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/assets/3e67aea5-e371-424e-bbf3-b1ca0a5b5d09/original",
+              "label": "Original File - 82.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Kingston, Jamaica</placeName>\n                                        <date>14<hi rend=\"sup\">th</hi> November 5610</date>.</p>\n                              <p><addressee>Revd. Isaac Leeser</addressee>,</p>\n                              <p rend=\"indent(2)\">My dear Sir,</p>\n                              <p rend=\"indent(4)\">I avail myself of the present favorable<lb/>\n                                        opportunity of replying to your welcome communication\n                                                  <persName>Dr Glamorgan</persName>,<lb/> and also\n                                        of acknowledging the receipt of a Parcel containing<lb/>\n                                        Four sets of the present volume of the “Occident” to the\n                                                  <date>October</date> No,<lb/> less one copy of No\n                                        4. I have duly delivered them to the Gentlemen,<lb/> on\n                                        whom, thro a little delicacy, I have not yet called for\n                                        the<lb/> amount of subscription, but I intend doing so next\n                                        week, and<lb/> handing over the same to <persName>Mr A C\n                                                  Peixotto</persName>, your agent in this<lb/>\n                                        <placeName>Island</placeName>.</p>\n                              <p rend=\"indent(4)\">Permit me to reiterate the high<lb/> sense I\n                                        entertain of your kindness and friendly feeling in\n                                        furnishing<lb/> me with the information requested of\n                                        vacancies in congregations<lb/> in the <placeName>United\n                                                  States</placeName>, requiring Hazanim. On mature\n                                        reflection, it<lb/> is quite evident to me, that great\n                                        (perhaps insurmountable)<lb/> difficulties must necessarily\n                                        arise, in the endeavor to obtain a<lb/> situation in\n                                                  <placeName>America</placeName>, unless the\n                                        applicant be on the spot; to<lb/> give satisfactory proofs\n                                        of his capability &amp;c. Notwithstanding<lb/> the\n                                        confidence I entertain, that I would stand a <hi\n                                                  rend=\"underline\">very fair</hi><lb/> chance of\n                                        gaining the approval of any respectable <add>קהלה</add> and\n                                        that<lb/> the documentary recommendations which I could\n                                        bring in testimony<lb/> of competency, position, and\n                                        character, would be such as any<lb/> individual would be\n                                        proud of possessing, still I must freely<lb/> admit, that it\n                                        would be nevertheless advisable, if I could present<lb/>\n                                        myself to the congregation amongst whom I desire to\n                                        dwell,<lb/> and then and there afford them the means of\n                                        judging for themselves<lb/>\n                                        <hi rend=\"underline\">at present</hi> I cannot do this. My\n                                        engagements in <placeName>Jamaica</placeName> will<lb/> not\n                                        be at an end till the <date>1<hi rend=\"sup\">st</hi>\n                                                  May</date> next. When that period<lb/> arrives, I\n                                        will then be in a position to solicit your friendship<lb/>\n                                        substantially, as (with God's Blessing) the opportunity may\n                                        be<lb/> afforded me of a personal acquaintance with\n                                        yourself, and other<lb/> Gentlemen interested in Jewish\n                                        Affairs.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5772,
+          "width": 4770,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b7a4cc5c-30dc-4708-8be9-1adaa2218ebf%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4770,
+                "height": 5772,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b7a4cc5c-30dc-4708-8be9-1adaa2218ebf%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/assets/b7a4cc5c-30dc-4708-8be9-1adaa2218ebf/original",
+              "label": "Original File - 82.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">Thro the kind instruction of <persName>Hazan<lb/>\n                                                  Lopez</persName>, I have made astonishing progress\n                                        in the Portuguese minhag, and I was thereby enabled to\n                                        officiate during the Holidays in a<lb/> manner perfectly\n                                        surprising to myself in having so successfully<lb/> overcome\n                                        the accent &amp;c of the German form of Reading. I\n                                        entreat<lb/> you not to think me egotistical, or guilty of\n                                        self adulation;—<lb/> I speak as I feel, and would, as\n                                        freely admit, the faulty, just<lb/> as much as the\n                                        successful performance of my duties. In<lb/> testimony of\n                                        the satisfaction which I have given to the members<lb/> of\n                                        the congregation who are under my spiritual guidance,\n                                        the<lb/> enclosed letter was forwarded me, which (if you\n                                        think it may be<lb/> serviceable to me) I request you will\n                                        publish in the “Occident.”<lb/> According to your desire, I\n                                        also transmit a short sermon, as<lb/> well as the Inaugural\n                                        Address I delivered on my assumption<lb/> of office. Should\n                                        it be your wish, I will feel much pleasure<lb/> to\n                                        contribute now and then to the pages of your excellent\n                                        periodical.</p>\n                              <p rend=\"indent(1)\">I will not lose sight of your<lb/> request, in\n                                        using my humble endeavors to obtain subscribers to the<lb/>\n                                        Occident. Be assured, that in <hi rend=\"underline\"\n                                                  >anything</hi> that can be of benefit<lb/> to you,\n                                        you may freely and readily command my zealous services.<lb/>\n                                        If I fail of success, it shall not be thro the want of the\n                                        will of<lb/> serving you.</p>\n                              <p rend=\"indent(1)\"><persName>Rabbi Jechiel Cohen</persName> quitted this<lb/>\n                                        <placeName>Island</placeName> last week for <placeName>St\n                                                  Thomas's</placeName>. He came here at a very<lb/>\n                                        unfortunate period as regards the pecuniary position of\n                                        the<lb/> community. He has collected about $350 in\n                                                  <placeName>Kingston</placeName> and<lb/>\n                                        <placeName>Spanish Town</placeName>, of which nearly $150\n                                        were <del>coll</del> received from<lb/> the small\n                                        congregation of the latter town. He has however<lb/> been\n                                        paid marked respect and attention by all classes; and<lb/>\n                                        (I believe) has lived here since his arrival without any\n                                        expense<lb/> whatsoever. I introduced him to the chief\n                                        members of the<lb/> congregation in <placeName>Spanish\n                                                  Town</placeName>, and used some effort in\n                                        forwarding<lb/> the objects of his mission. <persName>Rabbi\n                                                  Nissim ben Shelomo</persName> is still<lb/> here,\n                                        tho hitherto unsuccessful in his endeavors to collect\n                                        money.<lb/> It may be uncharitable to form the opinion, but\n                                        I do not</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5772,
+          "width": 4770,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4b06b2ff-6ae8-4a9e-9196-242be7e8d96d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4770,
+                "height": 5772,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4b06b2ff-6ae8-4a9e-9196-242be7e8d96d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/assets/4b06b2ff-6ae8-4a9e-9196-242be7e8d96d/original",
+              "label": "Original File - 82.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>think the solution of a messenger like him has been\n                                        <add>?</add>,<lb/> as he is quite unacquainted with the\n                                        English language, manners,<lb/> or customs. Some effort is\n                                        about being made in by behalf.</p>\n                              <p rend=\"indent(1)\">My father returns you his thanks for<lb/> your\n                                        remembrance and desires me to present his kind regards to\n                                        you.<lb/> With the renewed assurance of my good wishes,</p>\n                              <p rend=\"indent(6)\">Believe me</p>\n                              <p rend=\"indent(8)\">My dear Sir</p>\n                              <p rend=\"indent(9)\">Yours very truly</p>\n                              <p rend=\"indent(10)\">\n                                        <persName role=\"author\">Henry S. Jacobs</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4770,
+          "width": 5772,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2f192c29-d458-457c-a00b-e11dc7dec90c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5772,
+                "height": 4770,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2f192c29-d458-457c-a00b-e11dc7dec90c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/assets/2f192c29-d458-457c-a00b-e11dc7dec90c/original",
+              "label": "Original File - 82.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Reverend Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>No 371 Walnut Street</placeName>\n                              </p>\n                              <p rend=\"indent(3)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p>p Brig</p>\n                              <p>Fairy</p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p38p5vw3q/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

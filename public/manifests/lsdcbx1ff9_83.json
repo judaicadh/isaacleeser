@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Meyer, Cauffman H.; Leeser, Isaac, Revd.; San Francisco, CA; 15 December 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30g3hj48"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Meyer, Cauffman H.; Leeser, Isaac, Revd.; San Francisco, CA; 15 December 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-12-15"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- San Francisco",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_83"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/f773a3ba-bdbb-4eab-9bbf-cf5bb88ebbfb%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/f773a3ba-bdbb-4eab-9bbf-cf5bb88ebbfb%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4352,
+          "width": 3454,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f773a3ba-bdbb-4eab-9bbf-cf5bb88ebbfb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3454,
+                "height": 4352,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f773a3ba-bdbb-4eab-9bbf-cf5bb88ebbfb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/assets/f773a3ba-bdbb-4eab-9bbf-cf5bb88ebbfb/original",
+              "label": "Original File - 45.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>San Francisco</placeName>\n                                        <date>Dec. 15. 1852</date>\n                              </p>\n                              <p>\n                                        <addressee>Revd Mr. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(3)\">Dear friend</p>\n                              <p rend=\"indent(5)\">I send you enclosed<lb/> Draft on <persName>Mess.\n                                                  M. Cauffman &amp; Co</persName>,\n                                                  <placeName>Phila.</placeName> Drawn by<lb/>\n                                        <persName>Roggenburger &amp; Co</persName>, for $24.00,\n                                        which I have collected for<lb/> the Occident, as per\n                                        enclosed statement; &amp; enclose you also<lb/> a fresh\n                                        subscription for the O.; had I more Time to<lb/> spare &amp;\n                                        our Californians would devote more Time in<lb/> reading your\n                                        intellectual work, I could, no Doubt have<lb/> sent you a\n                                        larger list of Subscription.</p>\n                              <p>I have recd your Letter, &amp; am sorry, that I cannot<lb/> comply\n                                        with your wishes for informing you, how<lb/> Jewish affairs\n                                        progress; however that much I can<lb/> tell you, that Jewish\n                                        Families are getting quite Numerous<lb/> in <placeName>San\n                                                  Francisco</placeName>, &amp; of late we had also\n                                        several Mar-<lb/>-riages taking place. The Jewish Population\n                                        all over<lb/>\n                                        <placeName>California</placeName> is very numerous, but our\n                                        Religion is<lb/> not by any means kept up in generality, as\n                                        it should be.<lb/> We have two Synagogues here, one Polish\n                                        &amp; one German,<lb/> which are open every\n                                        “<add>שבת</add>”, but are not very well attended,<lb/> &amp;\n                                        it is only on “<add>יום טוב</add>”, that you have the\n                                        opportunity of<lb/> witnessing the Synagogues crowded, where\n                                        there is generally<lb/> not Room enough to seat ½.</p>\n                              <p>It saves me some Trouble, <del>when</del> if I collect the\n                                        Subscriptions</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4352,
+          "width": 3454,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3572315c-69e9-4b1b-bcd8-b914c3b75ad8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3454,
+                "height": 4352,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3572315c-69e9-4b1b-bcd8-b914c3b75ad8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/assets/3572315c-69e9-4b1b-bcd8-b914c3b75ad8/original",
+              "label": "Original File - 45.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>immediately, &amp; you will notice several on my a/c who<lb/> have\n                                        paid in advance. You will also be kind enough<lb/> to send\n                                        me the a/c what <persName>Roggenburger &amp; Co</persName>\n                                        in <placeName>California</placeName><lb/> owes you.</p>\n                              <p>It was told me by several whose subscription<lb/> to the O. I have\n                                        sent the Last Time, that they have not<lb/> recd the O. You\n                                        will please therefore, to be exact in<lb/> making a plain\n                                        Direction; as our Post office arrangement<lb/> is none of\n                                        the Best.</p>\n                              <p>Business in general has been very good with us for<lb/> the last\n                                        10-12 Mos. &amp; Goods in almost all Branches<lb/> have paid\n                                        well to import; some articles always<lb/> pay very well in\n                                                  <placeName>California</placeName>; as for\n                                        Instance<lb/> Flour is worth from $40 to $45—pr.\n                                        Barrell,<lb/> which cost at Home no more than $4.50 pr\n                                        Barrel.<lb/> I could give you more Information about\n                                        Business<lb/> but I am aware, it is of no Interest to\n                                        you—<lb/> as you are no Doubt aware, money making &amp;<lb/>\n                                        speculating is all the go—&amp; one's attentions is\n                                        almost<lb/> entirely directed to that.</p>\n                              <p><persName>Mr. &amp; Mrs. Roggenburger</persName> desire their kind\n                                        Regards<lb/> to you; they have arrived <sic>save</sic>;\n                                        &amp; live very hand<lb/>-somely &amp; very convenient,\n                                        &amp; Enjoy themselves; they live<lb/> “<add>כשר</add>”\n                                        &amp; I am boarding with them, which gives me the\n                                        op-<lb/>-portunity of reminding myself, that I am a\n                                        “Secr”<lb/> Hoping, you will soon write to me a large letter\n                                        &amp;c, &amp; that this<lb/> may find you in good Health</p>\n                              <p rend=\"indent(9)\">I Remain your true friend</p>\n                              <p rend=\"indent(9)\">\n                                        <persName role=\"author\">Cauffman H Meyer</persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30g3hj48/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

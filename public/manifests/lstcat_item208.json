@@ -1,0 +1,309 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Benjamin, Samuel; De Sola, Abraham; Benjamin, Samuel; 23 April 1850",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3765b205"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Benjamin, Samuel; De Sola, Abraham; Benjamin, Samuel; 23 April 1850"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Sola, Abraham de, 1825-1882"]
+    },
+    {
+      "label": "Date",
+      "value": ["1850-04-23", "23 April 5610"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item208"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/990ef158-0777-4609-9937-47e1dcabfffc%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/990ef158-0777-4609-9937-47e1dcabfffc%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6182,
+          "width": 4940,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/990ef158-0777-4609-9937-47e1dcabfffc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4940,
+                "height": 6182,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/990ef158-0777-4609-9937-47e1dcabfffc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/assets/990ef158-0777-4609-9937-47e1dcabfffc/original",
+              "label": "Original File - 91.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">(Copy.)</p>\n            <p rend=\"align(center)\">\n                <placeName>Montreal</placeName>\n                <date>23 April 5610</date>\n            </p>\n            <p>Reverend and Dear Sir/</p>\n            <p rend=\"indent(1)\">In reply to the commu-<lb/>nication in which you convey to us your\n                desire<lb/> of becoming a candidate for the office of Hazan<lb/> to the Portuguese\n                congregation of <placeName>Philadelphia</placeName>, we<lb/> have to inform you that\n                at a meeting held this<lb/> day, it was unanimously resolved to convey to<lb/> you\n                our full concurrence in the step you propose<lb/> taking, and our best wishes for\n                your success.</p>\n            <p rend=\"indent(1)\">At the same time, we would express the deep<lb/> regret your\n                communication has afforded us showing<lb/> as it did for the first time, there\n                existed a proba-<lb/>bility of our losing your valuable services, which<lb/> during\n                a period of four years have given unmitiga<lb/>ted satisfaction to the whole of the\n                congregation<lb/> With an earnest wish to do every thing in our<lb/> power that\n                might lead to advance your interests,<lb/> and desirous of seeing you placed in that\n                extend<lb/>ed sphere of usefulness the high order of your<lb/> talents\n                unquestionably deserve, but which our<lb/>\n                <sic>comparitively</sic> small congregation does not afford<lb/> still cannot we but\n                recollect that should you<lb/> be the successful candidate we will lose one<lb/> who\n                by his conduct both in public and private<lb/> life, has gained the love and respect\n                of every<lb/> member of his congregation, and who by his</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6188,
+          "width": 4958,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/565fd9a3-2ac5-4d9e-b2bc-7987b62b04d4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4958,
+                "height": 6188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/565fd9a3-2ac5-4d9e-b2bc-7987b62b04d4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/assets/565fd9a3-2ac5-4d9e-b2bc-7987b62b04d4/original",
+              "label": "Original File - 92.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>attainments, feelings, and department, we are<lb/> proud to say, has commanded the\n                esteem and<lb/> respect of our Christian fellow citizens, and ac-<lb/>quired a\n                reputation and position not inferior<lb/> to any of their clergy</p>\n            <p rend=\"indent(1)\">We would further, Reverend Sir, express<lb/> our regret at the\n                prospect of being deprived,<lb/> ourselves of the advantage of your able and<lb/>\n                eloquent expositions of our holy religion, and<lb/> our children of your useful and\n                acceptable<lb/> Instructions in the language and faith of<lb/> our ancestors; the\n                school you have established<lb/> we shall ever regard as a memento of your<lb/>\n                untiring zeal and abilities.</p>\n            <p rend=\"indent(1)\">In conclusion, dear sir, we would inform<lb/> you that under any\n                circumstances your present<lb/> situation will remain open for you; and\n                express<lb/>ing our best wishes for your success and ad<lb/>vancement in life, and\n                although perhaps con-<lb/>trary to your wishes, hoping we may not so<lb/> soon be\n                deprived of your valuable services<lb/> of which any congregation may be proud.</p>\n            <p rend=\"indent(6)\">We remain Reverend and Dear Sir</p>\n            <p rend=\"indent(7)\">Your obedient Servants</p>\n            <p rend=\"indent(7)\"><persName role=\"author\">Samuel Benjamin</persName> President</p>\n            <p rend=\"indent(7)\"><persName role=\"author\">John Levey</persName> Treasurer</p>\n            <p rend=\"indent(7)\"><persName role=\"author\">Wm Benjamin</persName> Secretary</p>\n            <p><persName role=\"author\">A H David</persName> M. D.</p>\n            <p>\n                <persName role=\"author\">G I Ascher</persName>\n            </p>\n            <p><persName role=\"author\">David Moss</persName>.</p>\n            <p rend=\"The following is written sideways between the columns of names.\">Trustees</p>\n            <p>To the <addressee>Rev. Abraham De Sola</addressee></p>\n            <p rend=\"indent(1)\">&amp;c &amp;c &amp;c</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6250,
+          "width": 4966,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7682def4-0595-46ee-96d7-95dafa303c93%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4966,
+                "height": 6250,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7682def4-0595-46ee-96d7-95dafa303c93%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/assets/7682def4-0595-46ee-96d7-95dafa303c93/original",
+              "label": "Original File - 93.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>(The original of the present letter is<lb/> in the possession of <persName>A Hart\n                    Esqr</persName><lb/> Parnass K. K. Mikveh Israel.”)</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6232,
+          "width": 4980,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2feb53f7-1ec1-4c02-ba4d-8afacfa1fe10%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4980,
+                "height": 6232,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2feb53f7-1ec1-4c02-ba4d-8afacfa1fe10%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/assets/2feb53f7-1ec1-4c02-ba4d-8afacfa1fe10/original",
+              "label": "Original File - 93.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                <hi rend=\"underline\">Testimonials</hi>\n            </p>\n            <p rend=\"align(center)\">To</p>\n            <p rend=\"align(center)\">\n                <persName>Abraham De Sola</persName>\n            </p>\n            <p rend=\"align(center)\">from his</p>\n            <p rend=\"align(center)\">Congregation at <placeName>Montreal</placeName></p>\n            <p rend=\"align(center)\">\n                <hi rend=\"underline\">\n                    <date>April 23, 5610</date>\n                </hi>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3765b205/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

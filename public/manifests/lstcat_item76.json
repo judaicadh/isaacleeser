@@ -1,0 +1,1980 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3bc3tp4v"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "The Jesselson Family Collection of Isaac Leeser Material",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["25 pages on 44 sheets."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item76", "il_tcat_item76"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/1bc2a7f3-739f-4710-ba48-dde8b97d10a9%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/1bc2a7f3-739f-4710-ba48-dde8b97d10a9%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1bc2a7f3-739f-4710-ba48-dde8b97d10a9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1bc2a7f3-739f-4710-ba48-dde8b97d10a9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/1bc2a7f3-739f-4710-ba48-dde8b97d10a9/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">My dear friends &amp; sisters<lb/> When I offered to tell you<lb/>\n                something of <persName>Revd Isaac Leeser</persName><lb/> I imagined it would be\n                an<lb/> easy task to describe a man of<lb/> such strong personalities who had<lb/>\n                been one of the central figures<lb/> connected with my early youth &amp;<lb/>\n                womanhood to whom next to my<lb/> own Father I owe every noble thought<lb/> and the\n                love of good books; which<lb/> he helped guided &amp; cheered me through<lb/> all\n                the <sic>vicisitudes</sic> of a long life</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bc720dea-08ab-46b6-b714-cc610a8b418b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bc720dea-08ab-46b6-b714-cc610a8b418b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/bc720dea-08ab-46b6-b714-cc610a8b418b/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/20937b4b-4758-431e-a141-e3e8d88c7397%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/20937b4b-4758-431e-a141-e3e8d88c7397%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/20937b4b-4758-431e-a141-e3e8d88c7397/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">2</p>\n            <p>His labors in Instruction &amp;<lb/> Philanthropy would fill a<lb/> volume.</p>\n            <p rend=\"indent(1)\">It was largely owing to his efforts<lb/> that the Maimonides College\n                was<lb/> opened in <placeName>Phila.</placeName>\n                <date>Oct 1867</date>. He was<lb/> 1<hi rend=\"sup\">st</hi> Provost of its faculty,\n                teaching<lb/> Homilelics_Belle Letters_Theology &amp;c<lb/>\n                <del>From</del> This first attempt at a<lb/> Jewish Seminary languished<lb/> After\n                years of a struggling <sic>existance</sic><lb/> but through the efforts of\n                    <persName>Doctor Sabato<lb/> Morais</persName> was transferred to <placeName>New\n                    York<lb/> City</placeName> principally for pecuniary<lb/> reasons &amp; called\n                the Jewish Theological<lb/>\n                <del>Seminary</del> College. How its first founder<lb/> would rejoin could he know\n                (and<lb/> let us hope<add>?</add> that he does) that <persName>D\n                    Scheichter</persName><lb/> the most learned Prof of the Univ of\n                    <placeName>Camb-England</placeName><lb/>\n                <hi rend=\"underline\">over</hi> comes next <date>May</date> to fill his vacant\n                chair</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/aca8ae3b-e64d-4535-ad44-1b3952e3d489%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/aca8ae3b-e64d-4535-ad44-1b3952e3d489%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/aca8ae3b-e64d-4535-ad44-1b3952e3d489/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">The request for the Gratz College<lb/> was no doubt though not so\n                expressed<lb/> intended to further this undertaking<lb/> &amp; let us hope will\n                eventually be joined to it<lb/>\n                <del>certainly</del> it is much to be regretted<lb/> that there should be so\n                many<lb/> Jewish Theological Colleges. When<lb/> we have so much to contend\n                with<lb/> from without why should we<lb/> be divided among ourselves to<lb/> the\n                weakening of the cause of<lb/>\n                <placeName>Israels</placeName> God and His worship.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "p. 5",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c00dcb24-adce-46b5-a03c-c9e19bdffaae%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c00dcb24-adce-46b5-a03c-c9e19bdffaae%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/c00dcb24-adce-46b5-a03c-c9e19bdffaae/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">8.</p>\n            <p>of these characters the <sic>Wizzard</sic><lb/> of the <placeName>North</placeName>\n                has most wonderfully<lb/> entered into the heart &amp; soul<lb/> of the creatures of\n                his imagination<lb/> from <persName><sic>Shakespere's</sic></persName>\n                <persName>Jessica</persName> to<lb/> the latest novels of the present<lb/> day the\n                'fair Jewess' is only<lb/> introduced to abscond secretly<lb/> with her Christian\n                lover, or be<lb/> converted to his faith.</p>\n            <p rend=\"indent(1)\"><persName>Shylock's</persName> defence of his people<lb/> is noble\n                but <persName>Scott</persName> with consu-<lb/>mate subtlety proves that a Jew<lb/>\n                has not only 'eyes' &amp; 'ears' but<lb/> principles &amp; hopes dearer than<lb/>\n                any earthly gratification<lb/> That this was not entirely in-<lb/>tuition is claimed\n                by many<lb/> who maintain that the<lb/> character</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "p. 6",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/845cb051-5eb2-4c94-867c-45bd9e23bd92%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/845cb051-5eb2-4c94-867c-45bd9e23bd92%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/845cb051-5eb2-4c94-867c-45bd9e23bd92/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "p. 7",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b17b2ec5-bdc0-43a5-975a-ce260ced0630%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b17b2ec5-bdc0-43a5-975a-ce260ced0630%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/b17b2ec5-bdc0-43a5-975a-ce260ced0630/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">4</p>\n            <p>the many homely lessons of<lb/> Faith in One only God, the<lb/> Creator of the\n                Universe, which<lb/> was to make <add>?</add> a lasting<lb/> impression upon, at\n                least<lb/> one of the group.</p>\n            <p rend=\"indent(1)\"><persName>Isaac</persName> very early developed the love of\n                learning<lb/> the insatiable thirst for information that always characterized<lb/>\n                him<lb/> began the study of Hebrew<lb/> when, almost an infant, for at<lb/>\n                <del>the age</del> five years he could read it with ease<lb/> and what was very\n                unusual<lb/> for Jewish boys in those days &amp; that country<lb/> he learned to\n                read German almost<lb/> at the same time so that<lb/> long before he attained\n                his<lb/> religious majority (at thirteen)<lb/> he had become a student of<lb/> the\n                College at <placeName>Munster Prussia</placeName><lb/> where he graduated with\n                high<lb/> honors. When sixteen years of age</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "p. 8",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/eccf001e-ee4a-4c0d-9169-80c720ecf8f6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/eccf001e-ee4a-4c0d-9169-80c720ecf8f6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/eccf001e-ee4a-4c0d-9169-80c720ecf8f6/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "p. 9",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/86917fb4-6cee-4615-aa4c-e7757b3214ff%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/86917fb4-6cee-4615-aa4c-e7757b3214ff%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/86917fb4-6cee-4615-aa4c-e7757b3214ff/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">5.</p>\n            <p rend=\"indent(1)\">Unfortunately both his hard<lb/> working &amp; loving Parents\n                died<lb/> while he was at College and the<lb/> young family was <del>divided</del>\n                scattered among<lb/> relatives as poor as themselves.<lb/> After two years of a\n                rather wandering<lb/> life teaching, what he had ac<lb/>quired, to those even\n                younger than<lb/> himself and receiving in return<lb/> sometimes only food &amp;\n                shelter, at<lb/> others as small pittance, that was<lb/> always spent upon\n                increasing<lb/> his <del>small</del> little stock of books &amp; storing<lb/> up\n                more <del>facts</del> seeds of knowledge in his wonderful<lb/> memory\n                    <del>that</del> which were to bear fruit<lb/> &amp; plant\n                <sic>vinyards</sic><lb/> and flourish in a far off country al-<lb/>most unknown to\n                the inhabit<lb/>ants of the small Prussian Village</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "p. 10",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/01677e95-6969-4035-922d-0283d4758453%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/01677e95-6969-4035-922d-0283d4758453%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/01677e95-6969-4035-922d-0283d4758453/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p11",
+          "@type": "sc:Canvas",
+          "label": "p. 11",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fb1f9894-99f5-4433-a70f-3dd3d1e5f922%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fb1f9894-99f5-4433-a70f-3dd3d1e5f922%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p11"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/fb1f9894-99f5-4433-a70f-3dd3d1e5f922/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p11/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p11",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">6</p>\n            <p>His mother's brother <persName>Zalma <lb/> Reheine</persName>\n                <add><persName>ZALMA REHEINE</persName></add> had <del>gone</del> emigrated to\n                    <placeName>America</placeName><lb/> some years before, and settled<lb/> in\n                    <placeName>Richmond Va.</placeName> Hearing<lb/> of the death of his Sister,\n                and<lb/> her Husband, he with the ever<lb/> characteristic Jewish spirit<lb/> of\n                helping the poorer brother<lb/> wrote for <persName>Isaac</persName> to come\n                join<lb/> him in the new World across<lb/> the <placeName>Atlantic</placeName>,\n                which opened<lb/> her arms to welcome Jew &amp; Gentile<lb/> alike. <del>In\n                M</del></p>\n            <p rend=\"indent(1)\">In <date>May 1824</date> when <persName>Isaac<lb/> Leeser</persName>\n                was not yet eighteen (18)<lb/>\n                <del>years old</del> he arrived in <placeName>Richmond</placeName><lb/> an awkward,\n                thickset, German<lb/> youth, unable to speak a word<lb/> of English &amp; a perfect\n                stranger to all</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p12",
+          "@type": "sc:Canvas",
+          "label": "p. 12",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/882c3147-b243-4d54-b5c8-1a71b4f692aa%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/882c3147-b243-4d54-b5c8-1a71b4f692aa%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p12"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/882c3147-b243-4d54-b5c8-1a71b4f692aa/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p13",
+          "@type": "sc:Canvas",
+          "label": "p. 13",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6f8d1d5b-3ce5-4f76-982f-5988bb60ee5f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6f8d1d5b-3ce5-4f76-982f-5988bb60ee5f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p13"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/6f8d1d5b-3ce5-4f76-982f-5988bb60ee5f/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p13/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p13",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">7.</p>\n            <p>the habits &amp; customs of the people<lb/> among whom he came to dwell.<lb/>\n                <del>His uncle</del>\n                <persName>Mr Reheine</persName> kept a store; in<lb/> which his young nephew\n                soon<lb/> learned to make himself use<lb/>ful in many ways. After opening,\n                sweeping<lb/> &amp; <sic>arrainging</sic> it for the day, he was<lb/> at first\n                allowed to attend school<lb/> in order to learn to read &amp; write<lb/> English;\n                which he acquired with<lb/> wonderful rapidity, making for<lb/> himself\n                    <sic>cruid</sic> candles 'dips' but of any<lb/> thing he could save from the\n                store<lb/> Reeds, hemp, cotton waste with<lb/> fat or oil of any kind.\n                (Electricity<lb/> Gas &amp; <sic>Kerosine</sic> were then undiscovered)<lb/> He\n                    <sic>litterally</sic> burnt the midnight oil<lb/> in his little garret, &amp;\n                wake refreshed<lb/> for new labors</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p14",
+          "@type": "sc:Canvas",
+          "label": "p. 14",
+          "height": 5172,
+          "width": 3350,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cb61f5b6-9aac-44bf-932a-4bef89c94236%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3350,
+                "height": 5172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cb61f5b6-9aac-44bf-932a-4bef89c94236%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p14"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/cb61f5b6-9aac-44bf-932a-4bef89c94236/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p15",
+          "@type": "sc:Canvas",
+          "label": "p. 15",
+          "height": 5338,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2bf43b60-28eb-400b-a4c0-3f015779b6f6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5338,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2bf43b60-28eb-400b-a4c0-3f015779b6f6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p15"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/2bf43b60-28eb-400b-a4c0-3f015779b6f6/original",
+              "label": "Original File - 56.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p15/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p15",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">8.</p>\n            <p rend=\"indent(1)\">There was already in <placeName>Richd</placeName><lb/> the nucleus\n                of a congregation presided<lb/> over by <persName>Revd Isaac B. Seixas</persName>.\n                        <persName><sic>Mr Rehine'</sic></persName><lb/> store seems to have been a\n                meeting<lb/> place for its members &amp; in the discussion<lb/> of subjects dear to\n                every Israelite<lb/> the young <persName>Isaac</persName> soon took his full<lb/>\n                share generously helping <persName>Mr Seixas</persName><lb/> in teaching Hebrew\n                &amp; otherwise per<lb/>forming the many duties of his office<lb/> Jews &amp;\n                Judaism from that time<lb/> till the day of his death his labors<lb/> were unceasing\n                for the cause<lb/> which he then espoused. To him<lb/> his pen, his brain &amp; more\n                than<lb/> all the inspirations of his <sic>lifes</sic><lb/> the Jews must ever owe\n                the deepest<lb/> debt of gratitude, no one more in<lb/> this or any other country\n                has left</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p16",
+          "@type": "sc:Canvas",
+          "label": "p. 16",
+          "height": 3334,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/38d57e81-f363-4014-87cc-def350c874d1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 3334,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/38d57e81-f363-4014-87cc-def350c874d1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p16"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/38d57e81-f363-4014-87cc-def350c874d1/original",
+              "label": "Original File - 35.5 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p17",
+          "@type": "sc:Canvas",
+          "label": "p. 17",
+          "height": 5330,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/14a207c5-38c8-4186-a62b-2ae993acf926%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5330,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/14a207c5-38c8-4186-a62b-2ae993acf926%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p17"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/14a207c5-38c8-4186-a62b-2ae993acf926/original",
+              "label": "Original File - 56.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p17/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p17",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">9.</p>\n            <p>He was soon attracted by the<lb/> unusual gifts of the young Germa<add>n</add><lb/>\n                whom he encouraged by advice<lb/> assistance of every kind <del>?</del><lb/>\n                <del>?</del> the removal to <placeName>Phila</placeName><lb/> four (4) years after\n                landing in<lb/> this country in <date>1828</date>\n                <persName>Isaac Leeser</persName> first<lb/> attracted public attention by<lb/>\n                <del>assailing</del> refuting with great force in the <placeName>Richd</placeName>\n                Daily press<lb/> an article published in the “<placeName>London</placeName><lb/>\n                Quarterly Review,” assailing the<lb/> Jews &amp; Judaism. From that time<lb/> till\n                the day of his death his labors<lb/> were unceasing for the cause<lb/> which he then\n                espoused. To him<lb/> his pen, his brain, &amp; more than<lb/> all the inspirations\n                of his <sic>lifes</sic><lb/> the Jews must ever owe the deepest<lb/> debt of\n                gratitude. No one man in this or any other country has left</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p18",
+          "@type": "sc:Canvas",
+          "label": "p. 18",
+          "height": 5476,
+          "width": 3424,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f48ff6c4-24ce-427c-9058-b218b276d01f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3424,
+                "height": 5476,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f48ff6c4-24ce-427c-9058-b218b276d01f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p18"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/f48ff6c4-24ce-427c-9058-b218b276d01f/original",
+              "label": "Original File - 56.5 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p19",
+          "@type": "sc:Canvas",
+          "label": "p. 19",
+          "height": 5438,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1e36222c-1674-43cf-8906-da2d4417ba3d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5438,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1e36222c-1674-43cf-8906-da2d4417ba3d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p19"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/1e36222c-1674-43cf-8906-da2d4417ba3d/original",
+              "label": "Original File - 57.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p19/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p19",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">10.</p>\n            <p>them such a legacy. He was<lb/> destined never to enjoy the delights<lb/> of a home\n                    <del>?</del> nor the Love of<lb/> wife or children but he has left<lb/> us the\n                labor of Love of a lifetime<lb/>\n                <sic>P</sic> His writings if piled together<lb/> would make a monument higher<lb/>\n                than we could reach and the<lb/> capstone is an English translation<lb/> of our own\n                Scriptures that we can<lb/> put into the hands of our children<lb/>\n                <del>without pasting over the heads of</del><lb/>\n                <del>Chapters</del>\n                <hi rend=\"underline\">as our</hi> from their most<lb/> tender years to read &amp;\n                reread till<lb/> every word is impressed with letters<lb/> of <hi rend=\"underline\"\n                    >gold</hi> upon their hearts, to be<lb/> an ever present stay in time of<lb/>\n                trouble &amp; distress. To be ever on their<lb/> lips to refute charges against our\n                Holy Faith</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p19"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p20",
+          "@type": "sc:Canvas",
+          "label": "p. 20",
+          "height": 5306,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8fbf062d-db95-43fb-97d0-d16d25b86717%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5306,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8fbf062d-db95-43fb-97d0-d16d25b86717%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p20"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/8fbf062d-db95-43fb-97d0-d16d25b86717/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p21",
+          "@type": "sc:Canvas",
+          "label": "p. 21",
+          "height": 5304,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c464d14b-88a4-43cf-8e58-61c9b162c0f0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5304,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c464d14b-88a4-43cf-8e58-61c9b162c0f0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p21"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/c464d14b-88a4-43cf-8e58-61c9b162c0f0/original",
+              "label": "Original File - 56.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p21/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p21",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">11</p>\n            <p>The <persName>King James</persName> Bible written<lb/> by eminent scholars, at a time when<lb/>\n                <persName><sic>Shakespere</sic></persName>\n                <del><persName>Byron</persName></del>\n                <persName>Willow</persName>\n                <persName>Pope</persName> &amp; <persName>Dryden</persName><lb/> had raised the\n                ancient Language<lb/> of <persName>Chaucer</persName> &amp;\n                    <persName>Spenser</persName> to its higher<lb/> point<lb/> stage of\n                    <sic>imagry</sic> &amp; <add>?</add>, is<lb/> one of <del>the</del> our most\n                    <sic>equisite</sic><lb/>\n                <sic>clasics</sic>, but in many instances<lb/> correctness was sacrificed to<lb/>\n                beauty of expression and in<lb/> other passages sentences were<lb/> almost\n                unconsciously distorted<lb/> into non Jewish <sic>chanels</sic>. Then<lb/> the\n                headings of the chapters &amp;<lb/> pages, foot notes &amp;c were all<lb/>\n                objectionable. So that a purely<lb/> Jewish translation of the Holy<lb/> Scriptures\n                was hailed with<lb/> delight and has become</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p21"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p22",
+          "@type": "sc:Canvas",
+          "label": "p. 22",
+          "height": 5394,
+          "width": 3456,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e1fb225-da39-45c0-97df-173df8ca7ecf%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3456,
+                "height": 5394,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e1fb225-da39-45c0-97df-173df8ca7ecf%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p22"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/3e1fb225-da39-45c0-97df-173df8ca7ecf/original",
+              "label": "Original File - 56.1 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p23",
+          "@type": "sc:Canvas",
+          "label": "p. 23",
+          "height": 5402,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/667f5c29-8e6c-4293-a855-ba090fb5f3d4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5402,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/667f5c29-8e6c-4293-a855-ba090fb5f3d4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p23"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/667f5c29-8e6c-4293-a855-ba090fb5f3d4/original",
+              "label": "Original File - 57.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p23/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p23",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">12</p>\n            <p><del>What</del>\n                <persName>Mr Leeser</persName> meant that<lb/> it could a part of every Jewish<lb/>\n                home &amp; place of worship &amp; school.</p>\n            <p rend=\"indent(1)\">Though the slight verbal<lb/> changes grated upon the ears<lb/> of\n                us of the older generation, the<lb/> constant reading &amp; reciting<lb/> from it in\n                Sunday schools<lb/> has made it familiar to the young<lb/> and every one must be\n                struck<lb/> with the amount of labor accom<lb/>plished by one man, almost<lb/>\n                entirely unassisted.</p>\n            <p rend=\"indent(1)\">I might quote numerous <del>lines</del> texts<lb/> in which the\n                sense is entirely<lb/> changed or improved one strikes<lb/> me very often. Psalm 90\n                X C Ver 3<lb/> “Thou turnest man to contrition &amp;<lb/> sayeth return ye children\n                of men”</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p23"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p24",
+          "@type": "sc:Canvas",
+          "label": "p. 24",
+          "height": 5350,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c1df1b0f-5007-49f9-911b-8ae57de19933%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5350,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c1df1b0f-5007-49f9-911b-8ae57de19933%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p24"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/c1df1b0f-5007-49f9-911b-8ae57de19933/original",
+              "label": "Original File - 56.9 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p25",
+          "@type": "sc:Canvas",
+          "label": "p. 25",
+          "height": 5436,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d434fa4e-5f49-4355-b54c-bb37b5689f47%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5436,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d434fa4e-5f49-4355-b54c-bb37b5689f47%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p25"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/d434fa4e-5f49-4355-b54c-bb37b5689f47/original",
+              "label": "Original File - 57.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p25/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p25",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">13</p>\n            <p>formerly read, Thou turnest man<lb/> to distinction &amp;c.</p>\n            <p rend=\"indent(1)\"><persName>Dr Weir Mitchell</persName> whom<lb/> you all know of as\n                the author<lb/> of <persName>Hugh Wynn</persName> is also a Bible<lb/> student. He\n                said in a public<lb/> lecture in <placeName>Phila</placeName> “When I want<lb/> to\n                get at the true meaning of<lb/> the Psalms and Prophets I go<lb/> to my friend\n                        <persName>Rev<del>d</del> Isaac Leeser's</persName><lb/> translation as the\n                most satisfying.”<lb/> And should we Jews and members<lb/> of the Council of Jewish\n                Women<lb/> teach to non Jews the study of<lb/> those Scriptures which it is our<lb/>\n                special most sacred duty to<lb/> preserve to keep and to teach<lb/> not only to our\n                own children; but to<lb/> all the nations of the Earth!?</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p26",
+          "@type": "sc:Canvas",
+          "label": "p. 26",
+          "height": 5370,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9de08304-972c-4f4b-a0b9-99563f51739d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5370,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9de08304-972c-4f4b-a0b9-99563f51739d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p26"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/9de08304-972c-4f4b-a0b9-99563f51739d/original",
+              "label": "Original File - 57.1 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p27",
+          "@type": "sc:Canvas",
+          "label": "p. 27",
+          "height": 3562,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d9c2103-5a05-4614-98bb-cca70f712b1b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 3562,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8d9c2103-5a05-4614-98bb-cca70f712b1b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p27"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/8d9c2103-5a05-4614-98bb-cca70f712b1b/original",
+              "label": "Original File - 37.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p27/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p27",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">13</p>\n            <p>Oh my dear Sisters if I could<lb/> only make those of you who are<lb/> unfamiliar\n                with our Scriptures<lb/> turn to its pages &amp; read in every<lb/> verse new\n                beauties, you would<lb/> find it more interesting &amp; more<lb/> satisfying than\n                any Romance<lb/> To use one of <persName>Mr Leeser's</persName> many beautiful\n                    <sic>similies</sic><lb/> “It is like a <del>beautiful</del> thing of<lb/> rich\n                &amp; rare jewels, each gem perfect in<lb/> itself, united by the thread of<lb/>\n                Faith makes a <del>perfect</del> complete chain.”</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p27"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p28",
+          "@type": "sc:Canvas",
+          "label": "p. 28",
+          "height": 3498,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3f23f34b-3610-4294-8b02-338dfba1805f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 3498,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3f23f34b-3610-4294-8b02-338dfba1805f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p28"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/3f23f34b-3610-4294-8b02-338dfba1805f/original",
+              "label": "Original File - 37.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p29",
+          "@type": "sc:Canvas",
+          "label": "p. 29",
+          "height": 5286,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cfdd0c61-3ea1-4dc3-975f-ee76e9d2156f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5286,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cfdd0c61-3ea1-4dc3-975f-ee76e9d2156f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p29"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/cfdd0c61-3ea1-4dc3-975f-ee76e9d2156f/original",
+              "label": "Original File - 56.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p29/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p29",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">14</p>\n            <p>*<del>Encouraging him</del> In <date>1829</date>\n                <del>to</del>\n                <persName>Mr Leeser</persName> accepted<lb/> the duties of Hazan of the\n                Congregation<lb/> Mickveh Israel of <placeName>Phila</placeName> one of<lb/> the\n                oldest &amp; then perhaps the<lb/> most prominent Jewish Congregations<lb/> in the\n                    <placeName>United States</placeName>, a very<lb/> responsible position for a\n                young<lb/> man of (23) twenty three who had<lb/> been scarcely five years in\n                    <placeName>America</placeName><lb/>\n                <del>He began the regular duties of his office <add>?</add>\n                    <date>5590</date></del></p>\n            <p rend=\"indent(1)\">Though a German <persName>Mr Leeser</persName><lb/> seems always to\n                have preferred<lb/> the Portuguese Ritual and<lb/> as early as <date>June 2\n                    1830</date> he began the in<lb/>ovation of adding an English<lb/> discourse to\n                the weekly Service<lb/> in the <placeName>Old Cherry St</placeName> Synagogue<lb/>\n                of which he was Hazan until<lb/> the <date>Feast of Tabernacles 1850</date>.</p>\n            <p>*<del>For three years at a salary of $800.</del></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p29"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p30",
+          "@type": "sc:Canvas",
+          "label": "p. 30",
+          "height": 5220,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a7b61f36-d089-4f52-9405-9014b8dbf88f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5220,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a7b61f36-d089-4f52-9405-9014b8dbf88f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p30"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/a7b61f36-d089-4f52-9405-9014b8dbf88f/original",
+              "label": "Original File - 55.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p30/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p30",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>after many reelections for different<lb/> periods in <date>1850</date> he requested\n                to be<lb/> appointed “for life” which being<lb/> refused he resigned his position\n                &amp;<lb/> severed all connections with the<lb/> congregation.</p>\n            <p rend=\"indent(1)\">Seven years later some of his<lb/> ardent admirers formed a new\n                orthodox<lb/> Congregation in <placeName>Phila.</placeName> Beth El Emet<lb/> of\n                which he remained Hazan<lb/> until his Death.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p31",
+          "@type": "sc:Canvas",
+          "label": "p. 31",
+          "height": 5286,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c9e236b9-bf44-4b3c-93da-da1ec9047210%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5286,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c9e236b9-bf44-4b3c-93da-da1ec9047210%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p31"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/c9e236b9-bf44-4b3c-93da-da1ec9047210/original",
+              "label": "Original File - 56.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p31/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p31",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">15</p>\n            <p>These sermons were at first<lb/> written &amp; read, then committed<lb/> to memory,\n                but in later years<lb/> particularly when he was Hazan of <del>in the</del>\n                Beth-El<lb/> synagogue (after <date>1857</date>) he spoke without<lb/> notes of any\n                kind. These extem<lb/>poraneous discourses seemed<lb/> often to be inspired &amp;\n                    <del>?</del><lb/>\n                <del>who have not heard</del> it is<lb/> impossible for me to make<lb/>\n                <del>you</del> anyone who had not the great<lb/> privilege of hearing them,\n                understand<lb/> their full force. <del>His</del> It was no thing<lb/> of platitudes,\n                wonderful similes &amp; strong but earnest, helpful<lb/> words taken from the\n                Scriptures.<lb/> or suggested by their Orthodoxy in<lb/> its highest noblest sense.\n                “If God be God<lb/> follow Him” Like <persName>Elijah</persName> of old he<lb/> then\n                    <add>?</add> forth, <sic>ammending</sic> ex<lb/>hibiting, entreating,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p31"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p32",
+          "@type": "sc:Canvas",
+          "label": "p. 32",
+          "height": 5316,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7072506b-f1b3-4dd2-bb02-9e36e7d2dccd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5316,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7072506b-f1b3-4dd2-bb02-9e36e7d2dccd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p32"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/7072506b-f1b3-4dd2-bb02-9e36e7d2dccd/original",
+              "label": "Original File - 56.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p32/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p32",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <del>He was spared the agony<lb/> of the conflict for Death<lb/> came to him quietly one<lb/>\n                    <date>Sabbath morning Ba. 5628<lb/> February 1<hi rend=\"sup\">st</hi>\n                    1868</date>. Closed forever the<lb/> mouth that had uttered great<lb/>\n                    things.<lb/></del>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p32"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p33",
+          "@type": "sc:Canvas",
+          "label": "p. 33",
+          "height": 5284,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9fb40468-2691-4647-8cce-9146224b1f9e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5284,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9fb40468-2691-4647-8cce-9146224b1f9e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p33"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/9fb40468-2691-4647-8cce-9146224b1f9e/original",
+              "label": "Original File - 56.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p33/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p33",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">14</p>\n            <p>I never heard such flow of language<lb/> or rapidity of utterance except from<lb/>\n                the late lamented <persName>Bishop Phillips<lb/> Brooks</persName>, whose sermons\n                were written<lb/> and like him, he riveted your<lb/> closest attention, and always\n                left<lb/> some new idea for future thought.</p>\n            <p rend=\"indent(1)\"><persName>Mr Leeser's</persName> learning was by no<lb/> means\n                confined to the Bible and<lb/> sacred subjects. He was not even a<lb/> deep student\n                of the Talmud, but<lb/> he knew History Fiction &amp; Human<lb/> nature thoroughly\n                and was ever<lb/> ready to impart his knowledge<lb/> every <del>no</del> subject\n                from the fit of a lady's<lb/> dress to the most <sic>obstruce</sic> problem<lb/> of\n                Science or Philosophy called forth<lb/> his ready chrilecism<add>?</add> or\n                wonderful memory.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p33"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p34",
+          "@type": "sc:Canvas",
+          "label": "p. 34",
+          "height": 5264,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/012f41dc-b671-4e88-93c3-f004ad19c021%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5264,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/012f41dc-b671-4e88-93c3-f004ad19c021%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p34"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/012f41dc-b671-4e88-93c3-f004ad19c021/original",
+              "label": "Original File - 56 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p35",
+          "@type": "sc:Canvas",
+          "label": "p. 35",
+          "height": 5254,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5634e924-f5a9-46c7-a8ec-450c743ed21f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5254,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5634e924-f5a9-46c7-a8ec-450c743ed21f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p35"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/5634e924-f5a9-46c7-a8ec-450c743ed21f/original",
+              "label": "Original File - 55.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p35/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p35",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">17</p>\n            <p rend=\"indent(1)\">Reform with its Hydra-heads<lb/> had only <del>just</del> recently\n                appeared in<lb/>\n                <placeName>Charleston S. C.</placeName> to <del>startle</del> arouse\n                <del>the</del><lb/> spread alarm in the breasts of the old<lb/> Orthodox Jews.\n                    <persName>Mr Leeser</persName> &amp; his<lb/> successor <persName>Revd Sabato\n                    Morais</persName><lb/> cut off many an infant head<lb/> But the\n                    <del>contagion</del> monster was<lb/> not conquered, &amp; only taught<lb/> new\n                fields in the <placeName>South</placeName> &amp; <placeName>West</placeName><lb/>\n                until grown to its full strength<lb/> it attacked the Synagogues<lb/> of the\n                    <placeName>East</placeName> demolished the<lb/> women's gallery tore the\n                (Talith)<lb/> Prayer scarf from the shoulders<lb/> of the men &amp; forbid them\n                to<lb/> mount the steps of the (Tebah)<lb/> Reading desk &amp; follow the\n                reading<lb/> from the Law Turning the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p36",
+          "@type": "sc:Canvas",
+          "label": "p. 36",
+          "height": 5242,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/353420b9-f3c1-4863-b26d-4c907b5a208b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5242,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/353420b9-f3c1-4863-b26d-4c907b5a208b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p36"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/353420b9-f3c1-4863-b26d-4c907b5a208b/original",
+              "label": "Original File - 55.7 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p37",
+          "@type": "sc:Canvas",
+          "label": "p. 37",
+          "height": 5286,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9561acb6-9e63-4cd3-9595-a69f366cb8a7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5286,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9561acb6-9e63-4cd3-9595-a69f366cb8a7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p37"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/9561acb6-9e63-4cd3-9595-a69f366cb8a7/original",
+              "label": "Original File - 56.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p37/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p37",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">18 16.</p>\n            <p>a new Synagogue into a modern<lb/> place of worship with Organ<lb/> and Choir making\n                as<lb/> complete a separation be<lb/>tween the factions as did<lb/>\n                    “<persName>Jereboham</persName> the son of <persName>Kebal</persName>”<lb/>\n                Whether <del>?</del> like <persName>Hercules</persName>\n                <persName>Mr Leeser</persName><lb/> could have, thrust the fatal<lb/> dart, or been\n                able to forsee<lb/> that in Union there is strength<lb/> and make such\n                concessions<lb/> as would write the conflicting<lb/> factions must be a matter\n                of<lb/> speculation, for though he for<lb/> saw the decline of the Portuguese<lb/>\n                Ritual &amp; the laxity of its observers,<lb/> he hoped much from the German<lb/>\n                Jews who were rapidly increasing<lb/> in members and influence</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p37"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p38",
+          "@type": "sc:Canvas",
+          "label": "p. 38",
+          "height": 5242,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0b921c3c-006c-474b-920f-4488458f85ff%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5242,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0b921c3c-006c-474b-920f-4488458f85ff%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p38"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/0b921c3c-006c-474b-920f-4488458f85ff/original",
+              "label": "Original File - 55.7 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p39",
+          "@type": "sc:Canvas",
+          "label": "p. 39",
+          "height": 5328,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f198abf-6722-41de-90c7-b2f410fdabc8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5328,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9f198abf-6722-41de-90c7-b2f410fdabc8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p39"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/9f198abf-6722-41de-90c7-b2f410fdabc8/original",
+              "label": "Original File - 56.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p39/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p39",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">19</p>\n            <p><sic>P</sic><add>?</add> He was a great admirer of women<lb/> Their personal beauty\n                attracted<lb/> him, &amp; he was always willing to<lb/> grant them all\n                privileges—not<lb/> then always allowed by the sterner<lb/> sex. I feel sure that he\n                would<lb/> have encouraged “the Council<lb/> of Jewish Women” in their efforts<lb/>\n                for Faith &amp; Humanity—for he<lb/> Edited <persName>Miss Grace Aguilars</persName>\n                “Jewish<lb/> Faith” &amp; her 'Spirit of Judaism' <del>and</del><lb/>\n                <persName>Hannah Rothschilds</persName> ' Prayers &amp; Med-<lb/>itations'. And the\n                names of many<lb/> women appeared in the pages of<lb/> the Occident, first\n                Jewish<lb/> Monthly Periodical, which he edited<lb/> first in <date>1843</date>, and\n                carried through<lb/> 25 years of successful publication<lb/>\n                <del>(Leaving it as a legacy to <persName>Hon M<add>?</add>\n                    Sulzberger</persName>)</del></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p40",
+          "@type": "sc:Canvas",
+          "label": "p. 40",
+          "height": 5296,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b04e2a36-21c6-4710-997b-c0fe03731702%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5296,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b04e2a36-21c6-4710-997b-c0fe03731702%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p40"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/b04e2a36-21c6-4710-997b-c0fe03731702/original",
+              "label": "Original File - 56.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p41",
+          "@type": "sc:Canvas",
+          "label": "p. 41",
+          "height": 5242,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8aa0c042-ec49-45b3-8093-b3b5e792bd78%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5242,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8aa0c042-ec49-45b3-8093-b3b5e792bd78%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p41"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/8aa0c042-ec49-45b3-8093-b3b5e792bd78/original",
+              "label": "Original File - 55.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p41/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p41",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">20</p>\n            <p>Though he had only spent a<lb/> few years of his early manhood<lb/> in the\n                    <placeName>South</placeName> when the un-<lb/> fortunate Civil War broke\n                out<lb/> his sympathies all went out<lb/> so strongly to the weaker side <lb/>that\n                the struggle shortened<lb/> his life. I will remember being<lb/> with him\n                    “<sic>Sedar</sic><add>?</add> night' <date>April 2 1860</date><lb/> at the house\n                of a mutual friend<lb/> when the boys called, through the that<lb/> the 'Surrender\n                of <persName>Genl Lee'</persName>.</p>\n            <p rend=\"indent(1)\"><persName>Mr Leeser</persName> was so overcome that<lb/> he had to\n                stop the Service and<lb/> walked home with me almost<lb/> without speaking the\n                strongest<lb/> possible sign of emotion.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p41"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p42",
+          "@type": "sc:Canvas",
+          "label": "p. 42",
+          "height": 5344,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a8282c63-1a3a-4f03-a182-d64bd62475b1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5344,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a8282c63-1a3a-4f03-a182-d64bd62475b1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p42"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/a8282c63-1a3a-4f03-a182-d64bd62475b1/original",
+              "label": "Original File - 56.8 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p43",
+          "@type": "sc:Canvas",
+          "label": "p. 43",
+          "height": 5220,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6af1bd70-c8c3-41ee-9938-12229e0a3328%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5220,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6af1bd70-c8c3-41ee-9938-12229e0a3328%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p43"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/6af1bd70-c8c3-41ee-9938-12229e0a3328/original",
+              "label": "Original File - 55.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p43/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/manifest/annotation/p43",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">21</p>\n            <p rend=\"indent(1)\">He projected the Union of all<lb/> Jewish Charitable\n                organizations<lb/> of <placeName>Phila</placeName>_which was brought about<lb/>\n                after his death in the United<lb/> Hebrew Charities and has lately<lb/> been\n                cemented by a stronger union.<lb/> Indeed there was no project of<lb/> his day for\n                the bettering of the<lb/> Human Race and the glory<lb/> of Judaism that he did\n                not<lb/> enter in heart &amp; soul.</p>\n            <p rend=\"indent(1)\">He was much respected by learned<lb/> men of all persuasions and\n                entered<lb/> into many controversies with them<lb/> always in the most liberal\n                spirit<lb/> and with the greatest consideration<lb/> for <del>the</del> difference\n                of Faith.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p43"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p44",
+          "@type": "sc:Canvas",
+          "label": "p. 44",
+          "height": 5254,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c561b426-f7b8-410e-a504-6493bfadf391%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 5254,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c561b426-f7b8-410e-a504-6493bfadf391%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/canvas/p44"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3bc3tp4v/assets/c561b426-f7b8-410e-a504-6493bfadf391/original",
+              "label": "Original File - 55.9 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

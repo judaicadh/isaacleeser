@@ -1,0 +1,297 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Labatt, H. I.; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3f766t3d"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Labatt, H. I.; Philadelphia, PA; undated"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item188"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/6a0cd183-c6bd-46ee-95cf-29abee9a52b4%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/6a0cd183-c6bd-46ee-95cf-29abee9a52b4%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5274,
+          "width": 4200,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6a0cd183-c6bd-46ee-95cf-29abee9a52b4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4200,
+                "height": 5274,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6a0cd183-c6bd-46ee-95cf-29abee9a52b4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/assets/6a0cd183-c6bd-46ee-95cf-29abee9a52b4/original",
+              "label": "Original File - 66.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>I regret to add Dr's Statement is false in many<lb/> respects, as probably his\n\t\t\t\tinformation was<lb/> derived from <persName>Mr Goldsmith</persName>.</p>\n\t\t\t<p rend=\"indent(1)\">In the first place the Doctor is not<lb/> legally our Rabbi, he\n\t\t\t\tnever was so elected.</p>\n\t\t\t<p rend=\"indent(1)\">In the second, <persName>Dr E</persName> never questioned<lb/>\n\t\t\t\tmessenger but merely listened to calumny</p>\n\t\t\t<p rend=\"indent(1)\">In the third, he had no recourse<lb/> to any expedient. The Trustees\n\t\t\t\tdid so<lb/>\n\t\t\t\t<sic>authorise</sic> him to appear before the three<lb/> members without\n\t\t\t\t\t<persName>Mr Messinger</persName> being<lb/> aware of their action.</p>\n\t\t\t<p rend=\"indent(1)\">In the fourth. The congregation have<lb/> adopted to eat meat of no\n\t\t\t\tother shochet<lb/> than <persName>Messinger</persName> &amp; we boast as\n\t\t\t\treligious<lb/> men as any in the world, perhaps not<lb/> more so.</p>\n\t\t\t<p rend=\"indent(1)\">There will be a sequel to this of<lb/> which I shall keep you\n\t\t\t\tadvised.</p>\n\t\t\t<p rend=\"indent(1)\">Upon these remarks you may be<lb/> certain <persName>Dr\n\t\t\t\t\tE.</persName> cannot be reelected at<lb/> the end of the year &amp; if you know\n\t\t\t\tof any<lb/> competent ministers who of their own accord<lb/> or at your suggestion\n\t\t\t\twill visit <placeName>San<lb/> Francisco</placeName> &amp; when here will act\n\t\t\t\tprudently<lb/> they would do well to come out</p>\n\t\t\t<p rend=\"indent(9)\">yrs. Truly. <persName role=\"author\">H I Labatt</persName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6266,
+          "width": 4900,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/41e7a6b8-6d63-4ac1-85a1-ece527aa89f3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4900,
+                "height": 6266,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/41e7a6b8-6d63-4ac1-85a1-ece527aa89f3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/assets/41e7a6b8-6d63-4ac1-85a1-ece527aa89f3/original",
+              "label": "Original File - 92.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>they intend to request the Doctor to<lb/> resign. He who was so unpopular<lb/> &amp;\n\t\t\t\twas elected by such a struggle &amp;<lb/> such sacrifices has in 6 short weeks<lb/>\n\t\t\t\tmake himself outrageously inimical<lb/> to the whole congregation. I hear but<lb/>\n\t\t\t\ttwo opinions. One asking him to resign<lb/> the other dismissing him from his\n\t\t\t\tpost.</p>\n\t\t\t<p rend=\"indent(1)\">In a new country it was in<lb/> the Doctors province to endear\n\t\t\t\thimself<lb/> to a warm &amp; ardent congregation but<lb/> he has chosen the\n\t\t\t\topposite. Yesterday<lb/> in conversation the Doctor was advised<lb/> by my father\n\t\t\t\t&amp; myself to be careful<lb/> of his actions that the congregation were very<lb/>\n\t\t\t\tuneasy about the Schochet matter &amp; his<lb/> position &amp; <hi rend=\"underline\"\n\t\t\t\t\t>might</hi> censure him. He said<lb/> on that subject he courted their\n\t\t\t\tcensure<lb/> &amp; forthwith proclaimed to the world through<lb/> the papers that we\n\t\t\t\twere all fools &amp; knew<lb/> not what we did that our Shochet<lb/> was no shochet\n\t\t\t\t&amp; his Shechilah to be<lb/> Terephah. (see publication)</p>\n\t\t\t<p rend=\"indent(1)\">I enclose you the publication with<lb/> the notes thereupon that\n\t\t\t\tseem proper.<lb/> I regret this matter on the Doctor's account</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6306,
+          "width": 4480,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e8b1c4a6-62f4-4cbf-ba95-e7484e7c0611%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4480,
+                "height": 6306,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e8b1c4a6-62f4-4cbf-ba95-e7484e7c0611%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/assets/e8b1c4a6-62f4-4cbf-ba95-e7484e7c0611/original",
+              "label": "Original File - 85 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n\t\t\t\t<hi rend=\"bold\">MISCELLANEOUS.</hi>\n\t\t\t</p>\n\t\t\t<p><hi rend=\"bold\">NOTICE TO THE ISRAELITES OF</hi><lb/>\n\t\t\t\t<placeName>SAN FRANCISCO</placeName> AND VICINITY.</p>\n\t\t\t<p>\n\t\t\t\t<hi rend=\"italics\">To the Officers of the Congregations Emanuel and Shereth<lb/>\n\t\t\t\t\tIsrael, and to the Members of the Jewish Denomination<lb/> of this City:</hi>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">BRETHREN IN FAITH!—In reply to certain queries<lb/> laid before me\n\t\t\t\tby the Prest. of K. K. Sh. Js., in a letter<lb/> dated <date>Nov. 29</date>, A. C.,\n\t\t\t\tI feel conscientiously bound to<lb/> state at large:</p>\n\t\t\t<p rend=\"indent(1)\">1<hi rend=\"sup\">st</hi>. That our laws in relation to animal food,\n\t\t\t\thave the<lb/> sanction of a number of passages of the Holy Writ: See<lb/> Gen. 9: 4;\n\t\t\t\tLevit. 11; 3: 17; 7: 23-27; 17: 10-14;<lb/> Deut. 14: 4-20, etc.</p>\n\t\t\t<p rend=\"indent(1)\">2d. They were strictly adhered to by our Prophets:<lb/> See\n\t\t\t\t\t<persName>Ezek.</persName> 4: 14; <persName>Dan.</persName> 1: 8; and by our\n\t\t\t\tnation through<lb/> a series of ages and generations.</p>\n\t\t\t<p rend=\"indent(1)\">These laws are preservative of physical and mental<lb/> health. By\n\t\t\t\tabstaining from the use of gross blood, (the<lb/>\n\t\t\t\t<hi rend=\"italics\">cruor</hi>) from certain portions of (almost) indigestible fat,\n\t\t\t\tfrom animals that feed on carrion, that die of themselves,<lb/> that labor under\n\t\t\t\tconsumptive, hepatic, <sic>hydrocephalous</sic><lb/> diseases, or of those of the\n\t\t\t\tkidneys, the heart, or the<lb/> other internal organs—not to mention the\n\t\t\t\tloathsome<lb/> disease of the swine—by abstaining from these, we reject<lb/> food\n\t\t\t\tthat is a prolific source of disease, that blunts the<lb/> moral feelings, that\n\t\t\t\tinflames the passions, irritates the<lb/> blood, and rouses the animal\n\t\t\t\tpropensities—that animal-<lb/>izes man.</p>\n\t\t\t<p rend=\"indent(1)\">This fact is acknowledged by the testimony of ages<lb/> past, and by\n\t\t\t\tthe light of advanced science of the present<lb/> age, as also by Christian\n\t\t\t\tcommentators: See <persName>Clarke</persName> and<lb/> other commentators on Lev. 11\n\t\t\t\tet Deut. 14.</p>\n\t\t\t<p rend=\"indent(1)\">We therefore need not wonder that men of science and<lb/>\n\t\t\t\tintelligence, as also proprietors of public establishments<lb/> of note even of\n\t\t\t\tother denominations, in places where we<lb/> and our principles are known, never use\n\t\t\t\tcommon animal<lb/> food whenever such as prepared for our use is within<lb/>\n\t\t\t\treach.*</p>\n\t\t\t<p rend=\"indent(1)\">And in all <placeName>Israel</placeName>, from times immemorial,\n\t\t\t\tonly men of<lb/> gravity, of unquestionable piety, and approved solidity<lb/> of\n\t\t\t\tcharacter and principle, were entrusted with the<lb/> office of <hi rend=\"italics\"\n\t\t\t\t\t>Shochat</hi>, i. e. of killing and inspecting the ani-<lb/>mals intended for\n\t\t\t\tthe use of Israelites, who, on finding<lb/> the animal free from disease and sound,\n\t\t\t\tgenerally puts<lb/> a seal used solely for that purpose on different portions<lb/>\n\t\t\t\tof it, as marks of its <sic>properiety</sic> for our use.</p>\n\t\t\t<p rend=\"indent(1)\">The Schochat acts under the inspection of the Rabbi.<lb/> The former\n\t\t\t\tafter a proper study of Animal Anatomy and<lb/> Pathology, as laid down in our laws,\n\t\t\t\thas to submit to an<lb/> examination to a properly authorized Rabbi, (usually<lb/>\n\t\t\t\tthat of the respective city where the Schochat wishes to<lb/> practice,) who, on\n\t\t\t\tfinding the candidate religiously and<lb/> legally trustworthy, provides him with a\n\t\t\t\t\t<hi rend=\"italics\">Rabbalah</hi>, (au-<lb/>thorization to be a Shochat,) and\n\t\t\t\teven then the Shochat<lb/> has to refer to the Rabbi certain difficult cases, and\n\t\t\t\tto<lb/> submit to re-examination at certain periods.</p>\n\t\t\t<p rend=\"indent(1)\">Only a diplomated Rabbi is authorized by our law to<lb/> institute a\n\t\t\t\tSchochat; no Schochat nor a number of Scho-<lb/>chalim dare presume to do so, such\n\t\t\t\tan act is by the law<lb/>\n\t\t\t\t<sic>delared</sic> null; and the person thus created Shochat is\n\t\t\t\t\t<sic>de-<lb/>clare</sic> by said laws an interloper, and unworthy of trust.<lb/>\n\t\t\t\t(Code Yorah Deah §1 let. 18, et. ib. Tor Zahab lit 4.)</p>\n\t\t\t<p rend=\"indent(1)\">There are cases in which even legally instituted<lb/> Shochlim\n\t\t\t\tforfeit their Rabbalah. Among others we may<lb/> mention the following, as pertinent\n\t\t\t\tto the subject.</p>\n\t\t\t<p rend=\"indent(1)\">1. If a Shochat is found to have himself shown a dis-<lb/>regard\n\t\t\t\ttowards the dietetic laws by partaking of for-<lb/>bidden food. (Code Y. D., § §1,\n\t\t\t\t2, 119 etc.)</p>\n\t\t\t<p rend=\"indent(1)\">2. If he violates the <date>Sabbath</date> or other national<lb/>\n\t\t\t\tlaws. (Ib.)</p>\n\t\t\t<p rend=\"indent(1)\">3. By physical causes, as obtuseness of the senses<lb/> dim, or\n\t\t\t\tshort sightedness.</p>\n\t\t\t<p rend=\"indent(1)\">4. Besides, no Shochat is to be trusted if he is inter<lb/>ested in\n\t\t\t\tthe result of his decision. (Ib. §2 Tor Zahat<lb/> ad. lit. 18.)</p>\n\t\t\t<p rend=\"indent(1)\">Whereas, I learn that an individual <sic>practises</sic> here\n\t\t\t\tas<lb/> Shochat—and, whereas, a sacred duty imposes upon me<lb/> the hard task—and\n\t\t\t\tthe letter of the President of K. K.<lb/> Sh. Is. requires me to declare whether\n\t\t\t\tsaid individual is<lb/> a legal Shochat, I feel obliged to state, that of five\n\t\t\t\tcandi-<lb/>dates who since my stay here, (<date>July 1<hi rend=\"sup\">st</hi></date>,\n\t\t\t\tA. C.,) presented<lb/> themselves to me for authorization or examination, only<lb/>\n\t\t\t\ttwo were found worthy of trust, viz:—<persName>Mr. Isaac Gold-<lb/>smith</persName>,\n\t\t\t\tthe Shochat of this city, and <persName>Mr. Borier</persName> of\n\t\t\t\t\t<placeName>Sacra-<lb/>mento</placeName> city, and they were examined\n\t\t\t\taccordingly; the<lb/> other three were rejected for obvious reasons. Among<lb/> the\n\t\t\t\tlatter is the young man in question.</p>\n\t\t\t<p rend=\"indent(1)\">He was <sic>recommeaded</sic> to me for examination, and was<lb/>\n\t\t\t\trejected on the ground of his falling under cases 1, 2, 3, 4,<lb/> state above as\n\t\t\t\tdisqualifications for said office. He is<lb/> known to have forfeited his\n\t\t\t\t\t<add>?</add><lb/> even since his few months' stay in this State.</p>\n\t\t\t<p rend=\"indent(1)\">Thus rejected by our Law, he had recourse to the fol-<lb/>lowing\n\t\t\t\texpedient. He applied for authorization for three<lb/> persons who formerly are said\n\t\t\t\tto have acted as Shochin.<lb/> But as two of them publicly work in stores on the\n\t\t\t\t\t<date>Sab-<lb/>bath</date> and Holydays, and the third is known——.</p>\n\t\t\t<p rend=\"indent(1)\">I deeply and sincerely lament to be in duty bound to<lb/> declare\n\t\t\t\tsaid expedient illegal; and—in the name of our<lb/> ancient and venerable Laws in\n\t\t\t\tCodes Yorch Deah § §<lb/> 1, 2, 119, 254; Moshen Mishpat, §34;\n\t\t\t\t\t<persName>Ebenezer</persName>, §123;<lb/>\n\t\t\t\t<persName>Maimonides</persName> Hilch; Gereshen Cap. 3, §15, et alibi—said<lb/>\n\t\t\t\tyoung man to be no Shochat; and his <hi rend=\"italics\">Shechilah</hi> to be<lb/>\n\t\t\t\t<hi rend=\"italics\">Terephah</hi>.</p>\n\t\t\t<p rend=\"indent(1)\">“He that doeth keep his soul will keep far from<lb/> them.”—Prov.\n\t\t\t\t22:5.</p>\n\t\t\t<p rend=\"indent(1)\">In bringing this to the notice of the scrupulous Israel-<lb/>ites of\n\t\t\t\tthis city and vicinity, I sign</p>\n\t\t\t<p rend=\"indent(9)\">Faithfully and humbly,</p>\n\t\t\t<p rend=\"indent(10)\"><persName>JULIUS ECKMAN</persName>, Rabbi.</p>\n\t\t\t<p><placeName>San Francisco</placeName>, <date>Dec. 19, (5615) 1854</date>.</p>\n\t\t\t<p>* We learn that such meat is to be had, at the usual<lb/> market prices, at\n\t\t\t\t\t<persName>Messrs. Miller's</persName>, <placeName>Pacific, near\n\t\t\t\t\tKearny</placeName><lb/>\n\t\t\t\t<add>?</add>: <persName>J. Marks</persName>, <placeName>Kearny, near\n\t\t\t\t\tPacific</placeName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5858,
+          "width": 2038,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3aba61e4-15ce-43c6-99ca-a78d795dcb24%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2038,
+                "height": 5858,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3aba61e4-15ce-43c6-99ca-a78d795dcb24%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/assets/3aba61e4-15ce-43c6-99ca-a78d795dcb24/original",
+              "label": "Original File - 36 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p\n\t\t\t\trend=\"The following is the back side of the newspaper clipping, thus the right edge is cut off.\"/>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<add>?</add>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">\n\t\t\t\t<placeName>SAN FRANC<add>?</add></placeName>\n\t\t\t</p>\n\t\t\t<p rend=\"align(center)\">MISCELLANEO<add>?</add></p>\n\t\t\t<p rend=\"align(center)\">UNION HOTEL,</p>\n\t\t\t<p rend=\"align(center)\"><placeName>Opposite Portsmouth Square</placeName>....</p>\n\t\t\t<p rend=\"align(center)\">A Card:</p>\n\t\t\t<p rend=\"indent(1)\">THE SUBSCRIBER HAVING ENGA<add>?</add><lb/> take the general\n\t\t\t\tmanagement of the a<add>?</add><lb/> now leased to <persName>MICHAEL\n\t\t\t\t\tPHELAN</persName>, h<add>?</add><lb/> fully gives notice that under his\n\t\t\t\tdirection the<lb/> been thoroughly renovated and materially impr<add>?</add><lb/>\n\t\t\t\tlodging-rooms are well furnished and in charge<lb/>\n\t\t\t\t<sic>pectable</sic> female, who has had many years exp<add>?</add><lb/> chambermaid\n\t\t\t\tin first class Hotels. A large<lb/> rooms are handsomely furnished for the\n\t\t\t\t\taccom<add>?</add><lb/> of private Supper Parties—also for Committee<lb/>\n\t\t\t\t<sic>ety</sic> Meetings.</p>\n\t\t\t<p rend=\"indent(1)\">The spacious BILLIARD SALOON, with its<lb/> Furniture, and the\n\t\t\t\tadvantage of <persName>Michael Phelan</persName><lb/> magic art in the science of\n\t\t\t\tbilliard playing, is<lb/> to any similar establishment on the <placeName>Pacific\n\t\t\t\t\tcoast</placeName></p>\n\t\t\t<p rend=\"indent(1)\">The BAR is stocked with the choicest quality<lb/> liquors, cigars,\n\t\t\t\tetc. The commodious basemen<add>?</add><lb/> fitted up in good style, as a\n\t\t\t\tREFRESHMENT<lb/> where the finest quality of Beef Steaks, Mutt<add>?</add><lb/>\n\t\t\t\tOysters, etc., will be served at all hours of the<lb/> evening, and the subscriber\n\t\t\t\ttrusts that he will b<add>?</add><lb/> to make the “UNION” a respectable and<lb/>\n\t\t\t\thouse of entertainment, and worthy of a share<lb/> patronage. <persName>GEO.\n\t\t\t\t\tMONTGOMERY, M<add>?</add></persName></p>\n\t\t\t<p>N. B.—The undersigned returns his thanks<lb/> favors, and solicits a continuance of\n\t\t\t\tpatronage<lb/> friends and the public generally.</p>\n\t\t\t<p rend=\"align(right)\">\n\t\t\t\t<persName>MICHAEL PHELA<add>?</add></persName>\n\t\t\t</p>\n\t\t\t<p rend=\"align(right)\">Lessee of Unio<add>?</add></p>\n\t\t\t<p>d16 tf</p>\n\t\t\t<p rend=\"align(center)\"><placeName>United States</placeName> Hot</p>\n\t\t\t<p rend=\"align(center)\"><placeName>MONTEREY</placeName>.</p>\n\t\t\t<p rend=\"indent(1)\">THE PROPRIETOR OF THE UNITED S<add>?</add><lb/> Hotel,\n\t\t\t\t\t<placeName>Monterey</placeName>, respectfully notifies his<lb/> and the\n\t\t\t\t\t<sic>travelling</sic> public generally, that<lb/> opened this large and\n\t\t\t\tconveniently arranged ho<lb/> the accommodation of boarders, families and\n\t\t\t\t\toth<add>?</add><lb/> may feel disposed to give him a call. No pains<lb/>\n\t\t\t\t<sic>pense</sic> has been spared to make this house com<lb/> and convenient to all.\n\t\t\t\tIt shall be second to none<lb/> country in regard to everything appertaining to a\n\t\t\t\t\t<add>?</add></p>\n\t\t\t<p rend=\"indent(1)\">The establishment is provided with good stable<lb/> horses.</p>\n\t\t\t<p rend=\"indent(1)\">The Bar is supplied with the choicest wines,<lb/> and Cigars.</p>\n\t\t\t<p rend=\"indent(1)\">His table is supplied with the best a\n\t\t\t\t\t<placeName>California</placeName><lb/> affords, that is all the eyes of an\n\t\t\t\tepicurean could<lb/> behold. Persons from all portions of the country<lb/>\n\t\t\t\t<placeName>Monterey</placeName> may rest assured of receiving most s<add>?</add><lb/>\n\t\t\t\t<sic>tory</sic> accommodations. The hotel is beautifully l<add>?</add><lb/> and\n\t\t\t\tcommands a fine view of the bay. All we ca<add>?</add><lb/> is give us a call and\n\t\t\t\tsatisfy yourselves.</p>\n\t\t\t<p rend=\"align(right)\"><persName>McMILLEN</persName>, Propri<add>?</add></p>\n\t\t\t<p>d17tfD.</p>\n\t\t\t<p>FARE</p>\n\t\t\t<p>Reduced!</p>\n\t\t\t<p>ON THE <placeName>CALIFORNIA</placeName> STAGE C<add>?</add></p>\n\t\t\t<p>COACHES</p>\n\t\t\t<p>From <placeName>San Francisco</placeName> to <placeName>Red\n\t\t\t\tWoods</placeName>.........</p>\n\t\t\t<p>From <placeName>San Francisco</placeName> to <placeName>San\n\t\t\t\tJose</placeName>.......</p>\n\t\t\t<p>From <placeName>San Francisco</placeName> to <placeName>Santa Cruz</placeName> and\n\t\t\t\t\t<placeName>Monterey</placeName></p>\n\t\t\t<p rend=\"indent(1)\">The above Lines of Stages leave the Company<lb/> Plaza, (formerly\n\t\t\t\t\t<persName>Dillon, Hodge &amp; Co.'s</persName>,) every<lb/> at 7 ¼ and 8\n\t\t\t\to'clock.</p>\n\t\t\t<p rend=\"align(right)\">\n\t\t\t\t<persName>J. BIRC<add>?</add></persName>\n\t\t\t</p>\n\t\t\t<p rend=\"align(right)\">President <placeName>California</placeName> Stage\n\t\t\t\tCo<add>?</add></p>\n\t\t\t<p>N. B.—<persName>DILLON, HEDGE &amp; CO.</persName> will su<add>?</add><lb/> the Lines\n\t\t\t\tas heretofore. D13t</p>\n\t\t\t<p rend=\"indent(1)\">Notice.—The interest of <sic>Jan</sic><lb/>\n\t\t\t\t<persName>TALMADGE</persName> in the Pioneer Line of Stages,<lb/>\n\t\t\t\t<sic>ning</sic> between <placeName>Oakland</placeName> and <placeName>San\n\t\t\t\t\tJose</placeName>, via <placeName>Union</placeName><lb/> the <placeName>Mission\n\t\t\t\t\tof San Jose</placeName>, together with the st<add>?</add><lb/> the road, is now\n\t\t\t\towned by the <placeName>California</placeName> Stage<lb/> and will hereafter be\n\t\t\t\tunder superintend<add>?</add></p>\n\t\t\t<p><persName><add>?</add>lon, Hedge &amp; Co.</persName>\n\t\t\t\t<lb/> d14tf</p>\n\t\t\t<p rend=\"align(right)\">\n\t\t\t\t<persName>J. BIRC<add>?</add></persName>\n\t\t\t</p>\n\t\t\t<p rend=\"align(right)\">President <placeName>California</placeName> Stag<add>?</add></p>\n\t\t</body>\n\t</text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f766t3d/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

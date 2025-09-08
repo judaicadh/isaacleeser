@@ -1,0 +1,211 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Solis, Elvira; Leeser, Isaac, Rev.; New York, NY or Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3m902k5j"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Solis, Elvira; Leeser, Isaac, Rev.; New York, NY or Philadelphia, PA; undated"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF14_50"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c3d12eb-3245-43c9-b346-b74829351c20%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c3d12eb-3245-43c9-b346-b74829351c20%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4882,
+          "width": 6028,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c3d12eb-3245-43c9-b346-b74829351c20%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6028,
+                "height": 4882,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5c3d12eb-3245-43c9-b346-b74829351c20%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/assets/5c3d12eb-3245-43c9-b346-b74829351c20/original",
+              "label": "Original File - 88.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"align(right)\">\n                <placeName>New York</placeName>\n                <date>Decmbr 17th</date>\n            </p>\n            <p>\n                <addressee>Revrd Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear friend</p>\n            <p rend=\"indent(2)\">Many thanks to you for<lb/> your long expected letter, which should\n                not<lb/> have remained unanswered so long, had I have known<lb/> where to write to\n                you, but your kind nature has made<lb/> allowances for my past neglect, so I avail\n                myself<lb/> of the earliest opportunity, it is true had I have had<lb/> sufficient\n                sense, might have heard from cousin<lb/>\n                <persName>Myrtilla</persName> your direction still I flatter myself at<lb/> this\n                late day a few lines from me will not prove<lb/> unacceptable, I am happy to hear\n                you are well &amp; having<lb/> a pleasant time, &amp; making so many new\n                friends<lb/> trust you will soon return to <placeName>Philadelphia</placeName>, I\n                am<lb/> quite selfish but since you have left I have made<lb/> another mine, &amp;\n                am at housekeeping in <placeName>Arch Street</placeName><lb/> where I hope to have\n                your pleasant company very often,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4882,
+          "width": 6028,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/dc7f3807-231b-4eb3-be2a-e83cb9adfa08%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6028,
+                "height": 4882,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/dc7f3807-231b-4eb3-be2a-e83cb9adfa08%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/assets/dc7f3807-231b-4eb3-be2a-e83cb9adfa08/original",
+              "label": "Original File - 88.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>I need not tell you how much I miss you, you know<lb/> we never know the value of\n                friends until we loose them,<lb/> there has nothing transpired of any moment\n                since<lb/> you left; the weather is very unhealthy, mild, &amp;<lb/> very damp,\n                which certainly at this time of the<lb/> year is very <del>unhealthy</del>\n                unseasonable. <persName>Mr Cohen</persName> has charge<lb/> of a stick which was\n                sent from <placeName>Jerusalem</placeName><lb/> for you, picked by some sister from\n                the<lb/> Lemon-branches of <persName>Rabbi Levy's</persName> garden,\n                <add>?</add><lb/> sends her love &amp; misses you very much <persName>Sarah<lb/>\n                    Nathan</persName> has gone before, she had a very<lb/> pleasant visit, I hear\n                nothing new from<lb/>\n                <placeName>New-York</placeName>, my husband &amp; <add>?</add> continue<lb/> very\n                well, <persName>Chary</persName> sends you her love, &amp; a Miss.<lb/> your books\n                    <persName>Ellen</persName> says have been taken out<lb/> of the Custom-house\n                &amp; the duty paid on them,<lb/>\n                <persName>Esther</persName>, <persName>Jacob-Lion</persName>,\n                    <persName>Chary</persName>\n                <persName>Isabella</persName> beg me to<lb/> remember them to you,\n                    <persName>Davids</persName> best regards<lb/> to you, that this scrawl may find\n                you<lb/> in the enjoyment of health, &amp; happiness,<lb/> you need no words to\n                assure you of the<lb/> sincerity of your true friend</p>\n            <p rend=\"indent(1)\">\n                <persName role=\"author\">Elvira Solis</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m902k5j/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

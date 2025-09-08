@@ -1,0 +1,1128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest",
+  "@type": "sc:Manifest",
+  "label": "Pamphlet; Philadelphia, PA; 6 April 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3xd0rj18"]
+    },
+    {
+      "label": "Title",
+      "value": ["Pamphlet; Philadelphia, PA; 6 April 1851"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-04-06", "4 Nissan 5611"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["pamphlets"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Pamphlet"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "19 pages on 21 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item227"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/c92ec0b2-5b30-4f3a-bb5c-ff92649ab70a%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/c92ec0b2-5b30-4f3a-bb5c-ff92649ab70a%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "Front Cover",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c92ec0b2-5b30-4f3a-bb5c-ff92649ab70a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c92ec0b2-5b30-4f3a-bb5c-ff92649ab70a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/c92ec0b2-5b30-4f3a-bb5c-ff92649ab70a/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "Inside front",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ea9a916d-cf97-4a37-843e-2bf8dca6d7b3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ea9a916d-cf97-4a37-843e-2bf8dca6d7b3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/ea9a916d-cf97-4a37-843e-2bf8dca6d7b3/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8c5a4ab2-d7a9-476f-b8a7-fe9efc77a912%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8c5a4ab2-d7a9-476f-b8a7-fe9efc77a912%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/8c5a4ab2-d7a9-476f-b8a7-fe9efc77a912/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">THE TESTIMONY.</p>\n\t\t\t<p rend=\"align(center)\">AN ADDRESS, DELIVERED AT THE SCHOOLHOUSE OF THE HEBREW EDUCATION\n\t\t\t\tSOCIETY<lb/> OF <placeName>PHILADELPHIA</placeName>, AT THE FIRST OPENING OF THEIR\n\t\t\t\tSCHOOL, ON <date>SUNDAY, THE<lb/> 4TH OF NISSAN, 5611, (APRIL 6TH, 1851,)</date></p>\n\t\t\t<p rend=\"align(center)\">BY <persName role=\"author\">ISAAC LEESER</persName>.</p>\n\t\t\t<p>MY FRIENDS,—</p>\n\t\t\t<p rend=\"indent(1)\">Although we are not assembled this day in a house consecrated<lb/>\n\t\t\t\tto God, still we have met for the purpose of doing honour to our<lb/> Everlasting\n\t\t\t\tKing, and to labour in His name. It has always<lb/> been the custom of\n\t\t\t\t\t<placeName>Israel</placeName>, on all occasions of public assembly,<lb/> not to\n\t\t\t\tlet the words of prayer be wanting; it is <add>הקול קול יעקב</add><lb/> “The voice\n\t\t\t\twhich is the voice of <persName>Jacob</persName>,” which is ever accep-<lb/>table on\n\t\t\t\tHigh; in this is our strength, in this our victory; herein<lb/> angels of mercy join\n\t\t\t\tus to do honour to the Creator; and of<lb/> this, in our deepest affliction, tyrants\n\t\t\t\tin all their power, nations<lb/> in all their tumultuous wrath, could not rob us.\n\t\t\t\tLet us, then,<lb/> not be unmindful of this our potent weapon, the two-edged\n\t\t\t\tsword<lb/> of God's praise, which is in our mouth, and let us reverentially<lb/> and\n\t\t\t\twith deep humility invoke the aid of our Father in heaven<lb/> on the work which we\n\t\t\t\tare about to begin, in order that He may<lb/> be with us at our first starting, and\n\t\t\t\tnot withdraw from us His<lb/> grace and aid till our task be accomplished.</p>\n\t\t\t<p rend=\"align(center)\">1</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a024c2cc-8ee8-4186-bfbc-8495e63b84f8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a024c2cc-8ee8-4186-bfbc-8495e63b84f8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/a024c2cc-8ee8-4186-bfbc-8495e63b84f8/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">2</p>\n\t\t\t<p rend=\"indent(1)\">O Lord Eternal! Thou has commanded us in thy law, that we<lb/>\n\t\t\t\tshould propagate the doctrines Thou has bestowed on us; since Thou<lb/> has\n\t\t\t\tordained, “And ye shall teach them to your children, to speak of<lb/> them when thou\n\t\t\t\tsittest in thy house, when thou walkest by the way,<lb/> when thou liest down and\n\t\t\t\twhen thou risest up.” It is in obedience to<lb/> this behest that we, thy servants,\n\t\t\t\thave striven to establish a seminary<lb/> where the children born unto\n\t\t\t\t\t<placeName>Israel</placeName> might be taught of thy laws, and<lb/> acquire a\n\t\t\t\tknowledge of the sacred language of thy people, without<lb/> being exposed to the\n\t\t\t\tdanger of contamination, by instruction which is<lb/> hostile to the faith which we\n\t\t\t\tderive from Thee. Long has our striving<lb/> been in vain, our words fell on ears\n\t\t\t\tdeaf to admonition; but at length,<lb/> for which we bless thy Name, we are at the\n\t\t\t\teve of commencing the<lb/> work which is so necessary to the well-being of all\n\t\t\t\tdescendants of<lb/>\n\t\t\t\t<persName>Jacob</persName>. But, O! how feeble is this beginning—how small the\n\t\t\t\tnumber<lb/> of those who have inscribed their names unto Thee; but we entreat<lb/>\n\t\t\t\tThee, do not despise the offering which we bring unworthy, though it<lb/> be, of thy\n\t\t\t\tacceptance; and cause it to prosper and flourish, since Thine<lb/> is the power to\n\t\t\t\tbless and perfect what man begins in doubt and sorrow.</p>\n\t\t\t<p rend=\"indent(1)\">Long has thy Name been profaned among the gentiles, when they<lb/>\n\t\t\t\tsaw that they who were called thy people were untrue to their calling,<lb/> and\n\t\t\t\tfaithless to the mission Thou has assigned them, to be a guide to<lb/> the nations.\n\t\t\t\tThe knowledge of thy word and thy ways has fearfully<lb/> diminished, and many have\n\t\t\t\tfallen off, because they know not the prin-<lb/>ciples of thy faith, and the duties\n\t\t\t\tincident to its followers. Grant<lb/> then, O most merciful Father! that this school\n\t\t\t\tmay become a shining<lb/> ledge the minds of many who otherwise would grope their\n\t\t\t\tway in dark-<lb/>ness; that its scholars may become quick in the spirit of\n\t\t\t\tsalvation, and<lb/> stand forth as Israelites in whom Thou art well pleased; and\n\t\t\t\tthat<lb/> through them many others may be drawn into the sacred influence, to<lb/>\n\t\t\t\tdevote to Thee their life, their best exertions, and their whole soul.</p>\n\t\t\t<p rend=\"indent(1)\">Upon the teachers who are to engage in the holy work send, we<lb/>\n\t\t\t\tbeseech Thee, thy gracious beneficence; inspire them with meekness,<lb/> to labour\n\t\t\t\tin the arduous task which they have assumed, and with per-<lb/>severance not to flag\n\t\t\t\tamidst discouraging trials to which they will be<lb/> exposed. Lend eloquence to\n\t\t\t\ttheir tongues, and deep persuasion to<lb/> their words, that they may be able to\n\t\t\t\tenchain the youthful hearts, and<lb/> bind them indissolubly to thy service, so that\n\t\t\t\tin after years they may<lb/> rejoice over the multitudes they have brought under the\n\t\t\t\tovershadowing<lb/> wings of thy Providence.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/56292932-6c8b-4227-b837-4aeafe14d325%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/56292932-6c8b-4227-b837-4aeafe14d325%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/56292932-6c8b-4227-b837-4aeafe14d325/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">3</p>\n\t\t\t<p rend=\"indent(1)\">And upon us, and all the well-wishers of this institution, pour\n\t\t\t\tout<lb/> the spirit of liberality and devotedness, that we may not be weary in<lb/>\n\t\t\t\tour struggle, nor become faint-hearted, if immediate success crown not<lb/> our\n\t\t\t\tenterprise. Yea, teach us to wait for thy aid, in meekness and<lb/> submission, and\n\t\t\t\tnot to expect too much from our own strength and<lb/> our own endeavours; so that,\n\t\t\t\tpersisting to work in the cause of thy<lb/> religion, we may be strengthened with\n\t\t\t\tthe hope that Thou wilt guide<lb/> us aright, and make everything eventuate for the\n\t\t\t\tbest, to the extension<lb/> of thy kingdom, and the spread of thy glory, and the joy\n\t\t\t\tof the holy<lb/> ones on earth, in whom Thou feelest delight. Be it thus thy will\n\t\t\t\tto<lb/> establish the work of our hands, and to let thy beauty be revealed<lb/> over\n\t\t\t\tus. Amen.</p>\n\t\t\t<p>LADIES AND GENTLEMEN,—</p>\n\t\t\t<p rend=\"indent(1)\">When <persName>Joshua</persName>, the successor of\n\t\t\t\t\t<persName>Moses</persName>, was nigh the end of<lb/> his mortal career, he\n\t\t\t\tassembled the whole tribes of <placeName>Israel</placeName> at<lb/>\n\t\t\t\t<placeName>Shechem</placeName>, and addressed the elders, captains, judges, and\n\t\t\t\tofficers<lb/> of justice, in a heart-stirring appeal, relative to their duties\n\t\t\t\tto<lb/> their God, in reminding them how mercifully He had brought<lb/> them and\n\t\t\t\ttheir fathers to be his servants. He left them, how-<lb/>ever, the choice of\n\t\t\t\tremaining faithful to the Lord, or to select<lb/> some of the various idolatries\n\t\t\t\twhich were then in vogue, either<lb/> that of the Mesopotamians, or of the Emorites,\n\t\t\t\tnear whom they<lb/> then dwelt; but whatever the people might resolve on, he\n\t\t\t\tde-<lb/>clared his firm determination that he and his household would<lb/> serve the\n\t\t\t\tLord. The Israelites, however, who had been the<lb/> witnesses of the mercy and\n\t\t\t\tmight which had been displayed<lb/> before them, had no doubt of the truth of their\n\t\t\t\treligion in their<lb/> heart; they therefore chose the same worship which their\n\t\t\t\tleader<lb/> had chosen, and they declared, “We also will serve the Lord,<lb/> for he\n\t\t\t\tis our God.” After again receiving an affirmation of this<lb/> pious and prudent\n\t\t\t\tresolution, <persName>Joshua</persName> wrote all that had trans-<lb/>pired in a\n\t\t\t\tbook containing the law of God, and took a large<lb/> stone and erected it there,\n\t\t\t\tunder the beech tree, which was near<lb/> the sanctuary of the Lord; and then we\n\t\t\t\tread</p>\n\t\t\t<p>\n\t\t\t\t<add>ויאמר יהושע הנה האבן הזאת תהיה בנו לעדה כי היא שמעה את כל אמרי ה' אשר דבר עמנו\n\t\t\t\t\tוהיתה בכם לעדה פן תכחשון באלהיכם: יהושע כ\"ד כ\"ז</add>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">“And <persName>Joshua</persName> said, Behold this stone shall be as\n\t\t\t\ta testimony against us,<lb/> for it hath heard all the sayings of the Lord which he\n\t\t\t\thath spoken with us;”</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/86f5368e-35eb-483b-b84f-cca542a99c53%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/86f5368e-35eb-483b-b84f-cca542a99c53%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/86f5368e-35eb-483b-b84f-cca542a99c53/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">4</p>\n\t\t\t<p>and therefore shall it be as a testimony against you, that ye may not prove<lb/>\n\t\t\t\tfalse to your God.”—<persName>JOSHUA</persName> xxiv. 27.</p>\n\t\t\t<p rend=\"indent(1)\">These last words of the son of <persName>Nun</persName> may appear\n\t\t\t\tstrange to<lb/> you, inasmuch as he ascribes hearing to an inanimate block of<lb/>\n\t\t\t\tstone, and says that it shall be a testimony against those with<lb/> whom he spoke.\n\t\t\t\tBut it is not to be expected that <persName>Joshua</persName> meant<lb/> to convey,\n\t\t\t\tor that the people understood him as implying, any<lb/> such absurdity. It is only\n\t\t\t\tin a metaphorical sense that he<lb/> spoke. The people had been assembled near where\n\t\t\t\tthe stone<lb/> lay on the ground, consequently all the words and promises<lb/> which\n\t\t\t\tthey uttered could have been heard by the stone had it<lb/> been a living being;\n\t\t\t\twherefore it might well be erected in that<lb/> place, and remind all future comers,\n\t\t\t\ton seeing it, that on that<lb/> very spot, and around it, their forefathers stood,\n\t\t\t\twhen they<lb/> solemnly declared that they would remain Israelites, and\n\t\t\t\tobe-<lb/>dient to the words of God, though they had been offered the<lb/> free\n\t\t\t\tchoice of rejecting Him if they preferred doing so; conse-<lb/>quently the stone, by\n\t\t\t\tits silent presence, would be a testimony<lb/> against the people, should they ever\n\t\t\t\tbecome untrue to their<lb/> Liege-Lord, who had done for them so many wondrous and\n\t\t\t\tmer-<lb/>ciful deeds. It is well known to you how powerfully mementos<lb/> of the\n\t\t\t\tdeparted affect us; how we can be made sad by recalling<lb/> to mind some simple lay\n\t\t\t\twhich we in infancy heard our mother<lb/> sing; how we are constantly wrought upon\n\t\t\t\tby even trifling<lb/> matters, which bring back before our memory events that\n\t\t\t\twe<lb/> long since had deemed as faded and forgotten. It need not, there-<lb/>fore,\n\t\t\t\tsurprise us that mankind, in all ages, have deemed monu-<lb/>mental columns of high\n\t\t\t\timportance, as fixing historical events in<lb/> the most energetic manner on the\n\t\t\t\tminds of the beholders; and<lb/> it is only in obedience to a positive injunction,\n\t\t\t\tthat the ancient<lb/> Israelites did not invoke the aid of sculpture or the other\n\t\t\t\tcog-<lb/>nate branches of the plastic art, to commemorate their heroes<lb/> and\n\t\t\t\ttheir beneficent exertions. The more reason was there for<lb/> erecting simple, and\n\t\t\t\tif you will, rough stones, durable as they<lb/> are, and almost bidding defiance to\n\t\t\t\tthe all-devouring tooth of<lb/> time, in order that they might serve to point out\n\t\t\t\tthe spots con-<lb/>secrated by the occurrence of important events, which would</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/63fb3b3a-191e-4a30-b8d7-d4c8b5741554%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/63fb3b3a-191e-4a30-b8d7-d4c8b5741554%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/63fb3b3a-191e-4a30-b8d7-d4c8b5741554/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">5</p>\n\t\t\t<p>then also call their attention to the fact that, because they were<lb/> servants of\n\t\t\t\tthe Incorporeal One, who cannot be represented by<lb/> any outward figure, they had\n\t\t\t\tbeen interdicted to make any hewn<lb/> image, the simplest of which had, in the\n\t\t\t\tcorrupt taste of those<lb/> times, been converted into objects of worship; wherefore\n\t\t\t\tthe<lb/> mere product of nature, unadorned and undefiled by the artist's<lb/>\n\t\t\t\tchisel, must serve them, instead of the laboured monuments of<lb/>\n\t\t\t\t<placeName>Greece</placeName>, <placeName>Assyria</placeName>,\n\t\t\t\t\t<placeName>Babylon</placeName>, and <placeName>Egypt</placeName>. Some\n\t\t\t\twould-be-wise men<lb/> will, perhaps, esteem this prohibition of sculpture and\n\t\t\t\tcarving as<lb/> narrow and illiberal; but if we view the depravity and hero<lb/>\n\t\t\t\tworship consequent on representing the human figure in relief,<lb/> as it was\n\t\t\t\t\t<sic>practised</sic> by the ancients—the necessary tendency of<lb/> rising in\n\t\t\t\timagination from the mortal to the Immortal, and to<lb/> portray Him too with daring\n\t\t\t\tand impious hands—the means it<lb/> gives to represent criminal acts and indecencies\n\t\t\t\tof all sorts, as<lb/> we see but too often done among moderns:—we need not feel\n\t\t\t\tany<lb/> surprise that in our religion no opportunity was allowed to a<lb/> prurient\n\t\t\t\tfancy so to degrade the highest moral good as to make<lb/> it subservient to vice,\n\t\t\t\tor to elevate to an undue height frail mor-<lb/>tality, and to invest it with\n\t\t\t\tattributes to which it has no claims.<lb/> Besides all this, the emblematic pictures\n\t\t\t\tand sculptures of the<lb/> ancients have long since lost their significance; and\n\t\t\t\thowever<lb/> some one highly endowed may yet be permitted to decipher their<lb/>\n\t\t\t\tsecrets, and the history and lessons they convey, it is not to be<lb/> denied that,\n\t\t\t\tas guides to mankind, the stupendous works of anti-<lb/>quity are practically of no\n\t\t\t\tmore use than the simple stone erected<lb/> by <persName>Joshua</persName>.</p>\n\t\t\t<p rend=\"indent(1)\">You may say, that so far as permanence is concerned, the<lb/>\n\t\t\t\tmonument erected near the Sanctuary at <placeName>Shechem</placeName> is no\n\t\t\t\tlonger<lb/> in existence; consequently to us, at this late day, it is of no\n\t\t\t\tmore<lb/> use than the hieroglyphic-covered columns of <placeName>Luxor</placeName>\n\t\t\t\tand <placeName>Karnac</placeName>.<lb/> True, most true; but it is precisely this\n\t\t\t\tperishableness of all<lb/> structures, whether the rude or ornamental, which proves\n\t\t\t\tthe<lb/> utter fatuity of man when he vaunts that he is building for<lb/> futurity.\n\t\t\t\tHe may, indeed, pile up stone upon stone, wall on<lb/> wall, but he has not secured\n\t\t\t\this edifice from decay; nay, the<lb/> very materials he employs, the hardest basalt\n\t\t\t\tand granite will</p>\n\t\t\t<p rend=\"align(center)\">1*</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/84afdd0f-b160-489a-b684-e9836bc5d1bb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/84afdd0f-b160-489a-b684-e9836bc5d1bb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/84afdd0f-b160-489a-b684-e9836bc5d1bb/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">6</p>\n\t\t\t<p>suffer from abrasion the moment after they are placed in rest.<lb/> So then let us no\n\t\t\t\tmore know the site on which <persName>Joshua</persName> raised his<lb/> monument—it\n\t\t\t\tmatters not; it spoke its instruction as long as it<lb/> was required, whilst the\n\t\t\t\tmind of the people needed to be re-<lb/>kindled whenever forgetfulness of God's word\n\t\t\t\twas threatened in<lb/> the corruption of the times; but, brethren, though the\n\t\t\t\tstone<lb/> itself has perished, and they have passed away, who, violating<lb/> their\n\t\t\t\tpledge, suffered for the covenant broken, and the law<lb/> violated: the object for\n\t\t\t\twhich it was erected has not passed<lb/> away, and the religion of which it was a\n\t\t\t\ttestimony is as potent<lb/> now as it was on that very day; and yet more, it is\n\t\t\t\tfirmer esta-<lb/>blished in the hearts of all Israelites than at that early date\n\t\t\t\tof<lb/> our history, when so many wavered and went often astray after<lb/> strange\n\t\t\t\tgods who have no breath in their nostrils.</p>\n\t\t\t<p rend=\"indent(1)\">And let me ask you, What brings us here together this day?<lb/> It\n\t\t\t\tis the very same idea which caused <persName>Joshua</persName> to set up his\n\t\t\t\tme-<lb/>morial stone,—it is to testify that we wish to erect an institution<lb/> in\n\t\t\t\thonour of the name of God. The sanctuary is indeed no<lb/> longer ours; we have only\n\t\t\t\tsmall places for meeting to pray and<lb/> to exhort; but we lack the glorious\n\t\t\t\tmanifestation of the Divine<lb/> Presence which formerly animated and comforted us.\n\t\t\t\tBut the<lb/> law itself which was to be glorified through means of the public<lb/>\n\t\t\t\tministration of the priesthood is not yet extinct, and claims of<lb/> us, no less\n\t\t\t\tthan in days of old, that we should spread it among all<lb/> classes, as we read:\n\t\t\t\t“Assemble together the people, the men and<lb/> the women and the children, and thy\n\t\t\t\tstranger who is within thy<lb/> gates, in order that they may hear, and in order\n\t\t\t\tthat they may<lb/> learn, and fear the Lord your God, and observe to do all the<lb/>\n\t\t\t\twords of this law.” (Deut. xxxi. 12.) It was not only given for<lb/> the rich, the\n\t\t\t\tlearned, the wise, the aged, the native born, the<lb/> noble, and the priest, but\n\t\t\t\tfor all who bear God's soul in their<lb/> bosom, it was bestowed as the inheritance\n\t\t\t\tof all mankind, where-<lb/>fore all who were within reach of instruction were to be\n\t\t\t\tassembled<lb/> to take part in the septennial ceremony of its public\n\t\t\t\tproclamation<lb/> by the political chief of the people, in order that all might\n\t\t\t\tbe<lb/> animated by one desire to learn how to obey the will of the<lb/> universal\n\t\t\t\tGod, to whom all on earth bear the relation of children</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e0544c8f-5267-4221-ae7f-fa8d9c102e50%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e0544c8f-5267-4221-ae7f-fa8d9c102e50%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/e0544c8f-5267-4221-ae7f-fa8d9c102e50/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">7</p>\n\t\t\t<p>to their Father, of scholars to their Teacher. And we have<lb/> come hither to-day to\n\t\t\t\tcommence a school of instruction, open<lb/> alike to the poor and the rich, the\n\t\t\t\tIsraelite and the stranger,<lb/> where it shall be the principal business of the\n\t\t\t\tteachers to imbue<lb/> the mind early with true conceptions of the Godhead, and\n\t\t\t\tto<lb/> repeat the lesson so frequently, by a daily putting line upon line<lb/> and\n\t\t\t\tprecept upon precept, that Judaism may become a part of<lb/> the very nature of our\n\t\t\t\tpupils, without which they could not exist,<lb/> even if they should at a future day\n\t\t\t\tbe tempted to cast it off for<lb/> the glare and allurement of the hostile world\n\t\t\t\tbeyond. It is not<lb/> an easy thing, through some of you, my hearers, may think\n\t\t\t\tother-<lb/>wise, to acquire this staunch love for religion; or else why do<lb/> we\n\t\t\t\tsee so many violations of its precepts daily and hourly <sic>prac-<lb/>tised</sic>\n\t\t\t\tbefore our eyes? Had Israelites that devotion which they<lb/> ought to have, they\n\t\t\t\tcould not so disregard their duties. It is<lb/> education only which can effect\n\t\t\t\tthis, and a constant exhorting at<lb/> home and at school which can result in a\n\t\t\t\tGod-fearing conduct<lb/> through life. You may ask me, “Are there not many\n\t\t\t\thighly<lb/> educated who are unfaithful? not many ignorant who are pious?”<lb/> I\n\t\t\t\treadily answer “Yes,” to both these questions. But though<lb/> you do find the\n\t\t\t\tignorant pious after their fashion, as <hi rend=\"italics\">far as they</hi><lb/>\n\t\t\t\t<hi rend=\"italics\">know how</hi>, and the learned often desperately wicked, this\n\t\t\t\tdoes<lb/> not gainsay that true piety and an enlightened zeal are only<lb/> found in\n\t\t\t\tthose who have been inly tinctured with divine wisdom.<lb/> For who were the great\n\t\t\t\tleaders of our race at all times? were<lb/> they the unlettered? who were the\n\t\t\t\tprophets? were they the un-<lb/>instructed? who were the most glorious martyrs? were\n\t\t\t\tthey the<lb/> ignorant? No, fellow-Israelites, they were all, whether men or<lb/>\n\t\t\t\twomen, those in whom the spirit of knowledge dwelt, and it was<lb/> in their\n\t\t\t\tfootsteps that the multitudes followed, whether they<lb/> made their pilgrimage to\n\t\t\t\tthe temple at <placeName>Jerusalem</placeName>, whether they<lb/> ranged themselves\n\t\t\t\tunder their country's banner on the day of<lb/> strife, although they knew that all\n\t\t\t\tefforts would be in vain, since<lb/> the enemy had penetrated within their walls, or\n\t\t\t\twhether they<lb/> hastened to a yet more glorious death when tyrants demanded<lb/>\n\t\t\t\ttheir blood as the price of maintaining their religion.</p>\n\t\t\t<p rend=\"indent(1)\">We in our day require the same devoted zeal among our house-</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/18919e77-4ae0-4ff0-b9c0-b999f55a9c1a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/18919e77-4ae0-4ff0-b9c0-b999f55a9c1a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/18919e77-4ae0-4ff0-b9c0-b999f55a9c1a/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p10/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">8</p>\n\t\t\t<p>hold in order that we may maintain the proper influence over its<lb/> members. All\n\t\t\t\t\t<placeName>Israel</placeName> may in truth be viewed as one large family,<lb/>\n\t\t\t\tin which each one has assigned a part which he must achieve or<lb/> be recreant to\n\t\t\t\this trust. But, alas! how many have proved so!<lb/> look at the records of the\n\t\t\t\tcongregations in this country, and you<lb/> will seek in vain for the\n\t\t\t\trepresentatives of many families among<lb/> the professing Jews. Some have died out\n\t\t\t\tby the want of male<lb/> descendants to bear their names; but many others have left\n\t\t\t\tthe<lb/> Synagogue, either by <sic>apostacy</sic> or the quiet intermingling\n\t\t\t\twith<lb/> the gentiles; and in addition to several families thus extinct<lb/>\n\t\t\t\talready, others are fast hastening to the same deplorable state.<lb/> Have you ever\n\t\t\t\treflected on this fact? I have, many, many<lb/> times, with a heaviness of heart\n\t\t\t\twhich I cannot describe to you.<lb/> To see the names once honourable among\n\t\t\t\t\t<placeName>Israel</placeName>, borne by those<lb/> who are in feeling the\n\t\t\t\tbitterest opponents of our race, and the<lb/> more so because they know themselves\n\t\t\t\tthat they are ours by the<lb/> father's or mother's side, is indeed a cause of the\n\t\t\t\tdeepest grief<lb/> to a sincere follower of the God of <persName>Jacob</persName>.\n\t\t\t\tAnd I ask you again,<lb/> have you never reflected on this fact? If you have, you\n\t\t\t\tmust<lb/> have discovered that nearly all such connexions have resulted<lb/> from\n\t\t\t\tone cause, that is, that the offending parties did not con-<lb/>sider Jewish\n\t\t\t\tfamilies good enough for them to associate with;<lb/> they regarded themselves a\n\t\t\t\tdegree higher than all the Hebrews<lb/> they knew; and hence they sought for\n\t\t\t\talliances where they<lb/> fancied their noble blood would suffer no contamination.\n\t\t\t\tYou<lb/> may think that I speak harshly; but does the fact bear me out?<lb/> does\n\t\t\t\tyour own experience confirm what I say? I appeal to<lb/> yourselves, and let me be\n\t\t\t\tcondemned if in your innermost souls<lb/> you find not a response only too\n\t\t\t\taffirmative of my words. It is<lb/> nothing to the matter that persons of all grades\n\t\t\t\tof society have<lb/> so offended; for, alas! it requires neither wealth, nor\n\t\t\t\tintellect,<lb/> nor station, to puff up the human heart with pride, and no one<lb/>\n\t\t\t\tis so mean but he is in his own conceit higher than all the people<lb/> in\n\t\t\t\tself-importance. There have been others lost to us, because<lb/> they felt\n\t\t\t\tthemselves neglected by other Israelites, they were not<lb/> appreciated as they\n\t\t\t\tdeserved, so they thought, and they threw<lb/> themselves into the arms of those who\n\t\t\t\tare always anxious to</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p11",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4297577f-d22d-48e3-b4c5-9b09c5234952%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4297577f-d22d-48e3-b4c5-9b09c5234952%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p11"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/4297577f-d22d-48e3-b4c5-9b09c5234952/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p11/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">9</p>\n\t\t\t<p>receive the straying Jewish flock. But whence arose this self-<lb/>assumed\n\t\t\t\tsuperiority on the one side and the degradation on the<lb/> other? Do you know this?\n\t\t\t\tOnly reflect a moment, and the<lb/> matter will become clear to you. Answer me,\n\t\t\t\tWhere were our<lb/> religious schools in former times? where are they now? It\n\t\t\t\thas<lb/> always been to me a subject of profound astonishment and deep<lb/> regret,\n\t\t\t\tthat there was not a single school all over the country,<lb/> until very lately,\n\t\t\t\twhere a Jewish child could obtain any informa-<lb/>tion on his religion. The\n\t\t\t\tSynagogue was no place for instruc-<lb/>tion, because public lectures formed no part\n\t\t\t\tof the exercises.<lb/> Family worship, except in rare instances, was unknown,\n\t\t\t\tand<lb/> family religious reading was not though of, beyond a perusal of<lb/> the\n\t\t\t\tBible in the common translation, which was first ordered to<lb/> be read in churches\n\t\t\t\tby authority of <persName>King James the First</persName>, of<lb/>\n\t\t\t\t<placeName>England</placeName>. The religious books accessible were limited to\n\t\t\t\tthe<lb/> works of the late <persName>David Levi</persName>, who in his lifetime was\n\t\t\t\tbut ill-<lb/>rewarded for the strenuous exertions he made in the cause of<lb/>\n\t\t\t\tJudaism. Our Jewish predecessors in this country had only one<lb/> place of meeting,\n\t\t\t\tand this was the Synagogue, where the worship<lb/> was uniformly the same every\n\t\t\t\t\t<date>Sabbath</date> in the year, the tunes<lb/> only varying to suit the\n\t\t\t\tvarious occasions for which they are<lb/> very happily adapted. Could such a system\n\t\t\t\ttend to make men<lb/> and women familiar with their faith? could it produce a\n\t\t\t\tfusion<lb/> of wills and a harmony of souls, not to speak among natives and<lb/>\n\t\t\t\tforeigners, but among the natives themselves? It is idle to ex-<lb/>pect it, for\n\t\t\t\tmany knew not a word of Hebrew; the language of<lb/> their worship was an unknown\n\t\t\t\ttongue to them; consequently the<lb/> sounds, beyond the sweetness of the melody,\n\t\t\t\tfell like an unmean-<lb/>ing noise to their ears, and no improvement, no lifting up\n\t\t\t\tof the<lb/> heart, could be expected. And where a little Hebrew was acquired<lb/>\n\t\t\t\tfrom some casual <sic>travelling</sic> teacher, it served more to deepen the<lb/>\n\t\t\t\tshadow of the absence of information, than to remove it, just as<lb/> the taper\n\t\t\t\treveals to us more grimly the desolation and darkness<lb/> of a subterranean prison,\n\t\t\t\tthe outlines of which are not to be dis-<lb/>cerned by the flickering flame we carry\n\t\t\t\tin our hands.</p>\n\t\t\t<p rend=\"indent(1)\">It was indeed surprising that so many years should elapse<lb/>\n\t\t\t\twithout due efforts being made to establish schools, and place the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p12",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/558f6622-38a4-4df9-a119-93c2b491103c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/558f6622-38a4-4df9-a119-93c2b491103c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p12"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/558f6622-38a4-4df9-a119-93c2b491103c/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p12/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p10",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">10</p>\n\t\t\t<p>worship in the Synagogue on a better footing. But though the<lb/> evil was so\n\t\t\t\tapparent, it was allowed to continue unchecked, until<lb/> the eyes of many were\n\t\t\t\tpainfully opened to the want of love and<lb/> harmony existing among us. People who\n\t\t\t\thad not in youth any<lb/> familiar intercourse, who had been exclusively reared\n\t\t\t\tamong<lb/> gentiles, who had no friends among their own nation, could not<lb/>\n\t\t\t\t<sic>sympathise</sic> with the other Israelites, who moved in a different<lb/> or\n\t\t\t\tinferior station to themselves. The sequel was estrangement<lb/> from religion, and\n\t\t\t\ta constantly decreasing observance of the pre-<lb/>cepts of the Bible. I was told by\n\t\t\t\tan aged gentleman, now no<lb/> more, that about seventy years ago a Jewish woman,\n\t\t\t\twho kept a<lb/> boarding-house in <placeName>New York</placeName>, was remiss in\n\t\t\t\tsome small observance<lb/> which I have forgotten. The trustees of the Synagogue, on\n\t\t\t\tlearn-<lb/>ing this, at once proclaimed her house forbidden, and enjoined on<lb/>\n\t\t\t\tall to abstain from eating with her at her table; and only upon repa-<lb/>ration of\n\t\t\t\tthe wrong was the interdict removed. You may say that<lb/> this was tyranny, an\n\t\t\t\tunwarranted interference in private family<lb/> matters; I cannot agree with you in\n\t\t\t\tsuch an opinion, as it was<lb/> a public affair in which the pious Synagogue elders\n\t\t\t\tthought<lb/> themselves authorized by custom and prescriptive right to\n\t\t\t\tinter-<lb/>fere. But be this as it may, it shows the high degree of con-<lb/>formity\n\t\t\t\tthen prevailing in the oldest congregation in the country.<lb/> Now look at the\n\t\t\t\tcontrast with the present state of affairs! See<lb/> how many violate the\n\t\t\t\t\t<date>Sabbath</date>; how many are married out of<lb/> the pale of Judaism; how\n\t\t\t\tmany eat forbidden food; how many<lb/> disregard the <date>Passover</date>; how many\n\t\t\t\tneglect the precept of cir-<lb/>cumcision, and then say, that we have not changed\n\t\t\t\tfor the worse.</p>\n\t\t\t<p rend=\"indent(1)\">I said the evil had become so apparent, and that something<lb/> was\n\t\t\t\tnecessary to be done, that a friend of <placeName>Israel</placeName>, a friend\n\t\t\t\tof<lb/> mankind, thirteen years ago undertook, unsolicited and of her<lb/> own\n\t\t\t\taccord, to open a place of instruction for one day in the<lb/> week to all who might\n\t\t\t\tchoose to avail themselves of its advan-<lb/>tages. The school was begun with hardly\n\t\t\t\tany books suitable<lb/> for the purpose; and now behold! we have a good though\n\t\t\t\ta<lb/> small series every way calculated to serve the end in view, as<lb/> the works\n\t\t\t\tembracing it convey a rational account of our religion,<lb/> both its theory and\n\t\t\t\tpractice, and tend powerfully to make a</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p13",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b75ada21-1cc9-49a4-940c-52aeccf092bb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b75ada21-1cc9-49a4-940c-52aeccf092bb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p13"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/b75ada21-1cc9-49a4-940c-52aeccf092bb/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p13/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p11",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">11</p>\n\t\t\t<p>lasting impression on the youthful mind. I cannot doubt that<lb/> much good has\n\t\t\t\talready resulted from it. Friendships have been<lb/> cemented which probably will\n\t\t\t\tlast during life; children have<lb/> learned to know each other as Jews, and to\n\t\t\t\tadmire each other's<lb/> character, who under other circumstances would never have\n\t\t\t\tcome<lb/> in contact; and I have every reason for believing that evil and<lb/>\n\t\t\t\tanti-Jewish influences have been eradicated from the minds of<lb/> some who\n\t\t\t\totherwise might have forsaken our communion. I do not<lb/> stand, however, here to\n\t\t\t\tflatter or to blame unduly; I have been<lb/> asked by my colleagues to urge the\n\t\t\t\timportance of our enterprise.<lb/> Therefore permit that I point out the defects of\n\t\t\t\ta mere Sunday<lb/> School, unaided by any other seminary. I will again\n\t\t\t\tacknow-<lb/>ledge, before I proceed further, that the example of the\n\t\t\t\tbenevo-<lb/>lent lady whom we all esteem, and whom I am proud to be per-<lb/>mitted\n\t\t\t\tto call my friend, and that of her disinterested assistants,<lb/> has been imitated\n\t\t\t\tin various other parts of the country, until the<lb/> just charge of actual\n\t\t\t\tignorance is no longer applicable to all places<lb/> where this has been done. But\n\t\t\t\tno one can say, that much has<lb/> been accomplished towards diffusing a knowledge\n\t\t\t\tof the language<lb/> of the Scriptures, without which no education of an Israelite\n\t\t\t\tcan<lb/> be complete. The little that can be acquired in extra hours,<lb/> when the\n\t\t\t\tchildren have not to recite their usual lessons or to<lb/> study them, is not\n\t\t\t\tenough, and must necessarily be very ineffi-<lb/>cient. The child is wearied with\n\t\t\t\tconning over matters which are<lb/> in themselves of but questionable use, even when\n\t\t\t\tthoroughly ac-<lb/>quired; and when you demand of him now to repair to his<lb/>\n\t\t\t\tHebrew teacher, he will find out a thousand reasons for desiring<lb/> to escape from\n\t\t\t\tthis unwelcome additional task. And I tell you,<lb/> without in the least qualifying\n\t\t\t\tmy assertion, that without an<lb/> adequate knowledge of the Hebrew, sufficient at\n\t\t\t\tleast to <sic>under-<lb/>derstand</sic> the Scriptures and the ordinary prayers, no\n\t\t\t\tJew can<lb/> allege that he has acquired that knowledge which is all in all to<lb/>\n\t\t\t\thim. A Hebrew not to be a Hebrew in language when this is<lb/> within his reach, is\n\t\t\t\tan absurd proposition, which requires no<lb/> argument to illustrate. And pray, why\n\t\t\t\tshould we not teach to<lb/> all our children the holy tongue, that they may be able\n\t\t\t\tto speak<lb/> understandingly of God's word when they sit at home, and when</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p14",
+          "@type": "sc:Canvas",
+          "label": "12",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/940f49f2-4e7d-4664-9208-24779df160ef%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/940f49f2-4e7d-4664-9208-24779df160ef%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p14"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/940f49f2-4e7d-4664-9208-24779df160ef/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p14/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p12",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">12</p>\n\t\t\t<p>they walk together by the way? Few are acquainted with the<lb/> rich treasures of our\n\t\t\t\tliterature; and now when modern investi-<lb/>gation is throwing so much light on\n\t\t\t\tthis, no less than other sub-<lb/>jects, it sounds strangely that to English and\n\t\t\t\tAmerican Jews the<lb/> whole is perfectly inaccessible.</p>\n\t\t\t<p rend=\"indent(1)\">Well may I ask you again, Shall this be always so? will you<lb/>\n\t\t\t\talways be satisfied with things as they are, when you see the<lb/> evil that has\n\t\t\t\talready resulted to our communities from this want<lb/> of education? Our Society,\n\t\t\t\thowever, has made it its object to<lb/> become, if permitted by you, and if duly\n\t\t\t\tencouraged, under the<lb/> blessing of Heaven, to whose safe keeping we commit it,\n\t\t\t\tan<lb/> earnest agent to remove the reproach so far as our sphere of<lb/> action can\n\t\t\t\textend. We purpose to combine elementary and<lb/> afterwards scientific education\n\t\t\t\twith a gradual and progressive<lb/> acquirement of Hebrew, Hebrew literature, and\n\t\t\t\treligion. It is<lb/> not to be as in other schools, a secondary matter whether\n\t\t\t\tthe<lb/> children learn Hebrew and religion or not, but they are to acquire<lb/>\n\t\t\t\tthese if nothing else even can be imparted. Still imagine not<lb/> that we are not\n\t\t\t\tfully alive to the importance of classical and<lb/> elegant literature; we know how\n\t\t\t\tto appreciate both, and we<lb/> trust that in a year hence our teachers will prove\n\t\t\t\tto you that<lb/> Jewish children can advance in all the necessary branches of<lb/>\n\t\t\t\teducation under the superintendence of <sic>instructers</sic> of their own<lb/>\n\t\t\t\tpeople no less than of others. We mean, however, to let the<lb/> objects and\n\t\t\t\tconcerns of eternal life not be merely the work of<lb/> spare time and a leisure\n\t\t\t\tday, but to see that daily, and in the<lb/> usual school hours, the language and\n\t\t\t\treligion of our fathers are<lb/> properly and full illustrated. Permit me to call\n\t\t\t\tyour attention<lb/> to one fact: the members of the committee of school\n\t\t\t\tdirectors,<lb/> with a single exception, have no offspring of their own old\n\t\t\t\tenough<lb/> to be participants in the benefit which the school is to confer, it<lb/>\n\t\t\t\tis merely a sense of duty which impels them to be active in the<lb/> cause, and to\n\t\t\t\tincur, if need be, a considerable amount of labour<lb/> to carry out their views.\n\t\t\t\tBut as this is the case, the greater<lb/> necessity rests upon those who have\n\t\t\t\tchildren, and who wish to<lb/> rear them in a religious and hopeful manner, to send\n\t\t\t\tthem to us,<lb/> that we may <sic>fulfil</sic> in them the obligation which in\n\t\t\t\tobedience to<lb/> our religion we have assumed.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p15",
+          "@type": "sc:Canvas",
+          "label": "13",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bccb8fc3-b09f-426d-8793-2cb3b5acebf0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bccb8fc3-b09f-426d-8793-2cb3b5acebf0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p15"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/bccb8fc3-b09f-426d-8793-2cb3b5acebf0/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p15/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p13",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">13</p>\n\t\t\t<p rend=\"indent(1)\">But, I hear some one say, What guarantee can you give us<lb/> that,\n\t\t\t\twhen we remove our children from other schools, they will<lb/> be properly taught\n\t\t\t\tthe branches of a good general education?<lb/> And it is, I apprehend, precisely\n\t\t\t\tthis fear which has hitherto<lb/>\n\t\t\t\t<sic>withholden</sic> many of you from entering your children as scholars<lb/> on\n\t\t\t\tour books. But let me tell you that this is not wise, though<lb/> it may be prudent.\n\t\t\t\tOur efforts must fail, if we meet with no<lb/> encouragement; this I am willing to\n\t\t\t\tacknowledge; but on the<lb/> other hand I maintain that we shall do more than redeem\n\t\t\t\tour<lb/> promise, if the children are entrusted to our care. What is to<lb/> prevent\n\t\t\t\tus giving as good an education as is furnished in public<lb/> or private schools? do\n\t\t\t\tyou believe that we cannot teach reading,<lb/> writing, arithmetic, history,\n\t\t\t\tgeography and the higher branches,<lb/> if these be required? The very idea is\n\t\t\t\tabsurd; whatever the<lb/> scholars show an aptness for can be taught as well, to say\n\t\t\t\tthe<lb/> least, under Jewish supervision as any other. Only try us, if it<lb/> be\n\t\t\t\tonly for one year; and if at its expiration you are dissatisfied<lb/> with the\n\t\t\t\tprogress of your children, taking as the standard of<lb/> comparison what they have\n\t\t\t\tacquired before elsewhere, we shall<lb/> be willing to acknowledge that we have\n\t\t\t\tfailed.</p>\n\t\t\t<p rend=\"indent(1)\">You must, however, reflect again, that we not merely charge<lb/>\n\t\t\t\tourselves with simple education; we wish to return your children<lb/> to you at the\n\t\t\t\tend of each season improved in manners and morals.<lb/> We wish to subject their\n\t\t\t\tminds to a wholesome restraint, where<lb/> love shall govern and not force, where\n\t\t\t\tintellect is to lead, not<lb/> vain ambition. Look at the effects of the Sunday\n\t\t\t\tSchool, how<lb/> they have ennobled natures some thought incapable of\n\t\t\t\timprove-<lb/>ment, and then say that the effect will not be much greater if<lb/> the\n\t\t\t\tdiscipline be carried out through the whole period children<lb/> are at school. It\n\t\t\t\twill most assuredly take some time to get<lb/> everything in is proper train;\n\t\t\t\tperhaps several weeks must elapse<lb/> before we can fairly assert that we have made\n\t\t\t\ta proper begin-<lb/>ning; the thing is yet new, and circumstances, the surest\n\t\t\t\tindica-<lb/>tions of Providence, must show us how we are to proceed; only<lb/> have\n\t\t\t\ta little patience; the same you would demand if you all<lb/> were in our place, and\n\t\t\t\twe promise that we will faithfully strive<lb/> to do our whole duty. It is possible\n\t\t\t\talso, that we may commit</p>\n\t\t\t<p rend=\"align(center)\">2</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p16",
+          "@type": "sc:Canvas",
+          "label": "14",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/edc20e57-4da2-4ec0-816a-211b41230172%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/edc20e57-4da2-4ec0-816a-211b41230172%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p16"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/edc20e57-4da2-4ec0-816a-211b41230172/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p16/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p14",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">14</p>\n\t\t\t<p>some mistakes at the very outset and during the subsequent ex-<lb/>istence of our\n\t\t\t\tenterprise; but shall this deprive us of your con-<lb/>fidence? we trust not; we are\n\t\t\t\tall working in one cause; parents<lb/> teachers, managers, children, have all one\n\t\t\t\tobject, that is, the<lb/> diffusion of a knowledge of our religion; and hence we\n\t\t\t\ttrust that<lb/> any error which may be discovered shall be pointed out to us\n\t\t\t\twith<lb/> candour and mildness, and we will endeavour to amend, so far<lb/> as this\n\t\t\t\tmay be practicable with the means and materials at our<lb/> disposal. Only let me\n\t\t\t\tbeg you, not to doubt hastily of a good<lb/> result; it has been well said that “our\n\t\t\t\tdoubts are traitors;” and<lb/> it is certain that no great enterprise ever succeeded\n\t\t\t\twhere the<lb/> actors themselves doubted of their final success. To insure a<lb/>\n\t\t\t\thappy issue we must have but one thing in view, namely, the <hi rend=\"italics\"\n\t\t\t\t\t>end</hi><lb/> we are aiming at; we must not regard great or small\n\t\t\t\tobstacles<lb/> as things worth minding, but move straight onward, and let each<lb/>\n\t\t\t\tstep taken in advance be the forerunner and guarantee of the<lb/> next succeeding\n\t\t\t\tone. Believe me, that the greatest results are<lb/> obtained by slow and contiguous\n\t\t\t\tminor advances; and they suc-<lb/>ceed the best who persevere the longest without\n\t\t\t\tdespairing of<lb/> their chances of carrying out what they at first dimly\n\t\t\t\tconceived<lb/> to be within the range of their possibility. As little as wealth\n\t\t\t\tor<lb/> renown is suddenly acquired, except in rare instances, can any<lb/>\n\t\t\t\tenterprise, whatever it be, expect to prove itself at once among<lb/> the events\n\t\t\t\twhich are established in the full tide of success.<lb/> Therefore I tell you, demand\n\t\t\t\tnot of us that we shall accomplish<lb/> impossibilities all at once; that we are to\n\t\t\t\tgather in this institu-<lb/>tion children of various stages of intellect and\n\t\t\t\tprogress in do-<lb/>mestic education, and <sic>mould</sic> them without delay into\n\t\t\t\tscholars of<lb/> a uniform conduct and progress. Without a miracle, this will\n\t\t\t\tbe<lb/> impossible, and we are not vain nor foolish enough to claim the<lb/> ability\n\t\t\t\tto accomplish the impracticable. But let me beg of you<lb/> all, not to undervalue\n\t\t\t\tour and your capacity for succeeding with<lb/> this school because we are Jews. The\n\t\t\t\tremark is often made, that<lb/> we Israelites cannot do things like other people,\n\t\t\t\tand that we are<lb/> altogether too self-willed to succeed where others find no bar\n\t\t\t\tto<lb/> carry out their views. For my part I will never believe that we<lb/> are\n\t\t\t\tinferior to the best of mankind in whatever we devote our</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p17",
+          "@type": "sc:Canvas",
+          "label": "15",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c3ac6285-90c3-4ad1-80bc-e3ba43d40b3f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c3ac6285-90c3-4ad1-80bc-e3ba43d40b3f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p17"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/c3ac6285-90c3-4ad1-80bc-e3ba43d40b3f/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p17/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p15",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">15</p>\n\t\t\t<p>attention to. Look at the great progress we have made in com-<lb/>merce and the\n\t\t\t\tmechanic arts wherever we had a fair field of<lb/> action: and I see no reason why\n\t\t\t\tthe same result is not equally<lb/> certain in every pursuit to which we may\n\t\t\t\tseriously devote our<lb/> energies. It is and has been our misfortune for many\n\t\t\t\tcenturies,<lb/> that small trading, and at best large commerce, has been our<lb/>\n\t\t\t\tmain pursuit; still, with all the disadvantages of our position, we<lb/> have\n\t\t\t\tmaintained a high character as an educated and intellectual<lb/> people, though at\n\t\t\t\ttimes our education systems have been highly<lb/> defective. But I ask you, What is\n\t\t\t\tto prevent us in this free<lb/> country, where all legal disqualifications are\n\t\t\t\tunknown, from ad-<lb/>vancing with the same or greater rapidity in intellectual\n\t\t\t\tpursuits<lb/> with our fellow-citizens of other persuasions? What a\n\t\t\t\thumi-<lb/>liating confession would it be were we to acknowledge that we<lb/> did not\n\t\t\t\testablish religious schools, because we lacked the capacity<lb/> and energy to\n\t\t\t\tundertake them, though we had ample means<lb/> and a fair opportunity to do so. Away\n\t\t\t\twith such croaking; let<lb/> us not hear the ominous sounds “We cannot;” we can, we\n\t\t\t\tmust,<lb/> we will! say this all of you, induce others to say the same, and<lb/>\n\t\t\t\tthen you will soon see whether Jews can succeed in disseminating<lb/> education and\n\t\t\t\treligious knowledge as successfully as the best and<lb/> most enlightened\n\t\t\t\tdenomination, whatever this may be.</p>\n\t\t\t<p rend=\"indent(1)\">I use plain language, I deal in no flowers of oratory, and I<lb/>\n\t\t\t\ttrust, therefore, that I shall be best understood. It is not so<lb/> much to the\n\t\t\t\tfeelings I wish to appeal as to your good judgment,<lb/> and hence I hope that you\n\t\t\t\twill not get impatient when my ad-<lb/>dress detains you longer than you expected.\n\t\t\t\tThe subject is one<lb/> of the highest importance, and concerns you all, my\n\t\t\t\thearers,<lb/> whether you are rich or poor. Could I have the opportunity of<lb/>\n\t\t\t\tseeing you here frequently, I might indeed cut my remarks short<lb/> to resume them\n\t\t\t\tat another time; but as this may perhaps never<lb/> be in my power, I must crave\n\t\t\t\tyour indulgence to some few other<lb/> considerations in connexion with the\n\t\t\t\tsubject.—To Israelites their<lb/> religion is no <hi rend=\"italics\">luxury</hi>,\n\t\t\t\texcuse me for using so strange an expres-<lb/>sion, but a matter of primary\n\t\t\t\timportance. An Episcopalian<lb/> need not be a high or low churchman in order to\n\t\t\t\tbelieve in his<lb/> system; for he has a wide range in which to move; and he can</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p18",
+          "@type": "sc:Canvas",
+          "label": "16",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cf8c67f4-7efe-4d6f-9964-d51aaa26492e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cf8c67f4-7efe-4d6f-9964-d51aaa26492e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p18"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/cf8c67f4-7efe-4d6f-9964-d51aaa26492e/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p18/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p16",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">16</p>\n\t\t\t<p>be a Nazarene, and for all we know fully as good as in his sect,<lb/> though he turn\n\t\t\t\tBaptist or Quaker. But a Jew is no Jew if he<lb/> has not a firm hold on his\n\t\t\t\tpeculiar opinions and distinguishing<lb/> practice. A theoretical Jew can exist; we\n\t\t\t\thave, unfortunately,<lb/> many such; but they are not the Israelites of the\n\t\t\t\tScriptures,<lb/> because the material element of this character, <hi rend=\"italics\"\n\t\t\t\t\t>religious confor-</hi><lb/><hi rend=\"italics\">mity</hi>, is absent. We know,\n\t\t\t\tmoreover, no exemption from duty;<lb/> we have no standard of indulgences or\n\t\t\t\trestrictions; no noble<lb/> classes who may transgress, no lower orders who may\n\t\t\t\tyield them-<lb/>selves to degrading vices in order to gratify the sensualities\n\t\t\t\tof<lb/> the lordlings, who look upon them with contempt even whilst they<lb/>\n\t\t\t\tminister to their pleasures. The Jew is a Jew, whether he is the<lb/> pedlar that\n\t\t\t\tbends double under the burden which his laborious<lb/> shoulders carry, or the baron\n\t\t\t\tof the <placeName>Austrian Empire</placeName> who idles<lb/> away his hours on the\n\t\t\t\tluxurious sofa. The hopes of the last are<lb/> not a whit higher and nobler than\n\t\t\t\tthose of the first, and this one<lb/> has the same claims to immortality and a\n\t\t\t\tglorious hereafter, as<lb/> the most favoured child of luxury. Fortune's gifts may\n\t\t\t\tbe, by<lb/> the will of Providence, very unequally distributed; but let not<lb/>\n\t\t\t\ttheir possessors deem themselves better men or more God-<lb/>favoured on this\n\t\t\t\taccount. They have a tangible advantage in<lb/> their exemption from toil; they may\n\t\t\t\tlie down at night without<lb/> torturing their brain how to provide for their little\n\t\t\t\tones by the<lb/> dawn of to-morrow. Is not this enough for them? must they also<lb/>\n\t\t\t\twish to perpetuate for their families a rank which the now humble<lb/> and their\n\t\t\t\toffspring are never to attain? Weak! silly! wicked<lb/> idea! <hi rend=\"italics\"\n\t\t\t\t\t>God</hi> has elevated you, I tell you, not <hi rend=\"italics\">you</hi> have\n\t\t\t\tacquired<lb/> your position by your unaided skill and labour; and He can\n\t\t\t\tun-<lb/>make you, bring you down again to the dung-hill whence you<lb/> sprung, or\n\t\t\t\tyour children, should you even be carried on a splen-<lb/>did bier to the grave, may\n\t\t\t\thave to claim the assistance of those<lb/> whom you despise as too inferior to\n\t\t\t\tassociate with you and yours.<lb/> The world, and especially this country, presents\n\t\t\t\tso many instances<lb/> of changes of fortune, that it would be superfluous for me to\n\t\t\t\thunt<lb/> for examples of which you, my hearers, know many in your own<lb/>\n\t\t\t\texperience. Let us hope, therefore, that no silly pride will pre-<lb/>vent parents\n\t\t\t\tof all standings in society from availing themselves</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p18"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p19",
+          "@type": "sc:Canvas",
+          "label": "17",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bd2c33f3-5328-4609-83bf-5ac6b870ad6b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bd2c33f3-5328-4609-83bf-5ac6b870ad6b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p19"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/bd2c33f3-5328-4609-83bf-5ac6b870ad6b/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p19/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p17",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">17</p>\n\t\t\t<p>of the advantages which we hope to offer to you. “Ho! let all<lb/> you who are\n\t\t\t\tthirsty,” says the prophet, “come to the waters,<lb/> and he too who hath no money;\n\t\t\t\tcome ye, buy and eat; yea,<lb/> come, buy wine and milk, without money and without\n\t\t\t\tprice.”<lb/> The word of God is free to all, it is the water, the bread, the<lb/>\n\t\t\t\twine and milk of life; it refreshes, it satisfies, it rejoices, it<lb/> nourishes.\n\t\t\t\tIt is given to all, offered to all; and we summon all<lb/> within our reach, as did\n\t\t\t\tthe ancient prophet, to partake of the<lb/> repast which we hope to spread for you\n\t\t\t\tin the name and by the<lb/> aid of God. We demand of those able to pay a small fee\n\t\t\t\ttowards<lb/> defraying the expenses which we have to incur, and we trust that<lb/>\n\t\t\t\tthis will be cheerfully given; but they who are not blessed with a<lb/>\n\t\t\t\tsuperabundance of means are invited, nevertheless, to entrust to<lb/> us their\n\t\t\t\tchildren, and we promise them that they shall not suffer<lb/> the least reproof for\n\t\t\t\tthe inability of their parents. All we ask<lb/> of them is to send their children\n\t\t\t\ttidily dressed, and cleanly in<lb/> their persons, so that no stain will attach to\n\t\t\t\tthem for their humble<lb/> state. And let me here remark at once, that nothing so\n\t\t\t\tpromotes<lb/> good conduct and proficiency in study as scrupulous cleanliness;<lb/>\n\t\t\t\tin a dirty body a dirty soul too often dwells, and the exterior is<lb/> mostly a\n\t\t\t\tfair index of the inward man. Cleanliness, say our<lb/> wise men, is the first step\n\t\t\t\tto the acquisition of holiness, and it is<lb/> a necessary element of Jewish life,\n\t\t\t\tas our holy law amply proves.<lb/> It is not to be questioned, that if the children\n\t\t\t\tof the poor come<lb/> hither so that all can freely associate with them, it will be\n\t\t\t\tan<lb/> incentive for the rich to apply to us also to take theirs under<lb/> our\n\t\t\t\tcharge; and only the non-observance of this rule can operate<lb/> as an excuse to\n\t\t\t\twithhold any one from taking advantage of the<lb/> institution we now commence.</p>\n\t\t\t<p rend=\"indent(1)\">Let no one thing that any injury can result to better trained<lb/>\n\t\t\t\tchildren, by associating with those not so fortunate as them-<lb/>selves; in\n\t\t\t\tafter-life they will have to meet with persons of all<lb/> classes, and it is no\n\t\t\t\tdetriment that they become early acquainted<lb/> with the fact that all are not\n\t\t\t\tprosperous alike. It will produce<lb/> in them kindliness of feeling, at finding\n\t\t\t\tthat the same virtues<lb/> can dwell in a heart covered by a frieze coat, as that\n\t\t\t\twhich<lb/> beats under a velvet mantle, and that the sorrows of the poor</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p19"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p20",
+          "@type": "sc:Canvas",
+          "label": "18",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/62805582-6a18-4e0c-8209-c499eb89c906%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/62805582-6a18-4e0c-8209-c499eb89c906%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p20"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/62805582-6a18-4e0c-8209-c499eb89c906/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p20/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p18",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">18</p>\n\t\t\t<p>are the same as those of the rich. This is <hi rend=\"italics\"\n\t\t\t\t\t><sic>levelling</sic></hi>\n\t\t\t\t<hi rend=\"italics\">upward</hi>;<lb/> you elevate the character of the humble, by\n\t\t\t\tbringing them in<lb/> contact with those of better manners and greater\n\t\t\t\trefinement;<lb/> and with children of good religious character, you need not\n\t\t\t\tfear<lb/> that they will corrupt yours, whilst they acquire from them<lb/>\n\t\t\t\tpoliteness and good breeding. This is well understood in the<lb/> country where I\n\t\t\t\twas born. Universal education has long since<lb/> been established there; and at the\n\t\t\t\tsame colleges where the sons<lb/> of the nobles acquire their collegiate education,\n\t\t\t\tthe children of<lb/> the day-labourers are freely admitted. The former have to\n\t\t\t\tpay<lb/> the annual stipend which the rules require, whilst the others<lb/> enjoy\n\t\t\t\tprecisely the same advantages and privileges without any<lb/> charge whatever; and\n\t\t\t\tit is not rare that the poorest excel the<lb/> others in every requisite of\n\t\t\t\tintellect, industry, and aptness for<lb/> study. But what need is there to go over\n\t\t\t\tthe ocean to seek for<lb/> examples of the kind? Look at your own great statesmen, your<lb/>\n\t\t\t\t<persName>Clay</persName>, your <persName>Webster</persName>, your\n\t\t\t\t\t<persName>Fillmore</persName>, and thousands of others, and<lb/> they were the\n\t\t\t\tchildren of poverty, of the unknown. And who<lb/> dares not to remind them of their\n\t\t\t\torigin? They have their<lb/> title of nobility from nature's God, and show me the\n\t\t\t\tworldling<lb/> who would dispute this claim, valid as it is above all others.</p>\n\t\t\t<p rend=\"indent(1)\">But much as I have yet to say, I find that it is time to close.<lb/>\n\t\t\t\tIt has been my endeavour to exhibit to you, in as condensed a<lb/> manner as\n\t\t\t\tpossible, the necessity of our school, its practicability,<lb/> and the happy\n\t\t\t\teffects it may produce, if it is rightly encouraged.<lb/> Its friends and projectors\n\t\t\t\thave laboured long to bring it so far<lb/> as to make a commencement; doubts and\n\t\t\t\tdifficulties have sur-<lb/>rounded every step in advance we have taken, and much\n\t\t\t\tlabour<lb/> and kindness will be required to keep it in operation. It is our<lb/>\n\t\t\t\tintention, should the demand make it necessary, and our funds<lb/> suffice, to open\n\t\t\t\tdistrict schools at convenient distances, so as to<lb/> afford all children an\n\t\t\t\topportunity to avail themselves of our<lb/> Hebrew education. For the present we\n\t\t\t\thave selected this place<lb/> as the most central, and we hope that no captious\n\t\t\t\tfault-finding<lb/> will prevent all our space to be soon claimed by attentive<lb/>\n\t\t\t\tscholars. The committee of school directors pledge themselves<lb/> to do all in\n\t\t\t\ttheir power to afford the utmost satisfaction, and to<lb/> act in all cases with\n\t\t\t\tstrict impartiality.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p21",
+          "@type": "sc:Canvas",
+          "label": "19",
+          "height": 5676,
+          "width": 3538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c8e59ad-314f-4538-9a55-25687357e0db%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3538,
+                "height": 5676,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2c8e59ad-314f-4538-9a55-25687357e0db%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p21"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/assets/2c8e59ad-314f-4538-9a55-25687357e0db/original",
+              "label": "Original File - 60.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p21/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/manifest/annotation/p19",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">19</p>\n\t\t\t<p rend=\"indent(1)\">In conclusion, permit me, like <persName>Joshua</persName> of old,\n\t\t\t\tto call your<lb/> attention to this stone, as it were in the great building of\n\t\t\t\tright-<lb/>eousness, on which all <placeName>Israel</placeName> should labour, which\n\t\t\t\twe have just<lb/> set up. It is a testimony against you, O Israelites of\n\t\t\t\t\t<placeName>Phila-<lb/>delphia</placeName>, whether or not you are true to the\n\t\t\t\tLord your God.<lb/> Cherish it, cause it to expand, labour that it may become a\n\t\t\t\tchief<lb/> corner stone in an extended system of education, whence future<lb/>\n\t\t\t\tteachers and ministers of <placeName>Israel</placeName> may go forth, to propagate\n\t\t\t\tthe<lb/> word of God: and you will have performed your duty, a duty<lb/> which is\n\t\t\t\tincumbent on you and all our brothers wherever they<lb/> are. Neglect it, and you\n\t\t\t\twill have perhaps to deplore <sic>apostacy</sic><lb/> in your own family, and a\n\t\t\t\tpublic desecration of the name of<lb/> God by some of your offspring, whom you would\n\t\t\t\tsooner follow<lb/> to the grave, than see them thus dishonour you and your\n\t\t\t\tfaith.<lb/> It is for your own sakes that we call on you to aid us in our<lb/>\n\t\t\t\teffort; you will rejoice when you see those dear to you intelligent<lb/> servants of\n\t\t\t\tgod, and familiar with his word, being thus faithful<lb/> from knowledge and not\n\t\t\t\tmere conformity by descent. You<lb/> never, we trust, will regret the exertions and\n\t\t\t\toutlay you have<lb/> made in this cause; and they who have laboured to bring\n\t\t\t\tthe<lb/> Education Society into existence, under the blessing of Provi-<lb/>dence,\n\t\t\t\twill deem themselves amply compensated, when they see<lb/> that their striving has\n\t\t\t\tin part brought “peace in <placeName>Israel</placeName>.”</p>\n\t\t\t<p><date>Nissan 4<hi rend=\"sup\">th</hi>, April 6<hi rend=\"sup\">th</hi>, 5611</date>.</p>\n\t\t\t<div>\n\t\t\t\t<p>\n\t\t\t\t\t<ref target=\"Occident_PDFs/Occ_9_2.pdf\">The above text refers to Occident Volume\n\t\t\t\t\t\t9 No. 2 pages 61 through 78. Click here to view.</ref>\n\t\t\t\t</p>\n\t\t\t</div>\n\t\t</body>\n\t</text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3xd0rj18/canvas/p21"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Wolff, A.; Leeser, I., Revd., Mr.; Anytown, St. Thomas; 6 January 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3w951770"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Wolff, A.; Leeser, I., Revd., Mr.; Anytown, St. Thomas; 6 January 1851"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-01-06"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virgin Islands -- St. Thomas",
+        "United States -- Virgin Islands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF8_10"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/05c9f816-353f-4669-a991-2c8b7936f676%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/05c9f816-353f-4669-a991-2c8b7936f676%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4538,
+          "width": 3648,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/05c9f816-353f-4669-a991-2c8b7936f676%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3648,
+                "height": 4538,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/05c9f816-353f-4669-a991-2c8b7936f676%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/assets/05c9f816-353f-4669-a991-2c8b7936f676/original",
+              "label": "Original File - 49.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>St Thomas</placeName>\n                <date>6' Jany 1851</date>\n            </p>\n            <p>My Dr <addressee>Mr Leeser</addressee></p>\n            <p rend=\"indent(3)\">It has pleased the Almighty to<lb/> relieve my poor son\n                    <persName>Jacob Benjamin</persName> from this world<lb/> of care &amp; trouble,\n                he died in our midst on the <date>27</date><lb/> Ulta on <date>23d of Tebet</date>\n                last, after a protracted &amp; painful<lb/> illness, his mind was brought to a\n                perfect resignation<lb/> of his makers will. I will feel obliged if you would<lb/>\n                insert the following in the Occident</p>\n            <p>Died at <placeName>St Thomas V I.</placeName> in the <date>23d of Tebet</date>\n                corresponding<lb/> with the <date>27 of December</date> last <persName>Mr J B\n                    Wolff</persName> eldest son of <persName role=\"author\">A<lb/> Wolff</persName>\n                of said <placeName>Island</placeName></p>\n            <table cols=\"2\" rows=\"5\">\n                <row>\n                    <cell>The Bible subscription is up to</cell>\n                    <cell>40—to be bound</cell>\n                </row>\n                <row>\n                    <cell>Occident &amp; Advocate</cell>\n                    <cell>4—</cell>\n                </row>\n                <row>\n                    <cell>Occident</cell>\n                    <cell>1—</cell>\n                </row>\n                <row>\n                    <cell>Advocate</cell>\n                    <cell>1—</cell>\n                </row>\n                <row>\n                    <cell>Prayer Books</cell>\n                    <cell>4 setts to be bound</cell>\n                </row>\n            </table>\n            <p>I expect an augmentation as soon as it is closed<lb/> I will send you a copy of the\n                names of the Subscribers<lb/> &amp; other information.</p>\n            <p rend=\"indent(1)\">Previous to the death of my Son he informed<lb/> me that he was\n                indebted to a <add>?</add>\n                <persName>Hill</persName> a Shoemaker</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4538,
+          "width": 3648,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5053da66-d5de-4665-8fbe-da438aff8b87%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3648,
+                "height": 4538,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5053da66-d5de-4665-8fbe-da438aff8b87%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/assets/5053da66-d5de-4665-8fbe-da438aff8b87/original",
+              "label": "Original File - 49.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>five dollars for a <del>?</del> pr of Boots; his shop is in<lb/>\n                <placeName>5<hi rend=\"sup\">th</hi> Street below Walnut</placeName>, he also owes a\n                Bill to a<lb/>\n                <persName>Dr Hollingswarth</persName> which I must ask you to get &amp; send<lb/>\n                me, &amp; inquire if he owed any thing to the Synagogue<lb/> informing me on those\n                points</p>\n            <p rend=\"indent(1)\">Enclosed the Bank of St Thomas Bill No 2896<lb/> in <persName>Bevan\n                    &amp; Humphreys</persName> for Thirty dollars. Twenty five<lb/> of which are for\n                the set of prayer Books so long due you,<lb/> &amp; five dollars for payment of\n                    <persName>Hill</persName> the Shoemaker's Bill<lb/> against my poor\n                    <persName>Jacob</persName>, the receipt for which please to<lb/> send me.</p>\n            <p rend=\"indent(1)\">My son <persName>Daniel</persName> in <placeName>San\n                    Francisco</placeName> wrote me on<lb/> the <date>30</date>\n                <add>?</add> last that himself with others of your friends<lb/> in that city would\n                send you by the following Steamer<lb/> an address on the subject of the treatment\n                received by you<lb/> from your late Congregation, he is very indignant at it,<lb/> I\n                say, you have acted with the high sense of honor<lb/> to yourself &amp; Our Ministry\n                in general &amp; reflects seriously<lb/> in the parties who have been the cause of your<lb/>\n                <add>?</add>, continue your trust in the God of <placeName>Israel</placeName><lb/>\n                he will shield &amp; protect you for the good <del>of</del> you have<lb/>\n                accomplished for the Sons of <persName>Jacob</persName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4538,
+          "width": 3648,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/46c1eda2-7aef-463e-b37f-eb8e7f38659e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3648,
+                "height": 4538,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/46c1eda2-7aef-463e-b37f-eb8e7f38659e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/assets/46c1eda2-7aef-463e-b37f-eb8e7f38659e/original",
+              "label": "Original File - 49.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">In the affliction which it has pleased our maker<lb/> to give to me\n                &amp; family I have three great consolations,<lb/> firstly that he was spared to die\n                in the midst of those he<lb/> loved &amp; loved him, so that every earthly care\n                &amp; attention was<lb/> extended <del>to him</del>, secondly his mind by frequent\n                religious<lb/> admonitions was brought to a perfect state of resignation<lb/> to his\n                makers will, this was a heavy &amp; heart breaking<lb/> task for me who had to do\n                the duties appertaining to<lb/> a minister of which we are deprived by the\n                opposition<lb/> of those adverse to doing their duty—thirdly the attendance<lb/> at\n                his funeral was greater than ever witnessed in<lb/> this place &amp; at the Abel of\n                Morning &amp; Evening we had<lb/> from 15 to 50 males of our people—the\n                followers<lb/> at the funeral were Jews &amp; Christians, Colored, as<lb/> well as\n                whites.</p>\n            <p rend=\"indent(1)\">Those of our immediate friends that you know<lb/> I will be thankful\n                that you communicate the mournful<lb/> intelligence</p>\n            <p rend=\"indent(3)\">Believe me my Dr <addressee>Mr Leeser</addressee></p>\n            <p rend=\"indent(4)\">Yours faithfully</p>\n            <p rend=\"indent(5)\">\n                <persName role=\"author\">A. Wolff</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 3648,
+          "width": 4538,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7db17421-40be-4bc2-98b0-52d9c3db4fce%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4538,
+                "height": 3648,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7db17421-40be-4bc2-98b0-52d9c3db4fce%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/assets/7db17421-40be-4bc2-98b0-52d9c3db4fce/original",
+              "label": "Original File - 49.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>please forward the “Challenge Accepted” by first</p>\n            <p>\n                <addressee>Revd Mr I Leeser</addressee>\n            </p>\n            <p rend=\"indent(3)\">\n                <placeName>Philada.</placeName>\n            </p>\n            <p>via <placeName>New York</placeName></p>\n            <div>\n                <p>\n                    <ref target=\"Occident_PDFs/Occ_7_12.pdf\">The above text refers to Occident\n                        Volume 7 No. 12 page 620. Click here to view.</ref>\n                </p>\n            </div>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w951770/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Phillips, Mark[?]; February 02, 1868",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3rv0ds35"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter to Isaac Leeser from Phillips, Mark[?]; February 02, 1868"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Phillips, Mark[?] (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1868-02-02"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["3 pages on 2 sheets."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["New York (N.Y.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF3_2", "ilcajs_b3f3_0001"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/272a266e-ac62-4d35-9f93-17f5c741c48a%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/272a266e-ac62-4d35-9f93-17f5c741c48a%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 4784,
+          "width": 3948,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/272a266e-ac62-4d35-9f93-17f5c741c48a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3948,
+                "height": 4784,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/272a266e-ac62-4d35-9f93-17f5c741c48a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/assets/272a266e-ac62-4d35-9f93-17f5c741c48a/original",
+              "label": "Original File - 56.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <add>ק\"ק שארית ישראל</add>\n            </p>\n            <p rend=\"align(right)\">Congregation Shearith Israel,</p>\n            <p rend=\"align(right)\"><placeName>New York</placeName>, <date>9th Shebat 5628</date></p>\n            <p rend=\"align(right)\">\n                <date>2d Feby 1868</date>\n            </p>\n            <p>At a meeting of the Board of Trustees held this day the following<lb/> resolutions\n                were unanimously adopted:</p>\n            <p><hi rend=\"underline\">Resolved</hi> — that the Trustees of the Congregation <add>שארית\n                    ישראל</add><lb/> learn with sincere regret of the death of the <persName>Reverend<lb/>\n                    <hi rend=\"underline\">Isaac Leeser</hi></persName> the much respected\n                    <add>חזן</add> of the Congn<lb/>\n                <add>בית אל אמת</add> of <placeName>Philadelphia</placeName> — distinguished alike\n                for<lb/> his many virtues, his fearless devotion to the House of<lb/>\n                <placeName>Israel</placeName> during a long period of usefulness, and with an<lb/>\n                ability which marked him as the earnest champion of<lb/> orthodox Judaism.</p>\n            <p><hi rend=\"underline\">Resolved</hi> — that we tender the Congregation <add>בית אל\n                    אמת</add> our warmest<lb/> sympathies for their severe bereavement, and offer\n                the<lb/> assurance of our respect and condolence on the melancholy<lb/> occasion.<lb/>\n                <hi rend=\"underline\">Resolved </hi>— that the <add>חזן</add> of this Congn, the\n                    <persName>Revd I. I. Lyons</persName>, be requested<lb/> to make an Escoba in\n                our Holy place of worship on<lb/> then ensuing <add>שבת</add> for the Reverend\n                deceased, and also on<lb/> the expiration of the <add>שלשים</add>.</p>\n            <p><hi rend=\"underline\">Resolved</hi> — that, as a further mark to respect for the\n                deceased, and<lb/> for the congregation he so faithfully and creditably served,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4784,
+          "width": 3948,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8d0d5ac-436b-48f0-98c4-e8c41c34e86b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3948,
+                "height": 4784,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8d0d5ac-436b-48f0-98c4-e8c41c34e86b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/assets/b8d0d5ac-436b-48f0-98c4-e8c41c34e86b/original",
+              "label": "Original File - 56.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>a committee from this Board with the <add>חזן</add> of the<lb/> Congregation be\n                requested to attend the <add>לויה</add> at <placeName>Philada</placeName><lb/> and\n                to present to the President of the Congregation <add>בית אל אמת</add><lb/> a copy of\n                these Resolutions”</p>\n            <p rend=\"indent(1)\">\n                <hi rend=\"underline\">Extract from the minutes</hi>\n            </p>\n            <p rend=\"indent(2)\">\n                <persName role=\"author\">Mark<add>?</add> Phillips</persName>\n            </p>\n            <p rend=\"indent(4)\">Clerk</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 3948,
+          "width": 4784,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1e87a344-2fc5-4103-bc54-c242c2ffe8c0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4784,
+                "height": 3948,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1e87a344-2fc5-4103-bc54-c242c2ffe8c0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/assets/1e87a344-2fc5-4103-bc54-c242c2ffe8c0/original",
+              "label": "Original File - 56.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Resolutions</p>\n            <p>Cong Shearith Israel</p>\n            <p rend=\"indent(1)\">\n                <placeName>NY</placeName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3rv0ds35/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

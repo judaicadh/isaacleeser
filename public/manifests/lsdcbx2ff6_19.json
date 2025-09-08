@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Mayer, M.; Leeser, Isaac, Rev.; Charleston, SC; 20 July 1859",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p39s1m556"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Mayer, M.; Leeser, Isaac, Rev.; Charleston, SC; 20 July 1859"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1859-07-20"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF6_19"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/617a2724-0886-4da7-8d5e-83a690305889%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/617a2724-0886-4da7-8d5e-83a690305889%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3180,
+          "width": 2206,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/617a2724-0886-4da7-8d5e-83a690305889%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2206,
+                "height": 3180,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/617a2724-0886-4da7-8d5e-83a690305889%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/assets/617a2724-0886-4da7-8d5e-83a690305889/original",
+              "label": "Original File - 21 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Charleston</placeName>\n                <date>July 20.'59</date>.</p>\n            <p>\n                <addressee>Rev. Mr. I. Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir</p>\n            <p rend=\"indent(2)\">From the <sic>Inclosed</sic><lb/> you will perceive that I am\n                still<lb/> provided with pens, paper &amp; ink.<lb/> Publish the article <hi\n                    rend=\"underline\">unabridged</hi>,<lb/> or not at all. I can assure you<lb/> that\n                the heat is so excessive that it<lb/> almost unfits me for even the<lb/> slightest\n                mental labor. I never<lb/> suffered so much from Southern<lb/> heat as this\n                summer.</p>\n            <p rend=\"indent(1)\">Please <hi rend=\"underline\">read</hi> the <sic>Inclosed</sic>\n                letter<lb/> &amp; then hand it to <persName>Mr. M.</persName> I can<lb/> tell you he\n                has no superior-<lb/> if his equal—in Talmudical</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3180,
+          "width": 2206,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7ab74d10-f10a-472d-bd90-0b7d76cebf5d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2206,
+                "height": 3180,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7ab74d10-f10a-472d-bd90-0b7d76cebf5d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/assets/7ab74d10-f10a-472d-bd90-0b7d76cebf5d/original",
+              "label": "Original File - 21 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Scholarship in this country.<lb/> He has two great faults, of which<lb/> I often\n                reproached him: he<lb/> never writes anything,—and<lb/> leads too retired a life.\n                I<lb/> hope <placeName>America</placeName> will <hi rend=\"underline\"\n                >reform</hi><lb/> him in these two things, if<lb/> in nothing else.</p>\n            <p rend=\"indent(1)\">More anon—<add>?</add></p>\n            <p rend=\"indent(3 )\">Yours</p>\n            <p rend=\"indent(3)\">\n                <persName role=\"author\">M Mayer</persName>\n            </p>\n            <div>\n                <p>\n                    <ref target=\"Occident_PDFs/Occ_17_19.pdf\">The above text refers to Occident\n                        Volume 17 No. 19 pages 109 through 111. Click here to view.</ref>\n                </p>\n            </div>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39s1m556/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Wright, Alfred; Leeser, Isaac, Rev.; Choctaw, OK; 3 February 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3222rs2f"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Wright, Alfred; Leeser, Isaac, Rev.; Choctaw, OK; 3 February 1857"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-02-03"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Oklahoma -- Choctaw",
+        "United States -- Oklahoma",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF4_10"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b47bb610-120a-488e-95ac-86384231f6fc%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b47bb610-120a-488e-95ac-86384231f6fc%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4594,
+          "width": 3792,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b47bb610-120a-488e-95ac-86384231f6fc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3792,
+                "height": 4594,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b47bb610-120a-488e-95ac-86384231f6fc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/assets/b47bb610-120a-488e-95ac-86384231f6fc/original",
+              "label": "Original File - 52.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Wheelock Choc. Na.</placeName>\n                <date>Feb 3d 1857</date>\n            </p>\n            <p><addressee>Rev Isaac Leeser</addressee>,</p>\n            <p rend=\"indent(2)\">Dear Sir,</p>\n            <p rend=\"indent(3)\">I have made<lb/> arrangements with <persName>A Merwin\n                    Esqr.</persName> Agent<lb/> of the Am Board of Com. for Foreign\n                    Mysuns<add>?</add> a<lb/> letter for the Occident for the current year<lb/>\n                ending in <date>March</date>. At that time you will<lb/> please discontinue sending\n                me the work. I<lb/> make this request with <sic>reluctence</sic> as I have<lb/> read\n                your publication with interest from its<lb/> commencement but some pecuniary\n                pres<lb/>sures seem to render this step necessary. Should<lb/> you continue the work\n                &amp; my <sic>circumstences</sic><lb/> be more favorable hereafter I may again<lb/>\n                become a subscriber.</p>\n            <p rend=\"indent(1)\">I am engaged in translating the Heb<lb/> new scriptures into the\n                Choctaw language I<lb/> read the original Hebrew the venerable language<lb/> of your\n                forefathers which tends to increase the in<lb/>terest I have <add>?</add> felt in\n                the welfare of your<lb/> people. I see from the Occident that you are<lb/> engaged\n                in the translation of the Holy Scriptures<lb/> should the work be published, I\n                should hope<lb/> if my pecuniary circumstances would admit<lb/> of it to obtain a\n                copy.</p>\n            <p rend=\"indent(5)\">Affectionately</p>\n            <p rend=\"indent(7)\">\n                <persName role=\"author\">Alfred Wright</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4594,
+          "width": 3792,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/579bee3b-5efd-4c49-9019-ae07d2e0043a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3792,
+                "height": 4594,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/579bee3b-5efd-4c49-9019-ae07d2e0043a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/assets/579bee3b-5efd-4c49-9019-ae07d2e0043a/original",
+              "label": "Original File - 52.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><add>?</add> I requested <persName>Mr Merwin</persName> to pay for the<lb/> Occident\n                at the office of the Asmonean No <add>?</add><lb/>\n                <placeName>Nassau St N York</placeName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3222rs2f/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

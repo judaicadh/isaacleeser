@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Cardilo, Isaac N.; Leeser, Isaac, Rev.; Charleston, SC; 18 August 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3445hz65"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Cardilo, Isaac N.; Leeser, Isaac, Rev.; Charleston, SC; 18 August 1851"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-08-18"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF8_3"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/dc6b458e-6203-4b93-9824-ecdac8bd4fcc%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/dc6b458e-6203-4b93-9824-ecdac8bd4fcc%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4258,
+          "width": 3504,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/dc6b458e-6203-4b93-9824-ecdac8bd4fcc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3504,
+                "height": 4258,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/dc6b458e-6203-4b93-9824-ecdac8bd4fcc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/assets/dc6b458e-6203-4b93-9824-ecdac8bd4fcc/original",
+              "label": "Original File - 45 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Charleston</placeName>\n                                        <date>Aug. 18. 1851</date>\n                              </p>\n                              <p>Rev<lb/>\n                                        <addressee>Isaac Leeser</addressee></p>\n                              <p rend=\"indent(2)\">Dr. Sir</p>\n                              <p rend=\"indent(3)\">I received your letter and<lb/> the proof sheets\n                                        of my Manuscript this<lb/> morning, and hasten to transmit\n                                        it back<lb/> to you with a few slight corrections.\n                                                  All<add>?</add><lb/> with my thanks for your\n                                        promptness<lb/> and impartiality which you have evinced\n                                        in<lb/> the matter.</p>\n                              <p rend=\"indent(1)\">Your letter explanatory of the insertion<lb/> of\n                                                  <persName>Mr. Newman's</persName> article is quite\n                                        satisfactory.<lb/> Indeed your whole letter is so; and\n                                        reads<lb/> like the emanation of a good and just man.</p>\n                              <p rend=\"indent(1)\">You are mistaken as to the impression<lb/> imbibed\n                                        here in consequence of your remarks<lb/> on the controversy\n                                        about <persName>Mr Poznanski</persName> &amp; the\n                                                  <persName>Rev<lb/> Dr Eckman</persName>. If your\n                                        argument is bad<lb/> in that matter, it is because your\n                                        premises<lb/> were rotten. And we found fault with<lb/> your\n                                        drawing conclusions not warranted<lb/> by facts. But still\n                                        the discussion was fair<lb/> and honorable; gentlemanly and\n                                        just. If<lb/> you do not convince your opponents you\n                                        never<lb/> offend them. A spirit of truth and tolerance</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4258,
+          "width": 3504,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/66ccc674-f57c-4b61-8447-f98a8e100ab1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3504,
+                "height": 4258,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/66ccc674-f57c-4b61-8447-f98a8e100ab1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/assets/66ccc674-f57c-4b61-8447-f98a8e100ab1/original",
+              "label": "Original File - 45 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>seems to be your guiding star<add>?</add> in all of<lb/> your\n                                        productions. It becomes your character<lb/> and will keep\n                                        you elevated as long as it<lb/> is exercised.</p>\n                              <p rend=\"indent(1)\">With many wishes for your<lb/> welfare</p>\n                              <p rend=\"indent(5)\">I remain your obt. st.</p>\n                              <p rend=\"indent(6)\">\n                                        <persName role=\"author\">Isaac N. Cardilo</persName>\n                              </p>\n                              <p>N. B. I perceive that you have<lb/> introduced the word (wrangle)\n                                        in <persName>Mr.<lb/> Eckman's</persName> letter under the\n                                        idea. I<lb/> suppose, that it was an omission of<lb/>\n                                        mine—but the original contained as-<lb/>-terisks as I sent\n                                        it to you—altho'<lb/> the context would <add>?</add> the\n                                        introduction of<lb/> the world “<hi rend=\"underline\"\n                                                  >wrangle</hi>.”</p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3445hz65/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

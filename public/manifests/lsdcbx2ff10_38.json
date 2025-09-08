@@ -1,0 +1,297 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; D'Solla, J. M.; Leeser, Isaac, Rev.; Philadelphia, PA; 17 September 1863",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p34t6fp61"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; D'Solla, J. M.; Leeser, Isaac, Rev.; Philadelphia, PA; 17 September 1863"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1863-09-17"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF10_38"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5efa0d5-8c44-4f6b-b1a3-1a541f189a98%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5efa0d5-8c44-4f6b-b1a3-1a541f189a98%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4592,
+          "width": 3702,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5efa0d5-8c44-4f6b-b1a3-1a541f189a98%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3702,
+                "height": 4592,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e5efa0d5-8c44-4f6b-b1a3-1a541f189a98%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/assets/e5efa0d5-8c44-4f6b-b1a3-1a541f189a98/original",
+              "label": "Original File - 51 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Philadelphia</placeName>\n                <date>17 September 1863</date>\n            </p>\n            <p>\n                <addressee>Rev I. Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">Rev Dear Sir</p>\n            <p rend=\"indent(1)\">The appearance of your second article on “Interments in<lb/> public\n                cemeteries” interspersed with a few lines quoted from<lb/> my last communication to\n                you has really surprised me.<lb/> What I expected, and I think reasonably expected,\n                was<lb/> that you should either publish my letter as it was,<lb/> or reject it\n                entirely. But to pick out a few sentences<lb/> and place them before the public\n                overwhelmed by your<lb/> own comments is most unreasonable and unfair.</p>\n            <p rend=\"indent(1)\">You complain of my article not having been written<lb/> “in a spirit\n                of respectful deference to our ecclesiastic-<lb/>al authorities.” This I cannot\n                admit as I have said<lb/> nothing disrespectful of the personal character of\n                either<lb/> of the Rabbis. I treated the subject and discussed the argu-<lb/>ments\n                exclusively. But if we are not permitted to deal<lb/> with the opinions and\n                decisions of higher officials, examine<lb/> them, and test their validity as whether\n                they rest upon the<lb/> valid foundation of our canons, but are to submit\n                blindly<lb/> to the judgment of others who happen to be placed in higher<lb/>\n                positions than ourselves, then the study and knowledge of<lb/> our laws becomes a\n                useless thing for Israelites in ordinary<lb/> positions of life, and then indeed\n                freedom of speech or<lb/> religious questions would cease altogether even\n                within<lb/> our own circle, and our religion degenerate into a<lb/> kind of popish\n                subjection.</p>\n            <p rend=\"indent(1)\">As Editor and proprietor of the “Occident” you<lb/> have the\n                undoubted right to insert or reject any</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4592,
+          "width": 3702,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/57ea50a7-1f3c-46ef-83f5-91adaf97c637%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3702,
+                "height": 4592,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/57ea50a7-1f3c-46ef-83f5-91adaf97c637%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/assets/57ea50a7-1f3c-46ef-83f5-91adaf97c637/original",
+              "label": "Original File - 51 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>article sent in for publication; but I cannot concede<lb/> that you have a right to\n                select portions of my communi-<lb/>cation; bring my name before the public with an\n                ac-<lb/>cusation of disrespect towards functionaries who<lb/> have a claim to our\n                esteem without giving me a<lb/> fair opportunity of being judged by the public.<lb/>\n                Even the very sentences quoted from my article are some-<lb/>what altered in a\n                manner that neither the subject-<lb/>matter represented in them nor their\n                grammatical<lb/> construction reflect credit on me. You say<lb/> “you would not have\n                noticed my piece at all,<lb/> although the subject is of general interest, were\n                it<lb/> not that I might otherwise have resorted to the pub-<lb/>lications called\n                    <sic>jewish</sic>, and pretended to say that I<lb/> could not obtain a hearing\n                in this city.” But can<lb/> you truly say that I obtained a hearing in this<lb/>\n                city by the publication of your long article<lb/> with a few fragments of my piece\n                in it? If you<lb/> will point out wherein I have shown disrespect<lb/> to the\n                Rabbi's personally I may alter or remove<lb/> those phrases but justice demands that\n                you should<lb/> publish my article in its entire, especially now<lb/> as you have\n                held me before the public in an un-<lb/>favorable light. Should you decline\n                however<lb/> to do so rest assured that it will appear in some<lb/> form or other\n                and perhaps is a more pungent form<lb/> than that in which I have written and if\n                    <add>חלול השם</add><lb/>\n                <hi rend=\"underline\">must</hi> be the consequence the sin will not be at<lb/> my\n                door but at the door of my opponents who</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4592,
+          "width": 3702,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce387528-aa1a-4442-858a-6e2e06c5e79b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3702,
+                "height": 4592,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce387528-aa1a-4442-858a-6e2e06c5e79b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/assets/ce387528-aa1a-4442-858a-6e2e06c5e79b/original",
+              "label": "Original File - 51 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>it seems will not cease their attacks and vitupera<lb/>tions upon me, but will always\n                find the mote<add>?</add> in my<lb/> eye while the beam is yet in theirs. With\n                nearly<lb/> every one of those pious orthodox men who censure<lb/> my acts I could\n                find fault for transgressing<lb/> some <add>דין or דינים</add> laid down in the\n                    <add>ש\"ע</add> the code they<lb/> profess to follow and from which they\n                dictate<lb/> to others. I could point out many a transgression<lb/> of <add>דין\n                    תורה</add> as well as <add>תקון חכמים</add> which our ministers are<lb/> guilty\n                of themselves of which they sanction<add>?</add> in others<lb/> yet I forbear\n                    <add>משום דבר אלהים הסתר דבר</add>.</p>\n            <p rend=\"indent(1)\">The publication of my remarks on <persName>Doctors<lb/>\n                    Adler</persName> and <persName>Pipernos</persName> letters would be an act<lb/>\n                of mere justice due to me and to the cause of<lb/> truth, and if this is denied me\n                in the organ<lb/> which opened its pages to denounce my act<lb/> I must seek justice\n                at the hands of those who<lb/> are less prejudiced and more independent and<lb/>\n                liberal.</p>\n            <p rend=\"indent(4)\">I am</p>\n            <p rend=\"indent(5)\">Rev. Dear Sir</p>\n            <p rend=\"indent(6)\">Your's respectfully</p>\n            <p rend=\"indent(7)\">\n                <persName role=\"author\">J M d'Solla</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4592,
+          "width": 3702,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1933914c-097f-4940-b728-39056ef7a6b1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3702,
+                "height": 4592,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1933914c-097f-4940-b728-39056ef7a6b1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34t6fp61/assets/1933914c-097f-4940-b728-39056ef7a6b1/original",
+              "label": "Original File - 51 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

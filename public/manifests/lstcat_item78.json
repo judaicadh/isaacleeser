@@ -1,0 +1,411 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Stablin, J. P.; Leeser, Isaac; Alexandria, VA; 11 September 1829",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3gt5g206"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Stablin, J. P.; Leeser, Isaac; Alexandria, VA; 11 September 1829"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1829-09-11"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virginia -- Alexandria",
+        "United States -- Virginia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item78"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/abe5def9-241e-4a63-bdec-cadb088e06b5%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/abe5def9-241e-4a63-bdec-cadb088e06b5%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6406,
+          "width": 5102,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/abe5def9-241e-4a63-bdec-cadb088e06b5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5102,
+                "height": 6406,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/abe5def9-241e-4a63-bdec-cadb088e06b5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/assets/abe5def9-241e-4a63-bdec-cadb088e06b5/original",
+              "label": "Original File - 98.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"><placeName>Alexa</placeName> 9 mo. <date>(Septr) 11<hi\n                        rend=\"sup\">th</hi> 1829</date>.</p>\n            <p>Respected Friend</p>\n            <p>\n                <addressee>Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">I hope my long silence after the<lb/> reception of their <del>of\n                            <date>10<hi rend=\"sup\">th</hi></date></del> written on board of the S.\n                Boat<lb/> Long Branch has not induced thee to believe I intend<lb/> to treat thy\n                friendship with coldness. No! I cannot<lb/> but love an <sic>afectionate</sic> heart\n                let me meet with<lb/> it where I may. As an apology, let me state that the business\n                in which I am interested with<lb/> my father required so much of my attention<lb/>\n                that I had not time to bestow many thoughts upon<lb/> correspondence with my\n                friends. I am sorry it<lb/> was not convenient for them to call in\n                    <placeName>Alex<lb/>andria</placeName>. <sic>Shouldst</sic> thou come this way\n                again<lb/> when either myself or my father (for I allowed<lb/> him the gratification\n                of reading thy letters to my rela<lb/>tion <persName>Thos S. Pleasants</persName>)\n                is alive. I hope thou wilt<lb/> call and spend a day or two with us. As<lb/> well as\n                I recollect now I knew nothing of thy<lb/> expectation of visiting\n                    <placeName>Philadelphia</placeName> until my<lb/> cousin <persName>Theos S\n                    Pleasants</persName> informed me he had<lb/> requested thou to call upon me on\n                thy way thither. Such with<add>?</add><lb/> intimacy and perfect confidence which\n                subsist<lb/> between us that we do not hesitate to take this<lb/> liberty in regards\n                to each other, and it gives me<lb/> as much pleasure to entertain a friend who<lb/>\n                comes thus recommended by him, as one whom<lb/> I have invited myself. I was lately\n                in <placeName>Phila<lb/>delphia</placeName> and head I known where to call upon</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6450,
+          "width": 5160,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/56e2db06-aef5-4f86-b41c-fb5520bff555%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5160,
+                "height": 6450,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/56e2db06-aef5-4f86-b41c-fb5520bff555%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/assets/56e2db06-aef5-4f86-b41c-fb5520bff555/original",
+              "label": "Original File - 100 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>this would have stolen an hour or two from my<lb/> engagements for the purpose of\n                seeing thee. Please<lb/> to inform me when thy residence is so that if<lb/> business\n                or inclination should draw me to <placeName>Phila</placeName><lb/> again while thou\n                art a resident of it I may<lb/> know where to find them. Thou sayest I<lb/> know to\n                a certain extent what are thy senti<lb/>ments. In so far as they have been\n                manifes<lb/>ted by thy correspondence with my friend <persName>T. S.\n                P.</persName><lb/> and myself I am pleased with them. It is not<lb/> necessary for\n                me to inform them that I do not feel<lb/> bound as thou dost to observe rigorously\n                the<lb/> Law as delivered through <persName>Moses</persName> to the children<lb/> of\n                    <placeName>Israel</placeName>, yet this being thy situation would not say any\n                thing against<lb/> a strict obedience to it by all also feel this<lb/> obedience to\n                be their duty. I hope there is, I<lb/> know there ought to be, enough good feeling\n                in<lb/> my heart to prevent me from regarding as un<lb/>fit for social and all other\n                valuable inter<lb/>courses any person who honestly differs from<lb/> me in\n                persuasion. Our God will not I believe<lb/> require <del>from us</del> at our hands,\n                more than he has clearly<lb/> made known to us we ought to perform; there<lb/>fore\n                it is clear to my view that every man<lb/> must be allowed to judge for himself;\n                not<lb/> barely <hi rend=\"underline\">suffered</hi> to enjoy this liberty without<lb/>\n                <hi rend=\"underline\">actual interference</hi> in his concerns, but with<lb/>\n                willingness on the part of every body else per<lb/>mitted to select the labour that\n                best pleases him<lb/><del>self</del>. I utter not these sentiments because</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6506,
+          "width": 5128,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b113ae2a-fb67-4b20-b66a-835be18d0e57%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5128,
+                "height": 6506,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b113ae2a-fb67-4b20-b66a-835be18d0e57%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/assets/b113ae2a-fb67-4b20-b66a-835be18d0e57/original",
+              "label": "Original File - 100 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>I think they are different from thine. I think<lb/> it is no more than a fair\n                inference from<lb/> thy letters that thy views are similar.</p>\n            <p rend=\"indent(1)\">The information which I requested my friend<lb/>\n                <persName>T. S. P.</persName> to obtain from thee in relation to the<lb/> customs of\n                the early Christians would not have<lb/> been in time to subserve the end I then\n                had<lb/> in view if thou couldst have furnished it, for<lb/> the short essay I was\n                writing had to make its ap<lb/>pearance on the <date>2d day of the 3d mo\n                    (March)</date>. There<lb/> was one item in they communication which would<lb/>\n                have been to the point if it had been supported<lb/> by <del>quotations</del> the\n                authority of any <sic>jewish</sic> or other scribe<add>?</add> of<lb/> early times\n                viz that the pious <sic>jews</sic> have al<lb/>ways been in the habit of collecting\n                together<lb/> every morning &amp; evening for the purpose of wor<lb/>ship. It would\n                have been evidence of some weight<lb/> to prove that the assembling of the Disciples of<lb/>\n                <persName>Jesus</persName> on the first day of the week was not in con<lb/>sequence\n                of its institution by him as a day of rest.<lb/> If in the course of thy reading\n                thou shouldst<lb/> print with any thing which will <sic>shew</sic> in what<lb/>\n                light the early Christians viewed this day. I will<lb/> thank thee if thou wilt make\n                a note of it so<lb/> as to furnish me with an extract at some<lb/> future time if it\n                shall be necessary. I send<lb/> a no. of the newspaper contg my essay (for the<lb/>\n                matter of which I am principally indebted to other<lb/> witnesses) without any\n                expectation that it will ap<lb/>pear to be more than a very moderate perform=</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6456,
+          "width": 5180,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e030c0cb-962b-47ed-b12d-75072ce7c4c3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5180,
+                "height": 6456,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e030c0cb-962b-47ed-b12d-75072ce7c4c3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/assets/e030c0cb-962b-47ed-b12d-75072ce7c4c3/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>=ance. The side which I espoused and which I<lb/> believe is the liberal one\n                triumphed in the e<lb/>lection of council-men by a majority of three<lb/> to one.\n                Being so fairly beaten after unwear<lb/>ied efforts to obtain their object for seven\n                or</p>\n            <p rend=\"Text separated by lines written sideways in the middle of the page.\"/>\n            <p>eight years I do not think the other party will<lb/> have the hear to lift its hand\n                again for a long<lb/> time. With desires that it may be thy lot<lb/> to receive\n                pleasant things at the hands of<lb/> the great Donor I subscribe myself thy<lb/>\n                afft friend</p>\n            <p>\n                <persName role=\"author\">J P Stablin</persName>\n            </p>\n            <p rend=\"The following is written sideways in the center of the page.\"/>\n            <p>\n                <addressee>Isaac Leeser</addressee>\n            </p>\n            <p>care of <persName>David Judah</persName></p>\n            <p rend=\"indent(1)\">\n                <placeName>Baltimore</placeName>\n            </p>\n            <p rend=\"The following is written sideways in the center of the page.\"><persName>David\n                    Judah</persName> will confer a favour on the<lb/> writer of this by forwarding\n                it with the ac<lb/>companying Newspaper to <persName>Isaac Leeser</persName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 6736,
+          "width": 5290,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0cf73602-6c85-40ce-9354-0b85fa659312%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5290,
+                "height": 6736,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0cf73602-6c85-40ce-9354-0b85fa659312%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/assets/0cf73602-6c85-40ce-9354-0b85fa659312/original",
+              "label": "Original File - 107 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">Abr <add><placeName>Alex'r</placeName></add> 9 mo. <date>(Sept.)\n                        11<hi rend=\"sup\">th</hi> 1829</date></p>\n            <p>Respected Friend</p>\n            <p>\n                <addressee>Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">I hope my long silence after the reception of <sic>thein</sic>\n                written on<lb/> board of the S. Boat Long Branch has not induced thee to believe I\n                intend<lb/> to great thy friendship with coldness—<sic>sol</sic> I cannot but love\n                an affect-<lb/>ionate heart let me meet with it when I may—As an apology let me\n                state<lb/> that business in which I am interested with my father required so\n                much<lb/> of my attention that I had not time to bestow many thoughts upon\n                corre-<lb/>spondence with my friends—I am sorry it was not convenient for thee\n                to<lb/> call in <placeName>Alexandria</placeName>—Shouldst thou come this way again\n                when either myself<lb/> or my father (for I allowed him the gratification of reading\n                thy letters<lb/> to my relation <persName>Thos. S. Pleasants</persName>) is alive, I\n                hope thou wilt call and spend<lb/> a day or two with us—As well as I recollect now I\n                knew nothing of thy<lb/> expectation of visiting <placeName>Philadelphia</placeName>\n                until my cousin <persName>Thos. S. Pleasants</persName> in-<lb/>formed me he had\n                requested thou to call upon me on thy way thither—Such<lb/> is the intimacy and\n                perfect confidence which subsist between us that we do<lb/> not hesitate to take\n                this liberty in regard to each other, and it gives me<lb/> as much pleasure to\n                entertain a friend who comes thus <sic>recommanded</sic> by him,<lb/> as one whom I\n                have invited myself. I was lately in <placeName>Philadelphia</placeName> and\n                had<lb/> I know where to call upon thou would have stolen an hour or two from\n                my<lb/> engagements <sic>fro</sic> the purpose of seeing thou. Please to inform me\n                where thy<lb/> residence is so that if business or inclination should drive me to\n                    <placeName>Phila.</placeName><lb/> again while thou art a resident of it I may\n                know where to find thee.<lb/> Thou sayest I know to a certain extent what are thy\n                sentiments—In so<lb/> far as they have been manifested by thy correspondence with my friend<lb/>\n                <persName>T. S. P.</persName> and myself I am pleased with them. It is not necessary\n                for me to<lb/> inform thee that I do not feel bound as thou dost to observe\n                rigorously the<lb/> Law as delivered through <persName>Moses</persName> to the\n                children of <placeName>Israel</placeName>, yet this being<lb/> my situation I would\n                not say anything against a strict obedience to it by<lb/> all who feel this\n                obedience to be their duty.—I hope there is, I know<lb/> there ought to be, enough\n                good-feeling in my heart to prevent me from re-<lb/>garding as unfit for social and\n                all other valuable inter-course any person<lb/> who honestly differs from me in\n                persuasion.—Our God will not I believe<lb/> require at our hands, more than he has\n                clearly made known to us we ought<lb/> to perform; therefore it is clear to my view\n                that every man must be allowed<lb/> to judge for himself; not barely <hi\n                    rend=\"underline\">suffered</hi> to enjoy this liberty without<lb/>\n                <hi rend=\"underline\">actual interference</hi> in his concern, but with willingness\n                on the part of<lb/> every body else permitted to select the labour that best pleases\n                him—<lb/> I utter not these sentiments because I think they are different from\n                thine—<lb/> I think it is no more than a fair inference from thy letters that thy\n                veins<lb/> are similar—</p>\n            <p rend=\"indent(1)\">The information which I requested my friend <persName>T. S.\n                    P.</persName> to obtain from<lb/> thee in relation to the customs of the early\n                Christians would not have been<lb/> in time to subserve the end I then had in view\n                if thou couldst have furnished<lb/> it, for the short essay I was writing had to\n                make its appearance on the <date>2 <sic>of</sic><lb/> the 3 mo (March)</date>—There\n                was one item in they communication which would have<lb/> been to the point if it had\n                been supported by the authority of any <sic>jewish</sic> or<lb/> other writer of\n                early times vis that the pious <sic>jews</sic> have always been in the<lb/>\n                <sic>hab it</sic> of collecting together every morning and evening for the purpose\n                of</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 6688,
+          "width": 5240,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/eeab658d-37b0-4816-92dd-85e695711fdb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5240,
+                "height": 6688,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/eeab658d-37b0-4816-92dd-85e695711fdb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/assets/eeab658d-37b0-4816-92dd-85e695711fdb/original",
+              "label": "Original File - 105 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">2</p>\n            <p>worship—It would have been evidence of some weight <sic>toknow</sic> that the<lb/>\n                assembling of Disciples of Jews on the first day of the week was not<lb/> in\n                consequence of its institution by him as a day of rest. If in the<lb/> course of\n                they reading thou <sic>shouldstmeet</sic> with anything which will show<lb/> in what\n                light the early <sic>christians</sic> received this day I will thank thee<lb/> if\n                thou wilt make a note of it so as to furnish me with an extract at some<lb/> future\n                time if it shall be necessary—I send a no. of the newspaper<lb/> cont my essay (for\n                the matter of which I am principally indebted to<lb/> other writings) without any\n                expectation that it will appear to be more<lb/> than a very moderate performance.\n                The side which I espoused and which I<lb/> believe is the liberal one triumphed in\n                the election of council—men by<lb/> a majority of thru to me—Being so fairly beaten\n                after unwearied efforts<lb/> to obtain their object for seven or eight years I do\n                not think the other<lb/> party will have the hear to lift its head again for a long\n                time—With<lb/> desires that it may be thy lot to receive pleasant things at the\n                hands of<lb/> the great Donor I subscribe myself thy</p>\n            <p rend=\"indent(10)\">Afft friend</p>\n            <p rend=\"indent(10)\">(signed) <persName role=\"author\">J. P. STABLIN</persName></p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gt5g206/canvas/p6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

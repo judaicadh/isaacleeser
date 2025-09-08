@@ -1,0 +1,307 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leeser, Isaac; Zalma Rehine; Philadelphia, PA; 19 October 1842",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3s46hs3r"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Leeser, Isaac; Zalma Rehine; Philadelphia, PA; 19 October 1842"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1842-10-19", "15 Heshvan 5603"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item154"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/27076604-f60e-4fa7-aebe-70755ba5e04c%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/27076604-f60e-4fa7-aebe-70755ba5e04c%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6186,
+          "width": 4878,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/27076604-f60e-4fa7-aebe-70755ba5e04c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4878,
+                "height": 6186,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/27076604-f60e-4fa7-aebe-70755ba5e04c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/assets/27076604-f60e-4fa7-aebe-70755ba5e04c/original",
+              "label": "Original File - 90.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Philadelphia</placeName>\n                <date>October 19<hi rend=\"sup\">th</hi> Heshvan 15<hi rend=\"sup\">th</hi>.\n                5603</date>.</p>\n            <p>Dear Uncle.</p>\n            <p rend=\"indent(1)\">I should judge from your letter that when you wrote you had not<lb/>\n                received the <add>?</add> liner I had sent you by <persName>Mrs. Lyons</persName>,\n                who nevertheless<lb/> had promised to call on you on her journey to her new home.\n                But<lb/> I have little doubt that she fulfilled her promise by calling before\n                she<lb/> left, and that she likewise told <persName>aunt R</persName> all the\n                particulars about<lb/> the wedding. I am well aware that ladies like to hear\n                such<lb/> matters; but I am but little acquainted with them to give full<lb/>\n                particulars. The wedding however was a tolerably merry one,<lb/> and plenty to eat\n                and to drink was set before all the com-<lb/>pany. As usual some affronts were\n                given; since some persons<lb/> thought themselves entitled to an invitation which\n                was not extended<lb/> to them. Among the rest a cousin of the bride, who expected to\n                be <hi rend=\"underline\">unter</hi>-<lb/><hi rend=\"underline\">ferer</hi>, and not\n                being asked she and <sic>and</sic> husband did not come<lb/> at all. However this\n                you know is not uncommon; I myself staid till<lb/> near one o'clock; as they did not\n                sit down to supper till a quarter before<lb/> twelve, and I was expected to stay to\n                say prayers. It was rather<lb/> a later hour for me than I liked to remain out of\n                bed; but as there was<lb/> no help for it I had to submit.</p>\n            <p rend=\"indent(1)\">Old <persName>Mr Wolff</persName> has been at our house for some\n                weeks.<lb/> He had a cataract on one eye, and could not see well out of<lb/> the\n                other. He had accordingly an operation before<add>?</add> to remove<lb/> the\n                cataract from the one eye, already <date>Sunday</date> two weeks ago;<lb/> and as\n                yet he has not been down stairs. As my room is I think<lb/> the most convenient in\n                the house I gave it up to him; though I<lb/> do not hold him in very high\n                estimation, since he is for a European<lb/> as little of a Jew as ever I saw in my\n                life. However he too has<lb/> not escaped without his share of trouble. I hope that\n                in a week or two<lb/> he may be able to travel southwards as he lives in\n                    <placeName>Mobile, Alabama</placeName>; a person sick in a house makes a great\n                difference in all arrange<lb/>ments.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6186,
+          "width": 4934,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/63f3163e-35b7-464f-a20c-d68b2fe01494%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4934,
+                "height": 6186,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/63f3163e-35b7-464f-a20c-d68b2fe01494%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/assets/63f3163e-35b7-464f-a20c-d68b2fe01494/original",
+              "label": "Original File - 91.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>As I am writing a message is brought that <persName>Rachel Pyke</persName>\n                    (<persName>Peixotto</persName>) was<lb/> last night confined; but the child is\n                dead. I do not admire that couple<lb/> much. I have recommended him to several\n                persons to give him goods<lb/> on commission; but he invariably has failed of paying\n                over what he<lb/> sold, and so he will get but little more from Jews. He has cost\n                me<lb/> besides somewhat like twenty Dollars in money, and more indirectly,<lb/> and\n                from me therefore he has nothing to expect. Upon the whole there<lb/> is little\n                satisfaction in doing anything for the poor of this community. They<lb/> generally\n                eat up what they get; and but small thanks do even fall to<lb/> my share at least; I\n                know not how it may be with other people. It<lb/> would not matter much if I were\n                rich; but having to work for every cent<lb/> I get, it is rather hard that so many\n                make constant claim to the<lb/> little I have, and do it in such a manner that a\n                refusal is out of my<lb/> power. I have determined at times not to be liberal; but I\n                see no way<lb/> whatever to avoid giving more than I should do for my means.\n                Still<lb/> as I am a single man and having no one whom I need work for, it\n                makes<lb/> but small odds at last, as I hope with God's Helping to be always able to\n                earn<lb/> my living; and if I have this respectably I have no right to ask for\n                more.</p>\n            <p rend=\"indent(1)\">My intention was to go to <placeName>New York</placeName> last\n                    <date>Sunday</date>. But <persName>Mr. S. Pesoa</persName><lb/> was on\n                    <date>Thursday</date> &amp; <date>Friday</date> so ill, that the Doctor had no\n                hopes of his<lb/> living to the utmost more than 72 hours. But last evening I\n                went<lb/> to see him, and he appeared to me not to be quite so sick as that he<lb/>\n                might not recover. <persName>Doctor Jackson</persName> happened to come in as I\n                was<lb/> going away, and I waited till he was going again, when he asked<lb/> to\n                ride down in his carriage, and took me to <placeName>8<hi rend=\"sup\">th</hi> &amp;\n                    Chestnut Streets</placeName><lb/> (believe in <placeName>8<hi rend=\"sup\">th</hi>\n                    below Walnut</placeName>); he then told me that there is but small<lb/>\n                probability of his recovery, yet there is no symptom which would make<lb/> his\n                disease necessarily fatal. So I trust, that the poor young man<lb/> may get up\n                again, especially as he has four to five children &amp; a helpless wife<lb/>\n                depending for support upon his daily exertions. I thought that the family might<lb/>\n                think it unkind in me to leave the city under these circumstances, so I\n                    reach<add>?</add></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6186,
+          "width": 4940,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b859f1cd-7469-4174-97d9-a9b7b4b62f4f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4940,
+                "height": 6186,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b859f1cd-7469-4174-97d9-a9b7b4b62f4f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/assets/b859f1cd-7469-4174-97d9-a9b7b4b62f4f/original",
+              "label": "Original File - 91.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>up my mind to defer my journey, though I thereby will in all probabili<lb/>ty lose\n                the fine weather which we now have. Next <date>Sunday</date><lb/> I have <add>יאהר\n                    צייט</add> for my father and on <date>Tuesday</date> I believe they will<lb/>\n                set a tombstone for <persName>Mr Allen</persName>, when his year expires; so I\n                shall<lb/> not get off next week either. So you see, Uncle, that my little<lb/>\n                excursion depend upon so many circumstances, that I can not even<lb/> leave within\n                the week if I feel ever so much inclined to travel.</p>\n            <p rend=\"indent(1)\">Have any Baltimorean signed the prospectus for the Occident?<lb/> I\n                have about 60 already in <placeName>Philadelphia</placeName> and vicinity, and\n                expect at<lb/> least 20 more; how many there are in <placeName>New York</placeName>\n                I shall learn only<lb/> when I get there; as the people there are too busy to\n                write.<lb/> I myself would never have thought of a paper for the present;<lb/> but I\n                have been induced to give the proposal in consequence<lb/> of solicitation from\n                various quarters. Whether the very persons who<lb/> urged me will do any thing\n                appears very doubtful; but there is <add>?</add><lb/> consolation if I do not print\n                the paper I shall lose nothing by <add>?</add></p>\n            <p rend=\"indent(1)\">All your friends desire to be remembered; <persName>Amelia\n                    Allen</persName> in particu<lb/>lar told me I must mention her name. It is\n                hardly requisite to<lb/> write a page full of names; so I leave you to judge who\n                all<lb/> enquire about you. Give my love to <persName>Aunt R.</persName>\n                <persName>Rachel</persName>, <persName>Mr Judah</persName><lb/>\n                <persName>Mr. &amp; Mrs Block</persName>, the <persName>Ettings</persName>, and all\n                our mutual friends.</p>\n            <p rend=\"indent(6)\">With high regard</p>\n            <p rend=\"indent(7)\">your obt. Nephew</p>\n            <p rend=\"indent(8)\">\n                <persName role=\"author\">Isaac Leeser</persName>\n            </p>\n            <p>I had last week a letter</p>\n            <p>from <persName>Mr. Nathan</persName> of <placeName>Jamaica</placeName></p>\n            <p>neither he nor his wife was well at</p>\n            <p>the time. He makes an apology for</p>\n            <p>not sending <add>אתרוגים</add>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6152,
+          "width": 4950,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/93ec61d0-1ceb-451e-ad7b-901fe41a2838%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4950,
+                "height": 6152,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/93ec61d0-1ceb-451e-ad7b-901fe41a2838%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/assets/93ec61d0-1ceb-451e-ad7b-901fe41a2838/original",
+              "label": "Original File - 91.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Mr. Zalma Rehine</addressee>\n            </p>\n            <p rend=\"indent(1)\">Care of <persName>Hanover &amp; German</persName></p>\n            <p rend=\"indent(3)\">\n                <placeName>Baltimore</placeName>\n            </p>\n            <p rend=\"indent(4)\">\n                <placeName>Md.</placeName>\n            </p>\n            <p><hi rend=\"underline\">single</hi>. </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs3r/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

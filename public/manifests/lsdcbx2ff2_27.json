@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Cauffman & Meyer; Leeser, I., Rev.; San Francisco, CA; 31 May 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3g15tx2k"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Cauffman & Meyer; Leeser, I., Rev.; San Francisco, CA; 31 May 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Lindo, E. H.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-05-31"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- San Francisco",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF2_27"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/9a3fa1b9-a84f-4cd4-9051-03c5a6c44450%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/9a3fa1b9-a84f-4cd4-9051-03c5a6c44450%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4526,
+          "width": 3752,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9a3fa1b9-a84f-4cd4-9051-03c5a6c44450%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3752,
+                "height": 4526,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9a3fa1b9-a84f-4cd4-9051-03c5a6c44450%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/assets/9a3fa1b9-a84f-4cd4-9051-03c5a6c44450/original",
+              "label": "Original File - 50.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>San Francisco</placeName>\n                <date>May 31. 1854</date>\n            </p>\n            <p>\n                <addressee>Revd I. Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">Dear Sir—</p>\n            <p rend=\"indent(3)\">I am in Re-<lb/>-ceipt of your Letter by <persName>Mr.\n                    Noah</persName>, &amp;<lb/> with regards to the Occident delivery,<lb/> I must\n                say that it is not rightly ar-<lb/>-ranged yet. I assure you I do all<lb/> in my\n                power for you, and ever more,<lb/> than my Business extends me time,<lb/> but the\n                Post-office is so a mismanaged<lb/> concern, that if subscribers do not\n                express-<lb/>-ly inquire for “Occident”, and merely<lb/> for Papers, they do not get\n                them, and as<lb/> People in <placeName>California</placeName> care not a very<lb/>\n                great deal of reading the same, with the<lb/> Exception of a fur, they neglect also\n                of<lb/> trying to get and to call for them.</p>\n            <p>I have a few names of subscribers to<lb/> the Oc to give you, <persName>Lewis\n                    Bras</persName>, <persName>S. T.<lb/> Myer &amp; Co</persName>, <persName>A.\n                    Hess &amp; Hamburger Bros.</persName>,<lb/> I believe however I have rendered\n                long ago<lb/> already the names of the two first mentioned,<lb/>\n                <persName>S. T. M &amp; Co</persName> and <persName>L Bros.</persName> I enclose\n                you<lb/> a draft on <persName>C. R. &amp; Co</persName> for $50.00/100, I<lb/> meet\n                with slow sale of Your Books,<lb/> and I would advise you, not to send</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4526,
+          "width": 3752,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0cb36b11-dbde-4302-b3e4-70e57d74ba00%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3752,
+                "height": 4526,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0cb36b11-dbde-4302-b3e4-70e57d74ba00%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/assets/0cb36b11-dbde-4302-b3e4-70e57d74ba00/original",
+              "label": "Original File - 50.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>any more, even around the Hora<add>?</add>.</p>\n            <p rend=\"indent(1)\">The Emanu-El Congregation have<lb/> held a meeting on the\n                        <date>18<hi rend=\"sup\">th</hi> of May</date><lb/> when the resignation of\n                    <persName>Mr. M. Barnett</persName><lb/> was accepted from Vice Presidency,<lb/>\n                and <persName>Mr. <hi rend=\"underline\">A</hi>. <hi rend=\"underline\">C</hi>.\n                    Labatt</persName> (I believe <persName><hi rend=\"underline\">A</hi>. <hi\n                        rend=\"underline\">C</hi>. L.</persName><lb/> in correct, it is at any Rate\n                the old man)<lb/> was elected to fill the vacancy. Also<lb/>\n                <persName>Mr. Chas Emanuel</persName> has tendered his Re<lb/>-signation from the\n                secretaryship, and ac-<lb/>-cepted, on account of his early intended<lb/> Departure\n                for the states; his Loss, I<lb/> assure you will be severally felt in the<lb/>\n                congregation, as he was the principal<lb/> in the whole congregation, who\n                    promated<add>?</add> matters<lb/> and things with that zeal &amp; energy,\n                which<lb/> are so promising for the Future Prosperity<lb/> of the Congregation; he\n                has also labored<lb/> very diligently to work up the subscriptions<lb/> for building\n                a synagogue, and in short<lb/> has done an inestimable amount of<lb/> good for the\n                whole congregation; the con-<lb/>-gregation amounts to about 100 members,<lb/> and\n                there is now more Interest exhibited by<lb/> them, than ever before; it has\n                contracted for</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4526,
+          "width": 3752,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/65e8203e-5142-4e1b-8a5f-517d008fb087%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3752,
+                "height": 4526,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/65e8203e-5142-4e1b-8a5f-517d008fb087%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/assets/65e8203e-5142-4e1b-8a5f-517d008fb087/original",
+              "label": "Original File - 50.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>the Building of a Synagogue at $19975,<lb/>\n                <del>toward which</del> which amt. has nearly been subscribed<lb/> to amounts of\n                averaging about $125—to $150—<lb/> at bearing an Interest of 6% pr. annum,<lb/>\n                whilst money is worth here in <placeName>California</placeName><lb/> 3% pr. month.\n                But the trouble the con-<lb/>-gregation has now, is to procure a<lb/> suitable\n                Reader, such as they would<lb/> like to have, who would be able to de-<lb/>-liver an\n                English as well as German<lb/> Discourse and in short a smart &amp;<lb/> learned man\n                at a salary of $3500—<lb/> which I do think, as they seek a man,<lb/> entirely to\n                little for <placeName>California</placeName>; however<lb/> I don't believe, there is\n                any to be<lb/> found in <placeName>America</placeName> not at\n                    <placeName>Europe</placeName>, who<lb/> could get off their situations &amp;\n                come<lb/> hither. Married Jewish Families are<lb/> arriving with every steamer\n                mostly, to settle<lb/> here, and we have quite a membership<add>?</add><lb/>\n                already. I think I have never<lb/> furnished you since subjects to write<lb/> or say\n                something about our <placeName>San Francisco</placeName><lb/> in your Occ. I\n                remain</p>\n            <p rend=\"indent(6)\">Yours Truly</p>\n            <p rend=\"indent(6)\">\n                <persName role=\"author\">Cauffman &amp; Meyer</persName>\n            </p>\n            <div>\n                <p>\n                    <ref target=\"Occident_PDFs/Occ_12_2.pdf\">The above text refers to Occident\n                        Volume 12 No. 2 page 119. Click here to view.</ref>\n                </p>\n            </div>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3g15tx2k/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

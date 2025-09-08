@@ -1,0 +1,213 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Miller, M. R.; Senecaville, OH; 27 April 1864",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p34m91x3t"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Miller, M. R.; Senecaville, OH; 27 April 1864"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1864-04-27"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Ohio -- Senecaville",
+        "United States -- Ohio",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx9FF16_16"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b5204ebe-a233-4871-84ed-07a42b03fe2f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b5204ebe-a233-4871-84ed-07a42b03fe2f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 7759,
+          "width": 5022,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b5204ebe-a233-4871-84ed-07a42b03fe2f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5022,
+                "height": 7759,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b5204ebe-a233-4871-84ed-07a42b03fe2f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/assets/b5204ebe-a233-4871-84ed-07a42b03fe2f/original",
+              "label": "Original File - 117 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Senecaville, Guernsey Co. Ohio</placeName>.</p>\n            <p rend=\"align(right)\"><date>April 27, 1864</date>.</p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir</p>\n            <p rend=\"indent(2)\">Much please was<lb/> I a few days since to receive the\n                    <date>April</date><lb/> No. of the Occident. so the Occident intends<lb/> to\n                live another year: it is not one of the<lb/> many things that cannot continue to\n                live in<lb/> these times. The Occident has been coming<lb/> to the wrong Post-Office\n                for some time. Please<lb/> change it from <placeName>Cumberland</placeName> to\n                    <placeName>Seneca=<lb/>ville, Guernsey Co. Ohio</placeName>. I send you the\n                pay<lb/> for the present year.</p>\n            <p rend=\"indent(1)\">I thought a year since that I would<lb/> write some articles for\n                you, but I have had<lb/> so many things on hand that it has been<lb/> neglected. I\n                am so constituted that I cannot<lb/> do many things at the same time and do all<lb/>\n                well: perhaps I ought to have written a doubt<lb/> whether I do any one thing very\n                well. I hope<lb/> to prepare some articles this summer which you<lb/> will adjudge\n                appropriate for your magazine.</p>\n            <p rend=\"indent(1)\">I wrote an article some time since for<lb/> the <sic>Danvill</sic>\n                Review, a Presbyterian Review<lb/> conducted by ministers and D. D. s in\n                    <placeName>Ken=<lb/>tucky</placeName>, having for its title,—“Experiment<lb/> in\n                Translation of the Talmud.—Valuable<lb/> Things in the Talmud.” My article\n                will,<lb/> I suppose, appear in the <date>June</date> No. The<lb/> Editors have\n                intimated this to me. They express</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 7759,
+          "width": 5022,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b2fa1654-7059-40c3-b9d3-af39b66eb6a3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5022,
+                "height": 7759,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b2fa1654-7059-40c3-b9d3-af39b66eb6a3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/assets/b2fa1654-7059-40c3-b9d3-af39b66eb6a3/original",
+              "label": "Original File - 117 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>themselves greatly interested in “the curious and<lb/> useful contents” I\n                    <sic>criticise</sic> some historical<lb/> statements, especially chronological\n                items, pro=<lb/>nouncing them manifestly and mysteriously<lb/> untrue. I mean\n                historical statements in the<lb/> Talmud. I suspect you would not assent<lb/> to\n                some of my criticisms: the testimony of<lb/> history on these points, however,\n                cannot be<lb/> mistaken.</p>\n            <p rend=\"indent(1)\">It gives me great pleasure to render<lb/> any help in my power to\n                make the Occident<lb/> an able periodical, well worthy of the patronage<lb/> of the\n                intelligent and religious community.</p>\n            <p rend=\"indent(1)\">Yours very truly</p>\n            <p rend=\"indent(2)\"><persName role=\"author\">M. R. Miller</persName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p34m91x3t/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

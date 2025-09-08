@@ -1,0 +1,184 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Leeser, Isaac; Bondi, Dr.",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p36t0hn77"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Leeser, Isaac; Bondi, Dr."]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Bondi, Jonah (contributor)"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["4 pages on 2 sheets."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF14_60", "ilcajs_b3f14_wk1_body0105"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/76f66ef5-1205-4db3-a13d-4f2d6dd1b8f0%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/76f66ef5-1205-4db3-a13d-4f2d6dd1b8f0%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 4780,
+          "width": 5854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/76f66ef5-1205-4db3-a13d-4f2d6dd1b8f0%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5854,
+                "height": 4780,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/76f66ef5-1205-4db3-a13d-4f2d6dd1b8f0%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/assets/76f66ef5-1205-4db3-a13d-4f2d6dd1b8f0/original",
+              "label": "Original File - 83.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><addressee>Messers Leeser</addressee> &amp;<lb/>\n                <addressee>Rev Dr Bondi</addressee></p>\n            <p>Sirs.—the address I sent<lb/> to you &amp; <add>?</add> it down<lb/> solely for the\n                object of<lb/> some instruction on<lb/> the inspiration Holy<lb/>\n                <add>?</add>. I asked out the<lb/> sincerity of my heart<lb/> and well wisher\n                of<lb/> your people, I have<lb/> wrote two letters to<lb/>\n                <add>?</add> one of them<lb/>\n                <sic>resently</sic> issue I wrote<lb/> to you, for a <add>?</add><lb/> or sample of\n                your <add>?</add><lb/> in the Editorial sphere<lb/> of Publications a No of the<lb/>\n                Israelite a Periodical.<lb/> I have a sample of your<lb/> No. 7. It was sent to\n                me<lb/> by the Ed. &amp; <sic>Propritor</sic> of the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4780,
+          "width": 5854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e089d66-8b37-4ce4-b274-45b08786cf03%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5854,
+                "height": 4780,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e089d66-8b37-4ce4-b274-45b08786cf03%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/assets/3e089d66-8b37-4ce4-b274-45b08786cf03/original",
+              "label": "Original File - 83.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><sic>Biblicle</sic> Expositor<lb/> Printed now at <add>?</add>\n                <placeName>Detr<lb/>oit Mich</placeName> I take it</p>\n            <p>My Faith is in the gos<lb/>pel of our savior <persName>Jesus<lb/> Christ</persName>\n                the promised<lb/> messiah the Prince of Peace;<lb/> to Reign on\n                    <persName>Davids</persName> Royal<lb/> Throne or King of\n                    <placeName>Israel</placeName><lb/> Personally in\n                    <placeName>Jerusalem</placeName><lb/>\n                <placeName><sic>Palistine</sic></placeName>, <placeName>Asia Minor</placeName>,<lb/>\n                in <placeName>Turkey</placeName>. When He<lb/> comes He comes in King<lb/>dom In a\n                Mighty Chariot<lb/> The city of the <placeName>New Jerusa<lb/>lem</placeName>; the\n                second one.<lb/> The New Temple will<lb/> be in it and a New<lb/> Throne in it. His\n                Domain<lb/> will be over the whole<lb/> earth and <add>?</add> and<lb/> seas.\n                    <add>?</add> an everlasting<lb/> one as eternity.</p>\n            <p>My Faith is of His Now to be<lb/> His <add>?</add> one at time of His Birth</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36t0hn77/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

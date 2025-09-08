@@ -1,0 +1,217 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Noah, Mordecai Manuel; Cohen, Joshua, Dr.; New York, NY; 22 October 1850",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3f47h97p"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Noah, Mordecai Manuel; Cohen, Joshua, Dr.; New York, NY; 22 October 1850"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": [
+        "Noah, M. M. (Mordecai Manuel), 1785-1851",
+        "Cohen, Joshua, Dr."
+      ]
+    },
+    {
+      "label": "Date",
+      "value": ["1850-10-22"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF13_1"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/6c3549ec-f601-44a7-809b-55bfe59f7b25%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/6c3549ec-f601-44a7-809b-55bfe59f7b25%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4806,
+          "width": 3980,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6c3549ec-f601-44a7-809b-55bfe59f7b25%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3980,
+                "height": 4806,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6c3549ec-f601-44a7-809b-55bfe59f7b25%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/assets/6c3549ec-f601-44a7-809b-55bfe59f7b25/original",
+              "label": "Original File - 57.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>New York</placeName>\n                <date>Octo 22 1850</date>\n            </p>\n            <p>Dear Doctor</p>\n            <p rend=\"indent(1)\"><persName>Mr. Newman</persName> one of the<lb/> most learned\n                Professors of the Hebrew<lb/> language we have had in the Country is<lb/> on a visit\n                to the <placeName>United States</placeName> to see<lb/> if there is any opening for\n                him either as<lb/> teacher or lecturer. He has instructed<lb/> some of the most\n                    <sic>preminet</sic><add>?</add> men in<lb/>\n                <placeName>England</placeName> and with his learning &amp; good character<lb/> would\n                have <sic>ammended</sic> any Chair<lb/> had he been willing to have\n                    <sic>surrenderd</sic> his<lb/> faith In this country it will be no obstacle<lb/>\n                to him and should there be any vacancy<lb/> in the <placeName>Maryland</placeName>\n                Colleges or as a lecturer<lb/> any where to which you can recommend<lb/> him I am\n                quite certain that you will<lb/> have no cause to regret it. He is a<lb/> plain\n                simple man in his habits &amp; manners<lb/> but one worthy of being cherished</p>\n            <p rend=\"indent(2)\">always Dear Doctor</p>\n            <p rend=\"indent(2)\">very truly yours</p>\n            <p rend=\"indent(3)\">\n                <persName role=\"author\">M M Noah</persName>\n            </p>\n            <p>\n                <addressee>D. Joshua Cohen</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Baltimore</placeName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4806,
+          "width": 3980,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/25258a75-cc6a-42c0-83e8-f8eefc9286ee%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3980,
+                "height": 4806,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/25258a75-cc6a-42c0-83e8-f8eefc9286ee%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/assets/25258a75-cc6a-42c0-83e8-f8eefc9286ee/original",
+              "label": "Original File - 57.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Indy<add>?</add>. <persName role=\"author\">Noah</persName>. MR<add>?</add></p>\n            <p><date>Oct. 28 50</date>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3f47h97p/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

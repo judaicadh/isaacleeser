@@ -1,0 +1,292 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Daniels, Samuel E.; November 21, 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3125r22v"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter to Isaac Leeser from Daniels, Samuel E.; November 21, 1847"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Daniels, Samuel E. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-11-21"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["4 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Barbados", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF4_16", "ilcajs_b1f4_0018"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/63386bec-f6fc-41f5-a885-7da838ca1192%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/63386bec-f6fc-41f5-a885-7da838ca1192%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5978,
+          "width": 4878,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/63386bec-f6fc-41f5-a885-7da838ca1192%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4878,
+                "height": 5978,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/63386bec-f6fc-41f5-a885-7da838ca1192%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/assets/63386bec-f6fc-41f5-a885-7da838ca1192/original",
+              "label": "Original File - 87.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Barbados</placeName>\n                                        <date>21 Nov. 1847</date>\n                              </p>\n                              <p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">Dear Sir</p>\n                              <p rend=\"indent(2)\">I have much pleasure in acknowledging<lb/> receipt\n                                        your esteemed favor 3 ultimo, and after the same<lb/> was in\n                                        my possession[?] five days, I received the \"occidents\"<lb/>\n                                        which I have delivered to your several subscribers, and<lb/>\n                                        only two days ago the parcel directed to the Consul<lb/> at\n                                                  <placeName>Grenada</placeName>. I am sorry to say\n                                        I have had a deal<lb/> of trouble ere the latter could be\n                                        obtained, and then had<lb/> to pay $50 freight on it–for\n                                        your guidance and future<lb/> government, I must inform you\n                                        that the Captain of<lb/> the \"Kingston\" Committed a breach\n                                        of trust by opening<lb/> the parcel to ascertain the\n                                        contents, this he cannot deny,<lb/> as he publicly told my\n                                        Father in Law <persName>M. M. I. D.\n                                        Azive</persName>-<lb/>-do, had it have been of the greatest\n                                        consequence he<lb/> would have done the same, therefore I\n                                        consider it a duty<lb/> you owe to yourself to represent his\n                                        conduct to his<lb/> employer, and as you are I understand\n                                        intimate with<lb/> the Several Editors of the Press, that\n                                        you request them<lb/> to give publicity to the same, so that\n                                        the public may<lb/> be guarded against such a man, for he\n                                        would not<lb/> hesitate in my opinion to gratify his\n                                        curiosity to open<lb/> any letter that may be entrusted to\n                                        his care, my Father<lb/> told him, that his conduct should\n                                        be represented,<lb/> when he made for answer \"if that was\n                                        the case<lb/> he would never take charge of any more letter\n                                        or<lb/> parcels from any of our friends\"–this you need\n                                        not<lb/> care</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5978,
+          "width": 4878,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3cec0fc0-914b-45d3-807d-86489cf451a4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4878,
+                "height": 5978,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3cec0fc0-914b-45d3-807d-86489cf451a4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/assets/3cec0fc0-914b-45d3-807d-86489cf451a4/original",
+              "label": "Original File - 87.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>about, for should the \"Kingston\" at any time be put<lb/> up for\n                                        this port, you can always send any thing you<lb/> may have\n                                        under cover <del>of</del>\n                                        <persName>S. P. Musson Esq.</persName> Addressing that<lb/>\n                                        Gentn. A few lines, requesting him to deliver it over to\n                                        me,<lb/> but let it be in a different hand writing to\n                                        yours–<lb/> I must now also acquaint you that some time\n                                        back<lb/> I received a parcel of your \"occidents\" through\n                                        the Post<lb/> Office from one of the Islands, as the Catn.\n                                        Of the vessel<lb/> did not dispose of his cargo here, and\n                                        tried another<lb/> market, and took all letters and parcels\n                                        with him,<lb/> and for which I had to pay $1.25 postage,\n                                        which I<lb/> shall deduct together with the ¢50 now paid,\n                                        when<lb/> I remit you the annual subscription to the\n                                        \"Occident\"<lb/> by the first conveyance, the Books shall be\n                                        forwarded<lb/> to <placeName>Grenada</placeName>, and in\n                                        future should you have any<lb/> thing to send under my care,\n                                        be particular in re-<lb/>-questing the Captn. to deliver\n                                        them on arrival to<lb/> the health officer when he boards\n                                        the vessel, as you<lb/> cannot imagine the trouble I\n                                        invariably have<lb/> with them–my Father has by this\n                                        conveyance<lb/> addressed my sister also on the Subject, and\n                                        in <sic>re-<lb/>-ferance</sic> to her you will learn all\n                                        particulars.–I<lb/> am obliged for your attention in having\n                                        inserted<lb/> the proceedings of our vestry meeting, and in\n                                        all<lb/> consider the October number very interesting–I<lb/>\n                                        am sorry to say up to the present I have not<lb/> received\n                                        the missing or August numbers, nor of it<lb/> the daily\n                                        service you sent by the same vessel,<lb/> and of which I\n                                        some time back communicated</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 5978,
+          "width": 4878,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/084acda4-6cc1-4f50-92fd-a1c5d386b5f4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4878,
+                "height": 5978,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/084acda4-6cc1-4f50-92fd-a1c5d386b5f4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/assets/084acda4-6cc1-4f50-92fd-a1c5d386b5f4/original",
+              "label": "Original File - 87.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to you, the Captn. strongly denying having had<lb/> them on\n                                        board–please to tender my regards to<lb/> the\n                                                  <persName>Carvalho's</persName>, and deliver the\n                                        enclosed to my sister.<lb/> with kind wishes from my wife\n                                        and children, as well<lb/> as myself</p>\n                              <p rend=\"indent(3)\">I remain</p>\n                              <p rend=\"indent(4)\">Dear Sir</p>\n                              <p rend=\"indent(4)\">your's most truly</p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">Samuel E Daniels</persName>\n                              </p>\n                              <p>Watson Son</p>\n                              <p>\n                                        <placeName>129 N. Front Street</placeName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 4878,
+          "width": 5978,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/898fb899-5ecb-4ab6-9526-0c4160f6f583%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5978,
+                "height": 4878,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/898fb899-5ecb-4ab6-9526-0c4160f6f583%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/assets/898fb899-5ecb-4ab6-9526-0c4160f6f583/original",
+              "label": "Original File - 87.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>No 371 Walnut Street</placeName>\n                              </p>\n                              <p rend=\"indent(3)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p>\n                                        <persName>J. W. Carter</persName>\n                              </p>\n                              <p>via <placeName>New York</placeName></p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3125r22v/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

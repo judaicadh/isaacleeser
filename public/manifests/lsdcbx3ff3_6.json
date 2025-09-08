@@ -1,0 +1,190 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to \"My dear sir\" from Isaacs, Myer S. (Myer Samuel), 1841-1904; August 27, 1868",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30r9mw3j"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter to \"My dear sir\" from Isaacs, Myer S. (Myer Samuel), 1841-1904; August 27, 1868"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Isaacs, Myer S. (Myer Samuel), 1841-1904 (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1868-08-27"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["4 pages on 2 sheets."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["New York (N.Y.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF3_6", "ilcajs_b3f3_0005"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/1123675c-2498-4130-8a6d-a9fe0aed5ee7%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/1123675c-2498-4130-8a6d-a9fe0aed5ee7%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 4244,
+          "width": 5256,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1123675c-2498-4130-8a6d-a9fe0aed5ee7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5256,
+                "height": 4244,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1123675c-2498-4130-8a6d-a9fe0aed5ee7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/assets/1123675c-2498-4130-8a6d-a9fe0aed5ee7/original",
+              "label": "Original File - 66.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><persName role=\"author\">MYER S. ISAACS</persName>,</p>\n            <p rend=\"align(right)\">Attorney &amp; <sic>Counsellor</sic> at Law.</p>\n            <p rend=\"align(right)\">Notary Public,</p>\n            <p rend=\"align(right)\"><placeName>243 BROADWAY, ROOMS 9 AND 10</placeName>.</p>\n            <p rend=\"align(right)\"><placeName>New York</placeName>, <date>Aug 27th 1868</date></p>\n            <p>My dear sir,</p>\n            <p rend=\"indent(1)\">The receipt of your note and<lb/> enclosed communication\n                reminds<lb/> me that I had neglected acknowl<lb/>edging receipt of notice of meeting<lb/>\n                <persName>Mr Josephi<add>?</add></persName> has gone to\n                    <placeName>Europe</placeName>, it is<lb/> quite out of my power, I regret\n                to<lb/> say to be with you on <date>Monday</date>. I<lb/> can't speak for\n                    <persName>Mr. Sa<add>?</add></persName></p>\n            <p rend=\"indent(1)\">The article in the <hi rend=\"underline\">Israelite</hi> is<lb/>\n                scandalous — I had presumed an<lb/>\n                <add>?</add> reply which is in the<lb/> Messenger. Yours of course is too late<lb/>\n                this week (rec'd <date>Monday</date> at 10) but<lb/> it shall appear <hi\n                    rend=\"underline\">entire</hi>, I expect<lb/> next week with some remarks by<lb/>\n                a “trustee.” While I feel that<lb/> this contemptible assault is in the<lb/>\n                interest of men who fear their</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4244,
+          "width": 5256,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/601fb68b-a395-49a4-9f57-e2d15df822ba%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5256,
+                "height": 4244,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/601fb68b-a395-49a4-9f57-e2d15df822ba%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/assets/601fb68b-a395-49a4-9f57-e2d15df822ba/original",
+              "label": "Original File - 66.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>“occupation will be gone” I <del>f</del><lb/> am as disgusted with our<lb/> orthodox\n                brethren who are very<lb/> slow to appreciate the necessity<lb/> of Hebrew\n                Education. You find<lb/> us of the <hi rend=\"underline\">Messenger</hi>\n                    working<add>?</add> pretty<lb/> steadily with the <hi rend=\"underline\"\n                    >Occident</hi> on this<lb/> question, but it is very, very<lb/>\n                <add>?</add> work to get <hi rend=\"underline\">money</hi> &amp;<lb/>\n                <hi rend=\"underline\">pupils</hi></p>\n            <p rend=\"indent(1)\">You shall have 2 from <placeName>New York</placeName><lb/> (2\n                pupils) any others expected?<lb/> Please tell <persName>Mr Dropsie</persName> that\n                I<lb/> have <sic>despatched</sic> his notes to our<lb/> leading congregations,\n                with<lb/> more misgivings than hopes. We<lb/> must be unusually patient,<lb/> &amp;\n                persevere with the college<lb/> notwithstanding our limited</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30r9mw3j/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

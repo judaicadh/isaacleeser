@@ -1,0 +1,213 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Harold, H. W.; Leeser, Isaac, Rev.; Philadelphia, PA; 5 November 1863",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3dz03n23"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Harold, H. W.; Leeser, Isaac, Rev.; Philadelphia, PA; 5 November 1863"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1863-11-05"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF10_48"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/529423ea-3626-4a0b-8fcd-6f41274c2aae%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/529423ea-3626-4a0b-8fcd-6f41274c2aae%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 2922,
+          "width": 3844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/529423ea-3626-4a0b-8fcd-6f41274c2aae%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3844,
+                "height": 2922,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/529423ea-3626-4a0b-8fcd-6f41274c2aae%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/assets/529423ea-3626-4a0b-8fcd-6f41274c2aae/original",
+              "label": "Original File - 33.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                <placeName>333 M</placeName>\n            </p>\n            <p rend=\"align(center)\"><placeName>333 MARKET STREET</placeName>.</p>\n            <p rend=\"align(right)\">\n                <placeName>Philadelphia</placeName>\n                <date>Nov 5th 1863</date>\n            </p>\n            <p>\n                <addressee>Revd I. Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">Dear Friend</p>\n            <p rend=\"indent(4)\">You will please<lb/> send me a prospectus for <persName>Miss\n                    Aguilars</persName><lb/> works as I mislaid the other and<lb/> also send me the\n                Occident to <placeName>542<lb/> Nth 4th St</placeName></p>\n            <p rend=\"indent(7)\">Yours truly</p>\n            <p rend=\"indent(8)\">\n                <persName role=\"author\">H W Harold</persName>\n            </p>\n            <p><persName>Mr. B Cromelier</persName> has removed<lb/> from <add>?</add>\n                    to<lb/><persName>Mr A Sulzberger</persName>\n                <placeName>977</placeName><lb/>\n                <add>?</add></p>\n            <p rend=\"align(right)\">bet da Linn<add>?</add></p>\n            <p rend=\"align(right)\"><add>?</add> the Occident<lb/> for</p>\n            <p rend=\"align(right)\">\n                <persName>Mr M Friedman</persName>\n            </p>\n            <p rend=\"align(right)\">with <persName>Mr Spetz</persName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4036,
+          "width": 2784,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/78f62ee8-1104-489b-ab26-b7c056eb8400%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2784,
+                "height": 4036,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/78f62ee8-1104-489b-ab26-b7c056eb8400%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/assets/78f62ee8-1104-489b-ab26-b7c056eb8400/original",
+              "label": "Original File - 33.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <persName>H Cohen &amp; Co</persName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>48 Barclay St</placeName>\n            </p>\n            <p>\n                <persName>S. Sternberger</persName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>321 Broadway</placeName>\n            </p>\n            <p>\n                <persName>Lewis J. Phillips</persName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Bx 1156 P. O.</placeName>\n            </p>\n            <p>\n                <persName>S. E Rosenthal</persName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>143 Av. A.</placeName>\n            </p>\n            <p>\n                <persName>J. M. Cromelier</persName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>219 W. 14 S</placeName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>N York</placeName>\n            </p>\n            <p>Drop <persName>N<add>?</add></persName></p>\n            <p>\n                <persName>Mr D Henrique</persName>\n            </p>\n            <p rend=\"indent(2)\">\n                <placeName>N York</placeName>\n            </p>\n            <p>\n                <persName>L Elsbach</persName>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Westport Missouri</placeName>\n            </p>\n            <p>\n                <persName>Lauer &amp; Co</persName>\n            </p>\n            <p rend=\"The following is written sideways at the right side of the page\">$2563</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3dz03n23/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

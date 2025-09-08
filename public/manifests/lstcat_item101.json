@@ -1,0 +1,207 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Nathan, M. N.; Leeser, Isaac; Charleston, SC; 12 July 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3ws8j65r"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Nathan, M. N.; Leeser, Isaac; Charleston, SC; 12 July 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-07-12"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item101"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/34ff55ae-f9ed-4de5-a078-61af233aae0f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/34ff55ae-f9ed-4de5-a078-61af233aae0f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6284,
+          "width": 4948,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/34ff55ae-f9ed-4de5-a078-61af233aae0f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4948,
+                "height": 6284,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/34ff55ae-f9ed-4de5-a078-61af233aae0f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/assets/34ff55ae-f9ed-4de5-a078-61af233aae0f/original",
+              "label": "Original File - 93.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Charleston</placeName>\n                <date>12<hi rend=\"sup\">th</hi> July 1854</date>\n            </p>\n            <p>\n                <addressee>Revd. I. Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">My Dear Sir.</p>\n            <p rend=\"indent(1)\">I had <sic>intendid</sic> to have written<lb/> you long ago &amp;\n                acknowledged the receipt of<lb/> the prayer Books which I was much pleased with<lb/>\n                I <sic>allso</sic> received a Bible from <persName>Mr Hart</persName>. I did<lb/>\n                not know that I was a subscriber to the same as<lb/> I had a very fine one but as it\n                came I have<lb/> received it. I owe you an apology for not sending<lb/> the money\n                for them, but as I have had some<lb/> very heavy payments to make not alone in\n                my<lb/> Business but privately I have postponed doing so<lb/> but will in a short\n                time remit you a check for<lb/> the amount &amp; hope the delay will not\n                incommode<lb/> you. I am generally in my affairs very punctual but<lb/> as I said\n                above I have had very much to pay of<lb/> late for others accommodation, I can\n                not<lb/> close my letter without congratulating you on<lb/> entire success you have\n                gained over the Gentleman<lb/> they term here <persName>Dr Mayer</persName> I like\n                yourself am<lb/> anxious to know by what authority &amp; from whose<lb/> hands he\n                claims the title of Revd Dr. It is easily<lb/> found out, his followers here wish to\n                give him<lb/> position &amp; have therefore Dubbed him Dr. but it<lb/> will not\n                answer. <persName>Mr. <hi rend=\"underline\">Poser</hi></persName> is bad enough\n                in<lb/> his ideas of reform &amp; this man is quite his</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6276,
+          "width": 4910,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c0fac20e-5dd7-4ec6-a01d-5917bbe9291f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4910,
+                "height": 6276,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c0fac20e-5dd7-4ec6-a01d-5917bbe9291f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/assets/c0fac20e-5dd7-4ec6-a01d-5917bbe9291f/original",
+              "label": "Original File - 92.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>equal not being able to keep my religion as I<lb/> properly should it might be said I\n                have no<lb/> right to find fault, but bad as I may be in<lb/> not following the\n                precepts as laid down I am &amp;<lb/> have <sic>allways</sic> been an anti reformist\n                in any<lb/> shape &amp; will never give my consent to any change<lb/> no matter how\n                small. I feel that to change<lb/> any one portion of our forms destroys the\n                whole,<lb/> &amp; the more I read your <sic>excellant</sic> Book the<lb/> stronger\n                my conviction, but enough I am not<lb/> qualified to write on this grave subject\n                in<lb/> a short time you shall hear from wishing<lb/> you health &amp; happiness I\n                Remain</p>\n            <p rend=\"indent(7)\">Yours very truly</p>\n            <p rend=\"indent(8)\">\n                <persName role=\"author\">M. N. Nathan</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ws8j65r/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

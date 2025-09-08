@@ -1,0 +1,275 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Gratz, Rebecca; Leeser, Isaac, Rev.; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3ms3kn3n"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Gratz, Rebecca; Leeser, Isaac, Rev.; Philadelphia, PA; undated"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Gratz, Rebecca, 1781-1869", "Leeser, Isaac"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF7_7"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/a46b855e-350c-4f0f-9ec7-49f612fad48e%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/a46b855e-350c-4f0f-9ec7-49f612fad48e%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4172,
+          "width": 2790,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a46b855e-350c-4f0f-9ec7-49f612fad48e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2790,
+                "height": 4172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a46b855e-350c-4f0f-9ec7-49f612fad48e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/assets/a46b855e-350c-4f0f-9ec7-49f612fad48e/original",
+              "label": "Original File - 35 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>\n                <addressee>Revd I Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir,</p>\n            <p rend=\"indent(2)\"><sic>Inclosed</sic><lb/> is the amount of my<lb/>\n                <hi rend=\"underline\">money debt</hi>, to printers de<add>?</add><lb/> for my\n                    <sic>endebtedness</sic> to<lb/> you, for the trouble you<lb/> have kindly taken,\n                and<lb/> the interest you have always<lb/> shown in the success of the<lb/> Sunday\n                School, I have no<lb/> means of ever paying<lb/> but I trust you will give<lb/> me\n                credit for an abiding<lb/> sense of grateful <add>?</add><lb/><add>?</add> nor am I\n                willing<lb/> to relinquish the privilege</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4172,
+          "width": 2790,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0c1f19c4-4caf-4bad-8488-e50b50553b5d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2790,
+                "height": 4172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0c1f19c4-4caf-4bad-8488-e50b50553b5d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/assets/0c1f19c4-4caf-4bad-8488-e50b50553b5d/original",
+              "label": "Original File - 35 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>of calling on your<lb/> aid, so long as I continue<lb/> in the service of this<lb/>\n                important &amp; necessary<lb/> cons<add>?</add> to our holy<lb/> religion</p>\n            <p rend=\"indent(2)\">very sincerely</p>\n            <p rend=\"indent(1)\">your friend</p>\n            <p rend=\"indent(3)\">\n                <persName role=\"author\">R G</persName>\n            </p>\n            <p>\n                <date>May 5<hi rend=\"sup\">th</hi></date>\n            </p>\n            <p>I hope there will be no<lb/> inconvenience to you to keep<lb/> the stereotype plates\n                where<lb/> they are now deposited under<lb/> your care.</p>\n        </body>\n    </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4172,
+          "width": 2790,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6285b26-0022-46b5-b785-f1f3b5805a85%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2790,
+                "height": 4172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6285b26-0022-46b5-b785-f1f3b5805a85%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/assets/f6285b26-0022-46b5-b785-f1f3b5805a85/original",
+              "label": "Original File - 35 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4172,
+          "width": 2790,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9e98f5bf-0bd3-47bf-ae9e-0c7c723fc128%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2790,
+                "height": 4172,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9e98f5bf-0bd3-47bf-ae9e-0c7c723fc128%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn3n/assets/9e98f5bf-0bd3-47bf-ae9e-0c7c723fc128/original",
+              "label": "Original File - 35 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

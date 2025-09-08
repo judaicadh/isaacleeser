@@ -1,0 +1,317 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Lindo, ?; Leeser, I., Rev.; Kingston, Jamaica; 22 April 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3pc2tv8r"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Lindo, ?; Leeser, I., Rev.; Kingston, Jamaica; 22 April 1851"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-04-22", "22 Nissan 5611"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Jamaica -- Kingston",
+        "Jamaica",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF8_36"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/c4e0689d-d73f-46cc-b8b2-1cf9d55d2338%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/c4e0689d-d73f-46cc-b8b2-1cf9d55d2338%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3876,
+          "width": 3176,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c4e0689d-d73f-46cc-b8b2-1cf9d55d2338%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3176,
+                "height": 3876,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c4e0689d-d73f-46cc-b8b2-1cf9d55d2338%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/assets/c4e0689d-d73f-46cc-b8b2-1cf9d55d2338/original",
+              "label": "Original File - 37.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(10)\">\n                                        <placeName>Kingston Jamaica</placeName>\n                              </p>\n                              <p rend=\"indent(11)\">\n                                        <date>Nissan 22 5611</date>\n                              </p>\n                              <p>\n                                        <addressee>Revd I Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">Respected Friend</p>\n                              <p rend=\"indent(3)\">Your kind consoling<lb/> favor I received and feel\n                                        grateful for<lb/> the interest so <add>?</add> manifested. I\n                                        was<lb/> not mistaken being perfectly aware that<lb/> a\n                                        period of my life so full of sorrow, would<lb/> not have\n                                        passed unnoticed by you; for<lb/> surely in minds correct,\n                                        time and dis-<lb/>tance cannot blunt those essentials<lb/>\n                                        in our nature so wisely and benignly<lb/> mingled therewith\n                                        by a Divine Hand. I as-<lb/>sure you my friend I have oft\n                                        wished<lb/> you could have known my revered moth-<lb/>er; a\n                                        life of piety and general benevolence<lb/> was hers. Left a\n                                        young widow she carefully<lb/> trained her children by the\n                                        blessed light<lb/> of Revelation of which she was so devoted\n                                        a</p>\n                              <p rend=\"The following line is written sideways in the left margin\">I\n                                        forgot to state that I had received $15 from Uncle</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3876,
+          "width": 3176,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d5937524-a11d-47d6-8e25-dae011ace390%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3176,
+                "height": 3876,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d5937524-a11d-47d6-8e25-dae011ace390%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/assets/d5937524-a11d-47d6-8e25-dae011ace390/original",
+              "label": "Original File - 37.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>a follower to her last hours. When I reflect<lb/> on the purity of\n                                        her life and the sacred hope<lb/> of a blessed future I feel\n                                        all the consolation<lb/> allowed to poor mortals. Again when\n                                        mundane<lb/> rivers force themselves on the mind, all my\n                                        philo-<lb/>sophy vanishes yielding to that natural\n                                        impulse<lb/> so keenly harrowing my soul; yet I feel\n                                        that<lb/> such is not ungracious in the sight of<lb/>\n                                        Heaven; they are to my mind sacred, the tears<lb/> of\n                                                  <sic>febal</sic> piety cannot be at <add>?</add>;\n                                        I am brand-<lb/>ed for this by those around me; but they\n                                        little<lb/> know my views. My attachment to my beloved<lb/>\n                                        parent was of so sacred a nature that all who<lb/> observe\n                                        the blissful cord which bound our souls<lb/> can weep with\n                                        me, and not <sic>condem</sic> the tears of<lb/> holiness. By\n                                        my <add>?</add> you will find that<lb/> we have just been\n                                        celebrating the <date>Passover</date><lb/> and I fervently\n                                        hope that you have been more<lb/> happily spending it in\n                                        your usual <sic>plase</sic> and<lb/> at the head of affairs.\n                                        I have not time<lb/> for all the particulars of myself, I\n                                        can <add>?</add> wish but<lb/> my good Uncle to whom I have\n                                        the honor</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3876,
+          "width": 3176,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6ce32d44-ae09-499a-a3e8-d61da5d19057%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3176,
+                "height": 3876,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6ce32d44-ae09-499a-a3e8-d61da5d19057%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/assets/6ce32d44-ae09-499a-a3e8-d61da5d19057/original",
+              "label": "Original File - 37.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>of introducing you, will give you such as may as<lb/> an old friend\n                                        interest you. I hope you will<lb/> in my name as well as\n                                        your own introduce<lb/> him to <persName>Miss\n                                                  Gratz</persName>, delicacy prevents me do-<lb/>ing\n                                        so myself as I have not written to her<lb/> for so long a\n                                        time. Be kind enough to tell<lb/> her so for me and in your\n                                        best manner<lb/>\n                                        <persName>Mrs Florance</persName> also, and with kind\n                                        love<lb/> to all. I am sorry to find you so cool<lb/> with\n                                        my friends <persName>Miss and Mrs Hart</persName>, tis\n                                        not<lb/> well of to be so distant with all, you must<lb/>\n                                        try to keep friends. You know not how worrily<lb/> my poor\n                                        old Uncle advocates your cause<lb/> and the same lively\n                                        interest <add>?</add> for you.<lb/> Let me hear all\n                                        particulars as the report<lb/> here is that you and the\n                                        congregation have<lb/> come to an arrangement. All apply\n                                        to<lb/> me for information, but alas I can give<lb/> none as\n                                        your communications are<lb/> so few and far between. Wait\n                                        not<lb/> for letters, when matters of so much<lb/> interest\n                                        to yourself and friends are on<lb/> the carpet. Tell my\n                                        friend <persName>Mrs Cozens</persName> I</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 3876,
+          "width": 3176,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4f2939c1-6e7d-40c9-838e-54e8f825d6a1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3176,
+                "height": 3876,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4f2939c1-6e7d-40c9-838e-54e8f825d6a1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/assets/4f2939c1-6e7d-40c9-838e-54e8f825d6a1/original",
+              "label": "Original File - 37.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>often think of her with affection and am<lb/> quite happy to hear\n                                        that I am not forgotten.<lb/> I have not had a line from\n                                                  <persName>Louisa</persName> though I<lb/> wrote\n                                        her of the sad event. <persName>Ms Hart</persName> was\n                                        very<lb/> fraught and I assure you I highly appreciate<lb/>\n                                        it. I hope to be able to write by Uncle if<lb/> not tell her\n                                        how much I regret the inability,<lb/>\n                                        <del>and</del> but will not keep her long without a<lb/> few\n                                        lines. To our friends generally<lb/> I hope you will\n                                        introduce Uncle, he<lb/> has several letters to strangers,\n                                        one from<lb/> the Counsel, and other merchants also\n                                        some<lb/> private letters.—You will greatly oblige<lb/> me\n                                        by having a Watch repaired, which I<lb/> shall send by\n                                        Uncle, and be kind enough to<lb/> send it by <persName>Sal\n                                                  Delo<add>?</add></persName>. I require also a<lb/>\n                                        few books a list of which I will and if in<lb/> time to do\n                                        so, if not in my next (God willing)<lb/> Grandfather has\n                                        been for some days quite un<lb/>well, expects to be operated\n                                        on in a few<lb/> days; Heaven grant him success; he seems\n                                        very<lb/> sanguine and needful<add>?</add> about it.\n                                        Remember me<lb/> to all friends and accept the continued\n                                        regard of yours</p>\n                              <p>\n                                        <persName role=\"author\"><add>?</add> Lindo</persName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv8r/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

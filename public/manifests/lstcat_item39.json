@@ -1,0 +1,205 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Jones, Alfred T.; Leeser, Isaac; Philadelphia, PA; 1 August 1862",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p36h4d99w"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Jones, Alfred T.; Leeser, Isaac; Philadelphia, PA; 1 August 1862"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1862-08-01"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item39"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/572aeff0-692b-480c-af9a-d962e56839ab%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/572aeff0-692b-480c-af9a-d962e56839ab%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4872,
+          "width": 5084,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/572aeff0-692b-480c-af9a-d962e56839ab%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5084,
+                "height": 4872,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/572aeff0-692b-480c-af9a-d962e56839ab%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/assets/572aeff0-692b-480c-af9a-d962e56839ab/original",
+              "label": "Original File - 74.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><persName>EDWIN GREBLE</persName>.</p>\n            <p rend=\"align(right)\">\n                <placeName>Philada</placeName>\n                <date>Augt 1<hi rend=\"sup\">st</hi> 1862</date>\n            </p>\n            <p>\n                <addressee>Revd Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir</p>\n            <p rend=\"indent(2)\">The bearer of this <persName>Mr Simon<lb/> Isaac\n                    Hanburger</persName>, is desirous of being united<lb/> in <del>to</del> marriage\n                to <persName>Miss Sarah Benedictus de Gorter</persName><lb/> according to the forms\n                of our holy religion, on<lb/>\n                <date>Sunday August 10<hi rend=\"sup\">th</hi></date> next at 3 o'clock, you<lb/> are\n                hereby <sic>authorised</sic> to perform the ceremony<lb/> if there be no legal\n                objections</p>\n            <p rend=\"indent(4)\">Yours Respy</p>\n            <p rend=\"indent(5)\">\n                <persName role=\"author\">Alfred T. Jones</persName>\n            </p>\n            <p rend=\"indent(6)\">Parnass K.K.B.E.E.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4872,
+          "width": 5084,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0af39f54-c110-4ad8-8258-261065e2895a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5084,
+                "height": 4872,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0af39f54-c110-4ad8-8258-261065e2895a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/assets/0af39f54-c110-4ad8-8258-261065e2895a/original",
+              "label": "Original File - 74.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">p. 47 51</p>\n            <p><placeName>Phid</placeName> 8 11 12 13 20 22 23 28 30 36 45 65</p>\n            <p><placeName>Wisconsin</placeName> 2 3 6 7</p>\n            <p><placeName>Michigan</placeName> 4 7 12 17</p>\n            <p><placeName>Indiana</placeName> 3 5 13 14 19 25 27 37</p>\n            <p><add>?</add> 2 10 12 13 15 17 19 20 28 35</p>\n            <p>\n                <add>?</add>\n            </p>\n            <p><placeName>Illinois</placeName> 2 17 36 8 12 2.12 1.3.8</p>\n            <p>Mays 2 5</p>\n            <p><placeName>US.</placeName>SS 1 2</p>\n            <p><add>?</add> 3 8 11 14 16</p>\n            <p><placeName>Maine</placeName> 1 2 4.5 10 12 20</p>\n            <p>Surrendered NY 12. 39. 111. 115. 125. 126 5 <placeName>N York</placeName> Phillips\n                    B<add>?</add><hi rend=\"underline\">122</hi></p>\n            <p rend=\"indent(1)\"><placeName>Ohio</placeName> 32.40 87</p>\n            <p rend=\"indent(1)\"><placeName>Illinois</placeName> 68</p>\n            <p rend=\"indent(1)\"><placeName>Vermont</placeName> 9</p>\n            <p rend=\"indent(1)\"><placeName>Maryland</placeName>\n                <add>?</add> Brigade</p>\n            <p rend=\"indent(1)\"><placeName>Indiana</placeName> 15 <add>?</add> 17.50. 6067 68 49</p>\n            <p rend=\"indent(1)\">\n                <add>?</add>\n            </p>\n            <p>\n                <add>?</add>\n            </p>\n            <p rend=\"align(right)\">100</p>\n            <p rend=\"align(right)\">46</p>\n            <p rend=\"align(right)\">268</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p36h4d99w/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

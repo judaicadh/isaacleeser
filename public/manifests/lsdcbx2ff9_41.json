@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Gotthelf, B. H.; Leeser, Isaac, Rev.; Louisville, KY; 9 November 1862",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3cr5nz7p"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Gotthelf, B. H.; Leeser, Isaac, Rev.; Louisville, KY; 9 November 1862"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1862-11-09"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Kentucky -- Louisville",
+        "United States -- Kentucky",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF9_41"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/c8e615b7-da4f-42dd-a3b7-df7a7b74f9df%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/c8e615b7-da4f-42dd-a3b7-df7a7b74f9df%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4604,
+          "width": 3854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c8e615b7-da4f-42dd-a3b7-df7a7b74f9df%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3854,
+                "height": 4604,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c8e615b7-da4f-42dd-a3b7-df7a7b74f9df%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/assets/c8e615b7-da4f-42dd-a3b7-df7a7b74f9df/original",
+              "label": "Original File - 53.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Louisville Ky</placeName>, <date>November 9<hi\n                        rend=\"sup\">th</hi> 1862</date></p>\n            <p><addressee>Revd Isaac Leeser</addressee>\n                <placeName>Pha</placeName>!</p>\n            <p rend=\"indent(1)\">Revd and Dear Sir!</p>\n            <p rend=\"indent(4)\">You will please to forward to <persName>Mr.<lb/> N.\n                Bloom</persName>, care of <persName>E. Bamberger &amp; Bloom</persName>, 3 copies of\n                all the<lb/> religious books used in your Sunday or Sabbath School, or per<lb/>haps\n                in your Educational Society School. I have established a<lb/> Sabbath School,\n                assisted by <persName>Mrs. N. Bloom</persName>; <persName>Abm Gerstle</persName>,\n                    <persName>Louis Dembity</persName> &amp;<lb/>\n                <persName>Dr. H. Filsenheld</persName>; <persName>Mrs. Dembity</persName> and\n                    <persName>Miss Sophie Bamberger</persName> also<lb/> offered their kind\n                services, and we desire to have books adapted<lb/> to the capacity and comprehension\n                of pupils from 6 to 15 years.<lb/> On the two last <date>Sabbaths</date> we had the\n                pleasure to be visited<lb/> by about 250 young ones, all eager to imbibe the\n                lessons<lb/> and truths of our time-honored faith. The books you send<lb/> will be\n                paid for by return of mail, and we may afterwards<lb/> order a number for each\n                pupil. If you should possess, or<lb/> could procure, a guide for post-biblical\n                history, adapted for<lb/> scholars of higher classes, or even self-instruction, I\n                would<lb/> be thankful to you, by sending several copies along with<lb/> the\n                others.</p>\n            <p rend=\"indent(1)\">You are no doubt aware, that there is a movement<lb/> on hand in my\n                congregation, to engage a Rabbi &amp; Preacher.<lb/> That it will affect my future\n                to a more or less extent, is sure.<lb/> There is, how-ever, a majority of members\n                opposed to these procee<lb/>dings, and it will remain a difficult task for the\n                money'd<lb/> minority to accomplish their designs. They speak of <persName>Dr.\n                    Deutsch</persName></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4604,
+          "width": 3854,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f79dc88b-065f-4a7e-b64e-4512be4986b7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3854,
+                "height": 4604,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f79dc88b-065f-4a7e-b64e-4512be4986b7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/assets/f79dc88b-065f-4a7e-b64e-4512be4986b7/original",
+              "label": "Original File - 53.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>formerly of <placeName>Philadelphia</placeName>; rumors, how-ever, are much<lb/>\n                against him, and, I think, even if he comes here on trial,<lb/> his election will be\n                defeated. Please to let me know,<lb/> if you choose, how his standing was in your\n                City, and what<lb/> are his religious principles as a Rabbi. If report speaks<lb/>\n                the truth, my congregation is not yet so much reformed, or<lb/> rather deformed, as\n                to digest a Rabbi with such radical<lb/> views.</p>\n            <p rend=\"indent(1)\">Please to forward the mentioned books <sic>immediatly</sic>.<lb/>\n                Hoping and praying that you are well yet and zealous and<lb/> vigorous as ever I\n                subscribe myself</p>\n            <p rend=\"indent(5)\">most Respectfully</p>\n            <p rend=\"indent(6)\">yours</p>\n            <p rend=\"indent(5)\">\n                <persName role=\"author\">B. H. Gotthelf</persName>\n            </p>\n            <p rend=\"indent(5)\">\n                <date>11-9-1862</date>\n            </p>\n            <div>\n                <p>\n                    <ref target=\"Occident_PDFs/Occ_20_9.pdf\">The above text refers to Occident\n                        Volume 20 No. 9 page 429. Click here to view.</ref>\n                </p>\n            </div>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cr5nz7p/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

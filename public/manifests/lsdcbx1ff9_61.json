@@ -1,0 +1,214 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Jaroslawski, Leopold; Leeser, Isaac, Rev.; Pittsburgh, PA; 27 September 1852",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3p844g3v"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Jaroslawski, Leopold; Leeser, Isaac, Rev.; Pittsburgh, PA; 27 September 1852"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1852-09-27"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Pittsburgh",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF9_61"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/a4271dbf-a586-46b7-89fa-8d6864906bbc%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/a4271dbf-a586-46b7-89fa-8d6864906bbc%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4354,
+          "width": 3522,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a4271dbf-a586-46b7-89fa-8d6864906bbc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3522,
+                "height": 4354,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a4271dbf-a586-46b7-89fa-8d6864906bbc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/assets/a4271dbf-a586-46b7-89fa-8d6864906bbc/original",
+              "label": "Original File - 46.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>\n                                                  <sic>Pittsburg</sic>\n                                        </placeName>\n                                        <date>Sept. 27<hi rend=\"sup\">th</hi> 1852</date>\n                              </p>\n                              <p>\n                                        <addressee>Rev. Mr. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(2)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p>Dear Sir!</p>\n                              <p rend=\"indent(1)\">Since so much has been said<lb/> and as I find\n                                        even <sic>falshoods</sic>, by some<lb/> slanderous tongues,\n                                        about the polish Con-<lb/>gregation, as once remarked in\n                                        your columns<lb/> as still existing in the members at their\n                                        last<lb/> meeting wished me as their Sec'y to<lb/> make you\n                                                  <sic>aquainted</sic> with the present<lb/>\n                                        position of the <add>קהל</add> called <add>בית\n                                        ישראל</add>.<lb/> We consist of twelve actual members<lb/>\n                                        and have a synagogue with Sepher<lb/> and all other\n                                        necessities, where we have<lb/> met <date>Rosh\n                                                  Hashanah</date> &amp; <date>Jom Kipur</date><lb/>\n                                        and besides electing at our last meeting<lb/>\n                                        <persName>Mr. N. Eisendrath</persName> Parnass <persName>Mr.\n                                                  L. Juteur</persName><lb/> Treas. &amp;\n                                                  <persName>L. Jaroslawski</persName> Sec. we\n                                        have<lb/> also elected <persName>Mr M. Marcussohn</persName>\n                                        who<lb/> was on his journey to\n                                                  <placeName>Cleveland</placeName>, and<lb/> visited\n                                        our place of worship during his<lb/> stay over <date>Jom\n                                                  Kipur</date>, as our <hi rend=\"underline\"\n                                                  >chasan</hi><lb/> and Shochet, and Mohul. We\n                                        would<lb/> thank you very much for the benefit of<lb/> the\n                                        readers of your valuable paper</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4354,
+          "width": 3522,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6b147079-2c1e-4768-92ea-27a1b34b35de%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3522,
+                "height": 4354,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6b147079-2c1e-4768-92ea-27a1b34b35de%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/assets/6b147079-2c1e-4768-92ea-27a1b34b35de/original",
+              "label": "Original File - 46.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to mention these facts in your next<lb/> number. We hope and trust\n                                        with the<lb/>\n                                        <sic>assistence</sic> of the <persName>Rev. Mr.\n                                                  Marcusson</persName><lb/> as our spiritual guide,\n                                        that we will<lb/> prosper, and continue to exist for\n                                        the<lb/> benefit of the rising generation, and for<lb/> the\n                                        diffusion of the principles of Judaismus<lb/> and the God of\n                                                  <placeName>Israel</placeName> will grant us\n                                        his<lb/> blessing.</p>\n                              <p rend=\"indent(3)\">Yours very Respectfully</p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">Leopold Jaroslawski</persName>\n                              </p>\n                              <p>The above letter I wrote to comply with your wish<lb/> expressed in\n                                        your <date>May</date> number, we also wish to<lb/> remark,\n                                        that we fully cherish your sentiments<lb/> of yours from\n                                                  <date>September</date>, as nothing ever has<lb/>\n                                        been said or done by either of our party<lb/> to prove\n                                        injurious to our faith, and vindi-<lb/>cate our actions,\n                                        since you will be well<lb/> aware that it is not difficult\n                                        to misre-<lb/>present any one behind his back.<lb/> I am\n                                        though fully convinced, that no<lb/>\n                                        <sic>falshood</sic> could prejudice your sound<lb/>\n                                        judgment.</p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3p844g3v/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

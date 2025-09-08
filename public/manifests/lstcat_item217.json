@@ -1,0 +1,1191 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest",
+  "@type": "sc:Manifest",
+  "label": "Pamphlet; Philadelphia, PA; 1850",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3m03zh8w"]
+    },
+    {
+      "label": "Title",
+      "value": ["Pamphlet; Philadelphia, PA; 1850"]
+    },
+    {
+      "label": "Date",
+      "value": ["1850"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["pamphlets"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Pamphlet"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "18 pages on 24 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item217"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/5a7a181a-f150-4592-97e7-f12fd26642ac%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/5a7a181a-f150-4592-97e7-f12fd26642ac%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "Front",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5a7a181a-f150-4592-97e7-f12fd26642ac%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5a7a181a-f150-4592-97e7-f12fd26642ac%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/5a7a181a-f150-4592-97e7-f12fd26642ac/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "Inside front",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2a29ff78-d93a-4a09-8f5a-cc9798b533a5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2a29ff78-d93a-4a09-8f5a-cc9798b533a5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/2a29ff78-d93a-4a09-8f5a-cc9798b533a5/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d519f07-db81-4a29-843a-7605021f3eb4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7d519f07-db81-4a29-843a-7605021f3eb4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/7d519f07-db81-4a29-843a-7605021f3eb4/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">A</p>\n            <p rend=\"align(center)\">REVIEW</p>\n            <p rend=\"align(center)\">OF THE LATE</p>\n            <p rend=\"align(center)\">CONTROVERSIES</p>\n            <p rend=\"align(center)\">BETWEEN THE</p>\n            <p rend=\"align(center)\">\n                <persName>REV. ISAAC LEESER</persName>\n            </p>\n            <p rend=\"align(center)\">AND THE</p>\n            <p rend=\"align(center)\">CONGREGATION MIKVEH ISRAEL.</p>\n            <p rend=\"The following is written in pencil.\"><persName role=\"author\">A. Phillips. Esq.\n                </persName>?</p>\n            <p rend=\"align(center)\"><placeName>PHILADELPHIA</placeName>:</p>\n            <p rend=\"align(center)\"><date>1850</date>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/acc428f6-f799-4c5b-b2e2-092962e725ef%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/acc428f6-f799-4c5b-b2e2-092962e725ef%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/acc428f6-f799-4c5b-b2e2-092962e725ef/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8ee30b94-7e69-458e-958e-45e3227aeb3c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8ee30b94-7e69-458e-958e-45e3227aeb3c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/8ee30b94-7e69-458e-958e-45e3227aeb3c/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">REVIEW.</p>\n            <p rend=\"indent(1)\">The late controversies between the <persName>Rev. Isaac\n                    Leeser</persName>, <hi rend=\"italics\">Hazan</hi><lb/> of the congregation Mikveh\n                Israel in <placeName>Philadelphia</placeName>, and the offi-<lb/>cers and members of\n                that body, are now brought to a close, by<lb/> the voluntary withdrawal of the\n                former, and his authorized<lb/> announcement that he will not be a candidate for\n                re-election.<lb/> At the same time, <persName>Mr. Leeser</persName> and his friends\n                are endeavoring<lb/> to make an impression that he is an ill-used man; and many<lb/>\n                well-disposed persons, in ignorance of the facts, have brought<lb/> themselves to\n                believe that the congregation have treated him<lb/> badly. To correct these\n                erroneous impressions, and to diffuse<lb/> the light of truth, is the object of this\n                publication.</p>\n            <p rend=\"indent(1)\">It is proposed to give the reader a brief review of the late\n                con-<lb/>troversies between <persName>Mr. Leeser</persName> and the congregation,\n                which, if<lb/> read without prejudice or passion, but with a sincere desire to<lb/>\n                arrive at the truth, will satisfy any candid person not only how<lb/> groundless are\n                the complaints of the reverend gentleman, but<lb/> that the congregation and its\n                officers are the parties aggrieved,<lb/> and, under the repeated provocations they\n                have received from<lb/> him, have manifested no small degree of forbearance.</p>\n            <p rend=\"indent(1)\">It is not a pleasant duty to be under the necessity of putting<lb/>\n                such matters in print; but as <persName>Mr. Leeser</persName> has not hesitated<lb/>\n                editorially to review and censure the congregation through the<lb/> columns of a\n                periodical, he cannot complain if those aggrieved<lb/> by his course shall seek,\n                through the Press, to disabuse the minds<lb/> of the members of our congregation and\n                our co-religionists else-<lb/>where.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/caef5a01-26d5-4694-b55e-9bbd7124406f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/caef5a01-26d5-4694-b55e-9bbd7124406f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/caef5a01-26d5-4694-b55e-9bbd7124406f/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">4</p>\n            <p rend=\"indent(1)\">The principal subjects of dispute between him and the\n                con-<lb/>gregation were threefold.</p>\n            <p rend=\"indent(1)\">1. That he insisted upon being elected Hazan for what he<lb/> called\n                during good behaviour,—or in other words, <hi rend=\"italics\">for life</hi>.</p>\n            <p rend=\"indent(1)\">2. His expressed determination not to sign a contract for the<lb/>\n                faithful performance of his duties, as required by the by-laws.</p>\n            <p rend=\"indent(1)\">3. His disrespectful and uncourteous bearing towards the<lb/>\n                officers of the congregation, and towards the congregation them-<lb/>selves.</p>\n            <p rend=\"align(center)\">I.</p>\n            <p rend=\"align(center)\">AS TO THE TENURE OF THE OFFICE.</p>\n            <p rend=\"indent(1)\">The regular <hi rend=\"italics\">Hazanim</hi> of the congregation who\n                preceded <persName>Mr.<lb/> Leeser</persName>, were, the <persName>Rev. Gershom\n                    Mendes Seixas</persName>, <persName>Jacob Cohen</persName>,<lb/>\n                <persName>Emanuel Nunes Carvalho</persName>, and <persName>Abraham Israel\n                    Keys</persName>—all men<lb/> of unaffected piety, great moral worth, learned in\n                our laws,<lb/> thorough-bred Portuguese <hi rend=\"italics\">Hazanim</hi>, familiar\n                with all the duties<lb/> of their office, which they so exercised as to deserve and\n                win the<lb/> love and respect of the congregation. Of them it might truly<lb/> be\n                said, “There were giants in those days.” Yet no one of<lb/> these pious and learned\n                divines was ever elected for life. Some<lb/> of them held their offices at the will\n                of the congregation, or<lb/> from year to year, and others for limited periods. Our\n                congre-<lb/>gation always repudiated the life tenure of the office, and the<lb/>\n                correctness of the doctrine is at this time sustained throughout<lb/> the length and\n                breadth of the land. We have seen State after<lb/> State cast off the life tenure of\n                their Judges, because those Judges<lb/> felt themselves wholly irresponsible; and no\n                matter how gross<lb/> their official or personal misconduct might be, if it was not\n                such<lb/> as to consign them to the Penitentiary, the idea of an impeach-<lb/>ment\n                was a burlesque,—it seldom or ever amounted to anything.<lb/> So would it be with\n                any other officer with a like tenure; it is at<lb/> best but frail human nature, and\n                the <sic>sarcedotal</sic> character of the<lb/> office would not tend to make the\n                incumbent less arrogant or<lb/> presuming. This principle of the limited tenure of\n                office, was<lb/> not first called in requisition towards <persName>Mr.\n                    Leeser</persName>, but was acted<lb/> on by the congregation before he was born.\n                The early records</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p7",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d62b9bd3-be3f-4892-8802-87b794a7af0d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d62b9bd3-be3f-4892-8802-87b794a7af0d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p7"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/d62b9bd3-be3f-4892-8802-87b794a7af0d/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p7/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">5</p>\n            <p>of the congregation are imperfect; but we all know that the<lb/> good behaviour, or\n                life tenure, was never recognised; and the<lb/> records of the congregation for more\n                than thirty years, shew<lb/> the constant assertion of the opposite principle. A few\n                extracts<lb/> will shew this:</p>\n            <p rend=\"indent(1)\"><date>1815. July 30</date>. At a meeting of the congregation,\n                    (<persName>Hyman Marks</persName>, <hi rend=\"italics\">Parnas</hi>,) a<lb/>\n                communication was received from <persName>A. H. Cohen</persName>, offering to serve\n                for one year, or<lb/> from year to year, at $600 per annum, if regularly invested\n                with the office of Hazan;<lb/> but this proposition was refused, the congregation\n                not being willing to consider him<lb/> a regular Hazan.</p>\n            <p rend=\"indent(1)\"><date>1815. Oct. 29</date>. The <persName>Rev. E. N.\n                    Carvalho</persName> was engaged as Hazan, at a salary of<lb/> $800 per annum,\n                with a dwelling-house, and the usual perquisites. Nothing was<lb/> said about the\n                term of service.</p>\n            <p rend=\"indent(1)\"><date>1824. April 25</date>. <persName>Mr. Hyman Marks</persName>\n                moved that the Committee on the subject of<lb/> a Hazan, should be authorized to\n                engage such person as may be elected by the con-<lb/>gregation at their next\n                meeting, for any term not exceeding two years, at a salary<lb/> not exceeding per\n                annum, free of perquisites. While this motion was under<lb/> consideration, the\n                meeting adjourned until <date>May 2</date>.</p>\n            <p rend=\"indent(1)\"><date>1824. May 2</date>. This resolution was adopted, and the blank\n                filled with $700. <persName>Mr.<lb/> A. M. Cohen</persName>, seconded by\n                    <persName>Mr. Isaiah Nathans</persName>, moved a reconsideration, so as to<lb/>\n                reduce the term to one year.—Lost. The meeting then went into a ballot, when<lb/>\n                <persName>Mr. E. S. Lazarus</persName>, of <placeName>New York</placeName>, was\n                unanimously elected.</p>\n            <p rend=\"indent(1)\"><date>1824. May 23</date>. <persName>Mr. Lazarus</persName> declined\n                the office; but a resolution was adopted,<lb/> authorizing the Committee to engage\n                him on such terms as they shall think proper,<lb/> not exceeding two years.\n                Carried—yeas 21, nays 4.</p>\n            <p rend=\"indent(1)\"><date>1824. June 6</date>. The Committee reported that <persName>Mr.\n                    Lazarus</persName> declined any engage-<lb/>ment, except during good behaviour,\n                and at a fixed salary, and recommended the<lb/> following resolution, which was\n                adopted:</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That it is inexpedient to engage\n                any person as a Hazan, except for a<lb/> stated number of years.</p>\n            <p rend=\"indent(1)\"><date>1824. June 26</date>. The <persName>Rev. A. I. Keys</persName>\n                was elected Hazan; and after his election,<lb/> a resolution was adopted to take him\n                up for five years, at $1000 per annum, his<lb/> salary to commence from the time of\n                his leaving the <placeName>island of <sic>Barbadoes</sic></placeName>.</p>\n            <p rend=\"indent(1)\"><date>1828. Oct. 26</date>. The death of <persName>Mr.\n                    Keys</persName> being announced, resolutions of condo-<lb/>lence were adopted,\n                and the sum of $1000 was voted to his widow.</p>\n            <p rend=\"indent(1)\"><date>1829. April 12</date>. The congregation voted a pension of $8\n                per month to the widow<lb/> of Hazan <persName>Carvalho</persName>; and at the same\n                meeting, the following resolution was adopted:</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the salary which shall be\n                allowed to the Hazan who may be<lb/> elected by his congregation, shall not exceed\n                $1000 per annum, and that his engage-<lb/>ment shall not be for a longer period than\n                five years.</p>\n            <p rend=\"indent(1)\"><date>1829. Sept. 6</date>. A ballot being taken, <persName>Mr.\n                    Leeser</persName> was elected Hazan. After his<lb/> election, a resolution was\n                passed to engage him for two years, at $800 per annum.</p>\n            <p rend=\"indent(1)\"><date>1829. Sept. 20</date>. A letter of acceptance was read from\n                    <persName>Mr. Leeser</persName>, in high terms<lb/> of compliment, and\n                containing no allusion to the tenure of his office.</p>\n            <p rend=\"indent(1)\"><date>1831. May 15</date>. A Committee was appointed to confer with\n                    <persName>Mr. Leeser</persName> on the<lb/> subject of a re-engagement for a\n                period not exceeding five years, at $800 per annum,<lb/> with power to engage him\n                accordingly.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p8",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/78b8d6d6-4d9d-45a1-bdd2-d9e840ad15bd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/78b8d6d6-4d9d-45a1-bdd2-d9e840ad15bd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p8"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/78b8d6d6-4d9d-45a1-bdd2-d9e840ad15bd/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p8/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">6</p>\n            <p rend=\"indent(1)\"><date>1831. Sept. 4</date>. The Committee reported that\n                    <persName>Mr. Leeser</persName> could not serve at that<lb/> salary, and laid\n                his letter to them before the congregation, when it was</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the Parnas be requested to\n                engage the services of <persName>I. Leeser</persName> as<lb/> Hazan for the term of\n                five years, at a salary of $1000 per annum.</p>\n            <p rend=\"indent(1)\"><date>1836. Sept. 4</date>. A ballot being gone into, <persName>Mr.\n                    Leeser</persName> was elected Hazan.</p>\n            <p rend=\"indent(1)\"><date>1836. Oct. 2</date>. A resolution was passed, fixing his term\n                at one year, at same<lb/> salary.</p>\n            <p rend=\"indent(1)\"><date>1837. Sept. 24</date>. <persName>Isaac Leeser</persName> and\n                    <persName>Jacques Lyons</persName> presented themselves as candi-<lb/>dates for\n                the office of Hazan. The following resolution was first adopted:</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the Hazan to be elected shall\n                serve for three years, and at a salary<lb/> of $800 per annum, payable\n                quarterly.</p>\n            <p rend=\"indent(1)\">A ballot was then gone into, and <persName>Mr. Leeser</persName> was\n                elected.</p>\n            <p rend=\"indent(1)\"><date>1840. May 17</date>. A resolution was adopted to re-engage\n                    <persName>Mr. Leeser</persName> for ten years<lb/> from <date>September 29,\n                    1840</date>, at $1250 per annum.</p>\n            <p rend=\"indent(1)\"><date>1840. Sept. 26</date>. The Committee reported <persName>Mr.\n                    Leeser's</persName> acceptance of his re-<lb/>engagement.</p>\n            <p rend=\"indent(1)\"><date>1842. Nov. 20</date>. The Committee on the subject of certain\n                com-<lb/>plaints against the <hi rend=\"italics\">Shohet</hi>, made a report, in which\n                they recom-<lb/>mended that the tenure of his office, which before that time\n                was<lb/> during the pleasure of the congregation, should be turned into<lb/> an\n                annual term. This report was adopted without a division,<lb/> and, it is believed,\n                unanimously. The following extracts from<lb/> it are in point:</p>\n            <p rend=\"indent(1)\">“A frequent recurrence to elections of their [the congregation's]\n                officers, is the<lb/> best check upon them, and the best guarantee for good\n                conduct.”</p>\n            <p rend=\"indent(1)\">Again—</p>\n            <p rend=\"indent(1)\">“It has always been the policy of the congregation to elect the\n                Hazan for a stipu-<lb/>lated period, and the principle is the same as to the\n                Shohet.”</p>\n            <p rend=\"indent(1)\"><date>1850. March 24</date>. The following resolution, after\n                many<lb/> amendments were previously disposed of, was adopted:</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That a special meeting be held on\n                the <date>third Sunday of June</date> next, for<lb/> the purpose of electing a Hazan\n                to serve for ten years, at a salary of $1300 per an-<lb/>num, if a single man, or\n                $1700 per annum if a married man; that the Hazan so<lb/> elected shall execute a\n                contract similar to the existing one, with this addition, <hi rend=\"italics\">that\n                    he</hi><lb/>\n                <hi rend=\"italics\">shall in all things conform to the Jewish law</hi>; and that the\n                Parnas give notice of<lb/> this election in the Asmonean, and such other Jewish\n                publications as he may think<lb/> proper.</p>\n            <p rend=\"indent(1)\">Before this resolution was adopted, an unsuccessful effort was<lb/>\n                made to strike out the words, “for ten years,” and insert the<lb/> words, “during\n                good behaviour;” and pending the discussion of<lb/> this amendment,\n                    <persName>Abraham Hart, Esq.</persName>, Parnas, announced from<lb/> the Chair\n                that he was authorized by <persName>Mr. Leeser</persName> to state to the<lb/>\n                congregation, that if they adopted any other tenure of office</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p9",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/346d9be9-c92e-47d8-bdee-33e900d365f1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/346d9be9-c92e-47d8-bdee-33e900d365f1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p9"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/346d9be9-c92e-47d8-bdee-33e900d365f1/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p9/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p7",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">7</p>\n            <p>than during good behaviour, he would not be a candidate for<lb/> re-election; but\n                adding, in substance, that if he were elected<lb/> during good behaviour, he was\n                willing to hand in a written re-<lb/>signation of his office, to take effect\n                whenever called for by the<lb/> congregation. He also stated, that <persName>Mr.\n                    Leeser</persName> was willing to<lb/> remain with the congregation for six\n                months after the expiration<lb/> of his present term, in order to afford them an\n                opportunity of<lb/> selecting a successor.</p>\n            <p rend=\"indent(1)\">From this it will be seen that the congregation acted\n                through-<lb/>out with the utmost good faith in the assertion of a principle<lb/>\n                sound in itself, and peculiarly applicable to the present state of<lb/> society. The\n                predecessors of <persName>Mr. Leeser</persName> acted under it; he<lb/> himself took\n                five engagements under it without complaint on<lb/> that score; and no better\n                evidence of the good disposition of<lb/> the congregation could be shewn than this,\n                that with many pro-<lb/>vocations induced by the reverend gentleman himself,\n                they,<lb/> during five successive terms, retained him for twenty-one years,<lb/> and\n                it is believed that a majority of the members would have<lb/> been willing to have\n                elected him for ten years longer, if the<lb/> other causes of complaint on their\n                part had not induced the<lb/> same state of feeling towards him that he continually\n                appeared<lb/> to manifest towards them.</p>\n            <p rend=\"indent(1)\">He assigned two reasons for insisting on the life tenure,\n                first,<lb/> because the congregation could and ought to trust him, to which<lb/> the\n                answer was obvious, that he also might safely have trusted<lb/> them, the bond that\n                could most closely have bound him and<lb/> them together, would have been on his\n                part, attention and<lb/> fidelity to the duties of his office, courtesy, kindness\n                and good<lb/> feeling towards his flock, and the capacity to think that those<lb/>\n                who differ with him on questions of policy or principle, might<lb/> honestly differ,\n                and that such difference was not of itself an act<lb/> of personal hostility towards\n                him; this line of conduct would<lb/> have ensured him a voluntary and not a coerced\n                life tenure, and<lb/> what is better, would have carried with it the love, respect\n                and<lb/> confidence of those under his pastoral charge. His other reason<lb/> was\n                this, that most other congregations elected their Hazanim<lb/> for life, and that he\n                being the only exception, would be degraded</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p10",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d93bff74-1a45-453c-8fa3-61d7142ffecb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d93bff74-1a45-453c-8fa3-61d7142ffecb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p10"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/d93bff74-1a45-453c-8fa3-61d7142ffecb/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p10/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p8",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">8</p>\n            <p>by being chosen for a term of years; all this is sophistical and<lb/> unsound, even\n                admitting, as we do not, that other congrega-<lb/>tions choose their Hazanim for\n                life, it does not follow that we<lb/> should on that account give up the assertion\n                of a sound principle<lb/> working well in practice, we believe that some\n                congregations who<lb/> elected a Hazan for life, have regretted it, and would\n                gladly<lb/> undo that which they are now convinced they ought not to have<lb/> done.\n                But the inconsistency of <persName>Mr. Leeser</persName> is here very glaring,<lb/>\n                he was willing to hold himself out of the world as elected for<lb/> life, and yet\n                take the office under a secret written engagement<lb/> with the congregation,\n                converting its tenure into a tenancy at<lb/> will, subject to be determined at any\n                given time by a bare majority<lb/> vote;—which was the more degrading position, an\n                open honora-<lb/>ble engagement for ten years, or a false representation to the<lb/>\n                world of engagement for life, with the reality of a secret un-<lb/>derstanding, that\n                it was but a tenure at will? The congrega-<lb/>tion very properly refused to become\n                a party to such a hypo-<lb/>critical proceeding.</p>\n            <p rend=\"align(center)\">II.</p>\n            <p rend=\"align(center)\"><persName>MR. LEESER'S</persName> REFUSAL TO SIGN A\n                CONTRACT.</p>\n            <p rend=\"indent(1)\">The 27<hi rend=\"sup\">th</hi> by-law directs that “the Hazan and\n                Shohet, shall<lb/> enter into written contracts under a penalty for the faithful\n                per-<lb/>formance of their respective duties, which shall be particularly<lb/>\n                expressed in each said contract.”</p>\n            <p rend=\"indent(1)\">This is a very harmless by-law, and in the opinion of any<lb/>\n                right-thinking person a very useful one, it was adopted in the<lb/> year\n                    <date>1824</date>, and through negligence or inadvertence, was not<lb/> sought\n                to be enforced until the year <date>1837</date>; <persName>Mr. Leeser</persName>\n                himself,<lb/> fulfilled three terms without being required to enter into a\n                con-<lb/>tract, and but for his own conduct the by-law might to this day<lb/> have\n                remained a dead letter; but after his election in <date>1837</date>, he was<lb/> in\n                the habit of denouncing this by-law, and avowing his deter-<lb/>mination never to\n                obey it; and the Board of Managers charged<lb/> with the enforcement of the by-laws\n                were bound to compel<lb/> obedience; accordingly a meeting of the Board was held on the<lb/>\n                <date>10<hi rend=\"sup\">th</hi> of December, 1837</date>: present, <persName>Lewis\n                    Allen</persName>, <hi rend=\"italics\">Parnas</hi>, A.</p>\n            <p rend=\"The following name continues on the next page:\">\n                <persName>A. Hart</persName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p11",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/08c3a801-70f1-4ed3-991a-49b0a731166c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/08c3a801-70f1-4ed3-991a-49b0a731166c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p11"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/08c3a801-70f1-4ed3-991a-49b0a731166c/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p11/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p9",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">9</p>\n            <p><persName>Hart</persName>, <persName>J. A. Phillips</persName>, and <persName>J. L.\n                    Hackenburg</persName>, <hi rend=\"italics\">Adjunta</hi>, when the<lb/>\n                <hi rend=\"italics\">Parnas</hi> informed the Board that he had presented to\n                    <persName>Mr. Leeser</persName><lb/> a draft of a contract for his signature\n                according to the 27<hi rend=\"sup\">th</hi> by-<lb/>law, which <persName>Mr.\n                    Leeser</persName> had refused to sign, and in reply ad-<lb/>dressed a letter to\n                the Parnas, which being read, it was</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the Parnas convene the\n                congregation this day<lb/> four weeks, and lay the whole matter before them.—This\n                decisive<lb/> movement, aided by the proximity of <persName>Mr. Leeser's</persName>\n                late competi-<lb/>tor had the desired effect, he signed the contract on the\n                    <date>27th<lb/> December, 1837</date>, and the meeting of the congregation was\n                not<lb/> held.</p>\n            <p rend=\"indent(1)\">His re-engagement in <date>1840</date> was the signal of a fresh\n                outbreak,<lb/> no competitor was now at hand, and he peremptorily refused to<lb/>\n                enter into the contract, having as afterwards appeared, taken a<lb/> VOW to that\n                effect; accordingly a stated meeting of the Board<lb/> was held on <date>December\n                        13<hi rend=\"sup\">th</hi>, 1840</date>, at which <persName>Messrs. L.\n                    Allen</persName>,<lb/>\n                <hi rend=\"italics\">Parnas</hi>, <persName>J. L. Moss</persName>, <persName>J. L.\n                    Hackenburg</persName>, and <persName>A. Hart</persName>, <hi rend=\"italics\"\n                    >Adjunta</hi>,<lb/> were present; the Parnas reported that he had handed\n                    <persName>Mr.<lb/> Leeser</persName> for his signature a contract similar in all\n                respects to the<lb/> one he had previous executed, except as to the term of\n                office<lb/> and rate of compensation, both of which had been increased by<lb/> the\n                congregation, and that <persName>Mr. Leeser</persName> refused to sign\n                it—where-<lb/>upon it was</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That a communication be addressed\n                to him on the<lb/> subject.—And accordingly a most respectful letter was\n                prepared<lb/> on the spot, and signed by the members present, tendering him<lb/> the\n                contract for execution, and requesting him, if he did not<lb/> sign it, to give a\n                written reply setting forth his reasons for such<lb/> refusal, that the same might\n                be laid before the congregation.<lb/> To this respectful and kind letter,\n                    <persName>Mr. Leeser</persName> returned a long,<lb/> indecorous and\n                disrespectful answer, giving the most flimsy rea-<lb/>sons for his disobedience, and\n                casting the grossest imputation<lb/> of the honor and veracity of the lamented\n                    <persName>Allen</persName>, then Parnas of<lb/> the congregation. The contract\n                and the Board's letter to him<lb/> and his answer, were laid before the congregation\n                at a special<lb/> meeting, held <date>January 3d, 1841</date>, the following being a\n                copy of<lb/> the contract which he refused to execute.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p12",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/566a6011-b58e-4ff9-910f-877619d9f97a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/566a6011-b58e-4ff9-910f-877619d9f97a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p12"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/566a6011-b58e-4ff9-910f-877619d9f97a/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p12/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p10",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">10</p>\n            <p rend=\"indent(1)\">ARTICLES of agreement between <persName>Isaac Leeser</persName> of\n                the one part, and the Portu-<lb/>guese Jewish Congregation, of the City of\n                    <placeName>Philadelphia</placeName>, incorporated by the name,<lb/> style and\n                title of “KAHL KADOSH MIKVEH ISRAEL,” of the other part, made and en-<lb/>tered\n                into, at the City of <placeName>Philadelphia</placeName>, on the <date>Eleventh day\n                    of the month of Decem-<lb/>ber, 1840</date>, corresponding with the as follows,\n                to wit:</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">First</hi>. The said <persName>Isaac\n                    Leeser</persName> doth covenant on his part to serve, act, and officiate<lb/> as\n                    <hi rend=\"italics\">Hazan</hi> or reader to the said Congregation, from the\n                        <date>29<hi rend=\"sup\">th</hi> (twenty-ninth) day of Sep-<lb/>tember,\n                    1840</date>, last past, for and during the full term of Ten years thence next\n                ensuing,<lb/> and to be fully complete and ended; during all which period, he will\n                well, and truly<lb/> and diligently, and faithfully perform all the duties, usually\n                belonging and incident to<lb/> said station.</p>\n            <p rend=\"indent(1)\">That he will on every <date>Sabbath</date> Eve, Morning and Night,\n                and on all Holydays and<lb/> Festivals, attend at the Synagogue, and then and there,\n                in a devout manner, read the<lb/> prayers in the “Original Hebrew Language,”\n                according to the custom of the “Por-<lb/>tuguese Jews.” That he will attend all\n                funerals that take place in the burial ground of<lb/> the Congregation, and perform\n                the funeral and subsequent mourning service. That<lb/> he will not at any time\n                perform any marriage or funeral rites without the consent of<lb/> the Parnas or of\n                the Adjunta. That he will support and abide by the Charter<lb/> and By-laws of the\n                Congregation, and implicitly obey them, so far as they may be<lb/> properly\n                applicable to him. That he will obey all lawful orders of the Parnas for<lb/> the\n                time being, so far as is consistent with Jewish laws and usages.</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Second</hi>. In consideration of said services,\n                the said Congregation agrees to pay the<lb/> said <persName>Isaac Leeser</persName>,\n                as a full compensation therefor, the sum of twelve hundred and<lb/> fifty dollars\n                per annum, during each of the ten years before mentioned, in equal<lb/> quarterly\n                payments of three hundred and twelve dollars and fifty cents each, on the<lb/> days\n                and times that the same may grow due, and payable respectively, or when\n                law-<lb/>fully thereafter by the said <persName>Isaac Leeser</persName>\n                required.</p>\n            <p rend=\"indent(1)\">And for the due and faithful performance of the foregoing covenants,\n                each party<lb/> doth hereby bind himself unto the other, in the penal sum of <hi\n                    rend=\"italics\">one thousand dollars</hi>.</p>\n            <p rend=\"indent(1)\">In witness whereof, the said <persName>Isaac Leeser</persName> hath\n                hereunto set his hand and Seal,<lb/> and the said “Kahl Kadosh Mikveh Israel,” have\n                caused their Common or Corpo-<lb/>rate Seal to be hereunto affixed, attested by\n                their Parnas and Secretary, the day and<lb/> year first herein before written.</p>\n            <p>[SEAL.]</p>\n            <p rend=\"align(right)\">[SEAL.]</p>\n            <p rend=\"indent(1)\">For his disrespectful behaviour he, on that occasion, received<lb/>\n                a sharp vote of censure in the adoption of the following resolu-<lb/>tions:</p>\n            <p rend=\"indent(1)\">On motion of <persName>H. M. Phillips</persName>, seconded by\n                    <persName>E. L. Moss</persName>,</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That in the opinion of this\n                meeting the <persName>Rev. I. Leeser</persName> has been guilty<lb/> of disrespect\n                towards the Parnas and Adjunta of this congregation, in this communi-<lb/>cation\n                with the Parnas, in relation to the contract of re-engagement as Hazan.</p>\n            <p rend=\"align(center)\">YEAS 12—NAY 1—excused from voting 4.</p>\n            <p rend=\"indent(1)\">On motion of <persName>A. Hart</persName>, seconded by <persName>D.\n                    Pesoa</persName>,</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That in the opinion of this\n                meeting the contract tendered to the <persName>Rev.<lb/> Isaac Leeser</persName>, by\n                the Parnas and Adjunta for signature, is in strict accordance with<lb/> by-law 27 of\n                this congregation, and as such is by this meeting deemed correct.</p>\n            <p rend=\"align(center)\">Yeas 15—Nay 1—excused 1.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p13",
+          "@type": "sc:Canvas",
+          "label": "11",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/70a52546-45d8-4091-8d36-315182253959%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/70a52546-45d8-4091-8d36-315182253959%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p13"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/70a52546-45d8-4091-8d36-315182253959/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p13/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p11",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">11</p>\n            <p rend=\"indent(1)\">On motion of <persName>H. M. Phillips</persName>, seconded by\n                    <persName>B. B. Hart</persName>,</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That unless the <persName>Rev. I.\n                    Leeser</persName> shall and do, on or before the <date>29th<lb/> March,\n                    1841</date>, execute and deliver to the Parnas the bond as tendered by the\n                Board<lb/> of Adjunta, and approved by a meeting of this congregation, for his\n                re-engagement for<lb/> ten years, made with him in <date>May, 1840</date>, said bond\n                or his re-engagement be annulled<lb/> and made void, and that the Parnas pay him for\n                his services at the rate of $1,250<lb/> per annum.</p>\n            <p rend=\"align(center)\">Yeas 16—Nays none—excused 1.</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That there be sent to\n                    <persName>Mr. Leeser</persName> a copy of all the resolutions passed at<lb/>\n                this meeting.</p>\n            <p rend=\"indent(1)\">Notwithstanding these preceedings, he clung to the office, but<lb/>\n                refused the contract; matters had now grown very serious, and<lb/> the forbearance\n                of the members was severely tried; the <date>29<hi rend=\"sup\">th</hi> of<lb/>\n                    March</date> arrived, but the contract remained unexecuted; a stated<lb/>\n                meeting of the congregation was held on <date>April 4<hi rend=\"sup\">th</hi>,\n                    1841</date>, when<lb/>\n                <persName>Mr. Leeser</persName> sent to the meeting the form of a contract\n                dictated<lb/> by himself, which <persName>Mr. Hackenburg</persName> moved should be\n                accepted in<lb/> lieu of the other, this was negatived, and then</p>\n            <p rend=\"indent(1)\">On motion of <persName>D. Samuel</persName> seconded by <persName>H.\n                    M. Phillips</persName>,</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the contract offered by\n                    <persName>Mr. Leeser</persName>, not being according to the one<lb/> adopted at\n                the meeting of the members on the <date>3d of January</date> last, cannot be\n                accepted.</p>\n            <p rend=\"align(center)\">Yeas 13—Nays 4—excused 3—retired 2.</p>\n            <p rend=\"indent(1)\">On motion of <persName>A. Hart</persName>, seconded by <persName>J.\n                    A. Phillips</persName>,</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the time for signing the\n                contract by <persName>Mr. Leeser</persName> as passed at a<lb/> special meeting on\n                the <date>3d of January</date>, be extended till the <date>1<hi rend=\"sup\">st</hi>\n                    of July</date> next, inclusive,<lb/> and that the Parnas be authorized to\n                continue his engagement in the mean time.</p>\n            <p rend=\"align(center)\">Yeas 13—Nays 7—retired 2.</p>\n            <p rend=\"indent(1)\">Still the troubles thickened, the congregation would not\n                re-<lb/>lieve the Hazan from the dilemma in which he had placed him-<lb/>self by his\n                rash vow; he now turned his attention to the Parnas<lb/> and Adjunta, whose\n                authority he had previously contemned and<lb/> whom he had treated with contumely;\n                accordingly, <persName>Mr. Allen</persName>,<lb/> the Parnas, convened the Board on\n                    <date>May 11, 1841</date>, when the<lb/> whole Board, consisting of\n                    <persName>Messrs. L. Allen</persName>, <persName>J. L. Moss</persName>,\n                    <persName>A.<lb/> Hart</persName>, <persName>J. A. Phillips</persName> and\n                    <persName>J. L. Hackenburg</persName> were present. The<lb/> Parnas stated that\n                he had convened the Board in consequence<lb/> of a number of letters received from\n                    <persName>Mr. Leeser</persName>, and proceeded<lb/> to read them, being four in\n                number, with the Parnas's replies;<lb/> but the Board declined interfering and\n                passed the following<lb/> significant resolution.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p14",
+          "@type": "sc:Canvas",
+          "label": "12",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2e9dbecc-16f5-4142-a4ef-f543506fa4a5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2e9dbecc-16f5-4142-a4ef-f543506fa4a5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p14"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/2e9dbecc-16f5-4142-a4ef-f543506fa4a5/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p14/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p12",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">12</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the Board are of opinion that\n                they have no cognizance of the sub-<lb/>ject matter of said letters, in consequence\n                of the proceedings of the Corporation at<lb/> their stated meeting of <date>4<hi\n                        rend=\"sup\">th</hi> of April</date> last, and that this Board declines taking\n                any<lb/> action on said letters, or giving any advice or opinion thereon.</p>\n            <p rend=\"indent(1)\">The agitation continued until a special meeting of the\n                con-<lb/>gregation was called, on the requisition of ten members, to take<lb/> into\n                consideration the differences existing in relation to the Bond<lb/> of the\n                    <persName>Rev. I. Leeser</persName>. This meeting took place on the\n                    <date>16th<lb/> May, 1841</date>, when the various communications from him to\n                the<lb/> Board were read, as also a letter to the congregation of the<lb/> most\n                unbecoming character, winding up with an offer to sign a<lb/> Bond if the penalty\n                were reduced to five hundred dollars. This<lb/> letter elicited much debate and\n                angry feeling, and after several<lb/> resolutions and amendments were offered the\n                following was<lb/> adopted—(the words in italics being offered by <persName>A. Hart,\n                    Esq.</persName>)</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the Parnas be requested to\n                tender to the <persName>Rev. I. Leeser</persName>, for his<lb/> signature a Bond, in\n                conformity with his engagement as Hazan by this congregation,<lb/> under a penalty\n                of eight hundred dollars, for the faithful performance of the duties of<lb/> his\n                station; <hi rend=\"italics\">and in consideration of the <persName>Rev. I.\n                        Leeser</persName> having taken a vow that he</hi><lb/>\n                <hi rend=\"italics\">would not sign a contract which this congregation at a meeting\n                    held the</hi>\n                <date><hi rend=\"italics\">3d of Jan-<lb/>uary</hi>, 1841</date>, <hi rend=\"italics\"\n                    >decided was the correct and only contract to be entered into between<lb/> them\n                    and the <persName>Reverend Isaac Leeser</persName>, and that in order that he\n                    may conform to the<lb/> spirit of said contract without invalidating his vow,\n                    therefore Resolved, that the<lb/> words “sickness or accident excepted,” be\n                    inserted in said contract.</hi></p>\n            <p rend=\"align(center)\">Yeas 17.—Nays 11.</p>\n            <p rend=\"indent(1)\">This is the whole history of the “contract” controversy,<lb/>\n                showing on the part of <persName>Mr. Leeser</persName>, a determination to set\n                up<lb/> his unbridled will as a standard, regardless of the wishes of the<lb/>\n                congregation of the existence of a law which could not be re-<lb/>pealed but by a\n                vote of two-thirds of the members present.<lb/> There never was any oppression in\n                the contract, he was not<lb/> asked to give security, and the penalty in itself not\n                large, be-<lb/>came null and void, if he performed his duties with fidelity.<lb/>\n                The time-honoured Gabay of the congregation, (who under an-<lb/>nual elections has\n                now held his office for nearly twenty-six years,<lb/> discharging its duties in a\n                manner to make all regret the day<lb/> when they may have to look for a successor,)\n                is obliged to give<lb/> Bond with approved security and under a heavy penalty;\n                yet<lb/> who ever heard a murmur from this venerable man whose solid-</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p15",
+          "@type": "sc:Canvas",
+          "label": "13",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c33b976f-e939-4797-afbb-6376f8bc82bf%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c33b976f-e939-4797-afbb-6376f8bc82bf%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p15"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/c33b976f-e939-4797-afbb-6376f8bc82bf/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p15/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p13",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">13</p>\n            <p>ity, integrity, punctuality and devotion to his duties are univer-<lb/>sally\n                acknowledged?</p>\n            <p rend=\"align(center)\">III.</p>\n            <p rend=\"indent(1)\">The last and by far most unpleasant division of this subject<lb/>\n                relates to the deportment of <persName>Mr. Leeser</persName>, towards the\n                constituted<lb/> authorities of the congregation and towards the congregation.<lb/>\n                This has been of such a character as to have brought upon him<lb/> votes of censure\n                from the Board of Managers and from the<lb/> congregation on three different\n                occasions, which will be alluded<lb/> to in the order of time in which they\n                occurred.</p>\n            <p rend=\"indent(1)\">In the latter end of the year <date>1831</date>, a seat-holder of\n                the con-<lb/>gregation having been guilty of misconduct and disturbance in<lb/> the\n                Synagogue during worship, and of an affront to the late<lb/>\n                <persName>Jacob Phillips, Esq.</persName>, one of the Adjunta, standing as <hi\n                    rend=\"italics\">Segan</hi> in<lb/> the absence of the Parnas, and of indecency\n                and indignity to<lb/> our Holy Religion, was at a Board meeting on the <date>13<hi\n                        rend=\"sup\">th</hi> of No-<lb/>vember, 1831</date>, unanimously placed in <hi\n                    rend=\"italics\">Harem</hi>, and the Hazan<lb/> directed to announce this censure\n                from the <hi rend=\"italics\">Tebah</hi> for three suc-<lb/>cessive\n                    <date>Sabbaths</date>, as a warning to all evil doers.</p>\n            <p rend=\"indent(1)\"><date>1832. Feb. 12</date>. At a meeting of the Board, it was stated\n                that the Hazan had<lb/> not complied with the directions to announce this censure\n                from the <hi rend=\"italics\">Tebah</hi>; where-<lb/>upon it was</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the Parnas inform the Hazan\n                of the great dissatisfaction of the<lb/> Board, at his not having complied with the\n                directions of said resolution, and to en-<lb/>quire of him what reasons, if any, he\n                had for non-compliance with the orders of the<lb/> Board of Managers.</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That this Board will adjourn to\n                meet on <date>Sunday, 11<hi rend=\"sup\">th</hi> March</date>, at 10<lb/> A. M., at\n                which time the Hazan is required to attend before the Board, on the sub-<lb/>ject of\n                the foregoing resolution.</p>\n            <p rend=\"indent(1)\">An adjourned Board meeting was held <date>March 11,\n                1832</date>.<lb/> Present the whole Board, <hi rend=\"italics\">to wit</hi>:\n                    <persName>Z. Phillips</persName>, <hi rend=\"italics\">Parnas</hi>;\n                    <persName>Jacob<lb/> Phillips</persName>, <persName>Lewis Allen</persName>,\n                    <persName>Simon Gratz</persName> and <persName>J. A. Jacobs</persName>, <hi\n                    rend=\"italics\">Adjunta</hi>.</p>\n            <p rend=\"indent(1)\">The Parnas informed the Board that agreeably to their\n                reso-<lb/>lution of last meeting, he had informed the Hazan thereof, and<lb/>\n                required him to be and appear this day before the Board, and<lb/> that the Hazan had\n                addressed a letter to him denying the<lb/> authority of the Board of Managers and\n                refusing to appear<lb/> before them, and expressly declaring that he will not by\n                any</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p16",
+          "@type": "sc:Canvas",
+          "label": "14",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9066fd45-6f64-427f-9026-13c6e71c5002%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9066fd45-6f64-427f-9026-13c6e71c5002%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p16"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/9066fd45-6f64-427f-9026-13c6e71c5002/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p16/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p14",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">14</p>\n            <p>act of his, acknowledge the Board of Managers to be his con-<lb/>stituted\n                judges—which letter being read, it was on motion</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the Board of Managers have by\n                the Constitution and By-laws of<lb/> the Corporation, full power and authority to\n                manage the affairs of the congregation,<lb/> and that all the officers are bound by\n                the orders of the Board and the directions of<lb/> the Parnas, and that this Board\n                will exact from the officers of the congregation a<lb/> strict compliance with all\n                their orders.</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the Parnas make a full report\n                of all the facts connected with the<lb/> Hazan's conduct, and lay the same before\n                the congregation at their next stated<lb/> meeting.</p>\n            <p>These proceedings were laid before the congregation on the<lb/>\n                <date>8<hi rend=\"sup\">th</hi> of April, 1832</date>, and the following resolutions\n                were adopted<lb/> in relation thereto.</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That it is the opinion of the\n                congregation, that the salaried officers<lb/> always have been, and are under the\n                control of the Parnas and the Board of Mana-<lb/>gers.</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That this meeting approve of the\n                proceedings of the Board of Mana-<lb/>gers.</p>\n            <p rend=\"indent(1)\">And thus ended this matter, producing to the Hazan two<lb/> votes of\n                censure from the Board of Managers, and one from the<lb/> congregation at its\n                meeting. The writer is unable to divine<lb/>\n                <persName>Mr. Leeser's</persName> motive for refusing to obey a plain duty; he\n                did<lb/> not appear to put it upon any footing except a determination<lb/> not to\n                recognize the authority of the Board; with how little<lb/> foundation may be seen by\n                reference to the second section of<lb/> Article first of the Charter of the\n                congregation, setting forth<lb/> that “the Parnas and Adjunta shall form a Board of\n                Mana-<lb/>gers; they shall be entrusted with the management of the<lb/> affairs of\n                the congregation, they shall see that the provisions of<lb/> this Constitution and\n                of such By-laws as may hereafter be<lb/> adopted are properly observed and\n                administered, they shall have<lb/> the control of the annual income of the\n                Corporation,” &amp;c.</p>\n            <p rend=\"indent(1)\">The next vote of censure came from the congregation on the<lb/>\n                <date>3d of January, 1841</date>, and has been already referred to, it re-<lb/>lated\n                to the Hazan's disrespectful letter to the Board, and to his<lb/> pertinacious\n                refusal to sign the contract which was declared to<lb/> be the correct and only\n                one.</p>\n            <p rend=\"indent(1)\">During the whole period of <persName>Mr. Leeser's</persName> sojourn\n                among us,<lb/> various unpleasant <hi rend=\"italics\">emeutes</hi> were constantly\n                taking place; he</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p16"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p17",
+          "@type": "sc:Canvas",
+          "label": "15",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6de4dbbb-b1dd-4547-afef-ac5c9600fa63%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6de4dbbb-b1dd-4547-afef-ac5c9600fa63%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p17"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/6de4dbbb-b1dd-4547-afef-ac5c9600fa63/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p17/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p15",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">15</p>\n            <p>set a particularly high value on his English discourses, so much<lb/> so as to render\n                nearly all his official duties subordinate to this<lb/> one engrossing fancy; it was\n                the theme of constant remark in<lb/> what an undignified and unimpressive manner he\n                hurried through<lb/> our beautiful Hebrew ritual, how unintelligibly he mumbled\n                the<lb/> offerings, and with what impatience he bore with any one who he<lb/>\n                thought detained him too long with offerings; this produced on<lb/> the part of\n                himself and his friends repeated attempts to abolish<lb/> the free-will offerings;\n                this subject was often discussed, the<lb/> members having no particular attachment\n                to the system of free-<lb/>will offerings, but looking upon it as a financial\n                measure, did not<lb/> wish to throw away this source of revenue without providing\n                a<lb/> substitute, as the expenses of the congregation were heavy;<lb/> the\n                substitute was tried and failed, and the congregation on<lb/> several occasions\n                refused by decided votes to abolish free-will<lb/> offerings; many other matters\n                might be stated, but they would<lb/> unnecessarily swell this publication; the\n                free-will offerings are<lb/> alluded to in order to elucidate what is to follow.</p>\n            <p rend=\"indent(1)\">It is matter of notoriety that <persName>Mr. Leeser</persName>, is\n                the editor and<lb/> publisher of the Occident, a monthly periodical published in\n                this<lb/> city, in which the editorial and communicated articles can be<lb/>\n                distinguished apart with as much facility as in a daily news-<lb/>paper. In the last\n                    <date>October</date> number of this magazine, there ap-<lb/>peared under the\n                editorial head an article too long to publish<lb/> entire, but from which the\n                following extract is given as applica-<lb/>ble to the congregation.</p>\n            <p rend=\"indent(1)\">NEWS ITEMS.—<placeName>PHILADELPHIA</placeName>.—At the last annual\n                election of the congrega-<lb/>tion Mikveh Israel, the gentlemen composing last\n                year's Board were re-elected, <persName>Mr.<lb/> A. Hart</persName> as Parnas, and\n                    <persName>Messrs. J. A. Phillips</persName>, <persName>M. Arnold</persName>,\n                    <persName>A. S. Wolf</persName>, and <persName>I. J.<lb/> Phillips</persName>,\n                as Adjuntas; <persName>Mr. H. Gratz</persName> was re-elected Treasurer, and\n                    <persName>Mr. Simeon W.<lb/> Arnold</persName>, elected Secretary. We regret at\n                not being able to announce that some whole-<lb/>some legislation with respect to the\n                office of Hazan, and the commutation of the<lb/> money offerings, has not taken\n                place; both the by-laws affecting the subjects not<lb/> having met with the\n                approbation of the members. They seem to be afflicted with a<lb/> sort of\n                nervousness whenever any measure somewhat new in its tendency is pro-<lb/>posed;\n                they go into meeting with the resolve of the English iron-clad barons, “not<lb/> to\n                change the laws” of their order, however useful, expedient, or even necessary\n                the<lb/> measure proposed may be, or however wrong and oppressive the old rule may\n                have<lb/> proved in practice. At present we do not think it requisite to say more;\n                but a time<lb/> may come, especially if a contingency should arise, which now seems\n                possible enough,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p18",
+          "@type": "sc:Canvas",
+          "label": "16",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9dac7d40-241c-4abb-ae25-1dc1e06a3827%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9dac7d40-241c-4abb-ae25-1dc1e06a3827%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p18"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/9dac7d40-241c-4abb-ae25-1dc1e06a3827/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p18/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p16",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">16</p>\n            <p>when we may deem it requisite to appeal to the public judgment for our own\n                justifi-<lb/>cation, when we shall have to lay some circumstances before the people\n                which we<lb/> now mean to let pass in silence, as it is probable that before many\n                months some slight<lb/> changes may be made in an obnoxious law; a consummation\n                devoutly to be wished.<lb/> Some may believe it imprudent in us to say even this\n                little; but since, as said already,<lb/> it may affect our personal standing in the\n                community, in case that something is not<lb/> done in the premises before the\n                expiration of another year, we hold it right to fore-<lb/>warn our distant friends\n                not to throw any blame on us if we do not submit to a usage<lb/> peculiar to our\n                congregation, although we were twice over-persuaded to do so before<lb/> this.</p>\n            <p rend=\"indent(1)\">There could be no mistake as to the character of the article.<lb/>\n                <persName>Mr. Leeser</persName> undertook to hold up the congregation to public\n                cen-<lb/>sure, because they would not abolish free-will offerings, and pass<lb/> a\n                very ridiculous by-law which had been offered by a member,<lb/> but was believed to\n                have been framed by himself; and it is not<lb/> difficult to understand his threat\n                of appealing to the public in<lb/> case the congregation refused to elect him for\n                life, or dispense<lb/> with the Bond. He himself, a professed opponent of\n                innova-<lb/>tions and reforms, could see no sincerity in his congregation<lb/>\n                thinking on that subject as he did; and his sneering expression,<lb/> “that they\n                seem to be afflicted with a sort of nervousness,” was<lb/> in the very worst spirit.\n                His allusion to the iron-clad Barons<lb/> was, as was afterwards remarked by a\n                member in debate, “sin-<lb/>gularly unfortunate, as those old feudal Barons were, in\n                the early<lb/> days of <placeName>England</placeName>, the conservators of the\n                public liberty, who<lb/> resisted <persName>King John</persName> at\n                    <placeName>Runymede</placeName>, and wrung from the reluctant<lb/> tyrant MAGNA\n                CHARTA. Their memorable declaration—<lb/> THAT THEY WOULD NOT CHANGE THE LAWS OF THE\n                REALM, was a<lb/> bold defiance to the power of PRIESTCRAFT, that endeavoured<lb/>\n                to force on them a portion of the canon law tending to licenti-<lb/>ousness and\n                immorality.”</p>\n            <p rend=\"indent(1)\">It is not to be supposed that the constituted authorities of\n                the<lb/> congregation would pass over in silence an article like this;\n                ab-<lb/>solute impunity would have only emboldened him, and the future<lb/> numbers\n                of the Occident would have teemed with similar attacks<lb/> upon the congregation.\n                Accordingly, a Board meeting was<lb/> held on <date>October 21, 1849</date>, when\n                the whole Board were present,<lb/> consisting of <persName>A. Hart, Esq.</persName>,\n                    <hi rend=\"italics\">Parnas</hi>; <persName>J. A. Phillips</persName>,\n                    <persName>M. Ar-<lb/>nold</persName>, <persName>A. S. Wolf</persName>, and\n                    <persName>I. J. Phillips</persName>, Adjunta. The following</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p18"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p19",
+          "@type": "sc:Canvas",
+          "label": "17",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/02be276f-ffc5-4190-b7cb-039623b8187a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/02be276f-ffc5-4190-b7cb-039623b8187a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p19"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/02be276f-ffc5-4190-b7cb-039623b8187a/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p19/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p17",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">17</p>\n            <p>preamble and resolutions, offered by <persName>J. A. Phillips</persName>, and\n                seconded<lb/> by <persName>I. J. Phillips</persName>, were unanimously adopted, the\n                whole five<lb/> members voting for them:</p>\n            <p rend=\"indent(1)\">WHEREAS, There appeared in the last number of the Occident—a\n                periodical pub-<lb/>lished here by the Hazan of this congregation—an editorial\n                article, reviewing, in<lb/> terms of censure, the business proceedings of the\n                congregation, and containing a<lb/> threat to appeal to the public, unless certain\n                things were done which the editor wishes<lb/> done: And whereas, such misconduct on\n                the part of an officer of the congregation,<lb/> deserves the severest animadversion\n                and reproof. Therefore—</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That it is the opinion of this\n                Board, that the conduct of the <persName>Rev. Isaac<lb/> Leeser</persName> in the\n                premises, is highly censurable, as tending to provoke irritation, create<lb/> bad\n                feeling, and as interfering in matters with which he hath no rightful concern.</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That his threat to appeal to the\n                public, shews an absence of the good<lb/> feeling that should exist on the part of\n                the Reader towards his congregation.</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the Parnas transmit a copy of\n                this preamble and these resolutions<lb/> to <persName>Mr. Leeser</persName>, and\n                also report the same to the congregation at their next meeting.</p>\n            <p rend=\"indent(1)\">This preamble and these resolutions were officially\n                communi-<lb/>cated to <persName>Mr. Leeser</persName>; who never to the Board or\n                congregation<lb/> offered any explanation, palliation, or apology. They were\n                laid<lb/> before the congregation on the <date>24<hi rend=\"sup\">th</hi> of March,\n                    1850</date>, and would<lb/> have been read, and filed away in silence, and\n                without further<lb/> action, but for an onslaught on the Board, made by one or\n                two<lb/> of the Hazan's indiscreet friends. This brought the members<lb/> to their\n                feet, and the following resolution was adopted:</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\">Resolved</hi>, That the action of the Board be\n                approved.—Yeas, 20; Nays, 7; Ex-<lb/>cused, 2.</p>\n            <p rend=\"indent(1)\">This brings to a close the unpleasant review we have felt it<lb/>\n                our duty to make. It is matter of painful notoriety, that<lb/> during the long\n                sojourn of <persName>Mr. Leeser</persName> among us, his personal<lb/> and official\n                career has been signalized by repeated outbreaks<lb/> similar to those already\n                sketched. Our business, however, has<lb/> been with him as a Hazan, and not as a\n                man, and it has been<lb/> no part of our purpose to dilate upon the numerous\n                objections<lb/> to his personal deportment, they will readily occur to all who<lb/>\n                know him; and his best friends are always obliged to admit,<lb/> that he is an\n                indiscreet, imprudent man. It is certain that he<lb/> never loved his congregation,\n                and in turn they could not love<lb/> him. His office was a respectable one, the\n                salary liberal, and</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p19"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p20",
+          "@type": "sc:Canvas",
+          "label": "18",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0eb865e6-c8b4-4e80-a72a-5fc76e474a30%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0eb865e6-c8b4-4e80-a72a-5fc76e474a30%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p20"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/0eb865e6-c8b4-4e80-a72a-5fc76e474a30/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p20/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/manifest/annotation/p18",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">18</p>\n            <p>his position one that would have enabled him, if rightly dis-<lb/>posed, to have done\n                much for his flock, and for the Jewish com-<lb/>munity. That the congregation has\n                flourished, in spite of their<lb/> past withering connexion with him, is to be\n                attributed to the<lb/> high respectability of the members, and seat-holders\n                generally,<lb/> the good dispositions of the elective officers, and the\n                influences<lb/> of education upon the rising generation.</p>\n            <p rend=\"indent(1)\">But the connexion between <persName>Mr. Leeser</persName> and the\n                congregation<lb/> is ended—severed by his own involuntary act. His errors were<lb/>\n                fatal, but might have remained unnoticed but for the ceaseless<lb/> attacks of\n                himself and his friends upon the congregation and<lb/> its officers, rendering\n                necessary this review of his official career,<lb/> and shewing, as it must, to ever\n                unprejudiced mind, that the<lb/> minister, and not the congregation, has been\n                invariably in the<lb/> wrong. It is hoped that this exampled will be a salutary\n                one,<lb/> and that his successor will learn that he will best promote a LIFE<lb/>\n                TENURE of office by a single-minded and faithful discharge of<lb/> his duties—by\n                obedience to the constituted authorities in the<lb/> exercise of their legitimate\n                functions—by deferences to the will<lb/> of the majority—by non-interference in the\n                business proceed-<lb/>ings of the congregation—and by cultivating kindly\n                feelings<lb/> and agreeable intercourse with the members. This line of<lb/> conduct\n                will be appreciated, and the connexion between the<lb/> Pastor and his flock will be\n                happy and instructive, bringing<lb/> back the agreeable reminiscences of the earlier\n                days of the<lb/> congregation.</p>\n            <p rend=\"indent(1)\"><hi rend=\"italics\"><placeName>Philadelphia</placeName>,</hi>\n                <date><hi rend=\"italics\">April</hi> 9, 1850</date>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p21",
+          "@type": "sc:Canvas",
+          "label": "Inside back",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/954f910b-606d-45f1-906e-437a7703304f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/954f910b-606d-45f1-906e-437a7703304f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p21"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/954f910b-606d-45f1-906e-437a7703304f/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p22",
+          "@type": "sc:Canvas",
+          "label": "Back",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9cd15d2f-e578-4ffb-849f-8e1420152efb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9cd15d2f-e578-4ffb-849f-8e1420152efb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p22"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/9cd15d2f-e578-4ffb-849f-8e1420152efb/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p23",
+          "@type": "sc:Canvas",
+          "label": "p. 23",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3b4ef788-ac43-48da-8351-c7021f41a925%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3b4ef788-ac43-48da-8351-c7021f41a925%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p23"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/3b4ef788-ac43-48da-8351-c7021f41a925/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p24",
+          "@type": "sc:Canvas",
+          "label": "p. 24",
+          "height": 4962,
+          "width": 3314,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9199df94-3bce-4f60-b0cb-9c7d36990b79%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3314,
+                "height": 4962,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9199df94-3bce-4f60-b0cb-9c7d36990b79%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/canvas/p24"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3m03zh8w/assets/9199df94-3bce-4f60-b0cb-9c7d36990b79/original",
+              "label": "Original File - 49.3 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

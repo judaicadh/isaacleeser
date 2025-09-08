@@ -1,0 +1,309 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Nathan, M. N.; Leeser, Isaac; Anytown, St. Thomas; 3 July 1864",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3862bz00"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Nathan, M. N.; Leeser, Isaac; Anytown, St. Thomas; 3 July 1864"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1864-07-03", "5624"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virgin Islands -- St. Thomas",
+        "United States -- Virgin Islands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item34"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8e17458-65ed-438c-9df7-1e836b9d4f09%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8e17458-65ed-438c-9df7-1e836b9d4f09%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6458,
+          "width": 5174,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8e17458-65ed-438c-9df7-1e836b9d4f09%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5174,
+                "height": 6458,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b8e17458-65ed-438c-9df7-1e836b9d4f09%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/assets/b8e17458-65ed-438c-9df7-1e836b9d4f09/original",
+              "label": "Original File - 100 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>St. Thomas</placeName>\n                <date>3<hi rend=\"sup\">rd</hi> July 1864 (5624)</date>\n            </p>\n            <p>\n                <addressee>Revd. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(2)\">My dear <addressee>Mr. Leeser</addressee></p>\n            <p rend=\"indent(4)\">I am in receipt of your various favors<lb/> and also\n                    <date>June</date> Occident with my sermon on the “Citizen\n                    <persName>King</persName>.” Your heading it<lb/> thus is no misnomer, and is\n                satisfactory. It is very exactly reprinted, and afforded,<lb/> let me hope, pleasure\n                to your numerous readers. I am glad you have spoken out plainly<lb/> on the subject\n                of a “personal messiah.” The events of the past, and those looming out of the<lb/>\n                future do not present anything so favorable to the Jewish mind that it should adopt\n                the<lb/> opinions of <persName>Maunheimer</persName> and\n                    <persName>Horwitz</persName> on the subject. I, for one, am undesirous of\n                abandoning<lb/> the rich hopes of <placeName>Israel's</placeName> return to\n                    <placeName>Palestine</placeName>, and the universal belief in monotheism\n                among<lb/> the families of the earth, together with the reign of absolute peace\n                throughout the world,<lb/> and all the priceless blessings attendant thereon, for\n                the vague ideas and generalities of<lb/> Jewish neologists. I am for <add>לתורה\n                    ולתעודה</add> content to die hopefully <add>אף על פי לתמהיה</add></p>\n            <p rend=\"indent(1)\">What say you to the “Powenir<add>?</add> party of\n                    <placeName>Curaçao</placeName> issuing their shameless caliency<add>?</add><lb/>\n                against their brethren! It is very painful to find Jews thus venting their spite, in\n                the<lb/> heat of local dissension, to the detriment and perhaps future evil of all\n                    <placeName>Israel</placeName>. I allude<lb/> to their publishing the libel that\n                    <add>ולמלשנים</add> is directed against Christians. May the<lb/> consequences of\n                disseminating this falsehood not recoil on themselves. The pastoral<lb/> letter of\n                    <persName>Rabbi Chumaceiro</persName> you must have seen by this time, as well\n                as the “dingy<lb/> sheet” containing the slander. You surely will not suffer your\n                pen to be idle in this<lb/> emergency, we all expect to see a scathing answer from\n                you on the whole question.<lb/> I had already in the pulpit exposed, in part, its\n                other falsity; and intend going on till the<lb/> subject be exhausted. The head and\n                front of the party was here a week ago,<lb/> but I declined meeting him or extending\n                him any courtesy. I told his friends that</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6380,
+          "width": 5098,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5fcf8748-6dd8-4496-a57c-24e2c83bed2f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5098,
+                "height": 6380,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5fcf8748-6dd8-4496-a57c-24e2c83bed2f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/assets/5fcf8748-6dd8-4496-a57c-24e2c83bed2f/original",
+              "label": "Original File - 97.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><del>with</del> to his and party's views on the subject of synagogal and other\n                reforms I would<lb/> not have attacked, but when he and they issued a slanderous\n                    impretation<add>?</add> against<lb/> their own flesh and blood, it was time,\n                since it affected the reputations of every<lb/> individual Israelite, that their\n                ignorance and malevolence should be exposed.<lb/> His name is <persName>Abraham\n                    Cohen Henriques</persName>. His chief collaborators and his brother<lb/>\n                <persName>Solomon Cohen Henriques</persName>, his brother in law <persName>Augel\n                        Jessuron<add>?</add></persName>, a <persName>Doctor\n                Henriques</persName><lb/> and a <persName>Doctor Senior</persName>. These are the\n                    <add>חמשה טובי עיר</add>. <persName>A. C. H.</persName> writes in Dutch.\n                His<lb/> effusions are then translated into French by <persName>Dr. H</persName>,\n                and <persName>Augel Jessuron</persName> then<lb/> puts the precious ideas into\n                Spanish. But the filtration does not purify the<lb/> feculent matter which\n                    gutters<add>?</add> from their pens. It is said that <persName>A. C.\n                    H.</persName> came on<lb/> here on a speculative trip to obtain subscribers to\n                the party, and contributions to<lb/> their <del>new</del> proposed new Synagogue,\n                the worship in which is, sans doute, to eclipse, in its bold<lb/> departure from the\n                ancient standards of practice, and that the German and<lb/> American Reformers have\n                hitherto established. I do not think he gained<lb/> either subscribers or\n                subscriptions and as his attack on the Jews was<lb/> generally denounced in no\n                unmeasured terms by even nominal Israelites,<lb/> he could not have gone home\n                rejoicing.</p>\n            <p>My post here is not an easy one, but I am disposed to accept the<lb/> difficulties it\n                presents. Fortunately the By Laws which stipulate that<lb/> the worship shall be\n                according to that followed by the Spa. &amp; Portug. Jews, and<lb/> the power the\n                Laws invest me with of directing and conducting the whole<lb/> economy of public\n                worship, <del>is</del> are obstacles to any sudden or ill considered<lb/> changes in\n                the ritual or worship. I can take my stand on these protecting<lb/> defenses, and\n                refuse to sanction what the majority of <placeName>Israel</placeName> disapproves\n                of. Quietness however reigns at present, yet the time may not be so distant for<lb/>\n                the outbreak of disturbances. But I do not apprehend such violence as<lb/> the\n                    Porrenir<add>?</add> party have exhibited.</p>\n            <p rend=\"indent(1)\">We have had some little display of irreligion not withstanding. Your\n                old</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6458,
+          "width": 5174,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/90b77995-6f3d-4efa-b224-be00c2195147%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5174,
+                "height": 6458,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/90b77995-6f3d-4efa-b224-be00c2195147%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/assets/90b77995-6f3d-4efa-b224-be00c2195147/original",
+              "label": "Original File - 100 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>correspondent <persName>M B. Simmonds</persName>, now poor no longer, but rich in\n                worldly goods,<lb/> has been staggered by <persName>Colenso</persName>, and openly\n                declares himself a <hi rend=\"underline\">Unitarian</hi>!! <add>?</add> his<lb/>\n                disbelief in the Bible! On my election, people were taxed more highly to pay my\n                salary, among<lb/> others himself. To get rid of this demand of the Synagogue, he\n                applied to be admitted a<lb/> member of the Lutheran church; the<del>y</del>\n                authorities consented to take his money, taxed him<lb/> $32 <add>?</add> allotted\n                him a seat in church &amp;c, but the Govermt. told him he must<lb/> pay his\n                    finta<add>?</add> to the Synagogue also, unless he became a Christian. Of course\n                if <persName>Colenso</persName><lb/> unsettled his belief as a Jew, he did not\n                predispose him to to take up xleavity<add>?</add><lb/> instead, so at the present\n                moment he contributed to Shool and Church, and belongs<lb/> to neither. Another\n                German <persName>Shofel</persName> likewise refused to pay the whole of his<lb/> tax\n                and sent a letter to the representatives that if they did not reduce it to half<lb/>\n                he would <hi rend=\"underline\">apostatise</hi>. They sent him no answer, but recorded\n                a strong resolution<lb/> on their minutes condemnatory of his conduct. He went to\n                the Moravians, and applied<lb/> to become a member; but on being told that he must\n                learn certain test books by<lb/> heart, and he examined on them in open assembly\n                prior to being <sic>baptised</sic>, he withdrew in disgust. So<lb/> you see I do not\n                repose on a bed of roses</p>\n            <p rend=\"indent(1)\">I <sic>inclose</sic> herewith the receipt of the Captn. of the\n                Responsible<lb/> and your Invoice Amtg to $78.50 The books have not come to\n                hand,<lb/> they must have been amongst that part of the cargo condemned and<lb/>\n                sold at <placeName>Bermuda</placeName>. I want the small Bibles and Roads to\n                Faith<lb/> badly, and Prayer Books too. I wrote all about them in the<lb/> letter I\n                gave my brother, and which I suppose he has handed you.</p>\n            <p rend=\"indent(1)\">Well the Great <persName>General Grant</persName> perhaps may not\n                turn out<lb/> a <persName>Ulysses</persName> after all, and the\n                    <placeName>south</placeName>\n                <hi rend=\"underline\">may yet conquer a peace</hi>. I<lb/> fervently hope and pray\n                they may, and tho' I would be <sic>loth</sic> to see any<lb/> part of the Federal\n                territory ravaged and despoiled as the Union soldiery<lb/> treated the Confederate\n                territory, yet little commiseration would be felt<lb/> if northern soil were made to\n                feel what it is to be trodden by the armed</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6458,
+          "width": 5174,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e326d49f-a867-48e1-bc78-0cbf2f0c80ae%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5174,
+                "height": 6458,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e326d49f-a867-48e1-bc78-0cbf2f0c80ae%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/assets/e326d49f-a867-48e1-bc78-0cbf2f0c80ae/original",
+              "label": "Original File - 100 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>heel of the invader. Down to date the southerners appear to have<lb/> the best of it.\n                The deserve success, for they have sacrificed their<lb/> own lives to achieve it,\n                and not hired mercenaries to fight their<lb/> battles. My brother has frightful\n                northern proclivities. His opinion<lb/> of northern honor and political honesty is\n                lofty and grand. We<lb/> are widely different in our Estimate of the result, and\n                the<lb/> ability as well as inclination of the Federal states to pay the<lb/> public\n                creditor. I hope he will not be one of the sufferers;<lb/> I have urged him till I\n                am weary to sell out, and have<lb/> nothing to do with Greenbacks and 5/20s, and on\n                the finely<lb/> engraved promises to pay of <persName>Mr. Chase</persName>, but all\n                my entreaties<lb/> have been of no avail.</p>\n            <p rend=\"indent(1)\">I will write you soon again. I delivered your<lb/> message to\n                    <persName>Mr. Osorio</persName> about the £14. The <persName>Revd. Dr.\n                    Myers</persName> of<lb/>\n                <placeName>Kingston Ja</placeName> has received notice that his services will not\n                be<lb/> required after his term of engagement expires, this time next year.<lb/>\n                <persName>Mrs. Nathan</persName> and her mother send their kind regards to you<lb/>\n                and all old friends. <persName>Mayor Wolff's</persName> golden wedding will<lb/>\n                take place on <date>31<hi rend=\"sup\">st</hi> August</date>, Grand preparations are\n                being made<lb/> for the event. I will write you all about it when it comes<lb/> off.\n                    <persName>Chamacero</persName> is coming over for the occasion.</p>\n            <p rend=\"indent(1)\">God bless and protect you prays</p>\n            <p rend=\"indent(2)\">yours sincerely</p>\n            <p rend=\"indent(3)\">\n                <persName role=\"author\">M N Nathan</persName>\n            </p>\n            <p>The heat is dreadful. It is really a great effort to write<lb/> a long letter, and I\n                am sure you will appreciate it.<lb/> Tell my brother, if with you, that I will write soon<lb/>\n                <add>בברכה</add></p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3862bz00/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Nathan, M. N.; Anytown, St. Thomas; 5 August 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3ns0mj2d"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Nathan, M. N.; Anytown, St. Thomas; 5 August 1847"]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-08-05", "5 August 5607"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virgin Islands -- St. Thomas",
+        "United States -- Virgin Islands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item200"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/09b97798-7004-436a-8c77-7627a5b88a37%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/09b97798-7004-436a-8c77-7627a5b88a37%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 7132,
+          "width": 4412,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/09b97798-7004-436a-8c77-7627a5b88a37%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4412,
+                "height": 7132,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/09b97798-7004-436a-8c77-7627a5b88a37%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/assets/09b97798-7004-436a-8c77-7627a5b88a37/original",
+              "label": "Original File - 94.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>St. Thomas</placeName>, <date>August 5<hi rend=\"sup\"\n                        >th</hi>. 5607 (1847)</date></p>\n            <p>My dear Sir</p>\n            <p rend=\"indent(1)\">You have just cause to be surprised at my silence,<lb/> but my\n                numerous duties and engagements prevent me from answering<lb/> both correspondents,\n                and even family letters. To make up for lost<lb/> time I intend sending a long\n                letter, and will endeavor to continue writing<lb/> to one whom I hold in the highest\n                esteem. I send herewith the corrected<lb/> copy of the Road to faith and intend\n                presenting it to your publication<lb/> society, if it is worth their acceptance;\n                with this condition that they will<lb/> always supply me at the publication price. I\n                have added little or nothing<lb/> and made but few <sic>Emendations</sic>. Of the\n                former I specify the <del>ten com-</del> maimonidean<lb/>\n                <del>mandments</del> creed, of the latter, very little will meet your eye of an\n                unsatisfac<lb/>tory nature. You are at liberty to correct any text I have not\n                translated<lb/> properly; <add>כי אז אהפך אל עמים שפה ברורה צפניה ג, ט</add> has\n                been rendered “I will turn the nations<lb/> to pray with pure lips” instead of the\n                    <sic>authorised</sic> version, I will render pure<lb/> the lips of the\n                people.”</p>\n            <p rend=\"indent(1)\">It grieved me to notice the useless discussion,<lb/> in the valuable\n                pages of the Occident on the question of west Indian<lb/> citrons. Had the writers\n                who so dogmatically insisted upon their being<lb/>\n                <add>מרכבים</add> grafted, been at all acquainted with the\n                    <placeName>Antilles</placeName>, they would<lb/> never have breached the matter.\n                In these <placeName>Islands</placeName> too much attention<lb/> is devoted to the\n                staple production, as sugar, coffee &amp;c to allow a<lb/> laborer's time to be\n                wasted on the improvement of fruit trees. Of <placeName>Jamaica</placeName><lb/>\n                especially I can assert most positively that the Citron grows in its<lb/> original\n                state, either where it was first planted, or where the wind has<lb/> scattered the\n                seed, and it has taken root. The same may be said of all<lb/> fruit trees, they are\n                met with on all the estates, but no care is bestowed<lb/> on them. The orange and\n                shaddock and perhaps the line, may, now that<lb/> estates owners try to make every\n                thing profitable on their lands, receive<lb/> a share of attention, but the citron\n                and others of that family are useless <del>to</del><lb/> except for making\n                preserves, and grafting for that purpose would not pay<lb/> the cost of oranges,\n                shaddocks, and lime juice are exported, citrons grow and<lb/> rot on the trees they\n                may be had for the asking. The whole expense is confined<lb/> to gathering bringing\n                them to town, packing, and freight to the states. One<lb/> of our brethren in\n                    <placeName>Jamaica</placeName> used to send an annual supply to the\n                syna-<lb/>gogues by his slaves, free of cost, the present possessor of his\n                estates<lb/> permits any one to pluck citrons, who will send for them. They grow\n                only<lb/> in the mountainous districts, and labor being high, people demand\n                good<lb/> wages to walk the distance, and bring them to town. Of late years,\n                    <persName>Mr. Kursheedt</persName><lb/> was supplied from a quarter\n                    near<del>er</del> to <placeName>Kingston</placeName>; but the citrons from\n                that<lb/> place were neither as handsome nor of so good a quality as those from<lb/>\n                the lofty <placeName>Port Royal</placeName> mountains. <persName>Mr.\n                Levy</persName>, the gentleman who resides there,<lb/> and his uncle before him,\n                were both men of strict religious principles. As<lb/> natives of\n                    <placeName>Europe</placeName>, and perfectly acquainted with the peculiar\n                citrons<lb/> permitted to be used, they never grafted the trees. It must also\n                be<lb/> recollected that our Portuguese brethren in <placeName>Jamaica</placeName>\n                were presided over for many<lb/> years by eminent Chachamine<add>?</add>; the chief\n                    <persName>Chacham De Cordova</persName>, an eminent<lb/> scholar in biblical and\n                profane knowledge, and whose manuscript<lb/> writings attest his profound\n                acquirements. Surely, these pious &amp; orthodox<lb/> persons would not have\n                sanctioned the use of grafted fruit. Either then<lb/> the learned in\n                    <placeName>America</placeName> have passed an erroneous judgment, or all the\n                Chachamin<lb/> in <placeName>Jamaica</placeName> were wrong, or spurious citrons\n                have been shipped to your<lb/> congregations and packed off as genuine fruit. One\n                thing must be borne<lb/> in mind that in <placeName>Europe</placeName> the citron is\n                well tended, in the <placeName>west Indies</placeName><lb/> neglected, and the\n                difference of appearance has been imputed to grafting,<lb/> which I again repeat is\n                not <sic>practised</sic> in <placeName>Jamaica</placeName>, whence you have<lb/>\n                heretofore been supplied. You are at liberty to make use of this information<lb/>\n                and name me as the author.</p>\n            <p rend=\"indent(1)\">You have written <persName>Mr. Wolff</persName> again on the<lb/>\n                subject of my reply to the attack on confirmation, but it has been</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 7080,
+          "width": 4412,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d2ab50cc-47e8-486e-8a4d-07e94843faaa%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4412,
+                "height": 7080,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d2ab50cc-47e8-486e-8a4d-07e94843faaa%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/assets/d2ab50cc-47e8-486e-8a4d-07e94843faaa/original",
+              "label": "Original File - 93.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>delayed so long, that it has now lost its interest.” At the time the<lb/> articles\n                appeared, it was my intention to have replied; and the whole was<lb/> sketched out\n                and only wanted writing <del>it</del> fully, when the shameless conduct<lb/> of\n                    <persName>Mr. Naar</persName> and his confederates in attempting to discharge me\n                from my<lb/> post called forth all my energies to defeat their machinations, and\n                left<lb/> me little leisure and less inclination for so trifling a matter.\n                Success<lb/> attended my efforts; and an administration, whose supporters only\n                sought<lb/> to do the congregations as much mischief as possible; was turned out to\n                make<lb/> way for better men. Whilst this was in progress, and my daily bread\n                at<lb/> stake, when the prospect of having to go and seek a living elsewhere\n                stared<lb/> me in the face, could you suppose that I should sit down composedly<lb/>\n                to reply to an opponent whose object and motive in assailing me arose<lb/> from\n                malice? And had I done so, would my words have been free from<lb/> asperity?\n                Smarting under wrong, would there not have been too much<lb/> bitterness in my\n                reasoning? <placeName>Jamaica</placeName> was before me, my resignation<lb/> there\n                too recent to have been forgotten, and the unhappy circumstances which<lb/> caused\n                it were remembered. And was I further to commit myself? Was I<lb/> to answer a man\n                who is a model of infidelity and unbelief, who does not<lb/> observe a single day in\n                the year, as tho' he had been a sincere &amp; upright<lb/> Israelite? Must I not\n                necessarily have exposed his hypocrisy, and shown<lb/> that his solicitude\n                    <del>about</del> for our religion had its source in dislike to me<lb/>\n                personally? I must have exposed the whole affair to vindicate confirmation<lb/> and\n                myself, and this step would have widened the breach in the congregation<lb/> and led\n                to further aggravation and ill feeling. <persName>Mr. Naar</persName> and I are\n                now<lb/> reconciled and I hope soon by prudence and circumspection to restore<lb/>\n                peace and good will among all parties, except <persName>Mr. M. B.\n                    Simmonds</persName>, whom<lb/> every one despises and dislikes, and who is a bad\n                hearted man. All his<lb/> talent, and he has much, can never reestablish him in the\n                favorable<lb/> opinion of the public. Meanwhile I have not been idle, but have\n                been<lb/> preparing to strengthen and improve my position. Again, necessity has<lb/>\n                compelled me to open a school, to give me bread, in case of rupture or<lb/>\n                discontent in the congregation, necessity, not choice, has driven me to it for<lb/>\n                I had hoped to sit down here and labor for the welfare of my flock as in<lb/>\n                <placeName>Jamaica</placeName>. I have not been altogether unsuccessful. In another\n                quarter<lb/> also I have been endeavoring to make provision for future subsistence.\n                All<lb/> these projects trench upon my time, and exclusively with the writing of\n                sermons engage my attention.<lb/> Depending on the faith of the congregation, I sent\n                for my mother in law and<lb/> her mother who is eighty years old, and cannot easily\n                move from place<lb/> to place. Cares have multiplied you see and <del>have</del>\n                restrain my will, else<lb/> I would not be in <placeName>St. Thomas</placeName>. I\n                detail, that you may make allowance<lb/> for my silence, and not attribute it to\n                indolence or indifference. The good<lb/> effects of confirmation have more and more\n                convinced me of its great<lb/> utility and tho' I have altered some of the\n                formalities, I am not prepared<lb/> to abandon it. But why, let me ask, were not\n                your observations <sic>levelled</sic><lb/> against the ceremony, <del>?</del>\n                replied to by <persName>Dr. Lilienthal</persName>? He is not incapable<lb/> of\n                defending it, and its advocacy concerns him who has the spiritual<lb/> care of\n                thousands, more than poor me who have only 3 or 4 hundred to guard.<lb/> His reasons\n                I cannot divine, unless he thought <hi rend=\"underline\">your arguments</hi>\n                irrefutable,<lb/> which, in my opinion, the are not. It does not appear, that in\n                your long<lb/> ministry, you have been able, without confirmation, to introduce a\n                more<lb/> serious observance of the <date>sabbath</date> in\n                    <placeName>Philadelphia</placeName>, or the abolition of<lb/> mixed marriages,\n                or the foundation of Jewish Schools. In <placeName>Jamaica</placeName><lb/> I did\n                not resort to confirmation; I accomplished all these objects without<lb/> it; here\n                however I find it a useful instrument in keeping the sheep within<lb/> the fold; and\n                thro' the children have wrought upon the parents so that some<lb/> determined\n                    <date>sabbath</date> breakers have been won from their evil courses. That\n                confirmation<lb/> has answered the purpose I intended it to serve, knowledge of our\n                religion to<lb/> the young, reflection upon past misdeeds and serious resolutions to\n                amend on<lb/> the path of the old. Its value has been tested here, and found\n                beneficial, and as the<lb/> most orthodox, as\n                    <persName>Plessuer<add>?</add></persName>, say, <persName>Adler</persName> and\n                others are in its favor, it cannot be<lb/> termed heterodoxical. I do not pin my\n                faith on it, but with God's help, I hope<lb/> to further its <del>already</del>\n                usefulness. No child shall be called to the sepher who is<lb/> ignorant of the\n                fundamental principles of Judaism but yet <hi rend=\"underline\">I</hi> will not\n                make<lb/> confirmation compulsory, the <persName>king</persName> of\n                    <placeName>Denmark</placeName> will however do so. It may suit<lb/> the\n                unbeliever to disapprove of it, because he reveres nothing; this cause, added<lb/>\n                to personal ill will to me and <persName>Mr. Wolff</persName>, was the reason of\n                    <persName>Mr. Naar's</persName> philippic.<lb/> It grieved me to find your\n                powerful pen enlisted in the service of irreligion,<lb/> but your dislike of any\n                thing approaching reform instigated you to throw<lb/> disparagement on a valuable\n                aid to our religion in these times when license</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 7070,
+          "width": 4412,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bfcc4d15-c116-4315-881b-c6d972329a83%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4412,
+                "height": 7070,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bfcc4d15-c116-4315-881b-c6d972329a83%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/assets/bfcc4d15-c116-4315-881b-c6d972329a83/original",
+              "label": "Original File - 93.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>of speech, thought, and conduct is dignified by the name of liberty of<lb/>\n                conscience and action. I cannot account for your championship in any other<lb/>\n                manner. There were points in <persName>Mr. Naar's</persName> communication savoring\n                of the grossest<lb/> infidelity; whoever read it must have been convinced that it\n                emanated from a<lb/> rank Deist; yet how bland were your corrections of those\n                points, and how determined<lb/> your onslaught on confirmers and confirmation. The\n                pages of the Occident may yet, on<lb/> some future occasion be open to my advocacy\n                of confirmation, when my mind is less<lb/> harassed; and be assured that the past\n                will not then be forgotten. Till then, I resume<lb/> my <sic>defence</sic> of the\n                    <hi rend=\"underline\">promise</hi>, not the <hi rend=\"underline\">oath</hi>\n                <del>taken</del> made at the first ceremony, and shall be<lb/> able to produce the\n                warrant of scripture for its introduction. Polemics do not<lb/> appear to be\n                    <persName>Mr. Naar's</persName> forte; politics whether discussed in caucus,\n                stage <sic>waggon</sic>,<lb/> or groggery are more suited to his taste, else he\n                would not have made himself<lb/> so ridiculous by stating that the <hi\n                    rend=\"underline\">Immortality of the Body</hi> instead of its <hi\n                    rend=\"underline\">resurrection</hi><lb/> was one of the doctrines <hi\n                    rend=\"underline\">he</hi> could not approve of. Shade of\n                        <persName><sic>maimonides</sic></persName>! dost<lb/> thou not feel rebuked\n                    <del>at</del> by the superior understanding of the Quondain<add>?</add>\n                mayor<lb/> of <placeName>Elizabeth Town</placeName>? But my dear <persName>Mr.\n                    Leeser</persName>, you will never be able to write<lb/> down confirmation; it\n                will maintain its ground and spread itself in <placeName>America</placeName><lb/> as\n                elsewhere, and time may yet behold in you and of its warmest defenders<lb/> one word\n                more on this subject; refer to the 4<hi rend=\"sup\">th</hi> no of the First Fruits,\n                and note<lb/> that confirmation had my best wishes, before the thought of\n                    <placeName>St. Thomas</placeName> entered my<lb/> mind. You will find an article\n                headed Bar-Mitzva or Confirmation in which<lb/> I expressed a desire for its\n                adoption in <placeName>Jamaica</placeName>.</p>\n            <p rend=\"indent(1)\">Your last letter was exceedingly interesting. The sketch of<lb/>\n                <persName>Rabbi Moshe Katzenellenbogen</persName> so graphic and illustrative of the\n                Jewish charac-<lb/>ter and studies in <placeName>Poland</placeName> and\n                    <placeName>Russia</placeName>. Your opinion is correct of our people's<lb/>\n                being the most clever among mankind. Even if their studies are not practically<lb/>\n                useful in a busy world, they sharpen the intellect and fit <del>then</del> the mind\n                for<lb/> understanding any thing. A Polack or Russian Israelite having once\n                obtained<lb/> a little refinement and polish is able to make his way in any pursuit\n                whether<lb/> literary, scientific, or mercantile. It yet remains to be seen what\n                effect<lb/> the immense immigration of our people into the states will have on\n                religion<lb/> generally. The problem will be solved in the western world\n                whether<lb/> Christianity shall not fall at the feet of Judaism. On that continent\n                where<lb/> the fullest liberty meets the most rigorous despotism of body and mind,\n                where<lb/> American and Russian institutions border on each other the truth of\n                prophecy<lb/> will first enlighten man, and its accomplishment take place. Whilst\n                every<lb/> Jewish heart bleeds at the miseries of our Russian brethren, it is\n                apparent<lb/> that some great change is at hand in the fortunes of our people.\n                    <persName>Nicholas</persName><lb/> is not influenced by any other motive to act\n                as he does towards them and<lb/> the Catholics, than to acquire absolute\n                    <del>dominion</del> rule over the consciences<lb/> of his subjects and to make\n                them all conform to one religion as they obey<lb/> one sovereign who is solo master\n                of their lives <del>of his</del> and liberties. It seems<lb/> as tho' he spoke\n                    <del>in</del> the language of an ancient oppressor <add>אעלה על במתי עב אדמה\n                    לעליון ישעי' יד יד</add>.<lb/> It is a mighty and gigantic project displaying\n                his daring genius not even<lb/>\n                <persName>Antiochus Epiphanes</persName> dared to go so far.\n                    <persName>Nicholas</persName> wars not against<lb/> Judaism alone, he takes\n                    <del>up</del> arms against Christendom &amp; mohammedan<lb/>ism. Our generation\n                will not witness his success or that of his successors;<lb/> but how well does he\n                realize <persName>Ezekiel's</persName> description of the “<persName>Prince of\n                    Rosh</persName><lb/>\n                <placeName>Meshic</placeName> and <placeName>Tubal</placeName>” destined to be\n                broken with his multitudes on the<lb/> mountains of <placeName>Israel</placeName>.\n                Really the longer we live, the better do we<lb/> comprehend scripture, and our\n                ablest commentators were on these<lb/> historical revelations less enlightened than\n                we who cannot hold a<lb/> candle to them in knowledge. Prophecy sheds a stronger\n                light the longer<lb/> it turns. When <placeName>Russia</placeName> was an obscure\n                and barbarous country which of<lb/> our commentators could have pointed to it\n                unknown as <del>she</del> it was to be<lb/> the spot whence the last opponent to\n                    <placeName>Israel's</placeName> restoration and peace<lb/> should issue? At this\n                day, who can scruple to doubt that the <add>?</add><lb/> dynasty was forseen by the\n                prophet? Depend on it, no prayers, no<lb/> entreaties will sway\n                    <persName>Nicholas</persName> from his purpose, no\n                    <persName>montefiores</persName> will<lb/> succeed; he will promise, but will\n                not relax his iron determination.<lb/> He will modify his <add>?</add>, but their\n                end and intention will remain<lb/> the same. He will possibly permit a larger\n                emigration of those who<lb/> can afford to buy the privilege of departing, but he\n                will not the<lb/> less persevere in his oppression. Martyred blood will be shed and\n                perhaps<lb/> when that avails not, he will drive <placeName>Israel</placeName> from\n                his land as Pharoah<lb/> did. In politics the danger is as imminent as in Religion,\n                    <placeName>Turkey</placeName> is</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 7132,
+          "width": 4412,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/af532ec1-ef14-49da-839c-5db4afc8e816%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4412,
+                "height": 7132,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/af532ec1-ef14-49da-839c-5db4afc8e816%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/assets/af532ec1-ef14-49da-839c-5db4afc8e816/original",
+              "label": "Original File - 94.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>already in his grasp. <placeName>Austria</placeName> will succumb,\n                    <placeName>Prussia</placeName> will follow, unless<lb/> the German nations\n                combine for common safety. And whither shall the<lb/> millions of\n                    <placeName>Israel</placeName> in these countries fly to for refuge and\n                protection save to <placeName>Western<lb/> Europe</placeName>, or more probably to\n                the <placeName>United States</placeName>? Therefore the hypothesis<lb/> that\n                    <placeName>America</placeName> is to be the chosen soil whereon mankind will\n                first be<lb/> illumined is not so very extraordinary. Meanwhile let us pray for\n                the<lb/> messiah coming as did our pious forefathers, and await it with devout<lb/>\n                and confident hearts.</p>\n            <p rend=\"indent(1)\">Have you yet broken a lance against <persName>Rabbi\n                Wise</persName><lb/> as you anticipated? I was prepared for something more\n                satisfactory<lb/> and convincing than his logical reasoning in the Occident.\n                Possibly his<lb/> words have suffered by translation but part of his arguments\n                appear to me<lb/> very contradictory. For example in page 160 <date>June</date> No\n                of Occident he says.<lb/> “The chief precept of our religion is to be holy that is\n                    <hi rend=\"underline\">to love God</hi> &amp;c. <hi rend=\"underline\"\n                >Inferior</hi><lb/> to this precept is the one to acknowledge God expressed in the\n                first com<lb/>mandment &amp; If one really acknowledge him we shall love Him and\n                thereby<lb/> become holy! First <persName>Rabbi Wise</persName> makes the love of\n                God paramount to the<lb/> acknowledgment of God, and in the next line tells us that\n                the <hi rend=\"underline\">effect</hi> of<lb/> acknowledging him will lead us to love\n                Him. If love then be <hi rend=\"underline\">the</hi> chief<lb/> it must lead to\n                acknowledgment and not acknowledgment to love. Beside<lb/> I was always taught that\n                acknowledging the Divine Being is the first<lb/> principle <del>to be taught</del>.\n                In the <add>שמע</add> it is so; love of God being a consequence<lb/> of recognizing\n                and acknowledging him the same in the Decalogue, in<lb/> the Creed of\n                    <persName>Maimonides</persName> and <persName>Albo</persName>. The neo-judaical\n                opinions of <persName>Rabbi<lb/> Wise</persName> are not in harmony, on this point,\n                with the law and prophets.<lb/> Prayers, generally, is subjective; but surely\n                scripture presents many of an<lb/> objective character <persName>Moses</persName> on\n                behalf of <persName>Miriam</persName>, <persName>Samuel</persName> for the people\n                &amp;c &amp;c<lb/> Persons pray for each other disinterestedly hoping that the\n                effect may<lb/> be objective. “If the proper object and purpose of prayer” I quote\n                page 158<lb/> be the reflective effect upon the spirit and heart of him who\n                prays”<lb/> thus one should never pray for our fellow creatures; all our ideas\n                would<lb/> be confined, in prayer, to our own spiritual and temporal\n                improvement.<lb/> The subjective and objective effect of prayer is too refined a\n                distinction<lb/> to be understood by the generality of our people, and\n                    <persName>Rabbi W.</persName> has not<lb/> explained this difficult point\n                clearly. Your emphatic objection in<lb/> page 158 has my cordial support. Of course,\n                    <persName>Rabbi W.</persName> wants no temple<lb/> no national restoration, no\n                messiah, he only wants a <add>שארית</add>. Why not<lb/> recommend the mutilation of\n                the prophecies, or the leaving out, when<lb/> revising the law, all such passages as\n                relate to <placeName>Israel's</placeName> redemption and<lb/> restoration, such as\n                    <add>ולב\"ה אלהיך את שבותך</add>. <persName>Rabbi W's</persName> opinions are not\n                new to<lb/> me. The modern reformers generally have attached to the removal<lb/> of\n                evil disabilities and the recognition of Israelites to the rights of<lb/>\n                citizenship, their views of messiah's coming. They do not ask much,<lb/> but what\n                conception can they have of the prophecies, if they thus<lb/> confine the future\n                glory of <placeName>Israel</placeName> to the enjoyment of such doubtful<lb/> good?\n                The conclave of American Rabbins are right however in<lb/> seeking to establish a\n                minhag <placeName>America</placeName>. It is most necessary<lb/> if only to make\n                Judaism and synagogue worship understood<lb/> by Christians. I almost shudder at the\n                prejudices which the<lb/> conduct in some synagogues must excite in the Christian\n                mind.<lb/> Whilst therefore condemning some of the principles evolved by<lb/>\n                <persName>Rabbi Wise</persName> as the mouthpiece of the conclave, the project<lb/>\n                has my best wishes. Why do you not start up and effect the<lb/> same for the\n                Sephardim of whom you are the head, both by<lb/> length of service, talent &amp;c.\n                They require it their synagogue<lb/> discipline is exceedingly lax, and needs\n                restoration.</p>\n            <p rend=\"indent(1)\">I am compelled to conclude abruptly as a vessel<lb/> is just about\n                to sail. My health is so bad that this letter has</p>\n            <p\n                rend=\"The letter continues written sideways over the previous text, at the left side of the page.\"/>\n            <p>been taken up 5 or 6 times to be completed. I enclose the corrected copy of the “Road\n                to faith”<lb/> and present it in my name to your publication society. <persName>Mrs.\n                    Nathan</persName> sends her love to you<lb/> and regards to all friends whom I\n                will name another time. Hoping that the Almighty<lb/> will give you health and\n                strength to discharge your ministerial duties during the<lb/> Holidays, and that\n                your prayers on behalf of your congregation and self may<lb/> be heard on high</p>\n            <p rend=\"indent(6)\">I am</p>\n            <p rend=\"indent(7)\">Yours Truly</p>\n            <p rend=\"indent(7)\">\n                <persName role=\"author\">MNNathan</persName>\n            </p>\n            <p>If you see my friend <persName>Vaz<add>?</add></persName> of\n                    <placeName>Jamaica</placeName>, tell him not to be angry for I will<lb/> write\n                him very soon. I hope he is well.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ns0mj2d/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

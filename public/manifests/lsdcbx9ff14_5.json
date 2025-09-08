@@ -1,0 +1,291 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Philadelphia, PA; 1 January 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3d21s50j"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Philadelphia, PA; 1 January 1847"]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-01-01", "Shebat 5607"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx9FF14_5"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/3d05ea90-0b07-4c9e-ac8f-a6cec3446fde%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/3d05ea90-0b07-4c9e-ac8f-a6cec3446fde%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 8150,
+          "width": 5090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3d05ea90-0b07-4c9e-ac8f-a6cec3446fde%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5090,
+                "height": 8150,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3d05ea90-0b07-4c9e-ac8f-a6cec3446fde%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/assets/3d05ea90-0b07-4c9e-ac8f-a6cec3446fde/original",
+              "label": "Original File - 125 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 8150,
+          "width": 5090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/fa8b0c20-576b-4159-9681-1199312930f4%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5090,
+                "height": 8150,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/fa8b0c20-576b-4159-9681-1199312930f4%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/assets/fa8b0c20-576b-4159-9681-1199312930f4/original",
+              "label": "Original File - 125 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>2</p>\n            <p>is so little acquainted with living examples of holy and virtuous men<lb/> learned\n                    <del>of</del> in the Law, and who perhaps <del>but for</del> except his\n                schoolbooks, never yet has<lb/> seen the title of another Hebrew book? And should I\n                go too far in<lb/> underrating our American youth, I am surely not too\n                scrupulous<lb/> in apprehending that the boys placed on the pulpit will soon\n                defy<lb/> the holy lessons of their teachers and their teachers' teachers, and<lb/>\n                they might become “Shepherds that cannot understand and<lb/> Pastors” “that destroy\n                and scatter the Sheep of the<lb/> pasture.” Let the history of foreigners and\n                foreign ministry be a<lb/> warning example to <placeName>America</placeName>. On\n                exposing some dangers in the<lb/> nature of your plan, I intend by no means to\n                disparage its<lb/> value and import and, but on the contrary, our consciousness of\n                such<lb/> dangers, will induce and prepare us to act with the greater caution<lb/>\n                and prudence, that we might the better insure good success and<lb/> glorious results\n                to the holy cause of Judaism.</p>\n            <p rend=\"indent(1)\">My remarks thus far concern the latter pages of your article, and\n                are<lb/> anticipated here, because I preferred to answer first to points on the\n                substance of<lb/> which we both would easily agree—But what concerns the first pages\n                of your<lb/> “Educ. for the ministry” I candidly confess to you, that in reading\n                them I<lb/> felt grieved to the bottom of my heart.—To any sincere and religious\n                Jewish mind<lb/> it must appear as <del>be</del> a horrible cruelty to see\n                persecution, oppression, contempt and scorn<lb/>\n                <sic>practised</sic> on men, many of whom the Law of God might call the Pillars of\n                Judaism<lb/> in <placeName>America</placeName>!!—We have men in\n                    <placeName>America</placeName>, who from their cradle <del>off</del> have been\n                brought<lb/> up in piety and learning, men who have “a knowledge of moral\n                philosophy, of hebrew<lb/> in all its branches, biblical comments, mishnah, Talmud,\n                Jewish history and<lb/> “antiquity, Algebra, French, German, general History and\n                Geography”<lb/> and who are “not unacquainted with English Literature and Grammar”\n                (or in<lb/> saying this I have made use only of the same order and terms wherewith\n                you described<lb/> the studies of a High School) [page A76.] would I make any\n                addition instead of “a<lb/> knowledge” on many heads I would have said “Eminence and\n                erudition” I would<lb/> have also said, men of logical and sound reasoning and\n                argument and of considerable<lb/> experience; and what is <del>the</del> more than\n                all, personally known to us for a number of years as<lb/> men who know no disguise,\n                who are peaceful virtuous, pure and firm in principle and<lb/> practice of religion,\n                strict <del>for</del> as regards themselves and tolerant towards others—There\n                are<lb/> also others of whom we would but partly speak in the above terms, and\n                perhaps not<lb/> at all apply the latter additions; but after all no more indulgence\n                than actually<lb/> occasionally used in <placeName>America</placeName>, might be\n                needed in their behalf.—“And where</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 8150,
+          "width": 5090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/60c2791a-8a44-4bb2-b9d6-11d3113f806b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5090,
+                "height": 8150,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/60c2791a-8a44-4bb2-b9d6-11d3113f806b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/assets/60c2791a-8a44-4bb2-b9d6-11d3113f806b/original",
+              "label": "Original File - 125 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">3</p>\n            <p>can we find these men”?<del>?</del> I have seen them in a “little Grocery,”<lb/> a\n                “Slaughterhouse,” a “Coalyard,” a “Tavern,” a “Cigar-or other shop,”<lb/> such and\n                the like are the places, whither the <del>worthy</del> men <del>to</del> worthy to\n                grow the ministry<lb/> have been pushed back by the Errors of the multitude, and\n                ____ — - —!</p>\n            <p>“And for God's sake, how is it them possible, that all this be true and be still<lb/>\n                inconsistency with your statements about the lamentations of the people<lb/> “of the\n                nearly total absence of qualified men for the office of duly educated<lb/> “<hi\n                    rend=\"underline\">religious teachers</hi>”?</p>\n            <p>“of the great want of intelligent persons, wanted for the ministry,<lb/> “in manner\n                that the <hi rend=\"underline\">Word of God</hi> may be <hi rend=\"underline\"\n                    >expounded</hi> to the<lb/> “people”? How is it consistent with your saying: “we\n                know of<lb/> “no candidates (for <hi rend=\"underline\">religious Teachers</hi>) or\n                persons likely to become so<lb/> “to supply new Congregations or to take the place\n                of the <hi rend=\"underline\">ministers</hi> now<lb/> “officiating.”?</p>\n            <p>Part of my statements I could easily verify to every reader by only referring<lb/>\n                him to former volumes of the Occident, and therefore I need not be plainer<lb/>\n                about that—and as to your's Sir! I say, So “and <del>tell</del> show my people<lb/>\n                “their transgression, and the house of <persName>Jacob</persName> their sins” they\n                are<lb/> “speaking oppression and revolt, conceiving from the heart words of<lb/>\n                “falsehood” tell them to call things by their right names, to say what<lb/> they\n                mean and to mean what they say, and this will <del>dissolve matters and</del><lb/>\n                show forth the truth.— “A man whose voice pleases, or one whose speech suits<lb/>\n                his publick” is, with few exceptions, the general definition of Jewish ministry in<lb/>\n                <placeName>America</placeName>; and the people would rarely call a man fit\n                    <del>for</del> to be minister, if his<lb/> voice do not please their taste.—Let\n                them thus not cry out for want of<lb/> “<hi rend=\"underline\">ministers</hi>” “<hi\n                    rend=\"underline\">Religious Teachers</hi>” “men who know <hi rend=\"underline\">to\n                    expound</hi><lb/>\n                <hi rend=\"underline\">the Law of God</hi> to the people” let them not use false words\n                and call<lb/> the name of God: “Thou shalt not take the name of the Lord thy<lb/>\n                God in vain”—And only this much we say, but we do neither conjure<lb/> the good\n                policy nor dispute the just purpose and beneficial results of having such<lb/>\n                officers in large communities, for the people will say, that it confers on them\n                a<lb/> signified pleasure, that it arouses their feelings of devotion, and that it\n                gives<lb/> solemnity to worship, just at the proper place and time—during the\n                service<lb/> in the Synagogue—And to deliver a discourse from the pulpit, will\n                that<lb/> really <del>say to</del> be <hi rend=\"underline\">expounding the Law of\n                    God</hi>? will it strike the mind and teach it<lb/> “to know wisdom and\n                instruction, to understand the words of the wise and<lb/> “their dark sayings”? or\n                will it rather strike our senses, deceive our hearts</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 8150,
+          "width": 5090,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2d02ffcc-07e7-4733-9d48-4e2b6095e667%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5090,
+                "height": 8150,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2d02ffcc-07e7-4733-9d48-4e2b6095e667%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/assets/2d02ffcc-07e7-4733-9d48-4e2b6095e667/original",
+              "label": "Original File - 125 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>4</p>\n            <p>dazzle our eyes, and at the end make us Sin and forget the divine command:<lb/> “ye\n                shall not seek after your own hearts and your own eyes”?<lb/> (vis Talmud Berachott\n                    <add>?</add> 12) These and more questions one might ask and<lb/> perhaps\n                    <persName>Blair's</persName> Rhetorick itself and daily experience might\n                argue<lb/> in his favour, but in one word I would answer him: “All depends<lb/> on\n                the man,” it will do good from a good man, and in the words of<lb/> the royal\n                Psalmist let us say: “Lord, who shall abide in thy tabernacle?<lb/> ....“he that\n                walketh uprightly, and worketh righteousness, and<lb/> “speaketh the truth in his\n                heart, he that backbiteth not with his<lb/> “tongue, nor <hi rend=\"underline\">doeth\n                    evil to his neighbour</hi>, <hi rend=\"underline\">nor taketh up a</hi><lb/> “<hi\n                    rend=\"underline\">reproach against his neighbour</hi>—<hi rend=\"underline\">he\n                    that honoreth them</hi><lb/> “<hi rend=\"underline\">that fear the Lord</hi>.__.he\n                    <hi rend=\"underline\">that not taketh bribery against the</hi><lb/> “<hi\n                    rend=\"underline\">innocent</hi>” (Psalm 15.); and if we do not know, or rather\n                know the man<lb/> not to be so, we again apply the words of that holy book: “But\n                unto<lb/> “the wicked God saith, what hast thou to do to declare my<lb/> “statutes,\n                then givest thy mouth to evil, and thy tongue frameth<lb/> „deceit.” (Psalm 50. 16,\n                19.)</p>\n            <p>Thus the more I consider and reflect upon the state of Judaism amongst<lb/> us, the\n                more I am convinced, that something must be done for the<lb/> good, some remedy must\n                be sought for; independent therefore of your<lb/> plan, I offer you herewith my\n                suggestions, which at once may form<lb/> the conclusion of this letter.__In my\n                estimation this evil, and<lb/> some others say in the organization of the\n                Congregations, (<add>?</add>wel here<lb/> as in other countries perhaps, but I\n                merely speak of <placeName>America</placeName>) and that is the<lb/> quarter the\n                remedy must come from.—Instead of that prejudicial show<lb/> of superiority and\n                empty domination, which creates favorite <add>?</add><lb/> and supports men in\n                indolence <del>and wantonness, instead of that</del> let us in future promote<lb/>\n                and elevate religion and virtue, <del>study,</del> learning and talent—To be<lb/>\n                plainer on the subject: Let every Congregation, newly to be formed, abolish<lb/> the\n                office of Shamas (Sexton) as an office of the Congregation; but let all its\n                lower<lb/> duties, including those <del>of attending</del> required during service,\n                be done for real on able wages<lb/> by a suitable person hired or appointed by the\n                trustees as a messenger. <del>or</del><lb/>\n                <del>carrier</del>—And should there be any thing <del>be</del> that belongs to\n                ceremony or decorum<lb/> during service, any honorable member or trustee might be\n                expected voluntarily<lb/> to act for the benefit of the community, and in this way\n                saving part of the<lb/> salary, rent, collection and other revenues of that office,\n                a Congregation<lb/> will be enabled to have two clerical officers, let them both me\n                ministers<lb/> or Elders, and if the one be more able to <del>the</del> gratify\n                    <del>cation</del> of the members and the<lb/> solemnity of the service by his\n                agreeable voice, let the other be more to <del>?</del> superintend our\n                children's<lb/> instruction <del>and edification</del> and to add to the\n                edifications of the adults; for I wish the one and the other to be religious\n                teachers not<lb/> merely Schoolmasters. From my observations communicated to\n                you<lb/> it might be inferred that we will find in this country suitable men\n                qualified in English<lb/> for that station, let us then place worthy men in\n                    <del>worthy</del> places worthy of them and we might<lb/>\n                <del>also</del> expect them to become after a time <del>at once</del> also good\n                pulpit orators <del>on the pulpit</del> in<lb/> places where the public might wish\n                for it. Again by engaging a number</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3d21s50j/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

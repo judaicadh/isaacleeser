@@ -1,0 +1,330 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Leeser, Isaac; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3gh9bw35"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Leeser, Isaac; Philadelphia, PA; undated"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "5 pages on 5 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item64"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/bc844081-8265-4a6b-9233-1e36cb8ac519%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/bc844081-8265-4a6b-9233-1e36cb8ac519%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 7064,
+          "width": 4844,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bc844081-8265-4a6b-9233-1e36cb8ac519%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4844,
+                "height": 7064,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bc844081-8265-4a6b-9233-1e36cb8ac519%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/assets/bc844081-8265-4a6b-9233-1e36cb8ac519/original",
+              "label": "Original File - 103 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <placeName>\n                    <hi rend=\"underline\">Albany</hi>\n                </placeName>\n            </p>\n            <p>During <date>Passover</date> as we learn from our present<add>?</add>\n                correspon<lb/>dent the first semi annual public examination of the children\n                attached<lb/> to the school lately organized by the <persName>Reverend Dr.\n                    Wise</persName> took place. The<lb/> examination was conducted under the\n                presidency of the President of the Beth-el con-<lb/>gregation, assited by the School\n                committee and the Reader, the <persName>Rev. Mr. Traub</persName>.<lb/> A very\n                interesting introductory address was delivered by a male scholar of the<lb/> first\n                class, after which that <del>first</del> class was examined by <persName>Dr.\n                    Wise</persName> on Catechism<lb/> &amp; lessons in religion. The female teacher,\n                    <persName>Miss Chaplin</persName> to whose execution<add>?</add><lb/> the\n                greatest credit is due, and who is a teacher any school may be proud of,<lb/>\n                examined in Spelling, Reading, Arithmetic &amp; Geography. <persName>Dr.\n                    Wise</persName> also exami<lb/>ned in reading the Prayer Book &amp; Pentateuch,\n                and much praise is due<lb/> to the Rabbi for his labours in teaching the scholars\n                the true way of becoming<lb/> what they ought to be. The specimens of writing also\n                afforded proof of<lb/> astonishing progress <del>for</del> during the first six\n                months of the existence of the school.<lb/> The sight the examination presented, is\n                said to have been a pleasant one, and it<lb/> was delightful to witness parents\n                watching with great anxiety, to observe<lb/> whether their wishes would <del>be\n                        <add>?</add>\n                </del> be gratified, and their children would indeed<lb/> become learned; but the\n                progress then exhibited inspired them with the<lb/> confident hope, that they would\n                not be disappointed with the blessing of Hea-<lb/>ven. The examination over, prizes\n                were distributed to the deserving<lb/> scholars, and the whole was concluded by an\n                address from a female<lb/>\n                <del>scholar</del> pupil of the first class. <del>We could use</del></p>\n            <p><placeName><hi rend=\"underline\">St. Thomas</hi></placeName>.</p>\n            <p><persName>Mr. A. Wolff</persName> the lately appointed president of the\n                congrega<lb/>tion of <placeName>St. Thomas</placeName>, held a fair at his house on\n                the <date>2<hi rend=\"sup\">nd</hi></date> &amp; <date>3<hi rend=\"sup\">rd</hi> of\n                    March</date> for the benefit of the Sunday school<lb/> of that place, and we are\n                happy to state that it realized the handsome sum<lb/> of five hundred Dollars.</p>\n            <p><hi rend=\"underline\"><placeName>Russia</placeName> &amp; the Jews</hi>.</p>\n            <p>We see it stated in the papers that the <persName>Emperor<lb/> Nicholas</persName>\n                has lately issued a new edict which orders that Jews in<lb/> the military service\n                shall not be held to do <add>?</add> duties on <date>Sabbath</date>,<lb/> &amp; holy\n                days, but be left at leisure to attend <add>?</add> worship. Also that<lb/> Hebrew\n                may advance to the rank of lieutenant. Both these<lb/> regulations are certainly a\n                great concession and an improvement<lb/> upon the <add>?</add> policy of the\n                Russians, especially the former, which<lb/> gives Israelites opportunities to attend\n                to this religions requirements. We<lb/> trust therefore that the report which has\n                reached us may be true, &amp;<lb/> we can only believe it to be so, without assuming\n                a cordial change of<lb/> policy in the Czar toward the Jews, as he acts often\n                    <sic>acts</sic> from the caprice<lb/> of the moment, as many of his <add>?</add>\n                too will demonstrate.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6906,
+          "width": 4770,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/17cd1172-f8e6-41d3-97e4-fb6b8aab1b4b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4770,
+                "height": 6906,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/17cd1172-f8e6-41d3-97e4-fb6b8aab1b4b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/assets/17cd1172-f8e6-41d3-97e4-fb6b8aab1b4b/original",
+              "label": "Original File - 99 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6522,
+          "width": 5224,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a9ce4dc2-3da1-4e03-9105-e89d49a4797b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5224,
+                "height": 6522,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a9ce4dc2-3da1-4e03-9105-e89d49a4797b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/assets/a9ce4dc2-3da1-4e03-9105-e89d49a4797b/original",
+              "label": "Original File - 102 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>My address is <persName role=\"author\">Isaac Leeser</persName>\n                <placeName>Philadelphia Pennsylvania</placeName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6522,
+          "width": 5158,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/76931162-edba-452b-82b7-0084b014db64%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5158,
+                "height": 6522,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/76931162-edba-452b-82b7-0084b014db64%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/assets/76931162-edba-452b-82b7-0084b014db64/original",
+              "label": "Original File - 101 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>I should like to ask your opinion upon many other points from time to<lb/> time, if\n                you would permit me, to address you occasionally; what I trust<lb/> you will grant\n                me, and I assure you, that you still never need blame<lb/> yourself for the favour\n                granted. If you can conveniently do it,<lb/> please to make your reply in English,\n                that it may be extensively<lb/> circulated. Answer this if you can by the earliest\n                packet, since<lb/> not I alone but many other persons are anxious for your\n                opinion.</p>\n            <p rend=\"indent(1)\">I have seen with pleasure that <persName>Mr De Sola</persName> has\n                undertaken<lb/> a new edition of the Portuguese service, since the books formerly\n                issued<lb/> by <persName>David Levy</persName>\n                <add>?</add> are not now to be had any more though often inquired<lb/> after. Two\n                years ago I wanted to undertake the same labour myself,<lb/> but a <sic>sever</sic>\n                illness, the small-pox, kept me confined for several months,<lb/> and my health has\n                ever since continued too bad to permit me to<lb/> undertake so heavy a task. Having\n                been thus myself prevented by<lb/> the hand of God from accomplishing my desires, I\n                am glad to see it under-<lb/>taken by one who I hope is fully capable to do justice\n                to the work. If it is<lb/> well done, I shall rejoice that it has been accomplished,\n                and shall use<lb/> my endeavours, feeble as they are, to forward the author's\n                design. If you<lb/> think proper you may communicate this to him, altho' I have\n                never<lb/> had the pleasure of hearing any thing about him, till I heard of his<lb/>\n                prospectus some weeks since from a bookseller of eminence, who belongs<lb/> to our\n                congregation, and not till this morning was the prospectus itself<lb/> placed in my\n                hands.</p>\n            <p rend=\"indent(1)\">I am afraid I have detained you too long, particularly by\n                matters<lb/> not relevant to my <sic>enquiries</sic>, if so I beg you to excuse me;\n                and to<lb/> forgive the errors of a stranger, who speaks to a father and\n                teacher<lb/> in <placeName>Israel</placeName>; whom he would gladly personally see\n                &amp; know. May our<lb/> God preserve you many years in health and prosperity, and\n                may there<lb/> never be wanting one in your family to sit on the seat of judgment in\n                    <placeName>Israel</placeName>.</p>\n            <p>\n                <add>I have seen with pleasure that חזן</add>\n            </p>\n            <p><add>כ\"ד עב אדוני המונו לשרתו ה\"ק יצחק אילן כל כ\"ה אורי ליפמן אליעזר</add>\n                <persName role=\"author\">Isaac Leeser</persName>.</p>\n            <p>Specimen of <persName role=\"author\">Isaac Leeser's</persName><lb/> Handwriting</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 6522,
+          "width": 5224,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c99a5600-3caf-465b-83c9-0ffd2a2c5ff6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5224,
+                "height": 6522,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c99a5600-3caf-465b-83c9-0ffd2a2c5ff6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/assets/c99a5600-3caf-465b-83c9-0ffd2a2c5ff6/original",
+              "label": "Original File - 102 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>week, and after he has got a house his father and mother are to<lb/> follow. As he\n                has now an office it is possible that the congregation<lb/> may restore my salary;\n                but I doubt it much. From <placeName>Charleston</placeName> I<lb/> hear that it is\n                likely that <persName>Mr. Poznanski</persName> will be elected for life<lb/> at the\n                expiration of his present term; his salary now is 1500,<lb/> from orphan society for\n                6 boys 144; house say 150; perquisites<lb/> &amp; other scholars at least 250, which\n                is an aggregate exceeding<lb/> 2000; against which I have been elected four times\n                and all<lb/> I got from teaching, marrying and salary may amount to 875 and<lb/> not\n                a farthing more. Of course <persName>Mr. Poznansky</persName> is popular; but<lb/>\n                who more than myself nobody can tell. <persName>Mr Hart</persName> had a rest<lb/>\n                <add>?</add> raising my salary; but there being no quorum a <add>?</add><lb/> the\n                last meeting the whole must lay over till <date>September</date>, near<lb/> five\n                months longer. My salary due <date>March 29<hi rend=\"sup\">th</hi></date> has not\n                been paid<lb/> yet. But enough of this, all talking does not alter the whole<lb/>\n                affair one cent; and only irritates me when I think of it.<lb/> Have my books I left\n                gone to <placeName>Washington</placeName>?<lb/> Give my love to aunt &amp; all the\n                family &amp; believe me</p>\n            <p rend=\"indent(9)\">yours respectfully</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">Isaac Leeser</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3gh9bw35/canvas/p5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

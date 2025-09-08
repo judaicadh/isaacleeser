@@ -1,0 +1,188 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Moses, Isaac; March 10, 1846",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p39k46k08"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Moses, Isaac; March 10, 1846"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Moses, Isaac (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1846-03-10"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["New York (N.Y.)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF3_1", "ilcajs_b1f3_0001"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/f34ca563-bb9f-4c84-8e13-9137510724af%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/f34ca563-bb9f-4c84-8e13-9137510724af%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5722,
+          "width": 4648,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f34ca563-bb9f-4c84-8e13-9137510724af%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4648,
+                "height": 5722,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f34ca563-bb9f-4c84-8e13-9137510724af%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/assets/f34ca563-bb9f-4c84-8e13-9137510724af/original",
+              "label": "Original File - 80 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>New York</placeName>\n                                        <date>10 March 1846</date>\n                              </p>\n                              <p>\n                                        <addressee>Revd. I. Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">My dear sir</p>\n                              <p rend=\"indent(2)\">I am in receipt of your favor of 4th inst<lb/> but\n                                        have not yet received the package containing the<lb/>\n                                        occidents <sic>Pentiteuch</sic>. I shall be much pleased\n                                        to<lb/> keep the latter if it is bound to my laste[?] if not\n                                        I will<lb/> take another in its place. I am obliged for your\n                                        attention<lb/> in reccollecting[sic!] my desire for it—where\n                                        ever you publish<lb/> an edition of the daily Holiday\n                                        prayers in a smaller<lb/> form than those now for Sale, you\n                                        will please put<lb/> me down for a set.</p>\n                              <p rend=\"indent(1)\">I will not forget to transmit to my brother in\n                                                  <placeName>China</placeName><lb/> your request\n                                        that he subscribes for the Occident.</p>\n                              <p rend=\"indent(1)\">I have within a few days received letters from\n                                                  <persName>Jacob<lb/></persName>\n                                        <persName>Abm. Joseph</persName>. The former will be here in\n                                        the course of<lb/> a few weeks.</p>\n                              <p rend=\"indent(4)\">With regards to <persName>Hanford</persName> I\n                                        remain Dr sir</p>\n                              <p rend=\"indent(7)\">Yours Respy</p>\n                              <p rend=\"indent(7)\">\n                                        <persName role=\"author\">Isc. Moses Jr</persName>\n                              </p>\n                              <p>I hope the \"Vidder\" is now happy</p>\n                              <p>I knew of her intended marriage when I was</p>\n                              <p>last in <placeName>Phila.</placeName> Has\n                                                  <persName>Wolfe</persName> yet gone?</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4650,
+          "width": 5938,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cfbe9c86-5ab4-40ea-8340-2add99199f7c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5938,
+                "height": 4650,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cfbe9c86-5ab4-40ea-8340-2add99199f7c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/assets/cfbe9c86-5ab4-40ea-8340-2add99199f7c/original",
+              "label": "Original File - 83.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39k46k08/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

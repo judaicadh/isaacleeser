@@ -1,0 +1,367 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; “One of them”; R. I.; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3js9hv16"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; “One of them”; R. I.; Philadelphia, PA; undated"]
+    },
+    {
+      "label": "Name",
+      "value": ["R. I.", "Leeser, Isaac, Rev."]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 6 sheets",
+        "LSJesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item90"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/694c52f2-0343-4bff-ba0c-9d8abd4831ef%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/694c52f2-0343-4bff-ba0c-9d8abd4831ef%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6652,
+          "width": 4998,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/694c52f2-0343-4bff-ba0c-9d8abd4831ef%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4998,
+                "height": 6652,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/694c52f2-0343-4bff-ba0c-9d8abd4831ef%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/assets/694c52f2-0343-4bff-ba0c-9d8abd4831ef/original",
+              "label": "Original File - 100 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">1</p>\n            <p rend=\"align(center)\">To <del>the Editor</del>\n                <addressee>R I</addressee> of the Asmonean.</p>\n            <p>Sir</p>\n            <p>an article which appeared in the Asmonean of the<lb/>\n                <date>13<hi rend=\"sup\">th</hi></date> ins. under the head of “The Occident and the\n                Asmonean”<lb/> challenges the animadonsion<add>?</add> not only of the friends\n                of<lb/> the Revd Gentleman therein assailed, but also of all friends of<lb/>\n                truth<lb/> justice &amp; the conventional decorum of society, all of which<lb/> in\n                this article are violated.</p>\n            <p rend=\"indent(1)\">This Sir, is a strong, and may seem<lb/> to you a harsh, &amp; rude\n                assertion; but I assure you, that it is<lb/> not made in a wanton spirit of unkindly\n                insult, nor with<lb/> a view to provoke in your bosom any angry or unpleasant\n                feeling,<lb/> but is dictated solely by a sense of justice, to the object of\n                your<lb/> unmerited abuse, and to that religious community of which you<lb/> assure\n                to be a guide of shining light, whose dignity &amp; respectability<lb/> you have\n                outraged by the contemptuous &amp; scornful language you have<lb/> held towards a\n                man, who has <del>?</del> entitled himself to the<lb/> highest position in its\n                regard, and whom is his delighted to honour with<lb/> its esteem &amp;\n                reverence;</p>\n            <p rend=\"indent(1)\">I feel assured this if you, will review the<lb/> article in a calmer\n                frame of mind than that <add>?</add> which it was<lb/> penned, you will yourself\n                feel ashamed of the grossness of tone,<lb/> and unworthy jealousy, with which you\n                there endeavor to cast<lb/> obloquy upon a man, whom your peevish susceptibilities\n                have<lb/> conjured into an enemy, and your jealous fancies converted into a\n                rival;</p>\n            <p>What think you of the first sentence? “We (<persName>RI.</persName>) Do not usually\n                bandy”<lb/> “words with a man of whom we have ceased to think except with\n                commiseration”</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6486,
+          "width": 4998,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/78f136aa-8087-4002-bbb8-341ca6a460d9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4998,
+                "height": 6486,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/78f136aa-8087-4002-bbb8-341ca6a460d9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/assets/78f136aa-8087-4002-bbb8-341ca6a460d9/original",
+              "label": "Original File - 97.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>2</p>\n            <p>abstract yourself (if self love will allow) for a moment, from your own<lb/>\n                individuality, be for an instant not (<persName>R I</persName>) but one of the\n                    <del>mass</del> herd.<lb/> of the nameless—now consider who it is, who this\n                ceased to be aught<lb/> but the object of commiseration to <persName>R I</persName>.\n                Why truly it is he, who<lb/> selected by one of the most ancient &amp; respectable\n                of the<lb/> American congregations as their religious guide &amp; instructor,<lb/>\n                at an age, when others have scarcely ceased from the frivolities of<lb/> boyhood,\n                gave instant proofs of piety &amp; ability, which not only seemed<lb/> for him the\n                esteem of his flock but earned him an honored &amp; venerated<lb/> name throughout\n                    <placeName>America</placeName> &amp; <placeName>Europe</placeName>;\n                    <sic>It</sic> is he, who when others<lb/> were droning through their\n                    hebdomadal<add>?</add> duties, in the lifeless and<lb/> monotonous forms of the\n                synagogue, had the energy, zeal, and talent<lb/> to take the lead of all others in\n                    <placeName>America</placeName>, in the introduction of sermons<lb/> as a regular\n                portion of the service, for the purpose of imparting to his flock<lb/> religious\n                instruction, and of infusing a living and breathing spirit of piety<lb/> into the\n                religious torpor that <sic>prevaded</sic>, and his merits are not less in this,<lb/>\n                that his sermons thus preached, <del>were</del> published at great cost &amp;\n                pecuniary risk<lb/> by his own unaided exertions, and diffused to stimulate the\n                slumbering piety<lb/> of distant congregations, furnished an example, slowly\n                followed at first, and<lb/> at long &amp; wide intervals, until (to use the\n                expressions of those who on a<lb/> late festival occasion, <sic>commemmorated</sic>\n                in your pages, alluded to the practice,<lb/> tho oblivious of his claims of\n                precedence.) it has become a “sine que non”<lb/> of synagogue requirement.</p>\n            <p rend=\"indent(1)\">It is he whose midnight labors, illuminated<lb/> by the pious zeal\n                which urged him on the path of usefulness, in disregard<lb/> of personal pain or\n                privation, prepared for his coreligionists, suitable and<lb/> correct translations,\n                of the forms of prayer used by both minhags for the<lb/> service throughout the\n                year, freed from the grammatical inaccuracies and</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6356,
+          "width": 4952,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cffc66a2-33fc-4e97-b9a9-3eba03876fbc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4952,
+                "height": 6356,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cffc66a2-33fc-4e97-b9a9-3eba03876fbc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/assets/cffc66a2-33fc-4e97-b9a9-3eba03876fbc/original",
+              "label": "Original File - 94.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">3</p>\n            <p>Barbarous and inelegant phraseology which disfigured those previously<lb/> in use.\n                Furthermore sir it is he whose capacious intellect and untiring<lb/> enterprize,\n                conceived <hi rend=\"underline\">the</hi> idea of establishing a periodical\n                devoted<lb/> to Jewish advancement social &amp; religious; &amp; unaided, achieved\n                it.<lb/> It certainly does not argue favorably for the Jewish zeal, religious<lb/>\n                sincerity, or intellectual qualifications of <del>the man</del> one, who can\n                boast<lb/> “that he has had no opportunity properly to appreciate” such a man;<lb/>\n                but let us as gently as we may, examine the pretensions of <persName>R.\n                    I.</persName> who<lb/> “has ceased to think of such a man with any other feeling\n                than commiseration,”<lb/>\n                <persName>RI</persName> has but recently assumed a prominent position, as the Editor\n                of a religious<lb/> print, ostensibly devoted to the diffusion of religious truth\n                &amp; knowledge; and<lb/> under the banner of the <sic>maccabees</sic>, stands\n                forth, the champion of Jewish<lb/> fame &amp; Jewish right. It would be hardly fair,\n                from the short<lb/> experience the public have had of the ability with which he\n                sustains<lb/> the character, to pass a definite opinion of his merits; I\n                confess<lb/> that viewing his literary efforts as likely, if not of themselves,\n                yet<lb/> by stimulating them, to promote Jewish progress, in faith &amp;\n                knowledge;<lb/> I have been disposed to approve them; and have been willing to\n                admire and<lb/> cheer the Banner of the Maccabees as it flaunted its folds in the\n                air,<lb/> altho' I could not believe the staff upborne<add>?</add> by a\n                    <persName>Sampson</persName>.<lb/> But it is quite fair to impugn, the acrimony,\n                the insolence, the<lb/> jealousy (<hi rend=\"underline\">all evil passions</hi>) which\n                the editor of a professedly religious<lb/> paper exhibits in an attack against the\n                personal character <del>&amp; public</del><lb/>\n                <del>utility</del> of any individual; how much more, when against one whose<lb/>\n                fame &amp; honor should be cherished by every Jew, and by those of<lb/>\n                <placeName>America</placeName>, regarded as a subject of national pride!</p>\n            <p><persName>R. I</persName> “derides arrogance, chastens insolence and rebuts\n                falsehood”<lb/> did it not occur to him when framing his attack, that</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5728,
+          "width": 4852,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9d0f26a-66b2-4cb0-8d0b-389e724348e3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4852,
+                "height": 5728,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9d0f26a-66b2-4cb0-8d0b-389e724348e3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/assets/b9d0f26a-66b2-4cb0-8d0b-389e724348e3/original",
+              "label": "Original File - 83.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p\n                rend=\"The bottom of the previous page is overlapping the top of the page in this scan, obscuring some words.\"/>\n            <p><add>?</add> in his bosom? and that like<del>ly</del> an <sic>unskilful</sic>\n                engineer<lb/> he might be crushed by the recoil of his own gun?<lb/> let him read\n                the passage and ask himself, if he ever penned any<lb/> thing more arrogant,\n                insolent &amp; false—<del>and when he shall have</del><lb/> than this contemptuous\n                derogation &amp; denunciation of the merit<lb/> of a rival Editor, whose position is\n                as eminent, as his own, has<lb/> hitherto been obscure,—</p>\n            <p rend=\"indent(1)\">I do not desire to pursue the subject<lb/> further, and in taking\n                leave of <persName>Mr. I.</persName> I again repeat, that<lb/> it is no unkind or\n                hostile feeling that I have written.<lb/> If from the nature of the subject and if\n                necessitate <add>?</add>, I have<lb/> been forced to use harsh &amp; ungentle\n                expressions <del>it has bee</del><lb/> my feelings have been those of the surgeon,\n                who cuts but<lb/> to cure, and whose heart feels pain, while his patient bleeds.</p>\n            <p>I am sir with the best wishes for Jewish progress</p>\n            <p rend=\"indent(4)\"><persName role=\"author\">One of them</persName>.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 6610,
+          "width": 4952,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e89db68-a45c-4b30-bbe6-47142daed87c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4952,
+                "height": 6610,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e89db68-a45c-4b30-bbe6-47142daed87c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/assets/3e89db68-a45c-4b30-bbe6-47142daed87c/original",
+              "label": "Original File - 98.4 MB",
+              "format": "image/tiff"
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 6692,
+          "width": 4952,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b2b5f38e-f46a-4fcb-b46f-5025a392acc8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4952,
+                "height": 6692,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b2b5f38e-f46a-4fcb-b46f-5025a392acc8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3js9hv16/assets/b2b5f38e-f46a-4fcb-b46f-5025a392acc8/original",
+              "label": "Original File - 99.6 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

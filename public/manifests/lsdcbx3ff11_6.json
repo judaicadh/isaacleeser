@@ -1,0 +1,211 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Moise, R. C.; Leeser, Isaac, Rev.; Charleston, SC; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3jm23z35"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Moise, R. C.; Leeser, Isaac, Rev.; Charleston, SC; undated"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF11_6"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/02c67da7-80de-41ac-a772-b2d16d1bed95%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/02c67da7-80de-41ac-a772-b2d16d1bed95%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4802,
+          "width": 3906,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/02c67da7-80de-41ac-a772-b2d16d1bed95%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3906,
+                "height": 4802,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/02c67da7-80de-41ac-a772-b2d16d1bed95%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/assets/02c67da7-80de-41ac-a772-b2d16d1bed95/original",
+              "label": "Original File - 56.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Mr Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(3)\">\n                <placeName>Pen<hi rend=\"sup\">a</hi></placeName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3906,
+          "width": 4802,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/767f7ce1-7493-4ebc-89dc-eb805b291ed8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4802,
+                "height": 3906,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/767f7ce1-7493-4ebc-89dc-eb805b291ed8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/assets/767f7ce1-7493-4ebc-89dc-eb805b291ed8/original",
+              "label": "Original File - 56.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Charleston</placeName>\n                <date>Nov. 21st</date>\n            </p>\n            <p>My Dear Sir</p>\n            <p rend=\"indent(1)\">It becomes my pleasing duty to address<lb/> you (as Secretary of a\n                religious society of this place)<lb/> and to enclose the Preamble &amp; resolution\n                adopted<lb/> by said society with the <add>?</add> desire that<lb/> they should\n                receive a place in your valuable journal</p>\n            <p rend=\"indent(1)\">It was our will to give this publicity thro' your<lb/> interesting\n                periodical before it appear'd to the world<lb/> thro' any other medium. but some of\n                our friends<lb/> were fearful we would be too late for insertion by<lb/> you this\n                month and without my knowledge or instru<lb/>mentality I found it published in the\n                “Carrier” of this<lb/> city. I lose no time in forwarding the same to<lb/> you with\n                the hope that you will give us a place<lb/> at your earliest convenience.</p>\n            <p rend=\"indent(1)\">We very much regretted that circumstances<lb/> prevented our seeing\n                yourself and several valued<lb/> friends on our return thro'\n                    <placeName>Philadelphia</placeName> we could not<lb/> remain long enough to do\n                so.</p>\n            <p rend=\"indent(1)\">With the hope that we may soon<add>?</add> meet<add>?</add><lb/> and\n                that <placeName>Charleston</placeName> may again boast of you among<lb/> its\n                visitors</p>\n            <p rend=\"indent(1)\">I am Dr Sir truly your friend &amp; well wisher</p>\n            <p rend=\"indent(2)\">\n                <persName role=\"author\">Caroline A Moise</persName>\n            </p>\n            <p>My husband &amp; daughters kindest regards</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3jm23z35/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

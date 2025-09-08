@@ -1,0 +1,309 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Eckmann, J.; Leeser, Isaac; Charleston, SC; 20 August 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30v8b37h"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Eckmann, J.; Leeser, Isaac; Charleston, SC; 20 August 1851"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-08-20", "20 August 5611"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English", "Hebrew"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item93"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/8032fc2b-f495-4414-9411-1c5780f87025%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/8032fc2b-f495-4414-9411-1c5780f87025%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6326,
+          "width": 4894,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8032fc2b-f495-4414-9411-1c5780f87025%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4894,
+                "height": 6326,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8032fc2b-f495-4414-9411-1c5780f87025%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/assets/8032fc2b-f495-4414-9411-1c5780f87025/original",
+              "label": "Original File - 93.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"The following paragraph is written in small handwriting above the main letter.\"/>\n            <p>I cannot enter particulars but I had reason to think so as that Dictator is known to\n                me to belong as much to our unprejudiced<lb/> school as any. “We speak and write\n                mostly according to the different passions &amp; emotions which agitate us. And\n                those objects<lb/> which strike us most forcibly represent themselves in a lively\n                manner to our imagination, and thus determine us to that<lb/> side„ <persName>Dr Pin\n                        Stru<add>?</add></persName> with the supposed wrong I broke forth with my\n                expressions. They were more a censure against the<lb/> dissension <del>created\n                    in</del> widened—then <add>?</add> approbation, of the dissension which by earth\n                acts<lb/> was caused. The whole if expressed would have been “what all this tunnels,\n                this <sic>anathemising</sic>, why not<lb/> rather<add>?</add> conciliate. The\n                opinions of preaching about or against messiah, is a censure<lb/> against\n                    <persName>P.</persName> (I wish to know whether have they original you know my\n                hand writing<lb/> and can identify it, before doing so, it is not fair to send it\n                forth as I have no means to ascertain, and<lb/> every reason to question their\n                honesty.</p>\n            <p>\n                <placeName>Charleston</placeName>\n                <date>Aug 20. 5611</date>\n            </p>\n            <p>To the <addressee>Revd I Leeser</addressee></p>\n            <p>\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(1)\">Your enclosed letter, I found but last night taking out the\n                proof<lb/> in haste the letter must have dropped. I thank for proof, for letter and\n                your kind<lb/> advice. My letter to <persName>P.</persName> is written in such a\n                careless manner as even you<lb/> must have some proofs, a copy of it I have not. The\n                word aerial<lb/> does not seem to be original after ideal seems to be an\n                insertion<lb/> for my letter ideal stands opposed to practical. Could not you\n                claim<lb/> the original? The contents of his own petition cards denies a\n                    <add>?</add><lb/>\n                <add>?</add>.</p>\n            <p rend=\"indent(1)\">The letter was written under the impression, that the Congr are\n                considered<lb/> as no more being Jews for their Synag: reformer &amp; for the\n                abrogation<lb/> of <add>יט שנה</add>\n                <add>see top</add> and so in my haste, I placed<add>?</add> myself as champion\n                when<lb/> I ought to have heard first. It now serves me right. But this<lb/> is\n                    <sic>incontestible</sic> and in due time will be stated that I in presence<lb/>\n                of the Trustees, &amp; at the House of <persName>Mr Moise</persName>, and with\n                God<lb/> for <add>?</add> 3 hour warmly protested against 2d day <add>?</add><lb/>\n                <add>מנהג עוקר הלכה</add> and this is meant in my letter in <date>July</date>\n                occid<lb/> “admissible on the letter of the law, but not so on the score<lb/> of\n                charity &amp; piety. I have not admitted it as right, though it may be legend<lb/>\n                With regard to <persName>Nusser</persName> the case is the same <persName>Mr Ab.\n                    Moise</persName>, with<lb/> also appear when required. Let the volcano first\n                destroy itself.<lb/> Strange that there are men who can condone that of opposed Drs\n                views,<lb/> and none is more that will say he heard me in private or in pulpit<lb/>\n                preach any thing that is not quite called on.</p>\n            <p>To his creed I never gave consent, I knew nothing of his changes<lb/> as little as\n                any body else, I only read about the word <add>אמת</add></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6148,
+          "width": 4894,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a4609e29-1081-4346-887e-d374ee943125%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4894,
+                "height": 6148,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a4609e29-1081-4346-887e-d374ee943125%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/assets/a4609e29-1081-4346-887e-d374ee943125/original",
+              "label": "Original File - 90.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>I allow all to be as it is. And supposing I had changed my<lb/> views, or had been\n                inconsistent <persName>Poznanski's</persName> Gents ought<lb/> to idolize me, had\n                not their Prophet done such tricks and thereby<lb/> gained their attachment of\n                respect. The best is told them<lb/>\n                <add>ולא תדקדק מלות נאמרו בשכל בזה הפרק וזולתו, כי הכוונה הישרה אל העניין המכוון\n                    מורה א פ ל\"ב</add> prove that his words ought not be so much attended to as the\n                    <add>?</add> expected<lb/>\n                <add>שום חשש איסור</add> go on. The letter contains nothing of moment facts fr:\n                first day<lb/>\n                <add>מחלוקת</add><lb/>\n                <add>המון עם</add> What induces you to advise me to go to\n                    <placeName>Engl.</placeName> I am justified<lb/>\n                <add>חוצפה</add><lb/>\n                <add>זדון</add> and qualified to take any orthodox congreg. This reform Synag is<lb/>\n                <add>שני י\"ט</add>\n                <sic>a</sic> Orthodox as any other. Reform has nothing to do with orthodoxy<lb/>\n                never did I preach any but orthodox principles, and the<lb/> congreg wanted such, on\n                this ground even <persName>Mr Wise</persName> was<lb/> elected. This was held forth\n                in a speech on the occasion of<lb/> his election by <persName>Mr Moise</persName>.\n                Though it displeased <persName>P.</persName> the congreg<lb/> want such.\n                    <persName>P</persName> and his disciples are of no weight at all when<lb/> the\n                question is Judaism.</p>\n            <p rend=\"indent(1)\">What Ideal is, see traff. In what sense I applied it<lb/> is proved\n                by my controversy 2d day after my arrival.<lb/> I reiterate my thanks for your\n                valuable services<lb/> you will oblige me with<lb/> 20 copies again, if not\n                    <sic>to</sic> late I remain <sic>gratefuly</sic></p>\n            <p rend=\"indent(10)\">your</p>\n            <p rend=\"indent(11)\">\n                <persName role=\"author\">J Eckman</persName>\n            </p>\n            <p><persName>Dr Fränkel</persName> Rabbi at <placeName>Dresden</placeName> is famous for\n                Learning, Character</p>\n            <p>&amp; Piety. He is true orthodox Rabbi though he introduced<lb/> organ, choir &amp;\n                    <sic>german</sic> prayers. It is he who some few weeks ago was mentioned in<lb/>\n                the <sic>asmonean</sic> to have stayed at <persName>Dr Adlers</persName> House in\n                    <placeName>London</placeName>. <persName>Dr F</persName> is one of the most<lb/>\n                famed men in <placeName><sic>germany</sic></placeName>.\n                    <placeName>Berlin</placeName> wished to elect him as Rabbi, this failed in the\n                despo<lb/>tism of <placeName>Prussia</placeName>, he wanted some restriction under\n                which the clergy labor re..<lb/>moved, government would not do so. Through the\n                tyrant would have been glad<lb/> to have such a man at the head of the <add>Jews of\n                    his</add> Capital, see Fost Histo<add>?</add> Torme 12</p>\n            <p><persName>Dr Jacks</persName> was co <add>?</add> at\n                    <placeName><sic>Prag</sic></placeName>, in his ancient Synag exists an organ for\n                several<lb/> centuries as early as <date>1176</date> a new one was built. How old\n                must the<lb/> old one have been? See <persName>Shuldt A Herthumer</persName> Theil\n                4. Zunz<add>?</add> Gottesdienst<lb/> bihe<add>?</add> Vorträge <sic>pag</sic>\n                476</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6114,
+          "width": 4894,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ff20279a-0170-4f95-b114-bdff4b6b0a36%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4894,
+                "height": 6114,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ff20279a-0170-4f95-b114-bdff4b6b0a36%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/assets/ff20279a-0170-4f95-b114-bdff4b6b0a36/original",
+              "label": "Original File - 90 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><persName>Dr Sacko</persName> assented to a great temple that was to be built with\n                organ, choir, <sic>german</sic> prayers</p>\n            <p rend=\"indent(1)\">The king would not allow a spot where they waited. The revolution\n                broke<lb/> out and so the affair is dropped. <persName>Dr J.</persName> is a strict\n                orthodox man.<lb/> There is no <add>מדברי סופרים</add> at all. I could here address\n                authorities that would more<lb/> than satisfy you. When you wrote so harshly against\n                me some time ago<lb/> I could have easily come out and shown you <hi\n                    rend=\"underline\">that nothing</hi> that has<lb/> been done in the Synag is\n                against our Relig. or against any <hi rend=\"underline\">din</hi>, but I would<lb/>\n                have been obliged to show it to the world. And <sic>If</sic> I can do no better\n                than<lb/> fear<add>?</add> how <add>עלנו עלינו</add> might be produced? For if the\n                    <add>אדון עולם</add> various<lb/> it they will soon here and <sic>and</sic>\n                there from a desire of innovation etc<lb/> roughly attack all that is holy, as was\n                done here. Men who know<lb/> no 2<add>?</add> who neither know nor practice any\n                Relig at all became<lb/> reformer, green girls scold the Rabbis at vote for or\n                against creeds<lb/> and so I will rather be thought to <hi rend=\"underline\">be</hi>\n                wrong than to <hi rend=\"underline\">do</hi> wrong</p>\n            <p>The great wickedness is not the deformed Synag: but it is.</p>\n            <list type=\"ordered\">\n                <head/>\n                <item n=\"1\"> That neither Bibl nor Rabb Law are observed</item>\n                <item n=\"2\"> The whole treasures heaped by our nation marked<lb/> and\n                    ridiculed</item>\n                <item n=\"3\"> It was not Relig: at all in <persName>P.</persName></item>\n                <item n=\"4\"> his <add>שאלה ותשובה</add>, &amp; <add>רבנו חכם שם טוב</add></item>\n                <item n=\"5\"> To drive these pious men out of their<lb/> property</item>\n                <item n=\"6\"> To hurt the feelings of so many people<lb/> and in the abrogation of\n                        <add>אב\"ד דקק לאוברנא \"כלל העולה מכל הכתוב ומפורש לעיל דמות לשורר ולנגן בכל\n                        כלי שיר בבהכנ לכבוד ה'</add> legally<lb/> it is but <add>ותורתו, דל דבר מצוה\n                        לא גזרו חז\"ל כלל כמ\"ש ועמל ותו טעמא אחרינא איכא בהא מלתא דעי\"כ באים לבה\"כ\n                        האנשים והנשים לשמע אוזן אשר ישמעו כלי השיר הערב הנל וכבר אמרו חזל מתוך שלא\n                        לשמה בא לשמה, ואין להאריך בדברי' פשוטים</add>; but the feelings of<lb/>\n                    <sic>of</sic> all who hear of it.</item>\n                <item n=\"7\"> The <sic>unparalelled</sic> Hypocrisy</item>\n                <item n=\"8\"> His plan to subvert every thing</item>\n            </list>\n            <p>Here was neither reform, we have all the<lb/> prayers in <sic>hebrew</sic> except\n                    <date>friday</date> evening<lb/> | prayer | Hymn &amp; <add>והגלילות במדינת\n                    אנגארן</add> is read Heb &amp; then Engl<lb/>\n                <date>Sabbat</date>\n                <add>?</add>, 1 confessor <add>?</add><lb/> the <add>ושוב עוד מזה שיאמרו פסוקי דזמרה\n                    שירי יגדל ואדון עולם ויתר התפלות הנשגבות בשבת ובי\"ט בהלוית כנור וקול זמרה להרחיב\n                    ו לבב המתפללים לתגברות רוח השכל, וכבר כתב הרמ\"א בא\"ח ס. הק\"ס סג של צורך מצוה\n                    מותר לנגן בכל שיר וכל מיני וחס</add>, &amp; Prayer to government in Engl</p>\n            <p rend=\"The following is written in a column to the right of the list above.\"/>\n            <p> It is the relig life that I have to reform<lb/> but in the Syng, nothing amiss\n                has<lb/> been done<lb/> Had a Pious &amp; good man been here<lb/> of course nothing\n                of the kind would<lb/> have happened, as it could not be<lb/> done without a\n                rupture. Yet<lb/> had a pious teacher been here and<lb/> a party was desirous of\n                    <add>?</add> and were<lb/> not to be dissuaded from it. He<lb/> would have\n                proved his piety by<lb/> his “life &amp; protested against <add>?</add><lb/>\n                <add>?</add> &amp; tried by instruction<lb/> to prepare the mind to\n                <add>?</add><lb/> changes. But here all was<lb/> preposterous. No respect of<lb/>\n                persons, no reverence for what<lb/> is sacred. Like a robber he came<lb/> against\n                our wise men with</p>\n            <p rend=\"The following is written in the left margin near the top of the page.\">I\n                would<lb/> rather leave<lb/> teaching</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6168,
+          "width": 4894,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/da05f82b-72e4-49db-8367-0e8b0bf8ec57%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4894,
+                "height": 6168,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/da05f82b-72e4-49db-8367-0e8b0bf8ec57%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/assets/da05f82b-72e4-49db-8367-0e8b0bf8ec57/original",
+              "label": "Original File - 90.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>a battle arc and clubs. And like a thief in the dark to steal their faith<lb/> a good\n                man would never propose changes, he would wait till asked<lb/> if a congreg feels no\n                want to curtail prayer, prayer cannot be too<lb/> long. I cannot write so much.</p>\n            <p>What <persName>P</persName> &amp; his men wanted at all in a Jewish Synag I do no\n                know. But<lb/> my adherent intended no harm</p>\n            <p><persName>Mayer Lazarus</persName> several times assured me “That they intended\n                nothing but<lb/> to introduce order &amp; decorum into the service to render it\n                more<lb/> attractive. As to a creed “They never<add>?</add> intended to change or\n                alter, it was<lb/> but by chance that it was fined up there it was only to have<lb/>\n                a “p<add>?</add>dent to the Decalogue.</p>\n            <p>Should I <add>?</add> to reform the Congreg I shall not complain at<lb/> all\n                    <del>?</del> about the Syngag. And I am by no means to be blamed<lb/> so fill up\n                the place I will transcribe part of <add>אחי אל תפנו אל בלע עם ואל ... למדו לשונם\n                    דבר שקר העוה לא נלאו עשו ברית עם חזה שוא וקסם קסם, מרעה אל רעה צאן, ואת הטוב לא\n                    ידעו. בסוד עמי לא יהיו ועם צדיקים אל יכתבו. חקקו חקקי און, ומכתבים עמל כתבו – לא\n                    אענה את דבתם, כי גם נודע רעתם, וגם נפלו ברשעתם</add><lb/>\n                <add>Hebrew</add><lb/> I wrote so fast is this the contents?</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30v8b37h/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

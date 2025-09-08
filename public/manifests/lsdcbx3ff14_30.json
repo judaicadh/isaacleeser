@@ -1,0 +1,331 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Lazarus [?], L. L.; Leeser, Isaac; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p31z4291t"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Lazarus [?], L. L.; Leeser, Isaac; Philadelphia, PA; undated"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF14_30"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/549af247-73a1-4519-9a10-1bad262b37ea%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/549af247-73a1-4519-9a10-1bad262b37ea%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4872,
+          "width": 3416,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/549af247-73a1-4519-9a10-1bad262b37ea%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3416,
+                "height": 4872,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/549af247-73a1-4519-9a10-1bad262b37ea%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/assets/549af247-73a1-4519-9a10-1bad262b37ea/original",
+              "label": "Original File - 49.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><persName>Judah's</persName> Death</p>\n            <p rend=\"align(right)\">\n                <placeName>Phila</placeName>\n            </p>\n            <p rend=\"align(right)\">\n                <date>May 31st</date>\n                <add>?</add>\n            </p>\n            <p>My dear <addressee>Mr. Leeser</addressee></p>\n            <p rend=\"indent(2)\">Your pens are execrable<add>?</add><lb/> &amp; I can scarcely write\n                with them.<lb/> Your letter of the <date>30th</date> had just<lb/> been received;\n                Mamma says<lb/> that she thinks “<persName>Mr. <hi rend=\"underline\"\n                    >Judah's</hi></persName><lb/>\n                <hi rend=\"underline\">Will is shameful &amp; she never</hi><lb/> heard of anything so\n                unjust.”<lb/> We are sorry to hear that you<lb/> have caught another cold, you<lb/>\n                should be more careful.<lb/> Two more letters have been re-<lb/>ceived from\n                    <persName>Mr. M. M. Allen</persName>; in<lb/> one of them he wished to know<lb/>\n                whether you intended leaving<lb/> town this week, &amp; desired to know<lb/>\n                immediately, as otherwise he would<lb/> not come here to read on\n                    <date>Saturday</date><lb/> so I wrote him a few lines telling<lb/> him that you\n                had gone, I</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4872,
+          "width": 3416,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b53e6b0b-3d8a-462b-b717-a2b634eee1b1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3416,
+                "height": 4872,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b53e6b0b-3d8a-462b-b717-a2b634eee1b1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/assets/b53e6b0b-3d8a-462b-b717-a2b634eee1b1/original",
+              "label": "Original File - 49.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>suppose that it will be all right<lb/> Mamma took the note herself, &amp;<lb/> handed\n                it to <persName>Mr. A. T. Jones</persName> at his<lb/> office, &amp; then she went\n                to see the<lb/> girls &amp; found them looking very<lb/> well; they send their love\n                to you.<lb/> There are letters here from <persName>Mr<lb/> Allen</persName>,\n                    <persName>Mr M. Isaacs</persName>, <persName>Mr Louis<lb/> Solomon</persName>\n                &amp; <persName>J. N. Cardozo</persName>.</p>\n            <p><persName>Mr Allen</persName> sends a copy of the<lb/> proceedings of the “Board of\n                dele-<lb/>gates”. <persName>Mr. Isaacs</persName> officially<lb/> informs you that\n                you were<lb/> unanimously reelected Vice Presi-<lb/>dent; <persName>Mr\n                    Hart</persName> was chosen President<lb/> in place of <persName>Judge\n                    Cardozo</persName> who<lb/> was absent &amp;c. A resolution<lb/> was unanimously\n                adopted to<lb/> the effect that the absence of<lb/>\n                <persName>Rev I. Leeser</persName> occasioned by the<lb/> death of a relative, was\n                deeply<lb/> regretted by the <sic>conreation</sic><add>?</add>.<lb/>\n                <persName>Mr Louis Solomon</persName>, <placeName>Southfield Ogn.</placeName><lb/>\n                wishes to know the price of the<lb/> “Family Bible,” also the price of<lb/> a <hi\n                    rend=\"underline\"><add>?</add> sett</hi> of prayers according</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p2"
+                },
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to the German minhag, English<lb/> &amp; Hebrew; he encloses a stamp<lb/> so I intend\n                to send him an<lb/> answer, but your sets of prayers<lb/> are all Portuguese.</p>\n            <p><persName>Mr Cardoza</persName> sends an advertise-<lb/>ment for the “Occident.”</p>\n            <p>This is all I believe.</p>\n            <p>If you wish it I can send you<lb/>\n                <persName>Mr Isaac's</persName> letter when I <add>?</add>,<lb/> unless you fear it\n                may get lost.<lb/>\n                <persName>Aunt &amp; Uncle <add>?</add>ash</persName> are coming<lb/> today so I\n                shall not have much<lb/> time to translate, &amp; more over it<lb/> is <hi\n                    rend=\"underline\">awfully hard <sic>german</sic></hi>.<lb/> Things go on here as usual.<lb/>\n                <persName>Mr Jones</persName>' son called for the<lb/> books. The large Bible for<lb/>\n                <hi rend=\"underline\"><add>?</add></hi>, has been sent here;<lb/> what is to be done\n                with it?<lb/> Mamma's eyes trouble her very<lb/> much, but she looks<add>?</add>\n                better to-<lb/>day.</p>\n            <p>We received a letter from <persName>Uncle Sam</persName><lb/> on <date>Monday</date>;\n                they are all well with</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4872,
+          "width": 3416,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ffc42c07-8194-4c6f-aee0-88ff734a08b2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3416,
+                "height": 4872,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ffc42c07-8194-4c6f-aee0-88ff734a08b2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/assets/ffc42c07-8194-4c6f-aee0-88ff734a08b2/original",
+              "label": "Original File - 49.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>suppose that it will be all right<lb/> Mamma took the note herself, &amp;<lb/> handed\n                it to <persName>Mr. A. T. Jones</persName> at his<lb/> office, &amp; then she went\n                to see the<lb/> girls &amp; found them looking very<lb/> well; they send their love\n                to you.<lb/> There are letters here from <persName>Mr<lb/> Allen</persName>,\n                    <persName>Mr M. Isaacs</persName>, <persName>Mr Louis<lb/> Solomon</persName>\n                &amp; <persName>J. N. Cardozo</persName>.</p>\n            <p><persName>Mr Allen</persName> sends a copy of the<lb/> proceedings of the “Board of\n                dele-<lb/>gates”. <persName>Mr. Isaacs</persName> officially<lb/> informs you that\n                you were<lb/> unanimously reelected Vice Presi-<lb/>dent; <persName>Mr\n                    Hart</persName> was chosen President<lb/> in place of <persName>Judge\n                    Cardozo</persName> who<lb/> was absent &amp;c. A resolution<lb/> was unanimously\n                adopted to<lb/> the effect that the absence of<lb/>\n                <persName>Rev I. Leeser</persName> occasioned by the<lb/> death of a relative, was\n                deeply<lb/> regretted by the <sic>conreation</sic><add>?</add>.<lb/>\n                <persName>Mr Louis Solomon</persName>, <placeName>Southfield Ogn.</placeName><lb/>\n                wishes to know the price of the<lb/> “Family Bible,” also the price of<lb/> a <hi\n                    rend=\"underline\"><add>?</add> sett</hi> of prayers according</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p2"
+                },
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>to the German minhag, English<lb/> &amp; Hebrew; he encloses a stamp<lb/> so I intend\n                to send him an<lb/> answer, but your sets of prayers<lb/> are all Portuguese.</p>\n            <p><persName>Mr Cardoza</persName> sends an advertise-<lb/>ment for the “Occident.”</p>\n            <p>This is all I believe.</p>\n            <p>If you wish it I can send you<lb/>\n                <persName>Mr Isaac's</persName> letter when I <add>?</add>,<lb/> unless you fear it\n                may get lost.<lb/>\n                <persName>Aunt &amp; Uncle <add>?</add>ash</persName> are coming<lb/> today so I\n                shall not have much<lb/> time to translate, &amp; more over it<lb/> is <hi\n                    rend=\"underline\">awfully hard <sic>german</sic></hi>.<lb/> Things go on here as usual.<lb/>\n                <persName>Mr Jones</persName>' son called for the<lb/> books. The large Bible for<lb/>\n                <hi rend=\"underline\"><add>?</add></hi>, has been sent here;<lb/> what is to be done\n                with it?<lb/> Mamma's eyes trouble her very<lb/> much, but she looks<add>?</add>\n                better to-<lb/>day.</p>\n            <p>We received a letter from <persName>Uncle Sam</persName><lb/> on <date>Monday</date>;\n                they are all well with</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4872,
+          "width": 3416,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a9c78957-b27f-4fa0-82ca-835a4e92c0bb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3416,
+                "height": 4872,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a9c78957-b27f-4fa0-82ca-835a4e92c0bb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/assets/a9c78957-b27f-4fa0-82ca-835a4e92c0bb/original",
+              "label": "Original File - 49.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>the exception of <persName>Mary<add>?</add></persName> who is<lb/> again sick.</p>\n            <p><persName>Jesse Nashes<add>?</add></persName> wife, <persName>Clara</persName>,\n                is<lb/> dead; she died last <date>Tuesday</date><lb/> is it not very sad?</p>\n            <p>This letter is <add>?</add> so good bye<lb/> Mama &amp; <persName>Delia</persName>\n                send Love &amp;<lb/> a <hi rend=\"underline\">little <add>?</add></hi> comes from</p>\n            <p rend=\"indent(1)\">Your friend</p>\n            <p rend=\"indent(2)\">\n                <persName role=\"author\">L. L. Lazarus</persName>\n            </p>\n            <p>Write soon</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p31z4291t/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

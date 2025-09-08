@@ -1,0 +1,188 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Leeser from Solis, David H.; March 11, 1837",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p39z9123m"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Leeser from Solis, David H.; March 11, 1837"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Solis, David H. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1837-03-11"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["2 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF2_14", "ilcajs_b1f1_0012"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ca7959f-d812-4629-994a-6d76f1a7bfea%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ca7959f-d812-4629-994a-6d76f1a7bfea%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5178,
+          "width": 4400,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ca7959f-d812-4629-994a-6d76f1a7bfea%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4400,
+                "height": 5178,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2ca7959f-d812-4629-994a-6d76f1a7bfea%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/assets/2ca7959f-d812-4629-994a-6d76f1a7bfea/original",
+              "label": "Original File - 68.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n\t\t\t\t<addressee>Rev I. Leeser</addressee>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(2)\">Esteemed Friend</p>\n\t\t\t<p rend=\"indent(4)\">Enclosed please<lb/> find a check on the Philadelphia Bank,<lb/> for\n\t\t\t\tsix hundred dollars as a loan for a indefin<lb/>ite period, from a few friends, who\n\t\t\t\thave<lb/> learned with deep regret of the loss of your<lb/> valuable books by\n\t\t\t\tfire–<lb/> I sincerely trust that you will soon be<lb/> able to reproduce other\n\t\t\t\teditions of those<lb/> excellent works that ought and I have no<lb/> doubt will,\n\t\t\t\tfind their way into the families<lb/> of all Israelites–</p>\n\t\t\t<p rend=\"indent(2)\">With the highest feelings of<lb/> regard and esteem for you, I am Dr\n\t\t\t\tSir</p>\n\t\t\t<p rend=\"indent(9)\">Yours Sincerely</p>\n\t\t\t<p rend=\"indent(9)\">\n\t\t\t\t<persName role=\"author\">David H Solis</persName>\n\t\t\t</p>\n\t\t\t<p>board of <persName>Mr. S. L. Florance</persName> 1,000</p>\n\t\t\t<p>\" \" \" <persName>S. Neuhouse</persName> “</p>\n\t\t\t<p>' ' ' <persName>B. Lelar</persName> “</p>\n\t\t\t<p>\" \" \" <persName>Laz. Mayer</persName> “</p>\n\t\t\t<p>\" \" <persName>Danl. Gans</persName> “</p>\n\t\t\t<p>\" \" <persName>D Hof</persName> “</p>\n\t\t\t<p rend=\"indent(3)\">\n\t\t\t\t<placeName>Philadelphia</placeName>\n\t\t\t\t<date>March 11<hi rend=\"sup\">th</hi> 1837</date>\n\t\t\t</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4308,
+          "width": 5330,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8bb1464f-e139-4bbb-8765-8fa19001a5dd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5330,
+                "height": 4308,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8bb1464f-e139-4bbb-8765-8fa19001a5dd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/assets/8bb1464f-e139-4bbb-8765-8fa19001a5dd/original",
+              "label": "Original File - 69.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n\t\t\t\t<addressee>Rev</addressee>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">\n\t\t\t\t<addressee>I Leeser</addressee>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">\n\t\t\t\t<placeName>371 Walnut St</placeName>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">Present</p>\n\t\t</body>\n\t</text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p39z9123m/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

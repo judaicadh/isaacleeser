@@ -1,0 +1,213 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Linse, E. L.; Leeser, Isaac, Rev.; Philadelphia, PA; 1 April 1865",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3b85411b"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Linse, E. L.; Leeser, Isaac, Rev.; Philadelphia, PA; 1 April 1865"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1865-04-01"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF12_16"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/d4438010-5ee6-47ca-bf68-e8f03afe9658%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/d4438010-5ee6-47ca-bf68-e8f03afe9658%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 2468,
+          "width": 2030,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d4438010-5ee6-47ca-bf68-e8f03afe9658%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2030,
+                "height": 2468,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d4438010-5ee6-47ca-bf68-e8f03afe9658%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/assets/d4438010-5ee6-47ca-bf68-e8f03afe9658/original",
+              "label": "Original File - 15 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <date>April 1865</date>\n            </p>\n            <p><persName>Rev. I. Leeser</persName> to <persName role=\"author\">E. L.\n                Linse</persName></p>\n            <p rend=\"indent(1)\">Sending the Occident Dr.</p>\n            <p>To serving the Occident<lb/> One year due this date</p>\n            <table cols=\"2\" rows=\"6\">\n                <row>\n                    <cell>by Cash</cell>\n                    <cell>$19.85</cell>\n                </row>\n                <row>\n                    <cell>Received by cash</cell>\n                    <cell/>\n                </row>\n                <row>\n                    <cell>of <persName>Geo. Philip</persName></cell>\n                    <cell>4.</cell>\n                </row>\n                <row>\n                    <cell>Single copies sold</cell>\n                    <cell>1.20</cell>\n                </row>\n                <row>\n                    <cell>Single copies sold</cell>\n                    <cell>______</cell>\n                </row>\n                <row>\n                    <cell>Dollars</cell>\n                    <cell>$14.65</cell>\n                </row>\n            </table>\n            <p>Received payment</p>\n            <p>14.65</p>\n            <p>paye<lb/>ment</p>\n            <p><sic>Ballans</sic> $14.65</p>\n            <p>Recd</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 2056,
+          "width": 2480,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/07178e09-a924-48de-92fe-67024ee9fdf2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2480,
+                "height": 2056,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/07178e09-a924-48de-92fe-67024ee9fdf2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/assets/07178e09-a924-48de-92fe-67024ee9fdf2/original",
+              "label": "Original File - 15.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <persName>A A Ezekiel</persName>\n            </p>\n            <p>\n                <persName>George Phillips</persName>\n            </p>\n            <p>\n                <persName>George Phillips</persName>\n            </p>\n            <p>\n                <persName>George Ellen</persName>\n            </p>\n            <p>\n                <persName>Naumburg</persName>\n            </p>\n            <p>\n                <persName>Naumberg</persName>\n            </p>\n            <p>\n                <persName>N. Greenwald</persName>\n            </p>\n            <p>\n                <persName>S Lyons</persName>\n                <persName>S Lyons</persName>\n            </p>\n            <p>Das Justic</p>\n            <p>ic</p>\n            <p rend=\"align(right)\">\n                <persName>Weiller</persName>\n            </p>\n            <p rend=\"align(right)\">\n                <persName>Anker</persName>\n            </p>\n            <p rend=\"align(right)\">\n                <persName>Sternberger</persName>\n            </p>\n            <p rend=\"align(right)\">\n                <persName>J Nathans</persName>\n            </p>\n            <p rend=\"align(right)\">\n                <persName>J Saller</persName>\n            </p>\n            <p rend=\"align(right)\">Das Dasselbe Das</p>\n            <p rend=\"align(right)\">5th Arch ID</p>\n            <p rend=\"align(right)\">\n                <persName>Rosenbaum</persName>\n            </p>\n            <p rend=\"align(right)\">\n                <persName>Rev I Morais</persName>\n            </p>\n            <p rend=\"The following is written upside down next to Rev I Morais.\">Himself</p>\n            <p rend=\"align(right)\">\n                <persName>Holland Cass</persName>\n            </p>\n            <p rend=\"The following is written upside down next to Holland Cass.\">Himself</p>\n            <p rend=\"The following is written upside down.\">\n                <persName>Mr Isaac Leeser</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b85411b/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

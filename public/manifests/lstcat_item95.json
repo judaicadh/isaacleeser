@@ -1,0 +1,207 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Mayer, I., Dr.; Leeser, Isaac; Cincinnati, OH; 17 June 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3w669v67"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Mayer, I., Dr.; Leeser, Isaac; Cincinnati, OH; 17 June 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leo, Ansel", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-06-17", "17 June 5614"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Ohio -- Cincinnati",
+        "United States -- Ohio",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item95"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/4e7d51ec-efb6-493f-9872-a4fda4e90ab7%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/4e7d51ec-efb6-493f-9872-a4fda4e90ab7%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6266,
+          "width": 5000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4e7d51ec-efb6-493f-9872-a4fda4e90ab7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5000,
+                "height": 6266,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4e7d51ec-efb6-493f-9872-a4fda4e90ab7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/assets/4e7d51ec-efb6-493f-9872-a4fda4e90ab7/original",
+              "label": "Original File - 94.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Cincinnati</placeName>\n                <date>June 17<hi rend=\"sup\">th</hi> 5614</date>\n                <add>?</add>\n            </p>\n            <p>\n                <add>שלום רב וברכה ישפיהו ה' לאיש חיל, היוצא במערכות מלחמות ה', ורבים השיב מעון,\n                    ומתלהב לבם לאמונת אבותינו</add>\n            </p>\n            <p>Rev. Sir!</p>\n            <p>A friend of mine, to whom I <sic>recommanded</sic> Your<lb/> valuable Periodical, the\n                Occt, requests that I shall<lb/> beseech your Hon. to forward to his Address\n                the<lb/> first No of the <sic>comming</sic> monthly Magazine and continue<lb/> to do\n                so successively. He is likewise desirous to<lb/> obtain of the same\n                    <sic>Magazin</sic> the Numbers of the<lb/> past <hi rend=\"underline\">two\n                    years</hi>, neatly Bound <hi rend=\"underline\">in one Volume</hi>,<lb/> wishing,\n                that you might have it in <sic>readness</sic>, for<lb/> the next month, when he\n                anticipates having the<lb/> pleasure of <sic>caling</sic> with you and to settle the\n                    <sic>accont</sic>.</p>\n            <p rend=\"indent(1)\">By the same opportunity, I will feel obliged,<lb/> if you will hand\n                him the Papers, containing Certificates<lb/> and Diploma, of mine, send you some\n                time since with an<lb/> Article written <sic>intented</sic> as a reply to the\n                    <persName>Rev I. Rosenfeld</persName>.</p>\n            <p rend=\"indent(1)\">Your leading Art. against progressive Reform<lb/> in the\n                    <date>June</date> No has greatly pleased our friends here, and<lb/> demands our\n                respectful thanks, while the strictures<lb/> against <persName>I. Wise</persName>\n                <hi rend=\"underline\">D. D.</hi> in Page 148. has paralyzed even some<lb/> of his\n                best friends—such weapons so powerful and</p>\n            <p rend=\"The following is written sideways in the left margin.\"/>\n            <p>V# <persName>Mr N. Moses</persName>,</p>\n            <p>care of <persName>Hyman Moses &amp; Co.</persName></p>\n            <p rend=\"indent(1)\">\n                <placeName>Cincinnati <sic>ohio</sic></placeName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6266,
+          "width": 5000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2310aba0-5655-4618-8185-0237b801bbd7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5000,
+                "height": 6266,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2310aba0-5655-4618-8185-0237b801bbd7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/assets/2310aba0-5655-4618-8185-0237b801bbd7/original",
+              "label": "Original File - 94.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>2</p>\n            <p>so ably directed must <sic>eventualy</sic> prostrate that<lb/> great champion of\n                Reform. He is indeed miserably<lb/> humbled already, doubtless there are many\n                Persons<lb/> who would gladly take the Field, but believing the<lb/> holding of him\n                up to contempt is assigning him—<lb/><sic>to</sic> much importance, he is however in\n                proper hands<lb/> and nothing will afford (true believers) so much<lb/>\n                gratification as a continuance of the <hi rend=\"underline\">same</hi> and<lb/> which\n                we have the <sic>assurrance</sic> is to follow “<add>לאיש אשר תורת אמת בפיהו – לרב\n                    המושלים המעוז ומגדל כבוד שמו מהו' יצחק אליעזר נרו</add>”<lb/> !“<add>הפרו\n                    תורתיך</add>”—The <hi rend=\"underline\">D.D</hi> has established his <hi\n                    rend=\"underline\">head-quaters</hi><lb/> in the <hi rend=\"underline\">Camp of the\n                    Blind</hi>! Hostilities commenced, on<lb/> the past festivals, when <hi\n                    rend=\"underline\">he</hi> boldly attacked, by<lb/> seizing the principles of our\n                Ancient Formulas<lb/> Expelling, <add>כי עת לעשות לי</add>\n                <hi rend=\"underline\">Rush</hi>, <add>רות</add> Musaph-Pajutims, <add>פיוטים של\n                    מוסף</add> Ackdumos, &amp; some more<lb/> also he is preparing now a choir,\n                &amp; <del>intend</del>\n                <sic>&amp;</sic> perhaps an<lb/> organ where this will end time alone will\n                develop!</p>\n            <p rend=\"indent(1)\">This mistaken reform, is a novelty, particul<lb/>ary to Persons who\n                have no mind of their own,<lb/> will doubtless for a time be devoured by them<lb/>\n                with avidity—but also vanish like every Phantom as<lb/> soon the <hi\n                    rend=\"underline\">Light</hi> (<persName>Dr Wise's</persName> weekly paper in\n                    <add>?</add>) will break on—<lb/> “<add>אקדמות</add>” and as our sages said\n                    “<add>שקר אין לו רגלים</add>”!</p>\n            <p rend=\"indent(1)\">!<add>שבקי לרוויה ומנפשי נפל</add>”, The new-born <hi\n                    rend=\"underline\">Israelite</hi><lb/> Weekly Pap. By <persName>I.\n                    Weisse</persName> will make its first appearance<lb/> on the <date>1<hi\n                        rend=\"sup\">st</hi> of July</date>—its motto is to be “!<add>בן יולד לנו ותהי\n                    מלחמה על שכמו</add>!,” (ignis fatuus)<lb/> and we might say, with Jews. V. 20.\n                    <add>יהי אור</add>! it may <hi rend=\"underline\">probably</hi><lb/> enlighten the\n                    <sic>Gentils</sic> if it does not reform his <sic>Brethern</sic>.<lb/> I will\n                take the liberty of sending you a number when published.</p>\n            <p rend=\"indent(1)\">I am Dr Sir, with much esteem, Your mo. ob. Sert</p>\n            <p rend=\"indent(7)\"><persName role=\"author\">Dr. I. Mayer</persName>.</p>\n            <p rend=\"The following is written sideways in the left margin of the page.\"/>\n            <p>P. S. <add>שמים חשך לאור, ואור לחשך</add>! The <persName>Rev. I. Wise</persName> D.\n                D. the<lb/> Antagonist of the <hi rend=\"underline\">Kabalah</hi>, the Adversirer of\n                    <hi rend=\"underline\">Thalmud</hi><lb/> the <sic>Enemie</sic> of the Old obscure\n                Rabbinism, performed<lb/> to day a <hi rend=\"underline\">Kabalistical Function</hi>\n                <add>ואם אין חדש יש חדש</add> He <hi rend=\"underline\">Benshd</hi><lb/> a Child,\n                which died, while he was Benshing it—who is<lb/> the Hypocrite? O\n                    <persName>Moses</persName>! O Tempora!</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3w669v67/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

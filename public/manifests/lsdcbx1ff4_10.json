@@ -1,0 +1,193 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Aguilar, Grace, 1816-1847; May 30, 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3qv3cw2f"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter to Isaac Leeser from Aguilar, Grace, 1816-1847; May 30, 1847"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": [
+        "Leeser, Isaac (contributor)",
+        "Aguilar, Grace, 1816-1847 (creator)"
+      ]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-05-30"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["5 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["London (England)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF4_10", "ilcajs_b1f4_0011"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e5726db-93b1-4a0f-9d14-6345540ff563%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e5726db-93b1-4a0f-9d14-6345540ff563%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 4120,
+          "width": 5416,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e5726db-93b1-4a0f-9d14-6345540ff563%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5416,
+                "height": 4120,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e5726db-93b1-4a0f-9d14-6345540ff563%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/assets/5e5726db-93b1-4a0f-9d14-6345540ff563/original",
+              "label": "Original File - 67.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                                        <placeName>Clarence Place</placeName>\n                              </p>\n                              <p rend=\"align(right)\">\n                                        <date>30 May /47</date>\n                              </p>\n                              <p>\n                                        <addressee>Rev. Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p>My Dear Sir,</p>\n                              <p rend=\"indent(2)\">I return you many<lb/> thanks for your last\n                                        kind<lb/> favor. The bill on <date>10th</date> [?]<lb/> for\n                                        £11..7..10–which she has<lb/> accepted. I promised to\n                                        refund<lb/> to me tomorrow– This must<lb/> I fear be a very\n                                        brief little<lb/> satisfactory epistle, for I am<lb/> much\n                                        hurried, from long<lb/> continued indisposition\n                                        correspondence<lb/> has been is a great fatigue<lb/> but I\n                                        am anxious to acknowledge</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 4114,
+          "width": 5460,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f24629a7-3bbf-494d-8708-1a3ec1f3bf60%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5460,
+                "height": 4114,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f24629a7-3bbf-494d-8708-1a3ec1f3bf60%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/assets/f24629a7-3bbf-494d-8708-1a3ec1f3bf60/original",
+              "label": "Original File - 67.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>your remittance I explained<lb/> that my last work \"House<lb/>\n                                        Influence a Sale for Mothers and daughters\" is <hi\n                                                  rend=\"underline\">not</hi> published<lb/> at my own\n                                        expense–The profits<lb/> whatever they may be are to<lb/> be\n                                        divided between my<lb/> publisher (who has taken the<lb/>\n                                        whole risk) myself–therefore<lb/> I should be glad if they\n                                        book could<lb/> get a circulation in\n                                                  <placeName>America</placeName><lb/> but I could\n                                        not send them<lb/> out. <persName>Mrssrs Carey\n                                                  Hart</persName>, if<lb/> they <hi rend=\"underline\"\n                                                  >really</hi> wish for theirs<lb/> must write\n                                        themselves to<lb/>\n                                        <persName>Miss Greenbridge</persName> Sons<lb/>\n                                        <placeName>5 Patornostor low Cheapside<lb/>\n                                                  London</placeName>– their order will<lb/> of\n                                        course be attended to<lb/> I will enclose with this</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qv3cw2f/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

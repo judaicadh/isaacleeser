@@ -1,0 +1,317 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Levin, N.; Leeser, Isaac; Charleston, SC; 12 June 1842",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p37h1f707"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Levin, N.; Leeser, Isaac; Charleston, SC; 12 June 1842"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Levin, N.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1842-06-12"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx9FF14_1"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce0fb878-0ad2-46c4-be10-30cd392e197a%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce0fb878-0ad2-46c4-be10-30cd392e197a%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 8133,
+          "width": 5328,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce0fb878-0ad2-46c4-be10-30cd392e197a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5328,
+                "height": 8133,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce0fb878-0ad2-46c4-be10-30cd392e197a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/assets/ce0fb878-0ad2-46c4-be10-30cd392e197a/original",
+              "label": "Original File - 130 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Charleston</placeName>\n                <date>12th June 1842</date>\n            </p>\n            <p>\n                <addressee>Revd. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir</p>\n            <p rend=\"indent(2)\">Your esteemed favor of the <date>6th</date> inst came<lb/> duly to\n                hand and I am much grieved to learn that you had been<lb/> seriously indisposed I\n                trust that you are again restored to health<lb/> and sincerely hope that our\n                Heavenly Father will bless your future<lb/> days with uninterrupted health and\n                happiness. You <hi rend=\"underline\">are</hi> correct in<lb/> your estimate of the\n                organ innovation, and the motives which<lb/> inspired the invocation of the muses;\n                but I think you are wrong<lb/> in the sentiment that “the gentiles must be anxious\n                for us to yield<lb/> as idle our expectation of a messiah &amp;c„. If the doctrine\n                were to be promul<lb/>gated that the Jewish prophecies did not justify the\n                    <sic>beleif</sic> in the advent<lb/> of a Personage would it not be a direct\n                attack upon their fundamental<lb/>\n                <sic>beleif</sic>? For they take the prophecies &amp; find them fulfilled in the\n                persons<lb/> of their Messiah notwithstanding the palpable contradictions that\n                instead<lb/> of the “Prince of peace„ He has been the demon of strife war &amp;\n                bloodshed<lb/> with all their train of sorrows and crime.=If this idea\n                prevailed<lb/> I think it would be a direct blow at the very foundation of<lb/>\n                their Religion. Do you concern with me now? The <hi rend=\"underline\">new</hi> creed\n                I herewith<lb/> transcribe for your edification, it was concocted by <persName>Mr\n                    Poznanski</persName> &amp; <persName>Mr<lb/> Joshua Lazarus</persName> before\n                the dedication of the synagogue &amp; placed upon<lb/> a Tablet in gilt letter on\n                the right of the <hi rend=\"underline\">achol</hi> on the left is placed<lb/> the 10\n                Commandments. Before this excitement I presume no one read them<lb/> at least very\n                few. I myself never did read them while then feeling<lb/> confident that\n                    <persName>Mr P.</persName> had given us the Creed handed down to us by<lb/>\n                <persName>Maimonides</persName>. Inform me <hi rend=\"underline\">if you can</hi>,\n                where he got his authority for<lb/> this version, &amp; if it would be recognized by\n                Jews? Here it is—</p>\n            <p>I We believe in the existence of a Supreme Being who created governs &amp; sustains\n                the Universe.</p>\n            <p>II We believe that this Being is the only true &amp; living God, the only Divine\n                Being, only<lb/> one in Unity, and without plurality in any sense whatever.</p>\n            <p>III We believe that God is incorporeal &amp; incomprehensible that he has never put\n                on the figure<lb/> or body of any thing in Creation &amp; that there is nothing like\n                him in the Universe.—</p>\n            <p>IV We believe that God is without beginning &amp; without end &amp; that He is the\n                only Eternal Being</p>\n            <p>V We believe that God reigns alone over the Universe; that there exists no mediator\n                between<lb/> man &amp; his maker &amp; that it is proper to pray to Him only, &amp;\n                not through the merits of any<lb/> other being</p>\n            <p>VI We believe that the Prophets were the only persons inspired by God, &amp; that all\n                their words are true</p>\n            <p>VII We believe that <del>the</del>\n                <persName>Moses</persName> was the greatest of the Prophets &amp; that none has\n                appeared like unto him</p>\n            <p>VIII We believe that the divine Law in our <sic>posession</sic> is that which was\n                delivered to our<lb/> Fathers by <persName>Moses</persName>, &amp; that all divine\n                communication ceased with <persName>Malachi</persName> the last of<lb/> the\n                Prophets</p>\n            <p>IX We believe that the divine Law delivered by <persName>Moses</persName>, will never\n                be changed, nor altered</p>\n            <p>X We believe that God knows all our thoughts and actions.—</p>\n            <p>XI We believe that God rewards all who observes his commands &amp; punishes those who\n                transgress them</p>\n            <p>XII We believe that the Messiah announced by the Prophets is <hi rend=\"underline\"\n                    >not</hi> come—<lb/> the Prophecies in relation to his coming <hi\n                    rend=\"underline\">not being fulfilled</hi></p>\n            <p>XIII We believe that the soul is <hi rend=\"underline\">Immortal</hi>, and that we\n                shall be<lb/> accountable for our actions in the life to come.—</p>\n            <p rend=\"indent(1)\">This creed was also printed some time since &amp; used in the school\n                for the instruction<lb/> of Jewish youth &amp; strange to say it passed the critical\n                ordeal of all of us. There<lb/> is much subtle wording in it &amp; several passages\n                are blows dealt at the gentiles<lb/> and have no existence in the Text. Let me have\n                your views upon it. How can<lb/> you advise the continuance of <persName>Mr\n                    Poznanski</persName> as Hazan when he laughs at the idea<lb/> of observing the\n                second day of our Holidays. We know his sentiments and can we<lb/>\n                <sic>beleive</sic> in the <sic>effiacy</sic> or truth of prayer from the lips of him\n                who does not<lb/>\n                <sic>beleive</sic> in the occasion which calls us together to offer up that prayer.\n                You<lb/> might with the same propriety assert that there would be efficacy in\n                the<lb/> prayers of an atheist. You cannot have read our reply carefully; read\n                over<lb/> his second letter to the Trustees &amp; you will there find that he will\n                preach<lb/> errors &amp; abuses until the people tell him through the Board of\n                Trustees<lb/> to preach truths. You must know that in addition to these\n                circumstances <persName>Mr<lb/> Poznanski</persName> in conversation with several\n                Christian Ministers of our<lb/> city asserted, “That the Messiah had not come,\n                nor</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 8133,
+          "width": 5328,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0f9fa79a-ff17-493f-8395-70173ec43e0c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5328,
+                "height": 8133,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0f9fa79a-ff17-493f-8395-70173ec43e0c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/assets/0f9fa79a-ff17-493f-8395-70173ec43e0c/original",
+              "label": "Original File - 130 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>did the Prophecies justify the belief that he was to come as a Personage,<lb/> it was\n                figurative, an ideality, &amp; meant a happy &amp; peaceful <del>stake</del>\n                state<lb/> of things, enlightenment peace &amp;c this was our messiah„ alluding to<lb/>\n                <placeName>Carolina</placeName> or the <placeName>U. states</placeName>. In his\n                dedicatory sermons he spoke<lb/> of the “<placeName>U. S.</placeName> as our\n                    <placeName>Palestine</placeName>; <placeName>Charleston</placeName> our\n                    <placeName>Jerusalem</placeName> &amp; this (alluding to the<lb/> synagogue) our\n                Temple. I was induced by the solicitation of one of his<lb/> friends to ask him if\n                this were true. This <sic>occured</sic> a few days since<lb/> His reply was, That\n                the most amicable form of telling the question was<lb/> to submit it to the courts\n                of the country although he regretted it much &amp;<lb/> declined to answer the\n                question, until he testified on the witness stand.<lb/> This is what Lawyers would\n                call a <hi rend=\"underline\">negative pregnants</hi> or a denial<lb/> confirming the\n                fact. Why not deny it at once if untrue? and I should<lb/> have been happy to have\n                contradicted it—Take these facts in connection<lb/> with the <hi rend=\"underline\"\n                    >new creed</hi> &amp; let me have your opinion. He told me moreover<lb/> that\n                when the case came on for trial he would prove things countenanced<lb/> and enjoined\n                upon us by the Rabbins which would tend to injure us in<lb/> the eyes of the\n                christian community. Not being versed in Talmudical lore<lb/> I am at a loss to know\n                what grave charges he can bring before a<lb/> christian Tribunal to injure us. The\n                cause he espouses must be very<lb/> bad if it requires such disclosures to uphold\n                it, &amp; like <persName>Samson</persName> he<lb/> will have to be commingled in the\n                ruin he would hurl upon us.<lb/> He said he would also prove that the keeping of the\n                second days of<lb/> the Holidays was not even <hi rend=\"underline\">enjoined</hi> by\n                the Rabbins and therefore an<lb/> abuse, that we had now obtained the precise time\n                &amp; it was folly to<lb/> keep more than one day. Have the Rabbins advocated\n                doctrines<lb/> subsequent to our ideas of charity &amp; good will? Rumor says\n                that<lb/> he intends to prove that if a Gentile falls into the water &amp; a jew\n                could<lb/> save him the Rabbis say let him drown„—&amp; may such barbarous<lb/>\n                doctrines at which humanity shudders</p>\n            <p rend=\"indent(1)\">I think it becomes your impervious duty to notice in<lb/> the\n                Occident as early as possible the Rationale, bearing and tenor of the<lb/> Pamphlet\n                sent to you, in a <hi rend=\"underline\">direct manner</hi>, come out boldly\n                &amp;<lb/> manfully, give us <hi rend=\"underline\">orthodox views</hi> instead of the\n                    <hi rend=\"underline\">neologistic</hi> reasoning<lb/> of <persName>Mr\n                    Poznanski</persName> &amp; his party, but let them be tempered with charity<lb/>\n                and brotherly love. Your friends here expect this from you<lb/> and Judaism <hi\n                    rend=\"underline\">demands</hi> this of you. You cannot waver or falter<lb/> now,\n                you who have for 12 years been battling for what we<lb/> are now honestly &amp;\n                zealously contending for, must not<lb/> let us wage the war unassisted by your\n                talents and experience.<lb/> Our Jewish <sic>Bretheren</sic> throughout the world\n                should know the<lb/> cause of the breach in our congregation through the medium of\n                your<lb/> Periodical, from the pen of one who is conversant with the<lb/> facts\n                &amp; who has labored &amp; struggled to advance and establish<lb/> the moral &amp;\n                Religious welfare of his people. Nothing will afford<lb/> more pleasure to\n                    <sic>may</sic> of your <sic>Bretheren</sic> here &amp; elsewhere &amp; I<lb/> am\n                confident you will p<add>?</add> this crime. In relation to<lb/> a conciliation—it\n                is out of the question, and as for inducing those<lb/> you named in your letter to\n                join our ranks (in public or private)<lb/> it is worse than folly to think of\n                it—each one (excepting <persName>Hyam Cohen</persName>)<lb/> is an ultra Reformer\n                &amp; will support <persName>Mr Poznanski</persName> in all his<lb/> views.\n                    <persName>Hayam Cohen</persName> is his staunch supporter <del>of him</del>. The\n                courts of<lb/> the Country will reconcile every thing I hope satisfactorily.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 8133,
+          "width": 5328,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bb457874-7e1f-443e-a839-5c1349a97e05%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5328,
+                "height": 8133,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bb457874-7e1f-443e-a839-5c1349a97e05%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/assets/bb457874-7e1f-443e-a839-5c1349a97e05/original",
+              "label": "Original File - 130 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>You have not answered that portion of my letter relating to<lb/> your coming on here\n                if your presence is necessary which<lb/> I am confident will be the case. I know\n                that every<lb/> advantage will be taken from the circumstance of our not<lb/> having\n                any Hebrew scholars here who can disprove any authority<lb/> he <persName>Mr\n                    P.</persName> may adduce. The party have already <sic>comenced</sic>\n                collating<lb/> facts, authorities, &amp;c for the trial which will positively take\n                place<lb/> in <date>October</date> I have no doubt the Congregation of\n                    <placeName>Philadelphia</placeName><lb/> would grant you leave of absence for 8\n                or 10 days, especially when<lb/> they reflect that an interest is involved effecting\n                them as well<lb/> as us, for we are endeavouring to uphold the faith of\n                    <placeName>Israel</placeName><lb/> transmitted to us by our Fathers &amp;\n                preserved intact for<lb/> upwards of 5000 years.</p>\n            <p rend=\"indent(1)\">I thank you for your flattering <add>?</add>—upon<lb/> my humble\n                effort, and value it highly as I feel assured you<lb/> are not the person to say\n                what you do not believe, I shall<lb/> endeavour to contribute to the Occident but I\n                am not at<lb/> all acquainted with Religious subjects and am endeavoring<lb/> by\n                every possible means to make myself familiar with<lb/> them. I have commenced\n                studying our holy language<lb/> grammatically and as I before informed you am a<lb/>\n                strict conformist, <hi rend=\"underline\">without losing the spirit of the\n                    Religion</hi><lb/> and in every sense of the term I am a better man.</p>\n            <p rend=\"indent(1)\">Allow me to thank you for the promptness with which<lb/> you replied\n                to my favors &amp; to desire from you an interchange<lb/> of sentiment which must\n                both instruct and edify me,<lb/> and commending you to the brightest blessings of\n                health Happiness<lb/> &amp; prosperity I remain</p>\n            <p rend=\"indent(9)\">Your sincere Friend</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">N. Levin</persName>\n            </p>\n            <p><persName>Mrs Levin</persName> &amp; Mr &amp; <persName>Mrs Moses</persName> desire\n                their remembrances</p>\n            <p rend=\"indent(1)\">to you.</p>\n            <p>Please present my respects to <persName>Mr Hockenboy</persName> &amp; <persName>Mr\n                    Hart</persName> &amp; family Inquire of<lb/>\n                <persName>Mr H</persName> whether he procured the Nos of the voice of <add>?</add>\n                for me.<lb/> When I have more <sic>liesure</sic> I will send on you a/c—</p>\n            <p>P. S.</p>\n            <p rend=\"indent(1)\">If you conclude to come on (which of course you will &amp; I\n                beg<lb/> you will keep this fact <hi rend=\"underline\">entirely confidential</hi> I\n                mean you coming on)<lb/> your expenses will all be defrayed.</p>\n            <p rend=\"indent(1)\">Let me hear from you as early as possible</p>\n            <p rend=\"indent(6)\">\n                <persName role=\"author\">\n                    <hi rend=\"underline\">N. L.</hi>\n                </persName>\n            </p>\n            <p>I have only recd <hi rend=\"underline\">2</hi> nos of the Occident<lb/> please send the\n                others by <hi rend=\"underline\">mail</hi></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 8133,
+          "width": 5328,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/122c2260-0ce0-4d96-86d5-61c77018177d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5328,
+                "height": 8133,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/122c2260-0ce0-4d96-86d5-61c77018177d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/assets/122c2260-0ce0-4d96-86d5-61c77018177d/original",
+              "label": "Original File - 130 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Revd. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(3)\">\n                <placeName>Pa</placeName>\n            </p>\n            <p>1 dear</p>\n            <p rend=\"indent(2)\">Uncle</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p37h1f707/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3hx1671f"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Philadelphia, PA; undated"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF14_55"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/f1c5da7e-5add-4104-94ee-9b01d8528aa3%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/f1c5da7e-5add-4104-94ee-9b01d8528aa3%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6188,
+          "width": 4954,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f1c5da7e-5add-4104-94ee-9b01d8528aa3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4954,
+                "height": 6188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f1c5da7e-5add-4104-94ee-9b01d8528aa3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/assets/f1c5da7e-5add-4104-94ee-9b01d8528aa3/original",
+              "label": "Original File - 92 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">5</p>\n            <p>accompany me. We went—<persName>Dr. Henry</persName><lb/> I said will you answer me a\n                few<lb/> questions? I want to be answered<lb/> exactly<add>?</add>, as on <hi\n                    rend=\"underline\">your</hi> answers depend my<lb/> marriage with <persName>Mr.\n                    P.</persName></p>\n            <p rend=\"indent(1)\">If I marry <persName>Mr. P.</persName> can any one point<lb/> their\n                finger at us in scorn and say<lb/> they have done wrongly? “In Madam.”</p>\n            <p rend=\"indent(1)\">If we marry and have children<lb/> are they legitimate? “Yes\n                Madam”</p>\n            <p rend=\"indent(1)\">Will any reproach be attached to<lb/> those children through our\n                marriage?<lb/> “No Madam”</p>\n            <p rend=\"indent(1)\">Well, what do you want Doctor?<lb/> I'll tell you what you <hi\n                    rend=\"underline\">can</hi> do, you<lb/> can go to <placeName>Germany</placeName>\n                and get “Kalitza”</p>\n            <p rend=\"indent(1)\">I indignantly answered “I will<lb/> see them further first” I was\n                    <hi rend=\"underline\">so</hi><lb/> very angry.</p>\n            <p rend=\"indent(1)\"><persName>Dr. Henry</persName>\n                <hi rend=\"underline\">then</hi> said “Now I <del>will</del><lb/> am going to take off\n                my gown (<add>?</add><lb/> the action to the words) and told you</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6188,
+          "width": 4954,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f0bdabaf-39fa-41ed-b6c9-036575a47024%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4954,
+                "height": 6188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f0bdabaf-39fa-41ed-b6c9-036575a47024%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/assets/f0bdabaf-39fa-41ed-b6c9-036575a47024/original",
+              "label": "Original File - 92 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">6</p>\n            <p><hi rend=\"underline\">confidentially</hi> that had you <hi rend=\"underline\">had</hi>\n                Kalitza<lb/> you then dared not marry him.</p>\n            <p rend=\"indent(1)\">I rose joyfully “Thank you Doctor<lb/> (said I) those news was an\n                act of parliament<lb/> but what a coach and six<add>?</add> could drive<lb/>\n                through. <persName>Mr. P.</persName> we will be married.</p>\n            <p rend=\"indent(1)\"><persName>Dr. Henry</persName> said any Jewish mi-<lb/>-nister could\n                marry us, and we then<lb/> applied to the <persName>Revd. Dr. Eckman</persName>\n                who<lb/> married us.</p>\n            <p rend=\"indent(1)\"><hi rend=\"underline\">If</hi> I have sinned, which I hope<lb/> I have\n                not, it lays at <persName>Dr. Henry's</persName> door,<lb/> for as I hope to meet my\n                maker hereafter<lb/> I had resolved had he said <hi rend=\"underline\">no</hi> I would<lb/>\n                <hi rend=\"underline\">not</hi> have married.</p>\n            <p rend=\"indent(1)\">The doctors' refusal arose, not as<lb/>\n                <persName>Theophilus</persName> states from <persName>Dr. Henry's</persName><lb/>\n                <hi rend=\"underline\">conviction</hi> of wrong <hi rend=\"underline\">but</hi> because\n                of<lb/> in cabal suscitated<add>?</add> by <persName>A. B. Ephraim</persName><lb/>\n                and others against him to catch<lb/> him tripping</p>\n            <p>***</p>\n            <p>P. S. I should feel regret at mentioning</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 2412,
+          "width": 4954,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b737a1cc-0f32-443a-99fc-7af966094e00%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4954,
+                "height": 2412,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b737a1cc-0f32-443a-99fc-7af966094e00%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/assets/b737a1cc-0f32-443a-99fc-7af966094e00/original",
+              "label": "Original File - 35.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">7</p>\n            <p><persName>Dr. Henry's</persName> confidential remarks to me,<lb/> were it not that\n                being so well acquainted<lb/> with the Doctor's Phraseology, I feel but<lb/> little\n                scruple in asserting that “<persName>Theophilus</persName>”<lb/> and the Doctor do\n                not live <hi rend=\"underline\">very</hi> far<lb/> apart.</p>\n            <p rend=\"align(center)\">***</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx1671f/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

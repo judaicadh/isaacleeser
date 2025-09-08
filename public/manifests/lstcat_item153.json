@@ -1,0 +1,205 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Allen, Lewis; Leeser, Isaac; Philadelphia, PA; 25 December 1837",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3dr2pv8d"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Allen, Lewis; Leeser, Isaac; Philadelphia, PA; 25 December 1837"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1837-12-25"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item153"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/a081642d-b637-4aad-86cd-f089e12b8efb%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/a081642d-b637-4aad-86cd-f089e12b8efb%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3162,
+          "width": 4942,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a081642d-b637-4aad-86cd-f089e12b8efb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4942,
+                "height": 3162,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a081642d-b637-4aad-86cd-f089e12b8efb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/assets/a081642d-b637-4aad-86cd-f089e12b8efb/original",
+              "label": "Original File - 47.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">Dear Sir,</p>\n\t\t\t<p rend=\"indent(2)\">Your Draft of contract dated <date>20<hi rend=\"sup\">th</hi></date>\n\t\t\t\tInst.<lb/> left with me not being on the terms prescribed<lb/> by the congregation.\n\t\t\t\tI herewith return you the<lb/> same. Hoping you will still execute the one<lb/> left\n\t\t\t\twith you.<lb/></p>\n\t\t\t<p rend=\"indent(10)\">Yours respectfully</p>\n\t\t\t<p rend=\"indent(10)\">\n\t\t\t\t<persName role=\"author\">Lewis Allen</persName>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(11)\">Parnass</p>\n\t\t\t<p rend=\"indent(11)\">K. K. M. Israel</p>\n\t\t\t<p>\n\t\t\t\t<date>25/37 Decbr.</date>\n\t\t\t</p>\n\t\t\t<p><date>Sunday</date> morning</p>\n\t\t\t<p>\n\t\t\t\t<addressee>Revd Mr I. Leeser</addressee>\n\t\t\t</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3162,
+          "width": 4942,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5d6c165a-53c1-493c-af6c-5a2041e36cbe%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4942,
+                "height": 3162,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5d6c165a-53c1-493c-af6c-5a2041e36cbe%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/assets/5d6c165a-53c1-493c-af6c-5a2041e36cbe/original",
+              "label": "Original File - 47.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n\t\t\t\t<addressee>Revd. Mr I. Leeser's</addressee>\n\t\t\t</p>\n\t\t\t<p rend=\"indent(1)\">Present.</p>\n\t\t</body>\n\t</text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3dr2pv8d/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

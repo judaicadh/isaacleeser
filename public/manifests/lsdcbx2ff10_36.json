@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 7 September 1863",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3v11w58b"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 7 September 1863"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1863-09-07", "23 Elul 5623"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF10_36"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/2005961a-24e5-4c8d-acbc-9ba5334f76b7%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/2005961a-24e5-4c8d-acbc-9ba5334f76b7%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 2890,
+          "width": 3780,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2005961a-24e5-4c8d-acbc-9ba5334f76b7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3780,
+                "height": 2890,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2005961a-24e5-4c8d-acbc-9ba5334f76b7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/assets/2005961a-24e5-4c8d-acbc-9ba5334f76b7/original",
+              "label": "Original File - 32.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Montreal</placeName>\n                <date>7th Sep 23 Elul 5623</date>\n            </p>\n            <p>The <addressee>Revd Isaac Leeser</addressee></p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(2)\">Dear Sir.</p>\n            <p rend=\"indent(3)\">Many thanks for the<lb/> photographs you so kindly sent me<lb/> in\n                your favor of <date>1st</date>. One copy<lb/>\n                <persName>Mrs De Sola</persName> will give to <persName>Mrs J A\n                Joseph</persName><lb/> as you promised her one—the other<lb/>\n                <add>לָעַד בַּסֵּפֶר יוּחַק. בְּרִית עולָם בַּל יֻמְחַק. אֶת אַבְרָהָם וְאֶת\n                    יִצְחָק</add><lb/> which means that both my wife<lb/> and myself will be proud\n                to preserve<lb/> in our album the lineaments of<lb/> one we so highly esteem, and\n                who<lb/> deserves so well of <placeName>Israel</placeName>. I wish<lb/> with the\n                    <persName>Payton</persName> I could add the<lb/> scriptural <add>והיה הוא\n                    ותמורתו</add>—but I cannot<lb/> have the pleasure of <hi rend=\"underline\"\n                    >exchanging</hi></p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 2890,
+          "width": 3780,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/16178ed6-46e3-4734-b062-cee8b52ddf61%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3780,
+                "height": 2890,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/16178ed6-46e3-4734-b062-cee8b52ddf61%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/assets/16178ed6-46e3-4734-b062-cee8b52ddf61/original",
+              "label": "Original File - 32.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>for the simple reason that<lb/> I do not possess a photographic<lb/> portrait of\n                either myself or my<lb/> better half—besides, I am afraid<lb/> you would find my\n                exchange if<lb/> not looking exactly like <persName>Isaac's</persName><lb/> of old,\n                yet having something<lb/>\n                <hi rend=\"underline\">sheepish</hi> about it. As soon as<lb/> I have copies I will\n                send them.<lb/> I have just had the inexpressible<lb/> pleasure of receiving home\n                a<lb/> capital likeness—more beautifully<lb/> &amp; successfully done—of my\n                late<lb/> father <add>ע\"ה</add>. It was taken from<lb/> a photograph done some 17\n                years<lb/> ago, and is a faithful representation<lb/> of what he was at that\n                period.<lb/> The copy just done for me is<lb/> also by a Jewish artist, a\n                member<lb/> of my congregation, and is life size.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v11w58b/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n29ps6g/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Voot, Simon C.; Boston, MA; 3 February 1863",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3n29ps6g"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Voot, Simon C.; Boston, MA; 3 February 1863"]
+    },
+    {
+      "label": "Name",
+      "value": ["Voot, Simon C.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1863-02-03", "3 February 5623"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "1 page on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Massachusetts -- Boston",
+        "United States -- Massachusetts",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF10_6"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/eaa1282e-e42b-4b38-af96-e448c4b17bf2%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/eaa1282e-e42b-4b38-af96-e448c4b17bf2%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n29ps6g/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n29ps6g/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n29ps6g/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4680,
+          "width": 3908,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/eaa1282e-e42b-4b38-af96-e448c4b17bf2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3908,
+                "height": 4680,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/eaa1282e-e42b-4b38-af96-e448c4b17bf2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3n29ps6g/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n29ps6g/assets/eaa1282e-e42b-4b38-af96-e448c4b17bf2/original",
+              "label": "Original File - 54.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n29ps6g/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3n29ps6g/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                <placeName>Boston</placeName>\n                <date>Feby 3d 5623</date>\n            </p>\n            <p>Dr Sir</p>\n            <p rend=\"indent(1)\">Yours duly recd and in reply I bet to state<lb/> that when I wrote\n                you the last time I had several<lb/> applications for the books I ordered, but not\n                receiving<lb/> your answer neither your books, I concluded that<lb/> you declined to\n                send any, and in reality I cannot<lb/> blame you as you lost a large amt of\n                money.</p>\n            <p rend=\"indent(1)\">A Christian applied for Daily Prayer books,<lb/> so also a\n                    <persName>Mr Pierce</persName> &amp; <persName>Hayner</persName>, but whither\n                they<lb/> would take them now I cannot say. I could<lb/> have sold a Set of\n                    <add>?</add> to a man at <placeName>Ly<add>?</add></placeName><lb/> but I could\n                not comply with his request</p>\n            <p rend=\"indent(1)\">You can do as you like send or not<lb/> I am not sure whether I can\n                dispose of them<lb/> now. Our C<add>?</add> has finally purchased the\n                Ch<add>?</add><lb/> and in <date>July</date>\n                <add>?</add>; will be consecrated. As regards<lb/> of <add>מזרח</add> there is no\n                other alternative as to build<lb/> the <add>היכל</add> on the <placeName>South\n                    West</placeName> side and I myself see<lb/> no difficulty in doing so when I\n                refer to the real<lb/>\n                <add>?</add> &amp; where it <sic>amanates</sic> from and <sic>infference</sic> to\n                be<lb/> drawn from certain <add>דינים</add>, it is entirely prohibited<lb/> to\n                listen to the voice of the Reformers it is true and<lb/> we have to be careful, but\n                in this matter I am not<lb/>\n                <sic>affraid</sic>. Please look to various <add>דינים</add> &amp; you will\n                consider<lb/> with me    </p>\n            <p rend=\"indent(10)\">Respy yours</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">Simon C Voot</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3n29ps6g/canvas/p1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

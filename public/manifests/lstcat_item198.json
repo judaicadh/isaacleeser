@@ -1,0 +1,309 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Kursheedt, Gershom; Leeser, Isaac ?; New Orleans, LA; 19 February 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3b56dr1d"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Kursheedt, Gershom; Leeser, Isaac ?; New Orleans, LA; 19 February 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-02-19", "19 February 5614"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Louisiana -- New Orleans",
+        "United States -- Louisiana",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item198"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/a076b3f3-b48f-4941-a051-dc0d320b8ffc%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/a076b3f3-b48f-4941-a051-dc0d320b8ffc%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6146,
+          "width": 4942,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a076b3f3-b48f-4941-a051-dc0d320b8ffc%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4942,
+                "height": 6146,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a076b3f3-b48f-4941-a051-dc0d320b8ffc%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/assets/a076b3f3-b48f-4941-a051-dc0d320b8ffc/original",
+              "label": "Original File - 91.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"align(right)\">25</p>\n            <p rend=\"align(right)\">\n                <placeName>New Orls</placeName>\n                <date>Feby 19. 5614</date>\n            </p>\n            <p rend=\"align(right)\">Friday</p>\n            <p rend=\"indent(1)\">My dear friend</p>\n            <p rend=\"indent(2)\">I have a few moments before<lb/> going home to prepare for the\n                    <date>Sabbath</date> and devote<lb/> it to you. Your last letter dated in\n                    <date>Decr.</date><lb/> needs no reply now, for everything is changed<lb/> by\n                the death of our late friend <persName>Mr Touro</persName>.<lb/> Poor good old\n                    <add>?</add>, he had noble impulses<lb/> but<add>?</add> his great misfortune\n                was in his want<lb/> of education. Some of his notions were<lb/> good and to the\n                extent that I can I<lb/> will carry them out, as I have done<lb/> thus far. I\n                presume I may not be able<lb/> to leave here before <date>July</date> next, and<lb/>\n                his positive and respected instructions<lb/> to different persons, were that after\n                his<lb/> death everything relating to all the<lb/> last offices to be performed\n                should<lb/> be directed and attended to by me<lb/> in person, I shall detain\n                his<lb/> remains until I am read to start<lb/> from here, and until then I\n                shall<lb/> make no final arrangements for<lb/> his burial in <placeName>New\n                    Port</placeName>. In accordance<lb/> with his dislike to ostentatious\n                funer<lb/>als, the interment here was attended<lb/> only by those who chose to come\n                without<lb/> the slightest invitation. The children of<lb/> three Christian orphans\n                asylums</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6178,
+          "width": 4942,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d9af3797-ea49-431a-a5f2-3de2fb1731d9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4942,
+                "height": 6178,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d9af3797-ea49-431a-a5f2-3de2fb1731d9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/assets/d9af3797-ea49-431a-a5f2-3de2fb1731d9/original",
+              "label": "Original File - 91.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>26</p>\n            <p>followed the hearse and the Firemens<lb/> Charitable Association, the veterans<lb/>\n                of 14 &amp; 15 also attended. The hearse I ordered<lb/> to be perfectly plain—one\n                horse. The<lb/> coffin—metal covered with black cloth. <persName>Genl.<lb/>\n                    Plafrey</persName> desired to call out the military<lb/> but we\n                    <sic>prefered</sic> to have no display<lb/> and particularly no music,\n                nevertheless<lb/> the number of citizens was immense<lb/> and a general gloom was\n                evident<lb/> The stores on the same square where<lb/> he resided were closed. Beyond\n                the<lb/> spontaneous actions of the citizens, it<lb/> was an ordinary Jewish funeral\n                with<lb/> the exception that I had those large<lb/> doors of the Synagogue opened\n                while<lb/> the funeral passed.</p>\n            <p rend=\"indent(1)\">He had been unconscious for some<lb/> days before he died. When he\n                died<lb/> (<persName>Gutheim</persName>) the minister the Doctor the Shamas<lb/> and\n                myself were with him, and until<lb/> the last breath we repeated together the<lb/>\n                usual verses. I closed his eyes—</p>\n            <p rend=\"indent(1)\">Now <persName>Mr Leeser</persName> I have made up my mind<lb/> to\n                one thing and that is to conduct the<lb/> affair at <placeName>New Port</placeName>,\n                    <del>as</del> similarly to what<lb/> I did here—the only thing that may<lb/>\n                induce me to <del>alt</del> deviate will be in<lb/> case the public civil\n                authorities of that</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6178,
+          "width": 5014,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f0227510-c763-4a7c-829b-d2fea0283b96%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5014,
+                "height": 6178,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f0227510-c763-4a7c-829b-d2fea0283b96%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/assets/f0227510-c763-4a7c-829b-d2fea0283b96/original",
+              "label": "Original File - 93.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"align(right)\">27</p>\n            <p>city or <placeName>Boston</placeName>, should wish to make<lb/> any demonstrations of\n                respect, then<lb/> I shall feel it a duty to forego all<lb/> private considerations\n                for the object<lb/> of bringing credit to <placeName>Israel</placeName> in the\n                world.<lb/> Do not misunderstand me, I have no<lb/> idea of the remains leaving my\n                or other<lb/> Jewish hands, it must be a Jewish funeral<lb/> and nothing else, but\n                perhaps I might have<lb/> a service in the synagogue.</p>\n            <p rend=\"indent(1)\">I shall see that you take some part in<lb/> the ceremonies, if any\n                take place, but I<lb/> shall only study the general good effect<lb/> to be produced,\n                in selecting ministers to<lb/> officiate on the occasion. Individual<lb/>\n                preferences, nay the most friendly attach<lb/>ments must not be regarded, when\n                an<lb/> opportunity offers to elevate the nation<lb/> in the eye of those who\n                surround us—<lb/> you know we have always dispensed<lb/> with the Hakaforth here in\n                    <placeName>New Orleans</placeName><lb/> and as it is only a minhag I should\n                like<lb/> to omit it in <placeName>New Port</placeName> if possible. The<lb/> more\n                quiet and the less <hi rend=\"underline\">singing</hi> at a funeral<lb/> the more\n                imposing it will ever be. Many<lb/> congregations &amp; societies have offered their\n                services<lb/> in which those of the Hazans have been<lb/> included. On this occasion\n                I shall not<lb/> study or regard official offers, to interfere</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6130,
+          "width": 4942,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1e2ec858-063e-4394-a88c-3851094897ea%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4942,
+                "height": 6130,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1e2ec858-063e-4394-a88c-3851094897ea%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/assets/1e2ec858-063e-4394-a88c-3851094897ea/original",
+              "label": "Original File - 91.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>28</p>\n            <p>with the great object in view. I know<lb/> some will claim preferences because\n                they<lb/> are Portuguese or are in the Will or<lb/> any other special plea. Some\n                may<lb/> say you are no longer a Minister. I shall<lb/> only strive to serve the\n                common cause<lb/> and care little for the pleasure or displeasure<lb/> of any but\n                such as can understand<lb/> my own feelings. I shall probably<lb/> inform the Jewish\n                public through the<lb/> Occident, as to the time &amp;c of the interment.</p>\n            <p rend=\"indent(1)\">You may depend I have no leisure<lb/> time. You can not imagine the\n                disgusting<lb/> communications that come to shepherd<lb/> from some of our\n                societies, giving recitals<lb/> of congregational differences jealousies &amp;c.\n                I<lb/> have to blush frequently, and try to put<lb/> the best face on it. The main\n                labor now<lb/> devolves on me, and I am Repl<add>?</add> hard<lb/> at work all\n                day!</p>\n            <p rend=\"indent(1)\">Oh my dear friend if you knew how I<lb/> had to work to get that\n                Will made, and how<lb/> I strive to serve you, you would pity me. Alas<lb/> it was\n                not altogether what I wanted yet I am<lb/> thankful to God that ever if I injured\n                myself<lb/> I got the most of what I asked for\n                <placeName>Israel</placeName>—<lb/>arguments, charges and counter-charges in<lb/>\n                the sums of Institutions till my heart sickened<lb/> I appeared calm but indeed was\n                almost crazy<lb/> ever dreading that nothing would be achieved in<lb/> the end. The\n                list of Jewish Institutions I made up<lb/> as well as I could. I had dreadful hard\n                work to raise<lb/> your Education Society from 10 to 20,000</p>\n            <p rend=\"indent(10)\">yours truly</p>\n            <p rend=\"indent(11)\">\n                <persName role=\"author\">Gershom</persName>\n            </p>\n        </body>\n    </text>\n</TEI>\n"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3b56dr1d/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Mayer, M.; Leeser, Isaac; New York, NY; 2 November 1860",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3028q03v"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Mayer, M.; Leeser, Isaac; New York, NY; 2 November 1860"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1860-11-02", "2 November 5621"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- New York -- New York",
+        "United States -- New York",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF7_35"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/cd3c3538-c21e-4666-be3b-82d0f97384c9%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/cd3c3538-c21e-4666-be3b-82d0f97384c9%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4068,
+          "width": 4850,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/cd3c3538-c21e-4666-be3b-82d0f97384c9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4850,
+                "height": 4068,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/cd3c3538-c21e-4666-be3b-82d0f97384c9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/assets/cd3c3538-c21e-4666-be3b-82d0f97384c9/original",
+              "label": "Original File - 59.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"><placeName>N York</placeName>, <date>Nov 2.\n                5621/1860</date>.</p>\n            <p rend=\"indent(1)\">Dear Sir—</p>\n            <p rend=\"indent(2)\"><sic>Inclosed</sic> the continuation<lb/> of the “Declaration of\n                Independence.” I<lb/> thought the portion sent to you at first,<lb/> was enough for\n                    <hi rend=\"underline\">two</hi> weeks, as I<lb/> wish to spin out the publication till<lb/>\n                <date>Chanukah</date>.</p>\n            <p rend=\"indent(1)\">Your correspondent “<hi rend=\"underline\"\n                        ><persName>Counsellor</persName></hi>” deals<lb/> in contemptible duplicity.\n                He says: “<persName>Rev.<lb/> Dr Fishel</persName> &amp;c &amp;c.” (page 189, col.\n                3) What<lb/> is the truth? 104 votes were cast, of<lb/> these\n                    <persName>F.</persName> received 53, that is to say, he<lb/> was reelected by a\n                majority of two<lb/> votes. If he had yet one spark of<lb/> pride and principle left\n                in him, he<lb/> would have respectfully declined; but<lb/> no, even because half of\n                the congregati<lb/>on do not want him, he will take<lb/>\n                <hi rend=\"underline\">their</hi> money and they <hi rend=\"underline\">must</hi> listen\n                to<lb/> him, or he will receive <del>their</del> insult<lb/> offered to him by their\n                leaving the Syna-</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4068,
+          "width": 4850,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5564f73e-da3d-4af0-a4f9-16ca8411aaee%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4850,
+                "height": 4068,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5564f73e-da3d-4af0-a4f9-16ca8411aaee%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/assets/5564f73e-da3d-4af0-a4f9-16ca8411aaee/original",
+              "label": "Original File - 59.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>gogue when he ascends the pulpit. Be-<lb/>sides, he has been reelected only for\n                one<lb/> year. Oh! He is a man of principle<lb/> &amp; character. Counsel your correspondent<lb/>\n                <persName><sic>counsellor</sic></persName> to be more candid &amp; truth-<lb/>ful in\n                future.</p>\n            <p rend=\"indent(1)\">Why have you not a word of<lb/> censure for the attempted vandalism\n                of <persName>Dr<lb/> Sachs</persName> of <placeName>Berlin</placeName>? To me, that\n                man is<lb/> henceforth more hateful &amp; obnoxious than<lb/> even\n                    <persName>Cardinal Antonelli</persName>. Why have<lb/> you not yet said a word\n                about the<lb/> fanatic acts of the Orthodox of\n                    <placeName>Amster-<lb/>dam</placeName>. Yet, you scold, because “rich\n                Re-<lb/>formers” will not suffer themselves to be<lb/> brow-beaten into hypocrisy by\n                ortho-<lb/>dox fanatics &amp; hypocrites. I am open<lb/> with you: I sometimes get\n                perplexed<lb/> in my respect for the <hi rend=\"underline\">Orthodox</hi>;<lb/> for\n                withholding truth borders very<lb/> closely upon uttering untruth!”</p>\n            <p>I was not present at the Banquet;<lb/> but I <hi rend=\"underline\">know</hi> that the\n                “rich reformers” re-</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3028q03v/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

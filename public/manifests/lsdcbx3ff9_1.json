@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Charleston, SC; Hart, Abram, Esq.; 16 January 1905; 1843",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3t43jk25"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Charleston, SC; Hart, Abram, Esq.; 16 January 1905; 1843"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Hart, Abram, Esq."]
+    },
+    {
+      "label": "Date",
+      "value": ["1843", "21 Tammuz 5603"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF9_1"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/e0d85f9d-6f6e-4354-b5c8-a43abac0c9f9%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/e0d85f9d-6f6e-4354-b5c8-a43abac0c9f9%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5268,
+          "width": 4016,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e0d85f9d-6f6e-4354-b5c8-a43abac0c9f9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4016,
+                "height": 5268,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e0d85f9d-6f6e-4354-b5c8-a43abac0c9f9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/assets/e0d85f9d-6f6e-4354-b5c8-a43abac0c9f9/original",
+              "label": "Original File - 63.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Charleston</placeName>\n                <date>Tammuz 21st 5603</date>\n            </p>\n            <p>To <addressee>Abram Hart Esqr.</addressee></p>\n            <p rend=\"indent(1)\">The vestry &amp; members of the</p>\n            <p rend=\"indent(1)\">Congregation “Mikveh Israel” <placeName>Philadelphia</placeName></p>\n            <p rend=\"indent(3)\"><sic>Bretheren</sic>,</p>\n            <p rend=\"indent(4)\">In behalf of the Congrega-<lb/>tion Beth Elohim of this city, we\n                earnestly appeal to you to<lb/> permit your Hazan the <persName>Revd Isaac\n                    Leeser</persName> to come on to<lb/>\n                <placeName>Charleston</placeName>, for the purpose of giving Testimony in a case\n                about<lb/> to be tried, which involves questions not only of the<lb/> greatest\n                importance to us, but of deep interest to the<lb/> whole House of\n                    <placeName>Israel</placeName>. A party in our Congregation<lb/> have undertaken\n                to sap the foundations of our sacred<lb/> Institutions, and to introduce\n                innovations, which must<lb/> lead to the eventual overthrow of the Jewish Ritual\n                as<lb/> established for age past. With this party unfortunately<lb/> has united our\n                late Hazan the <persName>Revd. G. Poznanski</persName>, and<lb/> we are led to\n                believe that he will be brought forward<lb/> as a witness to maintain these\n                innovations and to endeavor<lb/> to prove them consistent with the Institutions of\n                our<lb/> People. It will need therefore the learning and character<lb/> of some of\n                our best-informed teachers to expose the errors<lb/> and inconsistencies of such\n                innovations, and we know<lb/> no one whose learning and reputation could be\n                more<lb/> certainly relied upon, than the Revd Hazan whom it is<lb/> your good\n                fortune to have. We are struggling to maintain<lb/> the Institutions and Faith of\n                our common ancestors against<lb/> an array of influence, which but for our Trust in\n                that<lb/> Great Being who will always support the right might<lb/> deter us from our\n                duty. But we are determined to stand<lb/> up to the last, and not permit Rationalism\n                or Infidelity<lb/> to invade our Sanctuary. Fully confident that your<lb/>\n                sympathies are with us, and that you will regard<lb/> us but as the outposts in\n                fighting the Common Battle<lb/> of the Struse<add>?</add> of\n                    <placeName>Israel</placeName>, and cannot doubt, that you<lb/> will consent to\n                spare us your Hazan for a short time.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5268,
+          "width": 4016,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3278a527-3105-4109-8f1d-2b76ab76b76e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4016,
+                "height": 5268,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3278a527-3105-4109-8f1d-2b76ab76b76e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/assets/3278a527-3105-4109-8f1d-2b76ab76b76e/original",
+              "label": "Original File - 63.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>The case in which we need the Testimony of your Hazan<lb/> is in such a form that our\n                Lawyers advise us, will need his<lb/> personal presence, as no Testimony can be\n                taken in writing.<lb/> The trial is expected to take place on the <date>8th of\n                    August</date><lb/> and we only ask therefore, that you dispense with\n                    <persName>Mr. Leeser</persName><lb/> for the space of a Fortnight, after which\n                time we hope he<lb/> will return to you improved in health as our City is\n                perfectly<lb/> healthy.</p>\n            <p rend=\"indent(2)\">With sincere prayers for the prosperity of your<lb/> Congregation.\n                We remain your friends and<lb/> Brethren in <placeName>Israel</placeName> -</p>\n            <p rend=\"indent(1)\">\n                <persName>Baich<add>?</add> Moses</persName>\n            </p>\n            <p rend=\"indent(1)\">\n                <persName>Sol Moses</persName>\n            </p>\n            <p rend=\"indent(1)\">\n                <persName>Isaac Woolf</persName>\n            </p>\n            <p rend=\"indent(1)\">\n                <persName>Abraham Johas<add>?</add></persName>\n            </p>\n            <p rend=\"indent(3)\">Attested</p>\n            <p rend=\"indent(4)\">\n                <persName>S Valentine</persName>\n            </p>\n            <p rend=\"indent(4)\">Secry &amp; Treasr.</p>\n            <p rend=\"indent(4)\">K. K. B. E.</p>\n            <p rend=\"The following is written sideways to the right of the list of signatures\"\n                >Trustees of K. K. B. E.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 4016,
+          "width": 5268,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/97680ddf-b699-4fbc-80af-f83bba31719c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5268,
+                "height": 4016,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/97680ddf-b699-4fbc-80af-f83bba31719c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/assets/97680ddf-b699-4fbc-80af-f83bba31719c/original",
+              "label": "Original File - 63.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <addressee>Mr. Abraham Hart</addressee>\n            </p>\n            <p rend=\"indent(1)\">President of the Congregation “Mikveh Israel„</p>\n            <p rend=\"indent(3)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(4)\">\n                <placeName>Pa</placeName>\n            </p>\n            <p rend=\"The following is written sideways to the left of the address\">Letter &amp;\n                Proceedings from the Congregation<lb/> K. K. B. E. <date>21st Tammus</date><lb/>\n                Also copy of reply <date>July 25. 1843</date>.<lb/> (<date>1843</date>)</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3t43jk25/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

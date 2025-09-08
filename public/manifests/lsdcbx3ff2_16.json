@@ -1,0 +1,213 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Lione, E.; Hart, A., Mr.; Philadelphia, PA; 11 April 1867",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3fx74f3x"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Lione, E.; Hart, A., Mr.; Philadelphia, PA; 11 April 1867"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Hart, A., Mr."]
+    },
+    {
+      "label": "Date",
+      "value": ["1867-04-11"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx3FF2_16"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e008c82-014c-4a78-971b-866610083c72%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e008c82-014c-4a78-971b-866610083c72%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4196,
+          "width": 2868,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e008c82-014c-4a78-971b-866610083c72%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2868,
+                "height": 4196,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7e008c82-014c-4a78-971b-866610083c72%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/assets/7e008c82-014c-4a78-971b-866610083c72/original",
+              "label": "Original File - 36.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Phila</placeName>\n                <date>April 11th 1867</date>\n            </p>\n            <p>\n                <addressee>Mr. A. Hart</addressee>\n            </p>\n            <p rend=\"indent(1)\">Dear Sir</p>\n            <p rend=\"indent(1)\"><sic>Alow</sic> me to trouble you again for my<lb/> friend.\n                    <persName>Dr. Morris Coster</persName> in <placeName>N. Y. City</placeName>, for\n                the pur<lb/> pose to know if <persName>Dr. S. Mulder's</persName> Bible from<lb/>\n                <placeName>Amsterdam</placeName> (<placeName>Europe</placeName>) “Bybel voor de\n                Israeli<lb/>tische jeuzd” has been translated from the Dutch<lb/> into the English\n                language by certain “<hi rend=\"underline\"><persName>Peres</persName></hi>” and<lb/>\n                if <hi rend=\"underline\"><persName>Rev. Leeser</persName></hi> has been the editor?\n                That is<lb/> what my friend wrote me this morning to inquire<lb/> after.</p>\n            <p>In thanking you very much for your trouble<lb/> I hope to be forwarded with your kind\n                reply and<lb/> in the meantime I have the honor to be<lb/> most respectfully. Yours\n                obediently</p>\n            <p rend=\"indent(6)\">\n                <persName role=\"author\">E. Lione Dz</persName>\n            </p>\n            <p>My Address is:</p>\n            <p>\n                <persName role=\"author\">Mr E. Lione Dz</persName>\n            </p>\n            <p>\n                <placeName>230 South Eight Strt Phila</placeName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5054,
+          "width": 4026,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/a2a20028-2f08-4b62-a814-aa1ae9c370dd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4026,
+                "height": 5054,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/a2a20028-2f08-4b62-a814-aa1ae9c370dd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/assets/a2a20028-2f08-4b62-a814-aa1ae9c370dd/original",
+              "label": "Original File - 61 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"Page 2, attached\"/>\n            <p>On <date>Sunday</date> next Dr.<add>?</add> at noon, the ceremony of receiving<lb/>\n                the Divine Covenant of <persName>Abraham</persName> will be performed on a young\n                man<lb/> of 19 years. The romance is interesting &amp; as I have heard<lb/> it from\n                his own lips send this version. About 35 years ago<lb/> a great migration of Jews\n                took place from <placeName>Salonica</placeName> to <placeName>Jerusalem</placeName>:\n                a<lb/> party of the pilgrims were captured by the Greeks &amp; carried to\n                        <placeName><sic>Beyrout</sic></placeName><lb/> and sold as slaves — among\n                whom was a woman with a female<lb/> child at her breast: at the age of 14 this child\n                was betrothed to the<lb/> purchaser &amp; in due time bore him a son (the hero of\n                this tale)<lb/> and two daughters still in a convent. The boy was educated in<lb/>\n                the missionary college &amp; appears very talented: speaks several languages<lb/>\n                (English is one) within the last 2 years his parents died &amp; the grandmother<lb/>\n                who ever adhered to her faith has managed to steal him away<lb/> &amp; having with\n                the aid of others instilled into him a knowledge of<lb/> the religion of his\n                ancestors he has resolved on embracing it.</p>\n            <p rend=\"indent(1)\">In <placeName>England</placeName> they declined admitted him or\n                'twas contrary<lb/> to the Charter &amp; meeting <persName>Rabbi Yechida\n                    Cohen</persName> he advised<lb/> them to proceed to the\n                    <placeName>States</placeName> where any &amp; every thing<lb/> can be done. His\n                Grandmother, a male courier &amp; himself wear<lb/> the Persian dress. <persName>Sir\n                    Abraham</persName> is <add>מוהל</add>:</p>\n            <p>There is also here a <add>שליח</add> from <add>שושן</add> who states that<lb/> there\n                are upwards of 24 thousand Jews there &amp; they are now<lb/> suffering from a\n                persecution similar to that of<lb/>\n                <placeName>Damascus</placeName>. I have not seen his paper — he is now sick<lb/> but\n                        <persName>B<add>?</add></persName> has <sic>shewn</sic> me a letter he rec'd\n                from <persName>Revd<lb/> D. Meldola</persName> on his a/c. It is feared he will lay\n                his bones<lb/> here. This is a brief outline but I believe is substan<lb/>tially\n                correct. Excuse writing. <add>אני חולה אבל לא כתבתי זו לאשתי</add></p>\n            <p rend=\"indent(4)\">\n                <persName role=\"author\">A J M<add>?</add></persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3fx74f3x/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

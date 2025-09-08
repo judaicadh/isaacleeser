@@ -1,0 +1,290 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from O.; January 03, 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p35m62x2x"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from O.; January 03, 1847"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "O. (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-01-03"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["4 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["London (England)", "Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_1", "ilcajs_b1f5_0001"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/2f47f4bf-0393-4ebf-9b87-36999f0180e8%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/2f47f4bf-0393-4ebf-9b87-36999f0180e8%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 5858,
+          "width": 4796,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2f47f4bf-0393-4ebf-9b87-36999f0180e8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4796,
+                "height": 5858,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2f47f4bf-0393-4ebf-9b87-36999f0180e8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/assets/2f47f4bf-0393-4ebf-9b87-36999f0180e8/original",
+              "label": "Original File - 84.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>London</placeName>; <date>3 Jany\n                                                  1847 (5607)</date></p>\n                              <p><persName>Sir Moses Montefire</persName> has consented to sit for\n                                        his portrait in compliance<lb/> with a requisition from the\n                                        Portuguese Elders <sic>conserning</sic> which I\n                                        informed<lb/> you in my last. <persName>Sir Hart\n                                                  Esqr</persName> R A, a Jewish painter, who\n                                        has<lb/> raised himself to considerable distinction by his\n                                        numerous successful per-<lb/>formances has been very\n                                        appropriately selected as artist for this\n                                        under-<lb/>taking.–A similar compliment to <persName>Lady\n                                                  Montefire</persName> has been<lb/> suggested in\n                                        recognition of the eminent share which she is known to<lb/>\n                                        have taken in all the noble enterprises of her distinguished\n                                        partner<lb/> In the last No but one of the \"Voice of\n                                                  <persName>Jacob</persName>\" this subject has been\n                                        ar-<lb/>-gued very warmly. but I do not learn as yet that it\n                                        has been<lb/> -suitably responded to by the Jewish public\n                                        generally.–</p>\n                              <p>Her Majesty has been pleased to confer the title of Baronet on<lb/>\n                                        another eminent member of our faith, the <persName>Baron\n                                                  Anthony de\n                                                  Roth-</persName><lb/><persName>schild</persName>\n                                        as announced a few days ago in the official Gazette<lb/>–A\n                                        Metropolitan Evening journal announces the name of the<lb/>\n                                        <persName>Baron Lionel de Rothschild</persName> among the\n                                        list of liberal candi-<lb/>dates for the next general\n                                        election for the city. I am not aware<lb/> if this\n                                        announcement has any foundation in truth, (it has not<lb/>\n                                        been as yet contradicted), but as it is contemplated to make\n                                        a<lb/> [?] movement in favor of the complete emancipation of\n                                        the<lb/> Jews of this country, there is little doubt but\n                                        that <del>?</del><lb/> this great city will take the\n                                        initiative in the [?]<lb/> of so important a\n                                                  question.–<del>the consessions to Jewish\n                                                  political</del><lb/> The \"removal of the Jew's\n                                        disabilities bill\" which was passed in<lb/> the last session\n                                        has already led to the election of a Jewish citizen<lb/> of\n                                                  <placeName>London</placeName>., <persName>B\n                                                  Phillips Esqr</persName> of <placeName>Newgate\n                                                  St.</placeName> to the municipal office<lb/> of\n                                        Common Councilman for one of the most extensive and\n                                        pop-<lb/>ulous wards of the city, this gentleman who is much\n                                        and deserved-<lb/>-ly respected obtained his appointment by\n                                        a very large majority. The fact that this is<lb/>\n                                        <del>being</del> the first Jew returned to a municipal<lb/>\n                                        office in this city renders the circumstance one of great\n                                        interest<lb/> and importance to both Jew Christian.</p>\n                              <p>The <placeName>West London</placeName> synagogue of British Jews in\n                                                  <placeName>Burten St</placeName><lb/> has at\n                                        length been recognized as a religious</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 5858,
+          "width": 4796,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5290dc52-79f9-4dd4-a091-409e77439734%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4796,
+                "height": 5858,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5290dc52-79f9-4dd4-a091-409e77439734%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/assets/5290dc52-79f9-4dd4-a091-409e77439734/original",
+              "label": "Original File - 84.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>place of worship, and is now therefore duly registered\n                                        <del>?</del><lb/> as a building wherein marriages can in\n                                        future be legally solemnized<lb/> The following very\n                                        interesting extracts are taken from<lb/> a number of the\n                                        \"Free Mason's Quarterly review\" being part of a<lb/> letter\n                                        from the <persName>Rt Hon the Earl of Zetland</persName>\n                                        Grand<lb/> Master of the Freemasons of <placeName>Great\n                                                  Britain</placeName> to the Grand Master<lb/> of\n                                                  <placeName>Prussia</placeName>, on account of the\n                                        Jewish Free masons being excluded from<lb/> visiting any of\n                                        the Lodges in that country notwithstanding they<lb/> may be\n                                        possessed of authentic certificates from the Grand\n                                        Lodge<lb/> of <placeName>England</placeName>–\"the letter\n                                        proceeds to say–\"The M W. Grand<lb/> Master of\n                                                  <placeName>England</placeName> the <persName>Rt\n                                                  Hon the Earl of Zetland</persName>, received\n                                        with<lb/> the deepest feelings of grief the reply made by\n                                        the R W brother <persName>Bier</persName><lb/> the Grand\n                                        secretary, on behalf of the Grand L R Y of friendship<lb/>\n                                        <placeName>Berlin</placeName> to the communications of his\n                                        Lordship of the <date>15th Decb</date> last in<lb/> as much\n                                        as that reply announces, that by the existing laws of the Gr\n                                        L R Y<lb/> of <placeName>Prussia</placeName> none but\n                                        Christians and duly legitimated brethren of recognized<lb/>\n                                        Lodges are allowed access to the labors–To this law, it\n                                        appears that<lb/> all subordinate Lodges are bound to\n                                        confirm, and to include as visitation<lb/> brethren of the\n                                        Jewish faith, notwithstanding such brothers may take\n                                        with<lb/> them the certificate of the G L of\n                                                  <placeName>England</placeName>, and be in every\n                                        respect, as<lb/> to character unenceptimable[?]; the\n                                        religious creed being alone the ground<lb/> of refusal. The\n                                        G L of <placeName>England</placeName>, by the earliest\n                                        history and tradition<lb/> [?] always declared and observed\n                                        the universality of Freemasonry, ma<lb/>-king no\n                                        distinctions or exclusions on the score of religious faith,\n                                        a matter<lb/> into which she never enquires, beyond the\n                                        point in which all men<lb/> agree. It is for this reason\n                                        that she does not sanction or <sic>recognise</sic>\n                                        meeting<lb/> which in some places are holden by assemblies\n                                        of particular religionists.<lb/> With these the G L of\n                                                  <placeName>E</placeName> does not interfere but\n                                        she strictly guards by<lb/> her laws and her practice\n                                        against the introduction into her lodges<lb/> of any emblems\n                                        or decorations which are indicative of particular\n                                        creeds<lb/> deeming them liable to be taken as offensive\n                                        demonstrations at variance<lb/> with the true spirit of Free\n                                        Masonry x x x But when members<lb/> of English Lodges,\n                                        lawfully admitted and bearing diplomas from the<lb/> Gr\n                                        Lodge of <placeName>England</placeName> duly authenticated\n                                        under her ([)seal are not<lb/> recognised and on the\n                                        contrary are rejected merely on account of their<lb/>\n                                        particular faith, it becomes the imperative duly of the Gr\n                                        Master<lb/> to vindicate the nights the honor and the\n                                        integrity of the body</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 5858,
+          "width": 4796,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/92c7e24c-6b37-462e-985e-f48f159d9848%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4796,
+                "height": 5858,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/92c7e24c-6b37-462e-985e-f48f159d9848%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/assets/92c7e24c-6b37-462e-985e-f48f159d9848/original",
+              "label": "Original File - 84.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>over which he has been called to preside whose branches extend to\n                                        every quarter<lb/> of the habitable globe.–In the discharge\n                                        of that duty then the grand<lb/> Master of\n                                                  <placeName>England</placeName> protest against the\n                                        refusal which has been made<lb/> to acknowledge the\n                                        legitimate children of a lawfully constituted En-<lb/>glish\n                                        Lodge. and at the same time is constrained to recall from\n                                        his<lb/> post the R W mother the <persName>Chev\n                                                  Esser</persName> as the representative of\n                                                  <placeName>England</placeName> in<lb/> the G L R Y\n                                        of <placeName>Russia</placeName> at\n                                                  <placeName>Berlin</placeName> x x x x x x The\n                                        Grand Master com-<lb/>mands me to add that he has\n                                        communicated to the G L the<lb/> sentiments here conveyed,\n                                        as well as the cause he felt compelled to<lb/> adopt and\n                                        that the G L with one record declared its full accents<lb/>\n                                        x x x x x he laments the occurrences which for a time,\n                                        unfortu-<lb/>nately impede the wanted intercourse x x x x\n                                        dated <placeName>London</placeName>\n                                        <date>4 Sept 1846</date><lb/> ([)The periodical from which\n                                        the above is extracted among other very liberal<lb/> and\n                                        pertinent remarks in this noble letter and the\n                                                  <placeName>Berlin</placeName> reply<lb/> observes\n                                        \"The letter itself\" (meaning the\n                                                  <placeName>Berlin</placeName> reply) \"occupying 4\n                                                  <sic>Loges</sic> is<lb/> not worth recording and\n                                        we have no wish to <del>plase upon record that it</del>\n                                        promulgate so<lb/> unmasonic a <del>record</del> document,\n                                        nor do we wish to place upon record<lb/> that which we know\n                                        the Prussian Freemasons are ashamed of \"x x x x<lb/> In the\n                                        meantime it it affords us great pleasure to be able to\n                                        state<lb/> that the members of the Pilgrim Lodge of\n                                                  <placeName>London</placeName> No 289 which\n                                        works<lb/> in the German Language and of which the late\n                                        Prussian representative<lb/> brother\n                                                  <persName>Hebeler</persName> was master have since\n                                        the publicity given to the anti-<lb/>-masonic Prussian\n                                        doctrine altered their mode of initiation and do not<lb/>\n                                        now compel the candidate to make a declaration of his\n                                        religion<lb/> previously to his being admitted, we were\n                                        surprised at its not being<lb/> altered before, considering\n                                        the immediate P G R of <placeName>England</placeName> is a\n                                        mem-<lb/>ber of the Lodge.–The Most Worshipful Master's\n                                        determined conduct<lb/> has already produced a good effect.\n                                        All honor to him, as well as to<lb/> brother <persName>Henry\n                                                  Faudel</persName> the stalwart champion of the\n                                        Jewish Free-<lb/>masons\"–([)It is proper to add that this\n                                        gentleman, (<persName>Henry Faudel</persName>)<lb/> is\n                                        himself a Jew partner brotherinlaw to <del>the</del>\n                                        <persName>Mr B Phillips</persName> the<lb/> recently elected\n                                        common Council man of whose appointment I have<lb/>\n                                        furnished you with an account above. <del>The</del></p>\n                              <p>The Great Synagogue Dukes place has had the liberality and\n                                        good<lb/> taste to vote <del>the ?</del> an increase of\n                                                  <del>the</del> salary<lb/> to the Chief Rabbi, the\n                                        other German synagogues are expected to<lb/> contribute in\n                                        their due proportions.–It is proposed also to augment</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 5858,
+          "width": 4796,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/33a7a2c7-d325-4549-af75-38c4e36278a3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4796,
+                "height": 5858,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/33a7a2c7-d325-4549-af75-38c4e36278a3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/assets/33a7a2c7-d325-4549-af75-38c4e36278a3/original",
+              "label": "Original File - 84.5 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>the present inadequate stipends of the Dayanim who considering<lb/>\n                                        the dignity and importance of their respective duties have\n                                        hitherto–<lb/>been but very indifferently hard.–The \"Jewish\n                                        Chronicle\" gives<lb/> a very ample and interesting report of\n                                        an <del>very</del> important meeting<lb/> held at Liverpool\n                                        to celebrate the anniversary of the \"Hebrew\n                                        Phil<lb/>anthropic Society\" at which some very eloquent\n                                        speeches men made<lb/> on the subject of Jewish Emancipation\n                                        by the <persName>Revd Dr Raphael</persName><lb/> of\n                                                  <placeName>Birmingham</placeName>, <persName>H I\n                                                  Atkinson Esquire</persName> an eminent Barrister\n                                        several<lb/> other distinguished Jews Christians. the great\n                                        length to which I<lb/> have already entered this\n                                        communication precludes the possible<lb/> of my making any\n                                        extract but as I presume you regularly re-<lb/>ceive the\n                                        Anglo Jewish periodicals I beg to call your attention<lb/>\n                                        to this report as contained in the \"Jewish Chronicle.\"–</p>\n                              <p>The committee of the Jews General Literary Scientific\n                                        Institution<lb/> have put forth a very tempting programme\n                                        for their anniversary<lb/> fete which will come off on the\n                                        20th Inst. I shall endeavour<lb/> to give you some account\n                                        of it in my next. The Portuguese<lb/> Beth Holim Hospital\n                                        Ball will take place the night succeeding<lb/> they are both\n                                        deserving objects–and will I trust meet with the<lb/> best\n                                        encouragement.–This is also the season for holiding<lb/> the\n                                        anniversaries of several other Jewish Institutions\n                                        namely<lb/> the Blind Asylum, Infant School Orphan Asylum\n                                        each<lb/> of which is celebrated by a grand Public Ball.–I\n                                        shall refer<lb/> more particularly to some of these\n                                        Charities in my future cor-<lb/>respondence\n                                        <del>also</del>.</p>\n                              <p rend=\"indent(11)\">\n                                        <persName role=\"author\">O.</persName>\n                              </p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_4_10.pdf\">The above\n                                                  text refers to Occident Volume 4 No. 10 pages 515\n                                                  through 516. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p35m62x2x/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

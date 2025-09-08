@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Pizal, David M.; Leeser, Isaac, Rev.; Anytown, St. Thomas; 2 May 1862",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3s46hs1s"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Pizal, David M.; Leeser, Isaac, Rev.; Anytown, St. Thomas; 2 May 1862"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Pizal, David M.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1862-05-02"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Virgin Islands -- St. Thomas",
+        "United States -- Virgin Islands",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF9_11"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/84896017-1302-4f2c-a3a4-d11fddbecf2f%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/84896017-1302-4f2c-a3a4-d11fddbecf2f%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3898,
+          "width": 5044,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/84896017-1302-4f2c-a3a4-d11fddbecf2f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5044,
+                "height": 3898,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/84896017-1302-4f2c-a3a4-d11fddbecf2f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/assets/84896017-1302-4f2c-a3a4-d11fddbecf2f/original",
+              "label": "Original File - 59 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p rend=\"align(right)\">\n                <placeName>St. Thomas</placeName>\n                <date>2<hi rend=\"sup\">nd</hi> May/62</date>\n            </p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\"><placeName>Philadelphia</placeName>.</p>\n            <p rend=\"indent(2)\">Dear Sir</p>\n            <p rend=\"indent(3)\">I was thinking of writing<lb/> you in answer to your two letters\n                when I got<lb/> this week your esteemed lines of <date>1<hi rend=\"sup\"\n                    >st</hi></date>. ult. You<lb/> must excuse the delay, but I understood that<lb/>\n                <persName>Mr. M. D. Osorio</persName> wrote you lately, and too little<lb/>\n                transpires here to tax you with a frequent cor„<lb/> respondence. I presume that he\n                has given you<lb/> all information from our <placeName>Island</placeName>; however\n                I<lb/> send you a slip from the “Times,” bring copy of<lb/> an address presented by\n                the members of our con„<lb/>gregation to <persName>Rev. Rabbi Chumaceiro</persName>\n                on his last<lb/> visit here.</p>\n            <p rend=\"indent(1)\">Herewith please find <persName>Osorio, Wright &amp; Co.'s</persName>\n                Dft.<lb/> @ 60 D/S on <persName>Dovale &amp; Co.</persName>\n                <placeName>N. Y</placeName> for $66.06, for acct. due<lb/> you by me as p. annexed\n                statement, and $20. in„<lb/>cluded by <persName>Mr. Correa</persName>. I could get\n                no more than</p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3898,
+          "width": 5044,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/7f97a1a9-f2c0-476f-a03e-ec18dbfda6cd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5044,
+                "height": 3898,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/7f97a1a9-f2c0-476f-a03e-ec18dbfda6cd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/assets/7f97a1a9-f2c0-476f-a03e-ec18dbfda6cd/original",
+              "label": "Original File - 59 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "\n            <p>$8. for the Pentateuch 12 mo; and there are now 3 sets<lb/> 8 vo. left. The three\n                Bibles having been sold, I shall,<lb/> if convenient to you, be willing to receive\n                as many<lb/> more. Perhaps also two or three copies of the Daily<lb/> Prayers in the\n                cheaper bindings would also be<lb/>\n                <sic>saleable</sic>. Have the goodness to send me a copy<lb/> of the first series of\n                your sermons, and also name<lb/> me some others of your publications, for it\n                there<lb/> are among them any which I have not read,<lb/> would like to get one or\n                two. Young <persName>Mr. O.</persName> told me<lb/> some weeks ago that he had got\n                several subscri„<lb/>bers for the work which you are translating, which<lb/> is more\n                than I would have expected. If you can<lb/> find time please answer his letter. I\n                regret to<lb/> notice your observations about the Occident. I<lb/> have not yet seen\n                    <persName>Mr. Myers</persName> since, but from the<lb/> answer which he gave me\n                some months ago, doubt<lb/> that he will be able to get any subscribers.</p>\n            <p rend=\"indent(1)\">My sister left for <placeName>Panama</placeName> shortly after\n                her<lb/> marriage, but I have written your remembrance<lb/> to her. My Father unties\n                with me in best regards.</p>\n            <p rend=\"indent(3)\">Respy. Yours, <persName role=\"author\">David M. Pizal</persName></p>\n            "
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3s46hs1s/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

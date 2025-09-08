@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Lazarus, Joshua; Morais, S., Rev.; Charleston, SC; 25 December 1859",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p32z1389t"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Lazarus, Joshua; Morais, S., Rev.; Charleston, SC; 25 December 1859"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Morais, S., Rev."]
+    },
+    {
+      "label": "Date",
+      "value": ["1859-12-25"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF6_46"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/15b12b61-6b25-4a22-b1a5-701b2b445fc9%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/15b12b61-6b25-4a22-b1a5-701b2b445fc9%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4508,
+          "width": 3706,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/15b12b61-6b25-4a22-b1a5-701b2b445fc9%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3706,
+                "height": 4508,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/15b12b61-6b25-4a22-b1a5-701b2b445fc9%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/assets/15b12b61-6b25-4a22-b1a5-701b2b445fc9/original",
+              "label": "Original File - 50.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                <placeName>Charleston</placeName>\n                <date>Dec 25/59</date>\n            </p>\n            <p>\n                <addressee>Reverd. S Morais</addressee>\n            </p>\n            <p>\n                <placeName>Cherry St. Synagogue Phila.</placeName>\n            </p>\n            <p rend=\"indent(2)\">Dr Sir</p>\n            <p rend=\"indent(3)\"><persName>Mr. Abraham Harris</persName> of your city having\n                made<lb/> application to our congregation for the situation of minister we have<lb/>\n                invited him here on a probationary visit. Since his arrival various<lb/> rumors have\n                sprung up prejudicial to his character as a man a<lb/> minister or an Israelite, on\n                being informed of them <persName>Mr. H</persName> very properly<lb/> declined\n                officiating until an oppy. was afforded for thorough investiga<lb/>=tion, he has\n                given your address with that of several other gentlemen<lb/> with whom he is bid\n                acquainted, he stands before us quite a stran<lb/>=ger. Our object now is to do\n                justice to the congregation as well as to <persName>Mr. H</persName><lb/> would\n                therefore solicit your information on the following points<lb/> which shall be held\n                confidential if you so desire it.</p>\n            <p>Amongst other things he is charged with having preached or lec=<lb/>=tured in a\n                    <sic>christian</sic> pulpit or lecture room to Christian audiences<lb/> That he\n                made application to the <sic>Babtists</sic> or some other Chrisn. denomi<lb/>=nation\n                to take orders for missionary purposes to the south, there are<lb/> other rumors of\n                minor importance which I will not trouble you with but<lb/> request you to give such\n                information as you possess of <persName>Mr. Hs</persName> standing<lb/> and\n                character and of his qualifications for such appointment.</p>\n            <p rend=\"indent(1)\">Your attention and early reply will be highly appreciated<lb/> by\n                our congregation as well as by</p>\n            <p rend=\"indent(10)\">Yours very respectfully</p>\n            <p rend=\"indent(10)\"><persName role=\"author\">Joshua Lazarus</persName> Chairman</p>\n            <p rend=\"indent(10)\">Conc. of investigation</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4508,
+          "width": 3706,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9cfdc3e-e40e-4edc-96c8-7ea37e78a983%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3706,
+                "height": 4508,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b9cfdc3e-e40e-4edc-96c8-7ea37e78a983%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/assets/b9cfdc3e-e40e-4edc-96c8-7ea37e78a983/original",
+              "label": "Original File - 50.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>Dear Sir</p>\n            <p rend=\"indent(1)\">In replying to your esteemed favor, which came to hand\n                yesterday,<lb/> I beg to state that my knowledge of <persName>Mr Harris</persName>\n                is comparatively of a<lb/> recent date, but during my short acquaintance with him, I\n                never discovered<lb/> aught prejudicial to his moral character. He visited me\n                repeatedly<lb/> and from the tenor of his conversation, I inferred that he has\n                studied well<lb/> both Hebrew &amp; English. Regarding his capacity to fill the\n                situation<lb/> for which he has applied, I am utterly unable to pronounce an<lb/>\n                opinion, for I neither heard him recite the prayers, nor deliver a<lb/> sermon. The\n                two charges brought against <persName>Mr H</persName> would, if<lb/> true, not alone\n                militate against his election, but lower him also in<lb/> the estimation of <hi\n                    rend=\"underline\">all</hi> his coreligionists; I trust therefore that they<lb/>\n                may be proved false. As to myself, I was ignorant of them,<lb/> had I\n                    <sic>deem</sic> it my duty on the contrary to state, that a person, who<lb/> had\n                spoken disparagingly of his character in my presence, has, in a<lb/> letter, which I\n                received last week, retracted his accusation</p>\n            <p rend=\"indent(10)\">Believe me etc.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32z1389t/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

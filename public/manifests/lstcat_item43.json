@@ -1,0 +1,289 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Kohn, A.; Leeser, Isaac; Chicago, IL; 10 March 1851",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3ms3kn1p"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Kohn, A.; Leeser, Isaac; Chicago, IL; 10 March 1851"]
+    },
+    {
+      "label": "Name",
+      "value": ["Hart, Isaac", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1851-03-10"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Illinois -- Chicago",
+        "United States -- Illinois",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item43"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/64d970a5-55bc-45b9-adf7-7162b6c63b41%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/64d970a5-55bc-45b9-adf7-7162b6c63b41%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6260,
+          "width": 4954,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/64d970a5-55bc-45b9-adf7-7162b6c63b41%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4954,
+                "height": 6260,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/64d970a5-55bc-45b9-adf7-7162b6c63b41%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/assets/64d970a5-55bc-45b9-adf7-7162b6c63b41/original",
+              "label": "Original File - 93.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">\n                <addressee>Rev. Mr I. Leeser</addressee>\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"align(right)\">\n                <placeName>Chicago</placeName>\n                <date>March 10<hi rend=\"sup\">th</hi> 1851</date>\n            </p>\n            <p>Dear Sir!</p>\n            <p rend=\"indent(1)\">Your esteemed favor of <date>18'</date> of last month is<lb/> before\n                me, in reply to which I would like to treat of business first<lb/> &amp; of\n                    <sic>miscellanious</sic> things afterwards. We are owing you incl. The<lb/> now\n                ending vol. of the Occident $11.00, of which we have to deduct an<lb/> outlay for\n                postage on the <date>23' March 1848</date> for books send to <persName>S.\n                    Coh.</persName> Here<lb/> $—73 remaining $10.72, for which please to find an\n                order to <placeName>N. Y.</placeName><lb/> enclosed, acknowledging its receipt in\n                the next Occident.</p>\n            <p rend=\"indent(1)\">Your bill against <persName>S. Coh</persName> we have\n                presented,<lb/> to which he replied as follows: I have remitted <persName>Mr\n                    Leeser</persName> on the<lb/>\n                <date><hi rend=\"underline\">23' Jan 1848</hi></date> by you (respect.\n                    <persName>Kohn</persName>, the same having been send in the letter<lb/> ordering\n                the Occident) Three Dollars, then again I have receipt for<lb/> Three Dollars in the\n                Occident of <date><hi rend=\"underline\">June 1849</hi></date>, &amp; Six Dollars were\n                send<lb/> by me to <persName>Mr Leeser</persName> some time in <date>Febr.</date>\n                Last, which makes up the 12<lb/> Dollars, the amount of the bill. I hope it is in\n                order, please<lb/> to write about it.</p>\n            <p rend=\"indent(1)\">In regard to your retiring from your office<lb/> last fall, I felt\n                sorry when reading of it, there must have been<lb/> a serious misunderstanding\n                between you &amp; your congr. to have caused<lb/> such a step, as far as I could\n                learn, you acted the part of a<lb/> man of self respect by retiring. I regret very\n                much, that I<lb/> could not do much with your circulars, to procure you new\n                subscribers<lb/> there is too much <sic>indifferism</sic> amongst <add>יהודים</add>\n                about their holy Religion<lb/> its defenders, or any thing out of trade, it is\n                    <sic>realy</sic> deplorable, but<lb/> let us hope for better in the future. I\n                have always looked<lb/> upon the Occid. as a welcome visitor, I like its tendency\n                &amp; spirit<lb/> &amp; shall always peruse any of the volumes with pleasure &amp;\n                satisfaction.</p>\n            <p rend=\"indent(1)\">But <persName>Mr Leeser</persName> I would <sic>advice</sic> you one\n                thing<lb/> that if you do wish more subscribers for your Occ. or weekly<lb/> paper\n                about to be published, do come out on a Editors Tour<lb/> to the west, &amp; by\n                personally soliciting subscribers to your Periodicals</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6286,
+          "width": 4990,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/bbe773b0-b0d4-4742-9062-6179b4b2f55f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4990,
+                "height": 6286,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/bbe773b0-b0d4-4742-9062-6179b4b2f55f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/assets/bbe773b0-b0d4-4742-9062-6179b4b2f55f/original",
+              "label": "Original File - 94.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">you will get 10 subscribers, to one you might get without<lb/> it.\n                If you start after <add>פסח</add> &amp; go to <placeName>New York</placeName>\n                <placeName>Albany</placeName>\n                <placeName>Utica</placeName><lb/>\n                <placeName>Syracuse</placeName>\n                <placeName>Rochester</placeName>\n                <placeName><sic>Bufalo</sic></placeName>\n                <placeName>Erie</placeName>\n                <placeName>Cleveland</placeName>\n                <placeName>Sandusky</placeName>\n                <placeName>Toledo</placeName>\n                <placeName>Detroit</placeName><lb/>\n                <placeName>Milwaukee</placeName>\n                <placeName>Chicago</placeName>\n                <placeName>Peru</placeName>\n                <placeName>Pevria<add>?</add></placeName>\n                <placeName>St Louis</placeName>, &amp; then down the\n                <placeName>Miss.</placeName><lb/> &amp; <placeName>Ohio</placeName> up towards\n                    <placeName>Cincinatti</placeName> &amp; home again, I will warrant you<lb/> a\n                great many new names on your Lists, &amp; they pay all, which<lb/> is a principal\n                thing. From <placeName>Albany West</placeName> you will find<lb/>\n                <add>יהודים</add> in every town or City of little importance, who will take<lb/>\n                your Occ. if they see you &amp; the paper. There area great many<lb/> who never\n                heard of it, do come out &amp; show it to them, tell them<lb/> that it is a\n                necessary Book in their families, particularly for<lb/> those who live isolated in\n                places where there are only a few<lb/> &amp; no <add>קהלה</add> or Synagogue. Please\n                look on the maps and<lb/> note every little town from here down the\n                    <placeName>Illinois River</placeName> to <placeName>St Louis</placeName><lb/>\n                &amp; from there on the <placeName>Miss.</placeName> &amp; then to\n                    <placeName>Cincinnati</placeName> &amp; you will find<lb/>\n                <add>יהודים</add> in every town of importance, who will take your paper<lb/> if you\n                present it yourself. The Exp. of <sic>travelling</sic> will come out<lb/> of it.\n                This is a friendly advice of mine, you may take it<lb/> into consideration, it is\n                given gratis, &amp; with the best intentions.</p>\n            <p rend=\"indent(1)\">They are at present forming a Congreg. at <placeName>Detroit<lb/>\n                    Mich</placeName>, another has been started at <placeName>Milwaukee</placeName>,\n                where there<lb/> are a great many families congregated from\n                    <placeName>Bohemia</placeName>.</p>\n            <p rend=\"indent(1)\">Here we began a <add>קהל</add> 3 years ago with 15 members<lb/> we\n                now number 40 paying members, have a Burial Ground, &amp; by<lb/> building a\n                Synagogue now, we are under an Expense of ca<lb/> 2200 Dollars to come out of the\n                pockets of the members. There<lb/> are a good many things besides building a\n                Synagogue to be wished<lb/> but patience &amp; perseverance will accomplish a great\n                many things.</p>\n            <p rend=\"indent(1)\">By and bye, the Asmonean lately had an article<lb/> from a Corresp.\n                from here, in which it states that by the liberality<lb/> of the\n                    <placeName>NY.</placeName> merchant we are enabled to go on with our work<lb/>\n                of building, this is not a fact, all we got from <placeName>NY.</placeName> Was<lb/>\n                from <hi rend=\"underline\">60 to 65 Dollars</hi>, honor to whom honor is due!</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6286,
+          "width": 4864,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ba5f9c5c-f734-4d9a-8013-f30e5a8f3277%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4864,
+                "height": 6286,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ba5f9c5c-f734-4d9a-8013-f30e5a8f3277%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/assets/ba5f9c5c-f734-4d9a-8013-f30e5a8f3277/original",
+              "label": "Original File - 91.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">Another thing! Could you not publish those several<lb/> =\n                    <persName>Dias</persName> letters = in <sic>Phamplet</sic> form? <sic>they</sic>\n                would sell <hi rend=\"underline\">well</hi><lb/> every traveling <add>יהודי</add> in\n                the <placeName>M. S.</placeName>\n                <sic>wuld</sic> buy one I warrant you.</p>\n            <p rend=\"indent(1)\">If you would try to give in your next volume of<lb/> the Occident\n                some more light reading for children, some<lb/> extracts from <add>מדרש</add>,\n                little anecdotes, little parables cc suitable<lb/> for the young, it would be some\n                improvement, &amp; lead to more<lb/> subscribers. There are a great many who do not\n                like always<lb/> grave matters or articles requiring thought &amp; study, some\n                lighter<lb/> food will sometimes be more acceptable.</p>\n            <p rend=\"indent(1)\">Your Editions of <add>חמושים מחזרים תפילות</add> cc you will<lb/>\n                also have <sic>oportunity</sic> to sell, if you should resolve to make a<lb/>\n                Western Tour.</p>\n            <p rend=\"indent(1)\">About those <add>תפילות</add> you send by <persName>Mr\n                    Goldsmith</persName>\n                <placeName>NY</placeName><lb/> I never got them, neither are they with any of the\n                booksellers<lb/> here. Finally <persName>Mr Leeser</persName>, I shall be in\n                    <placeName>NY.</placeName> on or about<lb/>\n                <add>פסח</add>, &amp; should be very happy to make your personal acquaintance<lb/>\n                should you come there, you will easily find me by inquiring<lb/> after me. Please to\n                excuse my long epistle, any faults<lb/> in the writing of it, I am only a German\n                    <sic>decendant</sic> of <add>אהרן הכהן</add>.</p>\n            <p rend=\"indent(10)\">yours respectfully</p>\n            <p rend=\"indent(11)\">\n                <persName role=\"author\">A Kohn</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 6300,
+          "width": 4940,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c3501540-4f04-450a-934c-f08506722890%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4940,
+                "height": 6300,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c3501540-4f04-450a-934c-f08506722890%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3ms3kn1p/assets/c3501540-4f04-450a-934c-f08506722890/original",
+              "label": "Original File - 93.6 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

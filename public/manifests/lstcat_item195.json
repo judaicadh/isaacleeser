@@ -1,0 +1,290 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Daunt, M.; Leeser, Isaac; Curacao, Netherlands Antilles; 1 November 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30p0xb2h"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Daunt, M.; Leeser, Isaac; Curacao, Netherlands Antilles; 1 November 1849"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-11-01"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 4 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Curaçao",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item195"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/4db6a6cd-3d93-4745-849a-cb5d76b5066c%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/4db6a6cd-3d93-4745-849a-cb5d76b5066c%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6044,
+          "width": 4712,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4db6a6cd-3d93-4745-849a-cb5d76b5066c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4712,
+                "height": 6044,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4db6a6cd-3d93-4745-849a-cb5d76b5066c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/assets/4db6a6cd-3d93-4745-849a-cb5d76b5066c/original",
+              "label": "Original File - 85.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Curacao</placeName>\n                <date>1 Nov. 1849</date>\n            </p>\n            <p>\n                <addressee>Mr. Isc Leeser</addressee>\n            </p>\n            <p rend=\"indent(1)\">\n                <placeName>Philadelphia</placeName>\n            </p>\n            <p rend=\"indent(3)\">Dear Sir</p>\n            <p rend=\"indent(5)\">I have before me yr favors<lb/> of <date>31<hi rend=\"sup\">st</hi>\n                    July</date> and <date>5<hi rend=\"sup\">th</hi> Sept</date> both accompanying the\n                Occidents all <add>?</add><lb/> I regret to state I have no new subscribers and I\n                fear the next year<lb/> I shall still loose some of the few I have however I must\n                hope<lb/> things will be better then nor have I been more lucky with<lb/> the prayer\n                books, the <sic>hollidays</sic> are always the time to sell but<lb/> not a single\n                sell could I get off all alluding the books are<lb/> too heavy particularly the\n                    <date>kipoor</date>, we have the service<lb/> recd from\n                    <placeName>England</placeName> in 3 Books which are much admired<lb/> every boy\n                wants of that sort, please send me 2 Dz each of the<lb/> Road to faith &amp; Hebrew\n                spelling books they are wanted for the Sunday<lb/> School</p>\n            <p rend=\"indent(1)\">I have just Recd a letter from my correspondent in\n                    <placeName>Boston</placeName> who<lb/> informs me he recd the <add>Hebrew</add>\n                of Palm leafs and Citrons and frwa<add>?</add><lb/> them to you but he does not say\n                when I hope they arrived in time<lb/> and proved good <add>?</add> answer to my\n                    <sic>enquiry</sic>, <persName>Miss Joseph Trull</persName><lb/>\n                <add>?</add> inform me that 15 f<add>?</add> were worth 94 c <add>?</add></p>\n            <p rend=\"The final words on the page are obscured by a sticker.\"/>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6090,
+          "width": 4762,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/d7ca8a83-2456-4310-8b1f-39b432310662%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4762,
+                "height": 6090,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/d7ca8a83-2456-4310-8b1f-39b432310662%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/assets/d7ca8a83-2456-4310-8b1f-39b432310662/original",
+              "label": "Original File - 87.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><add>?</add> you dollars for 5 fr pieces that<add>?</add> I have <sic>debitted</sic> you<lb/>\n                <add>?</add> 6c each on $90.42 <add>?</add> of 6 francs making $5.42/100 which\n                please<lb/> remit<add>?</add> me for our accts. to agree.</p>\n            <p rend=\"indent(1)\">I am happy to inform you the school of <persName>Mr.<lb/>\n                    Casseres</persName> or rather the Sunday School is getting on famously and doing<lb/>\n                <add>?</add> of good, the young ladies that joined as teachers are constant<lb/> and\n                    <sic>indefatagable</sic> in their <add>?</add> attendance and exertions and well\n                merit<lb/> the good will of the nation, it would be well if in all parts where\n                we<lb/> are spread our young ladies would <add>?</add> as much for our poor\n                children</p>\n            <p rend=\"indent(4)\">I am Dear Sir</p>\n            <p rend=\"indent(5)\">Your Obt. Sevt.</p>\n            <p rend=\"indent(6)\">\n                <persName role=\"author\">M Daunt</persName>\n            </p>\n            <p>I forgot to <persName>Mr Nathans</persName> school is getting on as well as his fondest<lb/>\n                <add>?</add> could wish he has as many scholars as he can attend to<lb/> and I\n                    <sic>dont</sic> know if not more as he is obliged to refuse some</p>\n            <p rend=\"The paper is brittle and broken in places, obscuring some words.\"/>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3272,
+          "width": 3172,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6760eed3-1096-45da-befd-480c5c14f885%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3172,
+                "height": 3272,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6760eed3-1096-45da-befd-480c5c14f885%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/assets/6760eed3-1096-45da-befd-480c5c14f885/original",
+              "label": "Original File - 31.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(2)\">\n                <addressee>Isaac Leeser Esqr.</addressee>\n            </p>\n            <p rend=\"indent(3)\"><placeName><hi rend=\"underline\">Philadelphia</hi></placeName>.</p>\n            <p>via “<placeName>New York</placeName>.”</p>\n            <p>per “<hi rend=\"underline\"><persName>Abram</persName></hi>”.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 3406,
+          "width": 3316,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9b1b436c-80e9-4cb0-87ce-614a5ee5b21c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3316,
+                "height": 3406,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9b1b436c-80e9-4cb0-87ce-614a5ee5b21c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xb2h/assets/9b1b436c-80e9-4cb0-87ce-614a5ee5b21c/original",
+              "label": "Original File - 34.1 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 20 October 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3vd6pr09"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 20 October 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Sola, Abraham de, 1825-1882", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-10-20"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_88"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/aa7b117d-b325-482d-b4fb-625002e057a2%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/aa7b117d-b325-482d-b4fb-625002e057a2%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3658,
+          "width": 2264,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/aa7b117d-b325-482d-b4fb-625002e057a2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2264,
+                "height": 3658,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/aa7b117d-b325-482d-b4fb-625002e057a2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/assets/aa7b117d-b325-482d-b4fb-625002e057a2/original",
+              "label": "Original File - 25.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>Montreal</placeName>\n                <date>20 Oct 54</date>.</p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(2)\">Dear Sir</p>\n            <p rend=\"indent(3)\">I have been quite unable to answer<lb/> your favor of <date>12<hi\n                        rend=\"sup\">th</hi></date> inst until now, having had so<lb/> many calls upon\n                my leisure—not the least pleasant<lb/> of which was the arrival here of my brother from<lb/>\n                <placeName>London</placeName>.Your reply with reference to the publishing<lb/> of\n                school books is certainly satisfactory so far as<lb/> your willingness to unite with\n                me in the undertaking<lb/> is concerned, but permit me to say it is less so\n                with<lb/> reference to other points. You say when you have<lb/> returned from your\n                collecting tour you will be able<lb/> to speak more positively as to what can be\n                done in<lb/> the matter of printing school books; Am I to<lb/> understand that your\n                willingness to go on<lb/> depends upon your success in collecting? Please<lb/>\n                recollect in the matter of <persName>Templo's</persName> Grammar that<lb/> it is not\n                pleasant for me to appear laboring so<lb/> many months in advertisement to produce a<lb/>\n                <persName><hi rend=\"underline\">Leão</hi> (Templo)</persName> and yet not even\n                producing a mouse<lb/> nor, perhaps, would it be quite right to withdraw<lb/> my\n                advt unless I announced there would certainly<lb/> appear jointly that book or one similar—whether<lb/>\n                <persName>Leesers</persName> or <persName>Templo's</persName> would not much matter\n                so<lb/> that we had the one best adapted for schools<lb/> that at least one person\n                expects the book Templo</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3658,
+          "width": 2264,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/430d0623-f5a6-4895-8c88-50945d7ed37f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2264,
+                "height": 3658,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/430d0623-f5a6-4895-8c88-50945d7ed37f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/assets/430d0623-f5a6-4895-8c88-50945d7ed37f/original",
+              "label": "Original File - 25.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>and has paid for it the enclosed will testify.<lb/> Please return me <persName>Mr\n                    Alexander's</persName> letter in your<lb/> next favor. Do you know him?</p>\n            <p rend=\"indent(1)\">I would beg to ask you one question, do<lb/> you object to increase\n                “the burthen under which<lb/> you stagger” by “going halves” as the school boys<lb/>\n                say in producing <hi rend=\"underline\">only</hi>\n                <persName>Templos</persName> book or a<lb/> Hebrew Grammar. Without involving either\n                of us<lb/> to any large amount we show that we are in the full with <hi\n                    rend=\"underline\">the right article</hi> and we shall<lb/> have made a\n                commencement. I do not say we should<lb/> print before you return “about\n                    <date>Purim</date> time”<lb/> but I do think that before you commence your<lb/>\n                trip I would find it very acceptable were the<lb/> public notified of a contemplated\n                joint publica<lb/> of a Heb. Gram. as a positive thing; and as a thing<lb/> not so\n                positive, but dependent upon the support<lb/> they extend to the plan—inform them of\n                the<lb/> projected issue of the other books named. A<lb/> comprehensive good Hebrew\n                Grammar is unquestionably<lb/> wanted—we have\n                    <persName>Nerurtz's<add>?</add></persName> but it is too<lb/> large and\n                expensive, <persName>Newmans</persName> is too <sic>meagre</sic><lb/> and too badly\n                arranged, all others in the English<lb/> language by Jews or Christians for\n                Jewish<lb/> schools are in my estimation worth <hi rend=\"underline\">nichts</hi><lb/>\n                I have no fear that any of the books I before<lb/> referred to will not make their\n                way &amp; expenses<lb/> support before hand I do not like to solicit. I<lb/> would\n                therefore much like to hear that you</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 3658,
+          "width": 2264,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/690992d7-5845-4efa-86d1-24988e7f89a2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2264,
+                "height": 3658,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/690992d7-5845-4efa-86d1-24988e7f89a2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/assets/690992d7-5845-4efa-86d1-24988e7f89a2/original",
+              "label": "Original File - 25.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>are disposed to make announcement in your next<lb/> Occ. that out we will come\n                    <del>and</del> that I may be<lb/> enabled to withdraw my advertisement from\n                the<lb/> Asmonean &amp; supply #c notification of <persName>Templo's</persName>\n                appear-<lb/>ance under altered circumstances. You say you<lb/> do not know the\n                books. I could send it you on by express<lb/> to look at. It requires a little\n                alteration of arrangement<lb/> and will make about <hi rend=\"underline\">70\n                    pages</hi>\n                <add>?</add>. I think it<lb/> a good book so do many others, my brother among\n                them<lb/>—but I would of course like your opinion.</p>\n            <p rend=\"indent(1)\">I am sorry you were not here <add>Hebrew</add>. I should be<lb/>\n                much pleased if next year, <persName>D. L.</persName> you extend your<lb/> visit and\n                come to us. I should be very glad to hear<lb/> you read what portion of the prayers\n                you prefer<lb/> while in exchange I could myself stand <add>Hebrew</add><lb/> as\n                said the <add>?</add> lingue of our friend. What I can<lb/> do for your Bibles\n                defence I will. I don't know<lb/> why the Oc. comes late, but it comes late.\n                    <persName>Mrs<lb/> S<add>?</add> Joseph</persName> is sullen<add>?</add> and I\n                believe proposes taking<lb/> a trip south. The prayer books being too late<lb/> I\n                can be explained by the party's altering his mind<lb/> that a set cost “viel geld”\n                and a secondhand one<lb/> could be got cheaper—hence the excuse “too late<lb/> when\n                    <add>Hebrew</add> was only a week off and no books<lb/> had arrived. It is not\n                the first time <add>?</add> have<lb/> changed their minds after ordering my\n                fathers'.<lb/> I must close though I have more to write<lb/> Hoping to hear soon\n                from you I am</p>\n            <p rend=\"indent(8)\">Yours truly</p>\n            <p rend=\"indent(8)\">\n                <persName role=\"author\">Abraham de Sola</persName>\n            </p>\n            <p>will you please have the</p>\n            <p>enclosed to <persName>Miss Gratz</persName>?</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vd6pr09/canvas/p3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

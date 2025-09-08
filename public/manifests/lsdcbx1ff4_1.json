@@ -1,0 +1,395 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter to Isaac Leeser from Wolff, Aaron; July 02, 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3v69944p"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter to Isaac Leeser from Wolff, Aaron; July 02, 1847"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Wolff, Aaron (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-07-02"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["6 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": [
+        "Saint Thomas (United States Virgin Islands)",
+        "Philadelphia (Pa.)"
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF4_1", "ilcajs_b1f4_0001"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/212f1b86-5dad-482d-9ef0-d41617324273%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/212f1b86-5dad-482d-9ef0-d41617324273%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 6412,
+          "width": 4922,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/212f1b86-5dad-482d-9ef0-d41617324273%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4922,
+                "height": 6412,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/212f1b86-5dad-482d-9ef0-d41617324273%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/assets/212f1b86-5dad-482d-9ef0-d41617324273/original",
+              "label": "Original File - 94.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\"><placeName>St Thomas</placeName>\n                                        <date>2 July 1847</date> private</p>\n                              <p>\n                                        <addressee>Revd Mr Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Phila</placeName>\n                              </p>\n                              <p rend=\"indent(2)\">Dr Sir</p>\n                              <p rend=\"indent(3)\">Your letter of <date>12 Nov, 11 Dec 4 Jany</date>\n                                        are<lb/> before me I would have been[?] replied to before\n                                        this but really I<lb/> have been am still so occupied that I\n                                        could not spare time<lb/> before, the affairs of our\n                                        Congregation have been extremely<lb/> heavy for me as you\n                                        shall find, I will firstly reply to your<lb/> letter of\n                                                  <date>Dec.</date> You are quite correct when you\n                                        state that I<lb/> am interested for you. I have always been,\n                                        am so still, this<lb/> has been the reason of my always\n                                        writing you in the <sic>stile</sic> I do.<lb/> I regret to\n                                        find that you had been so indisposed. I <sic>hurt</sic>\n                                        that<lb/> your health has since been perfectly\n                                        re-established.</p>\n                              <p rend=\"indent(1)\"><persName>Mr Nans.[?]</persName> and myself are at\n                                        variance, because at<lb/> his arrival I placed every\n                                        confidence in him as an old friend<lb/> a man being alike\n                                        friendly to myself as well as to the party<lb/> appeared to\n                                        me, one to when I considered devoted the duty of<lb/>\n                                        interfering reconciling all the evils of the\n                                        <sic>hart</sic>, but in<lb/> stead of that<lb/> he\n                                        inserted[?] himself under the banner and did<lb/> all he\n                                        could to annoy vex <del>him</del> me, being then in\n                                        appearance<lb/> friendly disposed, he concocted a letter\n                                        which <persName>Dr Peixotto</persName> signed as\n                                        President<lb/> Addressed to the head of the Commission for\n                                        framing the new laws<lb/> in which he reviled me shamefully.\n                                        I attacked him upon it<lb/> he acknowledged it; for this\n                                        other reasons I withdrew from him<lb/> not only myself but\n                                        other highly respectable members of the<lb/> congregation\n                                        lost the opinion they held of him, he then became<lb/> a\n                                        leader of the party; continued to do all he could to\n                                        annoy,<lb/> this led him to be in[?] agreement <persName>M\n                                                  Nathan</persName> as well as to<lb/> myself,\n                                        making use of no measured language, calling him a<lb/>\n                                        Counting Priest c.</p>\n                              <p rend=\"indent(1)\">I have written you so fully in the benefits</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 6412,
+          "width": 4922,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e5673fa-7b7c-4297-be06-0add325675d8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4922,
+                "height": 6412,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/3e5673fa-7b7c-4297-be06-0add325675d8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/assets/3e5673fa-7b7c-4297-be06-0add325675d8/original",
+              "label": "Original File - 94.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>of confirmation that I will add what has really come<lb/> under my\n                                        notice, there was 3 entire families here, who\n                                        previously<lb/> to <persName>Mr Carillons [?]</persName>,\n                                        were on the eve of apostatizing, his<lb/> instructions for\n                                        the confirmation private arguments completely<lb/> brought\n                                        them back to their duty. I have since had the pleasure<lb/>\n                                        of beholding its Moral Religious effects upon the Young<lb/>\n                                        people who now venerate their religion because they begin\n                                        to<lb/> understand it. it is only a few whose opinions are\n                                        lax<lb/> and are desirous of helping their children in\n                                        ignorance of true<lb/> religion that are so violently\n                                        opposed to it because they are<lb/> afraid that their\n                                        children will reproach them for not keeping<lb/> the\n                                                  <date>Sabbath</date> holy days which is strictly\n                                        enforced in the<lb/> Catechism, the proof that it is well\n                                        received is, that <persName>Mr<lb/> Nathan</persName> will\n                                        confirm 14 young people in <date>Passover</date>. I am\n                                        sorry<lb/> that we do not agree upon this point, for\n                                        experience has confined<lb/> my opinion of its benefits I am\n                                        resolved to promote it with<lb/> all my might. <persName>Mr\n                                                  Nathan</persName> would have replied but the<lb/>\n                                        man has been so annoyed by the conduct of\n                                                  <persName>Simmonds</persName> his<lb/> party that\n                                        I do not for the life of me know how he could<lb/> get thro'\n                                        his duties as well as he did, added to it, we<lb/> have a\n                                        heavy task to get through the new laws, the heaviest<lb/>\n                                        part falling upon himself myself;–I saw him last night,<lb/>\n                                        he promises to reply very soon.–By the Bye I have never<lb/>\n                                        secured the Occident for <date>September</date>. Please to\n                                        forward it.</p>\n                              <p rend=\"indent(1)\">I now come to our Congregational Matters under\n                                        the<lb/> Administration of <persName>Simmonds</persName> his\n                                        friends. I informed you of<lb/> the abuses of power in some\n                                        cases, these continued so<lb/> long, new ones were added\n                                        that enacted[?] a great stir in the<lb/> Congregation very\n                                        many that had been opposed to me, now<lb/> saw that the\n                                        reports they were against me were false; at<lb/> length\n                                                  <persName>Simmonds</persName> quitted the Island\n                                        for the purpose of<lb/> marrying her Brother with a lady at\n                                                  <placeName><sic>Caracao </sic></placeName>, by\n                                        which the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 6412,
+          "width": 4922,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0fbbadbe-dcfb-4bfd-80af-5c871542f8c6%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4922,
+                "height": 6412,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0fbbadbe-dcfb-4bfd-80af-5c871542f8c6%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/assets/0fbbadbe-dcfb-4bfd-80af-5c871542f8c6/original",
+              "label": "Original File - 94.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>the administration of the Synagogue was only left in the<lb/> hands\n                                        of 4 instead of 7 persons—5 of the body forming a<lb/>\n                                        quorum, two of the members at the election refused to act\n                                        <lb/> never did as long as the Quorum was complete no one\n                                        opposed<lb/> the legality.–but at\n                                                  <persName>Simmonds</persName> leaving, he with the\n                                        4 others<lb/> balloted [?] out of 2 instead of 4 Wardens as\n                                        the law orders<lb/> to fill the place of President; now\n                                        previous to balloting for<lb/> a new the old President must\n                                        resign, as soon as he did<lb/> this, the body was reduced to\n                                        4 which were not a quorum <lb/> had not the power of doing\n                                        any business, consequently the<lb/> balloting was illegal;\n                                        the most respectable members of<lb/> the Congregation\n                                        represented the business to [?] showed<lb/> the necessity of\n                                        the Government of the Congregation being filled<lb/> up of a\n                                        new election for that purpose (the laws of the<lb/>\n                                        Congregation does not provide for such a state of\n                                        things,)<lb/> the Government who knew I were heartily\n                                        disgusted with<lb/> all the proceedings of the entire party\n                                        since the affair<lb/> with <persName>Carellion</persName>\n                                        who saw how every thing had gone to [?]<lb/>[?], who know\n                                        that these people were improper ones to<lb/> be in the\n                                        Government, appointed me President Messrs<lb/> O[?]\n                                                  <persName>Fidangree[?]</persName> Wardens, then\n                                        ordered an entire new<lb/> election of 7. this the 4\n                                        Remaining of <persName>Simmonds</persName>\n                                        Administration<lb/> protested against, as the were the\n                                        majority I could not carry<lb/> out the Government order, I\n                                        informed Government of it sent in<lb/> the protest, the\n                                        Governor immediately dismissed them from their<lb/> offices\n                                        placed <persName>Miss Rothschild</persName>, <persName>Dr\n                                                  DeCortz</persName>, <persName>Dr\n                                                  Monsato</persName><lb/>\n                                        <persName>Isaac Pritt[?]</persName> in their stead the Board\n                                        to continue until<lb/> further orders:–we found the affairs\n                                        in a very bad <lb/> neglected state, the circular they\n                                        published was proved to be<lb/> incorrect in all its parts,\n                                        the Synagogue was in need of repair<lb/> the [?] at the\n                                        Burial Ground in a very bad state, and<lb/> [?] the minister\n                                        every other officer in credit. The Minister</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 6412,
+          "width": 4922,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb9248ea-63fb-47f6-9ba7-01bab1bf2353%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4922,
+                "height": 6412,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb9248ea-63fb-47f6-9ba7-01bab1bf2353%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/assets/eb9248ea-63fb-47f6-9ba7-01bab1bf2353/original",
+              "label": "Original File - 94.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>for 6 months pay as well as the other officers, we required<lb/>\n                                        $1200 over above the Taxes to make the Synagogue clear,<lb/>\n                                        in consequence we determined to call a meeting of the<lb/>\n                                        congregation lay before the members an expose (I could<lb/>\n                                        get the sum required by [?] pay $250 per year) previous<lb/>\n                                        to having any idea of calling a general meeting, I\n                                        wrote<lb/> a letter to <persName>Nans</persName> proposing a\n                                        reconciliation of all that had<lb/> passed asking him to use\n                                        his influence with those over<lb/> whom I know he had\n                                        influence to forget bury the past<lb/> remote[?] for the\n                                        general good. I did this for the common<lb/> good, with no\n                                        view to my particular standing, because I<lb/> was already\n                                        at the head of the Congregation placed there by<lb/>\n                                        government, consequently not in need of the suffrages\n                                        of<lb/> any one—the act was purely religious—his reply was\n                                        of<lb/> a nature that in time will make him feel regret\n                                        a<lb/> refusal; except upon terms that could never have\n                                        been<lb/> acceded to by any will in either of the\n                                        congregation, he<lb/> wanted us to go back—only have Readers\n                                        without pulpit<lb/> instruction, to do away with Taxes\n                                        substitute offerings<lb/> to them upon the religiously\n                                        inclined the whole <sic>burthen</sic> of<lb/> maintaining\n                                        the establishment, at length the meeting<lb/> took place at\n                                        that meeting he and the arguments quoted<lb/> which was met\n                                        by a vote of 3 to 1, against him, his party<lb/> of 10\n                                        persons, he promises that affairs shall be worse than</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p5",
+          "@type": "sc:Canvas",
+          "label": "p. 5",
+          "height": 6412,
+          "width": 4922,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/da5671ea-4cfd-4b72-b235-fd823f66c075%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4922,
+                "height": 6412,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/da5671ea-4cfd-4b72-b235-fd823f66c075%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p5"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/assets/da5671ea-4cfd-4b72-b235-fd823f66c075/original",
+              "label": "Original File - 94.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p5/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/manifest/annotation/p5",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>ever, then you see his conduct, the Governor being very<lb/> much\n                                        displeased with his <del>his</del> party' doings did not\n                                        invite<lb/> any one of them to a Ball he gave for some Dutch\n                                        Naval<lb/> Officers, this has made him more furious, but\n                                        thank God<lb/> he cannot injure altho he may annoy, you can\n                                        form no<lb/> idea of the trouble I have had to re-arrange\n                                        the affairs.<lb/> the Synagogue is under repair, the Burial\n                                        House will be, the<lb/> people beg me to pay their taxes.\n                                                  <persName>Mr Nathan</persName> has consented<lb/>\n                                        to leave his Salary in a little time the Sunday School\n                                        will<lb/> be again alone—in spite of the distractions</p>\n                              <p rend=\"indent(1)\">Pray send me the [?] Volume of the Pentateuch\n                                        in<lb/> place of the one that was injured returned we shall\n                                        soon<lb/> require it. The new Laws will go into Government\n                                        in the<lb/> Month. I have no time to recapitulate all the\n                                        insults to<lb/>\n                                        <persName>Mr Nathan</persName>, <persName>Mr Bay</persName>\n                                        had a circumcision at his house, he<lb/> wrote to inform me\n                                        stated that he did not require the<lb/> services of the\n                                        Minister, insulting him thus publicly.\n                                                  <persName>Bay</persName> is<lb/>\n                                        <persName>Naan</persName> son in law</p>\n                              <p rend=\"indent(1)\">I regret to state that my son\n                                                  <persName>Moses</persName> has been<lb/> obliged\n                                        to take his name off of the list of subscribers to the<lb/>\n                                        Occident for the ensuing Year, business having gone bad\n                                        with<lb/> him, 3d [?] <persName>Naan</persName> refused to\n                                        pay his tax yesterday. I<lb/> will not enforce it by law as\n                                        I am determined to do the<lb/> opposite of that which he\n                                        party desire. I will be moderate<lb/> put up with their\n                                        opposition as far as I can without<lb/> creating more bad\n                                        feeling, it is awful to live among such<lb/> bad\n                                        spirits;–you can suppose that neither himself for any\n                                        of<lb/> his party of 10 came to the Synagogue, they cannot\n                                        be accused<lb/> of having done often previously–</p>\n                              <p rend=\"indent(2)\">With best wishes I am My Dr Sir</p>\n                              <p rend=\"indent(3)\">Yours truly</p>\n                              <p rend=\"indent(4)\">\n                                        <persName role=\"author\">A Wolff</persName>\n                              </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p6",
+          "@type": "sc:Canvas",
+          "label": "p. 6",
+          "height": 4922,
+          "width": 6412,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/eba46c2b-b2fa-41cd-92e9-b1272191ec7d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6412,
+                "height": 4922,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/eba46c2b-b2fa-41cd-92e9-b1272191ec7d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p6"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/assets/eba46c2b-b2fa-41cd-92e9-b1272191ec7d/original",
+              "label": "Original File - 94.9 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p6/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/manifest/annotation/p6",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Revd Mr Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philada</placeName>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3v69944p/canvas/p6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

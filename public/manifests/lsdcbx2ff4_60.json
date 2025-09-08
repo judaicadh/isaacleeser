@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Englander, A.; Leeser, Isaac, Rev.; Marysville, CA; 2 August 1857",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3cz32r3b"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Englander, A.; Leeser, Isaac, Rev.; Marysville, CA; 2 August 1857"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1857-08-02"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- California -- Marysville",
+        "United States -- California",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF4_60"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/21e68056-0d29-4594-9fa2-17e49bce81e1%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/21e68056-0d29-4594-9fa2-17e49bce81e1%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4540,
+          "width": 3822,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/21e68056-0d29-4594-9fa2-17e49bce81e1%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3822,
+                "height": 4540,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/21e68056-0d29-4594-9fa2-17e49bce81e1%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/assets/21e68056-0d29-4594-9fa2-17e49bce81e1/original",
+              "label": "Original File - 52.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><addressee>Rev. Isaac Leeser</addressee>\n                <placeName>Philadelphia</placeName>.</p>\n            <p rend=\"indent(2)\"><placeName>Marysville Yuba County Cal.</placeName>\n                <date>Aug 2th 1857</date>.</p>\n            <p>Rev Sir! Although not having the pleasure of being personally acquainted<lb/> with\n                you, yet my name will not be quite strange among some of your correspon<lb/>dents,\n                say in the years <date>46</date>-<date>47</date>, and in reference to this I take\n                this opportuni<lb/>ty, congratulating you most heartily, to your present appointment\n                as minis<lb/>ter of the Portuguese Congregation in\n                    <placeName>Philadelphia</placeName>; a better choice Sir,<lb/> could said\n                Congregation not have, and in no way could she have shown, that<lb/> its members\n                know to appreciate your talents as well as your merits in be-<lb/>half of the true\n                Judaism, and our holy Religion. May the Almighty heaven<lb/>ly father grant you a\n                long long life with uninterrupted health, that you<lb/> may be the pride of our\n                nation, the true religious guide of your beloved Congre<lb/>gation, for an\n                    <sic>unlimitted</sic> time of years yet, and that you may henceforth<lb/> be the\n                defender of our ancient faith, when attacked, by but a very few.<lb/> Believe me\n                Sir, the great mass is with you, the <sic>enlightend</sic> is with you, the<lb/> old\n                and the rising generation are with you. We do not want any reform,<lb/> because, we\n                are reformed, more than we ought to be, we proclaim <add>תורת משה אמת</add><lb/> and\n                shall never allow <hi rend=\"underline\">one</hi> or <hi rend=\"underline\">two</hi>\n                individuals to profane, that what is sacred<lb/> to every Israelite, and therefore\n                every Israelite who has the maintenance<lb/> of our Religion at heart, will sustain\n                you in that course you have taken,<lb/> I would I<del>'ll</del> hope you'll pursue,\n                    <add>עת לעשות לה' הפרו תורתיך</add>.</p>\n            <p>I would have written to you sooner, had my situation not been the cause,<lb/> of not\n                doing so. I am now four years in this country, and have devoted my<lb/>self since\n                that time to the agriculture business, I am a farmer, have<lb/> a Ranch of my own\n                about 2 ½ miles from <placeName>Marysville</placeName>, where I live with my<lb/>\n                family, till and work the soil with my own hands, and thank God I can<lb/> say, I\n                met till now, with success, all what grieves me, is the impossibility<lb/> of living\n                according to our Religion, but I entertain the <sic>joyfull</sic> hope, that</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4540,
+          "width": 3822,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/8cdc0217-a95a-4ac0-a01b-243d33221143%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3822,
+                "height": 4540,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/8cdc0217-a95a-4ac0-a01b-243d33221143%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/assets/8cdc0217-a95a-4ac0-a01b-243d33221143/original",
+              "label": "Original File - 52.1 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>times is not far off, where I am able to do it. Speaking of my situation<lb/> which\n                is in my way of not writing to you oftener, that is to say, that I am<lb/> so\n                continually engaged in my farm, that I <sic>allways</sic> like to see the\n                evening<lb/> come, on account of seeing the hours of Rest.</p>\n            <p>The affairs of the Israelites here are progressing slowly, there exists a\n                Benevo<lb/>lent Society, of which I am a member, counting some 40 more, and\n                having<lb/> a fund of about 700 Dollars &amp; a <sic>beautifull</sic> burying ground\n                with a little<lb/> brick building on it, as a <add>מטהר</add> house, a great deal of\n                money is <sic>allways</sic><lb/>\n                <sic>expendet</sic> in the way of charity, and although we live in the so\n                called<lb/> Golden country; yet is there is scarcely a week where we are not\n                called<lb/> to <sic>excercise</sic> our charity. About a year ago I started the Idea\n                of<lb/> erecting a Synagogue, but met with some resistance by a <persName>Mr. A.\n                    Tuska</persName><lb/> a son of <persName>Rev. Mr Tuska</persName> of\n                    <placeName>Rochester</placeName>, an adherer to the reform party<lb/> of\n                    <persName>Mr Wise</persName>, it caused some unpleasant newspaper\n                    <sic>artikels</sic>, between<lb/>\n                <persName>Mr T.</persName> and myself<del>es</del> and than I <sic>droppet</sic> the\n                idea, being satisfactorily<lb/> convinced that the majority of our coreligionist in\n                    <placeName>Marysville</placeName>, have<lb/> neither the religious feeling, nor\n                the energy for such a work.</p>\n            <p>I repeat my Congratulations, and remain Rev. Sir</p>\n            <p rend=\"indent(5)\">your humble servant</p>\n            <p rend=\"indent(6)\">\n                <persName role=\"author\">A. Englander</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3cz32r3b/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

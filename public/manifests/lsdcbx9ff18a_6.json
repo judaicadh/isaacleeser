@@ -1,0 +1,293 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Kursheedt, Gershom; New Orleans, LA; 2 May 1849",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p33n2113j"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Kursheedt, Gershom; New Orleans, LA; 2 May 1849"]
+    },
+    {
+      "label": "Date",
+      "value": ["1849-05-02", "5609"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Louisiana -- New Orleans",
+        "United States -- Louisiana",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx9FF18a_6"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/03ff16f1-f354-45cc-b6b9-ae828aa3cd2e%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/03ff16f1-f354-45cc-b6b9-ae828aa3cd2e%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 7385,
+          "width": 6042,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/03ff16f1-f354-45cc-b6b9-ae828aa3cd2e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6042,
+                "height": 7385,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/03ff16f1-f354-45cc-b6b9-ae828aa3cd2e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/assets/03ff16f1-f354-45cc-b6b9-ae828aa3cd2e/original",
+              "label": "Original File - 134 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>New Orls</placeName>\n                <date>May 2. 5609</date>\n            </p>\n            <p>My dear friend.</p>\n            <p rend=\"indent(1)\">It is a singular fact that your form of<lb/>\n                <hi rend=\"underline\"><date>March 19</date></hi> only reached me a few days ago,\n                which accounts<lb/> for the inquiries which I made in a late letter &amp; to\n                which<lb/> you reply in yours of <hi rend=\"underline\"><date>April 3d</date></hi>\n                remarking that you had<lb/> previously answered me. Let that pass</p>\n            <p rend=\"indent(1)\">My main object just now in addressing you is to<lb/> say that as\n                soon as I hear from you of a day being<lb/> freed for the c<add>?</add> at\n                    <placeName>New York</placeName> I shall make final<lb/> arrangements for my\n                departure <del>passage</del>. The secretary<lb/> of the congregation informed you\n                immediately of my appoint<lb/>ment as the Delegate. I shall leave here so as to<lb/>\n                be in <placeName>NYork</placeName> by the <date>11th</date> proxo unless I hear that\n                the day<lb/> has been postponed. I suppose the Occident of<lb/> the <date>1st</date>\n                will satisfy me that the convention will be held<lb/> &amp; as soon as that is recd.\n                I may start. In your<lb/> last No you talk of <hi rend=\"underline\">many</hi>\n                delegates from the same<lb/> congregation. Of course each <hi rend=\"underline\"\n                    >Congregation</hi> can only have<lb/>\n                <hi rend=\"underline\">one vote</hi> &amp; even as to delegates, if one congregation\n                is<lb/> allowed too many, the delegates from some may not<lb/> get a chance to say a\n                word. Look to this in time.</p>\n            <p rend=\"indent(1)\">Respecting the inside furniture of the Synagogue<lb/> here, you can\n                take your time &amp; need not <add>?</add><lb/> to ship anything altho' what you may\n                have sent<lb/> will be taken care of by <persName>Mr Touro</persName> till my\n                return<lb/> Perhaps you may like me &amp; see some of the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 7385,
+          "width": 6042,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/023ce842-2476-4bc5-8603-e24c41052e1d%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6042,
+                "height": 7385,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/023ce842-2476-4bc5-8603-e24c41052e1d%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/assets/023ce842-2476-4bc5-8603-e24c41052e1d/original",
+              "label": "Original File - 134 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>“fixings” &amp; the longer certain good are kept out of<lb/> this climate (until they\n                are used) the better. As regards<lb/> more money you had best write direct to\n                    <persName>Mr Touro</persName> at<lb/> once, as he is <hi rend=\"underline\">very\n                    slow</hi> &amp; you can say that as you<lb/> presume I am absent starting you\n                address him instead<lb/> of me. by the bye, say a word to him upon the\n                importance<lb/> of this convention &amp; the propriety of each congregation\n                sending<lb/> a proper delegate so that whatever expenses may grow<lb/> out of the\n                convention he may not think the means of<lb/> the congregation are squandered.</p>\n            <p rend=\"indent(1)\">I hope to meet <persName>Mr. Gutheim</persName> this summer<lb/>\n                perhaps at the convention or if I take the <placeName>Sandusky</placeName><lb/>\n                route north I may see him in <placeName>Cincinnati</placeName></p>\n            <p rend=\"indent(1)\">I am altogether undetermined which may I shall<lb/> go, perhaps\n                direct to <placeName>NY</placeName> by steamship hence on the<lb/>\n                <date>21st</date> inst or on the <date>1st</date> proximo, be to\n                    <placeName>Savannah</placeName> by<lb/> mail &amp; thence by steamer to\n                    <placeName>NY</placeName> or I may pass through<lb/> to\n                    <placeName>Charleston</placeName> &amp; there take steam. My movements will\n                depend<lb/> upon my time, &amp; the company of my respectable delegates<lb/> that I\n                may fall in with.</p>\n            <p rend=\"indent(1)\">I do not know if it will scarcely be worth while<lb/> for you to\n                answer this letter, but still as I shall not<lb/> in all probability leave here\n                before <date>20th</date> perhaps it will be as well<lb/> for you to do so in case\n                you have anything to say of moment</p>\n            <p rend=\"indent(1)\">If you wish to see me before we meet at the convention<lb/> write to\n                me here <del>as ever</del> at once. I should like to have<lb/> talk with you in\n                advance of any caucusing, but</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 7385,
+          "width": 6042,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/eccc6a8a-deaf-45e5-b839-d397e616056b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6042,
+                "height": 7385,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/eccc6a8a-deaf-45e5-b839-d397e616056b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/assets/eccc6a8a-deaf-45e5-b839-d397e616056b/original",
+              "label": "Original File - 134 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>I think we shall not differ much in our<lb/> notions about “Reforms”.</p>\n            <p rend=\"indent(1)\">I hear that <persName>Mr. Nathan</persName> (the revd.) has<lb/>\n                left <placeName>St Thomas</placeName>, &amp; gone to <placeName>Jamaica</placeName>\n                to settle<lb/> up his business with his brother in law with<lb/> whom he was in\n                partnership &amp; that he (<persName>Nathan</persName>)<lb/> will not return to\n                    <placeName>St Thomas</placeName>. What's in the wind?<lb/> I have recd no\n                letters from him for a long time past.<lb/> We continue to worship regularly in the\n                rooms temporarily<lb/> prepared &amp; have an excellent “<hi rend=\"underline\"\n                    >Siphar</hi>” tho' small<lb/> which we can keep as long as I please.</p>\n            <p>Between ourselves I doubt if the few who attend service<lb/> will continue after I\n                leave here. If the yellow<lb/> fever is not prevalent in the summer I would\n                like<lb/> to return &amp; consecrate the synagogue for the New Year.<lb/> Of this\n                more anon.</p>\n            <p rend=\"indent(1)\">Hoping that you may enjoy our approaching<lb/> festival &amp; be\n                well to perform all your duties at the<lb/> convention</p>\n            <p rend=\"indent(2)\">I am as ever sincerely</p>\n            <p rend=\"indent(3)\">your friend</p>\n            <p rend=\"indent(4)\"><persName role=\"author\">G. Kursheedt</persName>.</p>\n            <p>Will you be kind enough to offer my fondest<lb/> love to my dear Aunt &amp; husband\n                &amp; tell them<lb/> that I hope to visit them for a day or so ere very<lb/> long,\n                as I have concluded to order the chandelier bracket &amp;c for<lb/> the gas to be\n                used in the Synagogue, from your city &amp; shall desire to explain to<lb/>\n                <persName>Mr Cornelius</persName> precisely what I want.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 7385,
+          "width": 6042,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb449b7a-824b-40f6-a0ea-a70814e20334%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6042,
+                "height": 7385,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/eb449b7a-824b-40f6-a0ea-a70814e20334%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p33n2113j/assets/eb449b7a-824b-40f6-a0ea-a70814e20334/original",
+              "label": "Original File - 134 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

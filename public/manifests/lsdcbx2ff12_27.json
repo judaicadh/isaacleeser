@@ -1,0 +1,299 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 15 August 1865",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3db7w98g"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; De Sola, Abraham; Leeser, Isaac, Rev.; Montreal, Canada; 15 August 1865"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1865-08-15"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "3 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Canada -- Montreal",
+        "Canada",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF12_27"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/50513424-9e6e-4570-b1c3-b0071779c08a%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/50513424-9e6e-4570-b1c3-b0071779c08a%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 5311,
+          "width": 3501,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/50513424-9e6e-4570-b1c3-b0071779c08a%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3501,
+                "height": 5311,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/50513424-9e6e-4570-b1c3-b0071779c08a%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/assets/50513424-9e6e-4570-b1c3-b0071779c08a/original",
+              "label": "Original File - 55.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Mountain <sic>Collage</sic>, Cote St Catharine</placeName>\n            </p>\n            <p rend=\"align(right)\"><placeName>Montreal</placeName>\n                <date>15 August 1865</date>.</p>\n            <p>My dear Sir—</p>\n            <p rend=\"indent(2)\">Yours of <date>13th</date> ult. Found<lb/> me out of town—like\n                yourself, I have<lb/> been moving about a little-though<lb/> my circuit has not\n                extended to <placeName>Yankee-<lb/>land</placeName>. I was sorry to find you\n                had<lb/> been suffering somewhat from lungs<lb/> &amp; throat. Being myself\n                somewhat<lb/> delicate in those regions, and a<lb/> fellow feeling making us\n                wondrous<lb/> kind, I felt for you, and trust<lb/> that your trip south has\n                helped<lb/> completely to restore you. With reference<lb/> to your visit to\n                    <placeName>Baltimore</placeName>—had I been<lb/> in time I should have urged you\n                to<lb/> continue in office as President of<lb/> your district of Benai Berith, for\n                since<lb/> this <sic>organisation</sic>, which I view with<lb/> anything but favor,\n                has assumed its<lb/> present proportions, I suppose we<lb/>\n                <hi rend=\"underline\">must</hi> look after it, lest our humble</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 5311,
+          "width": 3501,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/6e4cdc8a-8fae-4682-a26a-dc66c6b8be73%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3501,
+                "height": 5311,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/6e4cdc8a-8fae-4682-a26a-dc66c6b8be73%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/assets/6e4cdc8a-8fae-4682-a26a-dc66c6b8be73/original",
+              "label": "Original File - 55.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>modest pious &amp;c reform brethren use<lb/> it as a tool—a terrible one too—<lb/>\n                against orthodoxy. But I <hi rend=\"underline\">hate</hi> the<lb/> very idea of a\n                Jewish secret society—<lb/> no Roman Catholic prelate ever hated<lb/> masonry\n                orangeism Ribbonism or any<lb/> other secret ism more than I abhor<lb/> such an\n                organisation among us-<lb/> or one at all approaching these Christian<lb/> religious\n                or political secret societies.<lb/> But I am not going to trouble you<lb/> with a\n                disquisition on them, especially<lb/> as I have an abominable pen which<lb/> will\n                stick into the paper, and being<lb/> away from home I cannot change it.</p>\n            <p rend=\"indent(1)\">I will, as usual, bring the<lb/> circular you enclosed me\n                prominently<lb/> before our small circle here—I fear<lb/> with but little success.\n                We have<lb/> too many Polish &amp; German brethren<lb/> for <hi rend=\"underline\"\n                    >English</hi>-books—though not<lb/> for synagogue purposes, and I don't<lb/>\n                know what I should do without<lb/> them. I sometimes think I am</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 5311,
+          "width": 3501,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/2a157a8e-9819-4856-af63-8b4ac09caa5e%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3501,
+                "height": 5311,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/2a157a8e-9819-4856-af63-8b4ac09caa5e%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/assets/2a157a8e-9819-4856-af63-8b4ac09caa5e/original",
+              "label": "Original File - 55.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>as much a <hi rend=\"underline\"><persName>Pollock</persName></hi> as any of them.<lb/>\n                <add>כל המחובר וגו'</add>.</p>\n            <p rend=\"indent(1)\">I gave <persName>Sarah Joseph</persName> your<lb/> message, and she\n                wishes I believe to<lb/> make an enclosure for you in this.<lb/> If she is “up to\n                time”, well, if not, you<lb/> will get it another time.</p>\n            <p rend=\"indent(1)\">I heard lately that <persName>Mr<lb/> Dd Judah</persName> of\n                    <placeName>Baltimore</placeName> has gone the way<lb/> of all the earth. He was\n                    <hi rend=\"underline\">nominally</hi><lb/> my agent for that city, and when\n                he<lb/> died, held some books or proceeds thereof<lb/> on hand. Would you kindly\n                inform me<lb/> as to the best means of proceeding to<lb/> obtain one or the\n                other?</p>\n            <p rend=\"indent(1)\">With best wishes, and hoping<lb/> to hear soon from you</p>\n            <p rend=\"indent(7)\">I remain yours faithfully</p>\n            <p rend=\"indent(8)\">\n                <persName role=\"author\">Abraham de Sola</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 5311,
+          "width": 3501,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/55ec7965-c404-4389-9560-81c521b8269f%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3501,
+                "height": 5311,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/55ec7965-c404-4389-9560-81c521b8269f%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3db7w98g/assets/55ec7965-c404-4389-9560-81c521b8269f/original",
+              "label": "Original File - 55.8 MB",
+              "format": "image/tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

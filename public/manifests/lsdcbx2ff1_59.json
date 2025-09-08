@@ -1,0 +1,214 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Adler, Henry; Leeser, I., Rev.; Cumberland, PA; 19 June 1854",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3jh3dn8m"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Adler, Henry; Leeser, I., Rev.; Cumberland, PA; 19 June 1854"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Adler, Henry", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1854-06-19"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Cumberland",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF1_59"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/9927de30-d9a1-4050-9ebe-ea5fcb8a77c7%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/9927de30-d9a1-4050-9ebe-ea5fcb8a77c7%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4456,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9927de30-d9a1-4050-9ebe-ea5fcb8a77c7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 4456,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9927de30-d9a1-4050-9ebe-ea5fcb8a77c7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/assets/9927de30-d9a1-4050-9ebe-ea5fcb8a77c7/original",
+              "label": "Original File - 47.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Cumberland</placeName>\n                <date>June 19<hi rend=\"sup\">th</hi> 1854</date>\n            </p>\n            <p><addressee>Rev. I. Leeser Esq</addressee>:</p>\n            <p rend=\"indent(3)\">Dear sir: We <sic>belief</sic><lb/> it is interesting to you to hear\n                some times some<lb/> thing about the <sic>wellfare</sic> &amp; improving\n                con<lb/>dition of small congregations such as ours:<lb/> it gives me pleasure to\n                assure you that we<lb/> are spiritually &amp; <sic>finanzicaly</sic> prospering<lb/>\n                <sic>thoug</sic> there may be some indifferent ones,<lb/> the majority of our\n                    Cahl<add>?</add> are good determined<lb/> Jews whom nought could induce to\n                fall<lb/> back to the death like sleep of indifference.<lb/> By Order of our\n                President <persName>Mr S. Herdellerger</persName><lb/>, elected may last., I am to\n                inform you that our<lb/> Congregation is compelled to engage another<lb/> gentleman\n                to fill the vacancy of Chasan Shochet<lb/> &amp; Teacher occasioned by the timely\n                resignation of<lb/>\n                <persName>Mr Wechsler</persName> our present functionary, as also<lb/> to advertise\n                in differen'd papers we have<lb/> agreed with <persName>Mr W.</persName> that he\n                will give up<lb/> the place at any time from the <date>first of August</date><lb/>\n                or earlier otherwise continue his functions a<lb/> month after expiration of the\n                Quarter being<lb/> to the <date>first of October</date> in case we are not able<lb/>\n                to fill the vacancy sooner. A single<lb/> man</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4456,
+          "width": 3530,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/86411d2a-47c1-4f1d-b4a3-2d00804dd2dd%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3530,
+                "height": 4456,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/86411d2a-47c1-4f1d-b4a3-2d00804dd2dd%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/assets/86411d2a-47c1-4f1d-b4a3-2d00804dd2dd/original",
+              "label": "Original File - 47.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>man one of those generally emigrating from\n                <placeName><sic>germany</sic></placeName><lb/> to this <sic>contry</sic> we prefer\n                as expectation of such don't<lb/> overreact our ability, we pay 250.00 doll. you\n                will<lb/> please to insert in the Occident a Notice in general<lb/> that on\n                application to <persName>Frank</persName> &amp; <persName role=\"author\"\n                    >Adler</persName> further<lb/> particulars will be given, and charge to the\n                congregation<lb/> The accounts of the <sic>suffrings</sic> of our Brethren in<lb/>\n                <placeName>Erez Israel</placeName> have reached us, and <sic>dreadfull</sic><lb/>\n                &amp; <sic>heartsickning</sic>\n                <sic>the</sic> are indeed. An Appeal made<lb/> to our brethren <sic>hier</sic> was\n                heartily <sic>respondet</sic><lb/> to and from the result we are glad to send<lb/>\n                to you, the agent, the enclosed Draft for 50 dol<lb/> on the western Bank of Balto.\n                may this, little as it<lb/> is, contribute to alleviate such distress.</p>\n            <p>we fail the monthly appearance of your Occident<lb/> and swarming as this\n                    <sic>country</sic> is with proselyte<lb/> scrip, it cannot fail to refresh &amp;\n                strengthen<lb/> the mind of every israelitish reader, hoping<lb/> that you enjoy\n                good health, we take the<lb/> liberty to sign <sic>ourselfs</sic> your sincere\n                friend</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">Henry Adler</persName>\n            </p>\n            <p>Secty of the <add>?</add> B. L Congregation</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3jh3dn8m/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

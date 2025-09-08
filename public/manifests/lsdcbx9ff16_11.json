@@ -1,0 +1,313 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Philadelphia, PA; Leeser, Isaac; 1 February 1859",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3qj78j5k"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter; Philadelphia, PA; Leeser, Isaac; 1 February 1859"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1859-02-01", "5619"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx9FF16_11"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6c974c9-4f13-41a8-9899-f1249c17ed8c%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6c974c9-4f13-41a8-9899-f1249c17ed8c%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 8048,
+          "width": 5345,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6c974c9-4f13-41a8-9899-f1249c17ed8c%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5345,
+                "height": 8048,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/f6c974c9-4f13-41a8-9899-f1249c17ed8c%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/assets/f6c974c9-4f13-41a8-9899-f1249c17ed8c/original",
+              "label": "Original File - 129 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Philadelphia</placeName>\n                <date><sic>feb.</sic> 5619</date>\n            </p>\n            <p>\n                <addressee>Rev. Isaac Leeser</addressee>\n            </p>\n            <p rend=\"indent(4)\">A reply to the <persName>Rev. Mr Calish</persName> by a\n                student.<lb/> of hebrew theology</p>\n            <p rend=\"indent(1)\">Dear Sir:</p>\n            <p>Being a friend of hebrew <sic>litterature</sic> and having spent the most<lb/> of my\n                leisure time to improve myself in this beautiful science<lb/> as much as I could, I\n                think I have a right to bespeak<lb/> that subject as good as anybody. I feel\n                therefore very <sic>sory</sic> that<lb/> the hebrew <sic>litterature</sic> has\n                become a level in the party spirit which<lb/> now prevails among the Israelites in\n                this country as well as<lb/> in <placeName>Germany</placeName> and that they who can\n                not anymore subscribe<lb/> to the doctrines and ceremonies (of course I speak\n                principally of<lb/> their leaders of those who take an active part in the matter)\n                of<lb/> the Israelites in general, look with hatred down upon those even<lb/> who\n                use the paper as a vehicle of their thoughts, which is edited<lb/> by an\n                    <sic>Israelit</sic>, who still cling to that system, which they think<lb/>\n                proper and becoming to scorn at, as if it was not the mother<lb/> which gave birth\n                to their new system or as they say, the real system—<add>*Ben Leëb— (*) as a\n                    specimen may serve the majority of the Israelites know no difference between ב\n                    and ך.</add>—This reminds me<lb/> as to the conditions of the different sects\n                among the gentiles among we live,<lb/> who dispute the right of the, so called,\n                mother church, which however,<lb/> (notwithstanding its pernicious\n                    <sic>probnoxious</sic> doctrines, of course by<lb/> the mother church\n                    <del>calumny and</del> not acknowledged, and which is according to her, calumny they<lb/>\n                <del>source</del> fruits of infidelity to and unbelief is the whole existence of the\n                church,)<lb/> has a full right and claim to that name. It is not my duty here,\n                to<lb/> investigate, who gave the first cause to that hatred, sufficient that<lb/>\n                this hatred exist. And the noble <del>men</del> courage is wanting to give up\n                    <del>mis</del> unfortunate<lb/> feeling, which, if not abated, will and\n                    <del>can</del> must cause a distinct separation between the parties,<lb/> we\n                have seen already the greatest <sic>prove</sic> that this will be, for fathers and\n                more<lb/> so mothers have prohibited <sic>intermariage</sic>. <sic>Brethern</sic>!\n                be careful in the course<lb/> you <sic>persue</sic>\n                <add>Hebrew</add>. If you think there are errors in the old system, do<lb/> not\n                leave it therefore, but enlighten its <sic>adherrer</sic>\n                <del>them</del>. And if you unfortunately can<lb/> not subscribe any more at all, to\n                the system of the <sic>Isrealites</sic>, which<lb/> is often the case, leave them\n                and occupy your mind and heart with<lb/> other things, what a difference between the\n                gentleman who left us shortly<lb/> for <placeName>Ireland</placeName>, and the noble\n                hearted <persName>Spinoza</persName> of old. But let me<lb/> come to the point. The\n                Hebrew <sic>litterature</sic>, I said, has become a level<lb/> in this party spirit\n                and is it not so? He, who with a critique eye<lb/> followed the arguments set forth\n                at <sic>intervalls</sic> in „the Israelite” by<lb/>\n                <persName>Mr. Calish</persName>, for instance, sees very clearly that this\n                gentleman,</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 8048,
+          "width": 5345,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce8e68ef-2477-46f9-9cfd-e68160452076%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5345,
+                "height": 8048,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce8e68ef-2477-46f9-9cfd-e68160452076%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/assets/ce8e68ef-2477-46f9-9cfd-e68160452076/original",
+              "label": "Original File - 129 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>misrepresents our literature, of course what knows the mass<lb/> of the people about\n                it, he who speaks the last wins it, and he<lb/> who keeps on the <sic>longuest</sic>\n                is of a <sic>surity</sic> the smartest. Ask the mass<lb/> of the readers, ask them\n                all, a very few excepted, their opinion of „a<lb/>\n                <sic>a</sic>\n                <sic>disquisiton</sic> concerning the time of composing the accents etc”<lb/> and\n                they will tell you It is <sic>exellent</sic>! <hi rend=\"underline\">he</hi> is a man!\n                    <hi rend=\"underline\">he</hi> is right!<lb/> down with orthodoxy! No my\n                    <sic>bretheren</sic>, be calm do not judge about<lb/> things, which you do not\n                understand, that is very unbecoming of<lb/> men of good sense. I <del>tell</del>\n                inform you, if <persName>Mr Calish</persName>, meant here<lb/> that he wrote\n                something worthy to be read by a man who knows<lb/> something about that subject, he\n                may be noble hearted, and<lb/> a man of kind feelings, a thorough read man, but he knows<lb/>\n                <del>nothing</del> little of Hebrew <sic>litterature</sic> and not worthy to trust\n                his<lb/> ideas in those things. A friend of mine, a tolerable hebrew scholar,<lb/>\n                after having read that article asked my opinion about it. Upon<lb/> which I\n                    <del>repl</del> answered, <persName>Mr N</persName>.... You must not look upon\n                that article,<lb/> as written for the learned, or as a final <sic>dicision</sic> of\n                a thorough<lb/> scholar of hebrew literature, But as mere <hi rend=\"underline\"\n                    >opinions</hi> of a man<lb/> who is biased and influenced by a kind of party\n                spirit,<lb/> which exist a few years in this country among the Israelites,<lb/> and\n                who among other things, <sic>carying</sic> on a system to <sic>remoddel</sic><lb/>\n                the <sic>synagogual</sic> ceremonies and rites after a plan of the<lb/> Lutheran\n                churches in <placeName>Germany</placeName>. <persName>Mr Calish</persName> is a\n                German, who<lb/> has not had a great deal of opportunity to hear plain and correct<lb/>\n                <sic>hebrew</sic> reading and does not know wherein it consists, he is quite a\n                foreigner in this department. And when I may trust a friend who heard him<lb/>\n                reading the prayers and the <sic>pentateuch</sic> with the required<lb/> accents,\n                then he himself does not understand that art. He<lb/> reads the Hebrew, with the\n                    <sic>syriac</sic>\n                <sic>pronounciation</sic>, which I have<lb/> shewn to you on several occasions, is\n                very absurd, and false and<lb/>\n                <sic>inconsisted</sic> with the Hebrew grammar, mostly all the\n                <sic>german</sic><lb/> and is generally the majority of the <sic>isralites</sic>,\n                know not to<lb/> read otherwise and is disgusting to him whose ear is accustomed to\n                those soft <sic>hebrew</sic> sounds * and as a german Hebrew scholar expresses himself<lb/>\n                <add>Hebrew</add>, it is a gross mistake which they will not correct. (*)<lb/>\n                Generally the philosophy of the Hebrew tongue is unknown among the most of</p>\n            <p>*Ben Leëb— (*) as a specimen may serve the majority of the Israelites know no\n                difference between ב and ך. <add>Hebrew</add><lb/> and pronounced alike, To the\n                    <add>Hebrew</add> and <add>Hebrew</add>, <add>Hebrew</add> and some add\n                    <add>Hebrew</add>, <add>Hebrew</add>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 8048,
+          "width": 5345,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/85af0b1d-2b61-4684-91a0-4bf4dc8ab042%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5345,
+                "height": 8048,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/85af0b1d-2b61-4684-91a0-4bf4dc8ab042%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/assets/85af0b1d-2b61-4684-91a0-4bf4dc8ab042/original",
+              "label": "Original File - 129 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><sic>of</sic> the <sic>hebrews</sic>, even among those who claim to be\n                    <sic>hebrew</sic> scholars,<lb/> hence that want of taste for what we call the\n                    <sic>arabic</sic>\n                <sic>pronounciation</sic><lb/> and accentuation, which is the proper\n                    <sic>pronounciation</sic>, as near<lb/> as can be, of the Hebrew tongue. To shew\n                farther how less <persName>Mr<lb/> Calish</persName> is competent to treat that\n                subject, it is <sic>suficient</sic>, that<lb/> he wishes to have it read, with the\n                    <sic>syriac</sic>\n                <sic>pronounciation</sic> and in<lb/> a tune or <sic>beter</sic>\n                <sic>cadance</sic> wherein we read English, <sic>german</sic> or\n                <sic>french</sic><lb/> verse. Verily this does not shew a great deal of taste for the<lb/>\n                <sic>hebrew</sic> tongue. Verily this does not shew a great deal of knowledge<lb/>\n                of the art of manner how the oriental tongues were read.<lb/> To refute his remarks\n                is useless, because <persName>Mr Calish</persName> knows<lb/> very well himself,\n                that he did not write for a learned community,<lb/> it was not intended for an\n                learned article to become discussed,<lb/> but only to please the\n                    remaddllers<add>?</add> of <sic>synogogual</sic> ceremonies.<lb/> Otherwise he\n                would not have used such a sophistry. „For a learned<lb/> man, and especially a <hi\n                    rend=\"underline\">teacher must surely</hi> know it, that etc, By<lb/> this is\n                confessedly proved etc” I say by this is confessedly<lb/> proved nothing of the\n                kind. <persName>Mr Calish</persName> does not know,<lb/> that the language at that\n                time was spoken according to the<lb/>\n                <sic>arabic</sic> dialect and not <del>what we call</del> according to the\n                    <sic>syriac</sic> dialect and<lb/> that the <sic>arabic</sic> has in the\n                structure of such words always<lb/> the accent penultima either, <add>Hebrew</add>\n                or <add>Hebrew</add>. <persName>Mr Calish</persName> takes it for<lb/> granted that\n                we have the real Septuagint, that shews he never has<lb/> compared the Septuagint\n                with the text as I and thousand<lb/> others have, otherwise how can he make such a\n                statement. I<lb/> refer him to 1 <persName>Samuel</persName> the two first chapters.\n                Or does he think<lb/> because I refer him to this place that he is right on the\n                    <sic>pentateuch</sic>?<lb/> I can refer him also to the <sic>pentateuch</sic> to\n                more than one place, which<lb/> he knows very well I only refer to\n                    <persName>Sam.</persName> because there it is more striking.<lb/>\n                <persName>Mr Calish</persName> ought to know that we<lb/> find the accents mentioned\n                is the Lahor, Adra etc that<lb/> was as before the Mishnah, although he may say\n                these<lb/> passages are interpolated, his exposition of the 5 verses is<lb/> not a\n                true one. But <persName>Mr Calish</persName> says, as a man who does<lb/> not know\n                to write about such matters, „hence it is irrefutable<lb/> proved” But what is the\n                world, are these words of a calm</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 8048,
+          "width": 5345,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/467d559d-60cb-4d95-8cf5-044c5e273fc3%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5345,
+                "height": 8048,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/467d559d-60cb-4d95-8cf5-044c5e273fc3%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/assets/467d559d-60cb-4d95-8cf5-044c5e273fc3/original",
+              "label": "Original File - 129 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>scholar? When I tell now <persName>Mr Calish</persName> that\n                    <persName>Moses</persName> taught the <sic>Israelits</sic><lb/> the accents, is\n                irrefutable—namely what he did read to the Israelites must have here accompanied of\n                the p. 180 common sense and the nature of<lb/> that and other oriental tongues shew\n                that clearly, that it<lb/> is irrefutable proved, that <persName>Mr\n                    Calish</persName> knows nothing about the<lb/>\n                <add>Hebrew</add>, no more than <del>simple school boy, perhaps less</del> what is\n                generally taught in the <sic>jewish</sic> schools, and that is really nothing,\n                which<lb/> he himself shews is his last note. <persName>Mr Calish</persName> has\n                no<lb/> idea what <add>Hebrew</add> means, he does not understand<lb/> neither the\n                    <add>Hebrew</add> neither its figures, neither its powers<lb/> has decidedly\n                never studied the accents of the Psalms<lb/>\n                <persName>Job</persName> and proverbs, knows perhaps not <del>their</del> its names.<lb/>\n                <persName>Mr Calish</persName> think because <hi rend=\"underline\">he</hi> does not\n                know, how they were<lb/> used in reading and how they are a part of the language\n                like the <sic>vowl</sic> point, which he has assailed at the same time, nobody can\n                know anything about it.<lb/>\n                <persName>Mr Calish</persName> can not explain in what way they required<lb/>\n                different names, which are still existing he can not shew how they originated?\n                    <persName>Mr. Calish</persName><lb/>\n                <sic>think</sic> he can treat that subject in two lines and then<lb/>\n                    punctum<add>?</add>. No Dear <persName>Mr Calish</persName> it was not fair of\n                you<lb/> to hurt my feelings in such a degree, you ought to have thought,<lb/>\n                perhaps is there any one else who has <del>gone</del> investigated that subject\n                as<lb/> good as I have done let me hear what he has to say about<lb/> it and let me\n                not write against any <sic>sience</sic>, because I do not like it, and wish it to\n                see abolished. O? you were wrong. Why are your opinions irrefutable? After calm\n                reflection you<lb/> could have found some refutation partly in the books you<lb/>\n                have quoted yourself, f. i. you quote <persName>Ihn Esra</persName>, who said<lb/>\n                <add>Hebrew</add> and amply by these <sic>authers</sic> and works<lb/>\n                <add>Hebrew</add>\n                <persName>Mendelsohn</persName>, <persName>E. Levita</persName>, <persName>L. de\n                    Modena</persName>, <persName>Bandorf<lb/> Vater</persName>, <persName>Ludevicus\n                    de Dien</persName>, <persName>Schultens</persName>,\n                    <persName>Schröder</persName>, <persName>de Wette</persName><lb/> in preface\n                Hakktab Wehakbula <add>Hebrew</add>, by <persName>Kirchheim</persName>, in\n                    <add>Hebrew</add>,<lb/> by <add>Hebrew</add>, in <persName>Arkwalti's</persName>\n                <add>Hebrew</add>, in <add>Hebrew</add> in <add>Hebrew</add>,\n                    <persName>Kerder</persName><lb/> Philo. and many others.</p>\n            <p>I wish that they who write on such grave and learned subjects (of course<lb/> de man\n                does not see any beauty in it and will laugh at my preposterity<lb/> for those\n                subjects) would bear in mind that smatterings does not <del>ble</del> satisfy a<lb/>\n                student of Hebr. <sic>litterature</sic>. In conclusion I <sic>advice</sic>\n                <persName>Mr Calish</persName> to instruct his <sic>bretheren</sic> among he\n                resides<lb/> to read the <sic>hebrew</sic> in its elegant original\n                    <sic>pronounciation</sic>\n                <del>and</del> to abolish that miserable kind of dialect, wherein he now reads and\n                to study the <add>Hebrew</add> with its simple <sic>cadances</sic>,<lb/> without\n                these no text can be read for an audience and I am assured much good would result,\n                and perhaps peace will again come in <placeName>Israel</placeName>. Be not like the\n                for with the grapes, and finally<lb/> read Locke's essay „of the conduct of human\n                understanding, articles, Bias, ideas, opinions, etc. and<lb/> you will write against\n                    <del>to</del> your opponents with more dignity. As soon as I have leisure I will\n                write somethings on the<lb/> beauty of hebrew accents. <add>Hebrew</add></p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3qj78j5k/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

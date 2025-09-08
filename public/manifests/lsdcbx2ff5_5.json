@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Levy, Nathan E.; Leeser, Isaac, Rev.; Georgetown College, D. C.; 27 February 1858",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3br8n26c"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Levy, Nathan E.; Leeser, Isaac, Rev.; Georgetown College, D. C.; 27 February 1858"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Levy, Nathan E.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1858-02-27"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- District of Columbia -- Washington",
+        "United States -- District of Columbia",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF5_5"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/db9dcbb7-688c-4860-b6e3-183db323c3c7%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/db9dcbb7-688c-4860-b6e3-183db323c3c7%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3768,
+          "width": 4662,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/db9dcbb7-688c-4860-b6e3-183db323c3c7%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4662,
+                "height": 3768,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/db9dcbb7-688c-4860-b6e3-183db323c3c7%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/assets/db9dcbb7-688c-4860-b6e3-183db323c3c7/original",
+              "label": "Original File - 52.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Georgetown College D. C</placeName>\n            </p>\n            <p rend=\"align(right)\">\n                <date>Feb 27<hi rend=\"sup\">th</hi> 1858</date>\n            </p>\n            <p><addressee>Rev. Dr Leeser</addressee>:</p>\n            <p rend=\"indent(2)\">Rev and Dear Sir:</p>\n            <p rend=\"indent(5)\">Wishing some<lb/> books from you, I have written to my Father<lb/>\n                    (<persName>Mr Isaac Levy</persName>.) and <sic>otained</sic> his\n                    <sic>promission</sic><lb/> to write to you and get such books as I may<lb/> want\n                and he will settle with your agent<lb/> in <placeName>Augusta</placeName>,\n                    <persName>Mr Isaac Mayer</persName>, I have one<lb/> of your books which, I have\n                been reading<lb/> and am well pleased with it (<persName>Dias</persName>\n                Letters)<lb/> the books, I desire at present is first, a<lb/> good\n                    <sic>chatechism</sic> of our faith, I saw<lb/> one some time since, which I\n                liked very<lb/> much but unfortunately forgot the name<lb/> I know it was a large\n                square flat paste<lb/>board back something like the Hebrew reader<lb/> then. I wish\n                a Hebrew reader one wherein<lb/> I may learn the alphabet and first<lb/> rudiments\n                of the language, then I wish<lb/> a book that explains the rites &amp;\n                ceremonies</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3768,
+          "width": 4728,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0c3d7805-4d51-4401-bf0c-8f1101d3acb8%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4728,
+                "height": 3768,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0c3d7805-4d51-4401-bf0c-8f1101d3acb8%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/assets/0c3d7805-4d51-4401-bf0c-8f1101d3acb8/original",
+              "label": "Original File - 53.4 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>of our Holy Religion, and in which I<lb/> may find out when the holy days\n                    <sic>ocur</sic>.<lb/> and if you have a small cheap Bible<lb/> you may send it,\n                    <sic>thease</sic> book my dear<lb/> sir you may send either by express or<lb/>\n                mail as you may think best and<lb/> sending the bill to <persName>Mr\n                    Mayer</persName> it will<lb/> meet prompt payment, by attending<lb/> to this\n                most Rev Sir you will confer<lb/> a Great favor. I remain yours</p>\n            <p rend=\"indent(9)\">Most Respectfully</p>\n            <p rend=\"indent(10)\">\n                <persName role=\"author\">Nathan E. Levy</persName>\n            </p>\n            <p>address</p>\n            <p rend=\"indent(1)\">Master <persName role=\"author\">Nathan E. Levy</persName>.</p>\n            <p rend=\"indent(2)\">Georgetown College</p>\n            <p rend=\"indent(3)\">\n                <placeName>Georgetown D. C.</placeName>\n            </p>\n            <p>you may also enclose me a bill and your Catalogue<lb/> you will <sic>allso</sic> send\n                me a couple of Good<lb/> instructive reading books, <persName role=\"author\"\n                    >NEL</persName></p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3br8n26c/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

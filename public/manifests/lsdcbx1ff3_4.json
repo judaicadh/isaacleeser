@@ -1,0 +1,290 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter, 1847",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p30p0xh18"]
+    },
+    {
+      "label": "Title",
+      "value": ["Letter, 1847"]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac (contributor)", "Abrahams, Simeon (creator)"]
+    },
+    {
+      "label": "Date",
+      "value": ["1847-04"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)",
+        "Isaac Leeser Digital Repository"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["correspondence"]
+    },
+    {
+      "label": "Extent",
+      "value": ["4 pages."]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Location",
+      "value": ["Philadelphia (Pa.)"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF3_4", "ilcajs_b1f3_0004"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/e62505bc-9ba3-4b30-9873-bbd63e31dfe5%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/e62505bc-9ba3-4b30-9873-bbd63e31dfe5%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "p. 1",
+          "height": 6190,
+          "width": 4890,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/e62505bc-9ba3-4b30-9873-bbd63e31dfe5%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4890,
+                "height": 6190,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/e62505bc-9ba3-4b30-9873-bbd63e31dfe5%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/assets/e62505bc-9ba3-4b30-9873-bbd63e31dfe5/original",
+              "label": "Original File - 91 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">The Ministry</p>\n                              <p>Mr. Editor,</p>\n                              <p rend=\"indent(1)\">Sir, In the last number of your<lb/> valuable\n                                        periodical your correspondent \"A <sic>Moralizeing</sic><lb/>\n                                        layman\" has touched upon a subject of much more<lb/>\n                                        consequence to the American Israelites and more<lb/>\n                                        especially to those of the present age, than I am<lb/>\n                                        afraid the importance of the subject receives at<lb/> their\n                                        hands, namely: the character and qualifications<lb/>\n                                        necessary for Hazanim, the filling of which station<lb/> by\n                                        improper and ignorant persons has contributed<lb/> more than\n                                                  <del>all others in</del><add>any thing else\n                                                  to</add> bring<del>ing</del> the ritual of<lb/>\n                                        our holy worship in disrepute with the present<lb/>\n                                        generation, and is the chief <del>one</del>\n                                        <add>cause</add> for which the<lb/> unceasing and unmeaning\n                                        call for religious reform<lb/> is continually sounded: for\n                                        nothing has a greater<lb/> effect in giving a standing to\n                                        the character of a<lb/> society (and that of a religious\n                                        character too) than<lb/> the standing and reputation of its\n                                        principal<lb/> officers. What was perhaps a century ago\n                                        (when the<lb/> few in many parts of\n                                                  <placeName>Europe</placeName> was not permitted to\n                                        have<lb/> his place of worship in public, but forced to have\n                                        his<lb/> synagogue in some rear Court or alley, where nobody\n                                        but<lb/> Israelite was ever seen to enter) a matter of small\n                                        consequence<lb/> has at this time and in this country\n                                        especially became<lb/> a very important subject indeed. I\n                                        mean the character<lb/> appearance and standing in society\n                                        of the Hazan of<lb/> the Congregation. When, as formerly,\n                                        from prejudice or<lb/> ignorance nobody but Israelites came\n                                        to our places of<lb/> Public Worship it was comparatively a\n                                        matter of small</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "p. 2",
+          "height": 6198,
+          "width": 5022,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/b51e2a7d-7b60-446b-895d-e31288f0e941%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5022,
+                "height": 6198,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/b51e2a7d-7b60-446b-895d-e31288f0e941%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/assets/b51e2a7d-7b60-446b-895d-e31288f0e941/original",
+              "label": "Original File - 93.6 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>consequence who acted as the reader because <del>those of</del>\n                                        his<lb/> coreligionists alone saw him during the time of\n                                        divine<lb/> service, and however ignorant immoral or\n                                        improper he<lb/> might be for such a calling it was there a\n                                        matter of<lb/> but <del>small consequence</del><add>little\n                                                  importance</add>, because the world at large\n                                        knew<lb/> little or nothing about it or the persecuted and\n                                        oppressed<lb/> Jew was reduced to so low a degree in the\n                                        scale of national<lb/> greatness that the little he\n                                                  <del>could</del>\n                                        <add>was able to</add> do could not injure him<lb/> in the\n                                        eyes of his oppressive fellow man.</p>\n                              <p rend=\"indent(1)\">But now that we are free and have the privilege to\n                                        raise<lb/> our Holy Simples <del>when and</del> where we\n                                        please and that<lb/> many respectable persons of various\n                                        religious opinions,<lb/> with whom we have daily\n                                        communication in commercial<lb/> transactions, friendly\n                                        visits, c. come often amongst us at our<lb/> places of\n                                        worship for the purpose of witnessing its rites c.<lb/> how\n                                        great the necessity that they in their visitations<lb/>\n                                        should not be allowed to see anything that would in any<lb/>\n                                        manner tend to our national degradation and how Sir,<lb/>\n                                        can this be prevented? surely but by the adoption of\n                                        one<lb/> measure which is to have none but moral,\n                                        respectable<lb/> and well educated men to fill the office of\n                                        Hazan.</p>\n                              <p rend=\"indent(1)\">How ridiculous must it appear, even to our own\n                                        youth<lb/> to see a man of known irreligious and immoral\n                                        character<lb/> one who does not even know the meaning of a\n                                        word he reads<lb/> placed at the reading desk to say prayers\n                                        for a religious<lb/> congregation, what a disgraceful\n                                        spectacle must this be<lb/> for us when perhaps several of\n                                        other religious faiths should<lb/> happen to be at our place\n                                        of worship to see a man of this<lb/> kind acting as minister\n                                        for a Jewish congregation<add>;</add> and<lb/> what a\n                                        withering and baneful influence must it have<lb/> on the\n                                        rising generation to see that neither character</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "p. 3",
+          "height": 6228,
+          "width": 4928,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9b418221-2d88-4a2f-b1ab-8490b2a03a3b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4928,
+                "height": 6228,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9b418221-2d88-4a2f-b1ab-8490b2a03a3b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/assets/9b418221-2d88-4a2f-b1ab-8490b2a03a3b/original",
+              "label": "Original File - 92.3 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p><del>nor education has any respect shown</del><add>nor respect is\n                                                  shown to Israelites in education</add> in the\n                                        choice of their<lb/> chief religious officer. What\n                                        inducement is it for our young<lb/> men to apply themselves\n                                        to the study of their religion when<lb/> they see men of\n                                        that stamp placed in the highest and<lb/> most important\n                                        religious stations, men who know nothing<lb/> about what\n                                        they are reading or why they read it, men<lb/> who perhaps\n                                        could not read a single line in a Hebrew<lb/> book which is\n                                        not exactly the one that they were taught<lb/> (Parrotlike)\n                                        to say their prayers in. I ask again what in-<lb/>ducement\n                                        is there for the young man to curtail his hours<lb/> of\n                                        pleasure for the more dry study of his religion, when<lb/>\n                                        such a state of things exists, when he knows that\n                                        instead<lb/> of a knowledge of the rudiments of his religion\n                                        and the<lb/> unerring principles on which it is founded that\n                                        the<lb/> high qualifications for the reading desk consists\n                                        in his<lb/> ability to favor the congregation with some\n                                        operatic tunes<lb/> (tunes generally more fit for any other\n                                        place than one of<lb/> religious worship) or that he knows\n                                        he can read his prayers<lb/> in Hebrew without understanding\n                                        them and that his<lb/> Hazan can do no more. But surely it\n                                        is high time that<lb/> this state of things should cease. In\n                                        this country where<lb/> we have about sixty Hazanim perhaps\n                                        there <del>is</del><add>are</add> not more<lb/> than ten\n                                        amongst them that could answer the most plain<lb/> or simple\n                                        question about their religion or what or why things<lb/> are\n                                        prohibited or allowed by its holy laws<add>;</add> and as in\n                                        the<lb/> United States we are multiplying congregations\n                                        faster<lb/> than perhaps <del>than</del>in the whole of the\n                                        rest of the world it<lb/> becomes absolutely necessary that\n                                        the greatest care should<lb/> be taken in selecting and\n                                        appointing proper persons for that<lb/> most important\n                                        office, important in giving a standing to<lb/> the\n                                        congregation over which he presides and important in<lb/>\n                                        holding up to those desirous of obtaining such situations\n                                        the</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "p. 4",
+          "height": 6226,
+          "width": 5008,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/1c4bb223-abcb-4257-99b7-8eee78a34deb%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5008,
+                "height": 6226,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/1c4bb223-abcb-4257-99b7-8eee78a34deb%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/assets/1c4bb223-abcb-4257-99b7-8eee78a34deb/original",
+              "label": "Original File - 93.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>necessity of qualifying themselves by\n                                                  <del>obtaining</del><add>acquiring</add> a\n                                        thorough<lb/> Hebrew education <del>before any\n                                                  person</del><add>without which no one</add> should\n                                        receive that<lb/> honorable and important office; and should\n                                        it be ascertained<lb/> that persons properly qualified for\n                                        the office cannot at present<lb/> be obtained in this\n                                        country and that it should be found<lb/> necessary to\n                                        establish a High School or College in some<lb/> central part\n                                        of the <placeName>United States</placeName> for the\n                                        qualifying of<lb/> moral young men for that purpose then I\n                                        say that the<lb/> quicker that the good work is began the\n                                        better; and at<lb/> this time we have in this country plenty\n                                        of persons qualified<lb/> to teach all the necessary\n                                        branches of a hebrew education;<lb/> for we can never make\n                                        any national advancement nor<lb/> give the favorable\n                                        impression required to those among<lb/> whom we are at\n                                        present settled while ignorant or im<lb/>moral men (whose\n                                        whole qualification seems to consist in<lb/> their ability\n                                        to imitate the actor or singer) are allowed to<lb/> fill our\n                                        chief religious offices. The school or college once<lb/>\n                                        established, proper Hazanim selected and our religious<lb/>\n                                        services again conducted in a proper and solemn manner<lb/>\n                                        then will the Synagogue be what it was originally<lb/>\n                                        intended to be <add>Hebrew</add> in fact <add>Hebrew</add>\n                                        <add>a minor sanctuary</add>.</p>\n                              <p rend=\"indent(1)\">Yours c</p>\n                              <p>\n                                        <date>Nissan 5607</date>\n                                        <hi rend=\"indent(7)\">\n                                                  <persName role=\"author\">Simeon Abrahams</persName>\n                                        </hi>\n                              </p>\n                              <p><hi rend=\"underline\">Note by the Editor</hi> We deem it proper to\n                                        state that <persName>Mr A.</persName> alludes, so<lb/> far\n                                        as we know to any particular individuals, only to the\n                                        possibility which exists<lb/> under our present want of\n                                        system of bringing into the ministry hazzans<lb/> entirely\n                                        disqualifies both morally and intellectually for the\n                                        position which ought<lb/> to be the [?] of the highest\n                                        talent and integrity. We have more to say on<lb/> education\n                                        the ministry begins to excite the attention, which they\n                                        justly<lb/> demand, in all parts of the country–</p>\n                              <div>\n                                        <p>\n                                                  <ref target=\"Occident_PDFs/Occ_5_1.pdf\">The above\n                                                  text refers to Occident Volume 5 No. 1 pages 25\n                                                  through 27. Click here to view.</ref>\n                                        </p>\n                              </div>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p30p0xh18/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Speer, J. K.; Leeser, Isaac; Sweetwater, IL; 30 June 1867",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3vx06p6d"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Speer, J. K.; Leeser, Isaac; Sweetwater, IL; 30 June 1867"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1867-06-30"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Illinois -- Sweetwater",
+        "United States -- Illinois",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item181"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/c4cf4a37-b156-4750-b923-5e7f4969d396%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/c4cf4a37-b156-4750-b923-5e7f4969d396%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 3352,
+          "width": 5170,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/c4cf4a37-b156-4750-b923-5e7f4969d396%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5170,
+                "height": 3352,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/c4cf4a37-b156-4750-b923-5e7f4969d396%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/assets/c4cf4a37-b156-4750-b923-5e7f4969d396/original",
+              "label": "Original File - 52.2 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(right)\">\n                <placeName>Sweetwater, Ills.</placeName>\n            </p>\n            <p rend=\"align(right)\"><date>Jun 30, 1867</date>.</p>\n            <p>\n                <addressee>Mr Isaac Leeser</addressee>\n            </p>\n            <p>Please send me your<lb/> Bible plain sheep $3.50</p>\n            <p rend=\"indent(8)\">very truly</p>\n            <p rend=\"indent(7)\"><persName role=\"author\">J. K. Speer</persName>.</p>\n            <p>Address</p>\n            <p rend=\"indent(1)\">\n                <placeName>Sweetwater</placeName>\n            </p>\n            <p rend=\"indent(2)\">\n                <placeName>Menard County</placeName>\n            </p>\n            <p rend=\"indent(3)\">\n                <placeName>Ills.</placeName>\n            </p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 3418,
+          "width": 5116,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/064f2e7a-806a-4cbf-9a96-662ad45bc759%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 5116,
+                "height": 3418,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/064f2e7a-806a-4cbf-9a96-662ad45bc759%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/assets/064f2e7a-806a-4cbf-9a96-662ad45bc759/original",
+              "label": "Original File - 52.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                <placeName>St Thomas</placeName>\n            </p>\n            <p rend=\"indent(1)\">Thomas</p>\n            <p rend=\"indent(2)\">Mason</p>\n            <p>\n                <placeName>St Thomas</placeName>\n            </p>\n            <p rend=\"indent(1)\">Mason Fleury</p>\n            <p rend=\"indent(1)\">Fleury</p>\n            <p rend=\"indent(1)\">ANNUM</p>\n            <p rend=\"indent(1)\">ANNUM</p>\n            <p>Annum</p>\n            <p>Br Annum</p>\n            <p>\n                <add>?</add>\n            </p>\n            <p rend=\"The following is in the middle column, written upside down.\"/>\n            <table cols=\"2\" rows=\"13\">\n                <row>\n                    <cell/>\n                    <cell>1S <add>?</add></cell>\n                </row>\n                <row>\n                    <cell>1-L</cell>\n                    <cell>1S Reihid</cell>\n                </row>\n                <row>\n                    <cell>1 L</cell>\n                    <cell>1S Charles</cell>\n                </row>\n                <row>\n                    <cell>4 L</cell>\n                    <cell>1S Savan</cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell>1S AH</cell>\n                </row>\n                <row>\n                    <cell/>\n                    <cell>1S <add>?</add>loak</cell>\n                </row>\n                <row>\n                    <cell>2 L</cell>\n                    <cell>Ben</cell>\n                </row>\n                <row>\n                    <cell>2</cell>\n                    <cell>Wool</cell>\n                </row>\n                <row>\n                    <cell>1 L</cell>\n                    <cell>\n                        <placeName>Montgomery</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>2 L</cell>\n                    <cell>\n                        <placeName>Columbus</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>1 L</cell>\n                    <cell>\n                        <placeName>Augusta</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>1 L</cell>\n                    <cell>\n                        <placeName>St Thomas</placeName>\n                    </cell>\n                </row>\n                <row>\n                    <cell>15</cell>\n                    <cell/>\n                </row>\n            </table>\n            <p rend=\"The following is written sideways at the right side of the page.\"/>\n            <p>\n                <persName>Aaron</persName>\n            </p>\n            <p>\n                <persName>Flieschhacker</persName>\n            </p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3vx06p6d/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

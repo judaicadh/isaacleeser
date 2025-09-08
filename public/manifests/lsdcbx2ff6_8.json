@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Mayer, M., Dr.; Leeser, Isaac, Rev.; Charleston, SC; 15 April 1859",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3hx16996"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Mayer, M., Dr.; Leeser, Isaac, Rev.; Charleston, SC; 15 April 1859"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1859-04-15", "15 April 5619"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 1 sheet",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- South Carolina -- Charleston",
+        "United States -- South Carolina",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx2FF6_8"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce44b8c3-b019-4e8c-85a6-e538739745a2%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce44b8c3-b019-4e8c-85a6-e538739745a2%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 4294,
+          "width": 3490,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce44b8c3-b019-4e8c-85a6-e538739745a2%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3490,
+                "height": 4294,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce44b8c3-b019-4e8c-85a6-e538739745a2%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/assets/ce44b8c3-b019-4e8c-85a6-e538739745a2/original",
+              "label": "Original File - 45 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\"><placeName>Charleston, S. C.</placeName>\n                <date>April 15. 5619</date>.</p>\n            <p><addressee>Rev. Is. Leeser</addressee>, <placeName>Philadelphia</placeName>.</p>\n            <p rend=\"indent(4)\">Dear Sir—</p>\n            <p rend=\"indent(5)\">Altho' I have but<lb/> very little time before <add>שבת</add>, yet,\n                anxious to have the <hi rend=\"underline\">status</hi><lb/>\n                <hi rend=\"underline\">quo ante bellum</hi> restored before that holy day, I will\n                reply<lb/> at once, even in but few lines.</p>\n            <p rend=\"indent(1)\">Not accustomed to boast of what I do in the\n                <sic>fulfilment</sic><lb/> of what I deem my duty, I never told you, that I <hi\n                    rend=\"underline\">did</hi><lb/> write to <persName>Dr Philippson</persName>\n                concerning your <sic>defence</sic> against the<lb/> slanderous attacks of the author\n                of the “Tkizzin<add>?</add>”, and made<lb/> my commentary upon his (<persName>Dr\n                    Ph's</persName>.) silence. But the Doctor<lb/> neither published my letter, nor\n                made even the slightest<lb/> mention of it in several of his epistles to me. This\n                man<lb/> one of the reasons why I broke off all official connection<lb/> with the\n                Zeitung des Judenthums. You may be assured, I<lb/> spoke very plainly &amp; bluntly\n                to him. Nor did I stop there.<lb/> In a letter to <persName>Stein's</persName>\n                    “<add>?</add>” (published in No 4,<lb/>\n                <date>1858</date>, p. 135-136), I alluded to the injustice done us by the\n                Z.d.J.,<lb/> and stated that the author of the “Tkizzin,” was nothing<lb/> less than\n                    “<add>?</add><lb/>\n                <add>?</add>”; but what was the consequence? <persName>Dr Ph.</persName><lb/> &amp;\n                    <persName>Mr. Eppstein</persName>, now sojourning in\n                    <placeName>Breslaw</placeName>, kept<lb/> silent, and that was the last of that\n                affair. Could I<lb/> do more? It was my intention, &amp; <persName>Stein</persName>\n                knew it, to get</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 4294,
+          "width": 3490,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/4ae57523-88c4-4536-a459-4d403760c644%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 3490,
+                "height": 4294,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/4ae57523-88c4-4536-a459-4d403760c644%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/assets/4ae57523-88c4-4536-a459-4d403760c644/original",
+              "label": "Original File - 45 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>either <persName>Dr P.</persName> or <persName>Mr. Eppstein</persName> into a\n                controversy with me upon that<lb/> topic; but they preferred to “<hi\n                    rend=\"underline\">show no light</hi>.” From all this you<lb/> must now perceive\n                that I have “seconded you in your endeavor<lb/> to have justice done to you,” &amp;\n                trust you will now in justice to me <del>?</del><lb/> reconsider your remark:\n                    <del>but in</del> “in this too I<lb/> feel disappointed,” as your conclusion was\n                certainly an incor-<lb/>rect one. I do not blame you for it; the fault lies in\n                my<lb/> silence. But I beg you, once for all, to be assured, that I<lb/> am\n                incapable of doing injustice to any one; nothing can<lb/> mortify me more than to\n                have injustice done to me, &amp;, therefore,<lb/> I always act according to\n                    <persName>Hillel's</persName> maxim: <add>מה דעלך סני וגו'</add></p>\n            <p rend=\"indent(1)\">As I had ordered but <hi rend=\"underline\">one</hi> Bible, I kept\n                one, and<lb/> handed the other to <persName>Mr. Hart</persName> &amp; took his\n                receipt for the<lb/> same.</p>\n            <p rend=\"indent(1)\">This must suffice for to-day—<add>שבת</add> is<lb/> coming fast upon\n                me, so good <add>שבת</add>, yours</p>\n            <p rend=\"indent(11)\">\n                <persName role=\"author\">Dr M Mayer</persName>\n            </p>\n            <p>The little letter to <persName>Mr. Hart</persName><lb/> has been delivered.</p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3hx16996/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

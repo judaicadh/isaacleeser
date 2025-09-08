@@ -1,0 +1,201 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Hebrew Charitable Society; Leeser, Isaac; Philadelphia, PA; undated",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p3pc2tv97"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Hebrew Charitable Society; Leeser, Isaac; Philadelphia, PA; undated"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Leeser, Isaac"]
+    },
+    {
+      "label": "Collection",
+      "value": ["Jesselson family collection of Isaac Leeser material"]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "2 pages on 2 sheets",
+        "Jesselson Family Leeser Collection (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc Ms 62"]
+    },
+    {
+      "label": "Provenance",
+      "value": ["Courtesy of a Private Collection"]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSTCAT_item222"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/9d4cbba3-a562-43ca-b784-ff3f7c65bdae%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/9d4cbba3-a562-43ca-b784-ff3f7c65bdae%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 1658,
+          "width": 2370,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/9d4cbba3-a562-43ca-b784-ff3f7c65bdae%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2370,
+                "height": 1658,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/9d4cbba3-a562-43ca-b784-ff3f7c65bdae%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/assets/9d4cbba3-a562-43ca-b784-ff3f7c65bdae/original",
+              "label": "Original File - 11.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">GENTLEMEN'S TICKET.</p>\n            <p rend=\"align(center)\">THRID ANNUAL BALL</p>\n            <p rend=\"align(center)\">OF THE</p>\n            <p rend=\"align(center)\">Hebrew Charitable Society,</p>\n            <p rend=\"align(center)\">WILL TAKE PLACE</p>\n            <p rend=\"align(center)\">AT CONCERT HALL,</p>\n            <p rend=\"align(center)\"><date>Wednesday Evening, Dec. 19<hi rend=\"sup\"\n                >th</hi></date>.</p>\n            <p rend=\"align(center)\">Admit <persName>Mr. Isaac Leeser</persName></p>\n            <p rend=\"align(center)\">MANAGERS.</p>\n            <p><persName>R. Kieler</persName>. <persName>L. M. Prince</persName>. <persName>A.\n                    Gerhshon</persName>. <persName>J. Nathan</persName>.</p>\n            <p><persName>M. Raphaelsky</persName>\n                <persName>A. S. Myers</persName>. <persName>A. J. Latz</persName>. <persName>J.\n                    Bush</persName>.</p>\n            <p><persName>B. Lithauer</persName>. <persName>A. Newmark</persName>. <persName>N. C.\n                    Myers</persName>. <persName>S. L. Moses</persName>.</p>\n            <p rend=\"align(center)\">NOT TRANSFERABLE.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 1658,
+          "width": 2370,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce7aae7b-eb0a-4dfa-85d7-b29765668abe%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 2370,
+                "height": 1658,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/ce7aae7b-eb0a-4dfa-85d7-b29765668abe%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/assets/ce7aae7b-eb0a-4dfa-85d7-b29765668abe/original",
+              "label": "Original File - 11.8 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"align(center)\">complimentary</p>\n            <p rend=\"The following is written sideways in the top right corner.\">205<lb/>\n                <persName><add>?</add> Myers</persName></p>\n        </body>\n    </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p3pc2tv97/canvas/p2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

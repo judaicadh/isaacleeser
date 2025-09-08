@@ -1,0 +1,316 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/manifest",
+  "@type": "sc:Manifest",
+  "label": "Letter; Price, John E.; Leeser, Isaac, Rev.; Curacao, Netherlands Antilles; 25 October 1848",
+  "attribution": "Provided by the University of Pennsylvania Libraries.",
+  "viewingHint": "individuals",
+  "viewingDirection": "left-to-right",
+  "metadata": [
+    {
+      "label": "Available Online",
+      "value": ["https://colenda.library.upenn.edu/catalog/81431-p32r3pd2z"]
+    },
+    {
+      "label": "Title",
+      "value": [
+        "Letter; Price, John E.; Leeser, Isaac, Rev.; Curacao, Netherlands Antilles; 25 October 1848"
+      ]
+    },
+    {
+      "label": "Name",
+      "value": ["Price, John E.", "Leeser, Isaac"]
+    },
+    {
+      "label": "Date",
+      "value": ["1848-10-25"]
+    },
+    {
+      "label": "Collection",
+      "value": [
+        "Isaac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Item Type",
+      "value": ["Text"]
+    },
+    {
+      "label": "Physical Format",
+      "value": ["letters (correspondence)"]
+    },
+    {
+      "label": "Extent",
+      "value": ["Letter"]
+    },
+    {
+      "label": "Language",
+      "value": ["English"]
+    },
+    {
+      "label": "Note",
+      "value": [
+        "4 pages on 2 sheets",
+        "Issac Leeser Collection at the Herbert D. Katz Center for Advanced Judaic Studies (University of Pennsylvania)"
+      ]
+    },
+    {
+      "label": "Relation",
+      "value": ["https://find.library.upenn.edu/catalog/9924408973503681"]
+    },
+    {
+      "label": "Geographic Subject",
+      "value": [
+        "Curaçao",
+        "United States -- Pennsylvania -- Philadelphia",
+        "United States -- Pennsylvania"
+      ]
+    },
+    {
+      "label": "Physical Location",
+      "value": ["Arc.MS.2"]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Transfer of Custody from the Hebrew Education Society, 10 March 1913, to the Library of the Dropsie College for Hebrew and Cognate Learning."
+      ]
+    },
+    {
+      "label": "Rights",
+      "value": ["http://rightsstatements.org/vocab/NoC-US/1.0/"]
+    },
+    {
+      "label": "Identifier",
+      "value": ["LSDCBx1FF5_31"]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e0d9c2e-3c6d-43ba-9c92-a6fb0245b87b%2Faccess/full/!200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e0d9c2e-3c6d-43ba-9c92-a6fb0245b87b%2Faccess",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current order",
+      "rendering": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/pdf",
+          "label": "Download PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6168,
+          "width": 4892,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e0d9c2e-3c6d-43ba-9c92-a6fb0245b87b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4892,
+                "height": 6168,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/5e0d9c2e-3c6d-43ba-9c92-a6fb0245b87b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p1"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/assets/5e0d9c2e-3c6d-43ba-9c92-a6fb0245b87b/original",
+              "label": "Original File - 90.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p1/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/manifest/annotation/p1",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p rend=\"indent(1)\">Duplicate”</p>\n                              <p rend=\"align(right)\">\n                                        <placeName>Curacao</placeName>\n                                        <date>October 25<hi rend=\"sup\">th</hi> 1848</date>\n                              </p>\n                              <p><addressee>Mr. Isaac Leeser</addressee>.</p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p rend=\"indent(1)\">dear Friend</p>\n                              <p rend=\"indent(3)\">I received your sundry favors <date>2nd<lb/>\n                                                  March</date> &amp; <date>2<hi rend=\"sup\">nd</hi>\n                                                  May</date>, &amp; <date>21<hi rend=\"sup\">st</hi>\n                                                  August</date>, together with all the missing<lb/>\n                                        occidents, and a letter from <persName>Mr. J. J.\n                                                  Seixas</persName> explaining the<lb/> detentions\n                                        of those letters and books having been occasioned<lb/> by\n                                        the negligence of our <placeName>New York</placeName>\n                                        agents, which I regret<lb/> as it has been the cause of my\n                                                  <sic>loosing</sic> many subscribers, I was<lb/>\n                                        reduced to 5, but since the books have arrived I have got 2\n                                        more<lb/> thus now I have 7 subscribers. In my last I\n                                        informed you<lb/> of my having disposed of one Sett of\n                                        Prayer Books, since<lb/> which tho we have passed all the\n                                        holidays which is the time to sell<lb/> I have not been able\n                                        to dispose of a single Sett, they all com=<lb/>plain the\n                                        books are too large and heavy. So much so that I<lb/> have\n                                        orders for three Setts if printed on thin paper like your\n                                        Daily<lb/> Services, and as they fear you will not have them\n                                        bound as<lb/> they wish, <hi rend=\"underline\">that is to say\n                                                  one of the persons</hi>, he requests you will<lb/>\n                                        send him out <hi rend=\"underline\">an unbound Sett</hi> if on\n                                        thin paper, his object is to<lb/> cut off the margins as\n                                        much as possible, and then have<lb/> them bound in smaller\n                                        vols. according to his own taste<lb/> they being for a very\n                                        young lady who could not well<lb/> hold <sic>ones</sic> of\n                                        these books in her hands the time she should<lb/> in\n                                        consequence of the weight, the other two setts you will<lb/>\n                                        please send according to the order enclosed, all three<lb/>\n                                        Setts are bespoken consequently they must be</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6168,
+          "width": 4892,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/91a10ccb-06ee-4049-913a-8eb7a8359e07%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4892,
+                "height": 6168,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/91a10ccb-06ee-4049-913a-8eb7a8359e07%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p2"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/assets/91a10ccb-06ee-4049-913a-8eb7a8359e07/original",
+              "label": "Original File - 90.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p2/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/manifest/annotation/p2",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>according to the order, and those you cant fulfill (if<lb/> any)\n                                        according to the order do not send at all as I<lb/> am\n                                        exposed to receive them on my hands, you would<lb/> do well\n                                        also to put up a few setts more for me to sell<lb/> with at\n                                        least the kipur books divided in two or three, and<lb/>\n                                        always on thin paper, as those heavy books will not\n                                        sell.<lb/> the <placeName>west India</placeName> ladies will\n                                        not use them, the English<lb/> editions being so much\n                                        smaller or lighter. I am very<lb/> much obliged to you for\n                                        the notice you took of my dear<lb/> wife's death. The\n                                        sentiments expressed being your own<lb/> I am doubly\n                                        thankful. I would surmise in the price<lb/> of the books you\n                                        charge them 5 per cent over your price as<lb/> here 5 franc\n                                        pieces pay for Dollars, and if you require re=<lb/>mittance\n                                        in that specie you will have to <sic>loose</sic> the\n                                        dif=<lb/>-ference, however you do not mention any thing of\n                                        that<lb/> in yr letter as I may perhaps have to shew it to\n                                        them.</p>\n                              <p>In your kind favor of <date>2<hi rend=\"sup\">nd</hi> May.</date> I\n                                        perceive w/ much<lb/> pleasure your promise to send my\n                                        sister <persName>Mrs.<lb/> Lindo</persName> a number of the\n                                        Occident I have written her<lb/> to that effect, and have\n                                        requested her to apply to your<lb/> agents in\n                                                  <placeName>London</placeName>, if she does not\n                                        hear from them,<lb/> with the sett of prayer Books here in\n                                        ordered to be<lb/> sent unbound please send (on same sort\n                                        paper &amp; same <add>?</add>)<lb/> a Sett of Pentateuch\n                                        unbound, as the person wishes to<lb/> have them, forming one\n                                        complete Sett all bound alike<lb/> and all printed alike. I\n                                        will copy below this the<lb/> order he has given me in his\n                                        own words to avoid mis=<lb/>takes. Hoping you have passed\n                                        pleasantly the holidays &amp; that you may<lb/> see many\n                                        happy returns of them. I am yr Sincere friend.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "3",
+          "height": 6168,
+          "width": 4892,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/0d1d96ab-043e-4e47-82b0-f5f0add7c877%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 4892,
+                "height": 6168,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/0d1d96ab-043e-4e47-82b0-f5f0add7c877%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p3"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/assets/0d1d96ab-043e-4e47-82b0-f5f0add7c877/original",
+              "label": "Original File - 90.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p3/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/manifest/annotation/p3",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>PS. In your favor of <date>2<hi rend=\"sup\">nd</hi>: March</date>,\n                                        you say the Books I<lb/> ordered for <placeName>Pto\n                                                  Cabello</placeName> will go by the next\n                                        packet,<lb/> now I do not recollect having ordered any\n                                        Books<lb/> for <placeName>Pto Cabo.</placeName>, or any\n                                        where else, if you have sent<lb/> any please let me\n                                        know.—</p>\n                              <p><hi rend=\"underline\">Copy</hi>: One Sett Prayer Books</p>\n                              <p rend=\"indent(2)\">One Ditto Pentateuch all printed on thin<lb/>\n                                        paper, to be unbound, the person wants to get<lb/> them\n                                        bound here, that he may divide them to his liking<lb/> and\n                                        his motive for wishing thin paper's because<lb/> he wanted\n                                        them for his young daughter, consequently<lb/> he wants them\n                                        light, if they cant be sent according<lb/> to his\n                                                  <sic>desine</sic> do not send them.</p>\n                              <p><date>Decr. 8.</date> Dr Sir.</p>\n                              <p rend=\"indent(2)\">The foregoing is duplicate of my last\n                                        respects<lb/> since which I have recd. yr. favors <date>3\n                                                  Oct.</date> &amp; <date>31<hi rend=\"sup\"\n                                                  >st</hi></date> and the<lb/> Books correct as per\n                                        your notes.</p>\n                              <p rend=\"indent(1)\"><persName>Mr. Dacosta</persName> left this morning\n                                        for <placeName>St. Thomas</placeName> to<lb/> fetch out his\n                                        sister who is coming out from\n                                        <placeName>England</placeName><lb/> to join him here,</p>\n                              <p rend=\"indent(1)\">I am afraid you will never see the money if<lb/>\n                                        the books <persName>Mr. Lobo</persName> of <placeName>Puerto\n                                                  Cavello</placeName> had from you<lb/> ask is not\n                                        the best paymaster, I hope tho' it<lb/> will prove\n                                        otherwise.—wishing you well, and<lb/> with respect I am Dr\n                                        Sir yrs. Truly</p>\n                              <p rend=\"indent(5)\">\n                                        <persName>O U Dacosta</persName>\n                              </p>\n                              <p rend=\"indent(5)\">pp. <persName role=\"author\"><hi rend=\"underline\"\n                                                  >John E. Price</hi></persName></p>\n                              <p>Encld. A letter recd for you</p>\n                              <p>frm. <placeName>Suriname</placeName>.</p>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p4",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 4892,
+          "width": 6168,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-images.library.upenn.edu/iiif/2/40c97346-92a4-4e31-be6b-06391dc4b15b%2Faccess/full/!200,200/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 6168,
+                "height": 4892,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-images.library.upenn.edu/iiif/2/40c97346-92a4-4e31-be6b-06391dc4b15b%2Faccess",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p4"
+            }
+          ],
+          "rendering": [
+            {
+              "@id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/assets/40c97346-92a4-4e31-be6b-06391dc4b15b/original",
+              "label": "Original File - 90.7 MB",
+              "format": "image/tiff"
+            }
+          ],
+          "annotations": [
+            {
+              "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p4/annopage",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/manifest/annotation/p4",
+                  "type": "Annotation",
+                  "motivation": "commenting",
+                  "body": {
+                    "type": "TextualBody",
+                    "value": "<p>\n                                        <addressee>Mr Isaac Leeser</addressee>\n                              </p>\n                              <p rend=\"indent(1)\">\n                                        <placeName>Philadelphia</placeName>\n                              </p>\n                              <p>\n                                        <del>care of the <add>?</add>\n                                                  <persName>Joseph E</persName><add>?</add><lb/>\n                                                  <placeName>New York</placeName></del>\n                              </p>\n                    </body>\n          </text>\n</TEI>"
+                  },
+                  "target": "https://colenda.library.upenn.edu/items/ark:/81431/p32r3pd2z/canvas/p4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
