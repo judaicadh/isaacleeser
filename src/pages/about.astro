@@ -1,0 +1,12 @@
+---
+// about.astro
+import BaseLayout from "../layouts/BaseLayout.astro";
+import AboutLeeser from './aboutleeser.md';
+import TextLayout from "../layouts/TextLayout.astro"; // use default import
+---
+
+<TextLayout>
+    <article class="prose prose-lg font-sans text-primary space-y-2 dark:prose-invert mx-auto pt-12">
+        <AboutLeeser />
+    </article>
+</TextLayout>

@@ -1,106 +1,133 @@
-import csv from 'csvtojson';
-import fs from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import csv from "csvtojson";
+import fs from "fs/promises";
+import path from "path";
+import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-function slugify(value) {
-	return value
-		.toString()
-		.toLowerCase()
-		.replace(/[\s\W-]+/g, '-') // Replace spaces/anything non-word with -
-		.replace(/^-+|-+$/g, '');  // Trim leading/trailing hyphens
-}
-const csvFilePath = path.join(__dirname, './Leeser-Letters2 (1).csv');
-const jsonFilePath = path.join(__dirname, '../src/data/items.json');
-const creatorCount = 13; // or whatever max you expect (change as needed)
-const creatorFields = Array.from({length: creatorCount}, (_, i) => `dcterms:creator ${i+1}`);
-const pipeFields = [
-	'dcterms:language',
-	'dcterms:contributor',
-	'bookseller_editor',
-	'agent',
-	'correspondent',
-	// add more as needed
-];
 
-const floatFields = ['author latitude', 'author longitude', 'recipient latitude', 'recipient longitude'];
-const intFields = ['unixtime'];
-const boolFields = ['Duplicate', 'Refers to the Occident'];
+const csvFilePath = path.join(__dirname, "./Leeser-Letters2 (1).csv");
+const jsonFilePath = path.join(__dirname, "../src/data/items.json");
 
-const identityFields = [
-	'dcterms:identifier', 'xml', 'ARK ID(2)', 'thumbnail', 'dcterms:title', 'Title', 'Type', 'Hebrew Date', 'dcterms:date',
-	'date written', 'hasFormat', 'Link', 'Ark', 'Collection', 'Collection uri', 'dcterms:identifier 2', 'dcterms:identifier 2 1',
-	'dcterms:source', 'fromLocation', 'dcterms:spatialcoverage', 'Getty Thesaurus of Geographic Names ID',
-	'toLocation', 'URL 2', 'filepath', 'Type', 'Title', 'Description',
-];
+const slugify = (value) =>
+  value
+    .toString()
+    .toLowerCase()
+    .replace(/[\s\W-]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 
-// ---- HELPERS ---- //
-const parsePipeField = value =>
-	value ? value.split('|').map(v => v.trim()).filter(Boolean) : [];
+const creatorFields = Array.from(
+  { length: 13 },
+  (_, i) => `dcterms:creator ${i + 1}`,
+);
+const contributorFields = Array.from(
+  { length: 3 },
+  (_, i) => `dcterms:contributor ${i + 1}`,
+);
 
-const parseBool = v => {
-	if (typeof v !== 'string') return false;
-	return ['yes', 'true', '1', 'x'].includes(v.toLowerCase());
+// --- Helpers ---
+const normalizeName = (name) => {
+  if (!name) return "";
+  let n = name.replace(/\./g, "").trim();
+  if (n.includes(",")) {
+    const [last, first] = n.split(",").map((s) => s.trim());
+    n = `${first} ${last}`;
+  }
+  return n.toLowerCase();
 };
 
-async function main() {
-	try {
-		const jsonArray = await csv({ separator: ',' }).fromFile(csvFilePath);
-		console.log(`Parsed ${jsonArray.length} records from CSV`);
+const dedupeNames = (names) => {
+  const seen = new Map();
+  names.forEach((name) => {
+    const norm = normalizeName(name);
+    if (!seen.has(norm)) {
+      seen.set(norm, name); // keep the first nicely formatted version
+    }
+  });
+  return Array.from(seen.values());
+};
 
-		const formattedData = jsonArray.map((item, index) => {
-			const result = {};
+(async () => {
+  try {
+    const jsonArray = await csv().fromFile(csvFilePath);
 
-			// Identity fields
-			identityFields.forEach(field => {
-				if (item[field]) result[field.replace(/\s+/g, '_')] = item[field];
-			});
-			const identifier = item['dcterms:identifier'];
-			if (identifier) {
-				result.identifier = identifier;
-				result.slug = slugify(identifier);
-			}
-			// Pipe fields (array, deduped)
-			pipeFields.forEach(field => {
-				if (item[field]) result[field.replace(/\s+/g, '_')] = parsePipeField(item[field]);
-			});
+    const formattedData = jsonArray.map((item, index) => {
+      // --- Contributors ---
+      const baseContributors = item["dcterms:contributor"]
+        ? item["dcterms:contributor"].split("|").map((s) => s.trim())
+        : [];
+      const numberedContributors = contributorFields
+        .map((field) => item[field])
+        .filter(Boolean)
+        .flatMap((val) => val.split("|").map((s) => s.trim()));
+      const contributors = dedupeNames([
+        ...baseContributors,
+        ...numberedContributors,
+      ]);
 
-			// Creators: from dcterms:creator 1, 2, 3... (skip dcterms:creator)
-			const creators = creatorFields
-				.map(field => item[field])
-				.filter(Boolean)
-				.flatMap(val => val.split('|').map(s => s.trim()))
-				.filter(Boolean);
-			if (creators.length) result.creators = creators;
+      // --- Creators ---
+      const numberedCreators = creatorFields
+        .map((field) => item[field])
+        .filter(Boolean)
+        .flatMap((val) => val.split("|").map((s) => s.trim()));
 
-			// Float fields
-			floatFields.forEach(field => {
-				if (item[field]) result[field.replace(/\s+/g, '_')] = parseFloat(item[field]);
-			});
+      const creators = dedupeNames(numberedCreators);
 
-			// Int fields
-			intFields.forEach(field => {
-				if (item[field]) result[field.replace(/\s+/g, '_')] = parseInt(item[field], 10);
-			});
+      const dates = [];
+      if (item["date written"]) dates.push(item["date written"]);
+      if (item["date received"]) dates.push(item["date received"]);
 
-			// Bool fields
-			boolFields.forEach(field => {
-				if (item[field]) result[field.replace(/\s+/g, '_')] = parseBool(item[field]);
-			});
+// If "date written" contains multiple values separated by "|"
+      if (item["date written"] && item["date written"].includes("|")) {
+        dates.push(...item["date written"].split("|").map(d => d.trim()));
+      }
+      let _geoloc = null;
+      const lat = parseFloat(item["author latitude"]);
+      const lng = parseFloat(item["author longitude"]);
+      if (!isNaN(lat) && !isNaN(lng)) {
+        _geoloc = { lat, lng };
+      }
+      return {
+        id: item["dcterms:identifier"] || `row-${index + 1}`,
+        slug: slugify(item["dcterms:identifier"] || ""),
+        title: item["dcterms:title"] || item["Title"] || "Untitled",
+        title2: item["AI Title"],
+        description: item["Description"] || "",
+        unix: item["unixtime"],
+        creators,
+        contributors,
+        thumbnail:
+          item["thumbnail"] || "https://placehold.co/600x600.jpg?text=No+Image",
+        manifestUrl: item["hasFormat"]
+          ? item["hasFormat"].split("|").map((s) => s.trim())
+          : [],
+        xml: item["xml"] || null,
+        type: item["Type"] || null,
+        collection_uri: item["Collection uri"] || null,
+        collection: item["Collection"] || "",
+        fromLocation: item["fromLocation"] || "",
+        toLocation: item["toLocation"] || "",
+        subject: item["Subjects"]
+          ? item["Subjects"].split("|").map((s) => s.trim())
+          : [],
+        language: item["dcterms:language"]
+          ? item["dcterms:language"].split("|").map((s) => s.trim())
+          : [],
+        date: dates,
+        hebrewdate: item["HebrewDate"] || "",
+        rowIndex: index + 1,
+        ...(_geoloc ? { _geoloc } : {}),
 
-			result.rowIndex = index + 1;
+      };
+    });
 
-			return result;
-		});
-
-		await fs.mkdir(path.dirname(jsonFilePath), { recursive: true });
-		await fs.writeFile(jsonFilePath, JSON.stringify(formattedData, null, 2), 'utf-8');
-		console.log('✅ CSV to JSON conversion completed.');
-	} catch (err) {
-		console.error('❌ Error:', err);
-	}
-}
-
-main();
+    await fs.writeFile(
+      jsonFilePath,
+      JSON.stringify(formattedData, null, 2),
+      "utf-8",
+    );
+    console.log("✅ Leeser CSV → JSON completed.");
+  } catch (err) {
+    console.error("❌ Error:", err);
+  }
+})();

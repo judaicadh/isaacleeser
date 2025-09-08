@@ -1,11 +1,210 @@
 ---
-
 import BaseLayout from "../layouts/BaseLayout.astro";
-import App from "../components/App";
-export const prerender = false;
+import HebrewMotto from "../components/HebrewMotto";
+import React from "react";
+import {Image} from 'astro:assets';
+import HeroSearch from "../components/HeroSearch";
+import FeaturedCollection from '../components/Featured'; // Your React component
+import Partners from "../components/Partners.astro";
+import FormofPrayers from '../images/FormofPrayers.jpg';
+const {title, description, itemCount} = Astro.props;
+
+
+
 ---
 
 <BaseLayout>
 
-<App client:load />
+    <section class="relative py-16 md:py-24 overflow-hidden bg-background">
+        <div class="absolute inset-0 z-0 opacity-10">
+            <!--    <Image
+                        src="/placeholder-v3546.png"
+                        alt="Background texture"
+                        fill
+                        class="object-cover"
+                />-->
+        </div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-3xl mx-auto text-center mb-12">
+                <h1 class="text-3xl md:text-3xl lg:text-4xl  text-accent-foreground font-serif mb-5 ">
+                    Discover the Legacy of Rev. Isaac Leeser
+
+                </h1>
+
+                {/* Hebrew Motto Animation */}
+                <HebrewMotto client:load/>
+
+                <HeroSearch client:load/>
+               <span class="text-md font-sans md:text-md text-accent-foreground/80 ">
+                    Explore rare manuscripts, letters, and publications from one of America's most influential Jewish
+                    voices of the 19th century.
+                </span>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="relative py-14 lg:pt-44 lg:pb-24 bg-gray-100">
+        <div class="w-full max-w-7xl mx-auto px-4 lg:px-8">
+            <div class="w-full max-w-4xl mx-auto sm:px-12 mb-10 lg:mb-20">
+                <h1 class="font-manrope font-bold text-4xl leading-snug sm:text-5xl text-center mb-5 text-black">
+                    The Art of Strategic Wallet Management
+                </h1>
+                <p class="text-xl font-medium leading-8 text-gray-400 text-center mb-14 max-w-xl mx-auto">
+                    where every expense becomes a brushstroke of intention, creating a masterpiece of financial well-being and wealth.
+                </p>
+
+                <p class="text-sm font-normal text-gray-500 text-center">
+                    no personal credit checks or founder guarantee.
+                </p>
+            </div>
+            <div class="flex flex-col lg:flex-row items-center justify-center gap-4 lg:justify-between">
+                <img src="https://pagedone.io/asset/uploads/1709270640.png" alt="" class="object-cover">
+
+                <img src="https://pagedone.io/asset/uploads/1710391965.png" alt="" class="mx-auto w-56 object-cover">
+                <img src="https://pagedone.io/asset/uploads/1709270672.png" alt="" class="object-cover">
+            </div>
+        </div>
+    </section>
+    <Partners />
+    <div class="flex w-full items-center rounded-full h-14">
+        <div class="flex-1 border-b border-gray-300"></div>
+        <div class="w-12 h-12 flex items-center justify-center bg-white rounded-full shadow border border-gray-300 cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                <g id="Add">
+                    <path id="icon" d="M11 5.5V16.5M16.5 11H5.5" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+                </g>
+            </svg>
+        </div>
+        <div class="flex-1 border-b border-gray-300"></div>
+    </div>
+    <section class="py:12 md:py-16 ">
+        <div class="container text-accent-foreground mx-auto px-4">
+            <h2 class="font-serif text-2xl md:text-3xl mb-8 md:mb-12 text-center">
+                Featured Collections</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
+
+                <FeaturedCollection client:load
+                                    title={title}
+                                    description={description}
+                                    itemCount={itemCount}
+                >
+                    <div class="relative h-48">
+                        <Image
+                                src={FormofPrayers}
+                                alt="Form of Formof Prayers"
+                                class="object-cover w-full h-full"
+                                style="height: 12rem;"
+                        />
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/70 to-transparent"></div>
+                        <div class="absolute bottom-3 right-3 bg-primary/10 text-primary text-xs font-medium px-2 py-1 rounded-full">
+                            {itemCount} items
+                        </div>
+                    </div>
+
+                </FeaturedCollection>
+                <FeaturedCollection client:load
+                                    title={title}
+                                    description={description}
+                                    itemCount={itemCount}
+
+                >
+                    <div class="relative h-48">
+                        <Image
+                                src={FormofPrayers}
+                                alt="Form of Formof Prayers"
+                                class="object-cover w-full h-full"
+                                style="height: 12rem;"
+                        />
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/70 to-transparent"></div>
+                        <div class="absolute bottom-3 right-3 bg-primary/10 text-primary text-xs font-medium px-2 py-1 rounded-full">
+                            {itemCount} items
+                        </div>
+                    </div>
+
+                </FeaturedCollection>
+                <FeaturedCollection client:load
+                                    title={title}
+                                    description={description}
+                                    itemCount={itemCount}
+
+                >
+                    <div class="relative h-48">
+                        <Image
+                                src={FormofPrayers}
+                                alt="Form of Formof Prayers"
+                                class="object-cover w-full h-full"
+                                style="height: 12rem;"
+                        />
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/70 to-transparent"></div>
+                        <div class="absolute bottom-3 right-3 bg-primary/10 text-primary text-xs font-medium px-2 py-1 rounded-full">
+                            {itemCount} items
+                        </div>
+                    </div>
+
+                </FeaturedCollection>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 md:py-16 lg:py-24">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center gap-8 md:gap-12">
+                <div class="lg:w-1/2">
+                    <h2 class="font-serif text-2xl md:text-3xl lg:text-4xl font-bold  mb-4 md:mb-6">About
+                        the Repository</h2>
+                    <p class="mb-4 text-sm md:text-base">
+                        The Gershwind-Bennett Isaac Leeser Digital Repository preserves and provides access to the
+                        papers, publications, and legacy of Isaac Leeser (1806-1868), a pioneering figure in American
+                        Jewish history.
+                    </p>
+                    <p class="mb-4 text-sm md:text-base">
+                        As a religious leader, publisher, translator, and educator, Leeser shaped the development of
+                        American Judaism during a formative period and laid the groundwork for many institutions that
+                        continue to this day.
+                    </p>
+                    <p class="  mb-4 md:mb-6 text-sm md:text-base">
+                        This digital collection brings together materials from multiple archives, providing
+                        unprecedented access to researchers, educators, and the public.
+                    </p>
+                    <p class=" mb-4 md:mb-6 text-sm md:text-base">
+                        This repository is part of the <strong>Jesselson-Kaplan Atlantic Genizah Project</strong>, a
+                        comprehensive initiative to digitize and preserve Jewish historical documents and manuscripts
+                        from across the Atlantic world.
+                    </p>
+                    <a href="/src/pages/about"
+                       class="inline-flex items-center font-medium  transition-colors text-sm md:text-base">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="ml-2">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="lg:w-1/2 relative w-full">
+                    <div class="relative z-10">
+                        <Image
+                                src="/placeholder-84k87.png"
+                                alt="Historical archive"
+                                width={600}
+                                height={400}
+                                class="rounded-lg shadow-lg w-full h-auto"
+                        />
+                    </div>
+                    <div class="absolute -bottom-2 -left-2 md:-bottom-4 md:-left-4 z-0">
+                        <Image
+                                src="/placeholder-fzami.png"
+                                alt="Decorative paper"
+                                width={200}
+                                height={200}
+                                class="rounded opacity-50 w-24 h-24 md:w-32 md:h-32 lg:w-48 lg:h-48"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </BaseLayout>

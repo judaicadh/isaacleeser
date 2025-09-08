@@ -1,0 +1,16 @@
+---
+import '../../src/styles/global.css';
+import React from "react";
+// Font imports as you have
+import BaseLayout from "./BaseLayout.astro";
+---
+
+<BaseLayout>
+    <section class="relative">
+        <div class="w-full max-w-lg md:max-w-2xl lg:max-w-4xl px-5 lg:px-11 mx-auto max-md:px-3">
+            <article class="prose dark:prose-invert max-w-none font-sans    ">
+                <slot />
+            </article>
+        </div>
+    </section>
+</BaseLayout>

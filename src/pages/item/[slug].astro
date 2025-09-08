@@ -1,0 +1,369 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Clover from '../../components/Clover';
+import TEILoader from "../../components/TEILoader";
+import items from '../../data/items.json'
+import { slugify } from '../../scripts/slugify.js'
+import BackToSearch from "../../components//BackToSearch";
+import FavoritesButton from '../../components/FavoritesButton'
+
+import annotations from "../../data/annotations.json";
+
+// ---------- helpers ----------
+const formatItalics = (str) =>
+    str ? str.replace(/\*(.*?)\*/g, "<i>$1</i>") : str;
+const toArray = (v) => (Array.isArray(v) ? v : v ? [v] : []);
+const normalizeNames = (...fields) =>
+    [...new Set(
+        fields
+            .flatMap(toArray)
+            .filter(Boolean)
+            .flatMap((n) => String(n).split("|").map((s) => s.trim()))
+            .filter(Boolean)
+    )];
+
+const makeLinksMulti = (...vals) =>
+    vals
+        .flatMap(toArray)
+        .filter(Boolean)
+        .map((x) => (typeof x === 'string' ? { name: x } : x))
+        .filter((x) => x?.name)
+        .map(({ name }) => ({ name, slug: slugify(name) }));
+
+const getSchemaType = (type) => {
+    switch ((type || '').toLowerCase()) {
+        case 'letter': return 'Letter';
+        case 'book': return 'Book';
+        case 'manuscript': return 'Manuscript';
+        case 'music': return 'MusicRecording';
+        default: return 'CreativeWork';
+    }
+};
+
+function normalizePersonName(name) {
+    if (!name) return "";
+    name = name.trim();
+    if (name.includes(",")) {
+        const parts = name.split(",");
+        const last = parts[0].trim();
+        const rest = parts.slice(1).join(",").trim();
+        return rest ? `${rest} ${last}` : last;
+    }
+    return name;
+}
+
+export async function getStaticPaths() {
+    const paths = items
+        .map((item) => {
+            const preferred =
+                item.slug ||
+                item['dcterms:identifier'] ||
+                item['dcterms:identifier_2'] ||
+                item.id ||
+                item['dcterms:title'] ||
+                item.title;
+            const s = preferred ? slugify(String(preferred)) : null;
+            return s ? { params: { slug: s } } : null;
+        })
+        .filter(Boolean);
+    return paths;
+}
+
+const { slug } = Astro.params;
+
+// ---------- locate record ----------
+const itemData = items.find((item) => (item.slug || slugify(item.id)) === slug);
+if (!itemData) {
+    return new Response('Not Found', { status: 404 });
+}
+const manifestUrls = Array.isArray(itemData.manifestUrl)
+    ? itemData.manifestUrl[0]
+    : itemData.manifestUrl;
+
+const uniqueNames = normalizeNames(itemData.creators, itemData['dcterms:contributor']);
+
+// Subjects & Geography
+const subjectLinks = makeLinksMulti(itemData.subject);
+const geoLinks = makeLinksMulti(itemData.fromLocation, itemData.toLocation);
+const languages = toArray(itemData.language);
+
+// Canonical host (no www)
+const CANON = 'https://leeser.judaicadhpenn.org';
+const websiteId = `${CANON}#website`;
+const orgId = `${CANON}#org`;
+
+const itemId = `${CANON}/item/${slug}#item`;
+const itemUrl = `${CANON}/item/${slug}`;
+
+// Authors
+const authors = uniqueNames.map((n) => ({ '@type': 'Person', name: n }));
+
+const itemNode = {
+    '@type': getSchemaType(itemData.type || 'CreativeWork'),
+    '@id': itemId,
+    name: itemData.title || itemData['dcterms:title'] || 'Untitled',
+    description: itemData.description || 'No description available.',
+    url: itemUrl,
+    mainEntityOfPage: itemUrl,
+    isPartOf: { '@id': websiteId },
+    publisher: { '@id': orgId },
+    ...(itemData.thumbnail ? { image: [itemData.thumbnail], thumbnailUrl: itemData.thumbnail } : {}),
+    ...(authors.length ? { author: authors } : {}),
+    ...(subjectLinks.length ? { keywords: subjectLinks.map((s) => s.name) } : {}),
+    dateCreated: itemData.date,
+    inLanguage: (toArray(itemData['dcterms:language'])[0]) || 'en',
+    identifier: itemData.id,
+};
+
+const pageGraph = [itemNode];
+---
+
+<BaseLayout
+        title={itemData.title2 || itemData['dcterms:title'] || "Untitled"}
+        description={itemData.description || ""}
+        ogImage={itemData.thumbnail}
+        ogType="article"
+        headGraph={pageGraph}
+>
+    <section class="py-8 bg-white dark:bg-gray-900 md:py-16 antialiased">
+        <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0">
+            <BackToSearch client:only="react" />
+
+            <!-- Breadcrumb -->
+            <nav aria-label="Breadcrumb" class="text-sm dark:text-gray-400 mb-4">
+                <ol class="flex items-center gap-2">
+                    <li>
+                        <a href="/" class="hover:underline focus:outline-none focus-visible:ring-2 focus-visible:text-ink dark:font-semibold dark:text-accent-100">
+                            Home
+                        </a>
+                    </li>
+                    <li aria-hidden="true">›</li>
+                    <li>
+                        <a href="/search" class="hover:underline focus:outline-none focus-visible:ring-2 focus-visible:text-ink dark:font-semibold dark:text-accent-100">
+                            Search
+                        </a>
+                    </li>
+                </ol>
+            </nav>
+
+            <h1 class="text-3xl font-serif text-gray-900 dark:text-gray-100 mb-6 leading-tight">
+                <span set:html={formatItalics(itemData.title2 || itemData['dcterms:title'] || "Untitled")} />
+            </h1>
+
+            <!-- Main Grid: IIIF + TEI -->
+            <div class="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16 mb-12">
+
+                <!-- TEI Panel -->
+                <div class="h-[80vh] rounded-lg border border-accent-100 dark:border-b-accent-200 bg-paper-light dark:bg-gray-800 dark:text-accent-100 shadow-sm overflow-y-auto p-6">
+                    {itemData.xml ? (
+                            <TEILoader client:only="react" url={itemData.xml} />
+                    ) : (
+                            <div class="flex items-center justify-center h-full text-gray-500 dark:text-gray-400">
+                                No transcription available
+                            </div>
+                    )}
+                </div>
+
+                <!-- IIIF Viewer Panel -->
+                <div class="h-[80vh] rounded-lg border border-accent-100 dark:border-b-accent-200
+            bg-paper-light dark:bg-gray-800 shadow-sm overflow-hidden">
+                    <Clover client:only="react" manifest={manifestUrls} />
+                </div>
+
+            </div>
+
+
+            <!-- Metadata -->
+            <div class="mt-12  border-t border-neutral-200 dark:border-neutral-700 pt-6">
+                <p class="text-sm text-gray-500 dark:text-gray-400 mb-1 font-sans">Metadata</p>
+
+                <h2 class="text-2xl font-serif text-gray-900 dark:text-gray-100 mb-8">
+                    <span set:html={formatItalics(itemData.title2 || itemData['dcterms:title'] || "Untitled")} />
+                </h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-900 dark:text-gray-100">
+                    <!-- Description column -->
+                    <div class="space-y-6 md:col-span-2">
+                        <section>
+                            <h3 class="text-md font-serif text-gray-900 dark:text-gray-100 mb-2">Description</h3>
+                            <p class="font-sans text-gray-700 dark:text-gray-300 leading-relaxed">
+                                {itemData.description}
+                            </p>
+                        </section>
+
+                        <section>
+                            <h3 class="text-md font-serif text-gray-900 dark:text-gray-100 mb-2">Subjects</h3>
+                            <div class="flex flex-wrap gap-2">
+                                {subjectLinks.map((s) => (
+                                        <a
+                                                href={`/subject/${s.slug}`}
+                                                class="px-3 py-1 rounded-full bg-accent-100 text-ink text-xs font-medium
+                           hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600"
+                                        >
+                                            {s.name}
+                                        </a>
+                                ))}
+                            </div>
+                        </section>
+
+                        <section>
+                            <h3 class="text-md font-serif text-gray-900 dark:text-gray-100 mb-2">Other Details</h3>
+                            <p class="font-serif text-sm dark:text-gray-100">
+                                <span class="text-sm font-sans text-gray-500 dark:text-gray-400">Type:</span> {itemData.type}
+                            </p>
+                            <p class="font-serif text-sm dark:text-gray-100">
+                                <span class="text-sm font-sans text-gray-500 dark:text-gray-400">Identifier:</span> {itemData.id}
+                            </p>
+                            {itemData.collection && (
+                                    <p class="font-serif text-sm dark:text-gray-100">
+                                        <span class="text-sm font-sans text-gray-500 dark:text-gray-400">Collection:</span> {itemData.collection}
+                                    </p>
+                            )}
+                        </section>
+                    </div>
+
+                    <!-- Sidebar -->
+                    <div class="space-y-6">
+                        <!-- People -->
+                        <section>
+                            <h3 class="text-md font-serif text-gray-900 dark:text-gray-100 mb-2">People</h3>
+
+                            {itemData.type?.toLowerCase() === "letter" ? (
+                                    <div class="space-y-2">
+                                        <p>
+                                            <span class="text-sm font-sans text-gray-500 dark:text-gray-400">Sender:</span>{" "}
+                                            {makeLinksMulti(itemData.creators).length > 0 ? (
+                                                makeLinksMulti(itemData.creators).map((p, i, arr) => (
+                                                        <>
+                                                            <a
+                                                                    href={`/person/${p.slug}`}
+                                                                    class="underline text-sm text-ink hover:text-accent-700 dark:text-gray-100 dark:hover:text-accent-200"
+                                                            >
+                                                                {normalizePersonName(p.name)}
+                                                            </a>
+                                                            {i < arr.length - 1 && ", "}
+                                                        </>
+                                                ))
+                                            ) : (
+                                                "—"
+                                            )}
+                                        </p>
+
+                                        <p>
+                                            <span class="text-sm font-sans text-gray-500 dark:text-gray-400">Recipient:</span>{" "}
+                                            {makeLinksMulti(itemData.contributors).length > 0 ? (
+                                                makeLinksMulti(itemData.contributors).map((p, i, arr) => (
+                                                        <>
+                                                            <a
+                                                                    href={`/person/${p.slug}`}
+                                                                    class="underline text-sm text-ink hover:text-accent-700 dark:text-gray-100 dark:hover:text-accent-200"
+                                                            >
+                                                                {normalizePersonName(p.name)}
+                                                            </a>
+                                                            {i < arr.length - 1 && ", "}
+                                                        </>
+                                                ))
+                                            ) : (
+                                                "—"
+                                            )}
+                                        </p>
+                                    </div>
+                                ) : (
+                                <p>
+                                    <span class="text-sm font-sans text-gray-500 dark:text-gray-400">People:</span>{" "}
+                                    {makeLinksMulti(normalizeNames(itemData.creators, itemData.contributors)).length > 0 ? (
+                                        makeLinksMulti(normalizeNames(itemData.creators, itemData.contributors)).map((p, i, arr) => (
+                                                <>
+                                                    <a
+                                                            href={`/person/${p.slug}`}
+                                                            class="underline text-sm text-ink hover:text-accent-700 dark:text-gray-100 dark:hover:text-accent-200"
+                                                    >
+                                                        {normalizePersonName(p.name)}
+                                                    </a>
+                                                    {i < arr.length - 1 && ", "}
+                                                </>
+                                        ))
+                                    ) : (
+                                        "—"
+                                    )}
+                                </p>
+                                )}
+                                </section>
+
+                                <section>
+                                    <h3 class="text-md font-serif text-gray-900 dark:text-gray-100 mb-2">Dates</h3>
+                                    <p class="dark:text-gray-100 text-sm"><span class="text-sm font-sans text-gray-500 dark:text-gray-400">Gregorian:</span> {itemData.date || "Unknown"}</p>
+                                    <p class="dark:text-gray-100 text-sm"><span class="text-sm font-sans text-gray-500 dark:text-gray-400">Hebrew:</span> {itemData.hebrewdate || "Unknown"}</p>
+                                </section>
+
+                            {(itemData.fromLocation || itemData.toLocation) && (
+                                    <section>
+                                        <h3 class="text-md font-serif text-gray-900 dark:text-gray-100 mb-2">Places</h3>
+                                        {itemData.fromLocation && (
+                                                <p>
+                                                    <span class="font-sans text-sm text-gray-500 dark:text-gray-400">From:</span>{" "}
+                                                    {makeLinksMulti(itemData.fromLocation).map((g, i, arr) => (
+                                                            <>
+                                                                <a
+                                                                        href={`/geography/${g.slug}`}
+                                                                        class="underline text-sm text-ink hover:text-accent-700 dark:text-gray-100 dark:hover:text-accent-200"
+                                                                >
+                                                                    {g.name}
+                                                                </a>
+                                                                {i < arr.length - 1 && ", "}
+                                                            </>
+                                                    ))}
+                                                </p>
+                                        )}
+                                        {itemData.toLocation && (
+                                                <p>
+                                                    <span class="font-sans text-sm text-gray-500 dark:text-gray-400">To:</span>{" "}
+                                                    {makeLinksMulti(itemData.toLocation).map((g, i, arr) => (
+                                                            <>
+                                                                <a
+                                                                        href={`/geography/${g.slug}`}
+                                                                        class="underline text-sm text-ink hover:text-accent-700 dark:text-gray-100 dark:hover:text-accent-200"
+                                                                >
+                                                                    {g.name}
+                                                                </a>
+                                                                {i < arr.length - 1 && ", "}
+                                                            </>
+                                                    ))}
+                                                </p>
+                                        )}
+                                    </section>
+                            )}
+
+                            <section>
+                                <h3 class="text-md font-serif text-gray-900 dark:text-gray-100 mb-2">
+                                    {languages.length > 1 ? "Languages" : "Language"}
+                                </h3>
+                                <div class="flex flex-wrap gap-2">
+                                    {languages.length > 0 ? (
+                                        languages.map((lang) => (
+                                                <span class="text-sm text-gray-700 dark:text-gray-300">{lang}</span>
+                                        ))
+                                    ) : (
+                                            <span class="text-gray-500 dark:text-gray-400">Unknown</span>
+                                    )}
+                                </div>
+                            </section>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Citation -->
+            <div class="mt-12 border-t border-neutral-200 dark:border-neutral-700 pt-6">
+                <h2 class="text-xl font-heading text-gray-900 dark:text-gray-100 mb-4">Citation</h2>
+                <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">Please cite this item as:</p>
+                <div class="bg-neutral-50 dark:bg-neutral-800 rounded-md p-4 text-sm font-sans text-gray-800 dark:text-gray-200 overflow-x-auto">
+                    {uniqueNames.join(", ")}.
+                    "{itemData.title || itemData['dcterms:title'] || "Untitled"}."
+                    {itemData.date ? `(${itemData.date}).` : ""}
+                    {itemData.collection ? `${itemData.collection}.` : ""}
+                    Accessed at <a href={itemUrl} class="underline">{itemUrl}</a>.
+                </div>
+            </div>
+        </div>
+    </section>
+</BaseLayout>
