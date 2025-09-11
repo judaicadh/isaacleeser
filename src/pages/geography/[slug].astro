@@ -1,0 +1,197 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import items from '../../data/items.json'
+import { slugify } from '../../scripts/slugify.js'
+import FavoritesButton from '../../components/FavoritesButton'
+import BackToSearch from "../../components/BackToSearch"
+
+// Build unique paths from fromLocation
+export const prerender = true;
+
+export async function getStaticPaths() {
+    const seen = new Set();
+    for (const item of items) {
+        if (item.fromLocation) {
+            const s = slugify(item.fromLocation);
+            if (s) seen.add(JSON.stringify({ params: { slug: s } }));
+        }
+    }
+    return Array.from(seen).map((s) => JSON.parse(s));
+}
+
+const { slug } = Astro.params;
+
+// Find geography data
+const candidates = items.filter(
+    (it) => it.fromLocation && slugify(it.fromLocation) === slug
+);
+
+if (candidates.length === 0) {
+    return new Response('Not Found', { status: 404 });
+}
+
+// canonical geography name & wikidata
+const geographyName = candidates[0].fromLocation;
+const wikidata = candidates[0].fromLocationWikidata;
+const authorityHref = wikidata
+    ? `https://www.wikidata.org/wiki/${encodeURIComponent(wikidata)}`
+    : null;
+
+// Fetch Wikidata description (static build-time)
+let wikidataDescription: string | null = null;
+if (wikidata) {
+    try {
+        const res = await fetch(
+            `https://www.wikidata.org/wiki/Special:EntityData/${wikidata}.json`
+        );
+        if (res.ok) {
+            const data = await res.json();
+            const entity = data.entities[wikidata];
+            wikidataDescription = entity?.descriptions?.en?.value || null;
+        }
+    } catch (err) {
+        console.error("Failed to fetch Wikidata description:", err);
+    }
+}
+
+// Gather all items for this place
+const geoItems = items.filter(
+    (it) => it.fromLocation && slugify(it.fromLocation) === slug
+);
+const count = geoItems.length;
+
+// Basic SEO
+const CANON = 'https://leeser.judaicadhpenn.org'; // adjust for your site
+const listUrls = geoItems.map(
+    (it) => `${CANON}/item/${encodeURIComponent(it.slug)}`
+);
+
+const websiteId = `${CANON}#website`;
+const placeId = `${CANON}/geography/${slug}#place`;
+
+const pageGraph = [
+    {
+        "@type": "Place",
+        "@id": placeId,
+        name: geographyName,
+        url: `${CANON}/geography/${slug}`,
+        isPartOf: { "@id": websiteId },
+        ...(authorityHref ? { sameAs: authorityHref } : {})
+    },
+    {
+        "@type": "ItemList",
+        name: `Items related to ${geographyName}`,
+        numberOfItems: listUrls.length,
+        itemListElement: listUrls.map((url, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            url
+        })),
+        isPartOf: { "@id": websiteId }
+    }
+];
+
+const description = count
+    ? `Explore ${count} item${count === 1 ? '' : 's'} related to ${geographyName}.`
+    : `No items currently linked to ${geographyName}.`;
+---
+
+<BaseLayout
+        title={`${geographyName} — Geography`}
+        description={description}
+        ogImage={geoItems[0]?.thumbnail}
+        headGraph={pageGraph}
+>
+    <Fragment slot="headContent" />
+
+    <section class="py-8 bg-white md:py-16 dark:bg-gray-900 antialiased">
+        <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0">
+
+            <BackToSearch client:only="react" />
+
+            <nav aria-label="Breadcrumb" class="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                <ol class="flex items-center gap-2">
+                    <li><a href="/" class="hover:underline">Home</a></li>
+                    <li aria-hidden="true">›</li>
+                    <li><a href="/search" class="hover:underline">Search</a></li>
+                    <li aria-hidden="true">›</li>
+                    <li class="text-gray-700 dark:text-gray-300" aria-current="page">{geographyName}</li>
+                </ol>
+            </nav>
+
+            <header class="mb-6">
+                <div class="flex flex-wrap items-center gap-2">
+                    <h1 class="text-2xl font-bold font-serif text-gray-900 sm:text-3xl dark:text-white">
+                        {geographyName}
+                    </h1>
+
+                    {wikidataDescription && (
+                            <span class="text-gray-700 dark:text-gray-300 italic">
+        {wikidataDescription}
+      </span>
+                    )}
+
+                    {authorityHref && (
+                            <a
+                                    href={authorityHref}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="text-sm font-medium text-ink hover:underline dark:text-accent-100"
+                            >
+                                Wikidata ↗
+                            </a>
+                    )}
+                </div>
+            </header>
+
+            {count === 0 ? (
+                    <p class="text-gray-600 font-sans dark:text-gray-400">No items available yet.</p>
+            ) : (
+                    <div
+                            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+                            role="list"
+                            aria-label={`Items related to ${geographyName}`}
+                    >
+                        {geoItems.map((it) => (
+                                <article
+                                        key={it.slug}
+                                        class="group border border-gray-200 dark:border-gray-800 rounded-2xl overflow-hidden bg-white dark:bg-gray-800 shadow-sm hover:shadow-md transition"
+                                        role="listitem"
+                                >
+                                    <a href={`/item/${it.slug}`} class="block relative">
+                                        <img
+                                                src={it.thumbnail || '/default-thumbnail.jpg'}
+                                                alt={it.title}
+                                                class="w-full h-48 object-cover"
+                                                loading="lazy"
+                                                decoding="async"
+                                        />
+                                    </a>
+                                    <div class="p-4">
+                                        <h2 class="text-base font-semibold font-serif text-ink dark:text-white line-clamp-2">
+                                            <a href={`/item/${it.slug}`} class="hover:underline">{it.title}</a>
+                                        </h2>
+                                        {it.description && (
+                                                <p class="mt-2 text-sm  font-sans text-gray-600 dark:text-gray-400 line-clamp-3">
+                                                    {it.description}
+                                                </p>
+                                        )}
+                                        <div class="mt-3 flex items-center justify-between">
+                                            <a href={`/item/${it.slug}`} class="text-sm text-ink-muted hover:underline dark:text-accent-100">View item</a>
+                                            <FavoritesButton
+                                                    client:only="react"
+                                                    objectID={it.objectID || it.slug}
+                                                    title={it.title}
+                                                    slug={it.slug}
+                                                    thumbnail={it.thumbnail || '/default-thumbnail.jpg'}
+                                                    className="inline-flex items-center"
+                                            />
+                                        </div>
+                                    </div>
+                                </article>
+                        ))}
+                    </div>
+                )}
+                </div>
+                </section>
+                </BaseLayout>

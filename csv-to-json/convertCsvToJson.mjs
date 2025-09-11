@@ -107,6 +107,7 @@ const dedupeNames = (names) => {
         collection: item["Collection"] || "",
         fromLocation: item["fromLocation"] || "",
         toLocation: item["toLocation"] || "",
+        fromLocationWikidata: item["fromLocationwikidata"],
         subject: item["Subjects"]
           ? item["Subjects"].split("|").map((s) => s.trim())
           : [],
@@ -114,6 +115,7 @@ const dedupeNames = (names) => {
           ? item["dcterms:language"].split("|").map((s) => s.trim())
           : [],
         date: dates,
+        transcription: item["transcription"] || "",
         hebrewdate: item["HebrewDate"] || "",
         rowIndex: index + 1,
         ...(_geoloc ? { _geoloc } : {}),

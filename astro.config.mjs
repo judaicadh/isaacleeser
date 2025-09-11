@@ -14,6 +14,12 @@ export default defineConfig({
   integrations: [react()],
 
   vite: {
+    optimizeDeps: {
+      exclude: [
+
+
+      ],
+    },
     plugins: [tailwindcss()],
   },
 

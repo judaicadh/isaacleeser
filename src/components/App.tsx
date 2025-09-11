@@ -18,13 +18,7 @@ import {
 } from "react-instantsearch";
 import CustomHits from "./CustomHits";
 
-import {
-  Dialog,
-  DialogPanel,
-  DialogTitle,
-  Transition,
-  TransitionChild,
-} from "@headlessui/react";
+import { Dialog, Transition, DialogTitle, DialogPanel } from "@headlessui/react";
 import DateRangeSlider from "@components/DateRangeSlider";
 import dayjs from "dayjs";
 
@@ -106,14 +100,14 @@ function CustomCreatorRefinement() {
   );
 }
 function RefinementChips({
-  start,
-  end,
-  resetDate,
-  defaultMin,
-  defaultMax,
-  dateRange,
-  defaultRange,
-}: {
+                           start,
+                           end,
+                           resetDate,
+                           defaultMin,
+                           defaultMax,
+                           dateRange,
+                           defaultRange,
+                         }: {
   start?: number;
   end?: number;
   resetDate: () => void;
@@ -125,47 +119,45 @@ function RefinementChips({
   const { items } = useCurrentRefinements();
   const hasOther = items.length > 0;
   const hasDate =
-    start !== undefined &&
-    end !== undefined &&
-    (start !== defaultMin || end !== defaultMax);
+      start !== undefined &&
+      end !== undefined &&
+      (start !== defaultMin || end !== defaultMax);
 
   return (
-    <div
-      className={`flex flex-wrap justify-center items-center gap-3 transition-all duration-300 ${
-        hasOther || hasDate
-          ? "opacity-100 max-h-20 mt-2"
-          : "opacity-0 max-h-0 overflow-hidden"
-      }`}
-    >
-      <CurrentRefinements
-        classNames={{
-          category:
-            "inline-flex items-center rounded-full bg-accent-100 px-3 py-1 text-sm font-body text-ink",
-          delete: "ml-2 text-ink-muted hover:text-ink",
-          list: "flex flex-wrap gap-2",
-        }}
-      />
+      <div
+          className={`flex flex-wrap justify-center items-center gap-3 mt-3 transition-all duration-300 ${
+              hasOther || hasDate ? "opacity-100 mt-3" : "opacity-0 max-h-0 overflow-hidden"
+          }`}
+      >
+        <CurrentRefinements
+            classNames={{
+              category:
+                  "inline-flex items-center rounded-full bg-accent-100 px-3 py-1 text-sm font-body text-ink",
+              delete: "ml-2 text-ink-muted hover:text-ink",
+              list: "flex flex-wrap gap-2",
+            }}
+        />
 
-      {hasDate && (
-        <div className="inline-flex items-center rounded-full bg-accent-100 px-3 py-1 text-sm font-body text-ink">
-          {dayjs(start! * 1000).format("YYYY")} –{" "}
-          {dayjs(end! * 1000).format("YYYY")}
-          <button
-            onClick={resetDate}
-            className="ml-2 text-ink-muted hover:text-ink"
-          >
-            ✕
-          </button>
-        </div>
-      )}
+        {hasDate && (
+            <div className="inline-flex items-center rounded-full bg-accent-100 px-3 py-1 text-sm font-body text-ink">
+              {dayjs(start! * 1000).format("YYYY")} –{" "}
+              {dayjs(end! * 1000).format("YYYY")}
+              <button
+                  onClick={resetDate}
+                  className="ml-2 text-ink-muted hover:text-ink"
+              >
+                ✕
+              </button>
+            </div>
+        )}
 
-      {/* Clear all refinements + date */}
-      <CustomClearRefinements
-        resetDate={resetDate}
-        dateRange={dateRange}
-        defaultRange={defaultRange}
-      />
-    </div>
+        {/* Clear all refinements + date */}
+        <CustomClearRefinements
+            resetDate={resetDate}
+            dateRange={dateRange}
+            defaultRange={defaultRange}
+        />
+      </div>
   );
 }
 function FilterModal({
@@ -363,19 +355,60 @@ const App = () => {
             </p>
 
             {/* Search */}
-            <div className="w-full max-w-7xl">
+            {/* Search row */}
+            <div className="w-full max-w-4xl">
+              {/* Search Bar */}
               <SearchBox
-                placeholder="Search documents..."
-                classNames={{
-                  root: "w-full",
-                  form: "relative flex items-center w-full",
-                  input:
-                    "w-full rounded-xl border border-accent-100 bg-paper-light px-6 py-5 text-base md:text-lg font-body text-ink placeholder-ink-muted shadow-sm focus:outline-none focus:ring-2 focus:ring-accent-200",
-                  resetIcon: "hidden",
-                  submitIcon: "hidden",
-                }}
+                  placeholder="Search documents..."
+                  classNames={{
+                    root: "w-full",
+                    form: "relative flex items-center w-full",
+                    input:
+                        "w-full rounded-xl border border-accent-100 bg-paper-light px-6 py-5 text-base md:text-lg font-body text-ink placeholder-ink-muted shadow-sm focus:outline-none focus:ring-2 focus:ring-accent-200",
+                    resetIcon: "hidden",
+                    submitIcon: "hidden",
+                  }}
               />
+
+              {/* Secondary actions row */}
+              <div className="mt-2 flex justify-between items-center text-sm font-body">
+                {/* Filter button on the left */}
+                <button
+                    type="button"
+                    onClick={() => setFiltersOpen(true)}
+                    className="inline-flex items-center gap-2 rounded-lg border border-accent-200 bg-paper-light px-3 py-1.5 text-sm text-ink hover:bg-accent-50 focus:outline-none focus:ring-2 focus:ring-accent-200 shadow-sm"
+                >
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="h-4 w-4"
+                  >
+                    <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M3 5h18M6 12h12M10 19h4"
+                    />
+                  </svg>
+                  Filters
+                </button>
+                <div className="flex items-center gap-4 ml-auto">
+
+                </div>
+                {/* Map search link on the right */}
+
+                  <a
+                      href="/geosearch"
+                      className="text-sm text-ink-muted hover:text-accent-200 transition"
+                  >
+                      or search by map →
+                  </a>
+
+              </div>
             </div>
+
             {/* Hero + chips */}
             <RefinementChips
               start={dateRange.min}
@@ -388,53 +421,7 @@ const App = () => {
             />
           </div>
 
-          {/* Results bar */}
 
-          <div className="sticky top-0 z-20 bg-gradient-to-r from-paper-light via-paper to-paper-light backdrop-blur-sm border-b border-accent-100 shadow-sm">
-            {" "}
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap justify-between items-center gap-4 font-body">
-              <button
-                type="button"
-                onClick={() => setFiltersOpen(true)} // <-- open the modal
-                className="inline-flex items-center gap-2 text-sm font-medium text-ink hover:text-ink-muted"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  className="h-4 w-4"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
-                  <path d="M3 5h18M6 12h12M10 19h4" />
-                </svg>
-                <span>Filters</span>
-              </button>
-
-              {/* Right: Stats + Sort + Clear */}
-              <div className="flex items-center gap-4 ml-auto">
-                <Stats
-                  translations={{
-                    rootElementText: ({ nbHits, processingTimeMS }) =>
-                      `${nbHits.toLocaleString()} results found in ${processingTimeMS} ms`,
-                  }}
-                />
-                <SortBy
-                  items={[
-                    { value: "dev_Leeser", label: "Relevance" },
-                    { value: "dev_Leeser_date_desc", label: "Newest first" },
-                    { value: "dev_Leeser_date_asc", label: "Oldest first" },
-                  ]}
-                  classNames={{
-                    root: "text-sm font-body",
-                    select:
-                      "rounded-full border border-accent-100 bg-paper-light px-4 py-1.5 text-sm font-body text-ink hover:bg-accent-50 focus:outline-none focus:ring-2 focus:ring-accent-200 shadow-sm",
-                  }}
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Hits */}
           <CustomHits />
 
           {/* Pagination */}

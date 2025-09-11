@@ -17,6 +17,7 @@ type RecordShape = {
   };
   collection_uri?: string;
   thumbnail?: string;
+  transcription?: string;
   hasRealThumbnail?: boolean;
   creators?: string[];
   contributors?: string[];
