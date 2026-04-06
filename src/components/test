@@ -1,0 +1,78 @@
+{
+  "id": "https://example.com/manifest",
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "http://digipres.cjh.org/iiif/2/FL471626.jp2/info.json",
+      "type": "Canvas",
+      "width": 1664,
+      "height": 2528,
+      "items": [
+        {
+          "id": "https://example.com/manifest/annotation-page/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://digipres.cjh.org/iiif/2/FL471626.jp2/full/full/0/default.jpg",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://digipres.cjh.org/iiif/2/FL471626.jp2/info.json",
+              "body": {
+                "id": "http://digipres.cjh.org/iiif/2/FL471626.jp2/full/full/0/default.jpg",
+                "type": "Image",
+                "width": 1664,
+                "height": 2528,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "http://digipres.cjh.org/iiif/2/FL471626.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://digipres.cjh.org/iiif/2/FL471627.jp2/info.json",
+      "type": "Canvas",
+      "width": 1736,
+      "height": 2631,
+      "items": [
+        {
+          "id": "https://example.com/manifest/annotation-page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://digipres.cjh.org/iiif/2/FL471627.jp2/full/full/0/default.jpg",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "http://digipres.cjh.org/iiif/2/FL471627.jp2/info.json",
+              "body": {
+                "id": "http://digipres.cjh.org/iiif/2/FL471627.jp2/full/full/0/default.jpg",
+                "type": "Image",
+                "width": 1736,
+                "height": 2631,
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "http://digipres.cjh.org/iiif/2/FL471627.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
