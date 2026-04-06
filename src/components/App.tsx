@@ -321,138 +321,146 @@ function FilterModal({
 }
 
 const App = () => {
-  const [filtersOpen, setFiltersOpen] = useState(false);
+    const [filtersOpen, setFiltersOpen] = useState(false);
 
-  // central dateRange state
-  const [dateRange, setDateRange] = useState<{ min: number; max: number }>({
-    min: -5049107529,
-    max: -2200000000,
-  });
+    const [dateRange, setDateRange] = useState<{ min: number; max: number }>({
+        min: -5049107529,
+        max: -2200000000,
+    });
 
-  const defaultRange = { min: -5049107529, max: -2200000000 };
+    const defaultRange = { min: -5049107529, max: -2200000000 };
 
-  return (
-    <InstantSearch
-      searchClient={searchClient}
-      indexName={indexName}
-      future={{
-        preserveSharedStateOnUnmount: true,
-      }}
-      insights={true}
-    >
-      {/* Page background in parchment */}
-      <div className="bg-paper min-h-screen">
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
-          {/* Hero Section */}
-          <div className="absolute inset-0 bg-[url('/images/LeeserLetter1.jpg')] bg-contain bg-center  opacity-10 pointer-events-none"></div>
-          <div className="relative z-10 flex flex-col items-center gap-6">
-            <h1 className="text-4xl md:text-5xl  font-serif text-ink">
-              Discover the Legacy of Rev. Isaac Leeser
-            </h1>
-            <p className="max-w-2xl text-lg font-sans  text-ink-muted">
-              Search letters, sermons, and pamphlets that shaped American Jewish
-              life.
-            </p>
+    return (
+        <InstantSearch
+            searchClient={searchClient}
+            indexName={indexName}
+            future={{ preserveSharedStateOnUnmount: true }}
+            insights={true}
+        >
+            <div className="relative min-h-screen bg-paper">
+                <div className="pointer-events-none absolute inset-0 bg-[url('/images/LeeserLetter1.jpg')] bg-cover bg-center opacity-[0.06]" />
 
-            {/* Search */}
-            {/* Search row */}
-            <div className="w-full max-w-4xl">
-              {/* Search Bar */}
-              <SearchBox
-                  placeholder="Search documents..."
-                  classNames={{
-                    root: "w-full",
-                    form: "relative flex items-center w-full",
-                    input:
-                        "w-full rounded-xl border border-accent-100 bg-paper-light px-6 py-5 text-base md:text-lg font-body text-ink placeholder-ink-muted shadow-sm focus:outline-none focus:ring-2 focus:ring-accent-200",
-                    resetIcon: "hidden",
-                    submitIcon: "hidden",
-                  }}
-              />
+                <main className="relative z-10 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
+                    <section className="mx-auto max-w-5xl pt-5 pb-3">
+                        <div className="space-y-2">
+                            <h1 className="font-serif text-3xl leading-tight text-ink sm:text-4xl lg:text-5xl">
+                                Isaac Leeser Digital Repository
+                            </h1>
 
-              {/* Secondary actions row */}
-              <div className="mt-2 flex justify-between items-center text-sm font-body">
-                {/* Filter button on the left */}
-                <button
-                    type="button"
-                    onClick={() => setFiltersOpen(true)}
-                    className="inline-flex items-center gap-2 rounded-lg border border-accent-200 bg-paper-light px-3 py-1.5 text-sm text-ink hover:bg-accent-50 focus:outline-none focus:ring-2 focus:ring-accent-200 shadow-sm"
-                >
-                  <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="h-4 w-4"
-                  >
-                    <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M3 5h18M6 12h12M10 19h4"
-                    />
-                  </svg>
-                  Filters
-                </button>
-                <div className="flex items-center gap-4 ml-auto">
+                            <p className="max-w-3xl text-base leading-7 text-ink-muted sm:text-lg">
+                                Search letters, sermons, pamphlets, and related materials from Penn’s collections and from partner institutions.
+                            </p>
+                        </div>
 
-                </div>
-                {/* Map search link on the right */}
+                        <div className="mt-5 rounded-xl border border-accent-100/80 bg-paper-light/90 p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)]">
+                            <SearchBox
+                                placeholder="Search documents..."
+                                classNames={{
+                                    root: "w-full",
+                                    form: "relative flex items-center w-full",
+                                    input:
+                                        "w-full rounded-xl border border-accent-100 bg-paper-light px-5 py-4 text-base text-ink placeholder-ink-muted shadow-sm focus:outline-none focus:ring-2 focus:ring-accent-200 sm:text-lg",
+                                    resetIcon: "hidden",
+                                    submitIcon: "hidden",
+                                }}
+                            />
 
-                  <a
-                      href="/geosearch"
-                      className="text-sm text-ink-muted hover:text-accent-200 transition"
-                  >
-                      or search by map →
-                  </a>
+                            <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                                <div className="flex flex-wrap items-center gap-3">
+                                    <button
+                                        type="button"
+                                        onClick={() => setFiltersOpen(true)}
+                                        className="inline-flex items-center gap-2 rounded-lg border border-accent-200 bg-paper px-3 py-2 text-sm text-ink shadow-sm transition hover:bg-accent-50 focus:outline-none focus:ring-2 focus:ring-accent-200"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            strokeWidth={1.5}
+                                            stroke="currentColor"
+                                            className="h-4 w-4"
+                                        >
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                d="M3 5h18M6 12h12M10 19h4"
+                                            />
+                                        </svg>
+                                        Filters
+                                    </button>
 
-              </div>
+                                    <a
+                                        href="/geosearch"
+                                        className="text-sm text-ink-muted transition hover:text-accent-700"
+                                    >
+                                        Search by map →
+                                    </a>
+                                </div>
+
+                                <div className="min-w-[180px] sm:ml-auto">
+                                    <SortBy
+                                        items={[
+                                            { label: "Relevance", value: "dev_Leeser" },
+                                            { label: "Date (Newest)", value: "dev_Leeser_date_desc" },
+                                            { label: "Date (Oldest)", value: "dev_Leeser_date_asc" },
+                                        ]}
+                                        classNames={{
+                                            root: "w-full sm:w-auto",
+                                            select:
+                                                "h-10 w-full rounded-xl border border-accent-100 bg-paper px-3 text-sm text-ink shadow-sm focus:outline-none focus:ring-2 focus:ring-accent-200 sm:min-w-[170px]",
+                                        }}
+                                    />
+                                </div>
+                            </div>
+
+                            <RefinementChips
+                                start={dateRange.min}
+                                end={dateRange.max}
+                                defaultMin={defaultRange.min}
+                                defaultMax={defaultRange.max}
+                                resetDate={() => setDateRange(defaultRange)}
+                                dateRange={dateRange}
+                                defaultRange={defaultRange}
+                            />
+                        </div>
+                    </section>
+
+                    <section className="mx-auto mt-4 max-w-5xl">
+                        <div className="mb-3 flex flex-col gap-2 border-b border-accent-100/50 pb-3 sm:flex-row sm:items-center sm:justify-between">
+                            <Stats
+                                classNames={{
+                                    root: "text-sm text-ink-muted",
+                                }}
+                            />
+                            <PoweredBy
+                                classNames={{
+                                    root: "flex",
+                                    link: "flex items-center no-underline",
+                                    logo: "h-4 w-auto opacity-70 transition hover:opacity-100 dark:opacity-80",
+                                }}
+                            />
+                        </div>
+
+                        <CustomHits />
+                    </section>
+
+                    <div className="mx-auto mt-8 flex max-w-5xl justify-center">
+                        <Pagination
+                            classNames={{
+                                root: "flex font-sans",
+                                list: "flex gap-2 font-sans",
+                            }}
+                        />
+                    </div>
+                </main>
+                <FilterModal
+                    open={filtersOpen}
+                    onClose={() => setFiltersOpen(false)}
+                    dateRange={dateRange}
+                    setDateRange={setDateRange}
+                />
             </div>
-
-            {/* Hero + chips */}
-            <RefinementChips
-              start={dateRange.min}
-              end={dateRange.max}
-              defaultMin={defaultRange.min}
-              defaultMax={defaultRange.max}
-              resetDate={() => setDateRange(defaultRange)}
-              dateRange={dateRange}
-              defaultRange={defaultRange}
-            />
-          </div>
-
-
-          <CustomHits />
-
-          {/* Pagination */}
-          <div className="flex flex-col items-center gap-2">
-            <div className="flex justify-center w-full">
-              <Pagination
-                classNames={{
-                  root: "flex font-sans",
-                  list: "flex gap-2 font-sans",
-                }}
-              />
-            </div>
-            <PoweredBy
-              classNames={{
-                root: "flex justify-center md:justify-end py-4",
-                link: "flex items-center no-underline",
-                logo: "h-4 w-auto opacity-70 hover:opacity-100 transition dark:opacity-80",
-              }}
-            />
-          </div>
-        </main>
-      </div>
-
-      <FilterModal
-        open={filtersOpen}
-        onClose={() => setFiltersOpen(false)}
-        dateRange={dateRange}
-        setDateRange={setDateRange}
-      />
-    </InstantSearch>
-  );
+        </InstantSearch>
+    );
 };
-
 export default App;

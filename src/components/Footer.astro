@@ -1,41 +1,70 @@
----
+<footer class="border-t border-primary/10 bg-card/50 mt-16 py-16 shadow-[inset_0_1px_0_rgba(0,0,0,0.02)]">
+    <div class="mx-auto max-w-7xl px-4 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8">
 
----
-<footer class="border-t bg-card/70 mt-12 py-12 shadow-inner">
-
-    <div class="mx-auto max-w-7xl px-4 grid grid-cols-1 md:grid-cols-3 gap-10">
-        <div class="flex flex-col items-start gap-4">
-            <a href="https://judaicadhpenn.org/" class="mb-2">
+        <div class="md:col-span-4 flex flex-col items-start">
+            <a href="https://judaicadhpenn.org/" class="mb-5 block transition-opacity hover:opacity-80">
                 <img
                         src="https://www.kaplancollection.org/_astro/Judaica%20Digital%20Humanities%20Logo%202020_RGB.BzHwUiEX.png"
                         alt="Judaica Digital Humanities"
-                        class="h-16 w-auto object-contain"
+                        class="h-14 w-auto object-contain"
                         loading="lazy"
                 />
             </a>
-
+            {/* Added a subtle description and copyright to balance the text-heavy columns to the right */}
+            <p class="text-sm text-muted-foreground leading-relaxed max-w-xs mb-6">
+                Fostering innovative approaches to Jewish studies through digital methodologies and accessible archival collections.
+            </p>
+            <p class="text-xs text-muted-foreground/60 mt-auto">
+                &copy; 2026 Judaica Digital Humanities.
+            </p>
         </div>
-        <div>
-            <h4 class="text-md font-semibold font-serif text-primary ">Gershwind-Bennett Isaac Leeser Digital Repository</h4>
-            <p class="text-sm text-muted-foreground font-sans font-extralight max-w-xs leading-relaxed mb-4">
+
+        <div class="md:col-span-4">
+            <h4 class="text-lg font-semibold font-serif text-primary mb-3">
+                Gershwind-Bennett Isaac Leeser Digital Repository
+            </h4>
+            <p class="text-sm text-muted-foreground leading-relaxed mb-5 pr-4">
                 Digitizing and preserving the correspondence and writings of Rev. Isaac Leeser.
             </p>
-            <ul class="space-y-3">
-                <li><a href="#" class=" font-sans text-sm transition text-muted-foreground hover:underline  hover:text-accent">Browse Collection</a></li>
-                <li><a href="#" class="transition  text-sm text-muted-foreground hover:underline hover:text-accent">Map</a></li>
-                <li><a href="#" class="transition text-sm text-muted-foreground hover:underline hover:text-accent">About</a></li>
+            <ul class="space-y-2.5">
+                <li>
+                    <a href="/" class="inline-flex text-sm text-muted-foreground hover:text-primary hover:underline underline-offset-4 transition-all">
+                        Browse Collection
+                    </a>
+                </li>
+                <li>
+                    <a href="/map" class="inline-flex text-sm text-muted-foreground hover:text-primary hover:underline underline-offset-4 transition-all">
+                        Interactive Map
+                    </a>
+                </li>
+                <li>
+                    <a href="/about" class="inline-flex text-sm text-muted-foreground hover:text-primary hover:underline underline-offset-4 transition-all">
+                        About the Repository
+                    </a>
+                </li>
             </ul>
         </div>
-        <div>
-            <h4 class="text-base font-semibold font-serif text-primary mb-4">Jesselson-Kaplan Atlantic Genizah Project</h4>
-            <p class="text-sm text-muted-foreground font-sans font-extralight max-w-xs leading-relaxed mb-4">
-                A comprehensive initiative to digitize and preserve Jewish historical documents and manuscripts from across the Atlantic world.
-            </p>
-            <ul class="space-y-3">
-                <li><a href="#" class="transition text-sm text-muted-foreground hover:underline hover:text-accent">Resources</a></li>
-                <li><a href="#" class="transition text-sm text-muted-foreground hover:underline hover:text-accent">About the Genizah Project</a></li>
-            </ul>
-        </div>
-    </div>
 
+        <div class="md:col-span-4">
+            <h4 class="text-lg font-semibold font-serif text-primary mb-3">
+                Jesselson-Kaplan Atlantic Genizah Project
+            </h4>
+            <p class="text-sm text-muted-foreground leading-relaxed mb-5 pr-4">
+                A comprehensive initiative to digitize and preserve Jewish historical documents from across the Atlantic world.
+            </p>
+            <ul class="space-y-2.5">
+                <li>
+                    <a href="#" class="inline-flex text-sm text-muted-foreground hover:text-primary hover:underline underline-offset-4 transition-all">
+                        Project Resources
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="inline-flex text-sm text-muted-foreground hover:text-primary hover:underline underline-offset-4 transition-all">
+                        About the Genizah Project
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 </footer>
