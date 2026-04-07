@@ -1,0 +1,30 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://127.0.0.1:8080/index.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "My IIIF Collection"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://127.0.0.1:8080/32108050889719/31c3f743f833ab7c3db89f60bb0b1513/full/247,300/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 300,
+            "width": 247
+        }
+    ],
+    "items": [
+        {
+            "id": "http://127.0.0.1:8080/32108050889719/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "Letter from Mordecai Sheftall to Rev. Isaac Leeser"
+                ]
+            }
+        }
+    ]
+}
