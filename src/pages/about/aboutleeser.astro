@@ -1,7 +1,7 @@
 ---
 // about.astro
-import AboutLeeser, { getHeadings } from './aboutleeser.md';
-import TextLayout from "../layouts/TextLayout.astro";
+import AboutLeeser, { getHeadings } from '../aboutleeser.md';
+import TextLayout from "../../layouts/TextLayout.astro";
 
 const headings = await getHeadings();
 const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
