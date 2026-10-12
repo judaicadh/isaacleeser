@@ -62,7 +62,7 @@ const Clover: React.FC<CloverProps> = ({ manifest, manifestUrls }) => {
     if (urls.length === 0) return null;
 
     return (
-        <div className="space-y-4 h-full">
+        <div className="flex h-full flex-col gap-4">
             {urls.length > 1 && (
                 <select
                     value={selectedManifest}
@@ -75,7 +75,7 @@ const Clover: React.FC<CloverProps> = ({ manifest, manifestUrls }) => {
                     ))}
                 </select>
             )}
-            <div className="h-full w-full">
+            <div className="leeser-clover min-h-0 w-full flex-1">
                 <Viewer
                     iiifContent={selectedManifest}
                     options={viewerOptions}
